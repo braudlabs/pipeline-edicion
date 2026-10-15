@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Styleframe</title>
+<style>
+  /* Tres direcciones para el marco del vídeo. La interfaz dentro es siempre la real (snapshot de Studio). */
+  :root { --w: 1920px; --h: 1080px; }
+  html, body { margin: 0; width: var(--w); height: var(--h); overflow: hidden; }
+  body { font-family: "SF Pro Display", -apple-system, system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  .stage { position: absolute; inset: 0; overflow: hidden; background: var(--bg); }
+  .glow { position: absolute; border-radius: 50%; filter: blur(120px); pointer-events: none; }
+  .grain { position: absolute; inset: -50%; pointer-events: none; opacity: var(--grain); mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1.2 0'/></filter><rect width='300' height='300' filter='url(%23n)'/></svg>"); }
+  .scene3d { position: absolute; inset: 0; perspective: 2600px; perspective-origin: 50% 40%; }
+  .window { position: absolute; width: 1512px; height: 900px; border-radius: 26px; overflow: hidden; transform-origin: 50% 50%;
+    box-shadow: var(--shadow); outline: 1px solid var(--edge); background: var(--paper); }
+  .window iframe { width: 1512px; height: 900px; border: 0; display: block; }
+  .cursor { position: absolute; width: 46px; height: 46px; filter: drop-shadow(0 6px 10px rgba(0,0,0,.28)); }
+  .ring { position: absolute; width: 80px; height: 80px; border-radius: 50%; border: 3px solid var(--accent); opacity: .7; }
+  .card { position: absolute; border-radius: 30px; overflow: hidden; box-shadow: var(--shadow); background: #000; }
+  .card img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .stat { position: absolute; color: var(--ink); }
+  .stat .num { font-size: 230px; font-weight: 700; letter-spacing: -0.045em; line-height: .9; }
+  .stat .lab { font-size: 34px; font-weight: 500; color: var(--muted); margin-top: 26px; letter-spacing: -0.01em; }
+  .stat .ref { font-size: 28px; font-weight: 500; color: var(--muted); margin-top: 10px; opacity: .8; }
+  .bar { height: 10px; border-radius: 6px; margin-top: 30px; background: var(--track); width: 640px; position: relative; overflow: hidden; }
+  .bar i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 6px; }
+  .tag { position: absolute; font-size: 22px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+</style>
+</head>
+<body>
+<div class="stage" id="stage"></div>
+<script>
+const q = new URLSearchParams(location.search), D = q.get('d') || 'A', F = q.get('f') || '1';
+const themes = {
+  A: { bg: 'linear-gradient(160deg,#f4f6fa 0%,#e9eef6 55%,#e3e9f3 100%)', paper: '#f2f5f8', ink: '#1b2635', muted: '#6c7a8c', accent: '#367dff',
+       edge: 'rgba(255,255,255,.9)', shadow: '0 70px 140px rgba(35,61,97,.20), 0 18px 40px rgba(35,61,97,.10)', grain: .07, track: 'rgba(36,52,72,.10)', ui: 'light',
+       glows: [['#7fa8ff', .55, 900, -150, -250], ['#b9ccff', .6, 1000, 1150, 520]] },
+  B: { bg: 'radial-gradient(1400px 900px at 15% 110%,#16244d 0%,#0b0c10 55%,#08090b 100%)', paper: '#111214', ink: '#f2f3f5', muted: '#8a909b', accent: '#5b8cff',
+       edge: 'rgba(255,255,255,.10)', shadow: '0 80px 160px rgba(0,0,0,.65), 0 0 0 1px rgba(255,255,255,.04)', grain: .10, track: 'rgba(255,255,255,.08)', ui: 'dark',
+       glows: [['#2b4dff', .35, 1100, -300, 500], ['#5b2dbf', .18, 800, 1300, -200]] },
+  D: { bg: 'radial-gradient(1400px 900px at 15% 110%,#16244d 0%,#0b0c10 55%,#08090b 100%)', paper: '#f2f5f8', ink: '#f2f3f5', muted: '#8a909b', accent: '#5b8cff',
+       edge: 'rgba(255,255,255,.18)', shadow: '0 80px 160px rgba(0,0,0,.7), 0 20px 50px rgba(0,0,0,.4)', grain: .10, track: 'rgba(255,255,255,.08)', ui: 'light',
+       glows: [['#2b4dff', .35, 1100, -300, 500], ['#5b2dbf', .18, 800, 1300, -200]] },
+  C: { bg: 'radial-gradient(1600px 1000px at 70% 20%,#2a49e0 0%,#1a33bf 45%,#0f1f84 100%)', paper: '#f2f5f8', ink: '#f6eedc', muted: 'rgba(246,238,220,.72)', accent: '#b07cff',
+       edge: 'rgba(255,255,255,.35)', shadow: '0 80px 160px rgba(5,10,60,.55), 0 20px 50px rgba(5,10,60,.35)', grain: .16, track: 'rgba(246,238,220,.18)', ui: 'light',
+       glows: [['#6f8bff', .35, 900, 1100, -300], ['#7b3fd1', .25, 900, -200, 600]] },
+};
+const t = themes[D], st = document.getElementById('stage');
+for (const [k, v] of Object.entries(t)) if (typeof v !== 'object') st.style.setProperty('--' + k, v);
+for (const [c, o, s, x, y] of t.glows) st.insertAdjacentHTML('beforeend', `<div class="glow" style="background:${c};opacity:${o};width:${s}px;height:${s}px;left:${x}px;top:${y}px"></div>`);
+const scene = document.createElement('div'); scene.className = 'scene3d'; st.append(scene);
+
+function windowOf(snap, css) {
+  const w = document.createElement('div'); w.className = 'window'; w.style.cssText = css;
+  const f = document.createElement('iframe'); f.src = '/_snaps/' + snap + '.html';
+  f.onload = () => { const d = f.contentDocument.documentElement; d.dataset.theme = t.ui; d.dataset.appearance = t.ui; };
+  w.append(f); scene.append(w); return w;
+}
+const cursorSvg = `<svg class="cursor" viewBox="0 0 28 28"><path d="M6 3 L6 22 L11 17.5 L14.6 25 L18 23.4 L14.5 16 L21 16 Z" fill="#fff" stroke="#111" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
+
+if (F === '1') {
+  // Escenas: la pieza produciéndose. Ventana en plano oblicuo, cámara acercándose al clip y a «Preparar esta escena».
+  windowOf('escenas', 'left:250px;top:110px;transform:translateZ(-160px) rotateX(8deg) rotateY(-15deg) rotateZ(1.2deg) scale(1.16);');
+  scene.insertAdjacentHTML('beforeend', `<div style="position:absolute;left:1395px;top:560px">${cursorSvg}</div><div class="ring" style="left:1363px;top:532px"></div>`);
+} else {
+  // Ruptura del bloque 10: los clips reales salen del panel y el dato real de hook rate.
+  const cards = [['V09a', 940, 110, 390, 693, -8, 0], ['V12a', 1290, 240, 340, 604, 6, -160], ['V06d', 1580, 80, 300, 534, 12, -320]];
+  for (const [id, x, y, w, h, ry, z] of cards)
+    scene.insertAdjacentHTML('beforeend', `<div class="card" style="left:${x}px;top:${y}px;width:${w}px;height:${h}px;transform:translateZ(${z}px) rotateY(${ry}deg)"><img src="/media/${id}-poster"></div>`);
+  st.insertAdjacentHTML('beforeend', `<div class="stat" style="left:120px;top:300px"><div class="num">50,7 %</div>
+    <div class="bar"><i style="width:50.7%;background:var(--accent)"></i></div>
+    <div class="bar" style="margin-top:14px"><i style="left:25%;width:10%;background:var(--muted);opacity:.6"></i></div>
+    <div class="lab">hook rate medio · 4 M de impresiones</div><div class="ref">Lo habitual en frío: 25–35 %</div></div>`);
+}
+const g = document.createElement('div'); g.className = 'grain'; st.append(g);
+</script>
+</body>
+</html>

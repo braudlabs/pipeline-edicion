@@ -1,0 +1,12 @@
+# lafabrica-v1 f1050 «operación»  tinta real: 705x166 px
+Helvetica Bold                   IoU 0.947  cuerpo  176px  interletrado   -85 milésimas (-14.9px)
+Arial Bold                       IoU 0.923  cuerpo  175px  interletrado   -81 milésimas (-14.1px)
+SF Pro (sistema) Semibold        IoU 0.803  cuerpo  179px  interletrado   -50 milésimas (-9.0px)
+SF Pro Display Bold              IoU 0.792  cuerpo  173px  interletrado   -51 milésimas (-8.8px)
+SF Pro (sistema) Bold            IoU 0.788  cuerpo  177px  interletrado   -63 milésimas (-11.1px)
+Arial Black                      IoU 0.778  cuerpo  173px  interletrado  -162 milésimas (-28.0px)
+Helvetica Neue Medium            IoU 0.764  cuerpo  179px  interletrado   -75 milésimas (-13.5px)
+SF Pro (sistema) Heavy           IoU 0.755  cuerpo  172px  interletrado   -76 milésimas (-13.1px)
+Helvetica Neue Bold              IoU 0.685  cuerpo  175px  interletrado   -84 milésimas (-14.7px)
+Helvetica Neue Condensed Bold    IoU 0.627  cuerpo  188px  interletrado   -15 milésimas (-2.8px)
+lámina: estilo-editor/analysis/tmp/lafabrica-v1-B/fontfit-operacion.jpg (rojo = real, verde = candidata, amarillo = coinciden)

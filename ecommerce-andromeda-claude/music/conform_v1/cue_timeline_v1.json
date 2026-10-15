@@ -1,0 +1,299 @@
+{
+  "target_seconds": 85.4,
+  "sample_rate": 48000,
+  "target_samples": 4099200,
+  "chunks": [
+    {
+      "name": "Cold Open",
+      "start_s": 0.0,
+      "end_s": 5.417,
+      "duration_ms": 5417,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Endless Waiting",
+      "start_s": 5.417,
+      "end_s": 14.583,
+      "duration_ms": 9166,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Absurd Ticket",
+      "start_s": 14.583,
+      "end_s": 18.75,
+      "duration_ms": 4167,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Old Ads Fail",
+      "start_s": 18.75,
+      "end_s": 23.0,
+      "duration_ms": 4250,
+      "context_adherence": "medium"
+    },
+    {
+      "name": "Again and Polite Interlude",
+      "start_s": 23.0,
+      "end_s": 29.05,
+      "duration_ms": 6050,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Hoodie Reveal",
+      "start_s": 29.05,
+      "end_s": 32.583,
+      "duration_ms": 3533,
+      "context_adherence": "medium"
+    },
+    {
+      "name": "The Machine Works",
+      "start_s": 32.583,
+      "end_s": 42.583,
+      "duration_ms": 10000,
+      "context_adherence": "high"
+    },
+    {
+      "name": "More Variations",
+      "start_s": 42.583,
+      "end_s": 50.4,
+      "duration_ms": 7817,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Yes Then Bad Ideas",
+      "start_s": 50.4,
+      "end_s": 55.833,
+      "duration_ms": 5433,
+      "context_adherence": "medium"
+    },
+    {
+      "name": "Competent Humans",
+      "start_s": 55.833,
+      "end_s": 61.583,
+      "duration_ms": 5750,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Human Judgment",
+      "start_s": 61.583,
+      "end_s": 66.042,
+      "duration_ms": 4459,
+      "context_adherence": "medium"
+    },
+    {
+      "name": "Ads Everywhere",
+      "start_s": 66.042,
+      "end_s": 70.042,
+      "duration_ms": 4000,
+      "context_adherence": "medium"
+    },
+    {
+      "name": "The Reveal",
+      "start_s": 70.042,
+      "end_s": 74.417,
+      "duration_ms": 4375,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Call Invitation",
+      "start_s": 74.417,
+      "end_s": 78.32,
+      "duration_ms": 3903,
+      "context_adherence": "high"
+    },
+    {
+      "name": "Honest Fit and Back to Work",
+      "start_s": 78.32,
+      "end_s": 85.4,
+      "duration_ms": 7080,
+      "context_adherence": "medium"
+    }
+  ],
+  "cues": [
+    {
+      "start": 0.0,
+      "end": 1.97,
+      "name": "explosive opening",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 1.97,
+      "end": 4.85,
+      "name": "whisper (near silence)",
+      "gain_db": -24,
+      "expect": "post"
+    },
+    {
+      "start": 4.85,
+      "end": 5.417,
+      "name": "frightened reaction (one low note)",
+      "gain_db": -10,
+      "expect": "post"
+    },
+    {
+      "start": 5.417,
+      "end": 14.583,
+      "name": "endless waiting (groove returns)",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 14.583,
+      "end": 18.75,
+      "name": "absurd queue ticket",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 18.75,
+      "end": 23.0,
+      "name": "old ads fail (progressive removal)",
+      "gain_db": [
+        0,
+        -5
+      ],
+      "expect": "decreasing"
+    },
+    {
+      "start": 23.0,
+      "end": 25.417,
+      "name": "again?! (motif restarts)",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 25.417,
+      "end": 29.05,
+      "name": "subject change (polite minimal)",
+      "gain_db": -3,
+      "expect": "reduced"
+    },
+    {
+      "start": 29.05,
+      "end": 30.92,
+      "name": "hoodie reveal (hard dropout)",
+      "gain_db": -30,
+      "expect": "post",
+      "keep": {
+        "start": 29.6,
+        "end": 29.95,
+        "gain_db": -6,
+        "why": "tiny low comment ~29.700"
+      }
+    },
+    {
+      "start": 30.92,
+      "end": 32.583,
+      "name": "the idea (pickup)",
+      "gain_db": 0,
+      "expect": "present"
+    },
+    {
+      "start": 32.583,
+      "end": 42.583,
+      "name": "the machine works (full re-entry)",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 42.583,
+      "end": 50.4,
+      "name": "more ad variations",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 50.4,
+      "end": 51.542,
+      "name": "owner says yes (resolution)",
+      "gain_db": -2,
+      "expect": "present"
+    },
+    {
+      "start": 51.542,
+      "end": 55.833,
+      "name": "bad ideas warning (stripped)",
+      "gain_db": -10,
+      "expect": "sparse"
+    },
+    {
+      "start": 55.833,
+      "end": 61.583,
+      "name": "competent humans (warm funk)",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 61.583,
+      "end": 66.042,
+      "name": "human creative judgment (reduced)",
+      "gain_db": -8,
+      "expect": "reduced"
+    },
+    {
+      "start": 66.042,
+      "end": 70.042,
+      "name": "ads everywhere (4 s burst)",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 70.042,
+      "end": 74.417,
+      "name": "the reveal (hesitation + riff)",
+      "gain_db": 0,
+      "expect": "present"
+    },
+    {
+      "start": 74.417,
+      "end": 78.32,
+      "name": "call invitation",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 78.32,
+      "end": 82.958,
+      "name": "honest fit / no-fit (quiet)",
+      "gain_db": -6,
+      "expect": "reduced"
+    },
+    {
+      "start": 82.958,
+      "end": 84.8,
+      "name": "back to work (riff returns)",
+      "gain_db": 0,
+      "expect": "full"
+    },
+    {
+      "start": 84.8,
+      "end": 85.4,
+      "name": "final low button + decay",
+      "gain_db": 0,
+      "expect": "decay"
+    }
+  ],
+  "key_points": [
+    1.97,
+    4.85,
+    5.417,
+    18.75,
+    23.0,
+    29.05,
+    29.7,
+    30.92,
+    32.583,
+    50.4,
+    51.542,
+    61.583,
+    66.042,
+    70.042,
+    78.32,
+    82.958,
+    84.8,
+    85.4
+  ],
+  "ramp_seconds": 0.008,
+  "note": "Tiempos absolutos desde el inicio del vídeo. gain_db se aplica a la mezcla completa: no separa instrumentos."
+}

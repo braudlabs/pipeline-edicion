@@ -1,0 +1,18 @@
+{
+ "slug": "v1-pagado",
+ "original": "BRAUDLABS - V1 -  NI ME HAN PAGADO.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 24.0,
+ "fps_num": 24,
+ "fps_den": 1,
+ "frames": 1898,
+ "duration": 79.083333,
+ "video_codec": "h264",
+ "video_bitrate": 9838655,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 44100,
+ "audio_channels": 2,
+ "audio_bitrate": 125550
+}

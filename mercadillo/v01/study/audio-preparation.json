@@ -1,0 +1,112 @@
+{
+  "nativeGains": [
+    {
+      "clip": 1,
+      "gainDb": 0,
+      "samples": 298000
+    },
+    {
+      "clip": 2,
+      "gainDb": 0,
+      "samples": 228000
+    },
+    {
+      "clip": 3,
+      "gainDb": 0,
+      "samples": 104000
+    },
+    {
+      "clip": 4,
+      "gainDb": -3,
+      "samples": 264000
+    },
+    {
+      "clip": 5,
+      "gainDb": -6,
+      "samples": 166000
+    },
+    {
+      "clip": 6,
+      "gainDb": -6,
+      "samples": 228000
+    },
+    {
+      "clip": 7,
+      "gainDb": -6,
+      "samples": 276000
+    },
+    {
+      "clip": 8,
+      "gainDb": -6,
+      "samples": 150000
+    },
+    {
+      "clip": 9,
+      "gainDb": -6,
+      "samples": 366000
+    },
+    {
+      "clip": 10,
+      "gainDb": -6,
+      "samples": 218000
+    },
+    {
+      "clip": 11,
+      "gainDb": 0,
+      "samples": 222000
+    },
+    {
+      "clip": 12,
+      "gainDb": 0,
+      "samples": 186000
+    },
+    {
+      "clip": 13,
+      "gainDb": -6,
+      "samples": 238000
+    },
+    {
+      "clip": 14,
+      "gainDb": -6,
+      "samples": 36000
+    },
+    {
+      "clip": 15,
+      "gainDb": -6,
+      "samples": 144000
+    },
+    {
+      "clip": 16,
+      "gainDb": -6,
+      "samples": 128000
+    },
+    {
+      "clip": 17,
+      "gainDb": -6,
+      "samples": 200000
+    },
+    {
+      "clip": 18,
+      "gainDb": -6,
+      "samples": 280000
+    },
+    {
+      "clip": 19,
+      "gainDb": -6,
+      "samples": 134000
+    },
+    {
+      "clip": 20,
+      "gainDb": -6,
+      "samples": 376000
+    }
+  ],
+  "baseGain": 0.969140661685983,
+  "basePeakBeforeGain": 0.8151551485061646,
+  "samples": 4242000,
+  "duration": 88.375,
+  "music": "Funky Martian \u2014 Michael Ramir C., Mixkit 1029",
+  "musicProcessing": "45Hz HP, 2.3kHz -3dB carve, 13kHz LP; no speed change",
+  "sfx": "Three original procedural air/percussion transients; source foley retained",
+  "independentListening": false
+}

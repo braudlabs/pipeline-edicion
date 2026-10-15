@@ -1,0 +1,237 @@
+{
+  "version": 1,
+  "id": "ejemplo-tecnico-sin-render",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": {
+      "num": 60,
+      "den": 1
+    }
+  },
+  "family": "braud",
+  "words": [
+    {
+      "id": "precio-0",
+      "text": "No",
+      "start": 0.0,
+      "end": 0.57
+    },
+    {
+      "id": "precio-1",
+      "text": "necesito",
+      "start": 0.6,
+      "end": 1.17
+    },
+    {
+      "id": "precio-2",
+      "text": "300€",
+      "start": 1.2,
+      "end": 1.77
+    },
+    {
+      "id": "precio-3",
+      "text": "por",
+      "start": 1.8,
+      "end": 2.37
+    },
+    {
+      "id": "precio-4",
+      "text": "pieza.",
+      "start": 2.4,
+      "end": 2.97
+    },
+    {
+      "id": "cantidad-0",
+      "text": "Pruebo",
+      "start": 3.2,
+      "end": 4.17
+    },
+    {
+      "id": "cantidad-1",
+      "text": "30",
+      "start": 4.2,
+      "end": 5.17
+    },
+    {
+      "id": "cantidad-2",
+      "text": "variantes.",
+      "start": 5.2,
+      "end": 6.17
+    },
+    {
+      "id": "cta-0",
+      "text": "Reserva",
+      "start": 6.5,
+      "end": 7.003
+    },
+    {
+      "id": "cta-1",
+      "text": "una",
+      "start": 7.033,
+      "end": 7.537
+    },
+    {
+      "id": "cta-2",
+      "text": "llamada.",
+      "start": 7.567,
+      "end": 8.07
+    },
+    {
+      "id": "comparacion-0",
+      "text": "Tiempo",
+      "start": 8.5,
+      "end": 9.47
+    },
+    {
+      "id": "comparacion-1",
+      "text": "y",
+      "start": 9.5,
+      "end": 10.47
+    },
+    {
+      "id": "comparacion-2",
+      "text": "dinero.",
+      "start": 10.5,
+      "end": 11.47
+    },
+    {
+      "id": "proceso-0",
+      "text": "Entrenamos",
+      "start": 11.8,
+      "end": 12.895
+    },
+    {
+      "id": "proceso-1",
+      "text": "instalamos",
+      "start": 12.925,
+      "end": 14.02
+    },
+    {
+      "id": "proceso-2",
+      "text": "y",
+      "start": 14.05,
+      "end": 15.145
+    },
+    {
+      "id": "proceso-3",
+      "text": "producimos.",
+      "start": 15.175,
+      "end": 16.27
+    },
+    {
+      "id": "cierre-0",
+      "text": "El",
+      "start": 16.5,
+      "end": 16.97
+    },
+    {
+      "id": "cierre-1",
+      "text": "sistema",
+      "start": 17.0,
+      "end": 17.47
+    },
+    {
+      "id": "cierre-2",
+      "text": "es",
+      "start": 17.5,
+      "end": 17.97
+    },
+    {
+      "id": "cierre-3",
+      "text": "tuyo.",
+      "start": 18.0,
+      "end": 18.47
+    }
+  ],
+  "clauses": [
+    {
+      "id": "precio",
+      "wordIds": [
+        "precio-0",
+        "precio-1",
+        "precio-2",
+        "precio-3",
+        "precio-4"
+      ],
+      "recipe": "price",
+      "intent": "mechanism",
+      "data": {
+        "amount": "300€",
+        "prefix": "No necesito",
+        "label": "por pieza"
+      }
+    },
+    {
+      "id": "cantidad",
+      "wordIds": [
+        "cantidad-0",
+        "cantidad-1",
+        "cantidad-2"
+      ],
+      "recipe": "count",
+      "intent": "mechanism",
+      "data": {
+        "value": 30,
+        "prefix": "Pruebo",
+        "label": "variantes"
+      }
+    },
+    {
+      "id": "cta",
+      "wordIds": [
+        "cta-0",
+        "cta-1",
+        "cta-2"
+      ],
+      "recipe": "rail",
+      "intent": "cta"
+    },
+    {
+      "id": "comparacion",
+      "wordIds": [
+        "comparacion-0",
+        "comparacion-1",
+        "comparacion-2"
+      ],
+      "recipe": "comparison",
+      "intent": "mechanism",
+      "data": {
+        "comparison": [
+          "Tiempo",
+          "dinero"
+        ]
+      }
+    },
+    {
+      "id": "proceso",
+      "wordIds": [
+        "proceso-0",
+        "proceso-1",
+        "proceso-2",
+        "proceso-3"
+      ],
+      "recipe": "steps",
+      "intent": "mechanism",
+      "data": {
+        "steps": [
+          "Entrenamos",
+          "Instalamos",
+          "Producimos"
+        ]
+      }
+    },
+    {
+      "id": "cierre",
+      "wordIds": [
+        "cierre-0",
+        "cierre-1",
+        "cierre-2",
+        "cierre-3"
+      ],
+      "recipe": "accumulate",
+      "intent": "hook"
+    }
+  ],
+  "assets": []
+}

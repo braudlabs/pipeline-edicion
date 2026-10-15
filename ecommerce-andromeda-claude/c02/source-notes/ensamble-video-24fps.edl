@@ -1,0 +1,42 @@
+TITLE: ECOMMERCE_ANDROMEDA_ASSEMBLY_WIP
+FCM: NON-DROP FRAME
+
+001  AX       V     C        00:00:00:00 00:00:05:10 00:00:00:00 00:00:05:10
+* FROM CLIP NAME: 00_HOOK_visual_aprobado_audio_nativo_no_final.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4
+* STATUS: VISUAL_APROBADO_AUDIO_ORIGINAL_EN_PREVIEW_QC_FINAL_PENDIENTE
+
+002  AX       V     C        00:00:00:00 00:00:09:04 00:00:05:10 00:00:14:14
+* FROM CLIP NAME: 01_ventanilla_espera.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/01_ventanilla_espera.mp4
+* STATUS: UTILIZABLE_BASE_DEL_MONTAJE
+
+003  AX       V     C        00:00:00:12 00:00:04:16 00:00:14:14 00:00:18:18
+* FROM CLIP NAME: 02_ticket_angulo.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/02_ticket_angulo.mp4
+* STATUS: UTILIZABLE_BASE_DEL_MONTAJE
+
+004  AX       V     C        00:00:00:00 00:00:04:06 00:00:18:18 00:00:23:00
+* FROM CLIP NAME: 03_ads_apagados.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03_ads_apagados.mp4
+* STATUS: UTILIZABLE_BASE_DEL_MONTAJE
+
+005  AX       V     C        00:00:00:00 00:00:02:10 00:00:23:00 00:00:25:10
+* FROM CLIP NAME: 03b_repetir.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03b_repetir.mp4
+* STATUS: UTILIZABLE_BASE_DEL_MONTAJE
+
+006  AX       V     C        00:00:00:00 00:00:07:04 00:00:25:10 00:00:32:14
+* FROM CLIP NAME: 04_sudadera.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/04_sudadera.mp4
+* STATUS: UTILIZABLE_BASE_DEL_MONTAJE
+
+007  AX       V     C        00:00:00:00 00:00:02:10 00:00:32:14 00:00:35:00
+* FROM CLIP NAME: 05_presentacion.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/05_presentacion.mp4
+* STATUS: UTILIZABLE_BASE_DEL_MONTAJE
+
+008  AX       V     C        00:00:00:00 00:00:03:08 00:00:35:00 00:00:38:08
+* FROM CLIP NAME: 06_CINCO_ADS_PROVISIONAL_SUSTITUIR.mp4
+* SOURCE FILE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/06_CINCO_ADS_PROVISIONAL_SUSTITUIR.mp4
+* STATUS: PROVISIONAL_SUSTITUIR_NO_FINAL

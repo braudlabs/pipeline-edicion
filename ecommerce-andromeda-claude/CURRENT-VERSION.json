@@ -1,0 +1,161 @@
+{
+  "project": "ecommerce-andromeda-claude",
+  "author": "Claude (sesión paralela a la serie de Codex en ecommerce-andromeda/)",
+  "version": "C06",
+  "status": "preview_24fps_entregado_pendiente_de_veredicto",
+  "composition": "c06/src/index.tsx#AndromedaC06 (24 fps) · -144 · -60 · C06Block (estudio A/B)",
+  "preview": "c06/Andromeda-C06-00-85s-24fps-1080.mp4",
+  "fps": 24,
+  "frames": 2050,
+  "duration": 85.41666666666667,
+  "source": "ENTREGA_EDITOR 2026-10-15 (MASTER_COMPLETO_24FPS, 17 unidades)",
+  "previousVersions": [
+    {
+      "version": "C05",
+      "path": "c05/",
+      "status": "feedback de C04 aplicado; entregada a 24 y 144 fps (verify TOTAL OK); Ale no corrigió nada y pidió «más efectos aún, un upgrade infernal»",
+      "deliverables": {
+        "24fps": "c05/Andromeda-C05-00-85s-24fps-1080.mp4",
+        "144fps": "c05/Andromeda-C05-00-85s-144fps-1080.mp4",
+        "144fps_light": "c05/Andromeda-C05-144fps-1080-ligero.mp4"
+      }
+    },
+    {
+      "version": "C04",
+      "path": "c04/",
+      "status": "«overall no está mal»; rechazados: paleta marino, tarjeta cutre, eco, rótulos pegados al lateral, música que frena"
+    },
+    {
+      "version": "C03",
+      "path": "c03/",
+      "status": "0–38,3 s; «tu problema» ya no reaparece; entregas a 144 y 60 fps"
+    },
+    {
+      "version": "C02",
+      "path": "c02/",
+      "status": "subtítulos grandes centrados; fallo: «tu problema» reaparecía al volver del gag"
+    },
+    {
+      "version": "C01",
+      "path": "c01/",
+      "status": "hook, cartel de persiana y OTRA PUTA VEZ aprobados; resto rechazado (pequeño, a los lados, poco estético)"
+    }
+  ],
+  "userFeedback": [
+    {
+      "quote": "quiero que los subtítulos sean avanzados dopamínicos, usando bastantes recursos, estético, acorde al vídeo, mantén el audio nativo de los clips (incluso el del hook)",
+      "scope": "encargo"
+    },
+    {
+      "quote": "este inicio de subtitulación me molaba mucho",
+      "scope": "hook, variante A del estudio",
+      "applied": true
+    },
+    {
+      "quote": "el hook es la polla, lo de las imagenes también, el resto de subtitulos, la fuente es muy pequeña, demasiado a los lados (se cortará en meta) y no es estética",
+      "scope": "C01 completa",
+      "applied": "C02"
+    },
+    {
+      "quote": "hay un frame que se sigue viendo lo de problema … me lo pasas en 144 Hz y en 1080",
+      "scope": "C02, vuelta a «la solución» + formato de entrega",
+      "applied": "C03"
+    },
+    {
+      "quote": "ya está todo ready para terminar el vídeo",
+      "scope": "vídeo completo 0–85,4 s con música y subtítulos",
+      "applied": "C04"
+    },
+    {
+      "quote": "la paleta de colores… no me gusta; nuevo ángulo… cutre; el doble mierda… cutre; demasiado pegado al lateral (Meta recorta los bordes); la música… frena mucho a la mitad; más salsa (luces, objeto que refleja)",
+      "scope": "C04 completa",
+      "applied": "C05"
+    },
+    {
+      "quote": "Esta versión me la sacas en 144 fps y 1080, luego, haz otra versión con más efectos aún, haz un upgrade infernal",
+      "scope": "C05 completa: entrega a 144 fps + nueva versión",
+      "applied": "C05 a 144 fps; C06"
+    }
+  ],
+  "approvedLocally": [
+    "hook 0–130",
+    "cartel impreso en la persiana 190–237",
+    "remate condensado OTRA PUTA VEZ 578–610"
+  ],
+  "appliedFromCodexThread": [
+    "gag de la sudadera en blanco y negro sin subtítulos (f691–739)",
+    "relleno detrás + contorno delante dosificado",
+    "subtítulos centrados para Meta",
+    "nada de motion en la pantalla de la maquinita"
+  ],
+  "audio": {
+    "narrator": "original desde 0, 85,39425 s, sin retiming",
+    "hook": "audio nativo del clip (voz generada sincronizada + ambiente)",
+    "native": "17 unidades en su IN exacto (0,65–0,8)",
+    "music": "ElevenLabs toma 3 (continua, aprobada tras «frena mucho») montada en music/ con ducking bajo el narrador; pendiente de escucha"
+  },
+  "provisional": [
+    {
+      "scene": "06_cinco_ads",
+      "frames": [
+        840,
+        920
+      ],
+      "note": "UI con fila 5 duplicada (observación del director)"
+    },
+    {
+      "scene": "07/08",
+      "frames": [
+        920,
+        1237
+      ],
+      "note": "UI con textos imperfectos/fila duplicada"
+    },
+    {
+      "scene": "12_habitacion",
+      "frames": [
+        1585,
+        1681
+      ],
+      "note": "geometría de proyección"
+    }
+  ],
+  "complete": false,
+  "designFps": 24,
+  "deliverables": {
+    "24fps": {
+      "master": "c06/Andromeda-C06-00-85s-24fps-1080.mp4",
+      "frames": 2050,
+      "status": "entregado 15/10 15:14; verify TOTAL OK",
+      "light": "c06/Andromeda-C06-24fps-1080-ligero.mp4",
+      "loudness": "-17,6 LUFS, LRA 3,5, pico real -2,2 dBTP"
+    },
+    "144fps": {
+      "status": "pendiente (se renderiza cuando Ale lo pida o dé el visto bueno a C06)"
+    },
+    "60fps": {
+      "status": "pendiente"
+    }
+  },
+  "music": {
+    "path": "music/",
+    "master": "music/final_soundtrack_85_4s.wav",
+    "take": "original_music_take3.mp3",
+    "edits": "music/edits_take3.json",
+    "rejected": [
+      "take1/ (silencio inicial y paradas)",
+      "take2/ (frena: paradas por compás)"
+    ],
+    "status": "conformada; pendiente de escucha"
+  },
+  "qa": {
+    "margins": "c06/study/audit-margins.json: 0 fotogramas fuera de x 100–980",
+    "verify": "c06/QA.json: TOTAL OK (51 comprobaciones); c06/study/verify-24.log",
+    "design": "c06/CAMBIOS.md (cámara y efectos por fotograma; estudio A/B del bloque de la máquina)"
+  },
+  "c06": {
+    "camera": "c06/src/fx/plan.ts + camera.ts + CamGroup.tsx",
+    "effects": "c06/src/fx/Moments.tsx + Fx2.tsx",
+    "protagonistBlock": "A (aterrizaje) elegida frente a B (apagón y haz cenital)"
+  }
+}

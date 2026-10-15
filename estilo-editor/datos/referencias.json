@@ -1,0 +1,126 @@
+{
+  "scope": "Input files used in study; verify digest before reproducing measurements",
+  "files": [
+    {
+      "slug": "landing",
+      "original_filename": "BRAUDLABS - LANDING.mp4",
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "bytes": 190742003,
+      "frames": 5680,
+      "fps_num": 60,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/landing.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - LANDING.mp4"
+    },
+    {
+      "slug": "v1-pagado",
+      "original_filename": "BRAUDLABS - V1 -  NI ME HAN PAGADO.mp4",
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "bytes": 98702005,
+      "frames": 1898,
+      "fps_num": 24,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v1-pagado.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V1 -  NI ME HAN PAGADO.mp4"
+    },
+    {
+      "slug": "v2-churros",
+      "original_filename": "BRAUDLABS - V2 - CHURROS COCINA.mp4",
+      "sha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+      "bytes": 84390680,
+      "frames": 1699,
+      "fps_num": 24,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v2-churros.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V2 - CHURROS COCINA.mp4"
+    },
+    {
+      "slug": "v3-ia-cara",
+      "original_filename": "BRAUDLABS - V3 - LA IA TE SALE CARA.mp4",
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "bytes": 74685491,
+      "frames": 1542,
+      "fps_num": 24,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v3-ia-cara.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V3 - LA IA TE SALE CARA.mp4"
+    },
+    {
+      "slug": "v5-maquina",
+      "original_filename": "BRAUDLABS - V5 - LA MAQUINA - REV.mp4",
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "bytes": 103786583,
+      "frames": 2291,
+      "fps_num": 30000,
+      "fps_den": 1001,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v5-maquina.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V5 - LA MAQUINA - REV.mp4"
+    },
+    {
+      "slug": "v6-ads90",
+      "original_filename": "BRAUDLABS - V6 - ADS 90S.mp4",
+      "sha256": "35009cc9171e641cd6e332bbba86d759af5c90477307b79820af895df176a263",
+      "bytes": 109998502,
+      "frames": 2650,
+      "fps_num": 60,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v6-ads90.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V6 - ADS 90S.mp4"
+    },
+    {
+      "slug": "v6-ads90-rev",
+      "original_filename": "BRAUDLABS - V6 - ADS 90s - REV.mp4",
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "bytes": 110033141,
+      "frames": 2650,
+      "fps_num": 60,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v6-ads90-rev.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V6 - ADS 90s - REV.mp4"
+    },
+    {
+      "slug": "v7-ads90-rev",
+      "original_filename": "BRAUDLABS - V7 - ADS 90s - REV.mp4",
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "bytes": 109403959,
+      "frames": 2681,
+      "fps_num": 60,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v7-ads90-rev.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V7 - ADS 90s - REV.mp4"
+    },
+    {
+      "slug": "lafabrica-v1",
+      "original_filename": "LaFabrica-V1.mp4",
+      "sha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+      "bytes": 56780282,
+      "frames": 1096,
+      "fps_num": 24,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/lafabrica-v1.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/LaFabrica-V1.mp4"
+    },
+    {
+      "slug": "lafabrica-v2p1",
+      "original_filename": "LaFabrica_V2_P1.mp4",
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "bytes": 99562388,
+      "frames": 1907,
+      "fps_num": 24,
+      "fps_den": 1,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/lafabrica-v2p1.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/LaFabrica_V2_P1.mp4"
+    },
+    {
+      "slug": "v8",
+      "original_filename": "BRAUDLABS - V8.mp4",
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "bytes": 167557265,
+      "frames": 4290,
+      "fps_num": 60000,
+      "fps_den": 1001,
+      "available_at": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v8.mp4",
+      "fallback_at": "/Users/alejandrorubiocamarero/Downloads/BRAUDLABS - V8.mp4"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "version": 1,
+  "id": "birdieballs-b01-v01",
+  "family": "braud",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": {
+      "num": 60000,
+      "den": 1001
+    }
+  },
+  "words": [
+    {
+      "id": "w0",
+      "text": "¿Cansado",
+      "start": 1.0399999999999996,
+      "end": 1.46,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w1",
+      "text": "de",
+      "start": 1.46,
+      "end": 1.58,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w2",
+      "text": "dejarte",
+      "start": 1.58,
+      "end": 1.9600000000000002,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w3",
+      "text": "un",
+      "start": 1.9600000000000002,
+      "end": 2.0599999999999996,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w4",
+      "text": "riñón",
+      "start": 2.0599999999999996,
+      "end": 2.38,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w5",
+      "text": "en",
+      "start": 2.38,
+      "end": 2.5,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w6",
+      "text": "bolas",
+      "start": 2.5,
+      "end": 2.86,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w7",
+      "text": "cada",
+      "start": 2.86,
+      "end": 3.0599999999999996,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w8",
+      "text": "vez",
+      "start": 3.0599999999999996,
+      "end": 3.2199999999999998,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w9",
+      "text": "que",
+      "start": 3.2199999999999998,
+      "end": 3.38,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w10",
+      "text": "sales",
+      "start": 3.38,
+      "end": 3.5599999999999996,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w11",
+      "text": "a",
+      "start": 3.5599999999999996,
+      "end": 3.7199999999999998,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w12",
+      "text": "jugar?",
+      "start": 3.7199999999999998,
+      "end": 3.9799999999999995,
+      "speaker": "golfer"
+    },
+    {
+      "id": "w13",
+      "text": "Tranquilo,",
+      "start": 6.32,
+      "end": 6.739999999999998,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w14",
+      "text": "mindunguis,",
+      "start": 6.739999999999998,
+      "end": 7.16,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w15",
+      "text": "que",
+      "start": 7.359999999999999,
+      "end": 7.419999999999998,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w16",
+      "text": "te",
+      "start": 7.419999999999998,
+      "end": 7.559999999999999,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w17",
+      "text": "traigo",
+      "start": 7.559999999999999,
+      "end": 7.879999999999999,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w18",
+      "text": "la",
+      "start": 7.879999999999999,
+      "end": 8,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w19",
+      "text": "solución.",
+      "start": 8,
+      "end": 8.5,
+      "speaker": "birdieballs"
+    },
+    {
+      "id": "w20",
+      "text": "Literalmente.",
+      "start": 9.48,
+      "end": 9.899999999999999,
+      "speaker": "birdieballs"
+    }
+  ],
+  "clauses": [
+    {
+      "id": "line-0",
+      "wordIds": [
+        "w0",
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10",
+        "w11",
+        "w12"
+      ],
+      "recipe": "rail"
+    },
+    {
+      "id": "line-1",
+      "wordIds": [
+        "w13",
+        "w14",
+        "w15",
+        "w16",
+        "w17",
+        "w18",
+        "w19"
+      ],
+      "recipe": "rail"
+    },
+    {
+      "id": "line-2",
+      "wordIds": [
+        "w20"
+      ],
+      "recipe": "rail"
+    }
+  ],
+  "assets": [],
+  "options": {
+    "fontSize": 100,
+    "captionY": 0.69,
+    "palette": {
+      "background": "#173e2d",
+      "foreground": "#fffdf0",
+      "accent": "#fffdf0"
+    },
+    "maxCaptionGap": 0.06
+  }
+}

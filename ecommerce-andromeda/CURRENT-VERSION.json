@@ -1,0 +1,45 @@
+{
+  "project": "ecommerce-andromeda",
+  "version": "V05",
+  "status": "preview_pending_verdict_and_remaining_footage",
+  "composition": "v05/index.tsx",
+  "preview": "v05/Andromeda-V05-REVISION-720p.mp4",
+  "fps": 48,
+  "frames": 1840,
+  "duration": 38.333333333333336,
+  "source": "ENTREGA_EDITOR 2026-10-14",
+  "latestFeedback": "V04 accepted as base for additive motion. Add motion elsewhere, explicitly not on the machine. V05 calendar during días y días awaits verdict.",
+  "music": "pending_disabled",
+  "provisional": [
+    {
+      "scene": "06_cinco_ads",
+      "frames": [
+        1680,
+        1840
+      ],
+      "sourceTimelineFrames": [
+        840,
+        920
+      ]
+    }
+  ],
+  "complete": false,
+  "userApproved": false,
+  "previousVersion": {
+    "version": "V04",
+    "status": "accepted_as_base_for_additive_motion"
+  },
+  "audioHook": "native_source_audio_start0_speed1",
+  "master": "v05/Andromeda-00-38s-V05-PREVIEW.mp4",
+  "sourceTimelineFps": 24,
+  "sourceTimelineFrames": 920,
+  "motion": {
+    "type": "physical_flip_calendar",
+    "frames": [
+      480,
+      551
+    ],
+    "fps": 48,
+    "userApproved": false
+  }
+}

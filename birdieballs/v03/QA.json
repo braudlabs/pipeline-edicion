@@ -1,0 +1,23 @@
+{
+  "decodedWithoutErrors": true,
+  "video": "H264 1080x1920 60000/1001",
+  "audioUnchangedFromV02": true,
+  "designFramesInspected": [
+    "anchor-before",
+    "anchor-after",
+    "kidney",
+    "solution",
+    "graphic-entry",
+    "graphic-main",
+    "graphic-resolution",
+    "graphic-exit",
+    "inspection"
+  ],
+  "motionContactSheetInspected": true,
+  "audioListening": "Audio unchanged from V02; no independent listening review.",
+  "styleApproved": false,
+  "engineTestsPassed": 28,
+  "typecheckPassed": true,
+  "previousV02HashVerified": true,
+  "sha256": "0f5095fd1f3e7e6a3990010aa1aefaaf302851aae60760cdf4cbe03d9f3ec7f1"
+}

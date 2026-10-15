@@ -1,0 +1,6900 @@
+{
+  "slug": "v8",
+  "range": [
+    168,
+    327
+  ],
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "method": "Native RGB, blue chroma selection in two fixed handle bands; median x/y; B-R>80, B-G>50/70, B>150, R<110. Reliable if >1500 pixels per handle.",
+  "warnings": [
+    "Handle spacing is not fontSize, text width or recovered mask alpha.",
+    "Handle circles and attached strokes affect medians; compare both thresholds.",
+    "The midpoint is screen-space, not a tracked scene anchor.",
+    "Native visual review distinguishes clipping from horizontal scaling."
+  ],
+  "rows": [
+    {
+      "frame": 168,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 169,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 170,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 171,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 172,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 173,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 174,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 6,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 4,
+            "x": 538.5,
+            "y": 575.5,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 175,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 384,
+            "x": 538.0,
+            "y": 577.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 332,
+            "x": 538.0,
+            "y": 577.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 176,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 1315,
+            "x": 538.0,
+            "y": 577.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 1290,
+            "x": 539.0,
+            "y": 577.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 177,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2050,
+            "x": 537.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2035,
+            "x": 537.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 178,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2492,
+            "x": 533.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2475,
+            "x": 533.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 179,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2805,
+            "x": 525.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2760,
+            "x": 525.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 180,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3006,
+            "x": 512.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2930,
+            "x": 512.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 181,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2911,
+            "x": 491.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2845,
+            "x": 491.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 182,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2887,
+            "x": 459.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2790,
+            "x": 458.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 183,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2790,
+            "x": 416.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2726,
+            "x": 416.0,
+            "y": 576.5,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 0,
+            "x": null,
+            "y": null,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 184,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2776,
+            "x": 372.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 56,
+            "x": 707.5,
+            "y": 838.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2731,
+            "x": 372.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 48,
+            "x": 706.5,
+            "y": 838.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 185,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3051,
+            "x": 337.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 346,
+            "x": 745.0,
+            "y": 841.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2965,
+            "x": 336.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 306,
+            "x": 746.0,
+            "y": 841.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 186,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2804,
+            "x": 307.0,
+            "y": 579.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 608,
+            "x": 774.0,
+            "y": 844.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2740,
+            "x": 306.0,
+            "y": 579.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 566,
+            "x": 774.0,
+            "y": 844.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 187,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3097,
+            "x": 281.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 707,
+            "x": 796.0,
+            "y": 845.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3047,
+            "x": 281.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 678,
+            "x": 796.0,
+            "y": 845.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 188,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3336,
+            "x": 263.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 701,
+            "x": 815.0,
+            "y": 845.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3309,
+            "x": 263.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 685,
+            "x": 815.0,
+            "y": 845.0,
+            "reliable": false
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    },
+    {
+      "frame": 189,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3370,
+            "x": 246.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 2777,
+            "x": 828.0,
+            "y": 863.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 582.0,
+        "midpointX": 537.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3349,
+            "x": 246.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 2729,
+            "x": 828.0,
+            "y": 863.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 582.0,
+        "midpointX": 537.0
+      }
+    },
+    {
+      "frame": 190,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3393,
+            "x": 231.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 2180,
+            "x": 839.0,
+            "y": 859.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 608.0,
+        "midpointX": 535.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3391,
+            "x": 231.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 2137,
+            "x": 839.0,
+            "y": 859.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 608.0,
+        "midpointX": 535.0
+      }
+    },
+    {
+      "frame": 191,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3458,
+            "x": 219.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 1650,
+            "x": 848.0,
+            "y": 856.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 629.0,
+        "midpointX": 533.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3453,
+            "x": 219.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 1606,
+            "x": 849.0,
+            "y": 856.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 630.0,
+        "midpointX": 534.0
+      }
+    },
+    {
+      "frame": 192,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3469,
+            "x": 208.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3582,
+            "x": 871.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 663.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3465,
+            "x": 208.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3578,
+            "x": 871.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 663.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 193,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3492,
+            "x": 198.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3594,
+            "x": 881.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 683.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3486,
+            "x": 198.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3578,
+            "x": 881.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 683.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 194,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3494,
+            "x": 189.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3608,
+            "x": 889.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 700.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3494,
+            "x": 189.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 889.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 700.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 195,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3508,
+            "x": 182.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3602,
+            "x": 897.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 715.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3505,
+            "x": 182.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 897.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 715.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 196,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3529,
+            "x": 175.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3619,
+            "x": 903.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 728.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3526,
+            "x": 175.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3613,
+            "x": 903.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 728.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 197,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3535,
+            "x": 169.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3617,
+            "x": 909.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 740.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3531,
+            "x": 169.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3612,
+            "x": 909.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 740.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 198,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3530,
+            "x": 164.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3606,
+            "x": 914.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 750.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3528,
+            "x": 164.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3602,
+            "x": 914.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 750.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 199,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3549,
+            "x": 159.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3605,
+            "x": 919.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 760.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3545,
+            "x": 159.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3601,
+            "x": 919.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 760.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 200,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3549,
+            "x": 155.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3615,
+            "x": 923.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 768.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3545,
+            "x": 155.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3608,
+            "x": 923.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 768.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 201,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3565,
+            "x": 151.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3617,
+            "x": 927.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 776.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3558,
+            "x": 151.0,
+            "y": 576.5,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3612,
+            "x": 927.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 776.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 202,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3534,
+            "x": 148.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3582,
+            "x": 930.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 782.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3524,
+            "x": 148.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3578,
+            "x": 930.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 782.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 203,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3564,
+            "x": 145.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3600,
+            "x": 933.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 788.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3561,
+            "x": 145.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3600,
+            "x": 933.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 788.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 204,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3569,
+            "x": 143.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3612,
+            "x": 935.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 792.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3567,
+            "x": 143.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3610,
+            "x": 935.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 792.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 205,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3564,
+            "x": 141.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3606,
+            "x": 938.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 797.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3560,
+            "x": 141.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3603,
+            "x": 938.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 797.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 206,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3569,
+            "x": 139.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3601,
+            "x": 939.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 800.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3565,
+            "x": 139.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 939.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 800.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 207,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3584,
+            "x": 137.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 941.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 804.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3575,
+            "x": 137.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 941.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 804.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 208,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3543,
+            "x": 136.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3578,
+            "x": 942.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 806.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3530,
+            "x": 136.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3571,
+            "x": 942.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 806.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 209,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3573,
+            "x": 135.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 943.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 808.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3568,
+            "x": 135.0,
+            "y": 576.5,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3587,
+            "x": 943.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 808.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 210,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 135.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3583,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 809.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3540,
+            "x": 134.5,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3580,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 809.5,
+        "midpointX": 539.25
+      }
+    },
+    {
+      "frame": 211,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3549,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3539,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3576,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 212,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3558,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3558,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 213,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3589,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 214,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3597,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 215,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3596,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 216,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3597,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 217,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3591,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 218,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3597,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3591,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 219,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3589,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 220,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3596,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 221,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3589,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 222,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 223,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3594,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3589,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 224,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3596,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 225,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3594,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 226,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3594,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 227,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3589,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 228,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 229,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3558,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3591,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3590,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 230,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3540,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3588,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3535,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3587,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 231,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3513,
+            "x": 137.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3628,
+            "x": 941.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 804.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3512,
+            "x": 137.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3628,
+            "x": 941.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 804.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 232,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3384,
+            "x": 145.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3652,
+            "x": 933.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 788.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3380,
+            "x": 145.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3652,
+            "x": 933.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 788.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 233,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3118,
+            "x": 163.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3699,
+            "x": 915.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 752.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3118,
+            "x": 163.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3699,
+            "x": 915.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 752.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 234,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2709,
+            "x": 197.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3614,
+            "x": 882.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 685.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2709,
+            "x": 197.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3614,
+            "x": 882.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 685.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 235,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2524,
+            "x": 252.0,
+            "y": 575.5,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3583,
+            "x": 825.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 573.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2524,
+            "x": 252.0,
+            "y": 575.5,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3398,
+            "x": 826.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 574.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 236,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2743,
+            "x": 311.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3520,
+            "x": 767.0,
+            "y": 870.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 456.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2743,
+            "x": 311.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3276,
+            "x": 767.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 456.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 237,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2938,
+            "x": 356.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3406,
+            "x": 722.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 366.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2938,
+            "x": 356.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3268,
+            "x": 722.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 366.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 238,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3071,
+            "x": 390.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3482,
+            "x": 688.0,
+            "y": 868.5,
+            "reliable": true
+          }
+        ],
+        "separationX": 298.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3071,
+            "x": 390.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3350,
+            "x": 688.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 298.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 239,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3183,
+            "x": 416.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3460,
+            "x": 661.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 245.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3182,
+            "x": 416.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3392,
+            "x": 661.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 245.0,
+        "midpointX": 538.5
+      }
+    },
+    {
+      "frame": 240,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3258,
+            "x": 438.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3528,
+            "x": 639.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 201.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3256,
+            "x": 438.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3468,
+            "x": 640.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 202.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 241,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3326,
+            "x": 455.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3560,
+            "x": 622.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 167.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3316,
+            "x": 455.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3498,
+            "x": 622.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 167.0,
+        "midpointX": 538.5
+      }
+    },
+    {
+      "frame": 242,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3344,
+            "x": 469.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3550,
+            "x": 608.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 139.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3339,
+            "x": 469.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3504,
+            "x": 608.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 139.0,
+        "midpointX": 538.5
+      }
+    },
+    {
+      "frame": 243,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3377,
+            "x": 482.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3556,
+            "x": 596.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 114.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3368,
+            "x": 482.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3512,
+            "x": 596.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 114.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 244,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3434,
+            "x": 492.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3569,
+            "x": 586.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 94.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3415,
+            "x": 492.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3524,
+            "x": 586.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 94.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 245,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3494,
+            "x": 501.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3570,
+            "x": 577.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 76.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3464,
+            "x": 501.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3536,
+            "x": 577.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 76.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 246,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3397,
+            "x": 508.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3568,
+            "x": 570.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 62.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3363,
+            "x": 508.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3516,
+            "x": 570.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 62.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 247,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3334,
+            "x": 515.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3583,
+            "x": 563.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 48.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3279,
+            "x": 515.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3516,
+            "x": 563.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 48.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 248,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3294,
+            "x": 520.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3563,
+            "x": 558.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 38.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3261,
+            "x": 520.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3552,
+            "x": 558.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 38.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 249,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3344,
+            "x": 525.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3585,
+            "x": 554.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 29.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3321,
+            "x": 525.0,
+            "y": 578.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3516,
+            "x": 554.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 29.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 250,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3416,
+            "x": 528.5,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3570,
+            "x": 550.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 21.5,
+        "midpointX": 539.25
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3389,
+            "x": 528.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3532,
+            "x": 550.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 22.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 251,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3527,
+            "x": 531.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3588,
+            "x": 547.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 16.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3505,
+            "x": 531.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3559,
+            "x": 547.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 16.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 252,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 534.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 544.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 10.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3535,
+            "x": 534.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3562,
+            "x": 544.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 10.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 253,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3539,
+            "x": 536.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 542.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 6.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3526,
+            "x": 536.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3561,
+            "x": 542.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 6.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 254,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3549,
+            "x": 537.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3555,
+            "x": 541.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 4.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3538,
+            "x": 537.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3550,
+            "x": 541.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 4.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 255,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3512,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3544,
+            "x": 540.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 2.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3471,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3532,
+            "x": 540.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 2.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 256,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3516,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3556,
+            "x": 540.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 2.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3505,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3519,
+            "x": 540.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 2.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 257,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3515,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3547,
+            "x": 540.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 2.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3494,
+            "x": 538.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3521,
+            "x": 540.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 2.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 258,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3470,
+            "x": 532.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3546,
+            "x": 546.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 14.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3433,
+            "x": 532.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3519,
+            "x": 546.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 14.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 259,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3246,
+            "x": 513.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3179,
+            "x": 566.0,
+            "y": 866.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 53.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3127,
+            "x": 512.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3087,
+            "x": 566.0,
+            "y": 867.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 54.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 260,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2789,
+            "x": 475.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3229,
+            "x": 602.0,
+            "y": 868.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 127.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2772,
+            "x": 475.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3087,
+            "x": 602.0,
+            "y": 868.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 127.0,
+        "midpointX": 538.5
+      }
+    },
+    {
+      "frame": 261,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2870,
+            "x": 433.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3377,
+            "x": 644.0,
+            "y": 870.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 211.0,
+        "midpointX": 538.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2870,
+            "x": 433.0,
+            "y": 575.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3236,
+            "x": 644.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 211.0,
+        "midpointX": 538.5
+      }
+    },
+    {
+      "frame": 262,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2103,
+            "x": 396.0,
+            "y": 583.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3453,
+            "x": 685.0,
+            "y": 868.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 289.0,
+        "midpointX": 540.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 2067,
+            "x": 396.0,
+            "y": 584.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3314,
+            "x": 685.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 289.0,
+        "midpointX": 540.5
+      }
+    },
+    {
+      "frame": 263,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3119,
+            "x": 360.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3507,
+            "x": 718.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 358.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3029,
+            "x": 360.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3402,
+            "x": 717.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 357.0,
+        "midpointX": 538.5
+      }
+    },
+    {
+      "frame": 264,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3247,
+            "x": 333.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3591,
+            "x": 745.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 412.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3211,
+            "x": 333.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3480,
+            "x": 745.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 412.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 265,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3295,
+            "x": 310.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3621,
+            "x": 768.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 458.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3251,
+            "x": 310.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3490,
+            "x": 768.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 458.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 266,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3338,
+            "x": 290.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3602,
+            "x": 788.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 498.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3315,
+            "x": 290.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3512,
+            "x": 788.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 498.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 267,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3364,
+            "x": 273.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3619,
+            "x": 805.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 532.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3328,
+            "x": 273.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3524,
+            "x": 805.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 532.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 268,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3389,
+            "x": 258.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3599,
+            "x": 820.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 562.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3386,
+            "x": 258.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3549,
+            "x": 821.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 563.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 269,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3442,
+            "x": 244.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3604,
+            "x": 834.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 590.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3436,
+            "x": 244.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3572,
+            "x": 834.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 590.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 270,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3465,
+            "x": 232.0,
+            "y": 577.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3619,
+            "x": 846.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 614.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3457,
+            "x": 232.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3599,
+            "x": 846.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 614.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 271,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3458,
+            "x": 221.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3634,
+            "x": 857.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 636.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3454,
+            "x": 221.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3602,
+            "x": 857.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 636.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 272,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3461,
+            "x": 211.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3624,
+            "x": 867.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 656.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3460,
+            "x": 211.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3603,
+            "x": 867.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 656.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 273,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3494,
+            "x": 203.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3608,
+            "x": 876.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 673.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3491,
+            "x": 202.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3604,
+            "x": 876.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 674.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 274,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3498,
+            "x": 195.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3641,
+            "x": 883.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 688.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3497,
+            "x": 195.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3635,
+            "x": 884.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 689.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 275,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3512,
+            "x": 187.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3626,
+            "x": 891.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 704.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3509,
+            "x": 187.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3624,
+            "x": 891.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 704.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 276,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3520,
+            "x": 181.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3638,
+            "x": 897.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 716.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3520,
+            "x": 181.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3637,
+            "x": 897.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 716.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 277,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3528,
+            "x": 175.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3625,
+            "x": 903.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 728.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3524,
+            "x": 175.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3620,
+            "x": 903.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 728.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 278,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3541,
+            "x": 169.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3616,
+            "x": 909.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 740.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3536,
+            "x": 169.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3616,
+            "x": 909.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 740.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 279,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3533,
+            "x": 165.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3614,
+            "x": 914.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 749.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3532,
+            "x": 165.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3614,
+            "x": 914.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 749.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 280,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3514,
+            "x": 160.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3596,
+            "x": 918.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 758.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3508,
+            "x": 160.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 918.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 758.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 281,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3516,
+            "x": 156.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3596,
+            "x": 922.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 766.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3508,
+            "x": 156.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3596,
+            "x": 922.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 766.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 282,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3556,
+            "x": 153.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3613,
+            "x": 926.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 773.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 153.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3613,
+            "x": 926.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 773.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 283,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3562,
+            "x": 149.5,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3604,
+            "x": 929.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 779.5,
+        "midpointX": 539.25
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 149.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3604,
+            "x": 929.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 780.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 284,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3559,
+            "x": 147.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3609,
+            "x": 932.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 785.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3559,
+            "x": 147.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3609,
+            "x": 932.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 785.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 285,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3541,
+            "x": 144.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3580,
+            "x": 934.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 790.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3529,
+            "x": 144.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3579,
+            "x": 934.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 790.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 286,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3546,
+            "x": 142.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 936.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 794.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3537,
+            "x": 142.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3577,
+            "x": 936.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 794.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 287,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3547,
+            "x": 140.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3577,
+            "x": 938.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 798.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3538,
+            "x": 140.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3572,
+            "x": 938.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 798.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 288,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3545,
+            "x": 139.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3592,
+            "x": 940.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 801.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3540,
+            "x": 138.5,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3591,
+            "x": 940.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 801.5,
+        "midpointX": 539.25
+      }
+    },
+    {
+      "frame": 289,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3569,
+            "x": 137.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3602,
+            "x": 941.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 804.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3565,
+            "x": 137.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3594,
+            "x": 941.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 804.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 290,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 136.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3586,
+            "x": 942.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 806.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3528,
+            "x": 136.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3578,
+            "x": 942.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 806.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 291,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3570,
+            "x": 135.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3594,
+            "x": 943.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 808.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3560,
+            "x": 135.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3580,
+            "x": 943.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 808.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 292,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3551,
+            "x": 135.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3593,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 809.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3542,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3588,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 293,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3557,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3584,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3543,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3579,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 294,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3552,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3597,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3549,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 295,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3556,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 296,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3556,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 297,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3556,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 298,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3556,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 299,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3556,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 300,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 301,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 302,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 303,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 304,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 305,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 306,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 307,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 308,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 309,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 310,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 311,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 312,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 313,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 314,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3553,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 315,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 316,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 317,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 318,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 319,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 320,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 321,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 322,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3554,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 323,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3598,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3595,
+            "x": 944.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 810.0,
+        "midpointX": 539.0
+      }
+    },
+    {
+      "frame": 324,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3585,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 811.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3582,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 811.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 325,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3584,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 811.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 811.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 326,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3584,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 811.0,
+        "midpointX": 539.5
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 3555,
+            "x": 134.0,
+            "y": 576.0,
+            "reliable": true
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": 811.0,
+        "midpointX": 539.5
+      }
+    },
+    {
+      "frame": 327,
+      "threshold50": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 319,
+            "x": 135.0,
+            "y": 602.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3584,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      },
+      "threshold70": {
+        "handles": [
+          {
+            "handle": "upperLeft",
+            "pixelCount": 319,
+            "x": 135.0,
+            "y": 602.0,
+            "reliable": false
+          },
+          {
+            "handle": "lowerRight",
+            "pixelCount": 3581,
+            "x": 945.0,
+            "y": 869.0,
+            "reliable": true
+          }
+        ],
+        "separationX": null,
+        "midpointX": null
+      }
+    }
+  ]
+}

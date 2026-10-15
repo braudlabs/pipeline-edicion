@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "status": "rendered-and-inspected",
+  "userApproval": false,
+  "duration": 46.875,
+  "fps": 48,
+  "width": 1080,
+  "height": 1920,
+  "video": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/V2/AD3-Pipeline-V2.mp4",
+  "aep": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/V2/After-Effects/AD3-Pipeline-V2.aep",
+  "editables": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/V2/AD3-Pipeline-V2-Editables.zip",
+  "review": "http://127.0.0.1:8779/Revisar-V2.html",
+  "videoSha256": "b8b961b9f9221ce8b5b751e75028522bbb5a3981524788a9f951aeb4b7e11119",
+  "previousVersion": {
+    "version": 1,
+    "status": "rendered-and-checked",
+    "duration": 46.875,
+    "fps": 48,
+    "width": 1080,
+    "height": 1920,
+    "video": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/AD3-Pipeline-V1.mp4",
+    "aep": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/After-Effects/AD3-Pipeline-V1.aep",
+    "review": "http://127.0.0.1:8779/Revisar.html",
+    "videoSha256": "41ff0592942f76537456db5a497b0f127d5a7e09e7c6f43d93eca1cdcc37d50b"
+  },
+  "creativeDirection": "Petróleo y coral; generated raster materials with native AE cameras, motion and typography."
+}

@@ -1,0 +1,597 @@
+{
+  "job": "birdie-editorial-v2-lab",
+  "frames": 270,
+  "seconds": 4.5045,
+  "shots": 1,
+  "captions": 0,
+  "motionGraphics": 3,
+  "recipes": [
+    {
+      "clause": "intro",
+      "recipe": "rail",
+      "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+      "evidence": [
+        "estilo-editor/ALGORITMO-V2.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "eligible": true,
+          "score": 0,
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+        },
+        {
+          "recipe": "hero",
+          "eligible": false,
+          "score": 0,
+          "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+        },
+        {
+          "recipe": "accumulate",
+          "eligible": false,
+          "score": -2,
+          "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras. No cumple función, longitud, tamaño mínimo o continuidad de frase."
+        },
+        {
+          "recipe": "silence",
+          "eligible": false,
+          "score": 2,
+          "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+        }
+      ]
+    },
+    {
+      "clause": "cost",
+      "recipe": "hero",
+      "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+      "evidence": [
+        "estilo-editor/ALGORITMO-V2.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "eligible": true,
+          "score": -7,
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+        },
+        {
+          "recipe": "hero",
+          "eligible": true,
+          "score": 0,
+          "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto."
+        },
+        {
+          "recipe": "accumulate",
+          "eligible": true,
+          "score": -2,
+          "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras."
+        },
+        {
+          "recipe": "silence",
+          "eligible": false,
+          "score": 2,
+          "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+        }
+      ]
+    },
+    {
+      "clause": "question",
+      "recipe": "rail",
+      "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+      "evidence": [
+        "estilo-editor/ALGORITMO-V2.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "eligible": true,
+          "score": 0,
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+        },
+        {
+          "recipe": "hero",
+          "eligible": false,
+          "score": 0,
+          "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+        },
+        {
+          "recipe": "accumulate",
+          "eligible": false,
+          "score": -2,
+          "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras. No cumple función, longitud, tamaño mínimo o continuidad de frase."
+        },
+        {
+          "recipe": "silence",
+          "eligible": false,
+          "score": 2,
+          "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+        }
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "wordCoverage": "6/6",
+  "editorial": {
+    "version": 2,
+    "decisions": [
+      {
+        "clauseId": "intro",
+        "layoutId": "hook",
+        "treatment": "rail",
+        "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+        "observation": {
+          "kind": "agent",
+          "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+        },
+        "semanticFunction": "ordinary",
+        "candidates": [
+          {
+            "treatment": "rail",
+            "eligible": true,
+            "cost": 0,
+            "reasons": [
+              "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+            ]
+          },
+          {
+            "treatment": "stack",
+            "eligible": false,
+            "cost": 0,
+            "reasons": [
+              "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto.",
+              "No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "inline",
+            "eligible": false,
+            "cost": 2,
+            "reasons": [
+              "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras.",
+              "No cumple función, longitud, tamaño mínimo o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "quiet",
+            "eligible": false,
+            "cost": -2,
+            "reasons": [
+              "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+            ]
+          }
+        ],
+        "anchor": [
+          0.5,
+          0.56
+        ],
+        "evidence": [
+          {
+            "rule": "C01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v8",
+                "f0": 919,
+                "f1": 1134,
+                "observation": "Narración y20%; protesta y50%",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              },
+              {
+                "slug": "landing",
+                "f0": 4738,
+                "f1": 5077,
+                "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+                "level": "prior_review",
+                "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+                "independentFamily": "landing"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 1559,
+                "f1": 1623,
+                "observation": "Derecha50%→centro26% sin corte",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              }
+            ]
+          },
+          {
+            "rule": "C03",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v7-ads90-rev",
+                "f0": 33,
+                "f1": 373,
+                "observation": "Te≈229px vs entrega≈745px dentro del mismo rail grande",
+                "level": "prior_review",
+                "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+                "independentFamily": "ads90_variants"
+              },
+              {
+                "slug": "v5-maquina",
+                "f0": 690,
+                "f1": 723,
+                "observation": "Automáticamente≈717px, rail",
+                "level": "prior_review",
+                "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                "independentFamily": "v5-maquina"
+              },
+              {
+                "slug": "v5-maquina",
+                "f0": 2099,
+                "f1": 2120,
+                "observation": "Personalmente reducido para caber",
+                "level": "prior_review",
+                "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                "independentFamily": "v5-maquina"
+              }
+            ]
+          },
+          {
+            "rule": "G01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v1-pagado",
+                "f0": 176,
+                "f1": 225,
+                "observation": "Precio300€",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "v1-pagado",
+                "f0": 383,
+                "f1": 449,
+                "observation": "30variantes→coste mínimo",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 343,
+                "f1": 504,
+                "observation": "Sistema y comparación",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              },
+              {
+                "slug": "v8",
+                "f0": 2396,
+                "f1": 2562,
+                "observation": "Resultados y primera versión",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              }
+            ]
+          }
+        ],
+        "motion": "Direct replacement",
+        "needsDesign": false
+      },
+      {
+        "clauseId": "cost",
+        "layoutId": "hook",
+        "treatment": "stack",
+        "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+        "observation": {
+          "kind": "agent",
+          "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+        },
+        "semanticFunction": "emphasis",
+        "candidates": [
+          {
+            "treatment": "rail",
+            "eligible": true,
+            "cost": 7,
+            "reasons": [
+              "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+            ]
+          },
+          {
+            "treatment": "stack",
+            "eligible": true,
+            "cost": 0,
+            "reasons": [
+              "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto."
+            ]
+          },
+          {
+            "treatment": "inline",
+            "eligible": true,
+            "cost": 2,
+            "reasons": [
+              "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras."
+            ]
+          },
+          {
+            "treatment": "quiet",
+            "eligible": false,
+            "cost": -2,
+            "reasons": [
+              "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+            ]
+          }
+        ],
+        "anchor": [
+          0.5,
+          0.56
+        ],
+        "evidence": [
+          {
+            "rule": "C01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v8",
+                "f0": 919,
+                "f1": 1134,
+                "observation": "Narración y20%; protesta y50%",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              },
+              {
+                "slug": "landing",
+                "f0": 4738,
+                "f1": 5077,
+                "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+                "level": "prior_review",
+                "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+                "independentFamily": "landing"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 1559,
+                "f1": 1623,
+                "observation": "Derecha50%→centro26% sin corte",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              }
+            ]
+          },
+          {
+            "rule": "C05",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v8",
+                "f0": 545,
+                "f1": 619,
+                "observation": "no es solo / pagar / otro sueldo",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              },
+              {
+                "slug": "v8",
+                "f0": 2690,
+                "f1": 2780,
+                "observation": "puedes crear / nuevas / versiones",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              },
+              {
+                "slug": "v1-pagado",
+                "f0": 117,
+                "f1": 137,
+                "observation": "ni me han / pagado",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              }
+            ]
+          },
+          {
+            "rule": "C06",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v8",
+                "f0": 550,
+                "f1": 575,
+                "observation": "Apoyos entran separados y se compactan alrededor de pagar",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              },
+              {
+                "slug": "lafabrica-v1",
+                "f0": 106,
+                "f1": 121,
+                "observation": "Dos flancos alrededor del megáfono",
+                "level": "prior_review",
+                "sourceSha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+                "independentFamily": "lafabrica-v1"
+              }
+            ]
+          }
+        ],
+        "motion": "Authored monotone entrance: fitted overshoot rejected by animated ink collision",
+        "needsDesign": false
+      },
+      {
+        "clauseId": "question",
+        "layoutId": "hook",
+        "treatment": "rail",
+        "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+        "observation": {
+          "kind": "agent",
+          "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+        },
+        "semanticFunction": "ordinary",
+        "candidates": [
+          {
+            "treatment": "rail",
+            "eligible": true,
+            "cost": 0,
+            "reasons": [
+              "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+            ]
+          },
+          {
+            "treatment": "stack",
+            "eligible": false,
+            "cost": 0,
+            "reasons": [
+              "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto.",
+              "No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "inline",
+            "eligible": false,
+            "cost": 2,
+            "reasons": [
+              "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras.",
+              "No cumple función, longitud, tamaño mínimo o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "quiet",
+            "eligible": false,
+            "cost": -2,
+            "reasons": [
+              "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+            ]
+          }
+        ],
+        "anchor": [
+          0.5,
+          0.56
+        ],
+        "evidence": [
+          {
+            "rule": "C01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v8",
+                "f0": 919,
+                "f1": 1134,
+                "observation": "Narración y20%; protesta y50%",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              },
+              {
+                "slug": "landing",
+                "f0": 4738,
+                "f1": 5077,
+                "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+                "level": "prior_review",
+                "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+                "independentFamily": "landing"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 1559,
+                "f1": 1623,
+                "observation": "Derecha50%→centro26% sin corte",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              }
+            ]
+          },
+          {
+            "rule": "C03",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v7-ads90-rev",
+                "f0": 33,
+                "f1": 373,
+                "observation": "Te≈229px vs entrega≈745px dentro del mismo rail grande",
+                "level": "prior_review",
+                "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+                "independentFamily": "ads90_variants"
+              },
+              {
+                "slug": "v5-maquina",
+                "f0": 690,
+                "f1": 723,
+                "observation": "Automáticamente≈717px, rail",
+                "level": "prior_review",
+                "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                "independentFamily": "v5-maquina"
+              },
+              {
+                "slug": "v5-maquina",
+                "f0": 2099,
+                "f1": 2120,
+                "observation": "Personalmente reducido para caber",
+                "level": "prior_review",
+                "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                "independentFamily": "v5-maquina"
+              }
+            ]
+          },
+          {
+            "rule": "G01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v1-pagado",
+                "f0": 176,
+                "f1": 225,
+                "observation": "Precio300€",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "v1-pagado",
+                "f0": 383,
+                "f1": 449,
+                "observation": "30variantes→coste mínimo",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 343,
+                "f1": 504,
+                "observation": "Sistema y comparación",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              },
+              {
+                "slug": "v8",
+                "f0": 2396,
+                "f1": 2562,
+                "observation": "Resultados y primera versión",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              }
+            ]
+          }
+        ],
+        "motion": "Direct replacement",
+        "needsDesign": false
+      }
+    ],
+    "selectionCost": 0,
+    "limits": [
+      "Semantic observations are supplied by the agent/user, not inferred from pixels by this compiler.",
+      "Candidate costs and safety margins are authored hypotheses, not learned probabilities.",
+      "No new sound effects or automatic masks.",
+      "Cross-family visual fidelity remains unverified.",
+      "Source audio passes through unless a separate narration is supplied; this compiler does not listen or realign phonemes."
+    ]
+  },
+  "fidelity": "unverified_without_visual_comparison"
+}

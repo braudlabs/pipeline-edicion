@@ -1,0 +1,44 @@
+{
+ "business": {
+  "x": 156,
+  "y": 297.9375,
+  "w": 862,
+  "h": 485.34375,
+  "text": "NEGOCIO Y DIRECCIÓN\nInstalación de IA creativa\nValidado\n\nIntegramos la producció"
+ },
+ "product": {
+  "x": 156,
+  "y": 811.28125,
+  "w": 1200,
+  "h": 589.109375,
+  "text": "Productos y oferta\nQué vendes, por qué lo compran y qué lo respalda.\n1 ficha\nQué"
+ },
+ "audience": {
+  "x": 156,
+  "y": 1414.390625,
+  "w": 1200,
+  "h": 344.125,
+  "text": "Públicos y necesidades\nSituaciones, deseos, objeciones y lenguaje real.\n1 entrad"
+ },
+ "identity": {
+  "x": 156,
+  "y": 1772.515625,
+  "w": 1200,
+  "h": 947.34375,
+  "text": "Identidad y voz\nLogos, colores, estilo visual y forma de hablar.\nContexto y recu"
+ },
+ "learning": {
+  "x": 156,
+  "y": 4145.203125,
+  "w": 1200,
+  "h": 319.625,
+  "text": "Aprendizajes de marca\nDecisiones con fuente que nos ayudan a seguir.\n1 entrada\nH"
+ },
+ "header": {
+  "x": 156,
+  "y": 173,
+  "w": 365.671875,
+  "h": 49.4375,
+  "text": "BRAUD."
+ }
+}

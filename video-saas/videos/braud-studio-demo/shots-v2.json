@@ -1,0 +1,231 @@
+{
+ "origin": "http://127.0.0.1:8811",
+ "url": "/?dev=1&brand=braud&homePreview=1&homeStyle=original",
+ "viewport": {
+  "width": 1512,
+  "height": 900,
+  "theme": "light",
+  "dpr": 3
+ },
+ "shots": [
+  {
+   "name": "home",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "idea",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=idea]',null,1200);",
+   "marks": {
+    "steps": [
+     ".piece-steps, nav[aria-label='Pasos de la pieza']"
+    ],
+    "concept": [
+     "h2"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "guion",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=script]',null,1200);",
+   "marks": {
+    "opening2": [
+     "button",
+     "^Usar apertura$"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "casting",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=casting]',null,1200);",
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "escenas",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/El hook/,1400);",
+   "marks": {
+    "prepare": [
+     "button",
+     "^Preparar esta escena$"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "montaje",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=review]',null,1400);",
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "marca",
+   "act": "await __click('[data-view=brands]',null,1400);",
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente-vacio",
+   "act": "await __click('[data-view=conversation]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "user": [
+     ".message.user, article.user, [data-role=user]"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-creatina]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ],
+    "reply": [
+     "article.agent-message.assistant"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente-pensando",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-creatina]',null,1500);const a=document.querySelector('article[data-message-id=m2]');const w=document.createElement('div');w.innerHTML='<div data-part=\"working\" class=\"agent-working is-thinking\" role=\"status\"><span class=\"thinking-orb\" aria-hidden=\"true\"></span><span class=\"thinking-label\">Leyendo el contexto de tu marca…</span><button class=\"text-btn\" data-ecom=\"cancel\">Detener</button></div>';a.replaceWith(w.firstChild);await __sleep(400);",
+   "marks": {
+    "working": [
+     "[data-part=working]"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "marca-tarjetas",
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=true);await __sleep(700);",
+   "crops": {
+    "business": [
+     "section",
+     "^NEGOCIO Y DIRECCIÓN"
+    ],
+    "product": [
+     "details.brand-area",
+     "^Productos y oferta"
+    ],
+    "audience": [
+     "details.brand-area",
+     "^Públicos y necesidades"
+    ],
+    "identity": [
+     "details.brand-area",
+     "^Identidad y voz"
+    ],
+    "learning": [
+     "details.brand-area",
+     "^Aprendizajes"
+    ],
+    "header": [
+     "h1"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente-vacio-limpio",
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.blur();document.activeElement?.blur?.();await __sleep(300);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "composer": [
+     "form"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "biblioteca",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=library]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(500);",
+   "settle": 800
+  },
+  {
+   "name": "taller",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=workshop]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(500);",
+   "settle": 800
+  },
+  {
+   "name": "generar",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('button',/^Ver instrucciones y consultar coste$/,1500);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(500);",
+   "marks": {
+    "cost": [
+     "button",
+     "^Consultar coste$"
+    ]
+   },
+   "settle": 800
+  }
+ ]
+}

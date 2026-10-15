@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "id": "birdie-editorial-v2-lab",
+  "family": "braud",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": {
+      "num": 60000,
+      "den": 1001
+    }
+  },
+  "assets": [
+    {
+      "id": "source",
+      "kind": "video",
+      "src": "media/editorial-v2-birdie-source.mp4",
+      "duration": 38.005,
+      "sha256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba"
+    }
+  ],
+  "words": [
+    {
+      "id": "intro",
+      "text": "¿Cansado",
+      "start": 1.22,
+      "end": 1.66
+    },
+    {
+      "id": "support",
+      "text": "de dejarte un",
+      "start": 1.66,
+      "end": 2.26
+    },
+    {
+      "id": "focus",
+      "text": "riñón",
+      "start": 2.26,
+      "end": 2.68
+    },
+    {
+      "id": "tail",
+      "text": "en bolas",
+      "start": 2.68,
+      "end": 3.06
+    },
+    {
+      "id": "question",
+      "text": "cada vez que sales",
+      "start": 3.06,
+      "end": 3.76
+    },
+    {
+      "id": "play",
+      "text": "a jugar?",
+      "start": 3.76,
+      "end": 4.24
+    }
+  ],
+  "clauses": [
+    {
+      "id": "intro",
+      "wordIds": [
+        "intro"
+      ]
+    },
+    {
+      "id": "cost",
+      "wordIds": [
+        "support",
+        "focus",
+        "tail"
+      ]
+    },
+    {
+      "id": "question",
+      "wordIds": [
+        "question",
+        "play"
+      ]
+    }
+  ],
+  "options": {
+    "palette": {
+      "foreground": "#fffdf1",
+      "accent": "#dcf395",
+      "background": "#18382b"
+    }
+  },
+  "editorial": {
+    "version": 2,
+    "source": {
+      "assetId": "source",
+      "sourceStart": 0,
+      "durationInFrames": 270
+    },
+    "annotations": [
+      {
+        "clauseId": "intro",
+        "layoutId": "hook",
+        "function": "ordinary",
+        "observation": {
+          "kind": "agent",
+          "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+        },
+        "preferredAnchor": [
+          0.5,
+          0.56
+        ],
+        "avoid": [
+          {
+            "start": 0,
+            "end": 4.5,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 0.4
+            },
+            "reason": "Conservative upper face region for this technical hook pilot; manually proposed."
+          }
+        ]
+      },
+      {
+        "clauseId": "cost",
+        "layoutId": "hook",
+        "function": "emphasis",
+        "observation": {
+          "kind": "agent",
+          "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+        },
+        "preferredAnchor": [
+          0.5,
+          0.56
+        ],
+        "avoid": [
+          {
+            "start": 0,
+            "end": 4.5,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 0.4
+            },
+            "reason": "Conservative upper face region for this technical hook pilot; manually proposed."
+          }
+        ],
+        "focusWordIds": [
+          "focus"
+        ]
+      },
+      {
+        "clauseId": "question",
+        "layoutId": "hook",
+        "function": "ordinary",
+        "observation": {
+          "kind": "agent",
+          "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+        },
+        "preferredAnchor": [
+          0.5,
+          0.56
+        ],
+        "avoid": [
+          {
+            "start": 0,
+            "end": 4.5,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "width": 1,
+              "height": 0.4
+            },
+            "reason": "Conservative upper face region for this technical hook pilot; manually proposed."
+          }
+        ]
+      }
+    ]
+  }
+}

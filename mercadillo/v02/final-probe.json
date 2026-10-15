@@ -1,0 +1,55 @@
+{
+    "programs": [
+
+    ],
+    "stream_groups": [
+        {
+            "streams": [
+                {
+                    "codec_name": "h264",
+                    "codec_type": "video",
+                    "width": 1080,
+                    "height": 1920,
+                    "avg_frame_rate": "24/1",
+                    "duration": "88.375000",
+                    "nb_frames": "2121"
+                },
+                {
+                    "codec_type": "data",
+                    "avg_frame_rate": "12288/512",
+                    "duration": "88.375000",
+                    "nb_frames": "1"
+                }
+            ]
+        }
+    ],
+    "streams": [
+        {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "avg_frame_rate": "24/1",
+            "duration": "88.375000",
+            "nb_frames": "2121"
+        },
+        {
+            "codec_name": "aac",
+            "codec_type": "audio",
+            "sample_rate": "48000",
+            "avg_frame_rate": "0/0",
+            "duration": "88.375000",
+            "nb_frames": "4144"
+        },
+        {
+            "codec_type": "data",
+            "avg_frame_rate": "12288/512",
+            "duration": "88.375000",
+            "nb_frames": "1"
+        }
+    ],
+    "format": {
+        "duration": "88.375000",
+        "size": "69862540"
+    }
+}

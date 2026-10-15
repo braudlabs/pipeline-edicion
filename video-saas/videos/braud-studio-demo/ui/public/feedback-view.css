@@ -1,0 +1,44 @@
+.feedback-workspace{--feedback-surface:rgba(255,255,255,.45);--feedback-selected:rgba(255,255,255,.88);min-width:0;color:var(--ink)}
+:root[data-theme="dark"] .feedback-workspace{--feedback-surface:rgba(255,255,255,.025);--feedback-selected:rgba(255,255,255,.07)}
+.feedback-workspace .feedback-nav{display:flex;width:fit-content;max-width:100%;gap:4px;padding:4px;margin:0 auto;border:1px solid var(--line);border-radius:999px;background:var(--feedback-surface)}
+.feedback-workspace .feedback-nav button{min-height:36px;padding:8px 19px;border-radius:999px;color:var(--muted);font-size:12px}
+.feedback-workspace .feedback-nav button[aria-pressed="true"]{color:var(--ink);background:var(--feedback-selected);box-shadow:0 2px 7px #12223d06}
+.feedback-workspace .feedback-local{margin:13px 0 26px;text-align:center;color:var(--muted);font-size:10px}
+.feedback-workspace .feedback-intro{margin:0 0 23px}
+.feedback-workspace .feedback-intro h3,.feedback-workspace .feedback-empty h3{font-size:23px;letter-spacing:-.035em}
+.feedback-workspace .feedback-intro p,.feedback-workspace .feedback-empty p{color:var(--muted);font-size:12px;line-height:1.7;margin-top:9px}
+.feedback-workspace .feedback-list{display:flex;flex-direction:column;gap:8px;max-height:54dvh;overflow-y:auto;scrollbar-width:thin;scrollbar-color:var(--line) transparent;padding:1px 5px 1px 1px}
+.feedback-workspace .feedback-row{width:100%;padding:17px 18px;text-align:left;border:1px solid transparent;border-radius:16px;background:var(--feedback-surface);transition:background 180ms,border-color 180ms}
+.feedback-workspace .feedback-row:hover{border-color:var(--line);background:var(--feedback-selected)}
+.feedback-workspace .feedback-row-top,.feedback-workspace .feedback-row-bottom{display:flex;justify-content:space-between;align-items:center;gap:14px;font-size:10px;color:var(--muted)}
+.feedback-workspace .feedback-kind{font-size:10px;color:var(--muted)}
+.feedback-workspace .feedback-row>strong{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;font-weight:450;line-height:1.65;overflow-wrap:anywhere;margin:9px 0 13px}
+.feedback-workspace .feedback-row-bottom .icon{width:15px;height:15px}
+.feedback-workspace .feedback-thread-heading{display:flex;align-items:center;justify-content:space-between;gap:15px;margin:0 0 13px}
+.feedback-workspace .feedback-thread-heading .text-btn{font-size:11px}
+.feedback-workspace .feedback-thread-heading .icon{height:14px;width:14px}
+.feedback-workspace .feedback-messages{max-height:38dvh;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;scrollbar-color:var(--line) transparent;margin-bottom:23px;padding-right:8px}
+.feedback-workspace .feedback-message{padding:18px 0;border-bottom:1px solid var(--line)}
+.feedback-workspace .feedback-message:first-child{padding-top:5px}
+.feedback-workspace .feedback-message header{display:flex;justify-content:space-between;align-items:baseline;gap:15px;margin-bottom:11px;color:var(--muted);font-size:10px}
+.feedback-workspace .feedback-message header strong{font-size:11px;font-weight:500;color:var(--ink)}
+.feedback-workspace .feedback-message>p{font-size:13px;line-height:1.75;white-space:pre-wrap;overflow-wrap:anywhere}
+.feedback-workspace .feedback-capture{display:flex;align-items:center;gap:12px;width:fit-content;max-width:100%;margin-top:16px;padding:6px 13px 6px 6px;border:1px solid var(--line);border-radius:12px;color:var(--muted);font-size:11px}
+.feedback-workspace .feedback-capture img{width:64px;height:52px;object-fit:cover;border-radius:7px;background:var(--feedback-surface)}
+.feedback-workspace .feedback-compose{display:flex;flex-direction:column;gap:18px}
+.feedback-workspace .feedback-field{display:block;color:var(--muted);font-size:11px}
+.feedback-workspace .feedback-field textarea,.feedback-workspace .feedback-field select{display:block;margin-top:9px;color:var(--ink);font-size:13px;line-height:1.65;background:var(--feedback-surface);border:1px solid var(--line);border-radius:14px;padding:13px 15px}
+.feedback-workspace .feedback-field textarea{min-height:96px;max-height:250px;resize:vertical}
+.feedback-workspace .feedback-compose-foot{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.feedback-workspace .feedback-file{display:block;min-width:0;color:var(--muted);font-size:11px}
+.feedback-workspace .feedback-file input{display:block;width:100%;max-width:260px;margin:8px 0 6px;padding:0;border:0;border-radius:0;background:none;font-size:10px;color:var(--muted)}
+.feedback-workspace .feedback-file input::file-selector-button{font:inherit;border:1px solid var(--line);border-radius:8px;padding:6px 9px;margin-right:8px;background:var(--feedback-surface);color:var(--ink);cursor:pointer}
+.feedback-workspace .feedback-file small{font-size:9px}
+.feedback-workspace .feedback-compose-foot>.btn{flex:none;align-self:center}
+.feedback-workspace .feedback-note{font-size:10px;line-height:1.6;color:var(--muted);margin:0}
+.feedback-workspace .feedback-list+.feedback-note{margin-top:15px}
+.feedback-workspace .feedback-empty{text-align:center;padding:36px 15px 42px}
+.feedback-workspace .feedback-empty>.icon{height:25px;width:25px;margin-bottom:19px;color:var(--muted)}
+.feedback-workspace .feedback-empty .btn,.feedback-workspace .feedback-empty .text-btn{margin-top:22px}
+@media(max-width:550px){.feedback-workspace .feedback-compose-foot{flex-direction:column;gap:15px}.feedback-workspace .feedback-compose-foot>.btn{align-self:flex-end}.feedback-workspace .feedback-row{padding:15px}.feedback-workspace .feedback-messages{max-height:34dvh}.feedback-workspace .feedback-message header{gap:8px;flex-wrap:wrap}.feedback-workspace .feedback-nav button{padding:8px 16px}}
+@media(prefers-reduced-motion:reduce){.feedback-workspace .feedback-row{transition:none}}

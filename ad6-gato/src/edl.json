@@ -1,0 +1,57 @@
+{
+  "pieza": "AD6 · PapiCat Snacks",
+  "fps": 24,
+  "resolucion": [1080, 1920],
+  "total_fotogramas": 387,
+  "duracion_s": 16.125,
+  "geometria": {
+    "fuente": [1076, 1928],
+    "recorte_9_16": {"w": 1076, "h": 1914, "x": 0, "y": 7},
+    "nota": "1076x1928 no es 9:16 exacto (0,5581 frente a 0,5625). Se recortan 7 px arriba y 7 abajo y se escala 1,0037x."
+  },
+  "base_de_corte": "tiempos de palabra medidos con Whisper small sobre voz-en-off.mp3, no los del brief",
+  "planos": [
+    {
+      "id": "A", "clip": "01-dormido", "f0": 69, "n": 52, "tl0": 0,
+      "tl_s": [0.0, 2.16667],
+      "motivo": "Cola del clip: el ojo se abre en el fotograma fuente 106 (t=4,417 s) y cae en la linea de tiempo en f37 = 1,542 s, un fotograma despues del ataque de «gato» (1,500 s).",
+      "voz": "Hay dos cosas que despiertan a un gato.",
+      "camara": {"zoom": [1.0, 1.07], "centro": [[0.5, 0.5], [0.47, 0.54]], "ease": "inout"}
+    },
+    {
+      "id": "B", "clip": "02-bolsa", "f0": 10, "n": 36, "tl0": 52,
+      "tl_s": [2.16667, 3.66667],
+      "motivo": "Tramo de sacudida mas fuerte del clip (pico de movimiento en f44). Corta justo despues del pico, sobre el movimiento.",
+      "voz": "Una es el ruido de la bolsa,",
+      "camara": {"zoom": [1.06, 1.01], "centro": [[0.5, 0.5], [0.5, 0.5]], "ease": "out"}
+    },
+    {
+      "id": "C", "clip": "03-carrera", "f0": 0, "n": 90, "tl0": 88,
+      "tl_s": [3.66667, 7.41667],
+      "motivo": "Entra un fotograma antes de «y» (3,700 s) para que el gato arranque con la palabra. El pico de llegada/derrape (fuente f84, t=3,500) cae en f172 = 7,167 s, centro exacto del hueco de voz 6,940-7,420.",
+      "voz": "y la otra... tambien es el ruido de la bolsa.",
+      "camara": {"zoom": [1.0, 1.12], "centro": [[0.5, 0.5], [0.5, 0.53]], "ease": "in"}
+    },
+    {
+      "id": "D1", "clip": "04-cuenco", "f0": 0, "n": 52, "tl0": 178,
+      "tl_s": [7.41667, 9.58333],
+      "motivo": "Plano general del cuenco. Corta en el hueco de voz 9,380-9,740.",
+      "voz": "Snacks de pollo, sin cereales,",
+      "camara": {"zoom": [1.05, 1.0], "centro": [[0.5, 0.5], [0.5, 0.5]], "ease": "out"}
+    },
+    {
+      "id": "D2", "clip": "04-cuenco", "f0": 52, "n": 61, "tl0": 230,
+      "tl_s": [9.58333, 12.125],
+      "motivo": "Corte con acercamiento 1,22x re-encuadrado sobre boca + cuenco + bolsa, motivado por «del tamano exacto para una boca pequena». Continuidad de accion con D1 (fotogramas fuente consecutivos).",
+      "voz": "del tamano exacto para una boca pequena,",
+      "camara": {"zoom": [1.22, 1.16], "centro": [[0.43, 0.57], [0.44, 0.55]], "ease": "out"}
+    },
+    {
+      "id": "E", "clip": "05-producto", "f0": 0, "n": 96, "tl0": 291,
+      "tl_s": [12.125, 16.125],
+      "motivo": "Plano producto. Corte en el hueco 11,900-12,480, 0,355 s antes de «PapiCat». Sin movimiento anadido: el clip ya trae un travelling de acercamiento nativo (la banda verde crece 1,27x en estos 96 fotogramas).",
+      "voz": "PapiCat Snacks, lo unico capaz de hacer correr a tu gato.",
+      "camara": {"zoom": [1.0, 1.0], "centro": [[0.5, 0.5], [0.5, 0.5]], "ease": "lineal"}
+    }
+  ]
+}

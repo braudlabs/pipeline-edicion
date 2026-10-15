@@ -1,0 +1,12 @@
+{
+  "nativeSource": "assets/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4",
+  "sourceInFrame": 0,
+  "outputInFrame": 0,
+  "samplesPreserved": 260000,
+  "maxPCMError": 1.1894735507667065e-07,
+  "nativeAfterCutIsSilent": true,
+  "provisionalAmbienceBeforeCutIsSilent": true,
+  "externalVoiceInMix": false,
+  "speed": 1,
+  "scope": "Waveform and clock preservation; not independent perceptual lip-sync review"
+}

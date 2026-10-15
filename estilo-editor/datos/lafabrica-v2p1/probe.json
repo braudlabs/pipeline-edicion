@@ -1,0 +1,18 @@
+{
+ "slug": "lafabrica-v2p1",
+ "original": "LaFabrica_V2_P1.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 24.0,
+ "fps_num": 24,
+ "fps_den": 1,
+ "frames": 1907,
+ "duration": 79.458345,
+ "video_codec": "h264",
+ "video_bitrate": 9877655,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 44100,
+ "audio_channels": 2,
+ "audio_bitrate": 125584
+}

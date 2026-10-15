@@ -1,0 +1,42 @@
+[
+ {
+  "id": "caido-aterriza",
+  "file": "impact-bass-1.mp3",
+  "frame": 526.1377037438225,
+  "gain": 0.1,
+  "maxSeconds": 0.42,
+  "why": "«CAÍDO» cae y toca el canto de las pantallas",
+  "seconds": 21.9224,
+  "peakDb": -20.45
+ },
+ {
+  "id": "seleccion-problema",
+  "file": "click-soft.mp3",
+  "frame": 634,
+  "gain": 0.3,
+  "maxSeconds": 0.35,
+  "why": "selección de «tu problema» (tiradores)",
+  "seconds": 26.4167,
+  "peakDb": -15.75
+ },
+ {
+  "id": "reabre-solucion",
+  "file": "click-soft.mp3",
+  "frame": 757.2112,
+  "gain": 0.36,
+  "maxSeconds": 0.35,
+  "why": "la ventana reabre con «la solución»",
+  "seconds": 31.5505,
+  "peakDb": -14.17
+ },
+ {
+  "id": "cinco",
+  "file": "pop.mp3",
+  "frame": 856,
+  "gain": 0.38,
+  "maxSeconds": 0.5,
+  "why": "«5» se posa",
+  "seconds": 35.6667,
+  "peakDb": -11.56
+ }
+]

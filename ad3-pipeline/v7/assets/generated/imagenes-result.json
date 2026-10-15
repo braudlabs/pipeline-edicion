@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-09-16T16:23:50.976512Z",
+  "display_name": "Soul Cinematic",
+  "id": "bef7e172-64bf-4f33-80d2-af1b604b7820",
+  "job_type": "soul_cinematic",
+  "min_result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J6FQFTTA9QjPtF1hq3ARRFm1Jl/hf_20260916_162350_bef7e172-64bf-4f33-80d2-af1b604b7820_min.webp",
+  "params": {
+    "batch_size": 1,
+    "enhance_prompt": false,
+    "height": 2048,
+    "prompt": "A real editorial still-life photograph for a small artisan cafe: a dark olive glazed ceramic espresso cup, a ripe pear and a folded natural linen napkin on a worn oak table beside a window. Soft overcast daylight coming from one side, honest handmade ceramic irregularities, quiet shadows, understated film color, slight natural grain. Close enough to read clearly as a circular thumbnail, main subjects grouped in the central 60 percent. Real camera, 50mm lens at f4, natural depth of field. Restrained, tactile, believable magazine photography. No text, no logos, no borders, no illustration, no synthetic glossy finish, no floating objects.",
+    "quality": "1080p",
+    "seed": 596014,
+    "style": {
+      "id": "5fbabfac-d27b-4751-b550-fea356ed55ac",
+      "name": "General",
+      "strength": 1,
+      "url": "https://cdn.higgsfield.ai/soul-cinematic-style/5f42a585-8ddb-4a06-96c6-682afce0afa1.webp"
+    },
+    "style_id": "5fbabfac-d27b-4751-b550-fea356ed55ac",
+    "style_strength": null,
+    "width": 2048
+  },
+  "result_url": "https://d8j0ntlcm91z4.cloudfront.net/user_3J6FQFTTA9QjPtF1hq3ARRFm1Jl/hf_20260916_162350_bef7e172-64bf-4f33-80d2-af1b604b7820.png",
+  "status": "completed"
+}

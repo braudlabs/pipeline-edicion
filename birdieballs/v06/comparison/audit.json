@@ -1,0 +1,103 @@
+{
+  "version": "V06",
+  "reference": "BRAUDLABS V8",
+  "scope": "Focused comparison of caption continuity, hierarchy and entrances; native frames plus existing measured V8 study. Not a new exhaustive viewing of V8.",
+  "evidence": [
+    {
+      "time": 12.629283,
+      "cue": "recuperamos",
+      "defect": "Persistent text translates upward200px at sourcecut757; the word was already visible.",
+      "source": "Film.tsx onBrightSky translate(0 -200)"
+    },
+    {
+      "time": 13.246567,
+      "cue": "bolas-product/originales",
+      "defect": "Persistent group translates downward200px at sourcecut794."
+    },
+    {
+      "interval": [
+        28.2,
+        30.99
+      ],
+      "defect": "Narration supporting the same offer relocates baseline330 to1680, a1350px jump within one sentence."
+    },
+    {
+      "interval": [
+        15.08,
+        16.76
+      ],
+      "defect": "Lagos left-aligned to Campos right-aligned creates an additional lateral search without a demonstrated narrative need. This is an editorial assessment, not a measured original-editor rule."
+    },
+    {
+      "referenceFrames": [
+        452,
+        463
+      ],
+      "observation": "Porque to contratar retains centered reading area. Both observed first-state images show a direct readable word."
+    },
+    {
+      "referenceFrames": [
+        550,
+        575
+      ],
+      "observation": "Pagar becomes a large regular-weight focal word; smaller supports form one compact composition."
+    },
+    {
+      "implementation": "pose():ease(age/.18)",
+      "defect": "Left/right/up entrances share180ms and one easing; settle uses generic coefficients different from the measured V8 trajectory."
+    }
+  ],
+  "nextRevisionRules": [
+    {
+      "rule": "One stable anchor for each semantic block; subsequent words inherit it.",
+      "status": "Required design correction; not implemented in a new render yet."
+    },
+    {
+      "rule": "No instantaneous anchor relocation while a caption remains visible.",
+      "status": "Required correction of identified source-cut translation."
+    },
+    {
+      "rule": "Change anchor only at a narrative/scene boundary with a documented visibility, speaker, object or graphic reason; a cut alone is insufficient.",
+      "status": "Proposed operating rule based on user feedback and inspected examples, not a universal original-editor measurement."
+    },
+    {
+      "rule": "Distinguish quiet direct replacements, cumulative phrases and scarce hero treatments; do not vary position merely to provide variety.",
+      "status": "Required design correction."
+    }
+  ],
+  "userFeedback": "no está mal ... un poco cutre ... los subtitulos cambian DEMASIADO de posición",
+  "approval": "Partial positive assessment, revision requested, not approved",
+  "rendersModified": false,
+  "keyframeReview": {
+    "userFeedback": "sí, y lo que son los keyframes, se pueden mejorar muchísimo más",
+    "implementationObserved": {
+      "sharedSlideDurationMs": 180,
+      "sharedSlideEase": "quartic ease-out",
+      "fadeInMs": 35,
+      "exit": "linear opacity fade; no independent exit trajectory",
+      "settleDecayPerFrame": 0.16,
+      "referenceFittedDecayPerFrame": 0.099,
+      "referenceFitDomainFrames": [
+        2,
+        60
+      ],
+      "exposureFrames": 0.32,
+      "temporalSamples": 5
+    },
+    "interpretation": [
+      "Most translation entries share one rhythm regardless of phrase role.",
+      "Exit motion is not choreographed: pose persists while opacity fades.",
+      "The generic hero spring differs in phase, amplitude and decay from the measured V8 fit.",
+      "A valid comparison needs velocity, overshoot, settling and opacity timing, not endpoint positions alone."
+    ],
+    "requiredNextRevision": [
+      "Stable semantic-block anchor through reading hold.",
+      "Separate entry, reading hold and exit phases with explicit timings.",
+      "Quiet direct replacements, coordinated cumulative entries and scarce hero trajectories.",
+      "Use measured V8 trajectory only for analogous hero roles and within observed domain; first/last unmeasured phases are design choices.",
+      "Coordinate child layers with a shared group timeline; offsets follow spoken emphasis.",
+      "Evaluate blur together with displacement and velocity; keep settled glyphs crisp."
+    ],
+    "status": "Recorded for next edit; V06 render unchanged"
+  }
+}

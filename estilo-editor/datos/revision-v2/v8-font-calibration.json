@@ -1,0 +1,456 @@
+{
+  "status": "candidate_shape_fits_not_exact_font_identification",
+  "method": "Cropped native lime chroma mask; FreeType candidate renders; height search ±4%, tracking fitted to width; IoU on centered ink. Red reference, green candidate, yellow overlap. Native subjects may occlude Braudd, inspect before trusting.",
+  "words": [
+    {
+      "text": "pagar",
+      "frame": 590,
+      "roi": [
+        110,
+        960,
+        970,
+        1270
+      ],
+      "inkSize": [
+        840,
+        288
+      ],
+      "candidates": [
+        {
+          "font": "SF Pro Display Regular",
+          "path": "/Users/alejandrorubiocamarero/Library/Fonts/SFPRODISPLAYREGULAR.OTF",
+          "index": 0,
+          "iou": 0.9522516977286257,
+          "size": 409,
+          "trackingPx": -29.36161422729493,
+          "trackingPerThousand": -72,
+          "inkWidth": 839,
+          "inkHeight": 289
+        },
+        {
+          "font": "SF Pro (sistema) Regular",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.914742364073148,
+          "size": 411,
+          "trackingPx": -30.607697296142582,
+          "trackingPerThousand": -74,
+          "inkWidth": 839,
+          "inkHeight": 287
+        },
+        {
+          "font": "SF Pro (sistema) Light",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.7612791650232107,
+          "size": 409,
+          "trackingPx": -25.58777542114258,
+          "trackingPerThousand": -63,
+          "inkWidth": 840,
+          "inkHeight": 286
+        },
+        {
+          "font": "Helvetica Neue Medium",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 10,
+          "iou": 0.747933578425325,
+          "size": 392,
+          "trackingPx": -46.345733642578125,
+          "trackingPerThousand": -118,
+          "inkWidth": 839,
+          "inkHeight": 288
+        },
+        {
+          "font": "SF Pro (sistema) Semibold",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.7264607542846454,
+          "size": 403,
+          "trackingPx": -41.7952003479004,
+          "trackingPerThousand": -104,
+          "inkWidth": 839,
+          "inkHeight": 286
+        },
+        {
+          "font": "Helvetica Neue Light",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 7,
+          "iou": 0.700851685733004,
+          "size": 392,
+          "trackingPx": -27.345672607421875,
+          "trackingPerThousand": -70,
+          "inkWidth": 840,
+          "inkHeight": 288
+        },
+        {
+          "font": "Helvetica Light",
+          "path": "/System/Library/Fonts/Helvetica.ttc",
+          "index": 4,
+          "iou": 0.6980657561135193,
+          "size": 381,
+          "trackingPx": -34.19704055786133,
+          "trackingPerThousand": -90,
+          "inkWidth": 840,
+          "inkHeight": 284
+        },
+        {
+          "font": "SF Pro Display Bold",
+          "path": "/Users/alejandrorubiocamarero/Library/Fonts/SFPRODISPLAYBOLD.OTF",
+          "index": 0,
+          "iou": 0.675117166212534,
+          "size": 395,
+          "trackingPx": -45.65047836303711,
+          "trackingPerThousand": -116,
+          "inkWidth": 839,
+          "inkHeight": 289
+        },
+        {
+          "font": "Helvetica Neue Bold",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 1,
+          "iou": 0.665324110556577,
+          "size": 397,
+          "trackingPx": -58.595603179931636,
+          "trackingPerThousand": -148,
+          "inkWidth": 840,
+          "inkHeight": 289
+        },
+        {
+          "font": "SF Pro (sistema) Bold",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.6630975225241291,
+          "size": 400,
+          "trackingPx": -48.92791748046875,
+          "trackingPerThousand": -122,
+          "inkWidth": 839,
+          "inkHeight": 288
+        },
+        {
+          "font": "Helvetica Bold",
+          "path": "/System/Library/Fonts/Helvetica.ttc",
+          "index": 1,
+          "iou": 0.6584285632249914,
+          "size": 384,
+          "trackingPx": -44.18935546875001,
+          "trackingPerThousand": -115,
+          "inkWidth": 840,
+          "inkHeight": 293
+        },
+        {
+          "font": "Arial Bold",
+          "path": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+          "index": 0,
+          "iou": 0.6328841670696412,
+          "size": 389,
+          "trackingPx": -49.60349502563477,
+          "trackingPerThousand": -128,
+          "inkWidth": 840,
+          "inkHeight": 289
+        },
+        {
+          "font": "SF Pro (sistema) Heavy",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.5995001359733751,
+          "size": 395,
+          "trackingPx": -58.4745979309082,
+          "trackingPerThousand": -148,
+          "inkWidth": 840,
+          "inkHeight": 287
+        },
+        {
+          "font": "Arial Black",
+          "path": "/System/Library/Fonts/Supplemental/Arial Black.ttf",
+          "index": 0,
+          "iou": 0.5482928291330519,
+          "size": 389,
+          "trackingPx": -90.89675674438477,
+          "trackingPerThousand": -234,
+          "inkWidth": 839,
+          "inkHeight": 289
+        },
+        {
+          "font": "Helvetica Neue Condensed Bold",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 4,
+          "iou": 0.5366083579513393,
+          "size": 410,
+          "trackingPx": -20.228797912597656,
+          "trackingPerThousand": -49,
+          "inkWidth": 839,
+          "inkHeight": 300
+        },
+        {
+          "font": "Helvetica Neue Thin",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 12,
+          "iou": 0.46755824780771316,
+          "size": 392,
+          "trackingPx": -17.740069580078128,
+          "trackingPerThousand": -45,
+          "inkWidth": 840,
+          "inkHeight": 283
+        },
+        {
+          "font": "SF Pro (sistema) Thin",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.4624370775926037,
+          "size": 414,
+          "trackingPx": -22.92773895263672,
+          "trackingPerThousand": -55,
+          "inkWidth": 839,
+          "inkHeight": 288
+        },
+        {
+          "font": "SF Pro (sistema) Ultralight",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.3061002067694063,
+          "size": 406,
+          "trackingPx": -15.83428497314453,
+          "trackingPerThousand": -39,
+          "inkWidth": 839,
+          "inkHeight": 281
+        },
+        {
+          "font": "Helvetica Neue UltraLight",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 5,
+          "iou": 0.26075379364230783,
+          "size": 387,
+          "trackingPx": -7.11541213989258,
+          "trackingPerThousand": -18,
+          "inkWidth": 839,
+          "inkHeight": 277
+        }
+      ]
+    },
+    {
+      "text": "Braudd",
+      "frame": 1679,
+      "roi": [
+        120,
+        390,
+        960,
+        650
+      ],
+      "inkSize": [
+        808,
+        224
+      ],
+      "candidates": [
+        {
+          "font": "SF Pro Display Regular",
+          "path": "/Users/alejandrorubiocamarero/Library/Fonts/SFPRODISPLAYREGULAR.OTF",
+          "index": 0,
+          "iou": 0.9241099606515988,
+          "size": 313,
+          "trackingPx": -20.882825469970705,
+          "trackingPerThousand": -67,
+          "inkWidth": 807,
+          "inkHeight": 224
+        },
+        {
+          "font": "SF Pro (sistema) Regular",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.9062550141733968,
+          "size": 311,
+          "trackingPx": -19.495157623291014,
+          "trackingPerThousand": -63,
+          "inkWidth": 808,
+          "inkHeight": 222
+        },
+        {
+          "font": "SF Pro (sistema) Light",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.7803053520184994,
+          "size": 311,
+          "trackingPx": -15.876726531982424,
+          "trackingPerThousand": -51,
+          "inkWidth": 807,
+          "inkHeight": 223
+        },
+        {
+          "font": "SF Pro (sistema) Semibold",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.7113852559544054,
+          "size": 311,
+          "trackingPx": -30.926552581787114,
+          "trackingPerThousand": -99,
+          "inkWidth": 808,
+          "inkHeight": 222
+        },
+        {
+          "font": "Helvetica Light",
+          "path": "/System/Library/Fonts/Helvetica.ttc",
+          "index": 4,
+          "iou": 0.699806910151596,
+          "size": 299,
+          "trackingPx": -28.338982391357423,
+          "trackingPerThousand": -95,
+          "inkWidth": 808,
+          "inkHeight": 219
+        },
+        {
+          "font": "Helvetica Neue Medium",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 10,
+          "iou": 0.6930763293489371,
+          "size": 307,
+          "trackingPx": -39.23576736450195,
+          "trackingPerThousand": -128,
+          "inkWidth": 808,
+          "inkHeight": 223
+        },
+        {
+          "font": "SF Pro Display Bold",
+          "path": "/Users/alejandrorubiocamarero/Library/Fonts/SFPRODISPLAYBOLD.OTF",
+          "index": 0,
+          "iou": 0.6436056747366166,
+          "size": 313,
+          "trackingPx": -38.77324752807617,
+          "trackingPerThousand": -124,
+          "inkWidth": 808,
+          "inkHeight": 224
+        },
+        {
+          "font": "Helvetica Neue Bold",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 1,
+          "iou": 0.6384750755215931,
+          "size": 307,
+          "trackingPx": -44.77981185913086,
+          "trackingPerThousand": -146,
+          "inkWidth": 807,
+          "inkHeight": 223
+        },
+        {
+          "font": "SF Pro (sistema) Bold",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.6370096378284767,
+          "size": 305,
+          "trackingPx": -33.39218521118164,
+          "trackingPerThousand": -109,
+          "inkWidth": 808,
+          "inkHeight": 218
+        },
+        {
+          "font": "Helvetica Neue Light",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 7,
+          "iou": 0.6347940700527223,
+          "size": 301,
+          "trackingPx": -22.345125579833987,
+          "trackingPerThousand": -74,
+          "inkWidth": 808,
+          "inkHeight": 219
+        },
+        {
+          "font": "Arial Bold",
+          "path": "/System/Library/Fonts/Supplemental/Arial Bold.ttf",
+          "index": 0,
+          "iou": 0.6316632328151339,
+          "size": 309,
+          "trackingPx": -46.25169296264649,
+          "trackingPerThousand": -150,
+          "inkWidth": 807,
+          "inkHeight": 225
+        },
+        {
+          "font": "Helvetica Bold",
+          "path": "/System/Library/Fonts/Helvetica.ttc",
+          "index": 1,
+          "iou": 0.6250206350079789,
+          "size": 305,
+          "trackingPx": -43.54240798950195,
+          "trackingPerThousand": -143,
+          "inkWidth": 807,
+          "inkHeight": 225
+        },
+        {
+          "font": "SF Pro (sistema) Heavy",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.5669090423935159,
+          "size": 307,
+          "trackingPx": -44.42332534790038,
+          "trackingPerThousand": -145,
+          "inkWidth": 808,
+          "inkHeight": 220
+        },
+        {
+          "font": "Helvetica Neue Condensed Bold",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 4,
+          "iou": 0.5627163198247536,
+          "size": 321,
+          "trackingPx": -16.654666900634773,
+          "trackingPerThousand": -52,
+          "inkWidth": 808,
+          "inkHeight": 233
+        },
+        {
+          "font": "Arial Black",
+          "path": "/System/Library/Fonts/Supplemental/Arial Black.ttf",
+          "index": 0,
+          "iou": 0.5382064748765384,
+          "size": 309,
+          "trackingPx": -72.11705245971679,
+          "trackingPerThousand": -233,
+          "inkWidth": 808,
+          "inkHeight": 225
+        },
+        {
+          "font": "SF Pro (sistema) Thin",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.46414647730437203,
+          "size": 307,
+          "trackingPx": -8.542325592041019,
+          "trackingPerThousand": -28,
+          "inkWidth": 807,
+          "inkHeight": 220
+        },
+        {
+          "font": "Helvetica Neue Thin",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 12,
+          "iou": 0.4595099979526377,
+          "size": 303,
+          "trackingPx": -13.757659149169923,
+          "trackingPerThousand": -45,
+          "inkWidth": 808,
+          "inkHeight": 220
+        },
+        {
+          "font": "SF Pro (sistema) Ultralight",
+          "path": "/System/Library/Fonts/SFNS.ttf",
+          "index": 0,
+          "iou": 0.3089545176195513,
+          "size": 307,
+          "trackingPx": -6.004759979248048,
+          "trackingPerThousand": -20,
+          "inkWidth": 807,
+          "inkHeight": 219
+        },
+        {
+          "font": "Helvetica Neue UltraLight",
+          "path": "/System/Library/Fonts/HelveticaNeue.ttc",
+          "index": 5,
+          "iou": 0.24440843685515254,
+          "size": 297,
+          "trackingPx": -5.748438262939455,
+          "trackingPerThousand": -19,
+          "inkWidth": 807,
+          "inkHeight": 215
+        }
+      ]
+    }
+  ]
+}

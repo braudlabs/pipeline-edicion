@@ -1,0 +1,37 @@
+{
+  "id": "v1-pagado-C",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d032_f01283-f01322.jpg",
+    "d033_f01323-f01362.jpg",
+    "d034_f01363-f01402.jpg",
+    "d035_f01403-f01442.jpg",
+    "d036_f01443-f01482.jpg",
+    "d037_f01483-f01522.jpg",
+    "d038_f01523-f01562.jpg",
+    "d039_f01563-f01602.jpg",
+    "d040_f01603-f01642.jpg",
+    "d041_f01643-f01682.jpg",
+    "d042_f01683-f01722.jpg",
+    "d043_f01723-f01762.jpg",
+    "d044_f01763-f01802.jpg",
+    "d045_f01803-f01842.jpg",
+    "d046_f01843-f01897.jpg"
+  ],
+  "native_ranges": [],
+  "spectrograms_viewed": [
+    "s_048-056.png",
+    "s_056-064.png",
+    "s_064-072.png",
+    "s_072-080.png"
+  ],
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 17,
+  "supplemental_status": "not_required",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

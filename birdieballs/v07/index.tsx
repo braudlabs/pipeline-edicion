@@ -1,0 +1,1 @@
+import React from 'react';import {Composition,registerRoot} from 'remotion';import {Film,FPS,FRAMES} from './Film';registerRoot(()=> <Composition id="BirdieV07" component={Film} defaultProps={{blur:.32,sound:true}} width={1080} height={1920} fps={FPS} durationInFrames={FRAMES}/>);

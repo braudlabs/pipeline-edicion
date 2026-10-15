@@ -1,0 +1,18 @@
+{
+ "slug": "v8",
+ "original": "BRAUDLABS - V8.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 59.94005994005994,
+ "fps_num": 60000,
+ "fps_den": 1001,
+ "frames": 4290,
+ "duration": 71.5715,
+ "video_codec": "h264",
+ "video_bitrate": 18510783,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 44100,
+ "audio_channels": 2,
+ "audio_bitrate": 189479
+}

@@ -1,0 +1,49 @@
+BRIEF DE EDICIÓN
+AD 1 «Lo has probado y te salen churros» · Visual Hub
+Vertical 9:16 · 1080p · 16 clips, 80,8 s de material · la locución dura 70,6 s
+
+
+LO PRIMERO: LA VOZ
+
+- `voz-narrador-ORIGINAL.mp3` empieza con un «hola, hola, hola» que NO va en el anuncio: está solo para que la voz saliera uniforme. Va de 0,12 a 0,68 s y el guion arranca en 0,90.
+- Ya tienes el corte hecho en `voz-narrador-CORTADA.mp3`. Si prefieres cortarlo tú, el punto limpio es el segundo 0,85.
+- Todos los tiempos de la tabla de abajo están en el archivo ORIGINAL. Si usas el cortado, réstales 0,85 s.
+
+- **La narra el locutor entera, MENOS dos clips en los que habla ella a cámara.** En esos dos manda su voz y hay que silenciar al locutor:
+  - `05-plastica-artificial-HABLA-ELLA.mp4` → silenciar locutor de 12,82 a 19,54 s.
+  - `14-cierre-HABLA-ELLA.mp4` → silenciar locutor de 67,36 a 71,46 s.
+
+
+LOS CLIPS, EN ORDEN
+
+| # | Archivo | Frase | Voz | Tramo del locutor | Qué hacer |
+|---|---|---|---|---|---|
+| 1 | 01-hook.mp4 | «Si has intentado crear contenido con IA…» | Locutor | 0,70-5,30 | Cuadra |
+| 2 | 02-avatar-bueno.mp4 | «Consigues un avatar que te gusta…» | Locutor | 5,30-6,76 | Recortar, sobran ~2,5 s |
+| 3 | 03-avatar-cambiado.mp4 | «…ya no parece la misma persona.» | Locutor | 6,76-9,67 | Recortar ~1 s |
+| 4 | 04a / 04b / 04c-otra-cocinera.mp4 | «Cambias escena y cambia la cara, el estilo visual o incluso la voz.» | Locutor | 9,67-12,82 | Los tres reparten 3,1 s: ~1 s cada uno, corte seco entre ellos. Es el chiste — en cada corte es otra cocinera |
+| 5 | 05-plastica-artificial-HABLA-ELLA.mp4 | «O consigues mantenerlo más o menos consistente…» | **Ella** | silenciar 12,82-19,54 | Manda su voz |
+| 6 | 06-creditos-quemados.mp4 | «…una cantidad absurda de créditos…» | Locutor | 19,54-26,34 | Faltan ~2,7 s: aquí van tus capturas de créditos gastados |
+| 7 | 07-hora-punta.mp4 | «Y si tienes una agencia, una marca o un negocio…» | Locutor | 26,34-33,32 | Faltan ~1,9 s |
+| 8 | 08-tiempo-y-dinero.mp4 | «Se convierte en tiempo y dinero perdido.» | Locutor | 33,32-35,54 | Recortar ~1,8 s |
+| 9 | 09-nosotros-procesos-SIN-AUDIO.mp4 | «Nosotros hemos utilizado estos procesos…» | Locutor | 35,54-45,14 | Va sin audio a propósito: aquí entran tus clips de las dos cuentas orgánicas. Faltan ~1,6 s |
+| 10 | 10-comanda.mp4 | «Y precisamente por eso creamos Visual Hub.» | Locutor | 45,14-46,95 | Recortar. Si quieres, el logo encima |
+| 11 | 11-brigada.mp4 | «Una comunidad para gente que quiere utilizar IA creativa…» | Locutor | 46,95-53,46 | Faltan ~1,5 s: capturas de la comunidad |
+| 12 | 12-platos-iguales.mp4 | «Dentro encontrarás plantillas y sistemas listos para utilizar…» | Locutor | 53,46-63,04 | Faltan ~4,5 s: es el hueco grande para las capturas de plantillas y sistemas |
+| 13 | 13-en-directo.mp4 | «Además tienes sesiones en directo…» | Locutor | 63,04-67,36 | Ver la nota de audio de abajo |
+| 14 | 14-cierre-HABLA-ELLA.mp4 | «Si quieres dejar de generar a prueba y error… 39 dólares.» | **Ella** | silenciar 67,36-71,46 | Manda su voz. El precio en rótulo, si quieres |
+
+
+EL CLIP DEL DIRECTO
+
+El tío que sale en la videollamada dice cosas raras. Usa `13-en-directo-SIN-VOZ-recomendado.mp4`: es el mismo clip con el audio cambiado por el ambiente de cocina de otro plano. Si prefieres montar el original, quítale el audio entero y ponle ambiente de cualquier otro clip.
+
+
+EL ESTILO
+
+Lo más dinámico y dopamínico posible, pero sin perder la consistencia ni la uniformidad: es la misma cocina, la misma cocinera y la misma luz de principio a fin, salvo en los tres clips donde cambia a propósito.
+
+
+SI ALGO NO TE CUADRA
+
+Si lo ves lineal, si crees que falta un plano, si algo se ve raro o si necesitas otro corte de algo, dínoslo sin problema y lo regeneramos. Pregunta lo que necesites.

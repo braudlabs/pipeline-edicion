@@ -1,0 +1,65 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/alejandrorubiocamarero/.cache/whisper-models/ggml-large-v3-turbo.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:03,140"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 3140
+			},
+			"text": " Coge a tu abuela, le activas el micro y que le diga a ChatGPT:"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,140",
+				"to": "00:00:06,700"
+			},
+			"offsets": {
+				"from": 3140,
+				"to": 6700
+			},
+			"text": " \"Hazme un anuncio hiperrealista, UGC, bla bla bla, pero ya.\""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:09,700",
+				"to": "00:00:12,500"
+			},
+			"offsets": {
+				"from": 9700,
+				"to": 12500
+			},
+			"text": " Evidentemente lo que prevalece es el criterio visual."
+		}
+	]
+}

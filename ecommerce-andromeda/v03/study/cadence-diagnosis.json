@@ -1,0 +1,7 @@
+{
+  "v02FrameCount": 920,
+  "minStepSeconds": 0.041665999999999315,
+  "maxStepSeconds": 0.04166700000000034,
+  "missingTimestampGaps": 0,
+  "interpretation": "V02 timestamp cadence is regular 24fps. Perceived lag cannot be attributed to missing encoded frames from this check. V03 changes text entrance/readability, tests 48fps graphics, and offers lighter playback proxy."
+}

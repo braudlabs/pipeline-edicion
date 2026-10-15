@@ -1,0 +1,82 @@
+{
+  "format": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "48/1",
+        "nb_frames": "1840"
+      }
+    ]
+  },
+  "V04TimelineAndCaptionsIdentical": true,
+  "audioEncodedHashMatchesV04": true,
+  "audioHash": "SHA256=145ae243503e26af132b95562c2307417e9fd06f56d9b2314b11a9777f2ca662",
+  "pixelChecks": [
+    {
+      "outputFrame": 120,
+      "time": 2.5,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.0
+    },
+    {
+      "outputFrame": 479,
+      "time": 9.979166666666666,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.13130465534979424
+    },
+    {
+      "outputFrame": 514,
+      "time": 10.708333333333334,
+      "motionExpected": true,
+      "meanRGBDifferenceVsV04": 6.453773148148148
+    },
+    {
+      "outputFrame": 551,
+      "time": 11.479166666666666,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 1.1279295267489713
+    },
+    {
+      "outputFrame": 1000,
+      "time": 20.833333333333332,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.0
+    },
+    {
+      "outputFrame": 1430,
+      "time": 29.791666666666668,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.0
+    },
+    {
+      "outputFrame": 1482,
+      "time": 30.875,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.0
+    },
+    {
+      "outputFrame": 1723,
+      "time": 35.895833333333336,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.0
+    },
+    {
+      "outputFrame": 1826,
+      "time": 38.041666666666664,
+      "motionExpected": false,
+      "meanRGBDifferenceVsV04": 0.0
+    }
+  ],
+  "motionWindowFrames": [
+    480,
+    551
+  ],
+  "maquinitaUnchanged": true,
+  "sweatshirtGagUnchanged": true,
+  "referenceAndConceptReview": true,
+  "visualReview": "concept states, motion phase sequence and rendered scope samples; not independent full playback/listening",
+  "approval": "V05 pending"
+}

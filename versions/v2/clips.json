@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "from": 0,
+    "duration": 169,
+    "src": "assets/01.mp4"
+  },
+  {
+    "id": 2,
+    "from": 169,
+    "duration": 97,
+    "src": "assets/02.mp4"
+  },
+  {
+    "id": 3,
+    "from": 266,
+    "duration": 145,
+    "src": "assets/03.mp4"
+  },
+  {
+    "id": 4,
+    "from": 411,
+    "duration": 121,
+    "src": "assets/04.mp4"
+  },
+  {
+    "id": 5,
+    "from": 532,
+    "duration": 97,
+    "src": "assets/05.mp4"
+  },
+  {
+    "id": 6,
+    "from": 629,
+    "duration": 169,
+    "src": "assets/06.mp4"
+  },
+  {
+    "id": 7,
+    "from": 798,
+    "duration": 97,
+    "src": "assets/07.mp4"
+  },
+  {
+    "id": 8,
+    "from": 895,
+    "duration": 121,
+    "src": "assets/08.mp4"
+  },
+  {
+    "id": 9,
+    "from": 1016,
+    "duration": 193,
+    "src": "assets/09.mp4"
+  },
+  {
+    "id": 10,
+    "from": 1209,
+    "duration": 97,
+    "src": "assets/10.mp4"
+  },
+  {
+    "id": 11,
+    "from": 1306,
+    "duration": 97,
+    "src": "assets/11.mp4"
+  },
+  {
+    "id": 12,
+    "from": 1403,
+    "duration": 144,
+    "src": "assets/12.mp4"
+  },
+  {
+    "id": 13,
+    "from": 1547,
+    "duration": 121,
+    "src": "assets/13.mp4"
+  },
+  {
+    "id": 14,
+    "from": 1668,
+    "duration": 97,
+    "src": "assets/14.mp4"
+  }
+]

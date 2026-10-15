@@ -1,0 +1,752 @@
+{
+  "schema_version": "0.1",
+  "status": "legacy_implementation_not_style_validated",
+  "coordinate_system": {
+    "source_frame_base": 0,
+    "study_intervals": "inclusive",
+    "engine_intervals": "startFrame inclusive / endFrameExclusive",
+    "positions": "fractions of native source width/height",
+    "fps": "rational per source; no universal fps"
+  },
+  "user_decisions": {
+    "engine": "Remotion",
+    "font": "SF Pro",
+    "no_test_renders": true,
+    "purpose": "Pipeline comercializable sin dependencia de After Effects",
+    "source": "DECISIONES.md"
+  },
+  "interpretation": {
+    "font_size_not_ocr_box": true,
+    "contrast_metric_not_alpha": true,
+    "onset_not_identified_sfx": true,
+    "detector_cut_not_verified_cut": true,
+    "native_review_not_exhaustive": "Consultar CURRENT-STUDY.json; no confundir hojas abiertas con curvas nativas medidas.",
+    "current_revision": "V03 rejected; recipes require migration to conditional V2 policy, no fidelity certification"
+  },
+  "families": {
+    "braud_vertical": {
+      "members": [
+        "v1-pagado",
+        "v2-churros",
+        "v3-ia-cara",
+        "v5-maquina",
+        "v6-ads90",
+        "v6-ads90-rev",
+        "v7-ads90-rev",
+        "v8"
+      ],
+      "modes": [
+        "word_rail",
+        "enlarged_rail",
+        "accumulation",
+        "hero_fit_width",
+        "masked_hero",
+        "dialogue",
+        "scene",
+        "deliberate_gap"
+      ],
+      "position": "Decisión por plano; y.50–.62 frecuente, V3 rail inferior y≈.73 desde132 y excepciones altas/sobre rostro/objeto. No constante universal.",
+      "source_font": "Fits selectivos favorecen Helvetica Bold en V2,V5,V6; otros resultados distintos. SF Pro es decisión de implementación."
+    },
+    "lafabrica_vertical": {
+      "members": [
+        "lafabrica-v1",
+        "lafabrica-v2p1"
+      ],
+      "modes": [
+        "word_rail",
+        "masked_hero",
+        "scene",
+        "accumulation"
+      ],
+      "position": "Texto a menudo arriba sobre recursos, no rail inferior universal.",
+      "source_font": "Helvetica Bold favorecida por fits de operación y millones; no confirma todas las variantes."
+    },
+    "landing_horizontal": {
+      "members": [
+        "landing"
+      ],
+      "modes": [
+        "thin_intro",
+        "thin_rail",
+        "bold_rail",
+        "masked_hero",
+        "nameplate",
+        "social_proof",
+        "dialogue"
+      ],
+      "position": "Lateral intro, rail inferior entrevistas, rail central recursos, texto gigante detrás de elementos.",
+      "source_font": "Peso fino y jerarquías locales; no extrapolar Bold de verticales."
+    }
+  },
+  "rules": [
+    {
+      "id": "frame-index",
+      "status": "verified_method",
+      "value": {
+        "selection": "ffmpeg select=eq(n,N), decoded native frames",
+        "duplicates": "decoded-frame hash, not reduced JPG threshold"
+      },
+      "evidence": [
+        "auditoria/verificacion-indices-seek.md",
+        "datos/segmentos.json"
+      ],
+      "confidence": "high",
+      "limitations": "Codec cadence and exact frame differences do not establish editorial intent."
+    },
+    {
+      "id": "implementation-font",
+      "status": "user_decision",
+      "value": "SF Pro",
+      "evidence": [
+        "DECISIONES.md"
+      ],
+      "confidence": "authorized",
+      "limitations": "Do not label original font universally SF Pro."
+    },
+    {
+      "id": "hero-width",
+      "status": "proposal",
+      "value": {
+        "target_ink_width_fraction": 0.73,
+        "fit": "per word using loaded font and tracking"
+      },
+      "evidence": [
+        "ALGORITMO.md",
+        "auditoria/medidas-globales-legado.md"
+      ],
+      "confidence": "initial",
+      "limitations": "Not appropriate for enlarged rail of fixed body. Long ordinary words can have large boxes."
+    },
+    {
+      "id": "initial-tracking",
+      "status": "proposal",
+      "value": {
+        "em": -0.06
+      },
+      "evidence": [
+        "ALGORITMO.md"
+      ],
+      "confidence": "low",
+      "limitations": "Legacy initial approximation; not universal measurement."
+    },
+    {
+      "id": "word-timing",
+      "status": "proposal",
+      "value": {
+        "start": "corrected voice start rounded to output fps",
+        "end": "next word or explicit representation change",
+        "pause": "explicit editorial choice",
+        "scope": "per speakerId/railId; another speaker does not terminate an existing rail"
+      },
+      "evidence": [
+        "ALGORITMO.md"
+      ],
+      "confidence": "medium",
+      "limitations": "OCR/Whisper offsets have errors; current complete and censored distributions differ. White completo in V6rev remains through1088 after yellow rail ends."
+    },
+    {
+      "id": "anchor-by-layout",
+      "status": "proposal",
+      "value": {
+        "scope": "shot or semantic layout",
+        "overlap": "evaluate; allow intentional mouth/object overlap with explicit reason",
+        "face_tracking": "only if planned"
+      },
+      "evidence": [
+        "notas/v6-ads90-B.md",
+        "notas/v5-maquina-A.md",
+        "ALGORITMO.md"
+      ],
+      "confidence": "high qualitative",
+      "limitations": "No universal y position, face box is not camera track."
+    },
+    {
+      "id": "intro-rise",
+      "status": "native_observation",
+      "value": {
+        "slug": "landing",
+        "frames": [
+          9,
+          55
+        ],
+        "cy_px_samples": [
+          [
+            9,
+            585.6
+          ],
+          [
+            10,
+            580.5
+          ],
+          [
+            11,
+            575.5
+          ],
+          [
+            13,
+            569
+          ],
+          [
+            16,
+            561.5
+          ],
+          [
+            20,
+            555
+          ],
+          [
+            26,
+            548
+          ],
+          [
+            32,
+            544
+          ],
+          [
+            35,
+            542
+          ],
+          [
+            40,
+            540
+          ],
+          [
+            55,
+            537.5
+          ]
+        ],
+        "ink_width_px": [
+          127,
+          128
+        ],
+        "ink_height_px": [
+          38,
+          39
+        ],
+        "position_fit": {
+          "model": "cy=537.0351+46.3499*exp(-0.0859*(frame-9))",
+          "frame_domain": [
+            9,
+            55
+          ],
+          "sample_count": 47,
+          "rmse_px": 0.6274,
+          "max_abs_error_px": 2.215,
+          "status": "approximation; not original easing"
+        }
+      },
+      "evidence": [
+        "notas/landing-A.md",
+        "medidas/landing-A/gracias-ink-all.tsv",
+        "medidas/landing-A/gracias-position-fit.json"
+      ],
+      "confidence": "high",
+      "limitations": "Threshold-dependent percentile box, compression ≈1px; contrast not alpha; easing unidentified."
+    },
+    {
+      "id": "plain-direct-entry",
+      "status": "native_observation",
+      "value": {
+        "slug": "landing",
+        "word": "Buenas",
+        "frame": 416,
+        "position_fraction": [
+          0.5,
+          0.77
+        ]
+      },
+      "evidence": [
+        "notas/landing-A.md",
+        "laminas/landing-A/buenas-entry.jpg"
+      ],
+      "confidence": "high",
+      "limitations": "First fully legible frame verified; does not imply all words instantaneous."
+    },
+    {
+      "id": "independent-phrase-exit",
+      "status": "native_observation",
+      "value": {
+        "slug": "landing",
+        "frames": [
+          86,
+          96
+        ],
+        "observation": "Te appears while Gracias exits; prior phrase gone90"
+      },
+      "evidence": [
+        "notas/landing-A.md",
+        "laminas/landing-A/intro-handoff.jpg"
+      ],
+      "confidence": "high",
+      "limitations": "No alpha fit established."
+    },
+    {
+      "id": "profile-reveal",
+      "status": "native_observation",
+      "value": {
+        "slug": "landing",
+        "profile1": {
+          "avatar": 632,
+          "header": 635,
+          "stats": [
+            641,
+            647
+          ],
+          "bio": [
+            649,
+            655
+          ],
+          "buttons": [
+            655,
+            666
+          ]
+        },
+        "profile2": {
+          "avatar": 684,
+          "header": 686,
+          "stats": [
+            692,
+            698
+          ],
+          "bio": [
+            700,
+            710
+          ],
+          "buttons": [
+            711,
+            723
+          ]
+        }
+      },
+      "evidence": [
+        "notas/landing-A.md",
+        "laminas/landing-A/proof-entry.jpg",
+        "laminas/landing-A/proof2-entry.jpg"
+      ],
+      "confidence": "high",
+      "limitations": "Endpoints are observational stages, not recovered original keyframes."
+    },
+    {
+      "id": "black-friday-pulse",
+      "status": "native_observation",
+      "value": {
+        "slug": "v6-ads90-rev",
+        "black": [
+          [
+            268,
+            "opaque"
+          ],
+          [
+            269,
+            "partial"
+          ],
+          [
+            270,
+            "absent"
+          ],
+          [
+            271,
+            "partial"
+          ],
+          [
+            272,
+            "opaque"
+          ],
+          [
+            273,
+            "partial"
+          ],
+          [
+            274,
+            "absent"
+          ],
+          [
+            275,
+            "partial"
+          ],
+          [
+            276,
+            "stable"
+          ]
+        ],
+        "friday": [
+          [
+            283,
+            "opaque"
+          ],
+          [
+            284,
+            "partial"
+          ],
+          [
+            285,
+            "absent"
+          ],
+          [
+            286,
+            "partial"
+          ],
+          [
+            287,
+            "opaque"
+          ]
+        ],
+        "text": "BLACK FRIDAY?"
+      },
+      "evidence": [
+        "notas/v6-ads90-rev-A.md",
+        "laminas/v6-ads90-rev/v6-ads90-rev-A-black-friday.jpg"
+      ],
+      "confidence": "high",
+      "limitations": "Categorical opacity, not fitted alpha. Intro shares native hashes with original."
+    },
+    {
+      "id": "masked-title-layers",
+      "status": "proposal",
+      "value": {
+        "order": [
+          "background",
+          "title_fill",
+          "transformed_person_and_or_object_cutouts",
+          "optional_title_outline",
+          "subordinate_text"
+        ]
+      },
+      "evidence": [
+        "notas/v1-pagado-A.md",
+        "notas/lafabrica-v2p1-C.md",
+        "ALGORITMO.md",
+        "notas/landing-B.md",
+        "notas/landing-C.md"
+      ],
+      "confidence": "high qualitative",
+      "limitations": "Outline optional; subject mask needs per-frame spatial consistency. Landing funcionan tras CRT/cabeza sin outline, Paid tras cámara/persona con outline frontal; IA1605 frontal al CRT: no heredar máscara."
+    },
+    {
+      "id": "speaker-rails",
+      "status": "native_and_dense_observation",
+      "value": {
+        "original_v6": "white only in young-man demo",
+        "rev_and_v7": "white narration + yellow actor dialogue; independent starts/ends",
+        "local_retiming": "V7 de first1029 versus rev de first1040; no universal -5 offset",
+        "yellow_de_first_frame": {
+          "v7-ads90-rev": 1029,
+          "v6-ads90-rev": 1040
+        }
+      },
+      "evidence": [
+        "notas/v6-ads90-B.md",
+        "notas/v6-ads90-rev-B.md",
+        "notas/v7-ads90-rev-B.md",
+        "laminas/v7-ads90-rev/dialogo-f1026-1033.jpg",
+        "laminas/v6-ads90-rev/v6-ads90-rev-B-yellow-de.jpg"
+      ],
+      "confidence": "high",
+      "limitations": "Do not translate offsets globally between versions. V7 first frame1029 verified after supplemental sheet showed1030; compare each rail independently."
+    },
+    {
+      "id": "micro-inserts",
+      "status": "native_observation",
+      "value": {
+        "events": [
+          {
+            "slug": "v1-pagado",
+            "frame": 1128,
+            "kind": "different shot"
+          },
+          {
+            "slug": "lafabrica-v2p1",
+            "frame": 342,
+            "kind": "black"
+          },
+          {
+            "slug": "v6-ads90",
+            "frame": 948,
+            "kind": "blurry frontal"
+          },
+          {
+            "slug": "v6-ads90-rev",
+            "frame": 948,
+            "kind": "blurry frontal"
+          },
+          {
+            "slug": "v7-ads90-rev",
+            "frame": 943,
+            "kind": "blurry frontal"
+          }
+        ]
+      },
+      "evidence": [
+        "notas/v1-pagado-B.md",
+        "notas/lafabrica-v2p1-A.md",
+        "notas/v6-ads90-B.md",
+        "notas/v6-ads90-rev-B.md",
+        "laminas/v6-ads90-rev/v6-ads90-rev-B-inserto-948.jpg",
+        "laminas/v7-ads90-rev/inserto-f940-946.jpg"
+      ],
+      "confidence": "high",
+      "limitations": "Could be deliberate or export defect; never mandatory embellishment."
+    },
+    {
+      "id": "grade-vs-freeze",
+      "status": "native_and_dense_observation",
+      "value": {
+        "v5_moving_bn": [
+          988,
+          1011
+        ],
+        "v7_moving_bn_frame": 374,
+        "v5_apparent_freeze": [
+          495,
+          521
+        ]
+      },
+      "evidence": [
+        "notas/v5-maquina-A.md",
+        "notas/v5-maquina-B.md",
+        "notas/v7-ads90-rev-A.md"
+      ],
+      "confidence": "high qualitative",
+      "limitations": "Separate metrage motion, grade, lighting and overlays. V5 495–521 visually retained; reviewer native493–498 and supplemental499–521 do not certify original geometric equality over full range. Freeze remains apparent until separate control."
+    },
+    {
+      "id": "scene-brand",
+      "status": "dense_observation",
+      "value": {
+        "slug": "v6-ads90",
+        "frames": [
+          563,
+          642
+        ],
+        "kind": "perspective brand in machine screen"
+      },
+      "evidence": [
+        "notas/v6-ads90-A.md"
+      ],
+      "confidence": "high qualitative",
+      "limitations": "No evidence of creation backend; do not treat as front-facing title."
+    },
+    {
+      "id": "semantic-gap",
+      "status": "dense_observation",
+      "value": {
+        "slug": "v6-ads90",
+        "frames": [
+          1264,
+          1306
+        ],
+        "kind": "reaction hold with movement and no rail"
+      },
+      "evidence": [
+        "notas/v6-ads90-B.md"
+      ],
+      "confidence": "high qualitative",
+      "limitations": "No detected text does not always imply actual omission; this hold was visually reviewed."
+    },
+    {
+      "id": "audio-events",
+      "status": "proposal",
+      "value": {
+        "fields": [
+          "onsetCandidate",
+          "auditoryIdentification",
+          "visualAnchor",
+          "offsetFrames"
+        ],
+        "policy": "Effects selected by action; no SFX per automatic onset"
+      },
+      "evidence": [
+        "METODO.md",
+        "ALGORITMO.md"
+      ],
+      "confidence": "high methodological",
+      "limitations": "Audio listened identification remains pending."
+    },
+    {
+      "id": "deterministic-render",
+      "status": "proposal",
+      "value": {
+        "state": "pure function of frame",
+        "random": "seeded",
+        "spec": "single truth with decision log",
+        "mask": "same source transform"
+      },
+      "evidence": [
+        "ALGORITMO.md",
+        "../MOTION-GRAPHICS-AE-REMOTION.md"
+      ],
+      "confidence": "high technical",
+      "limitations": "No renderer implemented or verified in this phase."
+    },
+    {
+      "id": "selective-ordinary-rail-fontfits",
+      "status": "native_measurement",
+      "value": {
+        "samples": [
+          {
+            "slug": "v5-maquina",
+            "frame": 390,
+            "text": "montamos",
+            "ink_wh_px": [
+              438,
+              68
+            ],
+            "best_candidate": "Helvetica Bold",
+            "best_iou": 0.905,
+            "best_body_px": 99,
+            "best_tracking_per_thousand_em": -76,
+            "sf_pro_display_bold_iou": 0.815
+          },
+          {
+            "slug": "v6-ads90-rev",
+            "frame": 2350,
+            "text": "Analizaremos",
+            "ink_wh_px": [
+              470,
+              69
+            ],
+            "best_candidate": "Helvetica Bold",
+            "best_iou": 0.91,
+            "best_body_px": 94,
+            "best_tracking_per_thousand_em": -131,
+            "sf_pro_display_bold_iou": 0.8
+          }
+        ]
+      },
+      "evidence": [
+        "laminas/v5-maquina/v5-maquina-A-rail-fontfit.metadata.json",
+        "laminas/v5-maquina/v5-maquina-A-rail-fontfit.txt",
+        "laminas/v5-maquina/v5-maquina-A-rail-source.png",
+        "laminas/v6-ads90-rev/v6-ads90-rev-C-rail-fontfit.metadata.json",
+        "laminas/v6-ads90-rev/v6-ads90-rev-C-rail-fontfit.txt",
+        "laminas/v6-ads90-rev/v6-ads90-rev-C-rail-source.png"
+      ],
+      "confidence": "high for measured fit; limited for source-font identity",
+      "limitations": "Two words and candidate-model fits; anti-aliasing, compression, threshold and ROI matter. Do not use as a universal tracking rule or override authorized SF Pro implementation. V5 first cropped-top trial was discarded."
+    },
+    {
+      "id": "landing-hooks-rise",
+      "status": "measured_native",
+      "value": {
+        "slug": "landing",
+        "word": "hooks",
+        "frames": [
+          4798,
+          4828
+        ],
+        "top_px": [
+          604,
+          570
+        ],
+        "ink_width_px": [
+          405,
+          407
+        ],
+        "ink_height_px": [
+          118,
+          119
+        ],
+        "duration_seconds": 0.5,
+        "behavior": "ascenso desacelerado y contraste, sin cambio de escala demostrado"
+      },
+      "evidence": [
+        "notas/landing-F.md",
+        "medidas/landing-F/ink-hooks-full.tsv",
+        "medidas/landing-F/metadata.json"
+      ],
+      "confidence": "high within ROI",
+      "limitations": "Posición sigue asentándose: último frame medido no prueba fin absoluto; contraste no alpha."
+    },
+    {
+      "id": "landing-creador-rise",
+      "status": "measured_native",
+      "value": {
+        "slug": "landing",
+        "word": "Creador",
+        "frames": [
+          2789,
+          2805
+        ],
+        "top_px": [
+          444,
+          427
+        ],
+        "ink_height_px": 119,
+        "behavior": "ascenso y contraste"
+      },
+      "evidence": [
+        "notas/landing-D.md",
+        "medidas/landing-D/ink-creador-clean.tsv",
+        "medidas/landing-D/metadata.json"
+      ],
+      "confidence": "high vertical / limited horizontal",
+      "limitations": "ROI roza r: ancho medido no representa palabra completa. ROI anterior contaminada por oreja descartada. No reducción de escala demostrada."
+    },
+    {
+      "id": "v3-subject-white-flash",
+      "status": "native_observation",
+      "value": {
+        "slug": "v3-ia-cara",
+        "white_subject_frames": [
+          1428,
+          1430,
+          1431,
+          1433
+        ],
+        "source_cut_frame": 1431,
+        "rail_returns": [
+          1432,
+          1434
+        ],
+        "behavior": "Silueta blanca solo de persona; fondo conserva imagen."
+      },
+      "evidence": [
+        "notas/v3-ia-cara-B.md"
+      ],
+      "confidence": "high selective native",
+      "limitations": "No destello de pantalla entera; originales no revelan plugin o efecto exacto."
+    },
+    {
+      "id": "landing-despues-rise",
+      "status": "measured_native",
+      "value": {
+        "slug": "landing",
+        "word": "Después",
+        "frames": [
+          2141,
+          2152
+        ],
+        "cy_px": [
+          579.4,
+          551
+        ],
+        "ink_width_px": [
+          258,
+          259
+        ],
+        "ink_height_px": [
+          69,
+          71
+        ],
+        "behavior": "Ascenso y contraste; tamaño casi constante."
+      },
+      "evidence": [
+        "notas/landing-C.md",
+        "laminas/landing/landing-C-despues-ink.tsv",
+        "laminas/landing/landing-C-despues-ink.tsv.metadata.json"
+      ],
+      "confidence": "high in measured crop",
+      "limitations": "Fuerza bg no alpha, primer frame2140 tenue sesgado por umbral, sin easing original."
+    }
+  ],
+  "unresolved": [
+    "Native curve measurement for every individual typography entry/exit, including tracking and blur.",
+    "Auditory identification and voice/music/SFX separation.",
+    "Source-font identity for every type style and language variant.",
+    "Intentional versus accidental single-frame inserts.",
+    "Future reconstruction accuracy in Remotion requires renders when user resumes trials."
+  ],
+  "current_decision_policy": "ALGORITMO-V2.md",
+  "current_evidence": "datos/revision-v2/rules.json"
+}

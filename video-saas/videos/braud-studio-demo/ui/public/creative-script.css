@@ -1,0 +1,51 @@
+/* Guion exploration shares Studio's surfaces and keeps its editing geometry. */
+.creative-script{min-width:0;display:grid;gap:24px}
+.creative-script .guide-paper{min-width:0;margin:0}
+.creative-script .creative-script-head{align-items:flex-start;gap:20px;margin-bottom:26px}
+.creative-script-head>div{min-width:0}
+.creative-script-head h2{font-size:23px;font-weight:500;line-height:1.25;letter-spacing:-.7px;margin:10px 0 9px;color:var(--ink)}
+.creative-script-head p{font-size:12px;line-height:1.7;margin:0;color:var(--muted);max-width:540px}
+.creative-script-head>.text-btn{flex:none;white-space:normal;max-width:190px;text-align:right;margin-top:2px;justify-content:flex-end}
+.creative-script-head>.text-btn .icon{flex:none;width:15px;height:15px}
+.creative-opening-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;align-items:stretch}
+.creative-opening-card{min-width:0;display:flex;flex-direction:column;padding:0;border:1px solid var(--line);border-radius:18px;background:color-mix(in srgb,var(--paper) 65%,transparent);overflow:hidden;transition:border-color 180ms ease,background-color 180ms ease,box-shadow 180ms ease}
+.creative-opening-card.is-focused{border-color:color-mix(in srgb,var(--accent) 55%,var(--line));box-shadow:0 0 0 1px color-mix(in srgb,var(--accent) 10%,transparent);background:color-mix(in srgb,var(--accent) 5%,var(--paper))}
+.creative-opening-focus{display:block;flex:1;width:100%;min-width:0;margin:0;padding:18px 18px 16px;background:none;border:0;text-align:left;color:var(--ink);cursor:pointer}
+.creative-opening-focus:focus-visible{outline:2px solid var(--accent);outline-offset:-3px;border-radius:17px}
+.creative-opening-meta{display:flex;justify-content:space-between;gap:10px;align-items:center;margin-bottom:20px}
+.creative-opening-number{font-size:11px;font-variant-numeric:tabular-nums;color:var(--muted)}
+.creative-opening-status{font-size:9px;line-height:1.4;color:var(--muted);text-align:right}
+.is-focused .creative-opening-number,.is-focused .creative-opening-status{color:var(--accent)}
+.is-applied .creative-opening-status{color:var(--positive,var(--accent))}
+.creative-opening-card h3{font-size:14px;line-height:1.4;letter-spacing:-.15px;font-weight:500;margin:0 0 12px;color:var(--ink);overflow-wrap:anywhere}
+.creative-opening-text{font-size:14px;line-height:1.65;margin:0;white-space:pre-wrap;overflow-wrap:anywhere;color:var(--ink)}
+.creative-opening-intent{font-size:11px;line-height:1.7;margin:18px 0 0;color:var(--muted);overflow-wrap:anywhere}
+.creative-opening-card footer{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;padding:14px 18px;border-top:1px solid var(--line)}
+.creative-opening-card footer .text-btn{font-size:10px;padding:5px 0;gap:5px}
+.creative-opening-card footer .text-btn .icon{width:12px;height:12px}
+.creative-opening-card footer .btn{min-height:32px;font-size:10px;line-height:1.3;padding:7px 10px;gap:5px}
+.creative-opening-card footer .btn .icon{width:12px;height:12px}
+.creative-opening-card footer .btn:disabled{cursor:default;opacity:.55;box-shadow:none}
+.creative-opening-card.is-applied footer .btn:disabled{color:var(--positive,var(--accent));opacity:1;background:transparent;border-color:transparent}
+.creative-opening-card.is-empty{position:relative;padding:18px;min-height:205px;background:transparent}
+.creative-opening-placeholder{font-size:12px;color:var(--muted);line-height:1.7;margin:0 0 26px;max-width:170px}
+.creative-opening-empty-mark{display:flex;align-items:center;justify-content:center;align-self:flex-start;width:26px;height:26px;margin-top:auto;color:color-mix(in srgb,var(--muted) 65%,transparent)}
+.creative-opening-empty-mark .icon{width:17px;height:17px}
+.creative-openings-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:18px}
+.creative-openings-foot .micro{font-size:11px;line-height:1.65;color:var(--muted);margin:0}
+.creative-openings-foot .text-btn{font-size:11px;flex:none}
+.creative-script-tools{display:flex;align-items:flex-end;flex-direction:column;gap:10px;flex:none}
+.creative-script-tools .text-btn{font-size:11px;white-space:normal;text-align:right;justify-content:flex-end;gap:6px}
+.creative-script-tools .icon{width:14px;height:14px;flex:none}
+.creative-script .creative-script-paper .guide-script-line:first-of-type{padding-top:12px}
+.creative-script .guide-script-line textarea.line-text{color:var(--ink)}
+.creative-script .script-speaker{margin-bottom:10px}
+.creative-script .guide-next{padding-top:0;padding-bottom:0}
+.creative-script-empty{text-align:center;padding:30px 10px}
+.creative-script-empty-symbol{display:grid;place-items:center;margin:0 auto 16px;width:46px;height:46px;border-radius:50%;background:color-mix(in srgb,var(--accent) 7%,transparent);color:var(--accent)}
+.creative-script-empty-symbol .icon{width:21px;height:21px}
+.creative-script-empty p{max-width:410px;margin:12px auto;font-size:13px}
+@container piece (max-width:720px){.creative-opening-grid{gap:9px}.creative-opening-focus,.creative-opening-card.is-empty{padding:15px}.creative-opening-card footer{padding:12px 15px}.creative-script-head h2{font-size:21px}.creative-script .creative-script-head{flex-wrap:wrap}.creative-script-head>.text-btn{max-width:none;text-align:left;justify-content:flex-start}.creative-script-tools{flex-direction:row;align-items:center;gap:16px;flex-wrap:wrap}.creative-script-tools .text-btn{text-align:left}}
+@container piece (max-width:520px){.creative-opening-grid{grid-template-columns:1fr}.creative-opening-card.is-empty{min-height:118px;padding:16px 18px}.creative-opening-card.is-empty .creative-opening-meta{margin-bottom:12px}.creative-opening-card.is-empty h3{margin-bottom:6px}.creative-opening-placeholder{margin:0;max-width:none;padding-right:28px}.creative-opening-empty-mark{position:absolute;right:16px;bottom:16px}.creative-openings-foot{align-items:flex-start;flex-direction:column;gap:8px}.creative-script .creative-script-head{margin-bottom:22px}.creative-script-head h2{font-size:21px}}
+@media(max-width:600px){.creative-opening-grid{grid-template-columns:1fr}.creative-script .creative-script-head{flex-wrap:wrap}.creative-script-head>.text-btn{text-align:left;justify-content:flex-start;max-width:none}.creative-script-tools{align-items:flex-start;flex-direction:row;flex-wrap:wrap}.creative-opening-card.is-empty{min-height:118px}.creative-opening-card.is-empty .creative-opening-meta{margin-bottom:12px}.creative-opening-placeholder{max-width:none;margin-bottom:10px}.creative-opening-empty-mark{display:none}}
+@media(prefers-reduced-motion:reduce){.creative-opening-card{transition:none}}

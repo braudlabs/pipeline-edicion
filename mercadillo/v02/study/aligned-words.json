@@ -1,0 +1,2165 @@
+{
+  "method": "TorchAudio 2.8 MMS_FA multilingual CTC, local MPS; normalized Spanish transcript",
+  "words": [
+    {
+      "text": "Si",
+      "oldStart": 0.05,
+      "oldEnd": 0.12,
+      "start": 0.12,
+      "end": 0.2201,
+      "score": 0.9986
+    },
+    {
+      "text": "eres",
+      "oldStart": 0.12,
+      "oldEnd": 0.36,
+      "start": 0.3001,
+      "end": 0.4602,
+      "score": 0.9982
+    },
+    {
+      "text": "una",
+      "oldStart": 0.36,
+      "oldEnd": 0.54,
+      "start": 0.5202,
+      "end": 0.6202,
+      "score": 0.9661
+    },
+    {
+      "text": "agencia",
+      "oldStart": 0.54,
+      "oldEnd": 0.96,
+      "start": 0.6402,
+      "end": 0.9804,
+      "score": 0.994
+    },
+    {
+      "text": "de",
+      "oldStart": 0.96,
+      "oldEnd": 1.08,
+      "start": 1.0404,
+      "end": 1.0804,
+      "score": 0.9971
+    },
+    {
+      "text": "contenido",
+      "oldStart": 1.08,
+      "oldEnd": 1.64,
+      "start": 1.1404,
+      "end": 1.6806,
+      "score": 0.9935
+    },
+    {
+      "text": "y",
+      "oldStart": 1.64,
+      "oldEnd": 1.7,
+      "start": 1.9007,
+      "end": 1.9207,
+      "score": 0.9987
+    },
+    {
+      "text": "tus",
+      "oldStart": 1.7,
+      "oldEnd": 1.88,
+      "start": 1.9808,
+      "end": 2.1208,
+      "score": 0.9994
+    },
+    {
+      "text": "creativos",
+      "oldStart": 1.88,
+      "oldEnd": 2.44,
+      "start": 2.1808,
+      "end": 2.661,
+      "score": 0.9987
+    },
+    {
+      "text": "se",
+      "oldStart": 2.44,
+      "oldEnd": 2.56,
+      "start": 2.701,
+      "end": 2.7811,
+      "score": 0.9971
+    },
+    {
+      "text": "ven",
+      "oldStart": 2.56,
+      "oldEnd": 2.73,
+      "start": 2.8211,
+      "end": 2.9611,
+      "score": 0.9982
+    },
+    {
+      "text": "como",
+      "oldStart": 2.73,
+      "oldEnd": 3.03,
+      "start": 3.0212,
+      "end": 3.1812,
+      "score": 0.9984
+    },
+    {
+      "text": "el",
+      "oldStart": 3.03,
+      "oldEnd": 3.11,
+      "start": 3.2212,
+      "end": 3.2812,
+      "score": 0.9744
+    },
+    {
+      "text": "de",
+      "oldStart": 3.11,
+      "oldEnd": 3.23,
+      "start": 3.3013,
+      "end": 3.3413,
+      "score": 0.9358
+    },
+    {
+      "text": "al",
+      "oldStart": 3.23,
+      "oldEnd": 3.35,
+      "start": 3.3813,
+      "end": 3.4613,
+      "score": 0.7932
+    },
+    {
+      "text": "lado,",
+      "oldStart": 3.35,
+      "oldEnd": 3.78,
+      "start": 3.5013,
+      "end": 3.7614,
+      "score": 0.9896
+    },
+    {
+      "text": "el",
+      "oldStart": 3.78,
+      "oldEnd": 3.9,
+      "start": 4.0215,
+      "end": 4.1016,
+      "score": 0.9807
+    },
+    {
+      "text": "de",
+      "oldStart": 3.9,
+      "oldEnd": 4.02,
+      "start": 4.1416,
+      "end": 4.1816,
+      "score": 0.9795
+    },
+    {
+      "text": "la",
+      "oldStart": 4.02,
+      "oldEnd": 4.15,
+      "start": 4.2216,
+      "end": 4.2816,
+      "score": 0.9863
+    },
+    {
+      "text": "esquina,",
+      "oldStart": 4.15,
+      "oldEnd": 4.72,
+      "start": 4.3216,
+      "end": 4.6818,
+      "score": 0.9735
+    },
+    {
+      "text": "el",
+      "oldStart": 4.72,
+      "oldEnd": 4.94,
+      "start": 4.9619,
+      "end": 5.0619,
+      "score": 0.9173
+    },
+    {
+      "text": "de",
+      "oldStart": 4.94,
+      "oldEnd": 5.0,
+      "start": 5.1019,
+      "end": 5.162,
+      "score": 0.9279
+    },
+    {
+      "text": "ahí,",
+      "oldStart": 5.0,
+      "oldEnd": 5.35,
+      "start": 5.202,
+      "end": 5.342,
+      "score": 0.6519
+    },
+    {
+      "text": "el",
+      "oldStart": 5.35,
+      "oldEnd": 5.49,
+      "start": 5.6421,
+      "end": 5.7222,
+      "score": 0.9656
+    },
+    {
+      "text": "de",
+      "oldStart": 5.49,
+      "oldEnd": 5.64,
+      "start": 5.7422,
+      "end": 5.8022,
+      "score": 0.9506
+    },
+    {
+      "text": "allá,",
+      "oldStart": 5.64,
+      "oldEnd": 6.08,
+      "start": 5.8422,
+      "end": 6.0223,
+      "score": 0.8556
+    },
+    {
+      "text": "lo",
+      "oldStart": 6.22,
+      "oldEnd": 6.34,
+      "start": 6.6425,
+      "end": 6.7226,
+      "score": 0.9982
+    },
+    {
+      "text": "único",
+      "oldStart": 6.34,
+      "oldEnd": 6.54,
+      "start": 6.8026,
+      "end": 7.0227,
+      "score": 0.9996
+    },
+    {
+      "text": "que",
+      "oldStart": 6.54,
+      "oldEnd": 6.74,
+      "start": 7.0827,
+      "end": 7.1627,
+      "score": 0.9851
+    },
+    {
+      "text": "te",
+      "oldStart": 6.74,
+      "oldEnd": 6.87,
+      "start": 7.1827,
+      "end": 7.2428,
+      "score": 0.9962
+    },
+    {
+      "text": "diferencia",
+      "oldStart": 6.87,
+      "oldEnd": 7.53,
+      "start": 7.2828,
+      "end": 7.783,
+      "score": 0.9994
+    },
+    {
+      "text": "es",
+      "oldStart": 7.53,
+      "oldEnd": 7.66,
+      "start": 7.903,
+      "end": 8.003,
+      "score": 0.9991
+    },
+    {
+      "text": "el",
+      "oldStart": 7.66,
+      "oldEnd": 7.79,
+      "start": 8.0431,
+      "end": 8.1231,
+      "score": 0.9985
+    },
+    {
+      "text": "precio",
+      "oldStart": 7.79,
+      "oldEnd": 8.18,
+      "start": 8.1831,
+      "end": 8.5032,
+      "score": 0.9942
+    },
+    {
+      "text": "y",
+      "oldStart": 8.18,
+      "oldEnd": 8.25,
+      "start": 8.7633,
+      "end": 8.7833,
+      "score": 0.999
+    },
+    {
+      "text": "qué",
+      "oldStart": 8.25,
+      "oldEnd": 8.45,
+      "start": 8.8634,
+      "end": 8.9634,
+      "score": 0.9925
+    },
+    {
+      "text": "tan",
+      "oldStart": 8.45,
+      "oldEnd": 8.65,
+      "start": 9.0434,
+      "end": 9.1835,
+      "score": 0.9995
+    },
+    {
+      "text": "rápido",
+      "oldStart": 8.65,
+      "oldEnd": 9.05,
+      "start": 9.2635,
+      "end": 9.5636,
+      "score": 0.9998
+    },
+    {
+      "text": "puedes",
+      "oldStart": 9.05,
+      "oldEnd": 9.45,
+      "start": 9.6237,
+      "end": 9.8838,
+      "score": 0.667
+    },
+    {
+      "text": "sacar",
+      "oldStart": 9.45,
+      "oldEnd": 9.78,
+      "start": 9.9038,
+      "end": 10.1639,
+      "score": 0.9995
+    },
+    {
+      "text": "los",
+      "oldStart": 9.78,
+      "oldEnd": 9.98,
+      "start": 10.2039,
+      "end": 10.3239,
+      "score": 0.999
+    },
+    {
+      "text": "creativos.",
+      "oldStart": 9.98,
+      "oldEnd": 10.82,
+      "start": 10.3639,
+      "end": 10.9042,
+      "score": 0.9983
+    },
+    {
+      "text": "¡Pero",
+      "oldStart": 11.0,
+      "oldEnd": 11.12,
+      "start": 11.0242,
+      "end": 11.1843,
+      "score": 0.9989
+    },
+    {
+      "text": "tranquilo!",
+      "oldStart": 11.12,
+      "oldEnd": 11.77,
+      "start": 11.2443,
+      "end": 11.6845,
+      "score": 0.9748
+    },
+    {
+      "text": "¡Tenemos",
+      "oldStart": 11.77,
+      "oldEnd": 12.2,
+      "start": 12.0446,
+      "end": 12.4047,
+      "score": 0.9993
+    },
+    {
+      "text": "tu",
+      "oldStart": 12.2,
+      "oldEnd": 12.31,
+      "start": 12.4447,
+      "end": 12.5248,
+      "score": 0.9992
+    },
+    {
+      "text": "solución!",
+      "oldStart": 12.31,
+      "oldEnd": 13.0,
+      "start": 12.5848,
+      "end": 13.005,
+      "score": 0.9996
+    },
+    {
+      "text": "Ya",
+      "oldStart": 13.14,
+      "oldEnd": 13.19,
+      "start": 13.2252,
+      "end": 13.3054,
+      "score": 0.9868
+    },
+    {
+      "text": "se",
+      "oldStart": 13.19,
+      "oldEnd": 13.25,
+      "start": 13.3855,
+      "end": 13.4457,
+      "score": 0.9985
+    },
+    {
+      "text": "lo",
+      "oldStart": 13.25,
+      "oldEnd": 13.3,
+      "start": 13.4857,
+      "end": 13.5459,
+      "score": 0.949
+    },
+    {
+      "text": "explico",
+      "oldStart": 13.3,
+      "oldEnd": 13.65,
+      "start": 13.5659,
+      "end": 13.8665,
+      "score": 0.9977
+    },
+    {
+      "text": "yo,",
+      "oldStart": 13.65,
+      "oldEnd": 13.85,
+      "start": 13.9266,
+      "end": 13.9868,
+      "score": 0.9883
+    },
+    {
+      "text": "Pelillos.",
+      "oldStart": 13.85,
+      "oldEnd": 14.46,
+      "start": 14.0469,
+      "end": 14.5078,
+      "score": 0.9762
+    },
+    {
+      "text": "Vamos",
+      "oldStart": 14.92,
+      "oldEnd": 14.92,
+      "start": 14.9487,
+      "end": 15.1892,
+      "score": 0.9377
+    },
+    {
+      "text": "a",
+      "oldStart": 14.92,
+      "oldEnd": 15.03,
+      "start": 15.2093,
+      "end": 15.2293,
+      "score": 0.1345
+    },
+    {
+      "text": "hacer",
+      "oldStart": 15.03,
+      "oldEnd": 15.09,
+      "start": 15.2293,
+      "end": 15.4498,
+      "score": 0.9871
+    },
+    {
+      "text": "que",
+      "oldStart": 15.09,
+      "oldEnd": 15.27,
+      "start": 15.4898,
+      "end": 15.57,
+      "score": 0.9982
+    },
+    {
+      "text": "tus",
+      "oldStart": 15.27,
+      "oldEnd": 15.43,
+      "start": 15.6101,
+      "end": 15.7303,
+      "score": 0.9751
+    },
+    {
+      "text": "creativos",
+      "oldStart": 15.43,
+      "oldEnd": 15.95,
+      "start": 15.7704,
+      "end": 16.2313,
+      "score": 0.9995
+    },
+    {
+      "text": "se",
+      "oldStart": 15.95,
+      "oldEnd": 16.07,
+      "start": 16.2714,
+      "end": 16.3716,
+      "score": 0.9992
+    },
+    {
+      "text": "vean",
+      "oldStart": 16.07,
+      "oldEnd": 16.28,
+      "start": 16.3917,
+      "end": 16.6121,
+      "score": 0.9983
+    },
+    {
+      "text": "literalmente",
+      "oldStart": 16.28,
+      "oldEnd": 16.98,
+      "start": 16.6723,
+      "end": 17.4138,
+      "score": 0.9997
+    },
+    {
+      "text": "como",
+      "oldStart": 16.98,
+      "oldEnd": 17.21,
+      "start": 17.4739,
+      "end": 17.6142,
+      "score": 0.9994
+    },
+    {
+      "text": "el",
+      "oldStart": 17.21,
+      "oldEnd": 17.35,
+      "start": 17.6743,
+      "end": 17.7344,
+      "score": 0.9946
+    },
+    {
+      "text": "que",
+      "oldStart": 17.35,
+      "oldEnd": 17.49,
+      "start": 17.7545,
+      "end": 17.8346,
+      "score": 0.9676
+    },
+    {
+      "text": "estás",
+      "oldStart": 17.49,
+      "oldEnd": 17.78,
+      "start": 17.8747,
+      "end": 18.0952,
+      "score": 0.9987
+    },
+    {
+      "text": "viendo.",
+      "oldStart": 17.78,
+      "oldEnd": 18.4,
+      "start": 18.1352,
+      "end": 18.4359,
+      "score": 0.9991
+    },
+    {
+      "text": "Calidad",
+      "oldStart": 18.74,
+      "oldEnd": 18.86,
+      "start": 18.7565,
+      "end": 19.1573,
+      "score": 0.9921
+    },
+    {
+      "text": "Premium",
+      "oldStart": 18.86,
+      "oldEnd": 19.3,
+      "start": 19.2175,
+      "end": 19.6183,
+      "score": 0.995
+    },
+    {
+      "text": "que",
+      "oldStart": 19.3,
+      "oldEnd": 19.49,
+      "start": 19.6984,
+      "end": 19.7786,
+      "score": 0.9976
+    },
+    {
+      "text": "trae",
+      "oldStart": 19.49,
+      "oldEnd": 19.74,
+      "start": 19.8387,
+      "end": 20.0191,
+      "score": 0.9947
+    },
+    {
+      "text": "clientes",
+      "oldStart": 19.74,
+      "oldEnd": 20.26,
+      "start": 20.0792,
+      "end": 20.5001,
+      "score": 0.9986
+    },
+    {
+      "text": "Premium,",
+      "oldStart": 20.26,
+      "oldEnd": 20.84,
+      "start": 20.5602,
+      "end": 20.941,
+      "score": 0.9565
+    },
+    {
+      "text": "¿no",
+      "oldStart": 20.84,
+      "oldEnd": 21.03,
+      "start": 21.1213,
+      "end": 21.2216,
+      "score": 0.999
+    },
+    {
+      "text": "percebes?",
+      "oldStart": 21.03,
+      "oldEnd": 21.8,
+      "start": 21.2817,
+      "end": 21.8428,
+      "score": 0.9961
+    },
+    {
+      "text": "Instalaremos",
+      "oldStart": 22.98,
+      "oldEnd": 22.98,
+      "start": 22.9247,
+      "end": 23.5056,
+      "score": 0.9998
+    },
+    {
+      "text": "una",
+      "oldStart": 22.98,
+      "oldEnd": 22.98,
+      "start": 23.5457,
+      "end": 23.6658,
+      "score": 0.9996
+    },
+    {
+      "text": "maquinita",
+      "oldStart": 22.98,
+      "oldEnd": 23.48,
+      "start": 23.7059,
+      "end": 24.1266,
+      "score": 0.999
+    },
+    {
+      "text": "que",
+      "oldStart": 23.48,
+      "oldEnd": 23.69,
+      "start": 24.1867,
+      "end": 24.2668,
+      "score": 0.9687
+    },
+    {
+      "text": "te",
+      "oldStart": 23.69,
+      "oldEnd": 23.82,
+      "start": 24.3069,
+      "end": 24.367,
+      "score": 0.9994
+    },
+    {
+      "text": "genera",
+      "oldStart": 23.82,
+      "oldEnd": 24.25,
+      "start": 24.4271,
+      "end": 24.7075,
+      "score": 0.997
+    },
+    {
+      "text": "creativos",
+      "oldStart": 24.25,
+      "oldEnd": 24.88,
+      "start": 24.7676,
+      "end": 25.2684,
+      "score": 0.9998
+    },
+    {
+      "text": "casi",
+      "oldStart": 24.88,
+      "oldEnd": 25.17,
+      "start": 25.3485,
+      "end": 25.6089,
+      "score": 0.9995
+    },
+    {
+      "text": "listos",
+      "oldStart": 25.17,
+      "oldEnd": 25.58,
+      "start": 25.649,
+      "end": 25.9695,
+      "score": 0.9988
+    },
+    {
+      "text": "para",
+      "oldStart": 25.58,
+      "oldEnd": 25.86,
+      "start": 26.0096,
+      "end": 26.1698,
+      "score": 0.9995
+    },
+    {
+      "text": "publicar.",
+      "oldStart": 25.86,
+      "oldEnd": 26.68,
+      "start": 26.2099,
+      "end": 26.6506,
+      "score": 0.9999
+    },
+    {
+      "text": "Eso",
+      "oldStart": 26.79,
+      "oldEnd": 26.86,
+      "start": 26.9711,
+      "end": 27.1113,
+      "score": 0.9994
+    },
+    {
+      "text": "sí,",
+      "oldStart": 26.86,
+      "oldEnd": 27.1,
+      "start": 27.1514,
+      "end": 27.2515,
+      "score": 0.9967
+    },
+    {
+      "text": "con",
+      "oldStart": 27.1,
+      "oldEnd": 27.28,
+      "start": 27.4919,
+      "end": 27.6322,
+      "score": 0.9998
+    },
+    {
+      "text": "un",
+      "oldStart": 27.28,
+      "oldEnd": 27.4,
+      "start": 27.6722,
+      "end": 27.7523,
+      "score": 0.9995
+    },
+    {
+      "text": "buen",
+      "oldStart": 27.4,
+      "oldEnd": 27.65,
+      "start": 27.8124,
+      "end": 27.9927,
+      "score": 0.9996
+    },
+    {
+      "text": "operador",
+      "oldStart": 27.65,
+      "oldEnd": 28.15,
+      "start": 28.0328,
+      "end": 28.3934,
+      "score": 0.9997
+    },
+    {
+      "text": "detrás.",
+      "oldStart": 28.15,
+      "oldEnd": 28.76,
+      "start": 28.4334,
+      "end": 28.774,
+      "score": 0.9997
+    },
+    {
+      "text": "Por",
+      "oldStart": 28.76,
+      "oldEnd": 28.93,
+      "start": 29.0344,
+      "end": 29.1546,
+      "score": 0.9998
+    },
+    {
+      "text": "eso",
+      "oldStart": 28.93,
+      "oldEnd": 29.11,
+      "start": 29.1946,
+      "end": 29.3549,
+      "score": 0.9998
+    },
+    {
+      "text": "formaremos",
+      "oldStart": 29.11,
+      "oldEnd": 29.71,
+      "start": 29.415,
+      "end": 29.9158,
+      "score": 0.9997
+    },
+    {
+      "text": "personalmente",
+      "oldStart": 29.71,
+      "oldEnd": 30.44,
+      "start": 29.9759,
+      "end": 30.677,
+      "score": 0.9998
+    },
+    {
+      "text": "a",
+      "oldStart": 30.44,
+      "oldEnd": 30.49,
+      "start": 30.7171,
+      "end": 30.7371,
+      "score": 0.9993
+    },
+    {
+      "text": "tu",
+      "oldStart": 30.49,
+      "oldEnd": 30.69,
+      "start": 30.7772,
+      "end": 30.8372,
+      "score": 0.9997
+    },
+    {
+      "text": "equipo",
+      "oldStart": 30.69,
+      "oldEnd": 30.95,
+      "start": 30.8973,
+      "end": 31.1578,
+      "score": 0.999
+    },
+    {
+      "text": "para",
+      "oldStart": 30.95,
+      "oldEnd": 31.18,
+      "start": 31.2179,
+      "end": 31.3781,
+      "score": 0.9995
+    },
+    {
+      "text": "que",
+      "oldStart": 31.18,
+      "oldEnd": 31.35,
+      "start": 31.4182,
+      "end": 31.4983,
+      "score": 0.9981
+    },
+    {
+      "text": "sepa",
+      "oldStart": 31.35,
+      "oldEnd": 31.63,
+      "start": 31.5584,
+      "end": 31.7787,
+      "score": 0.9998
+    },
+    {
+      "text": "utilizarlo.",
+      "oldStart": 31.63,
+      "oldEnd": 32.42,
+      "start": 31.8388,
+      "end": 32.3997,
+      "score": 0.9998
+    },
+    {
+      "text": "Y",
+      "oldStart": 32.78,
+      "oldEnd": 32.79,
+      "start": 32.8203,
+      "end": 32.8403,
+      "score": 0.9989
+    },
+    {
+      "text": "antes",
+      "oldStart": 32.79,
+      "oldEnd": 32.84,
+      "start": 32.9404,
+      "end": 33.1607,
+      "score": 0.9995
+    },
+    {
+      "text": "de",
+      "oldStart": 32.84,
+      "oldEnd": 32.93,
+      "start": 33.1807,
+      "end": 33.2408,
+      "score": 0.9989
+    },
+    {
+      "text": "seguir",
+      "oldStart": 32.93,
+      "oldEnd": 33.32,
+      "start": 33.2809,
+      "end": 33.5612,
+      "score": 0.9977
+    },
+    {
+      "text": "te",
+      "oldStart": 33.32,
+      "oldEnd": 33.45,
+      "start": 33.6413,
+      "end": 33.6814,
+      "score": 0.9968
+    },
+    {
+      "text": "explico",
+      "oldStart": 33.45,
+      "oldEnd": 33.89,
+      "start": 33.7414,
+      "end": 34.1219,
+      "score": 0.9714
+    },
+    {
+      "text": "lo",
+      "oldStart": 33.89,
+      "oldEnd": 34.03,
+      "start": 34.182,
+      "end": 34.2621,
+      "score": 0.9986
+    },
+    {
+      "text": "que",
+      "oldStart": 34.03,
+      "oldEnd": 34.22,
+      "start": 34.3222,
+      "end": 34.4023,
+      "score": 0.9987
+    },
+    {
+      "text": "nadie",
+      "oldStart": 34.22,
+      "oldEnd": 34.53,
+      "start": 34.5224,
+      "end": 34.8028,
+      "score": 0.9996
+    },
+    {
+      "text": "te",
+      "oldStart": 34.53,
+      "oldEnd": 34.67,
+      "start": 34.8628,
+      "end": 34.9229,
+      "score": 0.9992
+    },
+    {
+      "text": "cuenta.",
+      "oldStart": 34.67,
+      "oldEnd": 35.3,
+      "start": 34.983,
+      "end": 35.3234,
+      "score": 0.9951
+    },
+    {
+      "text": "No",
+      "oldStart": 35.82,
+      "oldEnd": 35.82,
+      "start": 35.844,
+      "end": 35.9241,
+      "score": 0.9997
+    },
+    {
+      "text": "te",
+      "oldStart": 35.82,
+      "oldEnd": 35.82,
+      "start": 35.9642,
+      "end": 36.0243,
+      "score": 0.9996
+    },
+    {
+      "text": "creas",
+      "oldStart": 35.82,
+      "oldEnd": 35.94,
+      "start": 36.0843,
+      "end": 36.4047,
+      "score": 0.9994
+    },
+    {
+      "text": "que",
+      "oldStart": 35.94,
+      "oldEnd": 36.09,
+      "start": 36.4448,
+      "end": 36.5049,
+      "score": 0.9909
+    },
+    {
+      "text": "es",
+      "oldStart": 36.09,
+      "oldEnd": 36.22,
+      "start": 36.5449,
+      "end": 36.625,
+      "score": 0.9801
+    },
+    {
+      "text": "abrir",
+      "oldStart": 36.22,
+      "oldEnd": 36.56,
+      "start": 36.6851,
+      "end": 36.9054,
+      "score": 0.9993
+    },
+    {
+      "text": "Higgsfield,",
+      "oldStart": 36.56,
+      "oldEnd": 37.36,
+      "start": 36.9654,
+      "end": 37.5061,
+      "score": 0.564
+    },
+    {
+      "text": "generar",
+      "oldStart": 37.36,
+      "oldEnd": 37.83,
+      "start": 37.6262,
+      "end": 37.9867,
+      "score": 0.9909
+    },
+    {
+      "text": "un",
+      "oldStart": 37.83,
+      "oldEnd": 38.01,
+      "start": 38.0267,
+      "end": 38.1068,
+      "score": 0.9925
+    },
+    {
+      "text": "poco",
+      "oldStart": 38.01,
+      "oldEnd": 38.25,
+      "start": 38.1469,
+      "end": 38.4272,
+      "score": 0.9978
+    },
+    {
+      "text": "y",
+      "oldStart": 38.25,
+      "oldEnd": 38.29,
+      "start": 38.5874,
+      "end": 38.6075,
+      "score": 0.9959
+    },
+    {
+      "text": "en",
+      "oldStart": 38.29,
+      "oldEnd": 38.42,
+      "start": 38.6876,
+      "end": 38.7677,
+      "score": 0.9959
+    },
+    {
+      "text": "10",
+      "oldStart": 38.42,
+      "oldEnd": 38.85,
+      "start": 38.8077,
+      "end": 38.9679,
+      "score": 0.9376
+    },
+    {
+      "text": "minutos",
+      "oldStart": 38.85,
+      "oldEnd": 39.31,
+      "start": 39.028,
+      "end": 39.4685,
+      "score": 0.9988
+    },
+    {
+      "text": "¡BOOM!",
+      "oldStart": 39.31,
+      "oldEnd": 39.98,
+      "start": 39.7088,
+      "end": 39.9291,
+      "score": 0.6053
+    },
+    {
+      "text": "Creativos",
+      "oldStart": 40.3,
+      "oldEnd": 40.52,
+      "start": 40.2295,
+      "end": 40.7701,
+      "score": 0.9997
+    },
+    {
+      "text": "como",
+      "oldStart": 40.52,
+      "oldEnd": 40.76,
+      "start": 40.8102,
+      "end": 40.9704,
+      "score": 0.9677
+    },
+    {
+      "text": "churros",
+      "oldStart": 40.76,
+      "oldEnd": 41.2,
+      "start": 41.0305,
+      "end": 41.3709,
+      "score": 0.9885
+    },
+    {
+      "text": "para",
+      "oldStart": 41.2,
+      "oldEnd": 41.41,
+      "start": 41.4109,
+      "end": 41.5711,
+      "score": 0.9994
+    },
+    {
+      "text": "tu",
+      "oldStart": 41.41,
+      "oldEnd": 41.54,
+      "start": 41.6112,
+      "end": 41.6713,
+      "score": 0.9993
+    },
+    {
+      "text": "negocio.",
+      "oldStart": 41.54,
+      "oldEnd": 42.16,
+      "start": 41.7313,
+      "end": 42.1318,
+      "score": 0.9998
+    },
+    {
+      "text": "¡Ni",
+      "oldStart": 42.16,
+      "oldEnd": 42.4,
+      "start": 42.5123,
+      "end": 42.6124,
+      "score": 0.9887
+    },
+    {
+      "text": "de",
+      "oldStart": 42.4,
+      "oldEnd": 42.56,
+      "start": 42.6925,
+      "end": 42.7726,
+      "score": 0.8955
+    },
+    {
+      "text": "coña!",
+      "oldStart": 42.56,
+      "oldEnd": 43.14,
+      "start": 42.8527,
+      "end": 43.1331,
+      "score": 0.96
+    },
+    {
+      "text": "Si",
+      "oldStart": 43.44,
+      "oldEnd": 43.44,
+      "start": 43.5142,
+      "end": 43.5946,
+      "score": 0.9991
+    },
+    {
+      "text": "fuese",
+      "oldStart": 43.44,
+      "oldEnd": 43.6,
+      "start": 43.6348,
+      "end": 43.8558,
+      "score": 0.9978
+    },
+    {
+      "text": "así,",
+      "oldStart": 43.6,
+      "oldEnd": 43.92,
+      "start": 43.896,
+      "end": 44.0568,
+      "score": 0.9993
+    },
+    {
+      "text": "coge",
+      "oldStart": 43.92,
+      "oldEnd": 44.19,
+      "start": 44.2577,
+      "end": 44.4587,
+      "score": 0.7561
+    },
+    {
+      "text": "a",
+      "oldStart": 44.19,
+      "oldEnd": 44.25,
+      "start": 44.4989,
+      "end": 44.519,
+      "score": 0.9961
+    },
+    {
+      "text": "tu",
+      "oldStart": 44.25,
+      "oldEnd": 44.38,
+      "start": 44.5592,
+      "end": 44.6195,
+      "score": 0.9421
+    },
+    {
+      "text": "abuela,",
+      "oldStart": 44.38,
+      "oldEnd": 44.91,
+      "start": 44.6396,
+      "end": 44.9611,
+      "score": 0.8337
+    },
+    {
+      "text": "le",
+      "oldStart": 44.91,
+      "oldEnd": 45.04,
+      "start": 45.0616,
+      "end": 45.1219,
+      "score": 0.9972
+    },
+    {
+      "text": "activas",
+      "oldStart": 45.04,
+      "oldEnd": 45.51,
+      "start": 45.1822,
+      "end": 45.5238,
+      "score": 0.9985
+    },
+    {
+      "text": "el",
+      "oldStart": 45.51,
+      "oldEnd": 45.64,
+      "start": 45.564,
+      "end": 45.6444,
+      "score": 0.9947
+    },
+    {
+      "text": "micro",
+      "oldStart": 45.64,
+      "oldEnd": 45.98,
+      "start": 45.6645,
+      "end": 45.9659,
+      "score": 0.9982
+    },
+    {
+      "text": "y",
+      "oldStart": 45.98,
+      "oldEnd": 46.04,
+      "start": 46.1066,
+      "end": 46.1267,
+      "score": 0.9956
+    },
+    {
+      "text": "que",
+      "oldStart": 46.04,
+      "oldEnd": 46.24,
+      "start": 46.2071,
+      "end": 46.2874,
+      "score": 0.9984
+    },
+    {
+      "text": "le",
+      "oldStart": 46.24,
+      "oldEnd": 46.37,
+      "start": 46.3276,
+      "end": 46.3879,
+      "score": 0.9967
+    },
+    {
+      "text": "diga",
+      "oldStart": 46.37,
+      "oldEnd": 46.63,
+      "start": 46.4281,
+      "end": 46.609,
+      "score": 0.9976
+    },
+    {
+      "text": "a",
+      "oldStart": 46.63,
+      "oldEnd": 46.69,
+      "start": 46.6492,
+      "end": 46.6693,
+      "score": 0.8893
+    },
+    {
+      "text": "ChatGPT.",
+      "oldStart": 46.69,
+      "oldEnd": 47.3,
+      "start": 46.7296,
+      "end": 47.7946,
+      "score": 0.5905
+    },
+    {
+      "text": "Hazme",
+      "oldStart": 48.28,
+      "oldEnd": 48.28,
+      "start": 48.4756,
+      "end": 48.6959,
+      "score": 0.933
+    },
+    {
+      "text": "un",
+      "oldStart": 48.28,
+      "oldEnd": 48.28,
+      "start": 48.7359,
+      "end": 48.796,
+      "score": 0.9972
+    },
+    {
+      "text": "anuncio",
+      "oldStart": 48.28,
+      "oldEnd": 48.5,
+      "start": 48.836,
+      "end": 49.1964,
+      "score": 0.9987
+    },
+    {
+      "text": "hiperrealista,",
+      "oldStart": 48.5,
+      "oldEnd": 49.8,
+      "start": 49.2165,
+      "end": 50.0574,
+      "score": 0.8284
+    },
+    {
+      "text": "UGC,",
+      "oldStart": 49.8,
+      "oldEnd": 50.21,
+      "start": 50.3777,
+      "end": 50.8182,
+      "score": 0.5695
+    },
+    {
+      "text": "bla",
+      "oldStart": 50.21,
+      "oldEnd": 50.47,
+      "start": 51.0384,
+      "end": 51.1585,
+      "score": 0.9753
+    },
+    {
+      "text": "bla",
+      "oldStart": 50.47,
+      "oldEnd": 50.73,
+      "start": 51.2186,
+      "end": 51.3387,
+      "score": 0.9481
+    },
+    {
+      "text": "bla,",
+      "oldStart": 50.73,
+      "oldEnd": 51.16,
+      "start": 51.3788,
+      "end": 51.5189,
+      "score": 0.9768
+    },
+    {
+      "text": "¡pero",
+      "oldStart": 51.16,
+      "oldEnd": 51.61,
+      "start": 51.7592,
+      "end": 51.9594,
+      "score": 0.9972
+    },
+    {
+      "text": "ya!",
+      "oldStart": 51.61,
+      "oldEnd": 52.14,
+      "start": 52.0195,
+      "end": 52.1196,
+      "score": 0.9961
+    },
+    {
+      "text": "Evidentemente",
+      "oldStart": 56.47,
+      "oldEnd": 57.17,
+      "start": 56.375,
+      "end": 56.9355,
+      "score": 0.7728
+    },
+    {
+      "text": "lo",
+      "oldStart": 57.17,
+      "oldEnd": 57.28,
+      "start": 56.9756,
+      "end": 57.0356,
+      "score": 0.9978
+    },
+    {
+      "text": "que",
+      "oldStart": 57.28,
+      "oldEnd": 57.45,
+      "start": 57.0757,
+      "end": 57.1557,
+      "score": 0.992
+    },
+    {
+      "text": "prevalece",
+      "oldStart": 57.45,
+      "oldEnd": 57.96,
+      "start": 57.1958,
+      "end": 57.6562,
+      "score": 0.9968
+    },
+    {
+      "text": "es",
+      "oldStart": 57.96,
+      "oldEnd": 58.07,
+      "start": 57.7163,
+      "end": 57.8164,
+      "score": 0.9565
+    },
+    {
+      "text": "el",
+      "oldStart": 58.07,
+      "oldEnd": 58.18,
+      "start": 57.8564,
+      "end": 57.9365,
+      "score": 0.9981
+    },
+    {
+      "text": "criterio",
+      "oldStart": 58.18,
+      "oldEnd": 58.64,
+      "start": 57.9966,
+      "end": 58.437,
+      "score": 0.9831
+    },
+    {
+      "text": "visual,",
+      "oldStart": 58.64,
+      "oldEnd": 59.09,
+      "start": 58.477,
+      "end": 58.8374,
+      "score": 0.9954
+    },
+    {
+      "text": "saber",
+      "oldStart": 59.09,
+      "oldEnd": 59.39,
+      "start": 59.1577,
+      "end": 59.3979,
+      "score": 0.9994
+    },
+    {
+      "text": "cómo",
+      "oldStart": 59.39,
+      "oldEnd": 59.62,
+      "start": 59.498,
+      "end": 59.7182,
+      "score": 0.9991
+    },
+    {
+      "text": "formular",
+      "oldStart": 59.62,
+      "oldEnd": 60.08,
+      "start": 59.7783,
+      "end": 60.2187,
+      "score": 0.9996
+    },
+    {
+      "text": "buenas",
+      "oldStart": 60.08,
+      "oldEnd": 60.43,
+      "start": 60.2587,
+      "end": 60.559,
+      "score": 0.9874
+    },
+    {
+      "text": "historias",
+      "oldStart": 60.43,
+      "oldEnd": 61.06,
+      "start": 60.579,
+      "end": 61.0995,
+      "score": 0.9872
+    },
+    {
+      "text": "y",
+      "oldStart": 61.06,
+      "oldEnd": 61.18,
+      "start": 61.3798,
+      "end": 61.3998,
+      "score": 0.8356
+    },
+    {
+      "text": "dejar",
+      "oldStart": 61.18,
+      "oldEnd": 61.42,
+      "start": 61.4398,
+      "end": 61.5399,
+      "score": 0.0152
+    },
+    {
+      "text": "que",
+      "oldStart": 61.42,
+      "oldEnd": 61.6,
+      "start": 61.5399,
+      "end": 61.6,
+      "score": 0.0559
+    },
+    {
+      "text": "el",
+      "oldStart": 61.6,
+      "oldEnd": 61.72,
+      "start": 61.8003,
+      "end": 61.9005,
+      "score": 0.9597
+    },
+    {
+      "text": "cabeza",
+      "oldStart": 61.72,
+      "oldEnd": 62.08,
+      "start": 61.9406,
+      "end": 62.2611,
+      "score": 0.965
+    },
+    {
+      "text": "kiwi",
+      "oldStart": 62.08,
+      "oldEnd": 62.33,
+      "start": 62.3212,
+      "end": 62.6217,
+      "score": 0.3883
+    },
+    {
+      "text": "y",
+      "oldStart": 62.33,
+      "oldEnd": 62.41,
+      "start": 62.7218,
+      "end": 62.7419,
+      "score": 0.9442
+    },
+    {
+      "text": "el",
+      "oldStart": 62.41,
+      "oldEnd": 62.51,
+      "start": 62.802,
+      "end": 62.8821,
+      "score": 0.9931
+    },
+    {
+      "text": "pelos",
+      "oldStart": 62.51,
+      "oldEnd": 62.8,
+      "start": 62.9221,
+      "end": 63.1625,
+      "score": 0.9946
+    },
+    {
+      "text": "locos",
+      "oldStart": 62.8,
+      "oldEnd": 63.11,
+      "start": 63.2026,
+      "end": 63.443,
+      "score": 0.9995
+    },
+    {
+      "text": "este,",
+      "oldStart": 63.11,
+      "oldEnd": 63.49,
+      "start": 63.5031,
+      "end": 63.7235,
+      "score": 0.9986
+    },
+    {
+      "text": "que",
+      "oldStart": 63.49,
+      "oldEnd": 63.65,
+      "start": 63.8036,
+      "end": 63.8637,
+      "score": 0.997
+    },
+    {
+      "text": "llevan",
+      "oldStart": 63.65,
+      "oldEnd": 64.01,
+      "start": 63.8837,
+      "end": 64.1642,
+      "score": 0.992
+    },
+    {
+      "text": "meses",
+      "oldStart": 64.01,
+      "oldEnd": 64.31,
+      "start": 64.2643,
+      "end": 64.645,
+      "score": 0.999
+    },
+    {
+      "text": "y",
+      "oldStart": 64.31,
+      "oldEnd": 64.39,
+      "start": 64.685,
+      "end": 64.705,
+      "score": 0.9988
+    },
+    {
+      "text": "meses",
+      "oldStart": 64.39,
+      "oldEnd": 64.67,
+      "start": 64.7651,
+      "end": 65.0256,
+      "score": 0.9995
+    },
+    {
+      "text": "haciéndolo,",
+      "oldStart": 64.67,
+      "oldEnd": 65.52,
+      "start": 65.0456,
+      "end": 65.5264,
+      "score": 0.981
+    },
+    {
+      "text": "te",
+      "oldStart": 65.74,
+      "oldEnd": 65.8,
+      "start": 65.7467,
+      "end": 65.8068,
+      "score": 0.9962
+    },
+    {
+      "text": "ahorren",
+      "oldStart": 65.8,
+      "oldEnd": 66.06,
+      "start": 65.8469,
+      "end": 66.1875,
+      "score": 0.8148
+    },
+    {
+      "text": "todo",
+      "oldStart": 66.06,
+      "oldEnd": 66.3,
+      "start": 66.2876,
+      "end": 66.508,
+      "score": 0.9993
+    },
+    {
+      "text": "el",
+      "oldStart": 66.3,
+      "oldEnd": 66.42,
+      "start": 66.548,
+      "end": 66.6081,
+      "score": 0.9978
+    },
+    {
+      "text": "trabajo",
+      "oldStart": 66.42,
+      "oldEnd": 66.84,
+      "start": 66.6482,
+      "end": 66.9888,
+      "score": 0.9993
+    },
+    {
+      "text": "sucio.",
+      "oldStart": 66.84,
+      "oldEnd": 67.38,
+      "start": 67.0489,
+      "end": 67.3694,
+      "score": 0.9482
+    },
+    {
+      "text": "La",
+      "oldStart": 67.84,
+      "oldEnd": 67.84,
+      "start": 67.8505,
+      "end": 67.951,
+      "score": 0.9983
+    },
+    {
+      "text": "IA",
+      "oldStart": 67.84,
+      "oldEnd": 67.89,
+      "start": 68.0515,
+      "end": 68.2123,
+      "score": 0.9902
+    },
+    {
+      "text": "es",
+      "oldStart": 67.89,
+      "oldEnd": 67.96,
+      "start": 68.4535,
+      "end": 68.554,
+      "score": 0.9994
+    },
+    {
+      "text": "un",
+      "oldStart": 67.96,
+      "oldEnd": 68.13,
+      "start": 68.6143,
+      "end": 68.6947,
+      "score": 0.9989
+    },
+    {
+      "text": "traductor.",
+      "oldStart": 68.13,
+      "oldEnd": 69.28,
+      "start": 68.755,
+      "end": 69.2976,
+      "score": 0.9981
+    },
+    {
+      "text": "Si",
+      "oldStart": 69.28,
+      "oldEnd": 69.4,
+      "start": 69.6393,
+      "end": 69.7197,
+      "score": 0.9994
+    },
+    {
+      "text": "metes",
+      "oldStart": 69.4,
+      "oldEnd": 69.72,
+      "start": 69.7599,
+      "end": 70.0212,
+      "score": 0.9997
+    },
+    {
+      "text": "ideas",
+      "oldStart": 69.72,
+      "oldEnd": 70.03,
+      "start": 70.0815,
+      "end": 70.3428,
+      "score": 0.9992
+    },
+    {
+      "text": "de",
+      "oldStart": 70.03,
+      "oldEnd": 70.15,
+      "start": 70.3629,
+      "end": 70.4232,
+      "score": 0.9985
+    },
+    {
+      "text": "mierda,",
+      "oldStart": 70.15,
+      "oldEnd": 70.64,
+      "start": 70.4634,
+      "end": 70.805,
+      "score": 0.9977
+    },
+    {
+      "text": "sacas",
+      "oldStart": 70.64,
+      "oldEnd": 70.95,
+      "start": 70.9256,
+      "end": 71.2271,
+      "score": 0.9637
+    },
+    {
+      "text": "mierda.",
+      "oldStart": 70.95,
+      "oldEnd": 71.6,
+      "start": 71.2874,
+      "end": 71.5889,
+      "score": 0.9977
+    },
+    {
+      "text": "Si",
+      "oldStart": 71.9,
+      "oldEnd": 71.9,
+      "start": 71.9103,
+      "end": 71.9906,
+      "score": 0.9996
+    },
+    {
+      "text": "metes",
+      "oldStart": 71.9,
+      "oldEnd": 72.03,
+      "start": 72.0308,
+      "end": 72.2716,
+      "score": 0.9996
+    },
+    {
+      "text": "conceptos",
+      "oldStart": 72.03,
+      "oldEnd": 72.59,
+      "start": 72.3117,
+      "end": 72.7934,
+      "score": 0.9996
+    },
+    {
+      "text": "con",
+      "oldStart": 72.59,
+      "oldEnd": 72.78,
+      "start": 72.8135,
+      "end": 72.9339,
+      "score": 0.9996
+    },
+    {
+      "text": "criterio,",
+      "oldStart": 72.78,
+      "oldEnd": 73.41,
+      "start": 72.974,
+      "end": 73.4155,
+      "score": 0.9992
+    },
+    {
+      "text": "sacas",
+      "oldStart": 73.41,
+      "oldEnd": 73.78,
+      "start": 73.6564,
+      "end": 73.9975,
+      "score": 0.9993
+    },
+    {
+      "text": "obras",
+      "oldStart": 73.78,
+      "oldEnd": 74.09,
+      "start": 74.0778,
+      "end": 74.3387,
+      "score": 0.9996
+    },
+    {
+      "text": "de",
+      "oldStart": 74.09,
+      "oldEnd": 74.16,
+      "start": 74.3588,
+      "end": 74.4391,
+      "score": 0.9991
+    },
+    {
+      "text": "arte.",
+      "oldStart": 74.16,
+      "oldEnd": 74.7,
+      "start": 74.4993,
+      "end": 74.7602,
+      "score": 0.9998
+    },
+    {
+      "text": "Y",
+      "oldStart": 74.98,
+      "oldEnd": 74.98,
+      "start": 75.0411,
+      "end": 75.0612,
+      "score": 0.9986
+    },
+    {
+      "text": "tus",
+      "oldStart": 74.98,
+      "oldEnd": 75.1,
+      "start": 75.1013,
+      "end": 75.2418,
+      "score": 0.9996
+    },
+    {
+      "text": "clientes",
+      "oldStart": 75.1,
+      "oldEnd": 75.43,
+      "start": 75.282,
+      "end": 75.7436,
+      "score": 0.9982
+    },
+    {
+      "text": "dejan",
+      "oldStart": 75.43,
+      "oldEnd": 75.73,
+      "start": 75.7837,
+      "end": 76.0245,
+      "score": 0.9997
+    },
+    {
+      "text": "de",
+      "oldStart": 75.73,
+      "oldEnd": 75.84,
+      "start": 76.0446,
+      "end": 76.1048,
+      "score": 0.9995
+    },
+    {
+      "text": "pensar",
+      "oldStart": 75.84,
+      "oldEnd": 76.22,
+      "start": 76.1449,
+      "end": 76.4861,
+      "score": 0.976
+    },
+    {
+      "text": "que",
+      "oldStart": 76.22,
+      "oldEnd": 76.4,
+      "start": 76.5463,
+      "end": 76.6467,
+      "score": 0.9814
+    },
+    {
+      "text": "eres",
+      "oldStart": 76.4,
+      "oldEnd": 76.64,
+      "start": 76.7069,
+      "end": 76.8875,
+      "score": 0.9986
+    },
+    {
+      "text": "una",
+      "oldStart": 76.64,
+      "oldEnd": 76.84,
+      "start": 76.9276,
+      "end": 77.0481,
+      "score": 0.9996
+    },
+    {
+      "text": "mierda.",
+      "oldStart": 76.84,
+      "oldEnd": 77.42,
+      "start": 77.0882,
+      "end": 77.3892,
+      "score": 0.9954
+    },
+    {
+      "text": "Ese",
+      "oldStart": 77.72,
+      "oldEnd": 77.72,
+      "start": 77.7505,
+      "end": 77.9713,
+      "score": 0.9971
+    },
+    {
+      "text": "es",
+      "oldStart": 77.72,
+      "oldEnd": 77.77,
+      "start": 78.0315,
+      "end": 78.1117,
+      "score": 0.9954
+    },
+    {
+      "text": "el",
+      "oldStart": 77.77,
+      "oldEnd": 77.84,
+      "start": 78.172,
+      "end": 78.2522,
+      "score": 0.9992
+    },
+    {
+      "text": "criterio",
+      "oldStart": 77.84,
+      "oldEnd": 78.33,
+      "start": 78.2924,
+      "end": 78.7138,
+      "score": 0.9998
+    },
+    {
+      "text": "que",
+      "oldStart": 78.33,
+      "oldEnd": 78.52,
+      "start": 78.754,
+      "end": 78.8343,
+      "score": 0.9872
+    },
+    {
+      "text": "instalamos",
+      "oldStart": 78.52,
+      "oldEnd": 79.14,
+      "start": 78.8744,
+      "end": 79.3962,
+      "score": 0.9997
+    },
+    {
+      "text": "en",
+      "oldStart": 79.14,
+      "oldEnd": 79.26,
+      "start": 79.4364,
+      "end": 79.5166,
+      "score": 0.999
+    },
+    {
+      "text": "tu",
+      "oldStart": 79.26,
+      "oldEnd": 79.38,
+      "start": 79.5367,
+      "end": 79.617,
+      "score": 0.9997
+    },
+    {
+      "text": "negocio.",
+      "oldStart": 79.38,
+      "oldEnd": 80.08,
+      "start": 79.6571,
+      "end": 80.0585,
+      "score": 0.9999
+    },
+    {
+      "text": "¡Venga!",
+      "oldStart": 80.48,
+      "oldEnd": 80.62,
+      "start": 80.5201,
+      "end": 80.7605,
+      "score": 0.7544
+    },
+    {
+      "text": "Agenda",
+      "oldStart": 80.62,
+      "oldEnd": 80.98,
+      "start": 81.1012,
+      "end": 81.3817,
+      "score": 0.9766
+    },
+    {
+      "text": "ya",
+      "oldStart": 80.98,
+      "oldEnd": 81.1,
+      "start": 81.4418,
+      "end": 81.5019,
+      "score": 0.984
+    },
+    {
+      "text": "una",
+      "oldStart": 81.1,
+      "oldEnd": 81.28,
+      "start": 81.5821,
+      "end": 81.6823,
+      "score": 0.9996
+    },
+    {
+      "text": "llamada",
+      "oldStart": 81.28,
+      "oldEnd": 81.7,
+      "start": 81.7023,
+      "end": 82.0229,
+      "score": 0.9837
+    },
+    {
+      "text": "y",
+      "oldStart": 81.7,
+      "oldEnd": 81.76,
+      "start": 82.1031,
+      "end": 82.1231,
+      "score": 0.9982
+    },
+    {
+      "text": "vemos",
+      "oldStart": 81.76,
+      "oldEnd": 82.06,
+      "start": 82.1632,
+      "end": 82.4037,
+      "score": 0.9991
+    },
+    {
+      "text": "que",
+      "oldStart": 82.06,
+      "oldEnd": 82.23,
+      "start": 82.4437,
+      "end": 82.5038,
+      "score": 0.993
+    },
+    {
+      "text": "Encaje",
+      "oldStart": 82.23,
+      "oldEnd": 82.6,
+      "start": 82.564,
+      "end": 82.9046,
+      "score": 0.9962
+    },
+    {
+      "text": "puede",
+      "oldStart": 82.6,
+      "oldEnd": 82.91,
+      "start": 82.9647,
+      "end": 83.2052,
+      "score": 0.9993
+    },
+    {
+      "text": "tener",
+      "oldStart": 82.91,
+      "oldEnd": 83.2,
+      "start": 83.2653,
+      "end": 83.4857,
+      "score": 0.9995
+    },
+    {
+      "text": "esto",
+      "oldStart": 83.2,
+      "oldEnd": 83.44,
+      "start": 83.5258,
+      "end": 83.7061,
+      "score": 0.9991
+    },
+    {
+      "text": "con",
+      "oldStart": 83.44,
+      "oldEnd": 83.62,
+      "start": 83.7462,
+      "end": 83.8664,
+      "score": 0.9994
+    },
+    {
+      "text": "tu",
+      "oldStart": 83.62,
+      "oldEnd": 83.81,
+      "start": 83.8865,
+      "end": 83.9666,
+      "score": 0.9997
+    },
+    {
+      "text": "negocio.",
+      "oldStart": 83.81,
+      "oldEnd": 84.4,
+      "start": 84.0067,
+      "end": 84.4075,
+      "score": 0.9999
+    },
+    {
+      "text": "Si",
+      "oldStart": 84.45,
+      "oldEnd": 84.52,
+      "start": 84.7681,
+      "end": 84.8483,
+      "score": 0.9998
+    },
+    {
+      "text": "sirve,",
+      "oldStart": 84.52,
+      "oldEnd": 84.94,
+      "start": 84.9084,
+      "end": 85.1689,
+      "score": 0.9997
+    },
+    {
+      "text": "te",
+      "oldStart": 84.94,
+      "oldEnd": 85.06,
+      "start": 85.3092,
+      "end": 85.3693,
+      "score": 0.9996
+    },
+    {
+      "text": "lo",
+      "oldStart": 85.06,
+      "oldEnd": 85.18,
+      "start": 85.4094,
+      "end": 85.4695,
+      "score": 0.9991
+    },
+    {
+      "text": "decimos",
+      "oldStart": 85.18,
+      "oldEnd": 85.61,
+      "start": 85.5096,
+      "end": 85.8702,
+      "score": 0.9997
+    },
+    {
+      "text": "en",
+      "oldStart": 85.61,
+      "oldEnd": 85.75,
+      "start": 85.9103,
+      "end": 85.9704,
+      "score": 0.9836
+    },
+    {
+      "text": "la",
+      "oldStart": 85.75,
+      "oldEnd": 85.85,
+      "start": 85.9905,
+      "end": 86.0506,
+      "score": 0.9987
+    },
+    {
+      "text": "misma",
+      "oldStart": 85.85,
+      "oldEnd": 86.15,
+      "start": 86.0907,
+      "end": 86.291,
+      "score": 0.9998
+    },
+    {
+      "text": "llamada.",
+      "oldStart": 86.15,
+      "oldEnd": 86.83,
+      "start": 86.3111,
+      "end": 86.6517,
+      "score": 0.9996
+    },
+    {
+      "text": "Y",
+      "oldStart": 86.83,
+      "oldEnd": 86.88,
+      "start": 86.9323,
+      "end": 86.9523,
+      "score": 0.9989
+    },
+    {
+      "text": "si",
+      "oldStart": 86.88,
+      "oldEnd": 86.99,
+      "start": 87.0324,
+      "end": 87.1126,
+      "score": 0.9994
+    },
+    {
+      "text": "no,",
+      "oldStart": 86.99,
+      "oldEnd": 87.21,
+      "start": 87.1527,
+      "end": 87.2328,
+      "score": 0.9986
+    },
+    {
+      "text": "también.",
+      "oldStart": 87.21,
+      "oldEnd": 87.8,
+      "start": 87.5735,
+      "end": 87.9542,
+      "score": 0.9779
+    }
+  ]
+}

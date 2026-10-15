@@ -1,0 +1,108 @@
+ESTADO ACTUAL — ECOMMERCE ANDRÓMEDA / BRAUD
+Actualizado: 15/10/2026 09:54 CEST
+
+ENSAMBLE COMPLETO DISPONIBLE
+/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/ENSAMBLE_COMPLETO_85s_PREVIEW_CON_OBSERVACIONES.mp4
+
+17unidades de montaje,2050frames,24fps,1080×1920,85.416667s. Todas las fuentes seleccionadas; no hay huecos ni generaciones pendientes. Archivo comprobado por duración, número de frames y decodificación. Se presenta como preview completo con observaciones.
+
+07RESUELTA PARA EL PREVIEW
+Nueva07_gestion_campanas_v3: tres vídeos de producto en movimiento, treschecksverdes, protagonista deja ratón y se cruza de brazos antes del corte. SinON/OFFcontradictorio. Se conserva encuadre frontal, aunque se pidió sobrehombro; título/botón tienen texto imperfecto. Fuente0–4.25s,máster38.333333333–42.583333333. Corte06→07→08,sinextend ni prefijo repetido.
+
+SELECCIÓN CLIP A CLIP
+
+00_hook | máster0.000000–5.416667s | fuente0.000000–5.416667s
+Estado: VISUAL_APROBADO_AUDIO_ORIGINAL_EN_PREVIEW_QC_FINAL_PENDIENTE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4
+
+01_ventanilla_espera | máster5.416667–14.583333s | fuente0.000000–9.166667s
+Estado: UTILIZABLE_BASE_DEL_MONTAJE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/01_ventanilla_espera.mp4
+
+02_ticket_angulo | máster14.583333–18.750000s | fuente0.500000–4.666667s
+Estado: UTILIZABLE_BASE_DEL_MONTAJE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/02_ticket_angulo.mp4
+
+03_ads_apagados | máster18.750000–23.000000s | fuente0.000000–4.250000s
+Estado: UTILIZABLE_BASE_DEL_MONTAJE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03_ads_apagados.mp4
+
+03b_repetir | máster23.000000–25.416667s | fuente0.000000–2.416667s
+Estado: UTILIZABLE_BASE_DEL_MONTAJE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03b_repetir.mp4
+
+04_sudadera | máster25.416667–32.583333s | fuente0.000000–7.166667s
+Estado: UTILIZABLE_BASE_DEL_MONTAJE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/04_sudadera.mp4
+
+05_presentacion | máster32.583333–35.000000s | fuente0.000000–2.416667s
+Estado: UTILIZABLE_BASE_DEL_MONTAJE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/05_presentacion.mp4
+
+06_cinco_ads | máster35.000000–38.333333s | fuente0.000000–3.333333s
+Estado: CANDIDATO_UI_FILA_DUPLICADA
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/06_V5_CANDIDATO_FILA_DUPLICADA.mp4
+
+07_gestion | máster38.333333–42.583333s | fuente0.000000–4.250000s
+Estado: UTILIZABLE_PREVIEW_CON_LIMITACIONES
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/07_CAMPANAS_V3_REVISADO.mp4
+
+08_optimizacion | máster42.583333–51.541667s | fuente0.000000–8.958333s
+Estado: CANDIDATO_VISUAL_UTILIZABLE_CON_LIMITACIONES
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/08_GAG_V3_CANDIDATO_UI_PENDIENTE.mp4
+
+09_papeles | máster51.541667–55.833333s | fuente0.000000–4.291667s
+Estado: GENERADO_DISPONIBLE_CON_OBSERVACION_DE_BEAT
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/09_PAPELES_V2_GENERADO_AJUSTE_DE_BEAT.mp4
+
+10_fundadores | máster55.833333–61.583333s | fuente0.000000–5.750000s
+Estado: VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/10_FUNDADORES_VISUAL_REVISADO.mp4
+
+11_criterio | máster61.583333–66.041667s | fuente0.000000–4.458333s
+Estado: VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/11_CRITERIO_VISUAL_REVISADO_AUDIO_PENDIENTE.mp4
+
+12_habitacion | máster66.041667–70.041667s | fuente0.000000–4.000000s
+Estado: CANDIDATO_VISUAL_CON_LIMITACIONES
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/12_HABITACION_V3_CANDIDATO_PROYECCION.mp4
+
+13_metagag | máster70.041667–74.416667s | fuente0.000000–4.375000s
+Estado: VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/13_METAGAG_VISUAL_REVISADO.mp4
+
+14_cta | máster74.416667–82.958333s | fuente0.000000–8.541667s
+Estado: VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/14_CTA_HONESTO_VISUAL_REVISADO.mp4
+
+15_salida | máster82.958333–85.416667s | fuente0.750000–3.208333s
+Estado: VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+Fuente: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/15_SALIDA_V2_PANTALLA_ENCENDIDA.mp4
+
+OBSERVACIONES PARA ACABADO
+06y08: interfaz con fila5duplicada y algunos textos ilegibles.07: título/botón imperfectos y encuadre frontal similar, aunque activación porchecks entendible.
+09: dos papeles ya generados; caída anticipada frente a «el doble». No regenerar por pensar que falta el clip.
+12: proyección de producto en movimiento, pero dirección óptica de lentes y pared incoherente.
+Audio: VO original continua0–85.39425s, susurro original en1.970s; sinretiming ni nuevas voces. Ambiente nativo conservado con ganancias/microfades. Hook: cama provisional tomada del ambiente de04para evitar duplicación de voz generada; originalhookentregado por separado. Escucha perceptual final y sincronía fina del susurro no certificadas.
+No se ha añadido música ni subtítulos/handles al preview. Corresponden al acabado editorial; prompt cómico y mapa ya están entregados.
+
+PRÓXIMOS PASOS DE EDICIÓN
+Revisar el preview completo, resolver los defectos visuales indicados sin reintroducir descartes, realizar escucha final y balance deVO/SFX. Añadir música cómica y subtítulos. Handles solo en10:@notelliotkay y@notkurtgodel.
+No repetir escenas para cubrir otros momentos; voz intacta. Los efectos de cámara de08son nativos. Mantener el tono de comedia con sobriedad en criterio/encaje.
+
+DESCARTES QUE NO DEBEN RESTAURARSE
+07_gestion_corte: no mostraba campañas.07_gestion_campanas_v2: verde conOFF.08_optimizacion_v2: zapatilla flotante sobrecara.08_optimizacion_pantalla: reparación local rechazada por usuario.07extend: sustituido, no generar.
+
+ARCHIVOS DE ENTREGA
+Brief: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/00_BRIEF_MAESTRO_ACTUAL.txt
+Timeline: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/05_TIMELINE/MASTER_COMPLETO_24FPS.json
+Timeline CSV: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/05_TIMELINE/MASTER_COMPLETO_24FPS.csv
+Voces: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/02_AUDIO
+Stems de ensamble: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES
+Prompt musical: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/08_MUSICA/PROMPT_ELEVENLABS.txt
+Mapa musical: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/08_MUSICA/MAPA_MUSICAL.csv
+Dirección mezcla: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/08_MUSICA/DIRECCION_Y_MEZCLA.txt
+Música solicitada: comedia118BPM,pizzicato,fagot,piano juguetón,silencios de gag y menor intensidad en criterio/CTA. No canción generada.
+
+ENTREGA LOCAL
+No se ha enviado nada a otros chats niClaude. El usuario entrega esta carpeta. No hay nuevas generaciones programadas. Los originales y montajes anteriores permanecen conservados.

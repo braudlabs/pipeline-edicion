@@ -1,0 +1,16 @@
+{
+  "reviewed_source": "landing",
+  "frame_range": [
+    4796,
+    4828
+  ],
+  "roi_px": [
+    76,
+    561,
+    556,
+    810
+  ],
+  "mode": "white",
+  "threshold": 90,
+  "limitations": "Tinta por percentil, fuerza de contraste no alpha; cadencia/compresión."
+}

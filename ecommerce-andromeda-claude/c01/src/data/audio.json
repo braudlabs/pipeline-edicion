@@ -1,0 +1,16 @@
+{
+  "note": "Pistas independientes y editables. Ganancias lineales. Stems generados por build-audio.py con cortes exactos y microfundidos de 8 ms. La música está vacía a propósito: Ale la entregará con el clip completo.",
+  "tracks": [
+    {"id": "narrador", "src": "assets/audio/stems/narrador.wav", "from": 0, "gain": 1.0, "note": "NARRADOR_COMPLETO_ORIGINAL.mp3 desde 0, sin retiming"},
+    {"id": "hook-nativo", "src": "assets/audio/stems/native-00_hook.wav", "from": 0, "gain": 0.8, "note": "Audio nativo del hook: voz generada sincronizada «Más anuncios. Más.» + ambiente. Instrucción directa de Ale. Sin stem externo del azul ni cama del 04."},
+    {"id": "nativo-01", "src": "assets/audio/stems/native-01_ventanilla.wav", "from": 130, "gain": 0.65},
+    {"id": "nativo-02", "src": "assets/audio/stems/native-02_ticket.wav", "from": 350, "gain": 0.65},
+    {"id": "nativo-03", "src": "assets/audio/stems/native-03_apagados.wav", "from": 450, "gain": 0.75, "note": "clics eléctricos de los apagados; nivel fuente bajo (-31 LUFS)"},
+    {"id": "nativo-03b", "src": "assets/audio/stems/native-03b_repetir.wav", "from": 552, "gain": 0.75},
+    {"id": "nativo-04", "src": "assets/audio/stems/native-04_sudadera.wav", "from": 610, "gain": 0.75, "note": "roce de tela; nivel fuente bajo (-30 LUFS)"},
+    {"id": "nativo-05", "src": "assets/audio/stems/native-05_presentacion.wav", "from": 782, "gain": 0.6, "note": "golpes de la máquina sobre el mostrador"},
+    {"id": "nativo-06", "src": "assets/audio/stems/native-06_cinco_ads.wav", "from": 840, "gain": 0.42, "note": "PROVISIONAL; tono de interfaz fuerte (-13.9 LUFS) rebajado para no tapar «5 ads»"},
+    {"id": "sfx-subtitulos", "src": "assets/audio/stems/sfx-captions.wav", "from": 0, "gain": 1.0, "note": "Acentos discretos ligados a construcciones tipográficas concretas; desactivable"},
+    {"id": "musica", "src": null, "from": 0, "gain": 0, "enabled": false, "status": "pendiente: Ale la resolverá con el clip completo"}
+  ]
+}

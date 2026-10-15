@@ -1,0 +1,29 @@
+{
+  "feedback": "Contour/fill overused in V03. Sweatshirt should be more of a gag: black-and-white, no captions.",
+  "retainedContourPhrases": [
+    "anuncios nuevos",
+    "mierda",
+    "solución"
+  ],
+  "retainedContourMoments": 3,
+  "gag": {
+    "sourceTimelineFrames": [
+      692,
+      741
+    ],
+    "outputFrames": [
+      1384,
+      1482
+    ],
+    "seconds": [
+      28.833333333333332,
+      30.875
+    ],
+    "grayscale": true,
+    "captions": false,
+    "audio": "unchanged"
+  },
+  "narrationCaptionWords": 112,
+  "intentionalOmission": "y con la sudadera de este tío",
+  "userApproved": false
+}

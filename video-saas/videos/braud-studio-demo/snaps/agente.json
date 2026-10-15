@@ -1,0 +1,31 @@
+{
+ "viewport": {
+  "w": 1512,
+  "h": 900,
+  "scrollY": 0
+ },
+ "videos": [],
+ "marks": {
+  "prompt": {
+   "x": 384,
+   "y": 684.21875,
+   "w": 744,
+   "h": 68.78125,
+   "text": ""
+  },
+  "user": {
+   "x": 491.40625,
+   "y": 196,
+   "w": 642.59375,
+   "h": 66.78125,
+   "text": "TÚ\n\nQuiero un UGC para la creatina: una chica que responde si hincha, con el bot"
+  },
+  "reply": {
+   "x": 378,
+   "y": 280.78125,
+   "w": 756,
+   "h": 141,
+   "text": "CODEX\n\nPartimos de la objeción que más frena la compra: el miedo a hincharse.\n\nC"
+  }
+ }
+}

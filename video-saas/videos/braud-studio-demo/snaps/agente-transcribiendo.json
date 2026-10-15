@@ -1,0 +1,52 @@
+{
+ "viewport": {
+  "w": 1512,
+  "h": 900,
+  "scrollY": 0
+ },
+ "videos": [],
+ "marks": {
+  "composer": {
+   "x": 366,
+   "y": 619.21875,
+   "w": 780,
+   "h": 191.78125,
+   "text": "Mensaje al agente\nTranscribiendo…\nGPT-6-ASTRA · medium\nTranscribiendo el audio…"
+  },
+  "prompt": {
+   "x": 384,
+   "y": 634.21875,
+   "w": 744,
+   "h": 68.78125,
+   "text": ""
+  },
+  "dictate": {
+   "x": 440,
+   "y": 711.5,
+   "w": 117.8125,
+   "h": 31,
+   "text": "Transcribiendo…"
+  },
+  "send": {
+   "x": 1093,
+   "y": 709.5,
+   "w": 35,
+   "h": 35,
+   "text": ""
+  },
+  "status": {
+   "x": 0,
+   "y": 0,
+   "w": 0,
+   "h": 0,
+   "text": ""
+  },
+  "font": {
+   "x": 0,
+   "y": 0,
+   "w": 383.859375,
+   "h": 21,
+   "text": "14px|22.4px|12px|14px|14px|normal|rgb(232, 233, 236)|400"
+  }
+ }
+}

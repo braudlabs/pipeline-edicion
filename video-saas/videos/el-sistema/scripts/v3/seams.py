@@ -1,0 +1,12 @@
+from pathlib import Path
+R=Path(__file__).resolve().parents[2];p=R/'scripts/v3/design.py';s=p.read_text()
+s=s.replace("96,2.65,4.25,MUTED", "96,2.65,4.05,MUTED").replace("196,2.77,4.25", "196,2.77,4.05")
+s=s.replace("78,4.05,5.23,MUTED", "78,4.05,5.18,MUTED").replace("234,4.18,5.28,ORANGE", "234,4.18,5.18,ORANGE").replace("176,5.18,6.47", "176,5.18,6.30")
+s=s.replace("][.20,.70", "][.94,.70") if False else s.replace("],[.20,.70,.70,1.11", "],[.94,.70,.70,1.11")
+s=s.replace("card('V3 | Película protagonista',1,660,1000,27.98,D,True)","card('V3 | Película protagonista',1,660,1100,27.98,D,True)")
+s=s.replace("livehero,960,540,27.98,30.15,.98", "livehero,960,540,28.20,30.15,.98")
+s=s.replace("[27.98,28.43,29.60,30.15]", "[28.20,28.43,29.60,30.15]")
+s=s.replace("[.97,.97,.97,.72],[12,0,0,0],[-15,0,0,-5]", "[.98,.98,.98,.72],[0,0,0,0],[0,0,0,-5]")
+s=s.replace("title(variants,txt,540,581,174,t,t+.8)","title(variants,txt,540,581,174,t,t+(.72 if j else .8))")
+s=s.replace("1370,540,t,t+.8,.94", "1370,540,t,t+(.72 if j else .8),.94")
+p.write_text(s)

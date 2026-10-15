@@ -1,0 +1,45 @@
+{
+ "viewport": {
+  "w": 1512,
+  "h": 900,
+  "scrollY": 0
+ },
+ "videos": [],
+ "marks": {
+  "working": {
+   "x": 378,
+   "y": 280.78125,
+   "w": 756,
+   "h": 32,
+   "text": "Leyendo el contexto de tu marca…\nDetener"
+  },
+  "user": {
+   "x": 491.40625,
+   "y": 196,
+   "w": 642.59375,
+   "h": 66.78125,
+   "text": "TÚ\n\nQuiero un UGC para la creatina: una chica que responde si hincha, con el bot"
+  },
+  "orb": {
+   "x": 378,
+   "y": 284.78125,
+   "w": 60,
+   "h": 24,
+   "text": ""
+  },
+  "label": {
+   "x": 444,
+   "y": 287.1875,
+   "w": 194.015625,
+   "h": 19.1875,
+   "text": "Leyendo el contexto de tu marca…"
+  },
+  "font": {
+   "x": 0,
+   "y": 0,
+   "w": 416.09375,
+   "h": 21,
+   "text": "12px|400|19.2px|normal|-apple-system, \"system-ui\", \"Segoe UI\","
+  }
+ }
+}

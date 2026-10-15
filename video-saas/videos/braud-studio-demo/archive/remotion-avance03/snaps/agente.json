@@ -1,0 +1,31 @@
+{
+ "viewport": {
+  "w": 1512,
+  "h": 900,
+  "scrollY": 0
+ },
+ "videos": [],
+ "marks": {
+  "prompt": {
+   "x": 384,
+   "y": 684.21875,
+   "w": 744,
+   "h": 68.78125,
+   "text": ""
+  },
+  "user": {
+   "x": 491.40625,
+   "y": 196,
+   "w": 642.59375,
+   "h": 89.171875,
+   "text": "TÚ\n\nQuiero un anuncio para dueños de ecommerce: desde Andrómeda necesitan anunci"
+  },
+  "reply": {
+   "x": 378,
+   "y": 303.171875,
+   "w": 756,
+   "h": 165.5,
+   "text": "CODEX\n\nPartamos de la presión semanal de Meta y de depender de otros para seguir"
+  }
+ }
+}

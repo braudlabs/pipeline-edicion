@@ -1,0 +1,25 @@
+{
+  "id": "v2-churros-A",
+  "source": "native decoded MP4 select n; zero-based",
+  "file": "fontfit-encontrado.txt",
+  "scope": "single-word candidate fit, not source font identification",
+  "limitations": "Selective measurement, not exhaustive event review; source frame dimensions and ROI from commands/coverage.",
+  "frame": 65,
+  "text": "encontrado",
+  "roi_px": [
+    250,
+    850,
+    835,
+    1020
+  ],
+  "threshold": 240,
+  "best": "Helvetica Bold",
+  "body_px": 118,
+  "tracking_per_thousand_em": -72,
+  "iou": 0.944,
+  "ink_wh": [
+    559,
+    87
+  ],
+  "discarded": "prior ROI y875–975 clipped bottom"
+}

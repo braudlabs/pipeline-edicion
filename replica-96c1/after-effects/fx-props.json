@@ -1,0 +1,545 @@
+{
+  "ok": true,
+  "result": {
+    "ok": true,
+    "compName": "REPLICA - MASTER",
+    "count": 1,
+    "missing": 0,
+    "layers": [
+      {
+        "index": 1,
+        "id": 112,
+        "name": "PROBE FX",
+        "type": "TextLayer",
+        "enabled": true,
+        "solo": false,
+        "shy": false,
+        "locked": false,
+        "inPoint": 0,
+        "outPoint": 11,
+        "startTime": 0,
+        "stretch": 100,
+        "parentIndex": null,
+        "label": 1,
+        "text": "Probe",
+        "fontSize": 36,
+        "font": "Helvetica",
+        "fillColor": [
+          0.92156898975372,
+          0.92156898975372,
+          0.92156898975372
+        ],
+        "parent": null,
+        "transformGroup": {
+          "name": "Transformar",
+          "matchName": "ADBE Transform Group",
+          "properties": [
+            {
+              "name": "Punto de anclaje",
+              "matchName": "ADBE Anchor Point",
+              "propertyValueType": "ThreeD_SPATIAL",
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Posici\u00f3n",
+              "matchName": "ADBE Position",
+              "propertyValueType": "ThreeD_SPATIAL",
+              "value": [
+                360,
+                640,
+                0
+              ]
+            },
+            {
+              "name": "X Posici\u00f3n",
+              "matchName": "ADBE Position_0",
+              "propertyValueType": "OneD",
+              "value": 0
+            },
+            {
+              "name": "Y Posici\u00f3n",
+              "matchName": "ADBE Position_1",
+              "propertyValueType": "OneD",
+              "value": 0
+            },
+            {
+              "name": "Z Posici\u00f3n",
+              "matchName": "ADBE Position_2",
+              "propertyValueType": "OneD",
+              "value": 0
+            },
+            {
+              "name": "Escala",
+              "matchName": "ADBE Scale",
+              "propertyValueType": "ThreeD",
+              "value": [
+                100,
+                100,
+                100
+              ]
+            },
+            {
+              "name": "Orientaci\u00f3n",
+              "matchName": "ADBE Orientation",
+              "propertyValueType": "ThreeD_SPATIAL",
+              "value": [
+                0,
+                0,
+                0
+              ]
+            },
+            {
+              "name": "Rotaci\u00f3n X",
+              "matchName": "ADBE Rotate X",
+              "propertyValueType": "OneD",
+              "value": 0
+            },
+            {
+              "name": "Rotaci\u00f3n Y",
+              "matchName": "ADBE Rotate Y",
+              "propertyValueType": "OneD",
+              "value": 0
+            },
+            {
+              "name": "Rotaci\u00f3n",
+              "matchName": "ADBE Rotate Z",
+              "propertyValueType": "OneD",
+              "value": 0
+            },
+            {
+              "name": "Opacidad",
+              "matchName": "ADBE Opacity",
+              "propertyValueType": "OneD",
+              "value": 100
+            },
+            {
+              "name": "Aparece en reflejos",
+              "matchName": "ADBE Envir Appear in Reflect",
+              "propertyValueType": "OneD",
+              "value": 1
+            }
+          ],
+          "groups": []
+        },
+        "effectsGroup": {
+          "name": "Efectos",
+          "matchName": "ADBE Effect Parade",
+          "properties": [],
+          "groups": [
+            {
+              "name": "Desenfoque gaussiano",
+              "matchName": "ADBE Gaussian Blur 2",
+              "properties": [
+                {
+                  "name": "Desenfoque",
+                  "matchName": "ADBE Gaussian Blur 2-0001",
+                  "propertyValueType": "OneD",
+                  "value": 25
+                },
+                {
+                  "name": "Dimensiones de desenfoque",
+                  "matchName": "ADBE Gaussian Blur 2-0002",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                },
+                {
+                  "name": "Repetir p\u00edxeles del borde",
+                  "matchName": "ADBE Gaussian Blur 2-0003",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Opciones de composici\u00f3n",
+                  "matchName": "ADBE Effect Built In Params",
+                  "properties": [
+                    {
+                      "name": "Opacidad del efecto",
+                      "matchName": "ADBE Effect Mask Opacity",
+                      "propertyValueType": "OneD",
+                      "value": 100
+                    },
+                    {
+                      "name": "Procesamiento por GPU",
+                      "matchName": "ADBE Force CPU GPU",
+                      "propertyValueType": "OneD",
+                      "value": 1
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "name": "M\u00e1scaras",
+                      "matchName": "ADBE Effect Mask Parade",
+                      "properties": [],
+                      "groups": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Barrido lineal",
+              "matchName": "ADBE Linear Wipe",
+              "properties": [
+                {
+                  "name": "Finalizaci\u00f3n transici\u00f3n",
+                  "matchName": "ADBE Linear Wipe-0001",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "\u00c1ngulo del barrido",
+                  "matchName": "ADBE Linear Wipe-0002",
+                  "propertyValueType": "OneD",
+                  "value": 90
+                },
+                {
+                  "name": "Calado",
+                  "matchName": "ADBE Linear Wipe-0003",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Opciones de composici\u00f3n",
+                  "matchName": "ADBE Effect Built In Params",
+                  "properties": [
+                    {
+                      "name": "Opacidad del efecto",
+                      "matchName": "ADBE Effect Mask Opacity",
+                      "propertyValueType": "OneD",
+                      "value": 100
+                    },
+                    {
+                      "name": "Procesamiento por GPU",
+                      "matchName": "ADBE Force CPU GPU",
+                      "propertyValueType": "OneD",
+                      "value": 1
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "name": "M\u00e1scaras",
+                      "matchName": "ADBE Effect Mask Parade",
+                      "properties": [],
+                      "groups": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Sombra paralela",
+              "matchName": "ADBE Drop Shadow",
+              "properties": [
+                {
+                  "name": "Color de la sombra",
+                  "matchName": "ADBE Drop Shadow-0001",
+                  "propertyValueType": "COLOR",
+                  "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "name": "Opacidad",
+                  "matchName": "ADBE Drop Shadow-0002",
+                  "propertyValueType": "OneD",
+                  "value": 127.5
+                },
+                {
+                  "name": "Direcci\u00f3n",
+                  "matchName": "ADBE Drop Shadow-0003",
+                  "propertyValueType": "OneD",
+                  "value": 135
+                },
+                {
+                  "name": "Distancia",
+                  "matchName": "ADBE Drop Shadow-0004",
+                  "propertyValueType": "OneD",
+                  "value": 5
+                },
+                {
+                  "name": "Suavizado",
+                  "matchName": "ADBE Drop Shadow-0005",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "S\u00f3lo sombra",
+                  "matchName": "ADBE Drop Shadow-0006",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Opciones de composici\u00f3n",
+                  "matchName": "ADBE Effect Built In Params",
+                  "properties": [
+                    {
+                      "name": "Opacidad del efecto",
+                      "matchName": "ADBE Effect Mask Opacity",
+                      "propertyValueType": "OneD",
+                      "value": 100
+                    },
+                    {
+                      "name": "Procesamiento por GPU",
+                      "matchName": "ADBE Force CPU GPU",
+                      "propertyValueType": "OneD",
+                      "value": 1
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "name": "M\u00e1scaras",
+                      "matchName": "ADBE Effect Mask Parade",
+                      "properties": [],
+                      "groups": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Gradaci\u00f3n de degradado",
+              "matchName": "ADBE Ramp",
+              "properties": [
+                {
+                  "name": "Inicio de la pendiente",
+                  "matchName": "ADBE Ramp-0001",
+                  "propertyValueType": "TwoD_SPATIAL",
+                  "value": [
+                    360,
+                    0
+                  ]
+                },
+                {
+                  "name": "Color de inicio",
+                  "matchName": "ADBE Ramp-0002",
+                  "propertyValueType": "COLOR",
+                  "value": [
+                    0,
+                    0,
+                    0,
+                    1
+                  ]
+                },
+                {
+                  "name": "Final de la pendiente",
+                  "matchName": "ADBE Ramp-0003",
+                  "propertyValueType": "TwoD_SPATIAL",
+                  "value": [
+                    360,
+                    1280
+                  ]
+                },
+                {
+                  "name": "Color final",
+                  "matchName": "ADBE Ramp-0004",
+                  "propertyValueType": "COLOR",
+                  "value": [
+                    1,
+                    1,
+                    1,
+                    1
+                  ]
+                },
+                {
+                  "name": "Forma de la pendiente",
+                  "matchName": "ADBE Ramp-0005",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                },
+                {
+                  "name": "Dispersi\u00f3n de la pendiente",
+                  "matchName": "ADBE Ramp-0006",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "Fusionar con el original",
+                  "matchName": "ADBE Ramp-0007",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "",
+                  "matchName": "ADBE Ramp-0008",
+                  "propertyValueType": "NO_VALUE"
+                }
+              ],
+              "groups": [
+                {
+                  "name": "Opciones de composici\u00f3n",
+                  "matchName": "ADBE Effect Built In Params",
+                  "properties": [
+                    {
+                      "name": "Opacidad del efecto",
+                      "matchName": "ADBE Effect Mask Opacity",
+                      "propertyValueType": "OneD",
+                      "value": 100
+                    },
+                    {
+                      "name": "Procesamiento por GPU",
+                      "matchName": "ADBE Force CPU GPU",
+                      "propertyValueType": "OneD",
+                      "value": 1
+                    }
+                  ],
+                  "groups": [
+                    {
+                      "name": "M\u00e1scaras",
+                      "matchName": "ADBE Effect Mask Parade",
+                      "properties": [],
+                      "groups": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "masksGroup": null,
+        "textGroup": {
+          "name": "Texto",
+          "matchName": "ADBE Text Properties",
+          "properties": [
+            {
+              "name": "Texto de origen",
+              "matchName": "ADBE Text Document",
+              "propertyValueType": "TEXT_DOCUMENT",
+              "value": {
+                "__kind": "TextDocument",
+                "text": "Probe",
+                "font": "Helvetica",
+                "fontFamily": "Helvetica",
+                "fontStyle": "Regular",
+                "fontSize": 36,
+                "fillColor": [
+                  0.92156898975372,
+                  0.92156898975372,
+                  0.92156898975372
+                ],
+                "strokeColor": null,
+                "strokeWidth": 1,
+                "justification": "7413",
+                "tracking": 0,
+                "leading": 43.2000007629395,
+                "baselineShift": 0,
+                "applyFill": true,
+                "applyStroke": false,
+                "boxText": false,
+                "boxTextSize": null,
+                "boxTextPos": null
+              }
+            }
+          ],
+          "groups": [
+            {
+              "name": "Opciones de trazado",
+              "matchName": "ADBE Text Path Options",
+              "properties": [
+                {
+                  "name": "Trazado",
+                  "matchName": "ADBE Text Path",
+                  "propertyValueType": "MASK_INDEX",
+                  "value": 0
+                },
+                {
+                  "name": "Invertir trazado",
+                  "matchName": "ADBE Text Reverse Path",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "Perpendicular al trazado",
+                  "matchName": "ADBE Text Perpendicular To Path",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                },
+                {
+                  "name": "Alineaci\u00f3n Forzada",
+                  "matchName": "ADBE Text Force Align Path",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "Primer margen",
+                  "matchName": "ADBE Text First Margin",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                },
+                {
+                  "name": "\u00daltimo margen",
+                  "matchName": "ADBE Text Last Margin",
+                  "propertyValueType": "OneD",
+                  "value": 0
+                }
+              ],
+              "groups": []
+            },
+            {
+              "name": "M\u00e1s opciones",
+              "matchName": "ADBE Text More Options",
+              "properties": [
+                {
+                  "name": "Agrupaci\u00f3n punto de anclajw",
+                  "matchName": "ADBE Text Anchor Point Option",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                },
+                {
+                  "name": "Alineaci\u00f3n de la agrupaci\u00f3n",
+                  "matchName": "ADBE Text Anchor Point Align",
+                  "propertyValueType": "TwoD",
+                  "value": [
+                    0,
+                    0
+                  ]
+                },
+                {
+                  "name": "Relleno y trazo",
+                  "matchName": "ADBE Text Render Order",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                },
+                {
+                  "name": "Fusi\u00f3n entre caracteres",
+                  "matchName": "ADBE Text Character Blend Mode",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                },
+                {
+                  "name": "Espaciado de fuente variable",
+                  "matchName": "ADBE Text Variable Font Spacing",
+                  "propertyValueType": "OneD",
+                  "value": 1
+                }
+              ],
+              "groups": []
+            },
+            {
+              "name": "Animaciones",
+              "matchName": "ADBE Text Animators",
+              "properties": [],
+              "groups": []
+            }
+          ]
+        },
+        "ok": true,
+        "found": true
+      }
+    ]
+  },
+  "logs": [],
+  "durationMs": 245
+}

@@ -1,0 +1,24 @@
+{
+  "decodedWithoutErrors": true,
+  "video": "H264 1080x1920 60000/1001",
+  "audio": "AAC stereo; original mix at 0.80 plus five local SFX",
+  "audioPeakDbFS": -1.6,
+  "audioMeanDbFS": -17.4,
+  "designFramesInspected": [
+    "kidney",
+    "solution",
+    "graphic-entry",
+    "graphic-main",
+    "graphic-resolution",
+    "cleaning",
+    "inspection",
+    "concept-b",
+    "concept-c"
+  ],
+  "sequenceContactSheetInspected": true,
+  "motionContactSheetInspected": true,
+  "browserPlaybackReachedLastFrame": 1203,
+  "audioListening": "Not independently listened to; timing from local ASR, waveform levels checked. Browser playback test muted.",
+  "styleApproved": false,
+  "sha256": "39a11e0582e9f3cd5c1f8e3d84a242daddb12975438445b2fb0446e25a7c9a5b"
+}

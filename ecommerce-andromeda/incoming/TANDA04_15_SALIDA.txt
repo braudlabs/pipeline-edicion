@@ -1,0 +1,9 @@
+15 SALIDA — CANDIDATO CON CORTE AJUSTADO
+Master82.958333333–85.375,58frames a24fps. Fuente1.25–3.666666667.
+Original: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/15_SALIDA_CANDIDATO_PANTALLA_OSCURA.mp4
+Preview: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/15_SALIDA_PREVIEW_CORTE_AJUSTADO.mp4
+Se elimina inicio lento, sin acelerar vídeo ni voz. Llega al ratón antes del final. Voz original; ambiente/SFX nativo conservado a0.65, no música añadida.
+La voz fuente llega a85.39425; los últimos0.01925s quedan fuera de la rejilla del corte y son posteriores al último ads. En master conservar el audio completo si corresponde, no cortar fonema.
+LIMITACIÓN VISUAL: pantalla permanece oscura, no afirmar que enseña producir ads. Resolver pantalla si se usa como cierre definitivo. No dar por aprobado por usuario.
+Audio: ASR sin diálogo inteligible; clasificación local de pasos/roces/tecleo. No escucha realizada ni ausencia de música certificada.
+No colocar tras13: falta14. No repetir esta escena en otro momento.

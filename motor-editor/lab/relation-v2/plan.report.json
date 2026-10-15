@@ -1,0 +1,214 @@
+{
+  "job": "v8-selection-mechanism-study",
+  "frames": 210,
+  "seconds": 3.5035000000000003,
+  "shots": 1,
+  "captions": 0,
+  "motionGraphics": 1,
+  "recipes": [
+    {
+      "clause": "c",
+      "recipe": "comparison",
+      "reason": "Shared clip window communicates the declared relationship; timings preserve both reading states. Shared identity across two labels; preserve measured window movement and distinct speech bindings.",
+      "evidence": [
+        "estilo-editor/ALGORITMO-V2.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "eligible": true,
+          "score": 0,
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. La relación exige diseñar un recurso específico; no se sustituye por un contador genérico."
+        },
+        {
+          "recipe": "hero",
+          "eligible": false,
+          "score": 0,
+          "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+        },
+        {
+          "recipe": "accumulate",
+          "eligible": false,
+          "score": -2,
+          "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras. No cumple función, longitud, tamaño mínimo o continuidad de frase."
+        },
+        {
+          "recipe": "silence",
+          "eligible": false,
+          "score": 2,
+          "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+        },
+        {
+          "recipe": "comparison",
+          "eligible": true,
+          "score": 3,
+          "reason": "Shared clip window communicates the declared relationship; timings preserve both reading states."
+        }
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "wordCoverage": "4/4",
+  "editorial": {
+    "version": 2,
+    "decisions": [
+      {
+        "clauseId": "c",
+        "layoutId": "same-slot",
+        "treatment": "relation",
+        "reason": "Shared clip window communicates the declared relationship; timings preserve both reading states. Shared identity across two labels; preserve measured window movement and distinct speech bindings.",
+        "observation": {
+          "kind": "agent",
+          "reason": "Shared identity across two labels; preserve measured window movement and distinct speech bindings."
+        },
+        "semanticFunction": "explain-relation",
+        "candidates": [
+          {
+            "treatment": "rail",
+            "eligible": true,
+            "cost": 0,
+            "reasons": [
+              "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico.",
+              "La relación exige diseñar un recurso específico; no se sustituye por un contador genérico."
+            ]
+          },
+          {
+            "treatment": "stack",
+            "eligible": false,
+            "cost": 0,
+            "reasons": [
+              "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto.",
+              "No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "inline",
+            "eligible": false,
+            "cost": 2,
+            "reasons": [
+              "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras.",
+              "No cumple función, longitud, tamaño mínimo o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "quiet",
+            "eligible": false,
+            "cost": -2,
+            "reasons": [
+              "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+            ]
+          },
+          {
+            "treatment": "relation",
+            "eligible": true,
+            "cost": -3,
+            "reasons": [
+              "Shared clip window communicates the declared relationship; timings preserve both reading states."
+            ]
+          }
+        ],
+        "anchor": [
+          0.5,
+          0.56
+        ],
+        "evidence": [
+          {
+            "rule": "G01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v1-pagado",
+                "f0": 176,
+                "f1": 225,
+                "observation": "Precio300€",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "v1-pagado",
+                "f0": 383,
+                "f1": 449,
+                "observation": "30variantes→coste mínimo",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 343,
+                "f1": 504,
+                "observation": "Sistema y comparación",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              },
+              {
+                "slug": "v8",
+                "f0": 2396,
+                "f1": 2562,
+                "observation": "Resultados y primera versión",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              }
+            ]
+          },
+          {
+            "rule": "G03",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v1-pagado",
+                "f0": 383,
+                "f1": 449,
+                "observation": "Contador y viaje arriba-izquierda",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "v2-churros",
+                "f0": 760,
+                "f1": 793,
+                "observation": "Tiempo/reloj→Dinero/hucha",
+                "level": "prior_review",
+                "sourceSha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+                "independentFamily": "v2-churros"
+              },
+              {
+                "slug": "v3-ia-cara",
+                "f0": 760,
+                "f1": 823,
+                "observation": "Proceso→Resultado con relevo diagonal",
+                "level": "prior_review",
+                "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+                "independentFamily": "v3-ia-cara"
+              },
+              {
+                "slug": "v8",
+                "f0": 196,
+                "f1": 327,
+                "observation": "Clientes→igualdad→empleados: tiradores medidos y secuencia nativa continua",
+                "level": "native_sequence_measured",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              }
+            ]
+          }
+        ],
+        "motion": "Measured selector separation; authored font, alpha and text movement",
+        "needsDesign": false
+      }
+    ],
+    "selectionCost": -3,
+    "limits": [
+      "Semantic observations are supplied by the agent/user, not inferred from pixels by this compiler.",
+      "Candidate costs and safety margins are authored hypotheses, not learned probabilities.",
+      "No new sound effects or automatic masks.",
+      "Cross-family visual fidelity remains unverified.",
+      "Source audio passes through unless a separate narration is supplied; this compiler does not listen or realign phonemes."
+    ]
+  },
+  "fidelity": "unverified_without_visual_comparison"
+}

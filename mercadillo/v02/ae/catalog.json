@@ -1,0 +1,4685 @@
+[
+  {
+    "name": "project.open",
+    "description": "Open a .aep project file. Closes the current project without saving.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "path",
+        "type": "string",
+        "required": true,
+        "description": "Absolute path to .aep file"
+      },
+      {
+        "name": "save",
+        "type": "boolean",
+        "required": false,
+        "description": "Save current project before closing (default false)"
+      }
+    ]
+  },
+  {
+    "name": "project.import_file",
+    "description": "Import a file (image, video, audio) into the project as footage. Pass sequence=true with the first file of an image sequence to import the whole sequence.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "path",
+        "type": "string",
+        "required": true,
+        "description": "Absolute file path"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Rename the imported item"
+      },
+      {
+        "name": "sequence",
+        "type": "boolean",
+        "required": false,
+        "description": "Import as image sequence starting at path (default false)",
+        "default": false
+      },
+      {
+        "name": "forceAlphabetical",
+        "type": "boolean",
+        "required": false,
+        "description": "Sequence only: force alphabetical order (default false)"
+      },
+      {
+        "name": "importAs",
+        "type": "string",
+        "required": false,
+        "description": "footage|comp|compRetainLayerSizes|project \u2014 for layered files like .psd/.ai (default footage)"
+      },
+      {
+        "name": "rangeStart",
+        "type": "number",
+        "required": false,
+        "description": "Sequence only: first frame number to import (ImportOptions.rangeStart)"
+      },
+      {
+        "name": "rangeEnd",
+        "type": "number",
+        "required": false,
+        "description": "Sequence only: last frame number to import (ImportOptions.rangeEnd)"
+      }
+    ]
+  },
+  {
+    "name": "project.undo",
+    "description": "Undo the last action. Equivalent to Ctrl+Z. Each prior ae_do call is ONE undo step (its automatic undo group), so count=1 reverts the whole previous call, batch included.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "count",
+        "type": "number",
+        "required": false,
+        "description": "Number of undos (default 1)",
+        "default": 1
+      }
+    ]
+  },
+  {
+    "name": "project.purge",
+    "description": "Purge AE memory/disk caches. Use when AE is consuming too much RAM.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "target",
+        "type": "string",
+        "required": false,
+        "description": "all|image|undo (default 'all')",
+        "default": "all"
+      }
+    ]
+  },
+  {
+    "name": "project.replace_font",
+    "description": "Replace a font throughout the entire project. Useful for font substitution.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "fromFont",
+        "type": "string",
+        "required": true,
+        "description": "Current font postscript name to replace"
+      },
+      {
+        "name": "toFont",
+        "type": "string",
+        "required": true,
+        "description": "New font postscript name"
+      }
+    ]
+  },
+  {
+    "name": "project.auto_fix_expressions",
+    "description": "Find and replace text in all expressions across the project. Useful after renaming layers/comps.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "oldText",
+        "type": "string",
+        "required": true,
+        "description": "Text to find in expressions"
+      },
+      {
+        "name": "newText",
+        "type": "string",
+        "required": true,
+        "description": "Replacement text"
+      }
+    ]
+  },
+  {
+    "name": "project.clear",
+    "description": "Remove ALL items from the project. Destructive \u2014 use with caution.",
+    "readOnly": false,
+    "params": []
+  },
+  {
+    "name": "project.delete_item",
+    "description": "Delete a project item by id.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "itemId",
+        "type": "number",
+        "required": true,
+        "description": "Numeric item id"
+      }
+    ]
+  },
+  {
+    "name": "project.find_layers",
+    "description": "Search layers by name pattern and/or type across one or all comps.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": false,
+        "description": "Restrict to one comp (name or id). Omit to search all."
+      },
+      {
+        "name": "namePattern",
+        "type": "string",
+        "required": false,
+        "description": "Case-insensitive substring match on layer name"
+      },
+      {
+        "name": "type",
+        "type": "string",
+        "required": false,
+        "description": "AVLayer|TextLayer|ShapeLayer|CameraLayer|LightLayer|ThreeDModelLayer|ParametricMeshLayer"
+      },
+      {
+        "name": "limit",
+        "type": "number",
+        "required": false,
+        "description": "Max results (default 100)",
+        "default": 100
+      }
+    ]
+  },
+  {
+    "name": "project.list_effects",
+    "description": "List available effect matchNames in the running AE. Uses app.effects if available, otherwise a curated list.",
+    "readOnly": true,
+    "params": []
+  },
+  {
+    "name": "project.set_settings",
+    "description": "Set project-wide settings: color depth, expression engine, working color space, time display.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "bitsPerChannel",
+        "type": "number",
+        "required": false,
+        "description": "Color depth: 8, 16, or 32"
+      },
+      {
+        "name": "expressionEngine",
+        "type": "string",
+        "required": false,
+        "description": "'javascript-1.0' or 'extendscript'"
+      },
+      {
+        "name": "workingSpace",
+        "type": "string",
+        "required": false,
+        "description": "Working color space name (see project.get_settings includeColorProfiles), or '' for None"
+      },
+      {
+        "name": "workingGamma",
+        "type": "number",
+        "required": false,
+        "description": "Working gamma: 2.2 or 2.4"
+      },
+      {
+        "name": "linearBlending",
+        "type": "boolean",
+        "required": false,
+        "description": "Blend colors using 1.0 gamma"
+      },
+      {
+        "name": "timeDisplayType",
+        "type": "string",
+        "required": false,
+        "description": "timecode|frames"
+      },
+      {
+        "name": "framesUseFeetFrames",
+        "type": "boolean",
+        "required": false,
+        "description": "Use feet+frames for frame display"
+      },
+      {
+        "name": "framesCountType",
+        "type": "string",
+        "required": false,
+        "description": "start0|start1|timecode"
+      },
+      {
+        "name": "transparencyGridThumbnails",
+        "type": "boolean",
+        "required": false,
+        "description": "Show checkerboard in thumbnails"
+      },
+      {
+        "name": "gpuAccelType",
+        "type": "string",
+        "required": false,
+        "description": "software|opencl|cuda|metal"
+      },
+      {
+        "name": "linearizeWorkingSpace",
+        "type": "boolean",
+        "required": false,
+        "description": "Linearize the working color space (AE 16.0+)"
+      },
+      {
+        "name": "compensateForSceneReferredProfiles",
+        "type": "boolean",
+        "required": false,
+        "description": "Compensate for scene-referred profiles (AE 16.0+)"
+      },
+      {
+        "name": "displayStartFrame",
+        "type": "number",
+        "required": false,
+        "description": "Frame count starts at 0 or 1 (when counting frames)"
+      },
+      {
+        "name": "feetFramesFilmType",
+        "type": "string",
+        "required": false,
+        "description": "mm16|mm35 (film type for feet+frames display)"
+      },
+      {
+        "name": "footageTimecodeDisplayStartType",
+        "type": "string",
+        "required": false,
+        "description": "start0|useSourceMedia (footage timecode start)"
+      }
+    ]
+  },
+  {
+    "name": "project.get_settings",
+    "description": "Read project-wide settings: color depth, expression engine, working color space, time display. Pass includeColorProfiles=true to list installed color profile names.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "includeColorProfiles",
+        "type": "boolean",
+        "required": false,
+        "description": "Also return installed color profile names (default false)",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "project.reduce",
+    "description": "Reduce the project to only the given comps and everything they use (Project.reduceProject). Removes all other items \u2014 save a copy first.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comps",
+        "type": "array",
+        "required": true,
+        "description": "Comp names or ids to keep"
+      }
+    ]
+  },
+  {
+    "name": "project.remove_unused_footage",
+    "description": "Remove all footage items that are not used in any comp (Project.removeUnusedFootage).",
+    "readOnly": false,
+    "params": []
+  },
+  {
+    "name": "project.consolidate_footage",
+    "description": "Merge duplicate footage items into one and update layer references (Project.consolidateFootage).",
+    "readOnly": false,
+    "params": []
+  },
+  {
+    "name": "project.import_placeholder",
+    "description": "Create a placeholder footage item (Project.importPlaceholder) to build comps before the real footage exists. Relink later with footage.replace.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": "Placeholder name"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "required": true,
+        "description": "Width in px"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "required": true,
+        "description": "Height in px"
+      },
+      {
+        "name": "frameRate",
+        "type": "number",
+        "required": true,
+        "description": "Frame rate"
+      },
+      {
+        "name": "duration",
+        "type": "number",
+        "required": true,
+        "description": "Duration in seconds"
+      }
+    ]
+  },
+  {
+    "name": "project.new",
+    "description": "Create a NEW empty project (app.newProject). Closes the current project \u2014 pass save=true to save it first (only works when it has a file path). Destructive to unsaved work.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "save",
+        "type": "boolean",
+        "required": false,
+        "description": "Save the current project before closing (default false; needs a file path)",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "project.parse_swatch",
+    "description": "Parse an Adobe swatch file (.ase) and return its colors (app.parseSwatchFile) - feed brand palettes to fills, solids, and text colors.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "path",
+        "type": "string",
+        "required": true,
+        "description": "Absolute path to the .ase file"
+      }
+    ]
+  },
+  {
+    "name": "project.get_xmp",
+    "description": "Read the project's XMP metadata packet (Project.xmpPacket) as an RDF/XML string.",
+    "readOnly": true,
+    "params": []
+  },
+  {
+    "name": "project.set_xmp",
+    "description": "Replace the project's XMP metadata packet (Project.xmpPacket). Pass a complete, well-formed RDF/XML packet - AE does not validate fragments.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "xmp",
+        "type": "string",
+        "required": true,
+        "description": "Complete XMP packet (RDF/XML)"
+      }
+    ]
+  },
+  {
+    "name": "project.set_default_import_folder",
+    "description": "Set the folder shown by default in the file import dialog (Project.setDefaultImportFolder).",
+    "readOnly": false,
+    "appConfig": true,
+    "params": [
+      {
+        "name": "path",
+        "type": "string",
+        "required": true,
+        "description": "Absolute folder path"
+      },
+      {
+        "name": "confirm",
+        "type": "boolean",
+        "required": true,
+        "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+      }
+    ]
+  },
+  {
+    "name": "project.get_tool",
+    "description": "Read the active tool in the Tools panel (Project.toolType, AE 14.0+).",
+    "readOnly": true,
+    "params": []
+  },
+  {
+    "name": "project.set_tool",
+    "description": "Set the active tool in the Tools panel (Project.toolType, AE 14.0+): selection|rotate|hand|zoom|panBehind|rect|roundedRect|ellipse|polygon|star|textHorizontal|textVertical|pen|maskFeather|brush|cloneStamp|eraser|puppetPin|puppetStarch|puppetBend|puppetAdvanced|puppetOverlap|cameraUnified|cameraOrbit|cameraTrackXY|cameraTrackZ|cameraOrbitCursor|cameraOrbitScene|cameraOrbitCamera|cameraPanCursor.",
+    "readOnly": false,
+    "appConfig": true,
+    "params": [
+      {
+        "name": "tool",
+        "type": "string",
+        "required": true,
+        "description": "Tool name (see description)"
+      },
+      {
+        "name": "confirm",
+        "type": "boolean",
+        "required": true,
+        "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+      }
+    ]
+  },
+  {
+    "name": "project.set_memory_limits",
+    "description": "Set AE memory usage limits (app.setMemoryUsageLimits): image cache percent and maximum memory percent. Percentages over 100 are allowed (AE interprets them against installed RAM).",
+    "readOnly": false,
+    "appConfig": true,
+    "params": [
+      {
+        "name": "imageCachePercent",
+        "type": "number",
+        "required": true,
+        "description": "Image cache size as % of installed RAM"
+      },
+      {
+        "name": "maxMemoryPercent",
+        "type": "number",
+        "required": true,
+        "description": "Maximum AE memory as % of installed RAM"
+      },
+      {
+        "name": "confirm",
+        "type": "boolean",
+        "required": true,
+        "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+      }
+    ]
+  },
+  {
+    "name": "project.set_multi_frame_rendering",
+    "description": "Configure Multi-Frame Rendering (app.setMultiFrameRenderingConfig, AE 22.0+): on/off and the maximum CPU percentage MFR may use.",
+    "readOnly": false,
+    "appConfig": true,
+    "params": [
+      {
+        "name": "enabled",
+        "type": "boolean",
+        "required": true,
+        "description": "Enable MFR"
+      },
+      {
+        "name": "maxCpuPercent",
+        "type": "number",
+        "required": false,
+        "description": "Max CPU % for MFR (1-100, default 90)",
+        "default": 90
+      },
+      {
+        "name": "confirm",
+        "type": "boolean",
+        "required": true,
+        "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+      }
+    ]
+  },
+  {
+    "name": "text.set_content",
+    "description": "Set the text content of a text layer.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index or name (must be a TextLayer)"
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "required": true,
+        "description": "New text string"
+      }
+    ]
+  },
+  {
+    "name": "text.set_style",
+    "description": "Set text styling on the whole document: font, fontSize, colors, tracking, leading, justification, caps, kerning, ligatures, paragraph indents/spacing, RTL direction, vertical baselines, digit set, and more. For a sub-range use text.set_style_range.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "font",
+        "type": "string",
+        "required": false,
+        "description": "Font postscript name (e.g. 'Arial-BoldMT')"
+      },
+      {
+        "name": "fontSize",
+        "type": "number",
+        "required": false,
+        "description": "Font size in px"
+      },
+      {
+        "name": "fillColor",
+        "type": "array",
+        "required": false,
+        "description": "[r,g,b] 0-1"
+      },
+      {
+        "name": "strokeColor",
+        "type": "array",
+        "required": false,
+        "description": "[r,g,b] 0-1"
+      },
+      {
+        "name": "strokeWidth",
+        "type": "number",
+        "required": false,
+        "description": "Stroke width in px"
+      },
+      {
+        "name": "tracking",
+        "type": "number",
+        "required": false,
+        "description": "Tracking value"
+      },
+      {
+        "name": "leading",
+        "type": "number",
+        "required": false,
+        "description": "Leading (line spacing) in px"
+      },
+      {
+        "name": "applyFill",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable fill"
+      },
+      {
+        "name": "applyStroke",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable stroke"
+      },
+      {
+        "name": "strokeOverFill",
+        "type": "boolean",
+        "required": false,
+        "description": "Render stroke over fill"
+      },
+      {
+        "name": "justification",
+        "type": "string",
+        "required": false,
+        "description": "left|center|right|fullLeft|fullCenter|fullRight|fullLastLineFull"
+      },
+      {
+        "name": "baselineShift",
+        "type": "number",
+        "required": false,
+        "description": "Baseline shift in px"
+      },
+      {
+        "name": "autoLeading",
+        "type": "boolean",
+        "required": false,
+        "description": "Use auto leading"
+      },
+      {
+        "name": "allCaps",
+        "type": "boolean",
+        "required": false,
+        "description": "All caps via fontCapsOption (setter needs AE 24.0+)"
+      },
+      {
+        "name": "smallCaps",
+        "type": "boolean",
+        "required": false,
+        "description": "Small caps via fontCapsOption (setter needs AE 24.0+)"
+      },
+      {
+        "name": "fauxBold",
+        "type": "boolean",
+        "required": false,
+        "description": "Faux bold (setter needs AE 24.0+)"
+      },
+      {
+        "name": "fauxItalic",
+        "type": "boolean",
+        "required": false,
+        "description": "Faux italic (setter needs AE 24.0+)"
+      },
+      {
+        "name": "horizontalScale",
+        "type": "number",
+        "required": false,
+        "description": "Horizontal scale (1 = 100%, setter needs AE 24.0+)"
+      },
+      {
+        "name": "verticalScale",
+        "type": "number",
+        "required": false,
+        "description": "Vertical scale (1 = 100%, setter needs AE 24.0+)"
+      },
+      {
+        "name": "tsume",
+        "type": "number",
+        "required": false,
+        "description": "Tsume (normalized 0-1, CJK spacing, setter needs AE 24.0+)"
+      },
+      {
+        "name": "kerning",
+        "type": "number",
+        "required": false,
+        "description": "Manual kerning amount (AE 24.0+)"
+      },
+      {
+        "name": "autoKernType",
+        "type": "string",
+        "required": false,
+        "description": "none|metric|optical (AE 24.0+)"
+      },
+      {
+        "name": "ligature",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable ligatures (AE 24.0+)"
+      },
+      {
+        "name": "noBreak",
+        "type": "boolean",
+        "required": false,
+        "description": "Prevent line breaks (AE 24.0+)"
+      },
+      {
+        "name": "autoHyphenate",
+        "type": "boolean",
+        "required": false,
+        "description": "Paragraph auto-hyphenation (AE 24.0+)"
+      },
+      {
+        "name": "everyLineComposer",
+        "type": "boolean",
+        "required": false,
+        "description": "true=Every-Line Composer, false=Single-Line (AE 24.0+)"
+      },
+      {
+        "name": "hangingRoman",
+        "type": "boolean",
+        "required": false,
+        "description": "Roman hanging punctuation (burasagari, AE 24.0+)"
+      },
+      {
+        "name": "firstLineIndent",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph first-line indent in px (AE 24.0+)"
+      },
+      {
+        "name": "startIndent",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph start indent in px (AE 24.0+)"
+      },
+      {
+        "name": "endIndent",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph end indent in px (AE 24.0+)"
+      },
+      {
+        "name": "spaceBefore",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph space before in px (AE 24.0+)"
+      },
+      {
+        "name": "spaceAfter",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph space after in px (AE 24.0+)"
+      },
+      {
+        "name": "fontBaselineOption",
+        "type": "string",
+        "required": false,
+        "description": "normal|superscript|subscript (AE 24.0+)"
+      },
+      {
+        "name": "baselineDirection",
+        "type": "string",
+        "required": false,
+        "description": "withStream|verticalRotated|verticalCrossStream (tate-chu-yoko, AE 24.0+)"
+      },
+      {
+        "name": "direction",
+        "type": "string",
+        "required": false,
+        "description": "leftToRight|rightToLeft paragraph direction (AE 24.0+)"
+      },
+      {
+        "name": "leadingType",
+        "type": "string",
+        "required": false,
+        "description": "roman|japanese leading model (AE 24.0+)"
+      },
+      {
+        "name": "lineJoinType",
+        "type": "string",
+        "required": false,
+        "description": "miter|round|bevel stroke joins (AE 24.0+)"
+      },
+      {
+        "name": "digitSet",
+        "type": "string",
+        "required": false,
+        "description": "default|arabic|hindi|farsi|arabicRtl (AE 24.0+)"
+      },
+      {
+        "name": "composerEngine",
+        "type": "string",
+        "required": false,
+        "description": "latinCjk|universalType (AE 24.0+; universalType needed for RTL)"
+      },
+      {
+        "name": "lineOrientation",
+        "type": "string",
+        "required": false,
+        "description": "horizontal|verticalRtl|verticalLtr (whole document only, AE 24.2+)"
+      }
+    ]
+  },
+  {
+    "name": "text.set_style_range",
+    "description": "Style a SUB-RANGE of a text layer (AE 24.3+): same attributes as text.set_style, applied to characters, paragraphs, or composed lines. Whole-document-only attributes (lineOrientation) are rejected by AE with a warning.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "rangeType",
+        "type": "string",
+        "required": false,
+        "description": "characters|paragraphs|lines (default characters)",
+        "default": "characters"
+      },
+      {
+        "name": "start",
+        "type": "number",
+        "required": true,
+        "description": "0-based start index (character, paragraph, or composed line)"
+      },
+      {
+        "name": "end",
+        "type": "number",
+        "required": false,
+        "description": "Exclusive end index. Default: characters \u2192 end of text; paragraphs/lines \u2192 start+1"
+      },
+      {
+        "name": "font",
+        "type": "string",
+        "required": false,
+        "description": "Font postscript name (e.g. 'Arial-BoldMT')"
+      },
+      {
+        "name": "fontSize",
+        "type": "number",
+        "required": false,
+        "description": "Font size in px"
+      },
+      {
+        "name": "fillColor",
+        "type": "array",
+        "required": false,
+        "description": "[r,g,b] 0-1"
+      },
+      {
+        "name": "strokeColor",
+        "type": "array",
+        "required": false,
+        "description": "[r,g,b] 0-1"
+      },
+      {
+        "name": "strokeWidth",
+        "type": "number",
+        "required": false,
+        "description": "Stroke width in px"
+      },
+      {
+        "name": "tracking",
+        "type": "number",
+        "required": false,
+        "description": "Tracking value"
+      },
+      {
+        "name": "leading",
+        "type": "number",
+        "required": false,
+        "description": "Leading (line spacing) in px"
+      },
+      {
+        "name": "applyFill",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable fill"
+      },
+      {
+        "name": "applyStroke",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable stroke"
+      },
+      {
+        "name": "strokeOverFill",
+        "type": "boolean",
+        "required": false,
+        "description": "Render stroke over fill"
+      },
+      {
+        "name": "justification",
+        "type": "string",
+        "required": false,
+        "description": "left|center|right|fullLeft|fullCenter|fullRight|fullLastLineFull"
+      },
+      {
+        "name": "baselineShift",
+        "type": "number",
+        "required": false,
+        "description": "Baseline shift in px"
+      },
+      {
+        "name": "autoLeading",
+        "type": "boolean",
+        "required": false,
+        "description": "Use auto leading"
+      },
+      {
+        "name": "allCaps",
+        "type": "boolean",
+        "required": false,
+        "description": "All caps via fontCapsOption (setter needs AE 24.0+)"
+      },
+      {
+        "name": "smallCaps",
+        "type": "boolean",
+        "required": false,
+        "description": "Small caps via fontCapsOption (setter needs AE 24.0+)"
+      },
+      {
+        "name": "fauxBold",
+        "type": "boolean",
+        "required": false,
+        "description": "Faux bold (setter needs AE 24.0+)"
+      },
+      {
+        "name": "fauxItalic",
+        "type": "boolean",
+        "required": false,
+        "description": "Faux italic (setter needs AE 24.0+)"
+      },
+      {
+        "name": "horizontalScale",
+        "type": "number",
+        "required": false,
+        "description": "Horizontal scale (1 = 100%, setter needs AE 24.0+)"
+      },
+      {
+        "name": "verticalScale",
+        "type": "number",
+        "required": false,
+        "description": "Vertical scale (1 = 100%, setter needs AE 24.0+)"
+      },
+      {
+        "name": "tsume",
+        "type": "number",
+        "required": false,
+        "description": "Tsume (normalized 0-1, CJK spacing, setter needs AE 24.0+)"
+      },
+      {
+        "name": "kerning",
+        "type": "number",
+        "required": false,
+        "description": "Manual kerning amount (AE 24.0+)"
+      },
+      {
+        "name": "autoKernType",
+        "type": "string",
+        "required": false,
+        "description": "none|metric|optical (AE 24.0+)"
+      },
+      {
+        "name": "ligature",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable ligatures (AE 24.0+)"
+      },
+      {
+        "name": "noBreak",
+        "type": "boolean",
+        "required": false,
+        "description": "Prevent line breaks (AE 24.0+)"
+      },
+      {
+        "name": "autoHyphenate",
+        "type": "boolean",
+        "required": false,
+        "description": "Paragraph auto-hyphenation (AE 24.0+)"
+      },
+      {
+        "name": "everyLineComposer",
+        "type": "boolean",
+        "required": false,
+        "description": "true=Every-Line Composer, false=Single-Line (AE 24.0+)"
+      },
+      {
+        "name": "hangingRoman",
+        "type": "boolean",
+        "required": false,
+        "description": "Roman hanging punctuation (burasagari, AE 24.0+)"
+      },
+      {
+        "name": "firstLineIndent",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph first-line indent in px (AE 24.0+)"
+      },
+      {
+        "name": "startIndent",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph start indent in px (AE 24.0+)"
+      },
+      {
+        "name": "endIndent",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph end indent in px (AE 24.0+)"
+      },
+      {
+        "name": "spaceBefore",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph space before in px (AE 24.0+)"
+      },
+      {
+        "name": "spaceAfter",
+        "type": "number",
+        "required": false,
+        "description": "Paragraph space after in px (AE 24.0+)"
+      },
+      {
+        "name": "fontBaselineOption",
+        "type": "string",
+        "required": false,
+        "description": "normal|superscript|subscript (AE 24.0+)"
+      },
+      {
+        "name": "baselineDirection",
+        "type": "string",
+        "required": false,
+        "description": "withStream|verticalRotated|verticalCrossStream (tate-chu-yoko, AE 24.0+)"
+      },
+      {
+        "name": "direction",
+        "type": "string",
+        "required": false,
+        "description": "leftToRight|rightToLeft paragraph direction (AE 24.0+)"
+      },
+      {
+        "name": "leadingType",
+        "type": "string",
+        "required": false,
+        "description": "roman|japanese leading model (AE 24.0+)"
+      },
+      {
+        "name": "lineJoinType",
+        "type": "string",
+        "required": false,
+        "description": "miter|round|bevel stroke joins (AE 24.0+)"
+      },
+      {
+        "name": "digitSet",
+        "type": "string",
+        "required": false,
+        "description": "default|arabic|hindi|farsi|arabicRtl (AE 24.0+)"
+      },
+      {
+        "name": "composerEngine",
+        "type": "string",
+        "required": false,
+        "description": "latinCjk|universalType (AE 24.0+; universalType needed for RTL)"
+      },
+      {
+        "name": "lineOrientation",
+        "type": "string",
+        "required": false,
+        "description": "horizontal|verticalRtl|verticalLtr (whole document only, AE 24.2+)"
+      }
+    ]
+  },
+  {
+    "name": "text.measure",
+    "description": "Measure a text layer's composed layout: line/paragraph counts and character spans, per-line baselines (baselineLocs), box overflow. Range data needs AE 24.3+; missing fields come back null.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      }
+    ]
+  },
+  {
+    "name": "text.set_box",
+    "description": "Resize, reposition, or configure the box of a paragraph (box) text layer, including the AE 24.6 auto-fit and alignment controls. Point<->box conversion is NOT scriptable in AE \u2014 create the layer as box text from the start (layer.create_text with boxSize).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "boxSize",
+        "type": "array",
+        "required": false,
+        "description": "[width, height] of the text box"
+      },
+      {
+        "name": "boxPosition",
+        "type": "array",
+        "required": false,
+        "description": "[x, y] top-left of the box in layer space (AE 14.0+)"
+      },
+      {
+        "name": "autoFitPolicy",
+        "type": "string",
+        "required": false,
+        "description": "none|heightCursor|heightPreciseBounds|heightBaseline (AE 24.6+)"
+      },
+      {
+        "name": "verticalAlignment",
+        "type": "string",
+        "required": false,
+        "description": "top|center|bottom|justify (AE 24.6+)"
+      },
+      {
+        "name": "firstBaselineAlignment",
+        "type": "string",
+        "required": false,
+        "description": "ascent|capHeight|emBox|leading|xHeight|legacyMetric|minimumValueAsian|minimumValueRoman|typoAscent (AE 24.6+)"
+      },
+      {
+        "name": "firstBaselineAlignmentMinimum",
+        "type": "number",
+        "required": false,
+        "description": "Manual minimum offset of the first composed line (AE 24.6+)"
+      },
+      {
+        "name": "insetSpacing",
+        "type": "number",
+        "required": false,
+        "description": "Inset spacing between box bounds and text, px (AE 24.6+)"
+      }
+    ]
+  },
+  {
+    "name": "text.set_variable_font",
+    "description": "Set variable-font design axes on a text layer (AE 24.0+). axes maps axis tags to values, e.g. { \"wght\": 700, \"wdth\": 85 }. Unspecified axes keep their current values. Discover a font's axes with font.info (designAxesData).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "axes",
+        "type": "object",
+        "required": true,
+        "description": "Axis tag -> value map, e.g. { \"wght\": 700 }"
+      }
+    ]
+  },
+  {
+    "name": "text.add_font_axis",
+    "description": "Add a variable-font axis property to a text animator (PropertyGroup.addVariableFontAxis, AE 26.0+) so the axis can be animated/keyframed. Targets an existing animator by 1-based index or name, or creates a new one.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "axisTag",
+        "type": "string",
+        "required": true,
+        "description": "Four-character axis tag, e.g. 'wght'"
+      },
+      {
+        "name": "animator",
+        "type": "any",
+        "required": false,
+        "description": "Existing animator (1-based index or name). Omit to create a new animator."
+      },
+      {
+        "name": "value",
+        "type": "number",
+        "required": false,
+        "description": "Initial axis value"
+      }
+    ]
+  },
+  {
+    "name": "text.add_animator",
+    "description": "Add a text animator with animated properties and a selector. properties maps animator matchNames to initial values, e.g. {\"ADBE Text Position 3D\": [0,-50,0], \"ADBE Text Opacity\": 0}. Common: Position 3D, Scale 3D, Rotation, Opacity, Fill Color, Tracking Amount, Blur.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name (must be a TextLayer)"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Animator name"
+      },
+      {
+        "name": "properties",
+        "type": "object",
+        "required": true,
+        "description": "Map of animator-property matchName to initial value"
+      },
+      {
+        "name": "selector",
+        "type": "string",
+        "required": false,
+        "description": "range|wiggly|expression|none (default range)",
+        "default": "range"
+      },
+      {
+        "name": "rangeStart",
+        "type": "number",
+        "required": false,
+        "description": "Range selector start % (0-100)"
+      },
+      {
+        "name": "rangeEnd",
+        "type": "number",
+        "required": false,
+        "description": "Range selector end % (0-100)"
+      },
+      {
+        "name": "rangeOffset",
+        "type": "number",
+        "required": false,
+        "description": "Range selector offset % (-100..100)"
+      }
+    ]
+  },
+  {
+    "name": "text.paste_range",
+    "description": "Paste the TEXT AND STYLING of one character range into another (CharacterRange.pasteFrom, AE 25.1+) \u2014 replaces the target range's content. Source defaults to the same layer; pass sourceLayer to copy across layers.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "TARGET text layer (1-based index or name)"
+      },
+      {
+        "name": "start",
+        "type": "number",
+        "required": true,
+        "description": "Target range start (0-based character index)"
+      },
+      {
+        "name": "end",
+        "type": "number",
+        "required": false,
+        "description": "Target range end (exclusive; default: end of text)"
+      },
+      {
+        "name": "sourceLayer",
+        "type": "any",
+        "required": false,
+        "description": "SOURCE text layer (default: same as layer)"
+      },
+      {
+        "name": "sourceStart",
+        "type": "number",
+        "required": true,
+        "description": "Source range start (0-based character index)"
+      },
+      {
+        "name": "sourceEnd",
+        "type": "number",
+        "required": false,
+        "description": "Source range end (exclusive; default: end of source text)"
+      }
+    ]
+  },
+  {
+    "name": "text.reset_style",
+    "description": "Reset a text layer's styling to the default Character and/or Paragraph panel settings (TextDocument.resetCharStyle / resetParagraphStyle).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "scope",
+        "type": "string",
+        "required": false,
+        "description": "character|paragraph|both (default both)",
+        "default": "both"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_solid",
+    "description": "Create a solid layer in a composition.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name",
+        "default": "Solid"
+      },
+      {
+        "name": "color",
+        "type": "array",
+        "required": false,
+        "description": "[r,g,b] 0-1",
+        "default": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "required": false,
+        "description": "Width in px (default: comp width)"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "required": false,
+        "description": "Height in px (default: comp height)"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_shape",
+    "description": "Create an empty shape layer.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_text",
+    "description": "Create a text layer: point text by default, paragraph (box) text when boxSize is given, vertical when orientation='vertical' (AE 24.2+). Point<->box conversion is not scriptable, so pick the right kind here.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "text",
+        "type": "string",
+        "required": false,
+        "description": "Text content",
+        "default": ""
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name"
+      },
+      {
+        "name": "boxSize",
+        "type": "array",
+        "required": false,
+        "description": "[width, height] \u2014 creates paragraph (box) text instead of point text"
+      },
+      {
+        "name": "boxPosition",
+        "type": "array",
+        "required": false,
+        "description": "[x, y] top-left of the box in layer space (box text only)"
+      },
+      {
+        "name": "orientation",
+        "type": "string",
+        "required": false,
+        "description": "horizontal|vertical (vertical needs AE 24.2+)",
+        "default": "horizontal"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_null",
+    "description": "Create a null object layer.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_camera",
+    "description": "Create a camera layer.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name",
+        "default": "Camera"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_light",
+    "description": "Create a light layer.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name",
+        "default": "Light"
+      },
+      {
+        "name": "lightType",
+        "type": "string",
+        "required": false,
+        "description": "spot|parallel|point|ambient|environment (environment needs AE 24.3+ / Advanced 3D)",
+        "default": "spot"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_parametric_mesh",
+    "description": "Create a parametric 3D mesh layer (LayerCollection.addParametricMesh, AE 26.3+): cube|sphere|plane|cylinder|cone|torus. Best rendered with the Advanced 3D renderer (comp.set_renderer).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name",
+        "default": "Mesh"
+      },
+      {
+        "name": "meshType",
+        "type": "string",
+        "required": true,
+        "description": "cube|sphere|plane|cylinder|cone|torus"
+      }
+    ]
+  },
+  {
+    "name": "layer.delete",
+    "description": "Delete layers. comp supports pattern ('review_id_*'). layer supports index, name, 'selected', 'all'.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name/id/pattern (e.g. 'review_id_*')"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Layer index, name, 'selected', or 'all'"
+      }
+    ]
+  },
+  {
+    "name": "layer.duplicate",
+    "description": "Duplicate a layer. Returns the new layer's index.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "newName",
+        "type": "string",
+        "required": false,
+        "description": "Name for the duplicate"
+      }
+    ]
+  },
+  {
+    "name": "layer.set_parent",
+    "description": "Set or clear a layer's parent. By default AE compensates the child's transform so it doesn't move; jump=true skips compensation (setParentWithJump) so the child adopts the parent's space.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based child layer index, or the layer name"
+      },
+      {
+        "name": "parentLayer",
+        "type": "any",
+        "required": true,
+        "description": "1-based parent layer index or name. Pass null or 0 to unparent.",
+        "nullable": true
+      },
+      {
+        "name": "jump",
+        "type": "boolean",
+        "required": false,
+        "description": "true = no transform compensation (setParentWithJump). Default false.",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "layer.scene_edit_detection",
+    "description": "Run Scene Edit Detection on a video layer (Layer.doSceneEditDetection, AE 22.3+): find cuts in edited footage and mark or split at them.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "mode",
+        "type": "string",
+        "required": true,
+        "description": "markers (add layer markers) | split (split layer) | splitPrecomp (split + precompose each) | none (detect only)"
+      }
+    ]
+  },
+  {
+    "name": "layer.move",
+    "description": "Move a layer to a new stacking position (1 = top).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based current layer index, or the layer name"
+      },
+      {
+        "name": "toIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based target index, within 1..numLayers"
+      }
+    ]
+  },
+  {
+    "name": "layer.create_footage",
+    "description": "Add an existing project item (footage or comp) as a layer in a composition.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "sourceItemId",
+        "type": "number",
+        "required": true,
+        "description": "Project item id to use as source"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Layer name"
+      }
+    ]
+  },
+  {
+    "name": "layer.set_enabled",
+    "description": "Enable or disable a layer by name or index. Can target all comps matching a pattern.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name/id, or '*' for all comps, or 'review_id_*' for pattern match"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Layer index (number) or name (string)"
+      },
+      {
+        "name": "enabled",
+        "type": "boolean",
+        "required": true,
+        "description": "true=visible, false=hidden"
+      }
+    ]
+  },
+  {
+    "name": "layer.set_guide",
+    "description": "Set guideLayer on/off for a layer. Can target all comps matching a pattern.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name/id, or '*' for all comps, or 'review_id_*' for pattern match"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Layer index (number) or name (string)"
+      },
+      {
+        "name": "guide",
+        "type": "boolean",
+        "required": true,
+        "description": "true=guide layer, false=normal"
+      }
+    ]
+  },
+  {
+    "name": "layer.set_props",
+    "description": "Set basic layer properties. layer can be index, name, 'selected', or 'all'. Enum-valued attributes accept string names: quality (best|draft|wireframe), samplingQuality (bilinear|bicubic), frameBlendingType (off|frameMix|pixelMotion), autoOrient (off|alongPath|cameraOrPointOfInterest|charactersTowardCamera), blendingMode, lightType (spot|parallel|point|ambient|environment).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Layer index, name, 'selected', or 'all'"
+      },
+      {
+        "name": "props",
+        "type": "object",
+        "required": true,
+        "description": "Object with keys to set, e.g. { name: 'foo', enabled: false, label: 5, threeDLayer: true }"
+      }
+    ]
+  },
+  {
+    "name": "layer.add_guide",
+    "description": "Add a ruler guide to a layer's Layer panel view (Layer.addGuide, AE 16.1+). Comp-panel guides live under comp.add_guide.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "orientation",
+        "type": "string",
+        "required": true,
+        "description": "horizontal|vertical"
+      },
+      {
+        "name": "position",
+        "type": "number",
+        "required": true,
+        "description": "Position in px (y for horizontal, x for vertical)"
+      }
+    ]
+  },
+  {
+    "name": "layer.remove_guide",
+    "description": "Remove a Layer-panel ruler guide by its 0-based index (see layer.list_guides).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "guideIndex",
+        "type": "number",
+        "required": true,
+        "description": "0-based guide index"
+      }
+    ]
+  },
+  {
+    "name": "layer.move_guide",
+    "description": "Move an existing Layer-panel ruler guide to a new position (Layer.setGuide). Named move_guide because layer.set_guide already means the guide-LAYER flag.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "guideIndex",
+        "type": "number",
+        "required": true,
+        "description": "0-based guide index"
+      },
+      {
+        "name": "position",
+        "type": "number",
+        "required": true,
+        "description": "New position in px"
+      }
+    ]
+  },
+  {
+    "name": "layer.list_guides",
+    "description": "List a layer's Layer-panel ruler guides with orientation and position (AE 16.1+).",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      }
+    ]
+  },
+  {
+    "name": "layer.bounds",
+    "description": "Measure a layer's rendered bounds via sourceRectAtTime \u2014 essential for aligning/fitting text and shape layers. Returns layer-space rect and, when the host supports it, comp-space corners.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": false,
+        "description": "Time in seconds (default: current comp time)"
+      },
+      {
+        "name": "includeExtents",
+        "type": "boolean",
+        "required": false,
+        "description": "Include pixel extents beyond the layer edges (default false)",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "layer.convert_point",
+    "description": "Convert a point between layer source space and comp space (sourcePointToComp / compPointToSource, AE 13.2+; designed for text layers \u2014 evaluates at the first character at the given time).",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "direction",
+        "type": "string",
+        "required": true,
+        "description": "sourceToComp|compToSource"
+      },
+      {
+        "name": "point",
+        "type": "array",
+        "required": true,
+        "description": "[x, y] point to convert"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": false,
+        "description": "Evaluate at this time (default: current comp time)"
+      }
+    ]
+  },
+  {
+    "name": "layer.apply_preset",
+    "description": "Apply an animation preset (.ffx file) to a layer \u2014 applies effects/keyframes in one call.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "required": true,
+        "description": "Absolute path to the .ffx preset"
+      }
+    ]
+  },
+  {
+    "name": "layer.replace_source",
+    "description": "Replace a layer's source with another project item (footage or comp), keeping keyframes/effects. Set fixExpressions=false to skip expression rewriting.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "item",
+        "type": "any",
+        "required": true,
+        "description": "New source: project item id (number) or name (string)"
+      },
+      {
+        "name": "fixExpressions",
+        "type": "boolean",
+        "required": false,
+        "description": "Rewrite expressions that reference the old source (default true)",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "layer.set_track_matte",
+    "description": "Set (or remove) a track matte on a layer. Uses AVLayer.setTrackMatte (AE 23.0+): the matte can be ANY layer in the comp \u2014 it does not need to sit directly above the target.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based index (or name) of the layer to apply matte TO"
+      },
+      {
+        "name": "matteLayer",
+        "type": "any",
+        "required": false,
+        "description": "Matte source layer: 1-based index or name. Ignored when matteType is 'none'."
+      },
+      {
+        "name": "matteType",
+        "type": "string",
+        "required": true,
+        "description": "alpha|alphaInverted|luma|lumaInverted|none"
+      }
+    ]
+  },
+  {
+    "name": "layer.set_blend_mode",
+    "description": "Set blending mode on a layer.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "mode",
+        "type": "string",
+        "required": true,
+        "description": "normal|add|multiply|screen|overlay|softLight|hardLight|difference|exclusion|colorDodge|colorBurn|darken|lighten|stencilAlpha|stencilLuma|silhouetteAlpha|silhouetteLuma"
+      }
+    ]
+  },
+  {
+    "name": "layer.split",
+    "description": "Split a layer at a given time. Creates a new layer that starts at the split time.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": true,
+        "description": "Time in seconds to split at"
+      }
+    ]
+  },
+  {
+    "name": "layer.copy_to_comp",
+    "description": "Copy a layer from one comp to another.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Source comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index (or name) in source comp"
+      },
+      {
+        "name": "targetComp",
+        "type": "any",
+        "required": true,
+        "description": "Target comp name or id"
+      }
+    ]
+  },
+  {
+    "name": "layer.calculate_transform",
+    "description": "Calculate the transform that maps a 3D layer onto three corner points (AVLayer.calculateTransformFromPoints) - corner-pin style placement in 3D space. Calculation-only: returns anchorPoint/position/x-y-zRotation/scale without touching the layer \u2014 apply them with property.set / layer.set_props.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name (3D layer)"
+      },
+      {
+        "name": "topLeft",
+        "type": "array",
+        "required": true,
+        "description": "[x,y,z] world point for the layer's top-left"
+      },
+      {
+        "name": "topRight",
+        "type": "array",
+        "required": true,
+        "description": "[x,y,z] world point for the top-right"
+      },
+      {
+        "name": "bottomLeft",
+        "type": "array",
+        "required": true,
+        "description": "[x,y,z] world point for the bottom-left. The scripting guide names this pointBottomRight, but the implementation expects the bottom-left (the guide's own example passes bl): a true bottom-right returns the same placement with zScale skewed by sin(corner angle) \u2014 verified on AE 26.3."
+      }
+    ]
+  },
+  {
+    "name": "layer.info",
+    "description": "Full layer info incl. property trees and keyframes (same payload as ae_layer_info). Layer by 1-based index or name. includeProperties=false for the cheap summary.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index or layer name"
+      },
+      {
+        "name": "includeProperties",
+        "type": "boolean",
+        "required": false,
+        "description": "Walk the full property tree (default true)",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "comp.create",
+    "description": "Create a new composition.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": "Composition name"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "required": true,
+        "description": "Width in px"
+      },
+      {
+        "name": "height",
+        "type": "number",
+        "required": true,
+        "description": "Height in px"
+      },
+      {
+        "name": "fps",
+        "type": "number",
+        "required": true,
+        "description": "Frame rate"
+      },
+      {
+        "name": "duration",
+        "type": "number",
+        "required": true,
+        "description": "Duration in seconds"
+      },
+      {
+        "name": "bgColor",
+        "type": "array",
+        "required": false,
+        "description": "[r,g,b] 0-1"
+      }
+    ]
+  },
+  {
+    "name": "comp.set_label",
+    "description": "Set label color on comps. Can target by name, id, or pattern (e.g. 'review_id_*').",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name/id, or pattern with '*' wildcard"
+      },
+      {
+        "name": "label",
+        "type": "number",
+        "required": true,
+        "description": "Label index (0=None, 1=Red, 2=Yellow, 3=Aqua, 4=Pink, 5=Lavender, 6=Peach, 7=Sea Foam, 8=Blue, 9=Green, 10=Purple, 11=Orange, 12=Brown, 13=Fuchsia, 14=Cyan, 15=Sandstone, 16=Dark Green)"
+      }
+    ]
+  },
+  {
+    "name": "comp.set_props",
+    "description": "Set composition properties (bgColor, workAreaStart, workAreaDuration, shutterAngle, motionBlur, etc.).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "props",
+        "type": "object",
+        "required": true,
+        "description": "Object with keys to set"
+      }
+    ]
+  },
+  {
+    "name": "comp.set_renderer",
+    "description": "Switch a comp's 3D renderer: classic3d | advanced3d | cinema4d (or a raw matchName from comp.list_renderers). Advanced 3D is required for 3D model layers, parametric meshes, and environment lights to render.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "renderer",
+        "type": "string",
+        "required": true,
+        "description": "classic3d|advanced3d|cinema4d, or an exact renderer matchName"
+      }
+    ]
+  },
+  {
+    "name": "comp.list_renderers",
+    "description": "List the comp's available 3D renderer matchNames, the current one, and the friendly-name mapping used by comp.set_renderer.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      }
+    ]
+  },
+  {
+    "name": "comp.set_work_area",
+    "description": "Set the work area start and duration on a composition.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "start",
+        "type": "number",
+        "required": true,
+        "description": "Work area start in seconds"
+      },
+      {
+        "name": "duration",
+        "type": "number",
+        "required": true,
+        "description": "Work area duration in seconds"
+      }
+    ]
+  },
+  {
+    "name": "comp.add_guide",
+    "description": "Add a horizontal or vertical guide line to a comp (AE 16.1+).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "orientation",
+        "type": "string",
+        "required": true,
+        "description": "horizontal|vertical"
+      },
+      {
+        "name": "position",
+        "type": "number",
+        "required": true,
+        "description": "Position in px (y for horizontal, x for vertical)"
+      }
+    ]
+  },
+  {
+    "name": "comp.remove_guide",
+    "description": "Remove a guide from a comp by its 0-based index (see comp.list_guides).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "guideIndex",
+        "type": "number",
+        "required": true,
+        "description": "0-based guide index"
+      }
+    ]
+  },
+  {
+    "name": "comp.set_guide",
+    "description": "Move an existing guide to a new position (Item.setGuide). Orientation cannot be changed after creation \u2014 remove and re-add instead.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "guideIndex",
+        "type": "number",
+        "required": true,
+        "description": "0-based guide index"
+      },
+      {
+        "name": "position",
+        "type": "number",
+        "required": true,
+        "description": "New position in px (y for horizontal, x for vertical)"
+      }
+    ]
+  },
+  {
+    "name": "comp.list_guides",
+    "description": "List all guides on a comp with orientation and position (AE 16.1+).",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      }
+    ]
+  },
+  {
+    "name": "comp.delete",
+    "description": "Delete a composition from the project.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      }
+    ]
+  },
+  {
+    "name": "comp.precompose",
+    "description": "Pre-compose selected layers into a new nested composition.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Source comp name or id"
+      },
+      {
+        "name": "layerIndices",
+        "type": "array",
+        "required": true,
+        "description": "Array of 1-based layer indices to precompose"
+      },
+      {
+        "name": "newName",
+        "type": "string",
+        "required": true,
+        "description": "Name for the new comp"
+      },
+      {
+        "name": "moveAll",
+        "type": "boolean",
+        "required": false,
+        "description": "Move all attributes into new comp (default true)",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "comp.duplicate",
+    "description": "Duplicate a composition.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id to duplicate"
+      },
+      {
+        "name": "newName",
+        "type": "string",
+        "required": false,
+        "description": "Name for the duplicate"
+      }
+    ]
+  },
+  {
+    "name": "comp.info",
+    "description": "Comp details + per-layer summaries (same payload as ae_comp_info). As a batch.run child, lets the same call verify what a preceding mutation did.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.add",
+    "description": "Add a keyframe at a specific time with a value.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path, e.g. [\"Transform\",\"Position\"]"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": true,
+        "description": "Time in seconds"
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "required": true,
+        "description": "Value at this keyframe"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.remove",
+    "description": "Remove a keyframe by its 1-based index.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index to remove"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_easing",
+    "description": "Apply easing to a keyframe. Preset: 'linear', 'ease', 'easeIn', 'easeOut', 'hold'. Or custom bezier with inSpeed/outSpeed/inInfluence/outInfluence.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index"
+      },
+      {
+        "name": "preset",
+        "type": "string",
+        "required": false,
+        "description": "linear|ease|easeIn|easeOut|hold (overrides custom params)"
+      },
+      {
+        "name": "inSpeed",
+        "type": "number",
+        "required": false,
+        "description": "Custom in speed"
+      },
+      {
+        "name": "outSpeed",
+        "type": "number",
+        "required": false,
+        "description": "Custom out speed"
+      },
+      {
+        "name": "inInfluence",
+        "type": "number",
+        "required": false,
+        "description": "Custom in influence (0-100)",
+        "default": 33
+      },
+      {
+        "name": "outInfluence",
+        "type": "number",
+        "required": false,
+        "description": "Custom out influence (0-100)",
+        "default": 33
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_batch",
+    "description": "Set many keyframes on one property in a single call (Property.setValuesAtTimes). times and values must have the same length.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "times",
+        "type": "array",
+        "required": true,
+        "description": "Times in seconds"
+      },
+      {
+        "name": "values",
+        "type": "array",
+        "required": true,
+        "description": "Values, one per time (same order)"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.shift",
+    "description": "Retime all keyframes on a property: newTime = (time - pivot) * scale + pivot + offset. Preserves interpolation, ease, and spatial tangents best-effort.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "offset",
+        "type": "number",
+        "required": false,
+        "description": "Seconds to shift by (default 0)",
+        "default": 0
+      },
+      {
+        "name": "scale",
+        "type": "number",
+        "required": false,
+        "description": "Time scale factor around pivot (default 1)",
+        "default": 1
+      },
+      {
+        "name": "pivot",
+        "type": "number",
+        "required": false,
+        "description": "Pivot time in seconds for scaling (default 0)",
+        "default": 0
+      }
+    ]
+  },
+  {
+    "name": "keyframe.copy",
+    "description": "Copy all keyframes from one property to another (same or different layer/comp). Value types must be compatible. Existing target keys are kept.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Source comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Source layer (1-based index or name)"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Source property path"
+      },
+      {
+        "name": "targetComp",
+        "type": "any",
+        "required": false,
+        "description": "Target comp (default: same as source)"
+      },
+      {
+        "name": "targetLayer",
+        "type": "any",
+        "required": true,
+        "description": "Target layer (1-based index or name)"
+      },
+      {
+        "name": "targetProperty",
+        "type": "array",
+        "required": false,
+        "description": "Target property path (default: same as source)"
+      },
+      {
+        "name": "timeOffset",
+        "type": "number",
+        "required": false,
+        "description": "Seconds to add to every copied key time (default 0)",
+        "default": 0
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_spatial",
+    "description": "Set spatial tangents / continuity on a keyframe of a spatial property (Position, Anchor Point). Tangents are [x,y] or [x,y,z] offsets.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index"
+      },
+      {
+        "name": "inTangent",
+        "type": "array",
+        "required": false,
+        "description": "Incoming spatial tangent (default: keep current)"
+      },
+      {
+        "name": "outTangent",
+        "type": "array",
+        "required": false,
+        "description": "Outgoing spatial tangent (default: keep current)"
+      },
+      {
+        "name": "continuous",
+        "type": "boolean",
+        "required": false,
+        "description": "Spatial continuity flag"
+      },
+      {
+        "name": "autoBezier",
+        "type": "boolean",
+        "required": false,
+        "description": "Spatial auto-bezier flag"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_roving",
+    "description": "Set a keyframe to rove across time (smooth speed on a spatial path). First and last keyframes cannot rove.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index"
+      },
+      {
+        "name": "roving",
+        "type": "boolean",
+        "required": true,
+        "description": "true=roving, false=fixed"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_value",
+    "description": "Change the value of an existing keyframe without changing its time.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index"
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "required": true,
+        "description": "New value"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_interpolation",
+    "description": "Set a keyframe's in/out interpolation types directly (linear|bezier|hold \u2014 asymmetric combinations allowed, e.g. bezier in / hold out), and the temporal continuous / auto-bezier flags. For speed/influence curves use keyframe.set_easing.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index"
+      },
+      {
+        "name": "inType",
+        "type": "string",
+        "required": false,
+        "description": "linear|bezier|hold (default: keep current)"
+      },
+      {
+        "name": "outType",
+        "type": "string",
+        "required": false,
+        "description": "linear|bezier|hold (default: keep current)"
+      },
+      {
+        "name": "temporalContinuous",
+        "type": "boolean",
+        "required": false,
+        "description": "Temporal continuity flag"
+      },
+      {
+        "name": "temporalAutoBezier",
+        "type": "boolean",
+        "required": false,
+        "description": "Temporal auto-bezier flag (true also enables continuity)"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_label",
+    "description": "Set a keyframe's label color (Property.setLabelAtKey, AE 22.6+).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based keyframe index"
+      },
+      {
+        "name": "label",
+        "type": "number",
+        "required": true,
+        "description": "Label color index 0-16 (0 = none)"
+      }
+    ]
+  },
+  {
+    "name": "keyframe.set_selected",
+    "description": "Select or deselect keyframes on a property (Property.setSelectedAtKey) - e.g. to stage keys for a user-facing copy/paste in the UI.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "keyIndex",
+        "type": "any",
+        "required": true,
+        "description": "1-based keyframe index, or 'all'"
+      },
+      {
+        "name": "selected",
+        "type": "boolean",
+        "required": true,
+        "description": "true=select, false=deselect"
+      }
+    ]
+  },
+  {
+    "name": "render.add_to_queue",
+    "description": "Add a composition to the render queue. Optionally set output path.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "outputPath",
+        "type": "string",
+        "required": false,
+        "description": "Output file path (optional, sets on the first output module)"
+      }
+    ]
+  },
+  {
+    "name": "render.start",
+    "description": "Start rendering the render queue. Blocks until complete.",
+    "readOnly": false,
+    "params": []
+  },
+  {
+    "name": "render.clear_queue",
+    "description": "Remove all items from the render queue.",
+    "readOnly": false,
+    "params": []
+  },
+  {
+    "name": "render.set_output",
+    "description": "Configure a render-queue item: render/output templates, output path, time span, render flag, skipFrames, logType, postRenderAction. Discover template names with render.list_templates; raw settings via render.get_settings / render.set_settings.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based queue item index (default: last item)"
+      },
+      {
+        "name": "renderTemplate",
+        "type": "string",
+        "required": false,
+        "description": "Render settings template name (e.g. \"Best Settings\", \"Draft Settings\")"
+      },
+      {
+        "name": "outputTemplate",
+        "type": "string",
+        "required": false,
+        "description": "Output module template name (e.g. \"Lossless\", \"High Quality\")"
+      },
+      {
+        "name": "outputPath",
+        "type": "string",
+        "required": false,
+        "description": "Output file path"
+      },
+      {
+        "name": "timeSpanStart",
+        "type": "number",
+        "required": false,
+        "description": "Render span start in seconds (comp time)"
+      },
+      {
+        "name": "timeSpanDuration",
+        "type": "number",
+        "required": false,
+        "description": "Render span duration in seconds"
+      },
+      {
+        "name": "outputModuleIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based output module index (default 1)",
+        "default": 1
+      },
+      {
+        "name": "render",
+        "type": "boolean",
+        "required": false,
+        "description": "Whether this item renders when the queue starts (the Render checkbox)"
+      },
+      {
+        "name": "skipFrames",
+        "type": "number",
+        "required": false,
+        "description": "Render every Nth frame (0 = every frame)"
+      },
+      {
+        "name": "logType",
+        "type": "string",
+        "required": false,
+        "description": "errorsOnly|errorsAndSettings|errorsAndPerFrameInfo"
+      },
+      {
+        "name": "postRenderAction",
+        "type": "string",
+        "required": false,
+        "description": "none|import|importAndReplaceUsage|setProxy (on the output module)"
+      },
+      {
+        "name": "includeSourceXMP",
+        "type": "boolean",
+        "required": false,
+        "description": "Embed source-footage XMP metadata in the output"
+      },
+      {
+        "name": "queueItemNotify",
+        "type": "boolean",
+        "required": false,
+        "description": "Per-item Notify checkbox (AE 22.0+)"
+      },
+      {
+        "name": "queueNotify",
+        "type": "boolean",
+        "required": false,
+        "description": "QUEUE-WIDE Notify checkbox (RenderQueue.queueNotify, AE 22.0+)"
+      }
+    ]
+  },
+  {
+    "name": "render.get_settings",
+    "description": "Read the raw render settings of a queue item and the settings of each of its output modules (getSettings, AE 13.0+). format 'settable' returns only keys accepted by render.set_settings / render.set_om_settings.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based queue item index (default: last item)"
+      },
+      {
+        "name": "format",
+        "type": "string",
+        "required": false,
+        "description": "settable|all (default settable)",
+        "default": "settable"
+      }
+    ]
+  },
+  {
+    "name": "render.set_settings",
+    "description": "Set raw render settings on a queue item (RenderQueueItem.setSettings, AE 13.0+), e.g. { \"Quality\": \"Best\", \"Resolution\": \"Half\" }. Discover valid keys/values with render.get_settings.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based queue item index (default: last item)"
+      },
+      {
+        "name": "settings",
+        "type": "object",
+        "required": true,
+        "description": "Key/value map from render.get_settings format 'settable'"
+      }
+    ]
+  },
+  {
+    "name": "render.set_om_settings",
+    "description": "Set raw output-module settings on a queue item (OutputModule.setSettings, AE 13.0+), e.g. { \"Format\": \"QuickTime\", \"Channels\": \"RGB + Alpha\" }. Discover valid keys/values with render.get_settings.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based queue item index (default: last item)"
+      },
+      {
+        "name": "outputModuleIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based output module index (default 1)",
+        "default": 1
+      },
+      {
+        "name": "settings",
+        "type": "object",
+        "required": true,
+        "description": "Key/value map from render.get_settings format 'settable'"
+      }
+    ]
+  },
+  {
+    "name": "render.remove_item",
+    "description": "Remove ONE item from the render queue by its 1-based index (render.clear_queue removes all).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based queue item index (explicit \u2014 no default for a destructive op)"
+      }
+    ]
+  },
+  {
+    "name": "render.duplicate_item",
+    "description": "Duplicate a render-queue item (RenderQueueItem.duplicate) \u2014 e.g. to render the same comp with a second settings/output combination.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based queue item index (default: last item)"
+      }
+    ]
+  },
+  {
+    "name": "render.list_templates",
+    "description": "List available render-settings templates and output-module templates. The render queue must have at least one item (templates are read from a queue item).",
+    "readOnly": true,
+    "params": []
+  },
+  {
+    "name": "render.status",
+    "description": "Report the render queue state: per-item status, time spans, and output paths.",
+    "readOnly": true,
+    "params": []
+  },
+  {
+    "name": "render.queue_in_ame",
+    "description": "Send the render queue to Adobe Media Encoder (for H.264/HEVC etc.). Requires AME installed. renderImmediately=true starts the AME queue.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "renderImmediately",
+        "type": "boolean",
+        "required": false,
+        "description": "Start rendering in AME right away (default false)",
+        "default": false
+      }
+    ]
+  },
+  {
+    "name": "render.save_template",
+    "description": "Save a queue item's current render settings, or an output module's current settings, as a named template (saveAsTemplate) for reuse via render.set_output.",
+    "readOnly": false,
+    "appConfig": true,
+    "params": [
+      {
+        "name": "type",
+        "type": "string",
+        "required": true,
+        "description": "render (RenderQueueItem settings) | output (OutputModule settings)"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": true,
+        "description": "Template name to save under"
+      },
+      {
+        "name": "queueIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based queue item index (default: last item)"
+      },
+      {
+        "name": "outputModuleIndex",
+        "type": "number",
+        "required": false,
+        "description": "1-based output module index (type=output only, default 1)",
+        "default": 1
+      },
+      {
+        "name": "confirm",
+        "type": "boolean",
+        "required": true,
+        "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+      }
+    ]
+  },
+  {
+    "name": "render.frame",
+    "description": "Render one frame to PNG (raw saveFrameToPng). As the LAST child of a batch.run, one call mutates and hands back visual proof. outPath must be absolute; raise ae_do's timeoutMs for slow renders. CAUTION: in color-managed projects (project.get_settings workingSpace != 'None') this writes raw working-space values that look dark/wrong \u2014 use the ae_render_frame TOOL there, which converts to display sRGB.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": true,
+        "description": "Time in seconds to render"
+      },
+      {
+        "name": "outPath",
+        "type": "string",
+        "required": true,
+        "description": "Absolute path for the PNG (parent directories are created)"
+      },
+      {
+        "name": "useDisplayStartTime",
+        "type": "boolean",
+        "required": false,
+        "description": "Interpret `time` relative to comp.displayStartTime (default false)"
+      }
+    ]
+  },
+  {
+    "name": "effect.add",
+    "description": "Add an effect to a layer by matchName. Use ae_do project.list_effects (or effect.list_on_layer on a reference layer) to find matchNames.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "matchName",
+        "type": "string",
+        "required": true,
+        "description": "Effect matchName (e.g. 'ADBE Gaussian Blur 2')"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Custom display name for the effect"
+      }
+    ]
+  },
+  {
+    "name": "effect.remove",
+    "description": "Remove an effect by its 1-based index within the layer's Effects group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "effectIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based effect index"
+      }
+    ]
+  },
+  {
+    "name": "effect.list_on_layer",
+    "description": "List all effects currently applied to a layer with their matchNames and properties.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      }
+    ]
+  },
+  {
+    "name": "effect.set_property",
+    "description": "Set a property value on an effect. Property path is relative to the effect (e.g. ['Blurriness'] for Gaussian Blur).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "effectIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based effect index"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path within the effect"
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "required": true,
+        "description": "Value to set"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": false,
+        "description": "If set, creates a keyframe at this time"
+      }
+    ]
+  },
+  {
+    "name": "effect.move",
+    "description": "Reorder an effect within a layer's effect stack (PropertyBase.moveTo). Effect order changes the render result.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "effectIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based index of the effect to move"
+      },
+      {
+        "name": "toIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based target position in the stack"
+      }
+    ]
+  },
+  {
+    "name": "effect.set_dropdown_items",
+    "description": "Set the menu items of a Dropdown Menu Control effect (Property.setPropertyParameters, AE 17.0.1+) \u2014 the key API for MOGRT dropdowns. Item strings must be unique; \"-\" inserts a separator. AE re-creates the control (references from earlier calls become invalid); this op preserves the effect's display name across that re-creation.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "effect",
+        "type": "any",
+        "required": true,
+        "description": "1-based effect index or effect name (a Dropdown Menu Control)"
+      },
+      {
+        "name": "items",
+        "type": "array",
+        "required": true,
+        "description": "Menu item strings, e.g. [\"Red\", \"Green\", \"-\", \"Custom\"]"
+      }
+    ]
+  },
+  {
+    "name": "effect.get_dropdown_items",
+    "description": "Read a Dropdown Menu Control's items (Property.propertyParameters, AE 26.0+), current 1-based selection, and its text (valueText).",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "effect",
+        "type": "any",
+        "required": true,
+        "description": "1-based effect index or effect name (a Dropdown Menu Control)"
+      }
+    ]
+  },
+  {
+    "name": "property.set",
+    "description": "Set any layer property by path. layer can be index, name, 'selected', or 'all'.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Layer index, name, 'selected', or 'all'"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path, e.g. [\"Transform\",\"Position\"]"
+      },
+      {
+        "name": "value",
+        "type": "any",
+        "required": true,
+        "description": "Value to set"
+      }
+    ]
+  },
+  {
+    "name": "property.get",
+    "description": "Get the current value of any layer property by path.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "time",
+        "type": "number",
+        "required": false,
+        "description": "If set, get value at this time (for animated properties)"
+      }
+    ]
+  },
+  {
+    "name": "property.list",
+    "description": "List child properties/groups at a given path. Useful for discovering what's inside a property group.",
+    "readOnly": true,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path to a group. Use [] for the layer root."
+      }
+    ]
+  },
+  {
+    "name": "property.add",
+    "description": "Add a property to an indexed group by matchName (PropertyGroup.addProperty). Unlocks text animators ('ADBE Text Animator' on [\"Text\",\"Animators\"]), layer styles, shape contents, etc. Use property.list to discover group paths.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Path to the group to add into, e.g. [\"Text\",\"Animators\"]. Use [] for layer root."
+      },
+      {
+        "name": "matchName",
+        "type": "string",
+        "required": true,
+        "description": "Match name (or display name) of the property to add, e.g. \"ADBE Text Animator\". NOTE: adding to an indexed group re-creates it, invalidating prior property references."
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Rename the new property"
+      }
+    ]
+  },
+  {
+    "name": "property.remove",
+    "description": "Remove a property or group by path (Property.remove). Works on members of indexed groups: effects, masks, shape contents, text animators, layer styles.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Path to the property to remove"
+      }
+    ]
+  },
+  {
+    "name": "property.separate_dimensions",
+    "description": "Separate (or rejoin) the dimensions of a multi-dimensional property such as Position. When separated, animate the followers (e.g. X Position) individually.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path (e.g. Position)"
+      },
+      {
+        "name": "separated",
+        "type": "boolean",
+        "required": true,
+        "description": "true=separate, false=rejoin"
+      }
+    ]
+  },
+  {
+    "name": "property.move",
+    "description": "Reorder a property within its parent INDEXED group (PropertyBase.moveTo): masks, shape contents, text animators. For effects use effect.move.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Path to the property to move (a member of an indexed group)"
+      },
+      {
+        "name": "toIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based target position within the parent group"
+      }
+    ]
+  },
+  {
+    "name": "property.select",
+    "description": "Select or deselect a property in the timeline (PropertyBase.selected) - stages it for UI-side actions and makes it visible with the U-shortcut workflow.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "property",
+        "type": "array",
+        "required": true,
+        "description": "Property path"
+      },
+      {
+        "name": "selected",
+        "type": "boolean",
+        "required": false,
+        "description": "true=select, false=deselect (default true)",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "shape.add_group",
+    "description": "Add a Vector Group to a shape layer's Contents.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index or name (must be a shape layer)"
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "required": false,
+        "description": "Group name"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_rect",
+    "description": "Add a Rectangle Path to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "size",
+        "type": "array",
+        "required": true,
+        "description": "[width, height]"
+      },
+      {
+        "name": "position",
+        "type": "array",
+        "required": false,
+        "description": "[x, y] offset from group center",
+        "default": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "roundness",
+        "type": "number",
+        "required": false,
+        "description": "Corner roundness in px",
+        "default": 0
+      }
+    ]
+  },
+  {
+    "name": "shape.add_ellipse",
+    "description": "Add an Ellipse Path to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "size",
+        "type": "array",
+        "required": true,
+        "description": "[width, height]"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_fill",
+    "description": "Add a Fill to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "color",
+        "type": "array",
+        "required": true,
+        "description": "[r,g,b,a] 0-1"
+      },
+      {
+        "name": "opacity",
+        "type": "number",
+        "required": false,
+        "description": "Opacity 0-100",
+        "default": 100
+      }
+    ]
+  },
+  {
+    "name": "shape.add_path",
+    "description": "Add a custom bezier Path (vertices + tangents) to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "vertices",
+        "type": "array",
+        "required": true,
+        "description": "Array of [x,y] points"
+      },
+      {
+        "name": "inTangents",
+        "type": "array",
+        "required": false,
+        "description": "Array of [x,y] in-tangent offsets"
+      },
+      {
+        "name": "outTangents",
+        "type": "array",
+        "required": false,
+        "description": "Array of [x,y] out-tangent offsets"
+      },
+      {
+        "name": "closed",
+        "type": "boolean",
+        "required": false,
+        "description": "Close the path (default true)",
+        "default": true
+      }
+    ]
+  },
+  {
+    "name": "shape.add_trim_paths",
+    "description": "Add Trim Paths to a shape group. Essential for shape animation (line draw-on effects).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "start",
+        "type": "number",
+        "required": false,
+        "description": "Start % (0-100)",
+        "default": 0
+      },
+      {
+        "name": "end",
+        "type": "number",
+        "required": false,
+        "description": "End % (0-100)",
+        "default": 100
+      },
+      {
+        "name": "offset",
+        "type": "number",
+        "required": false,
+        "description": "Offset in degrees",
+        "default": 0
+      }
+    ]
+  },
+  {
+    "name": "shape.add_merge_paths",
+    "description": "Add Merge Paths to a shape group for combining/subtracting shapes.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "mode",
+        "type": "string",
+        "required": false,
+        "description": "merge|add|subtract|intersect|excludeIntersections",
+        "default": "merge"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_stroke",
+    "description": "Add a Stroke to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "color",
+        "type": "array",
+        "required": true,
+        "description": "[r,g,b,a] 0-1"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "required": false,
+        "description": "Stroke width",
+        "default": 2
+      }
+    ]
+  },
+  {
+    "name": "shape.add_polystar",
+    "description": "Add a Polystar Path (star or polygon) to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "starType",
+        "type": "string",
+        "required": false,
+        "description": "star|polygon (default star)",
+        "default": "star"
+      },
+      {
+        "name": "points",
+        "type": "number",
+        "required": false,
+        "description": "Number of points",
+        "default": 5
+      },
+      {
+        "name": "position",
+        "type": "array",
+        "required": false,
+        "description": "[x, y] offset from group center",
+        "default": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "rotation",
+        "type": "number",
+        "required": false,
+        "description": "Rotation in degrees"
+      },
+      {
+        "name": "outerRadius",
+        "type": "number",
+        "required": false,
+        "description": "Outer radius in px",
+        "default": 100
+      },
+      {
+        "name": "innerRadius",
+        "type": "number",
+        "required": false,
+        "description": "Inner radius in px (star type only)"
+      },
+      {
+        "name": "outerRoundness",
+        "type": "number",
+        "required": false,
+        "description": "Outer roundness % (0-100)"
+      },
+      {
+        "name": "innerRoundness",
+        "type": "number",
+        "required": false,
+        "description": "Inner roundness % (star type only)"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_repeater",
+    "description": "Add a Repeater to a shape group \u2014 duplicates the group's contents with a per-copy transform offset.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "copies",
+        "type": "number",
+        "required": false,
+        "description": "Number of copies",
+        "default": 3
+      },
+      {
+        "name": "offset",
+        "type": "number",
+        "required": false,
+        "description": "Copy offset (fractional copies to skip)"
+      },
+      {
+        "name": "position",
+        "type": "array",
+        "required": false,
+        "description": "Per-copy position delta [x, y] (default [100, 0])"
+      },
+      {
+        "name": "rotation",
+        "type": "number",
+        "required": false,
+        "description": "Per-copy rotation in degrees"
+      },
+      {
+        "name": "scale",
+        "type": "array",
+        "required": false,
+        "description": "Per-copy scale [x, y] % (default [100, 100])"
+      },
+      {
+        "name": "startOpacity",
+        "type": "number",
+        "required": false,
+        "description": "Opacity % of first copy"
+      },
+      {
+        "name": "endOpacity",
+        "type": "number",
+        "required": false,
+        "description": "Opacity % of last copy"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_rounded_corners",
+    "description": "Add Rounded Corners to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "radius",
+        "type": "number",
+        "required": false,
+        "description": "Corner radius in px",
+        "default": 10
+      }
+    ]
+  },
+  {
+    "name": "shape.add_offset_paths",
+    "description": "Add Offset Paths to a shape group (grow/shrink outlines).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "amount",
+        "type": "number",
+        "required": false,
+        "description": "Offset in px (positive grows, negative shrinks)",
+        "default": 10
+      },
+      {
+        "name": "lineJoin",
+        "type": "string",
+        "required": false,
+        "description": "miter|round|bevel (default miter)"
+      },
+      {
+        "name": "miterLimit",
+        "type": "number",
+        "required": false,
+        "description": "Miter limit"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_wiggle_paths",
+    "description": "Add Wiggle Paths (roughen) to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "size",
+        "type": "number",
+        "required": false,
+        "description": "Wiggle size in px",
+        "default": 10
+      },
+      {
+        "name": "detail",
+        "type": "number",
+        "required": false,
+        "description": "Detail (segments)",
+        "default": 10
+      },
+      {
+        "name": "pointType",
+        "type": "string",
+        "required": false,
+        "description": "corner|smooth (default corner)"
+      },
+      {
+        "name": "wigglesPerSecond",
+        "type": "number",
+        "required": false,
+        "description": "Temporal frequency (0 = static)"
+      },
+      {
+        "name": "correlation",
+        "type": "number",
+        "required": false,
+        "description": "Correlation % (0-100)"
+      },
+      {
+        "name": "seed",
+        "type": "number",
+        "required": false,
+        "description": "Random seed"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_zigzag",
+    "description": "Add Zig Zag to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "size",
+        "type": "number",
+        "required": false,
+        "description": "Zig zag size in px",
+        "default": 10
+      },
+      {
+        "name": "ridgesPerSegment",
+        "type": "number",
+        "required": false,
+        "description": "Ridges per segment",
+        "default": 10
+      },
+      {
+        "name": "pointType",
+        "type": "string",
+        "required": false,
+        "description": "corner|smooth (default corner)"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_pucker_bloat",
+    "description": "Add Pucker & Bloat to a shape group (negative = pucker, positive = bloat).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "amount",
+        "type": "number",
+        "required": false,
+        "description": "Amount % (-100..100)",
+        "default": 0
+      }
+    ]
+  },
+  {
+    "name": "shape.add_twist",
+    "description": "Add Twist to a shape group.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "angle",
+        "type": "number",
+        "required": false,
+        "description": "Twist angle in degrees",
+        "default": 90
+      },
+      {
+        "name": "center",
+        "type": "array",
+        "required": false,
+        "description": "Twist center [x, y]"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_gradient_fill",
+    "description": "Add a Gradient Fill to a shape group. Type and start/end points are scriptable; color stops are NOT scriptable in AE (defaults to white-to-black \u2014 edit stops manually or via a preset).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "gradientType",
+        "type": "string",
+        "required": false,
+        "description": "linear|radial (default linear)",
+        "default": "linear"
+      },
+      {
+        "name": "startPoint",
+        "type": "array",
+        "required": false,
+        "description": "Gradient start [x, y]"
+      },
+      {
+        "name": "endPoint",
+        "type": "array",
+        "required": false,
+        "description": "Gradient end [x, y]"
+      },
+      {
+        "name": "opacity",
+        "type": "number",
+        "required": false,
+        "description": "Opacity 0-100"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_gradient_stroke",
+    "description": "Add a Gradient Stroke to a shape group. Type, points, and width are scriptable; color stops are NOT scriptable in AE.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "gradientType",
+        "type": "string",
+        "required": false,
+        "description": "linear|radial (default linear)",
+        "default": "linear"
+      },
+      {
+        "name": "startPoint",
+        "type": "array",
+        "required": false,
+        "description": "Gradient start [x, y]"
+      },
+      {
+        "name": "endPoint",
+        "type": "array",
+        "required": false,
+        "description": "Gradient end [x, y]"
+      },
+      {
+        "name": "width",
+        "type": "number",
+        "required": false,
+        "description": "Stroke width",
+        "default": 2
+      },
+      {
+        "name": "opacity",
+        "type": "number",
+        "required": false,
+        "description": "Opacity 0-100"
+      }
+    ]
+  },
+  {
+    "name": "shape.add_wiggle_transform",
+    "description": "Add Wiggle Transform to a shape group - randomizes position/scale/rotation over time (the transform-space sibling of Wiggle Paths).",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "1-based layer index, or the layer name"
+      },
+      {
+        "name": "groupIndex",
+        "type": "number",
+        "required": true,
+        "description": "1-based group index within Contents"
+      },
+      {
+        "name": "wigglesPerSecond",
+        "type": "number",
+        "required": false,
+        "description": "Temporal frequency (default 2)",
+        "default": 2
+      },
+      {
+        "name": "correlation",
+        "type": "number",
+        "required": false,
+        "description": "Correlation % (0-100)"
+      },
+      {
+        "name": "position",
+        "type": "array",
+        "required": false,
+        "description": "[x,y] wiggle amount in px"
+      },
+      {
+        "name": "scale",
+        "type": "array",
+        "required": false,
+        "description": "[sx,sy] wiggle amount in %"
+      },
+      {
+        "name": "rotation",
+        "type": "number",
+        "required": false,
+        "description": "Rotation wiggle amount in degrees"
+      },
+      {
+        "name": "seed",
+        "type": "number",
+        "required": false,
+        "description": "Random seed"
+      }
+    ]
+  },
+  {
+    "name": "transform.set",
+    "description": "Set transform properties on one or more layers. layer can be index, name, 'selected', or 'all'. For keyframes use keyframe.add.",
+    "readOnly": false,
+    "params": [
+      {
+        "name": "comp",
+        "type": "any",
+        "required": true,
+        "description": "Comp name or id"
+      },
+      {
+        "name": "layer",
+        "type": "any",
+        "required": true,
+        "description": "Layer index (number), name (string), 'selected', or 'all'"
+      },
+      {
+        "name": "position",
+        "type": "array",
+        "required": false,
+        "description": "[x,y] or [x,y,z]"
+      },
+      {
+        "name": "scale",
+        "type": "array",
+        "required": false,
+        "description": "[sx,sy] or [sx,sy,sz] in percent"
+      },
+      {
+        "name": "rotation",
+        "type": "number",
+        "required": false,
+        "description": "Rotation in degrees"
+      },
+      {
+        "name": "opacity",
+        "type": "number",
+        "required": false,
+        "description": "Opacity 0-100"
+      },
+      {
+        "name": "anchorPoint",
+        "type": "array",
+        "required": false,
+        "description": "[x,y] or [x,y,z]"
+      },
+      {
+        "name": "threeDLayer",
+        "type": "boolean",
+        "required": false,
+        "description": "Enable/disable 3D"
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "status": "partial",
+  "scope": "Supplemental/spectrogram support only; dense tail belongs root",
+  "sheets_viewed": [],
+  "native_ranges": [],
+  "supplemental_sheets_viewed": [
+    "s007_f00641-f00711.jpg",
+    "s008_f00712-f00851.jpg",
+    "s009_f00852-f00921.jpg",
+    "s010_f00922-f00997.jpg",
+    "s011_f00998-f01063.jpg",
+    "s012_f01065-f01274.jpg",
+    "s013_f01276-f01343.jpg",
+    "s014_f01344-f01556.jpg",
+    "s015_f01558-f01631.jpg",
+    "s016_f01633-f01815.jpg",
+    "s017_f01817-f01926.jpg",
+    "s018_f01928-f01996.jpg",
+    "s019_f01998-f02066.jpg",
+    "s020_f02068-f02429.jpg",
+    "s021_f02431-f02503.jpg",
+    "s022_f02504-f02531.jpg"
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png",
+    "s_032-040.png",
+    "s_040-045.png"
+  ],
+  "native_event_pass": "not_performed",
+  "supplemental_pass": "completed",
+  "spectrogram_pass": "completed",
+  "findings": [
+    "No nueva excepción visual identificada en s007–s022 respecto tipos ya vistos en V6rev; diferencias de timing posibles",
+    "V7 amarillo de visible1030 mientras V6rev nativa1035–1039 aúnUGC; no copiar todos rótulos por−5f",
+    "V7 completo blanco sigue1083; amarilloausente, equivalente al extremo1088V6rev por−5f",
+    "Base grave/tonal permanece en pausas≈10.0–11.2s y≈20.2–21.3s; negro43.0s conserva cola hasta≈44s; no sonidoescuchado"
+  ]
+}

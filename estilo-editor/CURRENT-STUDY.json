@@ -1,0 +1,1877 @@
+{
+  "updated_at": "2026-10-10T18:26:40.818139+00:00",
+  "scope": "Estudio de11 referencias (9 familias independientes), ampliación forenseV2. Sin nuevos renders Birdieballs.",
+  "complete": false,
+  "materials": [
+    {
+      "slug": "landing",
+      "frames": 5680,
+      "fps_num": 60,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 83,
+      "legacy_omitted_nonidentical": 1907
+    },
+    {
+      "slug": "v1-pagado",
+      "frames": 1898,
+      "fps_num": 24,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 37,
+      "legacy_omitted_nonidentical": 3
+    },
+    {
+      "slug": "v2-churros",
+      "frames": 1699,
+      "fps_num": 24,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 42,
+      "legacy_omitted_nonidentical": 72
+    },
+    {
+      "slug": "v3-ia-cara",
+      "frames": 1542,
+      "fps_num": 24,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 28,
+      "legacy_omitted_nonidentical": 0
+    },
+    {
+      "slug": "v5-maquina",
+      "frames": 2291,
+      "fps_num": 30000,
+      "fps_den": 1001,
+      "exact_audited": true,
+      "exact_duplicates": 35,
+      "legacy_omitted_nonidentical": 335
+    },
+    {
+      "slug": "v6-ads90",
+      "frames": 2650,
+      "fps_num": 60,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 64,
+      "legacy_omitted_nonidentical": 817
+    },
+    {
+      "slug": "v6-ads90-rev",
+      "frames": 2650,
+      "fps_num": 60,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 64,
+      "legacy_omitted_nonidentical": 812
+    },
+    {
+      "slug": "v7-ads90-rev",
+      "frames": 2681,
+      "fps_num": 60,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 100,
+      "legacy_omitted_nonidentical": 897
+    },
+    {
+      "slug": "lafabrica-v1",
+      "frames": 1096,
+      "fps_num": 24,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 32,
+      "legacy_omitted_nonidentical": 15
+    },
+    {
+      "slug": "lafabrica-v2p1",
+      "frames": 1907,
+      "fps_num": 24,
+      "fps_den": 1,
+      "exact_audited": true,
+      "exact_duplicates": 31,
+      "legacy_omitted_nonidentical": 18
+    },
+    {
+      "slug": "v8",
+      "frames": 4290,
+      "fps_num": 60000,
+      "fps_den": 1001,
+      "exact_audited": true,
+      "exact_duplicates": 99,
+      "legacy_omitted_nonidentical": 1708
+    }
+  ],
+  "segments": [
+    {
+      "id": "v1-pagado-A",
+      "slug": "v1-pagado",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d015_f00603-f00642.jpg"
+      ],
+      "n_sheets": 16,
+      "f0": 0,
+      "f1": 642,
+      "t0": 0.0,
+      "t1": 26.75,
+      "note": "notas/v1-pagado-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 16,
+      "dense_expected": 16,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 33,
+          "f1": 38,
+          "crop_px": [
+            150,
+            75,
+            780,
+            500
+          ],
+          "file": "30-exact.jpg",
+          "method": "ffmpeg select between(n), sin seek; píxeles nativos"
+        },
+        {
+          "f0": 123,
+          "f1": 128,
+          "crop_px": [
+            100,
+            1100,
+            880,
+            400
+          ],
+          "file": "pagado-exact.jpg",
+          "method": "ffmpeg select between(n), sin seek; imagen emitida reducida por alto>2048; requiere panelizar"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v1-pagado-B",
+      "slug": "v1-pagado",
+      "sheets": [
+        "d016_f00643-f00682.jpg",
+        "d031_f01243-f01282.jpg"
+      ],
+      "n_sheets": 16,
+      "f0": 643,
+      "f1": 1282,
+      "t0": 26.792,
+      "t1": 53.417,
+      "note": "notas/v1-pagado-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 16,
+      "dense_expected": 16,
+      "dense_missing": [],
+      "supplemental_viewed": 0,
+      "supplemental_expected": 0,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 1126,
+          "f1": 1130,
+          "crop": [
+            0.05,
+            0.3,
+            0.9,
+            0.42
+          ],
+          "evidence": "insert-1128-native-0.jpg..4.jpg"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png (visto en A, releído local temporal)",
+        "s_032-040.png",
+        "s_040-048.png",
+        "s_048-056.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v1-pagado-C",
+      "slug": "v1-pagado",
+      "sheets": [
+        "d032_f01283-f01322.jpg",
+        "d046_f01843-f01897.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 1283,
+      "f1": 1897,
+      "t0": 53.458,
+      "t1": 79.042,
+      "note": "notas/v1-pagado-C.md",
+      "status_reported": "partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 0,
+      "supplemental_expected": 0,
+      "supplemental_missing": [],
+      "native_ranges": [],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_048-056.png",
+        "s_056-064.png",
+        "s_064-072.png",
+        "s_072-080.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v2-churros-A",
+      "slug": "v2-churros",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d019_f00796-f00835.jpg"
+      ],
+      "n_sheets": 20,
+      "f0": 0,
+      "f1": 835,
+      "t0": 0.0,
+      "t1": 34.792,
+      "note": "notas/v2-churros-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 20,
+      "dense_expected": 20,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "frames": [
+            65
+          ],
+          "purpose": "control tipográfico ordinario sin cara",
+          "evidence": "analysis/tmp/v2-churros-A/fontfit-encontrado.jpg"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png",
+        "s_032-040.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v2-churros-B",
+      "slug": "v2-churros",
+      "sheets": [
+        "d020_f00836-f00875.jpg",
+        "d039_f01632-f01698.jpg"
+      ],
+      "n_sheets": 20,
+      "f0": 836,
+      "f1": 1698,
+      "t0": 34.833,
+      "t1": 70.75,
+      "note": "notas/v2-churros-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 20,
+      "dense_expected": 20,
+      "dense_missing": [],
+      "supplemental_viewed": 2,
+      "supplemental_expected": 2,
+      "supplemental_missing": [],
+      "native_ranges": [],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_032-040.png",
+        "s_040-048.png",
+        "s_048-056.png",
+        "s_056-064.png",
+        "s_064-071.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v3-ia-cara-A",
+      "slug": "v3-ia-cara",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d018_f00720-f00759.jpg"
+      ],
+      "n_sheets": 19,
+      "f0": 0,
+      "f1": 759,
+      "t0": 0.0,
+      "t1": 31.625,
+      "note": "notas/v3-ia-cara-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 19,
+      "dense_expected": 19,
+      "dense_missing": [],
+      "supplemental_viewed": 0,
+      "supplemental_expected": 0,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "frames": [
+            175
+          ],
+          "purpose": "control tipográfico ordinario sin cara",
+          "evidence": "analysis/tmp/v3-ia-cara-A/fontfit-exactamente.jpg"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v3-ia-cara-B",
+      "slug": "v3-ia-cara",
+      "sheets": [
+        "d019_f00760-f00799.jpg",
+        "d037_f01480-f01541.jpg"
+      ],
+      "n_sheets": 19,
+      "f0": 760,
+      "f1": 1541,
+      "t0": 31.667,
+      "t1": 64.208,
+      "note": "notas/v3-ia-cara-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 19,
+      "dense_expected": 19,
+      "dense_missing": [],
+      "supplemental_viewed": 0,
+      "supplemental_expected": 0,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "start": 1426,
+          "end": 1435,
+          "purpose": "cada fotograma transición silueta/corte",
+          "evidence": "analysis/tmp/v3-ia-cara-B/silueta-1426-1427.jpg y cuatro hojas sucesivas"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png",
+        "s_032-040.png",
+        "s_040-048.png",
+        "s_048-056.png",
+        "s_056-064.png",
+        "s_064-065.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v5-maquina-A",
+      "slug": "v5-maquina",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d016_f00756-f00801.jpg"
+      ],
+      "n_sheets": 17,
+      "f0": 0,
+      "f1": 801,
+      "t0": 0.0,
+      "t1": 26.727,
+      "note": "notas/v5-maquina-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 17,
+      "dense_expected": 17,
+      "dense_missing": [],
+      "supplemental_viewed": 3,
+      "supplemental_expected": 3,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          8,
+          14
+        ],
+        [
+          47,
+          59
+        ],
+        [
+          178,
+          187
+        ],
+        [
+          493,
+          498
+        ],
+        [
+          390,
+          390
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v5-maquina-B",
+      "slug": "v5-maquina",
+      "sheets": [
+        "d017_f00802-f00851.jpg",
+        "d033_f01539-f01585.jpg"
+      ],
+      "n_sheets": 17,
+      "f0": 802,
+      "f1": 1585,
+      "t0": 26.76,
+      "t1": 52.886,
+      "note": "notas/v5-maquina-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 17,
+      "dense_expected": 17,
+      "dense_missing": [],
+      "supplemental_viewed": 3,
+      "supplemental_expected": 3,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          1132,
+          1141
+        ],
+        [
+          1394,
+          1400
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png",
+        "s_032-040.png",
+        "s_040-048.png",
+        "s_048-056.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v5-maquina-C",
+      "slug": "v5-maquina",
+      "sheets": [
+        "d034_f01586-f01633.jpg",
+        "d048_f02262-f02290.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 1586,
+      "f1": 2290,
+      "t0": 52.92,
+      "t1": 76.41,
+      "note": "notas/v5-maquina-C.md",
+      "status_reported": "partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 4,
+      "supplemental_expected": 4,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          1794,
+          1803
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_048-056.png",
+        "s_056-064.png",
+        "s_064-072.png",
+        "s_072-077.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v6-ads90-rev-A",
+      "slug": "v6-ads90-rev",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d014_f00823-f00904.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 0,
+      "f1": 904,
+      "t0": 0.0,
+      "t1": 15.067,
+      "note": "notas/v6-ads90-rev-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 8,
+      "supplemental_expected": 8,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          266,
+          287
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v6-ads90-rev-B",
+      "slug": "v6-ads90-rev",
+      "sheets": [
+        "d015_f00905-f00990.jpg",
+        "d029_f01745-f01784.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 905,
+      "f1": 1784,
+      "t0": 15.083,
+      "t1": 29.733,
+      "note": "notas/v6-ads90-rev-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 8,
+      "supplemental_expected": 8,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          1126,
+          1135
+        ],
+        [
+          946,
+          952
+        ],
+        [
+          1028,
+          1042
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v6-ads90-rev-C",
+      "slug": "v6-ads90-rev",
+      "sheets": [
+        "d030_f01785-f01852.jpg",
+        "d044_f02572-f02649.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 1785,
+      "f1": 2649,
+      "t0": 29.75,
+      "t1": 44.15,
+      "note": "notas/v6-ads90-rev-C.md",
+      "status_reported": "partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 7,
+      "supplemental_expected": 7,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          2124,
+          2135
+        ],
+        [
+          2350,
+          2350
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png",
+        "s_032-040.png",
+        "s_040-045.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "lafabrica-v1-A",
+      "slug": "lafabrica-v1",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d013_f00523-f00562.jpg"
+      ],
+      "n_sheets": 14,
+      "f0": 0,
+      "f1": 562,
+      "t0": 0.0,
+      "t1": 23.417,
+      "note": "notas/lafabrica-v1-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 14,
+      "dense_expected": 14,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 100,
+          "f1": 118,
+          "file": "analysis/tmp/lafabrica-v1-A/native-f100-118.jpg",
+          "crop": [
+            0.02,
+            0.3,
+            0.96,
+            0.42
+          ],
+          "status": "regenerated_select_n_verified"
+        },
+        {
+          "f0": 100,
+          "f1": 106,
+          "file": "analysis/tmp/lafabrica-v1-A/check-f100-106.jpg",
+          "status": "exact_select_n_verified_matches_dense"
+        },
+        {
+          "f0": 109,
+          "f1": 119,
+          "file": "analysis/tmp/lafabrica-v1-A/native-f109-119.jpg",
+          "crop": [
+            0.03,
+            0.3,
+            0.94,
+            0.4
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 437,
+          "f1": 445,
+          "file": "analysis/tmp/lafabrica-v1-A/native-f437-445.jpg",
+          "crop": [
+            0.01,
+            0.34,
+            0.98,
+            0.35
+          ],
+          "status": "viewed_select_n_original"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "lafabrica-v1-B",
+      "slug": "lafabrica-v1",
+      "sheets": [
+        "d014_f00563-f00602.jpg",
+        "d026_f01055-f01095.jpg"
+      ],
+      "n_sheets": 13,
+      "f0": 563,
+      "f1": 1095,
+      "t0": 23.458,
+      "t1": 45.625,
+      "note": "notas/lafabrica-v1-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 13,
+      "dense_expected": 13,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 573,
+          "f1": 584,
+          "file": "analysis/tmp/lafabrica-v1-B/native-f573-584.jpg",
+          "crop": [
+            0.03,
+            0.27,
+            0.94,
+            0.42
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 677,
+          "f1": 687,
+          "file": "analysis/tmp/lafabrica-v1-B/native-f677-687.jpg",
+          "crop": [
+            0.04,
+            0.3,
+            0.92,
+            0.45
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 962,
+          "f1": 973,
+          "file": "analysis/tmp/lafabrica-v1-B/native-f962-973.jpg",
+          "crop": [
+            0.04,
+            0.28,
+            0.92,
+            0.45
+          ],
+          "status": "viewed_select_n_original"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png",
+        "s_032-040.png",
+        "s_040-046.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "lafabrica-v2p1-A",
+      "slug": "lafabrica-v2p1",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d015_f00609-f00648.jpg"
+      ],
+      "n_sheets": 16,
+      "f0": 0,
+      "f1": 648,
+      "t0": 0.0,
+      "t1": 27.0,
+      "note": "notas/lafabrica-v2p1-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 16,
+      "dense_expected": 16,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 43,
+          "f1": 55,
+          "file": "analysis/tmp/lafabrica-v2p1-A/native-f43-55.jpg",
+          "crop": [
+            0.02,
+            0.12,
+            0.96,
+            0.36
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 543,
+          "f1": 552,
+          "file": "analysis/tmp/lafabrica-v2p1-A/native-f543-552.jpg",
+          "crop": [
+            0.05,
+            0.3,
+            0.9,
+            0.34
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 340,
+          "f1": 348,
+          "file": "analysis/tmp/lafabrica-v2p1-A/native-f340-348.jpg",
+          "crop": null,
+          "status": "viewed_select_n_original"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "lafabrica-v2p1-B",
+      "slug": "lafabrica-v2p1",
+      "sheets": [
+        "d016_f00649-f00688.jpg",
+        "d031_f01253-f01292.jpg"
+      ],
+      "n_sheets": 16,
+      "f0": 649,
+      "f1": 1292,
+      "t0": 27.042,
+      "t1": 53.833,
+      "note": "notas/lafabrica-v2p1-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 16,
+      "dense_expected": 16,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 661,
+          "f1": 671,
+          "file": "analysis/tmp/lafabrica-v2p1-B/native-f661-671.jpg",
+          "crop": [
+            0,
+            0.23,
+            0.97,
+            0.42
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 674,
+          "f1": 688,
+          "file": "analysis/tmp/lafabrica-v2p1-B/native-f674-688.jpg",
+          "crop": [
+            0,
+            0.33,
+            1,
+            0.48
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 980,
+          "f1": 988,
+          "file": "analysis/tmp/lafabrica-v2p1-B/native-f980-988.jpg",
+          "crop": [
+            0.01,
+            0.4,
+            0.98,
+            0.28
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 1252,
+          "f1": 1263,
+          "file": "analysis/tmp/lafabrica-v2p1-B/native-f1252-1263.jpg",
+          "crop": [
+            0.05,
+            0.3,
+            0.9,
+            0.4
+          ],
+          "status": "viewed_select_n_original"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png",
+        "s_032-040.png",
+        "s_040-048.png",
+        "s_048-056.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "lafabrica-v2p1-C",
+      "slug": "lafabrica-v2p1",
+      "sheets": [
+        "d032_f01293-f01332.jpg",
+        "d046_f01856-f01906.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 1293,
+      "f1": 1906,
+      "t0": 53.875,
+      "t1": 79.417,
+      "note": "notas/lafabrica-v2p1-C.md",
+      "status_reported": "partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 1,
+      "supplemental_expected": 1,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 1519,
+          "f1": 1531,
+          "file": "analysis/tmp/lafabrica-v2p1-C/native-f1519-1531.jpg",
+          "crop": [
+            0.04,
+            0.42,
+            0.92,
+            0.2
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 1622,
+          "f1": 1629,
+          "file": "analysis/tmp/lafabrica-v2p1-C/native-f1622-1629.jpg",
+          "crop": [
+            0.04,
+            0.08,
+            0.92,
+            0.33
+          ],
+          "status": "viewed_select_n_original"
+        },
+        {
+          "f0": 1648,
+          "f1": 1653,
+          "file": "analysis/tmp/lafabrica-v2p1-C/native-f1648-1653-mask.jpg",
+          "crop": [
+            0.1,
+            0.03,
+            0.8,
+            0.21
+          ],
+          "status": "viewed_select_n_original"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_048-056.png",
+        "s_056-064.png",
+        "s_064-072.png",
+        "s_072-080.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "landing-A",
+      "slug": "landing",
+      "sheets": [
+        "d000_f00000-f00034.jpg",
+        "d020_f00696-f00725.jpg"
+      ],
+      "n_sheets": 21,
+      "f0": 0,
+      "f1": 725,
+      "t0": 0.0,
+      "t1": 12.083,
+      "note": "notas/landing-A.md",
+      "status_reported": "dense_complete_native_partial",
+      "dense_viewed": 21,
+      "dense_expected": 21,
+      "dense_missing": [],
+      "supplemental_viewed": 4,
+      "supplemental_expected": 4,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          7,
+          15
+        ],
+        [
+          83,
+          96
+        ],
+        [
+          409,
+          426
+        ],
+        [
+          413,
+          419
+        ],
+        [
+          517,
+          536
+        ],
+        [
+          631,
+          666
+        ],
+        [
+          681,
+          726
+        ],
+        [
+          211,
+          218
+        ],
+        [
+          304,
+          311
+        ],
+        [
+          506,
+          511
+        ],
+        [
+          568,
+          573
+        ],
+        [
+          7,
+          89
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "landing-B",
+      "slug": "landing",
+      "sheets": [
+        "d021_f00726-f00755.jpg",
+        "d041_f01569-f01604.jpg"
+      ],
+      "n_sheets": 21,
+      "f0": 726,
+      "f1": 1604,
+      "t0": 12.1,
+      "t1": 26.733,
+      "note": "notas/landing-B.md",
+      "status_reported": "partial",
+      "dense_viewed": 21,
+      "dense_expected": 21,
+      "dense_missing": [],
+      "supplemental_viewed": 9,
+      "supplemental_expected": 9,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "frames": [
+            925,
+            1009,
+            1350
+          ],
+          "crop": [
+            0.12,
+            0.08,
+            0.65,
+            0.55
+          ],
+          "evidence": "layers-native-0.jpg..2.jpg"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "landing-C",
+      "slug": "landing",
+      "sheets": [
+        "d042_f01605-f01644.jpg",
+        "d062_f02239-f02268.jpg"
+      ],
+      "n_sheets": 21,
+      "f0": 1605,
+      "f1": 2268,
+      "t0": 26.75,
+      "t1": 37.8,
+      "note": "notas/landing-C.md",
+      "status_reported": "partial",
+      "dense_viewed": 21,
+      "dense_expected": 21,
+      "dense_missing": [],
+      "supplemental_viewed": 2,
+      "supplemental_expected": 2,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "frames": [
+            1605
+          ],
+          "crop": [
+            0.12,
+            0.08,
+            0.65,
+            0.55
+          ],
+          "evidence": "../landing-B/layers-native-3.jpg"
+        },
+        {
+          "f0": 2138,
+          "f1": 2152,
+          "crop": [
+            0.34,
+            0.42,
+            0.32,
+            0.17
+          ],
+          "evidence": "despues-native.jpg",
+          "measurement": "despues-ink.tsv"
+        },
+        {
+          "f0": 2209,
+          "f1": 2220,
+          "crop": [
+            0.33,
+            0.31,
+            0.34,
+            0.23
+          ],
+          "evidence": "counter-in-native.jpg"
+        },
+        {
+          "f0": 2239,
+          "f1": 2247,
+          "crop": [
+            0.3,
+            0.32,
+            0.4,
+            0.3
+          ],
+          "evidence": "counter-dot-row-0.jpg..4.jpg"
+        },
+        {
+          "f0": 2241,
+          "f1": 2243,
+          "crop": [
+            0.3,
+            0.3,
+            0.4,
+            0.55
+          ],
+          "evidence": "under-pill-native.jpg"
+        },
+        {
+          "f0": 2153,
+          "f1": 2165,
+          "crop": [
+            0.24,
+            0.44,
+            0.4,
+            0.16
+          ],
+          "evidence": "despues-de-native-0-6.jpg y 6-13.jpg",
+          "measurement": "despues-de-ink.tsv"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_024-032.png",
+        "s_032-040.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "landing-D",
+      "slug": "landing",
+      "sheets": [
+        "d063_f02269-f02298.jpg",
+        "d083_f03228-f03257.jpg"
+      ],
+      "n_sheets": 21,
+      "f0": 2269,
+      "f1": 3257,
+      "t0": 37.817,
+      "t1": 54.283,
+      "note": "notas/landing-D.md",
+      "status_reported": "partial",
+      "dense_viewed": 21,
+      "dense_expected": 21,
+      "dense_missing": [],
+      "supplemental_viewed": 13,
+      "supplemental_expected": 13,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 2406,
+          "f1": 2415,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f2406-2415.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 2787,
+          "f1": 2799,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f2787-2799.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 3207,
+          "f1": 3217,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f3207-3217.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 3238,
+          "f1": 3248,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f3238-3248.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 2317,
+          "f1": 2319,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2318.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 2509,
+          "f1": 2511,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2510.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 2608,
+          "f1": 2610,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2609.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 2769,
+          "f1": 2771,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2770.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 2979,
+          "f1": 2981,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2980.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 3058,
+          "f1": 3060,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f3059.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 3164,
+          "f1": 3166,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f3165.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 2618,
+          "f1": 2638,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-correctas-que-puede.jpg",
+          "extraction": "original select n; crop text"
+        },
+        {
+          "f0": 2787,
+          "f1": 2805,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-creador-curve.jpg",
+          "extraction": "original select n; cropped clean text; inkbox white threshold90"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_032-040.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_040-048.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_048-056.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "landing-E",
+      "slug": "landing",
+      "sheets": [
+        "d084_f03258-f03287.jpg",
+        "d104_f04614-f04687.jpg"
+      ],
+      "n_sheets": 21,
+      "f0": 3258,
+      "f1": 4687,
+      "t0": 54.3,
+      "t1": 78.117,
+      "note": "notas/landing-E.md",
+      "status_reported": "partial",
+      "dense_viewed": 21,
+      "dense_expected": 21,
+      "dense_missing": [],
+      "supplemental_viewed": 28,
+      "supplemental_expected": 28,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 3620,
+          "f1": 3626,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/native-f3620-3626.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 4317,
+          "f1": 4324,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/native-f4317-4324.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 4503,
+          "f1": 4511,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/native-f4503-4511.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 3292,
+          "f1": 3294,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f3293.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 3598,
+          "f1": 3600,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f3599.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 3874,
+          "f1": 3876,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f3875.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 3967,
+          "f1": 3969,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f3968.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 4550,
+          "f1": 4552,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f4551.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 4598,
+          "f1": 4600,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f4599.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 4636,
+          "f1": 4638,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f4637.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 4680,
+          "f1": 4682,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-E/cut-f4681.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_048-056.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_056-064.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_064-072.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_072-080.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "landing-F",
+      "slug": "landing",
+      "sheets": [
+        "d105_f04688-f04740.jpg",
+        "d122_f05554-f05679.jpg"
+      ],
+      "n_sheets": 18,
+      "f0": 4688,
+      "f1": 5679,
+      "t0": 78.133,
+      "t1": 94.65,
+      "note": "notas/landing-F.md",
+      "status_reported": "partial",
+      "dense_viewed": 18,
+      "dense_expected": 18,
+      "dense_missing": [],
+      "supplemental_viewed": 13,
+      "supplemental_expected": 13,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 4736,
+          "f1": 4748,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/native-f4736-4748.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 4760,
+          "f1": 4772,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/native-f4760-4772.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 4796,
+          "f1": 4808,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/native-f4796-4808.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 4827,
+          "f1": 4839,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/native-f4827-4839.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 5588,
+          "f1": 5602,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/native-f5588-5602.jpg",
+          "extraction": "original select n"
+        },
+        {
+          "f0": 5076,
+          "f1": 5078,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/cut-f5077.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 5348,
+          "f1": 5350,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/cut-f5349.jpg",
+          "extraction": "original select n; full image scaled490px for cut verification"
+        },
+        {
+          "f0": 4796,
+          "f1": 4828,
+          "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-F/native-hooks-curve.jpg",
+          "extraction": "original select n; crop text; inkbox white threshold90"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_072-080.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_080-088.png",
+        "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_088-095.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v7-ads90-rev-A",
+      "slug": "v7-ads90-rev",
+      "sheets": [
+        "d000_f00000-f00078.jpg",
+        "d007_f00558-f00597.jpg"
+      ],
+      "n_sheets": 8,
+      "f0": 0,
+      "f1": 597,
+      "t0": 0,
+      "t1": 9.95,
+      "note": "notas/v7-ads90-rev-A.md",
+      "status_reported": "partial",
+      "dense_viewed": 8,
+      "dense_expected": 8,
+      "dense_missing": [],
+      "supplemental_viewed": 7,
+      "supplemental_expected": 7,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          372,
+          380
+        ],
+        [
+          10,
+          10
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v6-ads90-A",
+      "slug": "v6-ads90",
+      "sheets": [
+        "d000_f00000-f00039.jpg",
+        "d014_f00823-f00904.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 0,
+      "f1": 904,
+      "t0": 0.0,
+      "t1": 15.067,
+      "added_by": "Codex coverage audit; prior study omitted full variant review",
+      "note": "notas/v6-ads90-A.md",
+      "status_reported": "dense_complete_native_partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 8,
+      "supplemental_expected": 8,
+      "supplemental_missing": [],
+      "native_ranges": [],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_008-016.png",
+        "s_000-008.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v6-ads90-B",
+      "slug": "v6-ads90",
+      "sheets": [
+        "d015_f00905-f00993.jpg",
+        "d029_f01750-f01789.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 905,
+      "f1": 1789,
+      "t0": 15.083,
+      "t1": 29.817,
+      "added_by": "Codex coverage audit; prior study omitted full variant review",
+      "note": "notas/v6-ads90-B.md",
+      "status_reported": "dense_complete_native_partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 8,
+      "supplemental_expected": 8,
+      "supplemental_missing": [],
+      "native_ranges": [
+        {
+          "f0": 946,
+          "f1": 952,
+          "method": "ffmpeg select between(n), sin seek",
+          "file": "v6original-f946-952.jpg"
+        }
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v6-ads90-C",
+      "slug": "v6-ads90",
+      "sheets": [
+        "d030_f01790-f01862.jpg",
+        "d044_f02577-f02649.jpg"
+      ],
+      "n_sheets": 15,
+      "f0": 1790,
+      "f1": 2649,
+      "t0": 29.833,
+      "t1": 44.15,
+      "added_by": "Codex coverage audit; prior study omitted full variant review",
+      "note": "notas/v6-ads90-C.md",
+      "status_reported": "dense_complete_native_partial",
+      "dense_viewed": 15,
+      "dense_expected": 15,
+      "dense_missing": [],
+      "supplemental_viewed": 7,
+      "supplemental_expected": 7,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          2332,
+          2338
+        ]
+      ],
+      "native_frames": [
+        2116,
+        2121,
+        2126,
+        2131,
+        2136,
+        2141,
+        2160,
+        2200
+      ],
+      "spectrograms_viewed": [
+        "s_032-040.png",
+        "s_040-045.png",
+        "s_024-032.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    },
+    {
+      "id": "v7-ads90-rev-B",
+      "slug": "v7-ads90-rev",
+      "sheets": [
+        "d008_f00598-f00639.jpg",
+        "d042_f02577-f02680.jpg"
+      ],
+      "n_sheets": 35,
+      "f0": 598,
+      "f1": 2680,
+      "t0": 9.967,
+      "t1": 44.667,
+      "added_by": "Codex coverage audit; prior study omitted full variant review",
+      "note": "notas/v7-ads90-rev-B.md",
+      "status_reported": "dense_complete_native_partial",
+      "dense_viewed": 35,
+      "dense_expected": 35,
+      "dense_missing": [],
+      "supplemental_viewed": 17,
+      "supplemental_expected": 17,
+      "supplemental_missing": [],
+      "native_ranges": [
+        [
+          940,
+          946
+        ],
+        [
+          1026,
+          1033
+        ]
+      ],
+      "native_frames": [],
+      "spectrograms_viewed": [
+        "s_000-008.png",
+        "s_008-016.png",
+        "s_016-024.png",
+        "s_024-032.png",
+        "s_032-040.png",
+        "s_040-045.png"
+      ],
+      "coverage_anomalies": [],
+      "forensic_complete": false
+    }
+  ],
+  "note": "Cobertura declarada de imágenes abiertas, no certificado automático de interpretación correcta. El muestreo de segundos no sustituye este registro.",
+  "revision_v2": {
+    "corpus": "datos/revision-v2/corpus.json",
+    "rules": "datos/revision-v2/rules.json",
+    "spec": "ALGORITMO-V2.md",
+    "ui": "http://127.0.0.1:4317/study",
+    "source_count": 11,
+    "native_frames_with_ocr": 28384,
+    "ocr_tracks": 3110,
+    "editorial_observations": 506,
+    "native_review_exhaustive": false,
+    "audio_identification_complete": false,
+    "v8_reviewed": {
+      "overview": "f0..4260 step30,6sheets; not exhaustive",
+      "native_continuous_ranges": [
+        [
+          168,
+          327
+        ],
+        [
+          544,
+          575
+        ],
+        [
+          1640,
+          1667
+        ],
+        [
+          2558,
+          2585
+        ],
+        [
+          3319,
+          3346
+        ],
+        [
+          450,
+          469
+        ],
+        [
+          3349,
+          3364
+        ]
+      ],
+      "native_sampled_ranges": [
+        {
+          "range": [
+            324,
+            455
+          ],
+          "step": 6
+        },
+        {
+          "frames": [
+            230,
+            240,
+            256,
+            270
+          ],
+          "evidence": "native-selector-detail.jpg"
+        },
+        {
+          "frames": [
+            552,
+            556,
+            566,
+            576,
+            590,
+            609,
+            1679
+          ],
+          "purpose": "Native glyph fit and render comparison; not whole scene reconstruction"
+        }
+      ],
+      "native_automatic_ink_ranges": [
+        [
+          549,
+          619
+        ],
+        [
+          1652,
+          1725
+        ],
+        [
+          3328,
+          3361
+        ]
+      ],
+      "model": "datos/revision-v2/v8-motion-fit.json",
+      "native_automatic_handle_range": [
+        168,
+        327
+      ],
+      "selector_measurement": "datos/revision-v2/v8-selector-curves.json"
+    },
+    "verification": {
+      "functional_tests": 12,
+      "passed": 12,
+      "browser_errors": 0,
+      "preserved_review_versions": 4,
+      "production_style_validated": false
+    },
+    "next_queue": "PENDIENTES.md",
+    "rawComparison": {
+      "manifest": "datos/raw-comparison/manifest.json",
+      "candidates": "datos/raw-comparison/candidates.json",
+      "pairs": "datos/raw-comparison/pairs.json",
+      "videoFiles": 68,
+      "audioFiles": 10,
+      "qualitativePairsReviewed": 10,
+      "exactTimelineAlignmentComplete": false,
+      "url": "http://127.0.0.1:4317/raw-study"
+    },
+    "fontCalibration": "datos/revision-v2/v8-font-calibration.json",
+    "renderCalibration": "../birdieballs/v04/reference-test/comparison.json"
+  },
+  "directionQuiz": {
+    "url": "http://127.0.0.1:4317/quiz",
+    "catalog": "motor-editor/review/quiz/catalog.json",
+    "questions": 69,
+    "sections": 10,
+    "references": 11,
+    "documentedExamples": 84,
+    "answers": "motor-editor/review/data/quiz-answers.json",
+    "status": "received_interpreted",
+    "note": "V04 rejected. This questionnaire records preferences; it does not complete forensic analysis or automatically render a new version.",
+    "revision": 132,
+    "answered": 64,
+    "unanswered": 5,
+    "directionMap": "birdieballs/v05-direction/direction.json",
+    "directionMapUrl": "http://127.0.0.1:4317/direction"
+  },
+  "algorithm_updates": [
+    {
+      "date": "2026-10-14",
+      "implementation": "motor-editor/src/editorial-v2/index.ts",
+      "note": "estilo-editor/notas/selector-v2-2026-10-14.md",
+      "status": "partial_contextual_planner_connected_to_remotion",
+      "reference_samples": {
+        "v1-pagado": [
+          116,
+          120,
+          124,
+          128,
+          137,
+          138,
+          186,
+          189,
+          194
+        ],
+        "v5-maquina": [
+          675,
+          689,
+          690,
+          705,
+          723,
+          724
+        ]
+      },
+      "pilot": "motor-editor/lab/editorial-v2/birdie-lab.mp4",
+      "technicalTestsPassed": 53,
+      "fullStudyComplete": false,
+      "userApproved": false
+    },
+    {
+      "date": "2026-10-14",
+      "implementation": "motor-editor/src/editorial-v2/relation.ts",
+      "note": "estilo-editor/notas/relacion-v2-2026-10-14.md",
+      "status": "partial_relation_primitive_connected_and_rendered",
+      "reference_samples": {
+        "v8": [
+          230,
+          240,
+          255,
+          265,
+          275,
+          300
+        ]
+      },
+      "measurementRange": [
+        230,
+        300
+      ],
+      "measurementSource": "estilo-editor/datos/revision-v2/v8-selector-curves.json",
+      "pilot": "motor-editor/lab/relation-v2/relation-lab.mp4",
+      "comparison": "motor-editor/lab/relation-v2/comparison.jpg",
+      "technicalTestsPassed": 64,
+      "fullStudyComplete": false,
+      "userApproved": false
+    }
+  ]
+}

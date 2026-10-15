@@ -1,0 +1,5516 @@
+[
+  {
+    "id": "pagar",
+    "slug": "v8",
+    "range": [
+      549,
+      619
+    ],
+    "roi": [
+      0.05,
+      0.44,
+      0.9,
+      0.27
+    ],
+    "method": "Native RGB chroma selection: G-R>c, R-B>c, R>85,G>125; 0.2–99.8 percentile bounds. Thresholds c15/c30.",
+    "status": "measurement_candidate_requires_mask_review",
+    "warnings": [
+      "Threshold-dependent ink bounds; not fontSize or source alpha.",
+      "Changing compression/background can contaminate bounds.",
+      "ROI can clip entry/overshoot."
+    ],
+    "rows": [
+      {
+        "frame": 549,
+        "threshold15": null,
+        "threshold30": null
+      },
+      {
+        "frame": 550,
+        "threshold15": null,
+        "threshold30": null
+      },
+      {
+        "frame": 551,
+        "threshold15": {
+          "x": 120.0,
+          "y": 990.0,
+          "width": 833.0,
+          "height": 273.0,
+          "cx": 536.0,
+          "cy": 1126.0,
+          "pixelCount": 88362,
+          "medianRGB": [
+            171.0,
+            210.0,
+            120.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 992.0,
+          "width": 818.46,
+          "height": 270.0,
+          "cx": 528.73,
+          "cy": 1126.5,
+          "pixelCount": 67773,
+          "medianRGB": [
+            171.0,
+            211.0,
+            122.0
+          ]
+        }
+      },
+      {
+        "frame": 552,
+        "threshold15": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 834.0,
+          "height": 282.0,
+          "cx": 536.5,
+          "cy": 1109.5,
+          "pixelCount": 100399,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 970.0,
+          "width": 834.0,
+          "height": 280.0,
+          "cx": 536.5,
+          "cy": 1109.5,
+          "pixelCount": 95567,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 553,
+        "threshold15": {
+          "x": 120.0,
+          "y": 953.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1094.0,
+          "pixelCount": 99725,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 954.0,
+          "width": 834.0,
+          "height": 281.0,
+          "cx": 536.5,
+          "cy": 1094.0,
+          "pixelCount": 95861,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 554,
+        "threshold15": {
+          "x": 120.0,
+          "y": 943.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1084.0,
+          "pixelCount": 98787,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 943.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1083.5,
+          "pixelCount": 95924,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 555,
+        "threshold15": {
+          "x": 120.0,
+          "y": 937.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1078.0,
+          "pixelCount": 97972,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 937.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1078.0,
+          "pixelCount": 96016,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 556,
+        "threshold15": {
+          "x": 120.0,
+          "y": 935.0,
+          "width": 834.51,
+          "height": 283.0,
+          "cx": 536.75,
+          "cy": 1076.0,
+          "pixelCount": 97746,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 935.0,
+          "width": 834.61,
+          "height": 283.0,
+          "cx": 536.8,
+          "cy": 1076.0,
+          "pixelCount": 95697,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 557,
+        "threshold15": {
+          "x": 120.0,
+          "y": 937.0,
+          "width": 834.13,
+          "height": 284.0,
+          "cx": 536.57,
+          "cy": 1078.5,
+          "pixelCount": 97934,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 938.0,
+          "width": 834.0,
+          "height": 282.0,
+          "cx": 536.5,
+          "cy": 1078.5,
+          "pixelCount": 95870,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 558,
+        "threshold15": {
+          "x": 120.0,
+          "y": 943.0,
+          "width": 834.0,
+          "height": 284.0,
+          "cx": 536.5,
+          "cy": 1084.5,
+          "pixelCount": 98499,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 944.0,
+          "width": 834.43,
+          "height": 282.0,
+          "cx": 536.71,
+          "cy": 1084.5,
+          "pixelCount": 95787,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 559,
+        "threshold15": {
+          "x": 120.0,
+          "y": 951.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1091.5,
+          "pixelCount": 98929,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 951.0,
+          "width": 834.0,
+          "height": 282.0,
+          "cx": 536.5,
+          "cy": 1091.5,
+          "pixelCount": 96150,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 560,
+        "threshold15": {
+          "x": 120.0,
+          "y": 959.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1100.0,
+          "pixelCount": 98710,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 960.0,
+          "width": 834.0,
+          "height": 281.0,
+          "cx": 536.5,
+          "cy": 1100.0,
+          "pixelCount": 95604,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 561,
+        "threshold15": {
+          "x": 120.0,
+          "y": 967.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1108.0,
+          "pixelCount": 98613,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 968.0,
+          "width": 834.0,
+          "height": 281.0,
+          "cx": 536.5,
+          "cy": 1108.0,
+          "pixelCount": 95818,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 562,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1116.0,
+          "pixelCount": 98244,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 834.5,
+          "height": 282.0,
+          "cx": 536.75,
+          "cy": 1115.5,
+          "pixelCount": 95249,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 563,
+        "threshold15": {
+          "x": 120.0,
+          "y": 981.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1121.5,
+          "pixelCount": 96727,
+          "medianRGB": [
+            205.0,
+            250.0,
+            132.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 981.0,
+          "width": 834.68,
+          "height": 281.0,
+          "cx": 536.84,
+          "cy": 1121.0,
+          "pixelCount": 94161,
+          "medianRGB": [
+            205.0,
+            250.0,
+            132.0
+          ]
+        }
+      },
+      {
+        "frame": 564,
+        "threshold15": {
+          "x": 120.0,
+          "y": 985.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1125.5,
+          "pixelCount": 95268,
+          "medianRGB": [
+            195.0,
+            238.0,
+            130.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 985.0,
+          "width": 835.0,
+          "height": 272.0,
+          "cx": 537.0,
+          "cy": 1120.5,
+          "pixelCount": 89070,
+          "medianRGB": [
+            194.0,
+            238.0,
+            130.0
+          ]
+        }
+      },
+      {
+        "frame": 565,
+        "threshold15": {
+          "x": 120.0,
+          "y": 987.0,
+          "width": 835.0,
+          "height": 281.0,
+          "cx": 537.0,
+          "cy": 1127.0,
+          "pixelCount": 92741,
+          "medianRGB": [
+            188.0,
+            230.0,
+            126.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 988.0,
+          "width": 835.0,
+          "height": 273.0,
+          "cx": 537.0,
+          "cy": 1124.0,
+          "pixelCount": 83789,
+          "medianRGB": [
+            188.0,
+            230.0,
+            126.0
+          ]
+        }
+      },
+      {
+        "frame": 566,
+        "threshold15": {
+          "x": 120.0,
+          "y": 988.0,
+          "width": 835.0,
+          "height": 276.0,
+          "cx": 537.0,
+          "cy": 1125.5,
+          "pixelCount": 90803,
+          "medianRGB": [
+            187.0,
+            229.0,
+            126.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 988.0,
+          "width": 834.0,
+          "height": 274.0,
+          "cx": 536.5,
+          "cy": 1124.5,
+          "pixelCount": 82240,
+          "medianRGB": [
+            187.0,
+            228.0,
+            125.0
+          ]
+        }
+      },
+      {
+        "frame": 567,
+        "threshold15": {
+          "x": 120.0,
+          "y": 987.0,
+          "width": 835.0,
+          "height": 280.3,
+          "cx": 537.0,
+          "cy": 1126.65,
+          "pixelCount": 92853,
+          "medianRGB": [
+            188.0,
+            230.0,
+            126.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 987.0,
+          "width": 835.0,
+          "height": 273.0,
+          "cx": 537.0,
+          "cy": 1123.0,
+          "pixelCount": 84457,
+          "medianRGB": [
+            188.0,
+            230.0,
+            126.0
+          ]
+        }
+      },
+      {
+        "frame": 568,
+        "threshold15": {
+          "x": 120.0,
+          "y": 985.0,
+          "width": 835.0,
+          "height": 281.17,
+          "cx": 537.0,
+          "cy": 1125.09,
+          "pixelCount": 94915,
+          "medianRGB": [
+            194.0,
+            236.0,
+            129.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 985.0,
+          "width": 835.0,
+          "height": 272.0,
+          "cx": 537.0,
+          "cy": 1120.5,
+          "pixelCount": 87989,
+          "medianRGB": [
+            193.0,
+            236.0,
+            129.0
+          ]
+        }
+      },
+      {
+        "frame": 569,
+        "threshold15": {
+          "x": 120.0,
+          "y": 982.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1122.5,
+          "pixelCount": 96149,
+          "medianRGB": [
+            200.0,
+            243.0,
+            131.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 983.0,
+          "width": 835.0,
+          "height": 273.0,
+          "cx": 537.0,
+          "cy": 1119.0,
+          "pixelCount": 91089,
+          "medianRGB": [
+            200.0,
+            243.0,
+            131.0
+          ]
+        }
+      },
+      {
+        "frame": 570,
+        "threshold15": {
+          "x": 120.0,
+          "y": 979.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1120.0,
+          "pixelCount": 97198,
+          "medianRGB": [
+            205.0,
+            251.0,
+            133.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 979.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1119.5,
+          "pixelCount": 94795,
+          "medianRGB": [
+            205.0,
+            251.0,
+            133.0
+          ]
+        }
+      },
+      {
+        "frame": 571,
+        "threshold15": {
+          "x": 120.0,
+          "y": 976.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1117.0,
+          "pixelCount": 97460,
+          "medianRGB": [
+            212.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 976.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1116.5,
+          "pixelCount": 95805,
+          "medianRGB": [
+            212.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 572,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97692,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95602,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 573,
+        "threshold15": {
+          "x": 120.0,
+          "y": 971.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1112.0,
+          "pixelCount": 97651,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 971.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1112.0,
+          "pixelCount": 95693,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 574,
+        "threshold15": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1110.0,
+          "pixelCount": 97601,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 970.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1110.5,
+          "pixelCount": 95439,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 575,
+        "threshold15": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1110.0,
+          "pixelCount": 97400,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1109.5,
+          "pixelCount": 95731,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 576,
+        "threshold15": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1109.5,
+          "pixelCount": 97387,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1109.5,
+          "pixelCount": 95332,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 577,
+        "threshold15": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1110.0,
+          "pixelCount": 97385,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1109.5,
+          "pixelCount": 95616,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 578,
+        "threshold15": {
+          "x": 120.0,
+          "y": 969.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1110.0,
+          "pixelCount": 97684,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 970.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1110.5,
+          "pixelCount": 95340,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 579,
+        "threshold15": {
+          "x": 120.0,
+          "y": 971.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1111.5,
+          "pixelCount": 97531,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 971.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1111.5,
+          "pixelCount": 95713,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 580,
+        "threshold15": {
+          "x": 120.0,
+          "y": 972.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1112.5,
+          "pixelCount": 97671,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 972.0,
+          "width": 834.12,
+          "height": 282.0,
+          "cx": 536.56,
+          "cy": 1112.5,
+          "pixelCount": 95443,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 581,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97473,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1113.5,
+          "pixelCount": 95537,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 582,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 97593,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 834.31,
+          "height": 282.0,
+          "cx": 536.65,
+          "cy": 1114.5,
+          "pixelCount": 95347,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 583,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1115.5,
+          "pixelCount": 97319,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1115.5,
+          "pixelCount": 95629,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 584,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1116.0,
+          "pixelCount": 97428,
+          "medianRGB": [
+            215.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 834.88,
+          "height": 283.0,
+          "cx": 536.94,
+          "cy": 1116.0,
+          "pixelCount": 95559,
+          "medianRGB": [
+            215.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 585,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1116.0,
+          "pixelCount": 97369,
+          "medianRGB": [
+            214.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 976.0,
+          "width": 834.68,
+          "height": 282.0,
+          "cx": 536.84,
+          "cy": 1116.5,
+          "pixelCount": 95660,
+          "medianRGB": [
+            214.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 586,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.66,
+          "width": 835.0,
+          "height": 282.34,
+          "cx": 537.0,
+          "cy": 1116.33,
+          "pixelCount": 97333,
+          "medianRGB": [
+            214.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 976.0,
+          "width": 834.87,
+          "height": 282.0,
+          "cx": 536.94,
+          "cy": 1116.5,
+          "pixelCount": 95565,
+          "medianRGB": [
+            214.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 587,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1116.0,
+          "pixelCount": 97324,
+          "medianRGB": [
+            214.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 976.0,
+          "width": 834.58,
+          "height": 282.0,
+          "cx": 536.79,
+          "cy": 1116.5,
+          "pixelCount": 95713,
+          "medianRGB": [
+            214.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 588,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1116.0,
+          "pixelCount": 97316,
+          "medianRGB": [
+            215.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 834.8,
+          "height": 283.0,
+          "cx": 536.9,
+          "cy": 1116.0,
+          "pixelCount": 95601,
+          "medianRGB": [
+            215.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 589,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1116.0,
+          "pixelCount": 97106,
+          "medianRGB": [
+            216.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 282.83,
+          "cx": 537.0,
+          "cy": 1115.91,
+          "pixelCount": 95588,
+          "medianRGB": [
+            216.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 590,
+        "threshold15": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1115.5,
+          "pixelCount": 97117,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1115.5,
+          "pixelCount": 95649,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 591,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97047,
+          "medianRGB": [
+            217.0,
+            255.0,
+            139.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 975.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1115.5,
+          "pixelCount": 95500,
+          "medianRGB": [
+            217.0,
+            255.0,
+            139.0
+          ]
+        }
+      },
+      {
+        "frame": 592,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97160,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 834.99,
+          "height": 282.99,
+          "cx": 536.99,
+          "cy": 1114.99,
+          "pixelCount": 95507,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 593,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97111,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 95474,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 594,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97210,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95701,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 595,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97256,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95622,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 596,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97219,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95580,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 597,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97424,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95736,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 598,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97459,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95881,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 599,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 97508,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1114.0,
+          "pixelCount": 95688,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 600,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 284.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 97521,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 95477,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 601,
+        "threshold15": {
+          "x": 120.0,
+          "y": 973.0,
+          "width": 835.0,
+          "height": 284.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 97493,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 95372,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 602,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97380,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95470,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 603,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97304,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95318,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 604,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97279,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95357,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 605,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97113,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95260,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 606,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97111,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95256,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 607,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96999,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95036,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 608,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97005,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95073,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 609,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96984,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95107,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 610,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97056,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95223,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 611,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97028,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 95056,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 612,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96999,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 95008,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 613,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96989,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 94945,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 614,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 97038,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 95049,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 615,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96953,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 94838,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 616,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96953,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 94850,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 617,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96882,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 94882,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 618,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96879,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 94898,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 619,
+        "threshold15": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 283.0,
+          "cx": 537.0,
+          "cy": 1115.0,
+          "pixelCount": 96878,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 120.0,
+          "y": 974.0,
+          "width": 835.0,
+          "height": 282.0,
+          "cx": 537.0,
+          "cy": 1114.5,
+          "pixelCount": 94897,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "Braudd",
+    "slug": "v8",
+    "range": [
+      1652,
+      1725
+    ],
+    "roi": [
+      0.04,
+      0.15,
+      0.92,
+      0.23
+    ],
+    "method": "Native RGB chroma selection: G-R>c, R-B>c, R>85,G>125; 0.2–99.8 percentile bounds. Thresholds c15/c30.",
+    "status": "measurement_candidate_requires_mask_review",
+    "warnings": [
+      "Threshold-dependent ink bounds; not fontSize or source alpha.",
+      "Changing compression/background can contaminate bounds.",
+      "ROI can clip entry/overshoot."
+    ],
+    "rows": [
+      {
+        "frame": 1652,
+        "threshold15": null,
+        "threshold30": null
+      },
+      {
+        "frame": 1653,
+        "threshold15": {
+          "x": 137.0,
+          "y": 452.0,
+          "width": 791.0,
+          "height": 215.0,
+          "cx": 532.0,
+          "cy": 559.0,
+          "pixelCount": 3380,
+          "medianRGB": [
+            115.0,
+            133.0,
+            90.0
+          ]
+        },
+        "threshold30": null
+      },
+      {
+        "frame": 1654,
+        "threshold15": {
+          "x": 136.0,
+          "y": 427.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 538.0,
+          "pixelCount": 69406,
+          "medianRGB": [
+            174.0,
+            207.0,
+            111.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 431.0,
+          "width": 808.0,
+          "height": 215.0,
+          "cx": 539.5,
+          "cy": 538.0,
+          "pixelCount": 35093,
+          "medianRGB": [
+            172.0,
+            207.0,
+            110.0
+          ]
+        }
+      },
+      {
+        "frame": 1655,
+        "threshold15": {
+          "x": 136.0,
+          "y": 406.0,
+          "width": 808.0,
+          "height": 226.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 76368,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 70541,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1656,
+        "threshold15": {
+          "x": 136.0,
+          "y": 392.0,
+          "width": 808.0,
+          "height": 224.0,
+          "cx": 539.5,
+          "cy": 503.5,
+          "pixelCount": 75685,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 392.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 502.5,
+          "pixelCount": 71228,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1657,
+        "threshold15": {
+          "x": 136.0,
+          "y": 381.0,
+          "width": 808.0,
+          "height": 224.0,
+          "cx": 539.5,
+          "cy": 492.5,
+          "pixelCount": 74208,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 382.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 492.5,
+          "pixelCount": 71030,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1658,
+        "threshold15": {
+          "x": 136.0,
+          "y": 375.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 486.0,
+          "pixelCount": 73256,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 376.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 486.5,
+          "pixelCount": 70976,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1659,
+        "threshold15": {
+          "x": 136.0,
+          "y": 374.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 484.5,
+          "pixelCount": 72705,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 374.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 484.5,
+          "pixelCount": 70470,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1660,
+        "threshold15": {
+          "x": 136.0,
+          "y": 376.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 487.0,
+          "pixelCount": 72982,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 376.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 487.0,
+          "pixelCount": 70717,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1661,
+        "threshold15": {
+          "x": 136.0,
+          "y": 382.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 493.0,
+          "pixelCount": 73403,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 382.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 492.5,
+          "pixelCount": 70047,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1662,
+        "threshold15": {
+          "x": 136.0,
+          "y": 389.0,
+          "width": 808.0,
+          "height": 224.0,
+          "cx": 539.5,
+          "cy": 500.5,
+          "pixelCount": 73654,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 390.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 500.5,
+          "pixelCount": 70349,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1663,
+        "threshold15": {
+          "x": 136.0,
+          "y": 398.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 509.0,
+          "pixelCount": 73952,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 398.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 508.5,
+          "pixelCount": 70503,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1664,
+        "threshold15": {
+          "x": 136.0,
+          "y": 406.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 517.0,
+          "pixelCount": 73921,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 406.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 517.0,
+          "pixelCount": 71215,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1665,
+        "threshold15": {
+          "x": 136.0,
+          "y": 413.0,
+          "width": 808.0,
+          "height": 224.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 73603,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 524.0,
+          "pixelCount": 70454,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1666,
+        "threshold15": {
+          "x": 136.0,
+          "y": 419.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 530.0,
+          "pixelCount": 72446,
+          "medianRGB": [
+            205.0,
+            249.0,
+            131.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 420.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 530.0,
+          "pixelCount": 69228,
+          "medianRGB": [
+            205.0,
+            249.0,
+            131.0
+          ]
+        }
+      },
+      {
+        "frame": 1667,
+        "threshold15": {
+          "x": 136.0,
+          "y": 424.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 534.5,
+          "pixelCount": 71406,
+          "medianRGB": [
+            196.0,
+            236.0,
+            125.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 424.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 534.0,
+          "pixelCount": 68249,
+          "medianRGB": [
+            196.0,
+            237.0,
+            125.0
+          ]
+        }
+      },
+      {
+        "frame": 1668,
+        "threshold15": {
+          "x": 136.0,
+          "y": 426.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 536.5,
+          "pixelCount": 70853,
+          "medianRGB": [
+            190.0,
+            229.0,
+            120.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 426.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 536.0,
+          "pixelCount": 68041,
+          "medianRGB": [
+            190.0,
+            230.0,
+            120.0
+          ]
+        }
+      },
+      {
+        "frame": 1669,
+        "threshold15": {
+          "x": 136.0,
+          "y": 426.0,
+          "width": 808.0,
+          "height": 222.59,
+          "cx": 539.5,
+          "cy": 536.79,
+          "pixelCount": 70707,
+          "medianRGB": [
+            189.0,
+            226.0,
+            120.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 427.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 537.0,
+          "pixelCount": 66301,
+          "medianRGB": [
+            189.0,
+            226.0,
+            120.0
+          ]
+        }
+      },
+      {
+        "frame": 1670,
+        "threshold15": {
+          "x": 136.0,
+          "y": 426.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 536.5,
+          "pixelCount": 71009,
+          "medianRGB": [
+            190.0,
+            229.0,
+            120.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 426.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 536.0,
+          "pixelCount": 67550,
+          "medianRGB": [
+            190.0,
+            229.0,
+            120.0
+          ]
+        }
+      },
+      {
+        "frame": 1671,
+        "threshold15": {
+          "x": 136.0,
+          "y": 424.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 534.5,
+          "pixelCount": 71242,
+          "medianRGB": [
+            195.0,
+            235.0,
+            124.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 424.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 534.0,
+          "pixelCount": 67944,
+          "medianRGB": [
+            195.0,
+            235.0,
+            124.0
+          ]
+        }
+      },
+      {
+        "frame": 1672,
+        "threshold15": {
+          "x": 136.0,
+          "y": 420.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 531.0,
+          "pixelCount": 71943,
+          "medianRGB": [
+            201.0,
+            240.0,
+            127.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 421.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 531.5,
+          "pixelCount": 69653,
+          "medianRGB": [
+            201.0,
+            240.0,
+            127.0
+          ]
+        }
+      },
+      {
+        "frame": 1673,
+        "threshold15": {
+          "x": 136.0,
+          "y": 418.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 528.5,
+          "pixelCount": 72206,
+          "medianRGB": [
+            205.0,
+            250.0,
+            131.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 418.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 528.0,
+          "pixelCount": 69393,
+          "medianRGB": [
+            205.0,
+            250.0,
+            131.0
+          ]
+        }
+      },
+      {
+        "frame": 1674,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 525.0,
+          "pixelCount": 72536,
+          "medianRGB": [
+            212.0,
+            255.0,
+            136.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 415.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 525.5,
+          "pixelCount": 70533,
+          "medianRGB": [
+            212.0,
+            255.0,
+            136.0
+          ]
+        }
+      },
+      {
+        "frame": 1675,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 523.0,
+          "pixelCount": 72817,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 70505,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1676,
+        "threshold15": {
+          "x": 136.0,
+          "y": 410.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 520.5,
+          "pixelCount": 72904,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 410.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 520.5,
+          "pixelCount": 70985,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1677,
+        "threshold15": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 519.0,
+          "pixelCount": 72952,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 70504,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1678,
+        "threshold15": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 72831,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 518.0,
+          "pixelCount": 70908,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1679,
+        "threshold15": {
+          "x": 136.0,
+          "y": 407.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 517.5,
+          "pixelCount": 72994,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 407.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 517.5,
+          "pixelCount": 70889,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1680,
+        "threshold15": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 72800,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 518.0,
+          "pixelCount": 71002,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1681,
+        "threshold15": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 63461,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 518.5,
+          "pixelCount": 61389,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1682,
+        "threshold15": {
+          "x": 136.0,
+          "y": 408.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 519.0,
+          "pixelCount": 63582,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 410.0,
+          "width": 808.0,
+          "height": 220.0,
+          "cx": 539.5,
+          "cy": 519.5,
+          "pixelCount": 61678,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1683,
+        "threshold15": {
+          "x": 136.0,
+          "y": 410.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 520.5,
+          "pixelCount": 63286,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 410.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 520.5,
+          "pixelCount": 61051,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1684,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 62928,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 61444,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1685,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62936,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 60775,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1686,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 223.0,
+          "cx": 539.5,
+          "cy": 523.0,
+          "pixelCount": 62799,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 220.0,
+          "cx": 539.5,
+          "cy": 523.5,
+          "pixelCount": 60894,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1687,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 62376,
+          "medianRGB": [
+            215.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 524.0,
+          "pixelCount": 60623,
+          "medianRGB": [
+            215.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1688,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 62262,
+          "medianRGB": [
+            214.0,
+            255.0,
+            136.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 60846,
+          "medianRGB": [
+            214.0,
+            255.0,
+            136.0
+          ]
+        }
+      },
+      {
+        "frame": 1689,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 62410,
+          "medianRGB": [
+            214.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 60710,
+          "medianRGB": [
+            214.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1690,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 62292,
+          "medianRGB": [
+            214.0,
+            255.0,
+            136.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 60832,
+          "medianRGB": [
+            214.0,
+            255.0,
+            136.0
+          ]
+        }
+      },
+      {
+        "frame": 1691,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 524.5,
+          "pixelCount": 62429,
+          "medianRGB": [
+            215.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 524.0,
+          "pixelCount": 60682,
+          "medianRGB": [
+            215.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1692,
+        "threshold15": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 524.0,
+          "pixelCount": 62517,
+          "medianRGB": [
+            216.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 524.0,
+          "pixelCount": 60988,
+          "medianRGB": [
+            216.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1693,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62810,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 414.0,
+          "width": 808.0,
+          "height": 220.0,
+          "cx": 539.5,
+          "cy": 523.5,
+          "pixelCount": 60643,
+          "medianRGB": [
+            217.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1694,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62752,
+          "medianRGB": [
+            217.0,
+            255.0,
+            139.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61120,
+          "medianRGB": [
+            217.0,
+            255.0,
+            139.0
+          ]
+        }
+      },
+      {
+        "frame": 1695,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62873,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 60737,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1696,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62721,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61148,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1697,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62828,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 61042,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1698,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 62856,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 61076,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1699,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 62851,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 61043,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1700,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 62858,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 61081,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1701,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62864,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 60997,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1702,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62820,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 60975,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1703,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 62804,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 221.0,
+          "cx": 539.5,
+          "cy": 522.0,
+          "pixelCount": 61069,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1704,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63010,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61176,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1705,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63078,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61016,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1706,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63074,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61270,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1707,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63054,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61380,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1708,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63096,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61510,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1709,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63077,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61553,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1710,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63072,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61532,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1711,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63165,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61764,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1712,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63119,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61558,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1713,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63255,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61438,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 1714,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63284,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61346,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1715,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63339,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61396,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1716,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63449,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61438,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1717,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63436,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61410,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1718,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63476,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61509,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1719,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63480,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61515,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1720,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63475,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61503,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1721,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63562,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61586,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1722,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63599,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61561,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1723,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63698,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61758,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1724,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63694,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61719,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 1725,
+        "threshold15": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 63694,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 136.0,
+          "y": 412.0,
+          "width": 808.0,
+          "height": 222.0,
+          "cx": 539.5,
+          "cy": 522.5,
+          "pixelCount": 61737,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "sirve",
+    "slug": "v8",
+    "range": [
+      3328,
+      3361
+    ],
+    "roi": [
+      0.015,
+      0.42,
+      0.97,
+      0.32
+    ],
+    "method": "Native RGB chroma selection: G-R>c, R-B>c, R>85,G>125; 0.2–99.8 percentile bounds. Thresholds c15/c30.",
+    "status": "measurement_candidate_requires_mask_review",
+    "warnings": [
+      "Threshold-dependent ink bounds; not fontSize or source alpha.",
+      "Changing compression/background can contaminate bounds.",
+      "ROI can clip entry/overshoot."
+    ],
+    "rows": [
+      {
+        "frame": 3328,
+        "threshold15": {
+          "x": 334.7,
+          "y": 1076.0,
+          "width": 463.3,
+          "height": 244.0,
+          "cx": 565.85,
+          "cy": 1197.5,
+          "pixelCount": 853,
+          "medianRGB": [
+            115.0,
+            133.0,
+            93.0
+          ]
+        },
+        "threshold30": null
+      },
+      {
+        "frame": 3329,
+        "threshold15": {
+          "x": 130.0,
+          "y": 969.0,
+          "width": 806.0,
+          "height": 339.0,
+          "cx": 532.5,
+          "cy": 1138.0,
+          "pixelCount": 95380,
+          "medianRGB": [
+            172.0,
+            204.0,
+            109.0
+          ]
+        },
+        "threshold30": {
+          "x": 129.0,
+          "y": 975.0,
+          "width": 808.0,
+          "height": 330.0,
+          "cx": 532.5,
+          "cy": 1139.5,
+          "pixelCount": 55158,
+          "medianRGB": [
+            168.0,
+            204.0,
+            108.0
+          ]
+        }
+      },
+      {
+        "frame": 3330,
+        "threshold15": {
+          "x": 130.0,
+          "y": 944.0,
+          "width": 806.0,
+          "height": 348.0,
+          "cx": 532.5,
+          "cy": 1117.5,
+          "pixelCount": 103896,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 130.0,
+          "y": 946.0,
+          "width": 806.0,
+          "height": 344.0,
+          "cx": 532.5,
+          "cy": 1117.5,
+          "pixelCount": 98249,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3331,
+        "threshold15": {
+          "x": 130.0,
+          "y": 928.0,
+          "width": 806.0,
+          "height": 348.0,
+          "cx": 532.5,
+          "cy": 1101.5,
+          "pixelCount": 103056,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 929.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1101.0,
+          "pixelCount": 98756,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3332,
+        "threshold15": {
+          "x": 130.0,
+          "y": 917.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1090.0,
+          "pixelCount": 101691,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 918.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1090.5,
+          "pixelCount": 99308,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3333,
+        "threshold15": {
+          "x": 130.0,
+          "y": 912.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1084.5,
+          "pixelCount": 100898,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 912.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1084.5,
+          "pixelCount": 98775,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3334,
+        "threshold15": {
+          "x": 130.0,
+          "y": 910.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1082.5,
+          "pixelCount": 100787,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 910.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1082.5,
+          "pixelCount": 98914,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3335,
+        "threshold15": {
+          "x": 130.0,
+          "y": 912.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1085.0,
+          "pixelCount": 100844,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 913.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1085.0,
+          "pixelCount": 98445,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3336,
+        "threshold15": {
+          "x": 130.0,
+          "y": 918.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1091.0,
+          "pixelCount": 101716,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 919.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1091.0,
+          "pixelCount": 98996,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3337,
+        "threshold15": {
+          "x": 130.0,
+          "y": 926.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1099.0,
+          "pixelCount": 101582,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 926.54,
+          "width": 805.0,
+          "height": 345.46,
+          "cx": 533.0,
+          "cy": 1098.77,
+          "pixelCount": 98772,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3338,
+        "threshold15": {
+          "x": 130.0,
+          "y": 934.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1107.0,
+          "pixelCount": 101878,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 935.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1107.0,
+          "pixelCount": 98848,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3339,
+        "threshold15": {
+          "x": 130.0,
+          "y": 942.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1115.0,
+          "pixelCount": 101724,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 943.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1115.0,
+          "pixelCount": 98413,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3340,
+        "threshold15": {
+          "x": 130.0,
+          "y": 949.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1122.0,
+          "pixelCount": 101498,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 950.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1122.5,
+          "pixelCount": 99037,
+          "medianRGB": [
+            217.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 3341,
+        "threshold15": {
+          "x": 130.0,
+          "y": 956.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1128.5,
+          "pixelCount": 100649,
+          "medianRGB": [
+            205.0,
+            249.0,
+            130.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 956.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1128.0,
+          "pixelCount": 97731,
+          "medianRGB": [
+            205.0,
+            249.0,
+            130.0
+          ]
+        }
+      },
+      {
+        "frame": 3342,
+        "threshold15": {
+          "x": 130.0,
+          "y": 960.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1132.5,
+          "pixelCount": 100330,
+          "medianRGB": [
+            195.0,
+            236.0,
+            124.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 960.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1132.0,
+          "pixelCount": 97304,
+          "medianRGB": [
+            195.0,
+            236.0,
+            124.0
+          ]
+        }
+      },
+      {
+        "frame": 3343,
+        "threshold15": {
+          "x": 130.0,
+          "y": 962.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1134.5,
+          "pixelCount": 99752,
+          "medianRGB": [
+            189.0,
+            228.0,
+            119.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 963.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1135.0,
+          "pixelCount": 94272,
+          "medianRGB": [
+            189.0,
+            228.0,
+            119.0
+          ]
+        }
+      },
+      {
+        "frame": 3344,
+        "threshold15": {
+          "x": 130.87,
+          "y": 963.0,
+          "width": 805.13,
+          "height": 345.0,
+          "cx": 532.94,
+          "cy": 1135.0,
+          "pixelCount": 99438,
+          "medianRGB": [
+            188.0,
+            224.0,
+            118.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 963.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1135.0,
+          "pixelCount": 92868,
+          "medianRGB": [
+            187.0,
+            224.0,
+            118.0
+          ]
+        }
+      },
+      {
+        "frame": 3345,
+        "threshold15": {
+          "x": 130.0,
+          "y": 962.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1134.5,
+          "pixelCount": 99833,
+          "medianRGB": [
+            189.0,
+            228.0,
+            119.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 962.98,
+          "width": 805.0,
+          "height": 344.02,
+          "cx": 533.0,
+          "cy": 1134.49,
+          "pixelCount": 94491,
+          "medianRGB": [
+            189.0,
+            228.0,
+            119.0
+          ]
+        }
+      },
+      {
+        "frame": 3346,
+        "threshold15": {
+          "x": 130.0,
+          "y": 960.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1132.5,
+          "pixelCount": 100253,
+          "medianRGB": [
+            194.0,
+            232.0,
+            123.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 961.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1133.0,
+          "pixelCount": 96107,
+          "medianRGB": [
+            194.0,
+            232.0,
+            123.0
+          ]
+        }
+      },
+      {
+        "frame": 3347,
+        "threshold15": {
+          "x": 131.0,
+          "y": 957.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1129.5,
+          "pixelCount": 100008,
+          "medianRGB": [
+            200.0,
+            240.0,
+            126.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 957.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1129.0,
+          "pixelCount": 97224,
+          "medianRGB": [
+            200.0,
+            240.0,
+            126.0
+          ]
+        }
+      },
+      {
+        "frame": 3348,
+        "threshold15": {
+          "x": 130.0,
+          "y": 954.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1126.5,
+          "pixelCount": 100772,
+          "medianRGB": [
+            205.0,
+            250.0,
+            131.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 954.43,
+          "width": 805.0,
+          "height": 345.57,
+          "cx": 533.0,
+          "cy": 1126.72,
+          "pixelCount": 98717,
+          "medianRGB": [
+            205.0,
+            250.0,
+            131.0
+          ]
+        }
+      },
+      {
+        "frame": 3349,
+        "threshold15": {
+          "x": 130.0,
+          "y": 951.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1123.5,
+          "pixelCount": 100515,
+          "medianRGB": [
+            212.0,
+            255.0,
+            136.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 951.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1123.0,
+          "pixelCount": 98204,
+          "medianRGB": [
+            212.0,
+            255.0,
+            136.0
+          ]
+        }
+      },
+      {
+        "frame": 3350,
+        "threshold15": {
+          "x": 130.0,
+          "y": 948.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1120.5,
+          "pixelCount": 101029,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 948.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1120.5,
+          "pixelCount": 98952,
+          "medianRGB": [
+            218.0,
+            255.0,
+            138.0
+          ]
+        }
+      },
+      {
+        "frame": 3351,
+        "threshold15": {
+          "x": 130.1,
+          "y": 945.0,
+          "width": 805.9,
+          "height": 346.0,
+          "cx": 532.55,
+          "cy": 1117.5,
+          "pixelCount": 100553,
+          "medianRGB": [
+            217.0,
+            255.0,
+            139.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 946.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1118.0,
+          "pixelCount": 98334,
+          "medianRGB": [
+            217.0,
+            255.0,
+            139.0
+          ]
+        }
+      },
+      {
+        "frame": 3352,
+        "threshold15": {
+          "x": 130.0,
+          "y": 942.84,
+          "width": 806.0,
+          "height": 345.16,
+          "cx": 532.5,
+          "cy": 1114.92,
+          "pixelCount": 100421,
+          "medianRGB": [
+            218.0,
+            255.0,
+            139.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 943.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1115.0,
+          "pixelCount": 98640,
+          "medianRGB": [
+            218.0,
+            255.0,
+            139.0
+          ]
+        }
+      },
+      {
+        "frame": 3353,
+        "threshold15": {
+          "x": 130.0,
+          "y": 940.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1112.5,
+          "pixelCount": 100949,
+          "medianRGB": [
+            216.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 940.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1112.5,
+          "pixelCount": 98558,
+          "medianRGB": [
+            216.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 3354,
+        "threshold15": {
+          "x": 130.59,
+          "y": 937.0,
+          "width": 805.41,
+          "height": 347.0,
+          "cx": 532.8,
+          "cy": 1110.0,
+          "pixelCount": 100797,
+          "medianRGB": [
+            215.0,
+            255.0,
+            137.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 938.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1110.5,
+          "pixelCount": 98861,
+          "medianRGB": [
+            215.0,
+            255.0,
+            137.0
+          ]
+        }
+      },
+      {
+        "frame": 3355,
+        "threshold15": {
+          "x": 130.0,
+          "y": 935.0,
+          "width": 806.0,
+          "height": 346.0,
+          "cx": 532.5,
+          "cy": 1107.5,
+          "pixelCount": 100358,
+          "medianRGB": [
+            212.0,
+            255.0,
+            136.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 935.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1107.0,
+          "pixelCount": 97885,
+          "medianRGB": [
+            212.0,
+            255.0,
+            136.0
+          ]
+        }
+      },
+      {
+        "frame": 3356,
+        "threshold15": {
+          "x": 131.0,
+          "y": 931.0,
+          "width": 805.0,
+          "height": 347.0,
+          "cx": 533.0,
+          "cy": 1104.0,
+          "pixelCount": 100690,
+          "medianRGB": [
+            209.0,
+            253.0,
+            133.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 931.0,
+          "width": 805.0,
+          "height": 346.0,
+          "cx": 533.0,
+          "cy": 1103.5,
+          "pixelCount": 98856,
+          "medianRGB": [
+            209.0,
+            253.0,
+            133.0
+          ]
+        }
+      },
+      {
+        "frame": 3357,
+        "threshold15": {
+          "x": 130.0,
+          "y": 926.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1099.0,
+          "pixelCount": 100625,
+          "medianRGB": [
+            204.0,
+            249.0,
+            131.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 927.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1099.0,
+          "pixelCount": 96935,
+          "medianRGB": [
+            204.0,
+            249.0,
+            131.0
+          ]
+        }
+      },
+      {
+        "frame": 3358,
+        "threshold15": {
+          "x": 130.0,
+          "y": 919.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1092.0,
+          "pixelCount": 100392,
+          "medianRGB": [
+            197.0,
+            240.0,
+            127.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 920.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1092.0,
+          "pixelCount": 96219,
+          "medianRGB": [
+            197.0,
+            240.0,
+            127.0
+          ]
+        }
+      },
+      {
+        "frame": 3359,
+        "threshold15": {
+          "x": 130.0,
+          "y": 909.0,
+          "width": 806.0,
+          "height": 347.0,
+          "cx": 532.5,
+          "cy": 1082.0,
+          "pixelCount": 100852,
+          "medianRGB": [
+            189.0,
+            228.0,
+            120.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 910.0,
+          "width": 805.0,
+          "height": 345.0,
+          "cx": 533.0,
+          "cy": 1082.0,
+          "pixelCount": 92228,
+          "medianRGB": [
+            189.0,
+            228.0,
+            120.0
+          ]
+        }
+      },
+      {
+        "frame": 3360,
+        "threshold15": {
+          "x": 130.0,
+          "y": 891.0,
+          "width": 806.0,
+          "height": 349.0,
+          "cx": 532.5,
+          "cy": 1065.0,
+          "pixelCount": 99583,
+          "medianRGB": [
+            172.0,
+            207.0,
+            111.0
+          ]
+        },
+        "threshold30": {
+          "x": 131.0,
+          "y": 894.0,
+          "width": 806.0,
+          "height": 343.0,
+          "cx": 533.5,
+          "cy": 1065.0,
+          "pixelCount": 70651,
+          "medianRGB": [
+            171.0,
+            207.0,
+            110.0
+          ]
+        }
+      },
+      {
+        "frame": 3361,
+        "threshold15": {
+          "x": 131.0,
+          "y": 866.0,
+          "width": 806.0,
+          "height": 345.0,
+          "cx": 533.5,
+          "cy": 1038.0,
+          "pixelCount": 75686,
+          "medianRGB": [
+            139.0,
+            165.0,
+            93.0
+          ]
+        },
+        "threshold30": {
+          "x": 278.0,
+          "y": 960.0,
+          "width": 652.0,
+          "height": 236.0,
+          "cx": 603.5,
+          "cy": 1077.5,
+          "pixelCount": 263,
+          "medianRGB": [
+            134.0,
+            165.0,
+            90.0
+          ]
+        }
+      }
+    ]
+  }
+]

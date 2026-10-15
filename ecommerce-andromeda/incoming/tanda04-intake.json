@@ -1,0 +1,36 @@
+{
+  "received": "2026-10-14",
+  "provenance": "handoff from thread 01a12645-f5ac-7953-b9d7-b4624ed41ccd; observations reported by sender, not independently visually or aurally verified here",
+  "supplement": "TANDA04_11_CRITERIO_Y_12_DESCARTADO.txt",
+  "scene11": {
+    "status": "candidate_visual_audio_pending",
+    "masterFrames24fps": [
+      1478,
+      1585
+    ],
+    "sourceFrames24fps": [
+      0,
+      107
+    ],
+    "original": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/11_CRITERIO_VISUAL_REVISADO_AUDIO_PENDIENTE.mp4",
+    "preview": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/11_CRITERIO_PREVIEW_AUDIO_PENDIENTE.mp4",
+    "audioReviewRequired": true,
+    "previewContainsNarration": true,
+    "integrated": false,
+    "originalExists": true,
+    "previewExists": true
+  },
+  "scene12": {
+    "status": "rejected_by_source_review_keep_gap",
+    "masterSeconds": [
+      66.041666667,
+      70.041666667
+    ]
+  },
+  "constraints": [
+    "Preserve master timing and gaps; do not append scene11 after06 or08.",
+    "Do not duplicate narrator from preview.",
+    "Music remains pending."
+  ],
+  "currentRenderUnchanged": "V05"
+}

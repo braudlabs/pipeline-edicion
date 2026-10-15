@@ -1,0 +1,127 @@
+/* V.07. Light glass belongs to controls; content keeps its quiet, readable surface. */
+:root{--motion-fast:150ms;--motion-enter:240ms;--ease-flow:cubic-bezier(.2,.8,.2,1);--glass-control:linear-gradient(155deg,#ffffffc7,#eef4fb91);--glass-edge:#ffffffeb}
+html{scrollbar-gutter:stable}
+.topbar{position:relative;isolation:isolate}
+.topbar nav{position:relative;isolation:isolate;align-items:center;background:var(--glass-control);border-color:var(--glass-edge);box-shadow:inset 0 1px 1px #fff,0 5px 24px #35577a07;backdrop-filter:blur(24px) saturate(1.2)}
+.topbar .nav-link{position:relative;z-index:1;white-space:nowrap;flex:0 0 auto;transition:color var(--motion-fast),background var(--motion-fast)}
+.topbar .nav-link.active{background:transparent;box-shadow:none}
+.nav-selection{position:absolute;z-index:0;pointer-events:none;transform-origin:left center;border-radius:30px;background:linear-gradient(160deg,#fff,#f9fcffdc);border:1px solid #fff;box-shadow:0 2px 9px #3656790e,inset 0 1px 0 #fff}
+.topbar .nav-link:not(.active):hover{background:#ffffff45;color:var(--ink)}
+.topbar .live-dot{position:absolute;right:3px;top:7px}
+@media(min-width:1101px){.topbar{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr)}.topbar>.wordmark{justify-self:start}.topbar>.top-right{justify-self:end;min-width:0}.topbar .space-switch{max-width:100px}}
+.btn,.icon-btn,.send-button,.text-btn{transition:background var(--motion-fast),box-shadow var(--motion-fast),transform var(--motion-fast) var(--ease-flow)}
+.btn:active:not(:disabled),.icon-btn:active:not(:disabled),.send-button:active:not(:disabled){transform:scale(.975)}
+.primary{background:linear-gradient(155deg,color-mix(in srgb,var(--accent),white 6%),var(--accent));border:1px solid #ffffff20;box-shadow:0 2px 6px color-mix(in srgb,var(--accent),transparent 92%)}
+.secondary,.icon-btn{background:var(--glass-control);border-color:#ffffffd9;box-shadow:inset 0 1px 0 #fff,0 2px 8px #294a7005}
+.secondary:hover,.icon-btn:hover{box-shadow:inset 0 1px 0 white,0 4px 16px #294a7010}
+.idea-box,.agent-composer{position:relative;border:1px solid #ffffffef;background:linear-gradient(145deg,#ffffffd2,#f6faff9e);box-shadow:inset 0 1px 1px #fff,0 8px 35px #315c9710;transition:box-shadow 220ms var(--ease-flow),border-color 220ms}
+.idea-box:focus-within,.agent-composer:focus-within{border-color:#b7cfff;box-shadow:inset 0 1px 0 #fff,0 10px 40px #367dff13,0 0 0 3px #367dff05}
+.agent-composer textarea:focus-visible,.idea-box textarea:focus-visible{outline:none}
+.workspace-tabs{background:linear-gradient(150deg,#ffffffc0,#edf3f9ab);border:1px solid #fff;border-radius:30px;box-shadow:inset 0 1px 0 #fff}
+.workspace-tabs>button.active{box-shadow:0 2px 9px #294a700b,inset 0 1px 0 white}
+.project-card,.asset-card,.scene-tile{transition:box-shadow 180ms var(--ease-flow),border-color 180ms,background 180ms}
+.project-card:hover,.asset-card:hover{box-shadow:0 10px 35px #315c9711,inset 0 1px 0 #fff}
+.scene-tile.selected{box-shadow:0 3px 12px #367dff0e,inset 0 1px 0 #fff}
+/* Reserve a narrow gutter for the small travelling scene indicator. */
+.workspace-shell .scene-rail[data-flow-axis="vertical"]:has(.flow-scene-marker){padding-left:8px}
+.scene-rail.has-flow-scene-selection{isolation:isolate}
+.scene-rail.has-flow-scene-selection .scene-tile{position:relative;z-index:1}
+.workspace-shell .scene-rail.has-flow-scene-selection .scene-tile.selected{background:transparent;border-color:transparent;box-shadow:none}
+.agent-message.assistant{color:#27374a}.agent-message.user{background:linear-gradient(135deg,#e9f0f8c4,#e5edf5a1)}
+.agent-working{color:#546b88}.agent-working:before{content:'';width:8px;height:8px;flex:none;border-radius:50%;background:var(--accent);box-shadow:0 0 10px #367dff30}
+.modal-backdrop{background:#273b5026;backdrop-filter:blur(8px);animation:veil-in 170ms ease-out}
+.modal{background:linear-gradient(145deg,#fafcfff5,#edf3faf5);border:1px solid #fff;box-shadow:0 24px 90px #22395526,inset 0 1px 0 #fff;animation:dialog-in var(--motion-enter) var(--ease-flow)}
+@keyframes veil-in{from{opacity:0}to{opacity:1}}
+@keyframes dialog-in{from{opacity:0;transform:translateY(7px) scale(.985)}to{opacity:1;transform:none}}
+.reference-card img{object-fit:cover}.reference-card video{max-width:100%}
+@media(prefers-reduced-transparency:reduce){.glass,.topbar nav,.agent-composer,.idea-box,.modal{background:#f8fafc;backdrop-filter:none}.modal-backdrop{backdrop-filter:none;background:#273b5070}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}.btn:active,.icon-btn:active,.send-button:active{transform:none!important}}
+.picks-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.pick-card{padding:30px}.pick-meta{display:flex;justify-content:space-between;gap:20px;color:#718297;font-size:10px;margin-bottom:38px}.pick-meta>span:first-child{font-size:22px;font-weight:400;color:#91a6bf}.pick-card h2{font-size:27px;line-height:1.25}.pick-card>p{margin:18px 0 30px;white-space:pre-wrap;color:#5e7086}.pick-actions{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.reuse-list{margin-top:20px}.reuse-list .conversation-row{border-bottom:1px solid var(--line);border-radius:0}
+@media(max-width:700px){.picks-grid{grid-template-columns:1fr}.pick-card{padding:24px}}
+
+/* Keep overflow inside controls, including narrow viewports and long version lists. */
+.topbar nav{overflow-y:hidden;scrollbar-width:none}.topbar nav::-webkit-scrollbar{display:none}
+.workspace-shell .version-bar{display:grid;grid-template-columns:minmax(0,1fr) auto auto;gap:8px}
+.workspace-shell .version-bar>div:first-child{grid-column:1/-1}
+.workspace-shell .version-buttons{display:flex;flex-wrap:nowrap;min-width:0;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+.workspace-shell .version-chip{flex:none;white-space:nowrap}
+
+/* Keep the new motion indicators in the restored neutral palette. */
+.workspace-tabs{position:relative;isolation:isolate}
+.workspace-tabs>button,.workspace-tabs>.saved-state{position:relative;z-index:1}
+.workspace-selection{position:absolute;z-index:0;pointer-events:none;transform-origin:left center;border-radius:30px;background:linear-gradient(160deg,#fff,#f9fcffdc);border:1px solid #fff;box-shadow:0 2px 9px #3656790e,inset 0 1px 0 #fff}
+.workspace-tabs.has-flow-selection>button.active,.workspace-shell .workspace-tabs.has-flow-selection>button.active{background:transparent;box-shadow:none}
+@media(prefers-reduced-transparency:reduce){.workspace-selection{background:#f8fafc}}
+
+/* Activity belongs to the current turn; waiting remains still. */
+.agent-history{scroll-behavior:auto!important;overflow-anchor:none}
+.agent-working:before{display:none}
+.agent-working .thinking-orb{display:block;flex:none;width:17px;height:17px;border-radius:45% 55% 58% 42%;background:radial-gradient(circle at 30% 25%,#fff 0%,#fff9 18%,var(--accent) 65%,#fff8 100%);box-shadow:inset 0 0 5px #fff9,0 0 9px color-mix(in srgb,var(--accent),transparent 80%)}
+.is-thinking .thinking-orb{animation:thinking-flow 2.2s ease-in-out infinite}
+.thinking-label{min-width:0;line-height:1.5}
+.is-thinking .thinking-label{background:linear-gradient(100deg,currentColor 20%,color-mix(in srgb,var(--accent),white 48%) 45%,currentColor 70%);background-size:250% 100%;background-clip:text;-webkit-background-clip:text;color:#546b88;-webkit-text-fill-color:transparent;animation:thinking-light 2.6s ease-in-out infinite}
+.dictation-status{margin-top:10px;padding:10px 12px;border-radius:12px;background:#ffffff90;color:var(--ink);font-size:12px;line-height:1.5;border:1px solid #ffffffd9}
+.is-recording textarea{box-shadow:inset 2px 0 0 var(--accent);padding-left:10px}
+.transcript-arrived{animation:transcript-in 240ms ease-out}
+@keyframes thinking-flow{0%,100%{transform:rotate(-20deg) scale(.94);border-radius:45% 55% 58% 42%}50%{transform:rotate(35deg) scale(1.06);border-radius:58% 42% 45% 55%}}
+@keyframes thinking-light{from{background-position:120% 0}to{background-position:-120% 0}}
+@keyframes transcript-in{from{opacity:.55}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.thinking-orb,.thinking-label,.transcript-arrived{animation:none!important}.thinking-label{-webkit-text-fill-color:currentColor;background:none}}
+
+/* Original reference 20, selected by Jordi for the active thinking state. */
+@media(prefers-reduced-motion:no-preference){
+ .agent-working.is-thinking .thinking-orb{width:36px;height:36px;border-radius:10px;background:transparent url('/assets/thinking-flow-alpha.webp?v=7') center/contain no-repeat;filter:none;mix-blend-mode:normal;box-shadow:none;animation:none;transform:none}
+}
+
+/* Match the original 101 × 40 ms cycle, using its cyan/blue/violet light. */
+.is-thinking .thinking-label{background-image:linear-gradient(100deg,#8b97a6 32%,#657990 43%,#344d69 50%,#657990 57%,#8b97a6 68%);background-size:240% 100%;animation:thinking-sweep-rest 6s linear infinite}
+@media(prefers-reduced-motion:reduce){.agent-working.is-thinking .thinking-orb{width:36px;height:36px;background:transparent url('/assets/thinking-flow-still.png?v=7') center/contain no-repeat;box-shadow:none}.is-thinking .thinking-label{background:none;-webkit-text-fill-color:currentColor;animation:none}}
+
+@keyframes thinking-sweep-rest{0%{background-position:100% 0}75%,100%{background-position:0% 0}}
+
+.agent-working.is-thinking .thinking-orb{width:60px;height:24px;border-radius:0}
+
+/* Quiet conversation rhythm: compact short messages, comfortable long prose. */
+.agent-main .agent-history{padding:18px 12px 14px}
+.agent-message{margin-bottom:18px}
+.agent-message.user{max-width:85%;padding:10px 15px;border-radius:17px;background:rgba(226,234,243,.54);border:1px solid rgba(255,255,255,.52);box-shadow:none;line-height:1.6}
+.agent-message.user>.eyebrow{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.agent-message.user .agent-prose p{line-height:1.6;margin-bottom:8px}
+.agent-message.user .agent-prose p:last-child{margin-bottom:0}
+.agent-message.user+.agent-message.user{margin-top:-10px}
+.agent-message.assistant{padding:0 2px;margin-bottom:24px}
+.agent-message.assistant>.eyebrow{font-size:8px;letter-spacing:.07em;margin-bottom:5px;color:#7c8999}
+.agent-message.user .message-target{display:block;margin-top:6px;font-size:10px;line-height:1.5}
+@media(max-width:700px){.agent-message.user{max-width:92%;padding:9px 13px}.agent-main .agent-history{padding-left:8px;padding-right:8px}}
+
+/* Small labels stay quiet, without the widely tracked display treatment. */
+.eyebrow,.direction-panel .eyebrow,.agent-message .eyebrow{letter-spacing:.025em;font-weight:500}
+.thread-list-heading .eyebrow,.workspace-shell .version-bar .eyebrow{letter-spacing:.035em;font-weight:500}
+
+.agent-working .thinking-label{color:#8b97a6;font-weight:400}
+
+.agent-working .thinking-label{display:inline-block;line-height:1.6}
+
+.agent-working .thinking-orb{margin-right:0;align-self:center}
+.agent-working{column-gap:6px}
+.agent-working .thinking-label{min-height:1.6em}
+.agent-empty .agent-welcome{align-items:center;text-align:center;margin-inline:auto}
+.agent-empty .agent-welcome p{margin-inline:auto}
+
+.thread-group-heading[draggable]{cursor:grab;touch-action:pan-y}
+.thread-group-heading[draggable]:active{cursor:grabbing}
+.thread-group.is-dragging{opacity:.45}
+.thread-group.is-drop-target{box-shadow:inset 0 2px rgba(72,103,141,.35)}
+
+/* Hidden speaker labels must stay inside their message, not extend the document. */
+.agent-message{position:relative}
+.agent-message.user>.eyebrow{top:0;left:0}
+.agent-history{position:relative}
+.thread-row{display:flex;align-items:center;width:100%;min-width:0;gap:3px}
+.thread-row>.thread-link{flex:1;min-width:0}
+.thread-row .thread-delete{flex:none;width:25px;height:25px;font-size:18px;opacity:0;color:#68788b}
+.thread-row:hover .thread-delete,.thread-row:focus-within .thread-delete{opacity:1}
+.thread-link.selected{background:#d8e3f2;color:#172d49;box-shadow:inset 3px 0 #47698e;font-weight:550}
+.thread-group-heading>.thread-row{width:100%}
+.agent-prose ::selection,.agent-message::selection,textarea::selection{background:#b5cae7;color:#15273e}
+@media(hover:none){.thread-row .thread-delete{opacity:1}}

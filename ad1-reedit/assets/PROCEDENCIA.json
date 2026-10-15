@@ -1,0 +1,28 @@
+[
+  {
+    "file": "assets/credit-token.png",
+    "purpose": "Ficha material para consumo de créditos y coste",
+    "provider": "OpenAI image_gen integrado",
+    "model": "No expuesto por la herramienta",
+    "generationId": "exec-5c6ad8de-3326-4dd2-b4e9-540667cc3091",
+    "actualSize": [
+      1254,
+      1254
+    ],
+    "alpha": true,
+    "construction": "Imagen raster original generada para esta edición; movimiento, profundidad y composición en AE"
+  },
+  {
+    "file": "assets/hourglass.png",
+    "purpose": "Objeto fotográfico del tiempo perdido",
+    "provider": "OpenAI image_gen integrado",
+    "model": "No expuesto por la herramienta",
+    "generationId": "exec-5ef94799-c150-4d5d-a73a-a85c08cba37a",
+    "actualSize": [
+      1024,
+      1536
+    ],
+    "alpha": true,
+    "construction": "Imagen raster original generada para esta edición; movimiento, profundidad y composición en AE"
+  }
+]

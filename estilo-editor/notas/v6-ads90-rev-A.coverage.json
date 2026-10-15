@@ -1,0 +1,43 @@
+{
+  "status": "partial",
+  "sheets_viewed": [
+    "d000_f00000-f00039.jpg",
+    "d001_f00040-f00079.jpg",
+    "d002_f00080-f00119.jpg",
+    "d003_f00120-f00159.jpg",
+    "d004_f00160-f00199.jpg",
+    "d005_f00200-f00275.jpg",
+    "d006_f00276-f00362.jpg",
+    "d007_f00363-f00455.jpg",
+    "d008_f00456-f00548.jpg",
+    "d009_f00549-f00595.jpg",
+    "d010_f00596-f00636.jpg",
+    "d011_f00637-f00719.jpg",
+    "d012_f00720-f00772.jpg",
+    "d013_f00773-f00822.jpg",
+    "d014_f00823-f00904.jpg"
+  ],
+  "native_ranges": [
+    [
+      266,
+      287
+    ]
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png"
+  ],
+  "dense_pass": "completed",
+  "native_event_pass": "partial",
+  "supplemental_sheets_viewed": [
+    "s000_f00202-f00282.jpg",
+    "s001_f00292-f00357.jpg",
+    "s002_f00359-f00427.jpg",
+    "s003_f00429-f00499.jpg",
+    "s004_f00500-f00647.jpg",
+    "s005_f00649-f00719.jpg",
+    "s006_f00721-f00859.jpg",
+    "s007_f00861-f00931.jpg"
+  ],
+  "supplemental_pass": "completed"
+}

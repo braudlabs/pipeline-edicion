@@ -1,0 +1,355 @@
+{
+  "version": 1,
+  "engineVersion": "0.2.0-editorial-experimental",
+  "jobId": "v8-selection-mechanism-study",
+  "width": 1080,
+  "height": 1920,
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "durationInFrames": 210,
+  "family": "braud",
+  "font": {
+    "family": "Reference SF Pro",
+    "boldSrc": "fonts/SFProDisplay-bold.otf",
+    "regularSrc": "fonts/SFProDisplay-regular.otf"
+  },
+  "palette": {
+    "foreground": "#f7f9ff",
+    "accent": "#537cfa",
+    "background": "#192330"
+  },
+  "assets": [
+    {
+      "id": "source",
+      "kind": "video",
+      "src": "media/relation-lab-background.mp4",
+      "duration": 4.004
+    }
+  ],
+  "clips": [
+    {
+      "id": "locked-source",
+      "shotId": "locked-source",
+      "assetId": "source",
+      "start": 0,
+      "end": 210,
+      "sourceStart": 0,
+      "crop": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "mute": false
+    }
+  ],
+  "captions": [],
+  "graphics": [
+    {
+      "id": "v2:c",
+      "clauseId": "c",
+      "recipe": "comparison",
+      "start": 0,
+      "end": 180,
+      "fullScreen": false,
+      "nodes": [
+        {
+          "id": "relation:c",
+          "kind": "relation",
+          "relation": {
+            "kind": "equivalence",
+            "from": "clientes",
+            "to": "empleados",
+            "beforeContext": "Nuevos",
+            "afterContext": "Nuevos",
+            "start": 0,
+            "end": 3,
+            "closeStart": 0.9994000000000001,
+            "oldTextAt": 0.3,
+            "newTextAt": 1.6,
+            "newContextAt": 1.5,
+            "width": 826.2,
+            "height": 203.65315528752961,
+            "fontSize": 178.6431186732716,
+            "fontWeight": 400,
+            "contextSize": 172.8,
+            "tracking": -0.035,
+            "inkColor": "#f7f9ff",
+            "accent": "#537cfa",
+            "provenance": {
+              "handleWidth": "native-measurements-interpolated",
+              "typography": "authored",
+              "alpha": "authored",
+              "textTranslation": "authored",
+              "source": "estilo-editor/datos/revision-v2/v8-selector-curves.json"
+            }
+          },
+          "x": 540,
+          "y": 1075.2,
+          "width": 869.4000000000001,
+          "height": 1184.9063105750593,
+          "start": 0,
+          "end": 180,
+          "z": 50,
+          "wordIds": [
+            "pre",
+            "old",
+            "post",
+            "new"
+          ],
+          "motionLabel": "measured-clip-window-with-authored-text-tracks",
+          "motionBlur": {
+            "samples": 8,
+            "angle": 180
+          }
+        }
+      ],
+      "evidence": [
+        "estilo-editor/ALGORITMO-V2.md"
+      ]
+    }
+  ],
+  "audio": [],
+  "decisions": [
+    {
+      "clauseId": "c",
+      "recipe": "comparison",
+      "reason": "Shared clip window communicates the declared relationship; timings preserve both reading states. Shared identity across two labels; preserve measured window movement and distinct speech bindings.",
+      "wordIds": [
+        "pre",
+        "old",
+        "post",
+        "new"
+      ],
+      "shotId": "locked-source",
+      "evidence": [
+        "estilo-editor/ALGORITMO-V2.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "eligible": true,
+          "score": 0,
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. La relación exige diseñar un recurso específico; no se sustituye por un contador genérico."
+        },
+        {
+          "recipe": "hero",
+          "eligible": false,
+          "score": 0,
+          "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+        },
+        {
+          "recipe": "accumulate",
+          "eligible": false,
+          "score": -2,
+          "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras. No cumple función, longitud, tamaño mínimo o continuidad de frase."
+        },
+        {
+          "recipe": "silence",
+          "eligible": false,
+          "score": 2,
+          "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+        },
+        {
+          "recipe": "comparison",
+          "eligible": true,
+          "score": 3,
+          "reason": "Shared clip window communicates the declared relationship; timings preserve both reading states."
+        }
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "coverage": [
+    {
+      "wordId": "pre",
+      "representations": [
+        "v2:c"
+      ]
+    },
+    {
+      "wordId": "old",
+      "representations": [
+        "v2:c"
+      ]
+    },
+    {
+      "wordId": "post",
+      "representations": [
+        "v2:c"
+      ]
+    },
+    {
+      "wordId": "new",
+      "representations": [
+        "v2:c"
+      ]
+    }
+  ],
+  "provenance": {
+    "study": "estilo-editor/ALGORITMO-V2.md",
+    "fidelity": "unverified_without_visual_comparison"
+  },
+  "editorial": {
+    "version": 2,
+    "decisions": [
+      {
+        "clauseId": "c",
+        "layoutId": "same-slot",
+        "treatment": "relation",
+        "reason": "Shared clip window communicates the declared relationship; timings preserve both reading states. Shared identity across two labels; preserve measured window movement and distinct speech bindings.",
+        "observation": {
+          "kind": "agent",
+          "reason": "Shared identity across two labels; preserve measured window movement and distinct speech bindings."
+        },
+        "semanticFunction": "explain-relation",
+        "candidates": [
+          {
+            "treatment": "rail",
+            "eligible": true,
+            "cost": 0,
+            "reasons": [
+              "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico.",
+              "La relación exige diseñar un recurso específico; no se sustituye por un contador genérico."
+            ]
+          },
+          {
+            "treatment": "stack",
+            "eligible": false,
+            "cost": 0,
+            "reasons": [
+              "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto.",
+              "No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "inline",
+            "eligible": false,
+            "cost": 2,
+            "reasons": [
+              "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras.",
+              "No cumple función, longitud, tamaño mínimo o continuidad de frase."
+            ]
+          },
+          {
+            "treatment": "quiet",
+            "eligible": false,
+            "cost": -2,
+            "reasons": [
+              "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+            ]
+          },
+          {
+            "treatment": "relation",
+            "eligible": true,
+            "cost": -3,
+            "reasons": [
+              "Shared clip window communicates the declared relationship; timings preserve both reading states."
+            ]
+          }
+        ],
+        "anchor": [
+          0.5,
+          0.56
+        ],
+        "evidence": [
+          {
+            "rule": "G01",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v1-pagado",
+                "f0": 176,
+                "f1": 225,
+                "observation": "Precio300€",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "v1-pagado",
+                "f0": 383,
+                "f1": 449,
+                "observation": "30variantes→coste mínimo",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "lafabrica-v2p1",
+                "f0": 343,
+                "f1": 504,
+                "observation": "Sistema y comparación",
+                "level": "prior_review",
+                "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                "independentFamily": "lafabrica-v2p1"
+              },
+              {
+                "slug": "v8",
+                "f0": 2396,
+                "f1": 2562,
+                "observation": "Resultados y primera versión",
+                "level": "this_revision_qualitative",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              }
+            ]
+          },
+          {
+            "rule": "G03",
+            "status": "conditional_hypothesis",
+            "evidence": [
+              {
+                "slug": "v1-pagado",
+                "f0": 383,
+                "f1": 449,
+                "observation": "Contador y viaje arriba-izquierda",
+                "level": "prior_review",
+                "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                "independentFamily": "v1-pagado"
+              },
+              {
+                "slug": "v2-churros",
+                "f0": 760,
+                "f1": 793,
+                "observation": "Tiempo/reloj→Dinero/hucha",
+                "level": "prior_review",
+                "sourceSha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+                "independentFamily": "v2-churros"
+              },
+              {
+                "slug": "v3-ia-cara",
+                "f0": 760,
+                "f1": 823,
+                "observation": "Proceso→Resultado con relevo diagonal",
+                "level": "prior_review",
+                "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+                "independentFamily": "v3-ia-cara"
+              },
+              {
+                "slug": "v8",
+                "f0": 196,
+                "f1": 327,
+                "observation": "Clientes→igualdad→empleados: tiradores medidos y secuencia nativa continua",
+                "level": "native_sequence_measured",
+                "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                "independentFamily": "v8"
+              }
+            ]
+          }
+        ],
+        "motion": "Measured selector separation; authored font, alpha and text movement",
+        "needsDesign": false
+      }
+    ],
+    "selectionCost": -3,
+    "limits": [
+      "Semantic observations are supplied by the agent/user, not inferred from pixels by this compiler.",
+      "Candidate costs and safety margins are authored hypotheses, not learned probabilities.",
+      "No new sound effects or automatic masks.",
+      "Cross-family visual fidelity remains unverified.",
+      "Source audio passes through unless a separate narration is supplied; this compiler does not listen or realign phonemes."
+    ]
+  }
+}

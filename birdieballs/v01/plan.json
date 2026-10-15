@@ -1,0 +1,1351 @@
+{
+  "version": 1,
+  "engineVersion": "0.1.0",
+  "jobId": "birdieballs-b01-v01",
+  "width": 1080,
+  "height": 1920,
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "durationInFrames": 601,
+  "family": "braud",
+  "font": {
+    "family": "Reference SF Pro",
+    "boldSrc": "fonts/SFProDisplay-bold.otf",
+    "regularSrc": "fonts/SFProDisplay-regular.otf"
+  },
+  "palette": {
+    "background": "#173e2d",
+    "foreground": "#fffdf0",
+    "accent": "#fffdf0"
+  },
+  "assets": [
+    {
+      "id": "base",
+      "src": "birdieballs/base.mp4",
+      "kind": "video",
+      "duration": 10.026683333333333
+    },
+    {
+      "id": "voice",
+      "src": "birdieballs/voice.wav",
+      "kind": "audio"
+    }
+  ],
+  "clips": [
+    {
+      "id": "base-clip",
+      "assetId": "base",
+      "shotId": "base",
+      "start": 0,
+      "end": 601,
+      "sourceStart": 0,
+      "crop": {
+        "scale": 1,
+        "x": 0,
+        "y": 0
+      },
+      "mute": true
+    }
+  ],
+  "captions": [
+    {
+      "id": "caption:w0",
+      "wordIds": [
+        "w0"
+      ],
+      "speaker": "golfer",
+      "start": 62,
+      "end": 88,
+      "text": "¿Cansado",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 62,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 69,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 62,
+            "v": 0.55
+          },
+          {
+            "f": 65,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w1",
+      "wordIds": [
+        "w1"
+      ],
+      "speaker": "golfer",
+      "start": 88,
+      "end": 95,
+      "text": "de",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 88,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 94,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 88,
+            "v": 0.55
+          },
+          {
+            "f": 91,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w2",
+      "wordIds": [
+        "w2"
+      ],
+      "speaker": "golfer",
+      "start": 95,
+      "end": 117,
+      "text": "dejarte",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 95,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 102,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 95,
+            "v": 0.55
+          },
+          {
+            "f": 98,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w3",
+      "wordIds": [
+        "w3"
+      ],
+      "speaker": "golfer",
+      "start": 117,
+      "end": 123,
+      "text": "un",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 117,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 122,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 117,
+            "v": 0.55
+          },
+          {
+            "f": 120,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w4",
+      "wordIds": [
+        "w4"
+      ],
+      "speaker": "golfer",
+      "start": 123,
+      "end": 143,
+      "text": "RIÑÓN",
+      "x": 540,
+      "y": 1270,
+      "fontSize": 204,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 1.6,
+      "motion": {
+        "y": [
+          {
+            "f": 123,
+            "v": 45,
+            "ease": "out"
+          },
+          {
+            "f": 133,
+            "v": 0
+          }
+        ],
+        "scale": [
+          {
+            "f": 123,
+            "v": 1.055,
+            "ease": "out"
+          },
+          {
+            "f": 135,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w5",
+      "wordIds": [
+        "w5"
+      ],
+      "speaker": "golfer",
+      "start": 143,
+      "end": 150,
+      "text": "en",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 143,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 149,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 143,
+            "v": 0.55
+          },
+          {
+            "f": 146,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w6",
+      "wordIds": [
+        "w6"
+      ],
+      "speaker": "golfer",
+      "start": 150,
+      "end": 171,
+      "text": "bolas",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 150,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 157,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 150,
+            "v": 0.55
+          },
+          {
+            "f": 153,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w7",
+      "wordIds": [
+        "w7"
+      ],
+      "speaker": "golfer",
+      "start": 171,
+      "end": 183,
+      "text": "cada",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 171,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 178,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 171,
+            "v": 0.55
+          },
+          {
+            "f": 174,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w8",
+      "wordIds": [
+        "w8"
+      ],
+      "speaker": "golfer",
+      "start": 183,
+      "end": 193,
+      "text": "vez",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 183,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 190,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 183,
+            "v": 0.55
+          },
+          {
+            "f": 186,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w9",
+      "wordIds": [
+        "w9"
+      ],
+      "speaker": "golfer",
+      "start": 193,
+      "end": 203,
+      "text": "que",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 193,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 200,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 193,
+            "v": 0.55
+          },
+          {
+            "f": 196,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w10",
+      "wordIds": [
+        "w10"
+      ],
+      "speaker": "golfer",
+      "start": 203,
+      "end": 213,
+      "text": "sales",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 203,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 210,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 203,
+            "v": 0.55
+          },
+          {
+            "f": 206,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w11",
+      "wordIds": [
+        "w11"
+      ],
+      "speaker": "golfer",
+      "start": 213,
+      "end": 223,
+      "text": "a",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 213,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 220,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 213,
+            "v": 0.55
+          },
+          {
+            "f": 216,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w12",
+      "wordIds": [
+        "w12"
+      ],
+      "speaker": "golfer",
+      "start": 223,
+      "end": 239,
+      "text": "jugar?",
+      "x": 540,
+      "y": 1280,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 223,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 230,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 223,
+            "v": 0.55
+          },
+          {
+            "f": 226,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w13",
+      "wordIds": [
+        "w13"
+      ],
+      "speaker": "birdieballs",
+      "start": 379,
+      "end": 404,
+      "text": "Tranquilo,",
+      "x": 540,
+      "y": 1430,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 379,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 386,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 379,
+            "v": 0.55
+          },
+          {
+            "f": 382,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w14",
+      "wordIds": [
+        "w14"
+      ],
+      "speaker": "birdieballs",
+      "start": 404,
+      "end": 434,
+      "text": "mindunguis,",
+      "x": 540,
+      "y": 1430,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 404,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 411,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 404,
+            "v": 0.55
+          },
+          {
+            "f": 407,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w15",
+      "wordIds": [
+        "w15"
+      ],
+      "speaker": "birdieballs",
+      "start": 441,
+      "end": 445,
+      "text": "que",
+      "x": 540,
+      "y": 1430,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 441,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 444,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 441,
+            "v": 0.55
+          },
+          {
+            "f": 444,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w16",
+      "wordIds": [
+        "w16"
+      ],
+      "speaker": "birdieballs",
+      "start": 445,
+      "end": 453,
+      "text": "te",
+      "x": 540,
+      "y": 1430,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 445,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 452,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 445,
+            "v": 0.55
+          },
+          {
+            "f": 448,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w17",
+      "wordIds": [
+        "w17"
+      ],
+      "speaker": "birdieballs",
+      "start": 453,
+      "end": 472,
+      "text": "traigo",
+      "x": 540,
+      "y": 1430,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 453,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 460,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 453,
+            "v": 0.55
+          },
+          {
+            "f": 456,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w18",
+      "wordIds": [
+        "w18"
+      ],
+      "speaker": "birdieballs",
+      "start": 472,
+      "end": 480,
+      "text": "la",
+      "x": 540,
+      "y": 1430,
+      "fontSize": 100,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 472,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 479,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 472,
+            "v": 0.55
+          },
+          {
+            "f": 475,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w19",
+      "wordIds": [
+        "w19"
+      ],
+      "speaker": "birdieballs",
+      "start": 480,
+      "end": 518,
+      "text": "SOLUCIÓN",
+      "x": 540,
+      "y": 1440,
+      "fontSize": 173,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 1.5,
+      "motion": {
+        "y": [
+          {
+            "f": 480,
+            "v": 38,
+            "ease": "out"
+          },
+          {
+            "f": 492,
+            "v": 0
+          }
+        ],
+        "scale": [
+          {
+            "f": 480,
+            "v": 1.035,
+            "ease": "out"
+          },
+          {
+            "f": 494,
+            "v": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "caption:w20",
+      "wordIds": [
+        "w20"
+      ],
+      "speaker": "birdieballs",
+      "start": 568,
+      "end": 601,
+      "text": "Literalmente.",
+      "x": 540,
+      "y": 1440,
+      "fontSize": 91,
+      "fill": "#fffdf0",
+      "tracking": -0.06,
+      "stroke": "#163329",
+      "strokeWidth": 2.1,
+      "motion": {
+        "y": [
+          {
+            "f": 568,
+            "v": 15,
+            "ease": "out"
+          },
+          {
+            "f": 575,
+            "v": 0
+          }
+        ],
+        "opacity": [
+          {
+            "f": 568,
+            "v": 0.55
+          },
+          {
+            "f": 571,
+            "v": 1
+          }
+        ]
+      }
+    }
+  ],
+  "graphics": [],
+  "audio": [
+    {
+      "id": "original-audio",
+      "assetId": "voice",
+      "start": 0,
+      "end": 601,
+      "sourceStart": 0,
+      "gain": [
+        {
+          "f": 0,
+          "v": 1
+        },
+        {
+          "f": 597,
+          "v": 1
+        },
+        {
+          "f": 601,
+          "v": 0
+        }
+      ]
+    }
+  ],
+  "decisions": [
+    {
+      "clauseId": "line-0",
+      "recipe": "rail",
+      "reason": "Selección editorial explícita",
+      "wordIds": [
+        "w0",
+        "w1",
+        "w2",
+        "w3",
+        "w4",
+        "w5",
+        "w6",
+        "w7",
+        "w8",
+        "w9",
+        "w10",
+        "w11",
+        "w12"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 1020,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": false,
+          "reason": "Frase demasiado larga para acumulación"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v6-ads90-C.md",
+        "estilo-editor/notas/landing-A.md"
+      ]
+    },
+    {
+      "clauseId": "line-1",
+      "recipe": "rail",
+      "reason": "Selección editorial explícita",
+      "wordIds": [
+        "w13",
+        "w14",
+        "w15",
+        "w16",
+        "w17",
+        "w18",
+        "w19"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 1010,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v6-ads90-C.md",
+        "estilo-editor/notas/landing-A.md"
+      ]
+    },
+    {
+      "clauseId": "line-2",
+      "recipe": "rail",
+      "reason": "Selección editorial explícita",
+      "wordIds": [
+        "w20"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 1010,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "accumulate",
+          "score": 25,
+          "eligible": false,
+          "reason": "Necesita 0.50s para acción y lectura"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita 1.00s para acción y lectura"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita 1.20s para acción y lectura"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita 1.40s para acción y lectura"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita 1.10s para acción y lectura"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita 2.00s para acción y lectura"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita 1.50s para acción y lectura"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v6-ads90-C.md",
+        "estilo-editor/notas/landing-A.md"
+      ]
+    }
+  ],
+  "diagnostics": [],
+  "coverage": [
+    {
+      "wordId": "w0",
+      "representations": [
+        "caption:w0"
+      ]
+    },
+    {
+      "wordId": "w1",
+      "representations": [
+        "caption:w1"
+      ]
+    },
+    {
+      "wordId": "w2",
+      "representations": [
+        "caption:w2"
+      ]
+    },
+    {
+      "wordId": "w3",
+      "representations": [
+        "caption:w3"
+      ]
+    },
+    {
+      "wordId": "w4",
+      "representations": [
+        "caption:w4"
+      ]
+    },
+    {
+      "wordId": "w5",
+      "representations": [
+        "caption:w5"
+      ]
+    },
+    {
+      "wordId": "w6",
+      "representations": [
+        "caption:w6"
+      ]
+    },
+    {
+      "wordId": "w7",
+      "representations": [
+        "caption:w7"
+      ]
+    },
+    {
+      "wordId": "w8",
+      "representations": [
+        "caption:w8"
+      ]
+    },
+    {
+      "wordId": "w9",
+      "representations": [
+        "caption:w9"
+      ]
+    },
+    {
+      "wordId": "w10",
+      "representations": [
+        "caption:w10"
+      ]
+    },
+    {
+      "wordId": "w11",
+      "representations": [
+        "caption:w11"
+      ]
+    },
+    {
+      "wordId": "w12",
+      "representations": [
+        "caption:w12"
+      ]
+    },
+    {
+      "wordId": "w13",
+      "representations": [
+        "caption:w13"
+      ]
+    },
+    {
+      "wordId": "w14",
+      "representations": [
+        "caption:w14"
+      ]
+    },
+    {
+      "wordId": "w15",
+      "representations": [
+        "caption:w15"
+      ]
+    },
+    {
+      "wordId": "w16",
+      "representations": [
+        "caption:w16"
+      ]
+    },
+    {
+      "wordId": "w17",
+      "representations": [
+        "caption:w17"
+      ]
+    },
+    {
+      "wordId": "w18",
+      "representations": [
+        "caption:w18"
+      ]
+    },
+    {
+      "wordId": "w19",
+      "representations": [
+        "caption:w19"
+      ]
+    },
+    {
+      "wordId": "w20",
+      "representations": [
+        "caption:w20"
+      ]
+    }
+  ],
+  "provenance": {
+    "study": "estilo-editor/perfil-estilo.json",
+    "fidelity": "unverified_without_visual_comparison"
+  },
+  "production": {
+    "source": "/Users/alejandrorubiocamarero/Downloads/Birdieballs v1 (Sin Postpro).mp4",
+    "segments": [
+      {
+        "sourceIn": 0.2,
+        "sourceOut": 4.26
+      },
+      {
+        "sourceIn": 4.5,
+        "sourceOut": 6.58
+      },
+      {
+        "sourceIn": 7.48,
+        "sourceOut": 11.36
+      }
+    ],
+    "transcription": "Whisper large-v3-turbo local; spelling mindunguis corrected using supplied script",
+    "status": "first proposal, pending user feedback",
+    "notes": "Original gag preserved. Caption position and emphasis are editorial overrides of compiled rail recipe."
+  }
+}

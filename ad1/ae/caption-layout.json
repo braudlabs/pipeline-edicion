@@ -1,0 +1,2036 @@
+[
+  {
+    "layer": "SUB 01.1 | Si",
+    "from": 0,
+    "to": 32,
+    "left": 303.6671875,
+    "right": 361.2015625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 01.2 | has",
+    "from": 8,
+    "to": 32,
+    "left": 372.9546875,
+    "right": 481.5546875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 01.3 | intentado",
+    "from": 13,
+    "to": 32,
+    "left": 493.30781249999995,
+    "right": 776.3328124999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 02.1 | crear",
+    "from": 32,
+    "to": 72,
+    "left": 246.58437500000002,
+    "right": 400.128125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 02.2 | contenido",
+    "from": 40,
+    "to": 72,
+    "left": 411.88125,
+    "right": 709.859375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 02.3 | con",
+    "from": 58,
+    "to": 72,
+    "left": 721.6125,
+    "right": 833.415625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 03.1 | IA",
+    "from": 72,
+    "to": 87,
+    "left": 508.3890625,
+    "right": 571.6109375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 04.1 | seguramente",
+    "from": 88,
+    "to": 120,
+    "left": 247.3359375,
+    "right": 640.8359375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 04.2 | te",
+    "from": 107,
+    "to": 120,
+    "left": 652.5890625,
+    "right": 712.3109374999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 04.3 | has",
+    "from": 115,
+    "to": 120,
+    "left": 724.0640625,
+    "right": 832.6640625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 05.1 | encontrado",
+    "from": 120,
+    "to": 172,
+    "left": 200.1125,
+    "right": 541.71875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 05.2 | con",
+    "from": 141,
+    "to": 172,
+    "left": 553.471875,
+    "right": 665.275,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 05.3 | alguno",
+    "from": 153,
+    "to": 172,
+    "left": 677.0281249999999,
+    "right": 879.8874999999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 06.1 | de",
+    "from": 172,
+    "to": 207,
+    "left": 250.6171875,
+    "right": 327.1828125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 06.2 | estos",
+    "from": 174,
+    "to": 207,
+    "left": 338.9359375,
+    "right": 502.5734375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 06.3 | problemas",
+    "from": 181,
+    "to": 207,
+    "left": 514.3265625,
+    "right": 829.3828125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 07.1 | Consigues",
+    "from": 208,
+    "to": 242,
+    "left": 238.28750000000002,
+    "right": 554.90625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 07.2 | un",
+    "from": 225,
+    "to": 242,
+    "left": 566.659375,
+    "right": 643.3343749999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 07.3 | avatar",
+    "from": 232,
+    "to": 242,
+    "left": 655.0875,
+    "right": 841.7125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 08.1 | que",
+    "from": 242,
+    "to": 273,
+    "left": 357.03281250000003,
+    "right": 470.9140625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 08.2 | te",
+    "from": 249,
+    "to": 273,
+    "left": 482.6671875,
+    "right": 542.3890625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 08.3 | gusta",
+    "from": 254,
+    "to": 273,
+    "left": 554.1421875,
+    "right": 722.9671874999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 09.1 | pero",
+    "from": 274,
+    "to": 304,
+    "left": 396.871875,
+    "right": 532.396875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 09.2 | en",
+    "from": 294,
+    "to": 304,
+    "left": 544.15,
+    "right": 619.3874999999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 09.3 | la",
+    "from": 299,
+    "to": 304,
+    "left": 631.140625,
+    "right": 683.128125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 10.1 | siguiente",
+    "from": 304,
+    "to": 356,
+    "left": 245.98281250000002,
+    "right": 517.8984375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 10.2 | imagen",
+    "from": 315,
+    "to": 356,
+    "left": 529.6515625,
+    "right": 750.6515625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 10.3 | ya",
+    "from": 341,
+    "to": 356,
+    "left": 762.4046874999999,
+    "right": 834.0171874999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 11.1 | no",
+    "from": 356,
+    "to": 379,
+    "left": 361.43125,
+    "right": 437.871875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 11.2 | parece",
+    "from": 361,
+    "to": 379,
+    "left": 449.625,
+    "right": 654.828125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 11.3 | la",
+    "from": 371,
+    "to": 379,
+    "left": 666.58125,
+    "right": 718.5687499999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 12.1 | misma",
+    "from": 379,
+    "to": 412,
+    "left": 313.0375,
+    "right": 512.190625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 12.2 | persona",
+    "from": 387,
+    "to": 412,
+    "left": 523.94375,
+    "right": 766.9625000000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 13.1 | Cambias",
+    "from": 413,
+    "to": 439,
+    "left": 250.64218749999998,
+    "right": 513.7859375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 13.2 | de",
+    "from": 422,
+    "to": 439,
+    "left": 525.5390625,
+    "right": 602.1046875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 13.3 | escena",
+    "from": 431,
+    "to": 439,
+    "left": 613.8578125,
+    "right": 829.3578125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 14.1 | y",
+    "from": 439,
+    "to": 465,
+    "left": 374.4875,
+    "right": 411.409375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 14.2 | cambia",
+    "from": 450,
+    "to": 465,
+    "left": 423.1625,
+    "right": 641.771875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 14.3 | la",
+    "from": 461,
+    "to": 465,
+    "left": 653.5250000000001,
+    "right": 705.5125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 15.1 | cara",
+    "from": 465,
+    "to": 485,
+    "left": 474.846875,
+    "right": 605.153125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 16.1 | el",
+    "from": 486,
+    "to": 517,
+    "left": 336.1046875,
+    "right": 388.6234375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 16.2 | estilo",
+    "from": 490,
+    "to": 517,
+    "left": 400.3765625,
+    "right": 560.5484375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 16.3 | visual",
+    "from": 502,
+    "to": 517,
+    "left": 572.3015625,
+    "right": 743.8953125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 17.1 | o",
+    "from": 517,
+    "to": 557,
+    "left": 376.7828125,
+    "right": 415.7359375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 17.2 | incluso",
+    "from": 532,
+    "to": 557,
+    "left": 427.4890625,
+    "right": 639.4765625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 17.3 | la",
+    "from": 549,
+    "to": 557,
+    "left": 651.2296875,
+    "right": 703.2171874999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 18.1 | voz",
+    "from": 557,
+    "to": 572,
+    "left": 487.9265625,
+    "right": 592.0734375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 19.1 | o",
+    "from": 573,
+    "to": 638,
+    "left": 186.98593750000003,
+    "right": 225.93906250000003,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 19.2 | consigues",
+    "from": 598,
+    "to": 638,
+    "left": 237.69218750000005,
+    "right": 542.9359375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 19.3 | mantenerlo",
+    "from": 615,
+    "to": 638,
+    "left": 554.6890625000001,
+    "right": 893.0140625000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 20.1 | más",
+    "from": 638,
+    "to": 656,
+    "left": 343.58125,
+    "right": 471.134375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 20.2 | o",
+    "from": 644,
+    "to": 656,
+    "left": 482.88750000000005,
+    "right": 521.840625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 20.3 | menos",
+    "from": 648,
+    "to": 656,
+    "left": 533.59375,
+    "right": 736.41875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 21.1 | consistente",
+    "from": 656,
+    "to": 701,
+    "left": 366.703125,
+    "right": 713.296875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 22.1 | pero",
+    "from": 702,
+    "to": 732,
+    "left": 248.87343749999997,
+    "right": 384.3984375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 22.2 | sigue",
+    "from": 706,
+    "to": 732,
+    "left": 396.15156249999995,
+    "right": 557.9609375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 22.3 | teniendo",
+    "from": 715,
+    "to": 732,
+    "left": 569.7140625,
+    "right": 831.1265625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 23.1 | esa",
+    "from": 732,
+    "to": 782,
+    "left": 204.9765625,
+    "right": 311.5765625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 23.2 | apariencia",
+    "from": 738,
+    "to": 782,
+    "left": 323.3296875,
+    "right": 631.3578124999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 23.3 | plástica",
+    "from": 754,
+    "to": 782,
+    "left": 643.1109375,
+    "right": 875.0234375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 24.1 | y",
+    "from": 782,
+    "to": 820,
+    "left": 335.5109375,
+    "right": 372.4328125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 24.2 | artificial",
+    "from": 786,
+    "to": 820,
+    "left": 384.1859375,
+    "right": 618.8546875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 24.3 | que",
+    "from": 818,
+    "to": 820,
+    "left": 630.6078125,
+    "right": 744.4890625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 25.1 | hace",
+    "from": 820,
+    "to": 849,
+    "left": 269.759375,
+    "right": 416.44062499999995,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 25.2 | evidente",
+    "from": 826,
+    "to": 849,
+    "left": 428.19375,
+    "right": 684.60625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 25.3 | que",
+    "from": 846,
+    "to": 849,
+    "left": 696.359375,
+    "right": 810.240625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 26.1 | está",
+    "from": 849,
+    "to": 875,
+    "left": 314.74062499999997,
+    "right": 443.484375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 26.2 | hecho",
+    "from": 857,
+    "to": 875,
+    "left": 455.23749999999995,
+    "right": 641.703125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 26.3 | con",
+    "from": 865,
+    "to": 875,
+    "left": 653.45625,
+    "right": 765.259375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 27.1 | IA",
+    "from": 875,
+    "to": 890,
+    "left": 508.3890625,
+    "right": 571.6109375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 28.1 | Y",
+    "from": 891,
+    "to": 926,
+    "left": 298.56874999999997,
+    "right": 343.78749999999997,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 28.2 | muchas",
+    "from": 895,
+    "to": 926,
+    "left": 355.540625,
+    "right": 593.99375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 28.3 | veces",
+    "from": 904,
+    "to": 926,
+    "left": 605.746875,
+    "right": 781.4312500000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 29.1 | hasta",
+    "from": 927,
+    "to": 963,
+    "left": 235.55312500000002,
+    "right": 401.815625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 29.2 | que",
+    "from": 934,
+    "to": 963,
+    "left": 413.56875,
+    "right": 527.45,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 29.3 | consigues",
+    "from": 941,
+    "to": 963,
+    "left": 539.203125,
+    "right": 844.446875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 30.1 | algo",
+    "from": 963,
+    "to": 1004,
+    "left": 371.29843750000003,
+    "right": 499.18281250000007,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 30.2 | usable",
+    "from": 977,
+    "to": 1004,
+    "left": 510.9359375,
+    "right": 708.7015625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 31.1 | ya",
+    "from": 1005,
+    "to": 1018,
+    "left": 408.27968749999997,
+    "right": 479.8921875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 31.2 | te",
+    "from": 1009,
+    "to": 1018,
+    "left": 491.64531249999993,
+    "right": 551.3671874999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 31.3 | has",
+    "from": 1014,
+    "to": 1018,
+    "left": 563.1203125,
+    "right": 671.7203125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 32.1 | quemado",
+    "from": 1018,
+    "to": 1053,
+    "left": 200.7703125,
+    "right": 483.2421875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 32.2 | una",
+    "from": 1030,
+    "to": 1053,
+    "left": 494.9953125,
+    "right": 607.1890625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 32.3 | cantidad",
+    "from": 1037,
+    "to": 1053,
+    "left": 618.9421875,
+    "right": 879.2296875000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 33.1 | absurda",
+    "from": 1053,
+    "to": 1113,
+    "left": 247.90468749999997,
+    "right": 491.0640625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 33.2 | de",
+    "from": 1088,
+    "to": 1113,
+    "left": 502.8171875,
+    "right": 579.3828125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 33.3 | créditos",
+    "from": 1093,
+    "to": 1113,
+    "left": 591.1359375,
+    "right": 832.0953125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 34.1 | haciendo",
+    "from": 1113,
+    "to": 1183,
+    "left": 171.49999999999994,
+    "right": 446.33437499999997,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 34.2 | generaciones",
+    "from": 1132,
+    "to": 1183,
+    "left": 458.0875,
+    "right": 859.825,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 34.3 | y",
+    "from": 1167,
+    "to": 1183,
+    "left": 871.578125,
+    "right": 908.5,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 35.1 | generaciones",
+    "from": 1183,
+    "to": 1208,
+    "left": 339.13125,
+    "right": 740.8687500000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 36.1 | Y",
+    "from": 1208,
+    "to": 1237,
+    "left": 389.9796875,
+    "right": 435.1984375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 36.2 | si",
+    "from": 1223,
+    "to": 1237,
+    "left": 446.9515625,
+    "right": 496.57968750000003,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 36.3 | tienes",
+    "from": 1227,
+    "to": 1237,
+    "left": 508.33281250000005,
+    "right": 690.0203125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 37.1 | una",
+    "from": 1237,
+    "to": 1275,
+    "left": 360.58750000000003,
+    "right": 472.78125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 37.2 | agencia",
+    "from": 1245,
+    "to": 1275,
+    "left": 484.534375,
+    "right": 719.4125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 38.1 | una",
+    "from": 1276,
+    "to": 1306,
+    "left": 359.1828125,
+    "right": 471.3765625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 38.2 | marca",
+    "from": 1280,
+    "to": 1306,
+    "left": 483.1296875,
+    "right": 670.1109375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 38.3 | o",
+    "from": 1291,
+    "to": 1306,
+    "left": 681.8640625,
+    "right": 720.8171875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 39.1 | un",
+    "from": 1306,
+    "to": 1342,
+    "left": 275.675,
+    "right": 352.35,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 39.2 | negocio",
+    "from": 1313,
+    "to": 1342,
+    "left": 364.103125,
+    "right": 602.45,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 39.3 | donde",
+    "from": 1329,
+    "to": 1342,
+    "left": 614.203125,
+    "right": 804.325,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 40.1 | necesitas",
+    "from": 1342,
+    "to": 1401,
+    "left": 112.08593750000001,
+    "right": 397.6578125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 40.2 | producir",
+    "from": 1364,
+    "to": 1401,
+    "left": 409.4109375,
+    "right": 658.1828125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 40.3 | contenido",
+    "from": 1381,
+    "to": 1401,
+    "left": 669.9359374999999,
+    "right": 967.9140624999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 41.1 | constantemente",
+    "from": 1401,
+    "to": 1456,
+    "left": 296.565625,
+    "right": 783.434375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 42.1 | esto",
+    "from": 1457,
+    "to": 1479,
+    "left": 361.4703125,
+    "right": 491.77656249999995,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 42.2 | deja",
+    "from": 1463,
+    "to": 1479,
+    "left": 503.5296875,
+    "right": 630.2109375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 42.3 | de",
+    "from": 1473,
+    "to": 1479,
+    "left": 641.9640625000001,
+    "right": 718.5296875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 43.1 | ser",
+    "from": 1479,
+    "to": 1543,
+    "left": 141.9796875,
+    "right": 236.0953125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 43.2 | simplemente",
+    "from": 1486,
+    "to": 1543,
+    "left": 247.8484375,
+    "right": 632.5046875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 43.3 | frustrante",
+    "from": 1506,
+    "to": 1543,
+    "left": 644.2578125,
+    "right": 938.0203125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 44.1 | se",
+    "from": 1544,
+    "to": 1585,
+    "left": 316.325,
+    "right": 387.40625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 44.2 | convierte",
+    "from": 1551,
+    "to": 1585,
+    "left": 399.15937499999995,
+    "right": 676.6843749999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 44.3 | en",
+    "from": 1569,
+    "to": 1585,
+    "left": 688.4375,
+    "right": 763.675,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 45.1 | tiempo",
+    "from": 1585,
+    "to": 1627,
+    "left": 312.0359375,
+    "right": 519.7546875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 45.2 | y",
+    "from": 1602,
+    "to": 1627,
+    "left": 531.5078125,
+    "right": 568.4296875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 45.3 | dinero",
+    "from": 1615,
+    "to": 1627,
+    "left": 580.1828125,
+    "right": 767.9640625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 46.1 | perdido",
+    "from": 1627,
+    "to": 1655,
+    "left": 426.1234375,
+    "right": 653.8765625000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 47.1 | Nosotros",
+    "from": 1656,
+    "to": 1706,
+    "left": 165.94374999999997,
+    "right": 437.29375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 47.2 | hemos",
+    "from": 1673,
+    "to": 1706,
+    "left": 449.046875,
+    "right": 652.434375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 47.3 | utilizado",
+    "from": 1685,
+    "to": 1706,
+    "left": 664.1875,
+    "right": 914.05625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 48.1 | estos",
+    "from": 1706,
+    "to": 1749,
+    "left": 242.23281249999997,
+    "right": 405.87031249999995,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 48.2 | procesos",
+    "from": 1713,
+    "to": 1749,
+    "left": 417.62343749999997,
+    "right": 692.4265625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 48.3 | para",
+    "from": 1737,
+    "to": 1749,
+    "left": 704.1796875,
+    "right": 837.7671875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 49.1 | crear",
+    "from": 1749,
+    "to": 1783,
+    "left": 325.371875,
+    "right": 478.915625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 49.2 | y",
+    "from": 1761,
+    "to": 1783,
+    "left": 490.66875,
+    "right": 527.590625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 49.3 | escalar",
+    "from": 1769,
+    "to": 1783,
+    "left": 539.34375,
+    "right": 754.628125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 50.1 | dos",
+    "from": 1783,
+    "to": 1838,
+    "left": 207.5109375,
+    "right": 318.6109375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 50.2 | cuentas",
+    "from": 1798,
+    "to": 1838,
+    "left": 330.3640625,
+    "right": 569.4453125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 50.3 | orgánicas",
+    "from": 1815,
+    "to": 1838,
+    "left": 581.1984375,
+    "right": 872.4890624999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 51.1 | completas",
+    "from": 1838,
+    "to": 1895,
+    "left": 234.55781250000004,
+    "right": 546.3328125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 51.2 | utilizando",
+    "from": 1866,
+    "to": 1895,
+    "left": 558.0859375,
+    "right": 845.4421875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 52.1 | avatares",
+    "from": 1895,
+    "to": 1943,
+    "left": 186.39218750000003,
+    "right": 441.2421875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 52.2 | generados",
+    "from": 1912,
+    "to": 1943,
+    "left": 452.9953125,
+    "right": 770.0515625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 52.3 | con",
+    "from": 1930,
+    "to": 1943,
+    "left": 781.8046875,
+    "right": 893.6078125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 53.1 | IA",
+    "from": 1943,
+    "to": 1957,
+    "left": 508.3890625,
+    "right": 571.6109375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 54.1 | manteniendo",
+    "from": 1958,
+    "to": 2006,
+    "left": 151.38750000000002,
+    "right": 542.809375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 54.2 | consistencia",
+    "from": 1980,
+    "to": 2006,
+    "left": 554.5625,
+    "right": 928.6125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 55.1 | visual",
+    "from": 2006,
+    "to": 2062,
+    "left": 218.65781249999998,
+    "right": 390.2515625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 55.2 | generación",
+    "from": 2025,
+    "to": 2062,
+    "left": 402.0046875,
+    "right": 734.3609375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 55.3 | tras",
+    "from": 2056,
+    "to": 2062,
+    "left": 746.1140625,
+    "right": 861.3421875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 56.1 | generación",
+    "from": 2062,
+    "to": 2094,
+    "left": 373.821875,
+    "right": 706.1781249999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 57.1 | Y",
+    "from": 2095,
+    "to": 2130,
+    "left": 252.5,
+    "right": 297.71875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 57.2 | precisamente",
+    "from": 2098,
+    "to": 2130,
+    "left": 309.471875,
+    "right": 715.115625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 57.3 | por",
+    "from": 2113,
+    "to": 2130,
+    "left": 726.8687500000001,
+    "right": 827.5000000000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 58.1 | eso",
+    "from": 2130,
+    "to": 2147,
+    "left": 485.8328125,
+    "right": 594.1671875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 59.1 | creamos",
+    "from": 2148,
+    "to": 2193,
+    "left": 245.53125,
+    "right": 503.628125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 59.2 | Visual",
+    "from": 2159,
+    "to": 2193,
+    "left": 515.38125,
+    "right": 696.709375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 59.3 | Hub",
+    "from": 2174,
+    "to": 2193,
+    "left": 708.4625000000001,
+    "right": 834.4687500000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 60.1 | una",
+    "from": 2194,
+    "to": 2230,
+    "left": 238.3359375,
+    "right": 350.5296875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 60.2 | comunidad",
+    "from": 2201,
+    "to": 2230,
+    "left": 362.2828125,
+    "right": 696.3234375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 60.3 | para",
+    "from": 2217,
+    "to": 2230,
+    "left": 708.0765624999999,
+    "right": 841.6640624999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 61.1 | gente",
+    "from": 2230,
+    "to": 2255,
+    "left": 292.1515625,
+    "right": 464.0546875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 61.2 | que",
+    "from": 2240,
+    "to": 2255,
+    "left": 475.8078125,
+    "right": 589.6890625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 61.3 | quiere",
+    "from": 2248,
+    "to": 2255,
+    "left": 601.4421875,
+    "right": 787.8484375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 62.1 | utilizar",
+    "from": 2255,
+    "to": 2314,
+    "left": 279.9890625,
+    "right": 476.82343749999995,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 62.2 | IA",
+    "from": 2273,
+    "to": 2314,
+    "left": 488.5765625,
+    "right": 551.7984375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 62.3 | creativa",
+    "from": 2292,
+    "to": 2314,
+    "left": 563.5515625,
+    "right": 800.0109375000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 63.1 | de",
+    "from": 2314,
+    "to": 2368,
+    "left": 236.965625,
+    "right": 313.53125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 63.2 | forma",
+    "from": 2323,
+    "to": 2368,
+    "left": 325.28437499999995,
+    "right": 501.29687499999994,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 63.3 | profesional",
+    "from": 2331,
+    "to": 2368,
+    "left": 513.05,
+    "right": 843.034375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 64.1 | ya",
+    "from": 2369,
+    "to": 2388,
+    "left": 372.346875,
+    "right": 443.959375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 64.2 | sea",
+    "from": 2374,
+    "to": 2388,
+    "left": 455.7125,
+    "right": 562.3125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 64.3 | para",
+    "from": 2379,
+    "to": 2388,
+    "left": 574.065625,
+    "right": 707.6531249999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 65.1 | su",
+    "from": 2388,
+    "to": 2423,
+    "left": 378.690625,
+    "right": 451.209375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 65.2 | negocio",
+    "from": 2395,
+    "to": 2423,
+    "left": 462.9625,
+    "right": 701.309375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 66.1 | su",
+    "from": 2424,
+    "to": 2452,
+    "left": 379.0203125,
+    "right": 451.5390625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 66.2 | marca",
+    "from": 2427,
+    "to": 2452,
+    "left": 463.29218749999995,
+    "right": 650.2734375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 66.3 | o",
+    "from": 2436,
+    "to": 2452,
+    "left": 662.0265625,
+    "right": 700.9796875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 67.1 | sus",
+    "from": 2452,
+    "to": 2483,
+    "left": 365.5390625,
+    "right": 471.3890625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 67.2 | clientes",
+    "from": 2460,
+    "to": 2483,
+    "left": 483.1421875,
+    "right": 714.4609375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 68.1 | Dentro",
+    "from": 2483,
+    "to": 2532,
+    "left": 254.4671875,
+    "right": 457.1859375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 68.2 | encontrarás",
+    "from": 2507,
+    "to": 2532,
+    "left": 468.9390625,
+    "right": 825.5328125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 69.1 | plantillas",
+    "from": 2532,
+    "to": 2576,
+    "left": 244.58125,
+    "right": 508.15625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 69.2 | y",
+    "from": 2555,
+    "to": 2576,
+    "left": 519.909375,
+    "right": 556.83125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 69.3 | sistemas",
+    "from": 2561,
+    "to": 2576,
+    "left": 568.5843749999999,
+    "right": 835.4187499999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 70.1 | listos",
+    "from": 2576,
+    "to": 2622,
+    "left": 284.559375,
+    "right": 441.5125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 70.2 | para",
+    "from": 2600,
+    "to": 2622,
+    "left": 453.265625,
+    "right": 586.853125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 70.3 | utilizar",
+    "from": 2607,
+    "to": 2622,
+    "left": 598.60625,
+    "right": 795.4406250000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 71.1 | y",
+    "from": 2622,
+    "to": 2674,
+    "left": 228.9140625,
+    "right": 265.8359375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 71.2 | compartimos",
+    "from": 2636,
+    "to": 2674,
+    "left": 277.5890625,
+    "right": 670.7609375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 71.3 | cómo",
+    "from": 2663,
+    "to": 2674,
+    "left": 682.5140625,
+    "right": 851.0859375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 72.1 | conseguimos",
+    "from": 2674,
+    "to": 2734,
+    "left": 108.58125000000003,
+    "right": 508.08125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 72.2 | resultados",
+    "from": 2698,
+    "to": 2734,
+    "left": 519.834375,
+    "right": 832.1125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 72.3 | más",
+    "from": 2714,
+    "to": 2734,
+    "left": 843.865625,
+    "right": 971.41875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 73.1 | consistentes",
+    "from": 2734,
+    "to": 2773,
+    "left": 350.0375,
+    "right": 729.9625000000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 74.1 | realistas",
+    "from": 2774,
+    "to": 2816,
+    "left": 341.809375,
+    "right": 590.646875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 74.2 | y",
+    "from": 2796,
+    "to": 2816,
+    "left": 602.4,
+    "right": 639.321875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 74.3 | sin",
+    "from": 2811,
+    "to": 2816,
+    "left": 651.0749999999999,
+    "right": 738.190625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 75.1 | tener",
+    "from": 2816,
+    "to": 2843,
+    "left": 308.3015625,
+    "right": 464.5953125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 75.2 | que",
+    "from": 2827,
+    "to": 2843,
+    "left": 476.3484375,
+    "right": 590.2296875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 75.3 | hacer",
+    "from": 2833,
+    "to": 2843,
+    "left": 601.9828125,
+    "right": 771.6984375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 76.1 | 50",
+    "from": 2843,
+    "to": 2910,
+    "left": 218.0515625,
+    "right": 303.1171875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 76.2 | generaciones",
+    "from": 2862,
+    "to": 2910,
+    "left": 314.87031249999995,
+    "right": 716.6078124999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 76.3 | para",
+    "from": 2897,
+    "to": 2910,
+    "left": 728.3609375,
+    "right": 861.9484375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 77.1 | sacar",
+    "from": 2910,
+    "to": 2950,
+    "left": 287.628125,
+    "right": 452.09375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 77.2 | algo",
+    "from": 2920,
+    "to": 2950,
+    "left": 463.846875,
+    "right": 591.73125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 77.3 | bueno",
+    "from": 2931,
+    "to": 2950,
+    "left": 603.484375,
+    "right": 792.371875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 78.1 | Además",
+    "from": 2951,
+    "to": 2970,
+    "left": 416.84375,
+    "right": 663.15625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 79.1 | tienes",
+    "from": 2971,
+    "to": 3002,
+    "left": 268.21875,
+    "right": 449.90625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 79.2 | sesiones",
+    "from": 2980,
+    "to": 3002,
+    "left": 461.659375,
+    "right": 724.7906250000001,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 79.3 | en",
+    "from": 2995,
+    "to": 3002,
+    "left": 736.54375,
+    "right": 811.78125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 80.1 | directo",
+    "from": 3002,
+    "to": 3045,
+    "left": 218.3328125,
+    "right": 425.9609375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 80.2 | donde",
+    "from": 3022,
+    "to": 3045,
+    "left": 437.7140625,
+    "right": 627.8359375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 80.3 | puedes",
+    "from": 3029,
+    "to": 3045,
+    "left": 639.5890625,
+    "right": 861.6671875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 81.1 | traer",
+    "from": 3045,
+    "to": 3082,
+    "left": 298.6109375,
+    "right": 439.59218749999997,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 81.2 | tus",
+    "from": 3059,
+    "to": 3082,
+    "left": 451.3453125,
+    "right": 546.3359375,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 81.3 | propios",
+    "from": 3065,
+    "to": 3082,
+    "left": 558.0890625,
+    "right": 781.3890624999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 82.1 | casos",
+    "from": 3082,
+    "to": 3128,
+    "left": 264.12343749999997,
+    "right": 440.62031249999995,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 82.2 | y",
+    "from": 3093,
+    "to": 3128,
+    "left": 452.37343749999997,
+    "right": 489.29531249999997,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 82.3 | trabajarlos",
+    "from": 3107,
+    "to": 3128,
+    "left": 501.0484375,
+    "right": 815.8765625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 83.1 | con",
+    "from": 3128,
+    "to": 3154,
+    "left": 347.2421875,
+    "right": 459.0453125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 83.2 | nosotros",
+    "from": 3137,
+    "to": 3154,
+    "left": 470.7984375,
+    "right": 732.7578125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 84.1 | Si",
+    "from": 3155,
+    "to": 3185,
+    "left": 314.753125,
+    "right": 372.2875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 84.2 | quieres",
+    "from": 3161,
+    "to": 3185,
+    "left": 384.040625,
+    "right": 603.778125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 84.3 | dejar",
+    "from": 3170,
+    "to": 3185,
+    "left": 615.53125,
+    "right": 765.246875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 85.1 | de",
+    "from": 3185,
+    "to": 3211,
+    "left": 356.009375,
+    "right": 432.575,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 85.2 | generar",
+    "from": 3190,
+    "to": 3211,
+    "left": 444.328125,
+    "right": 675.01875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 85.3 | a",
+    "from": 3209,
+    "to": 3211,
+    "left": 686.771875,
+    "right": 723.990625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 86.1 | prueba",
+    "from": 3211,
+    "to": 3254,
+    "left": 332.63906249999997,
+    "right": 543.9828124999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 86.2 | y",
+    "from": 3225,
+    "to": 3254,
+    "left": 555.7359375,
+    "right": 592.6578125,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 86.3 | error",
+    "from": 3231,
+    "to": 3254,
+    "left": 604.4109374999999,
+    "right": 747.3609374999999,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 87.1 | puedes",
+    "from": 3255,
+    "to": 3281,
+    "left": 309.3640625,
+    "right": 531.4421875,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 87.2 | entrar",
+    "from": 3261,
+    "to": 3281,
+    "left": 543.1953125,
+    "right": 721.6640625,
+    "baseline": 1220,
+    "size": 68
+  },
+  {
+    "layer": "SUB 87.3 | a",
+    "from": 3274,
+    "to": 3281,
+    "left": 733.4171875,
+    "right": 770.6359375,
+    "baseline": 1220,
+    "size": 68
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "duration": 1580,
+  "fps": 24,
+  "events": {
+    "face": {
+      "from": 113,
+      "to": 143
+    },
+    "hand": {
+      "from": 265,
+      "to": 283
+    },
+    "label": {
+      "from": 296,
+      "to": 311
+    },
+    "generation": {
+      "from": 313,
+      "to": 354
+    },
+    "cost": {
+      "from": 419,
+      "to": 460
+    },
+    "process": {
+      "from": 806,
+      "to": 900
+    },
+    "accounts": {
+      "from": 903,
+      "to": 1086
+    },
+    "brand": {
+      "from": 1106,
+      "to": 1133
+    },
+    "price": {
+      "from": 1537,
+      "to": 1580
+    }
+  }
+}

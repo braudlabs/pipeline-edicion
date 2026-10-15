@@ -1,0 +1,740 @@
+[
+  {
+    "caption": 0,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 608,
+    "faceBottom": 1189
+  },
+  {
+    "caption": 1,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 649,
+    "faceBottom": 1179
+  },
+  {
+    "caption": 2,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 605,
+    "faceBottom": 1225
+  },
+  {
+    "caption": 3,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 506,
+    "faceBottom": 1232
+  },
+  {
+    "caption": 4,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 464,
+    "faceBottom": 1262
+  },
+  {
+    "caption": 5,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 458,
+    "faceBottom": 1352
+  },
+  {
+    "caption": 6,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 458,
+    "faceBottom": 1352
+  },
+  {
+    "caption": 7,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 464,
+    "faceBottom": 1344
+  },
+  {
+    "caption": 8,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 434,
+    "faceBottom": 1255
+  },
+  {
+    "caption": 9,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 434,
+    "faceBottom": 1270
+  },
+  {
+    "caption": 10,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 416,
+    "faceBottom": 1307
+  },
+  {
+    "caption": 11,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 416,
+    "faceBottom": 1307
+  },
+  {
+    "caption": 12,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 496,
+    "faceBottom": 870
+  },
+  {
+    "caption": 13,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 568,
+    "faceBottom": 873
+  },
+  {
+    "caption": 14,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 551,
+    "faceBottom": 873
+  },
+  {
+    "caption": 15,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 489,
+    "faceBottom": 858
+  },
+  {
+    "caption": 16,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 498,
+    "faceBottom": 842
+  },
+  {
+    "caption": 17,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 576,
+    "faceBottom": 947
+  },
+  {
+    "caption": 18,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 423,
+    "faceBottom": 1202
+  },
+  {
+    "caption": 19,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 442,
+    "faceBottom": 1216
+  },
+  {
+    "caption": 20,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 484,
+    "faceBottom": 1216
+  },
+  {
+    "caption": 21,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 430,
+    "faceBottom": 1224
+  },
+  {
+    "caption": 22,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 430,
+    "faceBottom": 1256
+  },
+  {
+    "caption": 23,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 479,
+    "faceBottom": 1272
+  },
+  {
+    "caption": 24,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 479,
+    "faceBottom": 1272
+  },
+  {
+    "caption": 25,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 470,
+    "faceBottom": 1283
+  },
+  {
+    "caption": 26,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 488,
+    "faceBottom": 1236
+  },
+  {
+    "caption": 27,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 461,
+    "faceBottom": 1236
+  },
+  {
+    "caption": 28,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 461,
+    "faceBottom": 1296
+  },
+  {
+    "caption": 29,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 413,
+    "faceBottom": 1319
+  },
+  {
+    "caption": 30,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 547,
+    "faceBottom": 1375
+  },
+  {
+    "caption": 31,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 451,
+    "faceBottom": 1429
+  },
+  {
+    "caption": 32,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 451,
+    "faceBottom": 1455
+  },
+  {
+    "caption": 33,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 477,
+    "faceBottom": 1502
+  },
+  {
+    "caption": 34,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 407,
+    "faceBottom": 1502
+  },
+  {
+    "caption": 35,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 400,
+    "faceBottom": 1468
+  },
+  {
+    "caption": 36,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 45,
+    "keywordSize": 45,
+    "headTop": 350,
+    "faceBottom": 1459
+  },
+  {
+    "caption": 37,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 45,
+    "keywordSize": 45,
+    "headTop": 350,
+    "faceBottom": 1492
+  },
+  {
+    "caption": 38,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 431,
+    "faceBottom": 1554
+  },
+  {
+    "caption": 39,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 462,
+    "faceBottom": 1174
+  },
+  {
+    "caption": 40,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 459,
+    "faceBottom": 1197
+  },
+  {
+    "caption": 41,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 79,
+    "keywordSize": 80,
+    "headTop": 423,
+    "faceBottom": 1197
+  },
+  {
+    "caption": 42,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 436,
+    "faceBottom": 1131
+  },
+  {
+    "caption": 43,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 445,
+    "faceBottom": 1149
+  },
+  {
+    "caption": 44,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 429,
+    "faceBottom": 1149
+  },
+  {
+    "caption": 45,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 429,
+    "faceBottom": 1140
+  },
+  {
+    "caption": 46,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 409,
+    "faceBottom": 1140
+  },
+  {
+    "caption": 47,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 48,
+    "keywordSize": 48,
+    "headTop": 353,
+    "faceBottom": 1238
+  },
+  {
+    "caption": 48,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 399,
+    "faceBottom": 1238
+  },
+  {
+    "caption": 49,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 500,
+    "faceBottom": 972
+  },
+  {
+    "caption": 50,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 512,
+    "faceBottom": 982
+  },
+  {
+    "caption": 51,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 502,
+    "faceBottom": 954
+  },
+  {
+    "caption": 52,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 502,
+    "faceBottom": 962
+  },
+  {
+    "caption": 53,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 485,
+    "faceBottom": 969
+  },
+  {
+    "caption": 54,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 485,
+    "faceBottom": 977
+  },
+  {
+    "caption": 55,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 478,
+    "faceBottom": 977
+  },
+  {
+    "caption": 56,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 484,
+    "faceBottom": 883
+  },
+  {
+    "caption": 57,
+    "mode": "below",
+    "top": 1023,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 550,
+    "faceBottom": 993
+  },
+  {
+    "caption": 58,
+    "mode": "below",
+    "top": 1020,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 550,
+    "faceBottom": 989
+  },
+  {
+    "caption": 59,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 725,
+    "faceBottom": 831
+  },
+  {
+    "caption": 60,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 715,
+    "faceBottom": 874
+  },
+  {
+    "caption": 61,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 685,
+    "faceBottom": 930
+  },
+  {
+    "caption": 62,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 644,
+    "faceBottom": 1019
+  },
+  {
+    "caption": 63,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 530,
+    "faceBottom": 1156
+  },
+  {
+    "caption": 64,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 415,
+    "faceBottom": 1166
+  },
+  {
+    "caption": 65,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 400,
+    "faceBottom": 1171
+  },
+  {
+    "caption": 66,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 400,
+    "faceBottom": 1155
+  },
+  {
+    "caption": 67,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 400,
+    "faceBottom": 1155
+  },
+  {
+    "caption": 68,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 400,
+    "faceBottom": 1147
+  },
+  {
+    "caption": 69,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 77,
+    "keywordSize": 77,
+    "headTop": 390,
+    "faceBottom": 1159
+  },
+  {
+    "caption": 70,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 77,
+    "keywordSize": 77,
+    "headTop": 390,
+    "faceBottom": 1159
+  },
+  {
+    "caption": 71,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 429,
+    "faceBottom": 1163
+  },
+  {
+    "caption": 72,
+    "mode": "above",
+    "top": 278,
+    "fontSize": 80,
+    "keywordSize": 80,
+    "headTop": 446,
+    "faceBottom": 1192
+  },
+  {
+    "caption": 73,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 609,
+    "faceBottom": 923
+  },
+  {
+    "caption": 74,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 675,
+    "faceBottom": 923
+  },
+  {
+    "caption": 75,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 674,
+    "faceBottom": 934
+  },
+  {
+    "caption": 76,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 674,
+    "faceBottom": 938
+  },
+  {
+    "caption": 77,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 674,
+    "faceBottom": 929
+  },
+  {
+    "caption": 78,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 674,
+    "faceBottom": 945
+  },
+  {
+    "caption": 79,
+    "mode": "inline",
+    "top": 1034,
+    "fontSize": 74,
+    "keywordSize": 74,
+    "headTop": 652,
+    "faceBottom": 1004
+  },
+  {
+    "caption": 80,
+    "mode": "below",
+    "top": 1025,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 651,
+    "faceBottom": 994
+  },
+  {
+    "caption": 81,
+    "mode": "below",
+    "top": 1015,
+    "fontSize": 74,
+    "keywordSize": 110,
+    "headTop": 565,
+    "faceBottom": 983
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "maxReferenceErrorPx": 0,
+  "measuredDomainFrames": [
+    2,
+    60
+  ],
+  "designedBoundaryJoins": [
+    {
+      "age": 2,
+      "positionDifference": -0.0003593170491669184,
+      "velocityDifference": 0.00014147474303172203
+    },
+    {
+      "age": 60,
+      "positionDifference": -0.0000011773907210715917,
+      "velocityDifference": 1.0288020435567091e-7
+    },
+    {
+      "age": 66,
+      "positionDifference": 6.043753169969492e-14,
+      "velocityDifference": 6.043753169969492e-9
+    }
+  ],
+  "cuts": [
+    {
+      "id": "recuperamos",
+      "frame": 757,
+      "positionDeltaPx": 0,
+      "V06DeltaPx": 200
+    },
+    {
+      "id": "originales",
+      "frame": 794,
+      "positionDeltaPx": 0,
+      "V06DeltaPx": 200
+    }
+  ],
+  "uniformBlockBaselines": [
+    "offer",
+    "product",
+    "origins"
+  ],
+  "maskAndOutlineSynchronized": true,
+  "cues": 57,
+  "limitation": "Motion-fit equivalence applies to the measured positional curve only, not entire editor style."
+}

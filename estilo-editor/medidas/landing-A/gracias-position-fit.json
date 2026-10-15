@@ -1,0 +1,23 @@
+{
+  "slug": "landing",
+  "word": "Gracias",
+  "native_measurement": "medidas/landing-A/gracias-ink-all.tsv",
+  "range_inclusive": [
+    9,
+    55
+  ],
+  "sample_count": 47,
+  "model": "cy(f)=baseline+amplitude*exp(-decayPerFrame*(f-9))",
+  "baseline_px": 537.035101557677,
+  "amplitude_px": 46.34985592124635,
+  "decay_per_source_frame": 0.0859,
+  "rmse_px": 0.6274002677533508,
+  "max_abs_error_px": 2.2150425210767253,
+  "status": "fitted approximation, not recovered original easing",
+  "limitations": [
+    "Threshold-dependent percentile box",
+    "Pixel/codec uncertainty about1px",
+    "Fits position only; contrast is not alpha",
+    "Use only within measured domain; no universal animation duration"
+  ]
+}

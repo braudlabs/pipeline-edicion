@@ -1,0 +1,535 @@
+{
+  "job": "ejemplo-tecnico-sin-render",
+  "frames": 1109,
+  "seconds": 18.483333333333334,
+  "shots": 0,
+  "captions": 3,
+  "motionGraphics": 5,
+  "recipes": [
+    {
+      "clause": "precio",
+      "recipe": "price",
+      "reason": "Selección editorial explícita",
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": 1075,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ]
+    },
+    {
+      "clause": "cantidad",
+      "recipe": "count",
+      "reason": "Selección editorial explícita",
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -110,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": 1068,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ]
+    },
+    {
+      "clause": "cta",
+      "recipe": "rail",
+      "reason": "Selección editorial explícita",
+      "evidence": [
+        "estilo-editor/notas/v6-ads90-C.md",
+        "estilo-editor/notas/landing-A.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 1080,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según cta y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -110,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según cta y datos disponibles"
+        }
+      ]
+    },
+    {
+      "clause": "comparacion",
+      "recipe": "comparison",
+      "reason": "Selección editorial explícita",
+      "evidence": [
+        "estilo-editor/notas/v2-churros-A.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 10,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": 1075,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ]
+    },
+    {
+      "clause": "proceso",
+      "recipe": "steps",
+      "reason": "Selección editorial explícita",
+      "evidence": [
+        "estilo-editor/notas/lafabrica-v2p1-B.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -110,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": 1070,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ]
+    },
+    {
+      "clause": "cierre",
+      "recipe": "accumulate",
+      "reason": "Selección editorial explícita",
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md",
+        "estilo-editor/notas/landing-A.md"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": 1025,
+          "eligible": true,
+          "reason": "Selección editorial explícita"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -110,
+          "eligible": false,
+          "reason": "Necesita 2.00s para acción y lectura"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        }
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "NO_FOOTAGE",
+      "message": "Overlay sin metraje: se verá sobre fondo del perfil.",
+      "clauseId": "cta"
+    },
+    {
+      "severity": "warning",
+      "code": "NO_FOOTAGE",
+      "message": "Overlay sin metraje: se verá sobre fondo del perfil.",
+      "clauseId": "cierre"
+    },
+    {
+      "severity": "warning",
+      "code": "VISUAL_GAP",
+      "message": "Sin metraje/escena de f390 a f509; fondo del perfil visible."
+    },
+    {
+      "severity": "warning",
+      "code": "VISUAL_GAP",
+      "message": "Sin metraje/escena de f990 a f1108; fondo del perfil visible."
+    },
+    {
+      "severity": "warning",
+      "code": "NO_NARRATION",
+      "message": "Guion temporizado sin pista de narración adjunta."
+    }
+  ],
+  "wordCoverage": "22/22",
+  "fidelity": "unverified_without_visual_comparison"
+}

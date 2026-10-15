@@ -1,0 +1,1 @@
+16-09-2026 · V2 rechazada visualmente. Feedback explícito: «sobre todo el de la segunda ref» y «los renders que has hecho me parecen muy cutres y poco estéticos». Rehacer los cinco motions guiados por 552657…; preservar V2 y montaje/audio. La elección petróleo/coral/metal fue del editor y no queda como preferencia del usuario.

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "v8-180",
+    "slug": "v8",
+    "editedFrame": 180,
+    "editedSeconds": 3.003,
+    "editedSHA256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/Ad Agencias/Ad Agencias v1 (sin audio).mp4",
+    "rawFrame": 180,
+    "rawApproxSeconds": 3.003,
+    "rawSHA256": "09314234559283d5a2276435355e6dc020c3de763f2e43a70ae720128be6b856",
+    "retrievalSimilarity": 0.89177,
+    "sheet": "v8-180.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "La selección azul y Nuevos no aparecen en el bruto.",
+      "El cohete, paisaje y personaje pertenecen al metraje de base.",
+      "La pose difiere: este par no acredita alineación temporal exacta."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v8-1980",
+    "slug": "v8",
+    "editedFrame": 1980,
+    "editedSeconds": 33.033,
+    "editedSHA256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/Ad Agencias/Ad Agencias v1 (sin audio).mp4",
+    "rawFrame": 1980,
+    "rawApproxSeconds": 33.033,
+    "rawSHA256": "09314234559283d5a2276435355e6dc020c3de763f2e43a70ae720128be6b856",
+    "retrievalSimilarity": 0.35912,
+    "sheet": "v8-1980.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "El teléfono y fondo gris iluminado se añaden al plano interior del bruto.",
+      "Hay reencuadre/escala dentro del teléfono y caption como."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v8-2160",
+    "slug": "v8",
+    "editedFrame": 2160,
+    "editedSeconds": 36.036,
+    "editedSHA256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/Ad Agencias/Ad Agencias v1 (sin audio).mp4",
+    "rawFrame": 2160,
+    "rawApproxSeconds": 36.036,
+    "rawSHA256": "09314234559283d5a2276435355e6dc020c3de763f2e43a70ae720128be6b856",
+    "retrievalSimilarity": 0.62164,
+    "sheet": "v8-2160.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "La bombilla flotante iluminada ya existe en el bruto. No atribuir su creación al editor.",
+      "El texto curvado pone la idea y la jerarquía y/dirige se añaden en la versión editada.",
+      "Cambian escala/encuadre y pose; falta alinear el frame exacto para medir seguimiento."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v8-2400",
+    "slug": "v8",
+    "editedFrame": 2400,
+    "editedSeconds": 40.04,
+    "editedSHA256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/Ad Agencias/Ad Agencias v1 (sin audio).mp4",
+    "rawFrame": 2400,
+    "rawApproxSeconds": 40.04,
+    "rawSHA256": "09314234559283d5a2276435355e6dc020c3de763f2e43a70ae720128be6b856",
+    "retrievalSimilarity": 0.76013,
+    "sheet": "v8-2400.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "Plano del taller compartido; narración alta añadida.",
+      "Desfase visible en brazos: no usar este par para afirmar ausencia/presencia del carrusel en el mismo instante."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v5-maquina-120",
+    "slug": "v5-maquina",
+    "editedFrame": 120,
+    "editedSeconds": 4.0040000000000004,
+    "editedSHA256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/01-hook-la-maquina-le-corta.mp4",
+    "rawFrame": 96,
+    "rawApproxSeconds": 4.0,
+    "rawSHA256": "948b590c8f2d04e26325185df52394d18ab0dca94113f478611477fadb927579",
+    "retrievalSimilarity": 0.99977,
+    "sheet": "v5-maquina-120.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "La máquina, tarjetas volando y desenfoque de las tarjetas ya están en el bruto.",
+      "Contraejemplo: no atribuir todo motion visible a postproducción del editor."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v5-maquina-1380",
+    "slug": "v5-maquina",
+    "editedFrame": 1380,
+    "editedSeconds": 46.046,
+    "editedSHA256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/10-ring-el-visual.mp4",
+    "rawFrame": 24,
+    "rawApproxSeconds": 1.0,
+    "rawSHA256": "a34241782c69015869216bdb3f218c6661f0061158af131d8783e7dba52f4079",
+    "retrievalSimilarity": 0.82961,
+    "sheet": "v5-maquina-1380.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "El ring, luces azules/rojas y las zapatillas ya están en el bruto.",
+      "La palabra mismo y oscurecimiento visible aparecen en la versión editada. No inferir parámetros exactos de gradación."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v2-churros-456",
+    "slug": "v2-churros",
+    "editedFrame": 456,
+    "editedSeconds": 19.0,
+    "editedSHA256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/06-creditos-quemados.mp4",
+    "rawFrame": 0,
+    "rawApproxSeconds": 0.0,
+    "rawSHA256": "d6830731d340c064f4ae302edac2f441ae97347ece78cb07c1d94b82f298da0c",
+    "retrievalSimilarity": 0.99455,
+    "sheet": "v2-churros-456.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "Los platos, iluminación y persona proceden del bruto.",
+      "La Y blanca central se añade al editar."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v6-ads90-1500",
+    "slug": "v6-ads90",
+    "editedFrame": 1500,
+    "editedSeconds": 25.0,
+    "editedSHA256": "35009cc9171e641cd6e332bbba86d759af5c90477307b79820af895df176a263",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/Nuevos dos ads Comercial/v2/Comercial 90_s v2.mov",
+    "rawFrame": 1500,
+    "rawApproxSeconds": 25.0,
+    "rawSHA256": "b5f2b30dbb5dd4b2eed4c3342fa5fb186d6445484aae5ed9a60851452614f067",
+    "retrievalSimilarity": 0.75887,
+    "sheet": "v6-ads90-1500.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "Personas, estudio y ordenador ya están en el bruto.",
+      "Es/tuyo añade jerarquía compacta y la versión editada oscurece la imagen."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v1-pagado-672",
+    "slug": "v1-pagado",
+    "editedFrame": 672,
+    "editedSeconds": 28.0,
+    "editedSHA256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/06-la-cara-el-mensaje.mp4",
+    "rawFrame": 72,
+    "rawApproxSeconds": 3.0,
+    "rawSHA256": "206a95eb51cc074e7c8436d31ba19ffbd99f8591775e738e05b1b65fb9a84ed9",
+    "retrievalSimilarity": 0.99565,
+    "sheet": "v1-pagado-672.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "Mismo gesto y escena; por el es la adición tipográfica visible.",
+      "Control útil para aislar tinta; es un par candidato, no mapeo completo del clip."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  },
+  {
+    "id": "v3-ia-cara-1128",
+    "slug": "v3-ia-cara",
+    "editedFrame": 1128,
+    "editedSeconds": 47.0,
+    "editedSHA256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+    "rawPath": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/11-dentro-encontraras.mp4",
+    "rawFrame": 48,
+    "rawApproxSeconds": 2.0,
+    "rawSHA256": "c3249a87c95525fdefb7cb2bfa618df4255900f4bfd8fe3f760236005cba3d45",
+    "retrievalSimilarity": 0.97401,
+    "sheet": "v3-ia-cara-1128.jpg",
+    "reviewStatus": "qualitative_pair_reviewed",
+    "observations": [
+      "Estudio fotográfico, sujeto y luces proceden del bruto.",
+      "utilizar y un reencuadre leve son diferencias visibles; pose no idéntica."
+    ],
+    "limitation": "Frames extraídos por índice exacto; correspondencia de escena revisada visualmente, sincronía entre versiones todavía aproximada. No usar diferencia pixel a pixel como máscara."
+  }
+]

@@ -1,0 +1,273 @@
+{
+  "status": "fitted_observed_position_only",
+  "source": "v8",
+  "sourceFps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "sourceHeight": 1920,
+  "sourceWidth": 1080,
+  "coordinate": "top of lime ink box, not center/baseline/fontSize",
+  "model": "y(frameAge)=layoutOffset+exp(-decay*frameAge)*(cosCoefficient*cos(omega*frameAge)+sinCoefficient*sin(omega*frameAge))",
+  "firstVisibleFrames": {
+    "pagar": 550,
+    "Braudd": 1653,
+    "sirve": 3328
+  },
+  "fitDomainSourceFrames": [
+    2,
+    60
+  ],
+  "decayPerSourceFrame": 0.099,
+  "omegaRadiansPerSourceFrame": 0.313,
+  "cosCoefficientPx": 37.83377648725731,
+  "sinCoefficientPx": -60.95800791408276,
+  "fitOffsetsPx": {
+    "pagar": 973.9069047082522,
+    "Braudd": 412.38148097943923
+  },
+  "trainingRMSEpx": 0.3550713573626672,
+  "trainingSamples": 118,
+  "rejectedSamples": [
+    {
+      "label": "sirve",
+      "frame": 3361,
+      "reason": "chroma pixel area <20% of interior median; fragmented low-contrast detection",
+      "raw": {
+        "x": 278.0,
+        "y": 960.0,
+        "width": 652.0,
+        "height": 236.0,
+        "cx": 603.5,
+        "cy": 1077.5,
+        "pixelCount": 263,
+        "medianRGB": [
+          134.0,
+          165.0,
+          90.0
+        ]
+      }
+    }
+  ],
+  "heldOut": {
+    "label": "sirve",
+    "range": [
+      2,
+      32
+    ],
+    "offsetCalibration": "only measured top at age2; no curve parameters refit",
+    "rmsePx": 14.295280160409865,
+    "maxAbsErrorPx": 56.25584152590227,
+    "samples": 31,
+    "columns": [
+      "age",
+      "observedY",
+      "predictedY",
+      "error"
+    ],
+    "rows": [
+      [
+        2,
+        946.0,
+        946.0,
+        -5.1514348342607263e-14
+      ],
+      [
+        3,
+        929.0,
+        930.199616899568,
+        -1.1996168995680456
+      ],
+      [
+        4,
+        918.0,
+        919.1703891945178,
+        -1.1703891945177851
+      ],
+      [
+        5,
+        912.0,
+        913.1239733731421,
+        -1.123973373142114
+      ],
+      [
+        6,
+        910.0,
+        911.751186173139,
+        -1.7511861731389615
+      ],
+      [
+        7,
+        913.0,
+        914.3455220542551,
+        -1.3455220542551203
+      ],
+      [
+        8,
+        919.0,
+        919.9429825731704,
+        -0.9429825731703723
+      ],
+      [
+        9,
+        926.54,
+        927.4617384947078,
+        -0.9217384947078493
+      ],
+      [
+        10,
+        935.0,
+        935.8281218358086,
+        -0.8281218358085702
+      ],
+      [
+        11,
+        943.0,
+        944.0791951387383,
+        -1.0791951387383767
+      ],
+      [
+        12,
+        950.0,
+        951.4361667473846,
+        -1.4361667473845985
+      ],
+      [
+        13,
+        956.0,
+        957.3467752983327,
+        -1.346775298332691
+      ],
+      [
+        14,
+        960.0,
+        961.4981105582923,
+        -1.4981105582922876
+      ],
+      [
+        15,
+        963.0,
+        963.8039388297573,
+        -0.8039388297573176
+      ],
+      [
+        16,
+        963.0,
+        964.3723408040889,
+        -1.3723408040889211
+      ],
+      [
+        17,
+        962.98,
+        963.4603341371492,
+        -0.48033413714919426
+      ],
+      [
+        18,
+        961.0,
+        961.4222156230836,
+        -0.42221562308365
+      ],
+      [
+        19,
+        957.0,
+        958.6577566076855,
+        -1.6577566076855543
+      ],
+      [
+        20,
+        954.43,
+        955.5652977165191,
+        -1.1352977165191902
+      ],
+      [
+        21,
+        951.0,
+        952.5034078165145,
+        -1.503407816514477
+      ],
+      [
+        22,
+        948.0,
+        949.7632839507436,
+        -1.763283950743595
+      ],
+      [
+        23,
+        946.0,
+        947.5526372091988,
+        -1.552637209198834
+      ],
+      [
+        24,
+        943.0,
+        945.990562727086,
+        -2.9905627270859894
+      ],
+      [
+        25,
+        940.0,
+        945.1119178123205,
+        -5.111917812320431
+      ],
+      [
+        26,
+        938.0,
+        944.8790760278611,
+        -6.879076027861088
+      ],
+      [
+        27,
+        935.0,
+        945.1985933489102,
+        -10.198593348910258
+      ],
+      [
+        28,
+        931.0,
+        945.9402891364736,
+        -14.940289136473517
+      ],
+      [
+        29,
+        927.0,
+        946.9564592630599,
+        -19.956459263059806
+      ],
+      [
+        30,
+        920.0,
+        948.0993359564559,
+        -28.099335956455924
+      ],
+      [
+        31,
+        910.0,
+        949.2354174961866,
+        -39.23541749618661
+      ],
+      [
+        32,
+        894.0,
+        950.2558415259023,
+        -56.25584152590227
+      ]
+    ],
+    "entryPhaseReview": {
+      "range": [
+        2,
+        23
+      ],
+      "rmsePx": 1.2324225862447027,
+      "maxAbsErrorPx": 1.763283950743595,
+      "note": "Exploratory phase separation after inspecting residuals and native exit frames3349–3364. Not a preregistered independent benchmark. Full-range error is retained above; translation diverges before disappearance/cut during exit."
+    }
+  },
+  "limits": [
+    "This is an approximation fitted to a decoded MP4, not recovered source easing/plugin.",
+    "Parameters describe translation only. Font, color, opacity, blur, masks and semantics are separate.",
+    "Same source piece; NOT cross-video or cross-family validation.",
+    "Frame age0/1 is visually present but low contrast makes chroma bounds unreliable. Extrapolation outside measured domain requires review.",
+    "Threshold dependence and compression remain; same-word width stable does not identify exact font."
+  ]
+}

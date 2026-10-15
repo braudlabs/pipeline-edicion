@@ -1,0 +1,189 @@
+{
+  "status": "ready_for_user_verdict",
+  "source": "/Users/alejandrorubiocamarero/Downloads/Birdieballs v1 (Sin Postpro).mp4",
+  "sourceSHA256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v07/Birdieballs-completo-V07.mp4",
+  "sha256": "a79056c8da8095c356ef30e5a8329ef16aab41136d1fe40bf783265122d429b5",
+  "video": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuvj420p",
+    "r_frame_rate": "60000/1001",
+    "duration": "38.004633",
+    "nb_frames": "2278"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "38.016000"
+  },
+  "mapping": {
+    "sourceStartSeconds": 0,
+    "sourceFrames": 2278,
+    "outputFrames": 2278,
+    "speed": 1,
+    "additionalCuts": 0,
+    "maxProxyVsOriginalTimestampErrorMs": 0.8340000000011116,
+    "maxOutputVsOriginalTimestampErrorMs": 0.8340000000011116,
+    "note": "Source VFR has600Hz timestamps; delivery60000/1001fps. No deliberate retiming; CFR quantization is reported."
+  },
+  "audioSync": [
+    {
+      "intervalSeconds": [
+        1,
+        4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9996531422344462
+    },
+    {
+      "intervalSeconds": [
+        8,
+        10
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9989120216412575
+    },
+    {
+      "intervalSeconds": [
+        15.2,
+        16.4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.999697580595492
+    },
+    {
+      "intervalSeconds": [
+        20,
+        22
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9997546102422951
+    },
+    {
+      "intervalSeconds": [
+        26,
+        27
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9998067484634324
+    },
+    {
+      "intervalSeconds": [
+        31.2,
+        34.4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9996934016150031
+    }
+  ],
+  "decodeWithoutErrors": true,
+  "V03Preserved": true,
+  "review": {
+    "tool": "Remotion",
+    "styleApprovedByUser": false,
+    "sourceQuizRevision": 132,
+    "independentAudioListening": false,
+    "normalSpeedPlayback": "Functional Cutroom playback at 1x reached final displayed frame at 37.987956s in one pass, with no media error; player pauses on final frame. Muted technical playback, not independent audio audition.",
+    "nativeMasks": {
+      "method": "macOS Vision person segmentation, same masks asV05",
+      "frames": [
+        550,
+        599
+      ]
+    },
+    "corrections": [
+      "Fixed semantic-block reading anchors; removed two 200px jumps",
+      "Separate motion and exits by caption role; measured V8 trajectory on selected emphasis",
+      "Mask and outline share pose; five-sample temporal caption exposure",
+      "SF Pro regular emphasis and compact combinations; source cuts and fixed fills preserved"
+    ],
+    "limitations": [
+      "Automatic person masks, not manual rotoscoping",
+      "Local ASR word timings with supplied script correction; no independent audio audition"
+    ],
+    "ui": {
+      "versionId": "78e1df27-7dbb-42d1-80b9-e0af6a5158c5",
+      "versions": 8,
+      "notesPreserved": 0,
+      "error": null
+    },
+    "inspectedContacts": [
+      "stills/spot-review.jpg",
+      "stills/final-hook-motion.jpg",
+      "stills/final-solution-motion.jpg",
+      "stills/final-continuity.jpg",
+      "stills/final-complete.jpg",
+      "stills/V07-vs-V8.jpg"
+    ],
+    "referenceComparison": {
+      "source": "BRAUDLABS V8",
+      "frames": [
+        452,
+        463,
+        550,
+        575
+      ],
+      "scope": "Focused comparison of stable anchors and compact regular-weight hero composition; not full-style equivalence."
+    }
+  },
+  "V04Preserved": true,
+  "V05Preserved": true,
+  "V06Preserved": true,
+  "motionValidation": {
+    "maxReferenceErrorPx": 0,
+    "measuredDomainFrames": [
+      2,
+      60
+    ],
+    "designedBoundaryJoins": [
+      {
+        "age": 2,
+        "positionDifference": -0.0003593170491669184,
+        "velocityDifference": 0.00014147474303172203
+      },
+      {
+        "age": 60,
+        "positionDifference": -1.1773907210715917e-06,
+        "velocityDifference": 1.0288020435567091e-07
+      },
+      {
+        "age": 66,
+        "positionDifference": 6.043753169969492e-14,
+        "velocityDifference": 6.043753169969492e-09
+      }
+    ],
+    "cuts": [
+      {
+        "id": "recuperamos",
+        "frame": 757,
+        "positionDeltaPx": 0,
+        "V06DeltaPx": 200
+      },
+      {
+        "id": "originales",
+        "frame": 794,
+        "positionDeltaPx": 0,
+        "V06DeltaPx": 200
+      }
+    ],
+    "uniformBlockBaselines": [
+      "offer",
+      "product",
+      "origins"
+    ],
+    "maskAndOutlineSynchronized": true,
+    "cues": 57,
+    "limitation": "Motion-fit equivalence applies to the measured positional curve only, not entire editor style."
+  },
+  "sameSourceProxyAndMixAsV06": true,
+  "renderSeconds": 53.103
+}

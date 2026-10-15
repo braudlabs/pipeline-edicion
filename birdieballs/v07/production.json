@@ -1,0 +1,18 @@
+{
+  "version": "V07",
+  "tool": "Remotion",
+  "renderSeconds": 53.103,
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v07/Birdieballs-completo-V07.mp4",
+  "sha256": "a79056c8da8095c356ef30e5a8329ef16aab41136d1fe40bf783265122d429b5",
+  "renderDependencies": "Offline copy of existing pinned lockfile in /private/tmp/birdie-v07-runtime",
+  "remotionVersion": "4.0.534",
+  "browser": "Existing Playwright Chromium headless shell 1234",
+  "sourceMontage": "Continuous unchanged V06 proxy, 2278 frames",
+  "audio": "Byte-identical V06 mix.wav",
+  "fonts": "Same local SF Pro Regular/Bold and condensed comic font as V06",
+  "assets": "Same source, fonts, masks and mix; no new generated footage",
+  "reference": "V8 measured translation; exact frozen coefficients in reference-profile.ts",
+  "manualDirection": "cues.ts semantic layout/motion assignment; not autonomous style planner",
+  "review": "QA.json",
+  "approval": "pending user verdict"
+}

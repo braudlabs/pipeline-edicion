@@ -1,0 +1,195 @@
+BRIEF MAESTRO ACTUAL — ECOMMERCE ANDRÓMEDA / BRAUD
+14 octubre 2026 · ENTREGA LOCAL PARA CLAUDE · No enviar a otros chats.
+
+Este archivo y05_TIMELINE/MASTER_COMPLETO_24FPS.json son la selección vigente. Ya existe un ENSAMBLE COMPLETO de85.416667s con17unidades y sin huecos. Es un preview con observaciones, no acabado final perfecto.07campañasv3 cubre el último hueco. No quedan generaciones en proceso. El audio usa VO original continua y susurro original; no se añade música.
+PREVIEW COMPLETO: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/ENSAMBLE_COMPLETO_85s_PREVIEW_CON_OBSERVACIONES.mp4
+
+OBJETIVO Y ARCO
+Vender control y criterio para producir y gestionar anuncios, no la fantasía de un botón que imprime dinero. El azul personifica la demanda inagotable de Meta: invade, insiste, quiere más. El protagonista empieza asustado/harto y termina operando con seguridad. Humor seco con objetos físicamente plausibles; caos cuando duele el problema, claridad cuando se muestra el producto y sobriedad cuando se habla de criterio/encaje. Que el espectador se ría y a la vez entienda exactamente lo que compra.
+
+Material de este anuncio: lavandería azul/crema, protagonista de bigote curvado y sudadera morada, hombre azul calvo sin cejas. NO usar el anuncio anterior de agencias del personaje con peto/pelos laterales. Los fundadores solo aparecen en10. Conservamos paleta azul/paja/morado, textura real de telas y cámara de móvil con pulso irregular leve. No añadir temblor artificial continuo, un zoom por palabra ni el mismo whoosh por corte. Los efectos de cámara ya vienen de Seedance. Aproximadamente75% cambios/cortes y25% continuidad es una intención de variedad, no razón para forzar extends. 06→07 se ha resuelto finalmente con CORTE DIRECTO a un ángulo lateral distinto. No hay extend pendiente ni hay que inventar un empalme.
+
+FUENTES Y RELOJ
+Formato1080×1920,24 fps, audio48 kHz. OUTexclusivo. Voz maestra02_AUDIO/NARRADOR_COMPLETO_ORIGINAL.mp3 desde 0, duración85,39425s, intacta. La timeline planea2050 frames=85,416667s para contenerla completa; últimos22,417 ms son cola mínima. No retiming, síntesis ni cortes para cuadrar a imagen/música. El susurro02_AUDIO/AZUL_SUSURRO_ORIGINAL.mp3 se coloca en 1,970s, simultáneo al narrador. La voz del azul debe oírse clara sin desplazar la entrada de narración. Todas las demás personas permanecen bajo VO, no añadirles labios hablando o diálogos inventados.
+
+Los tiempos por palabra de05_TIMELINE son ASR aproximado: contienen errores. Corregir ecommerce, Andrómeda, IA y también según audio/guion. Cortes de escena sí están definidos al frame. Para acentos musicales exactos, escuchar y ajustar audio al frame; no mover la voz a una cuadrícula musical.
+
+ORGANIZACIÓN Y SELECCIÓN
+01_CLIPS: originales con ambiente.02_AUDIO: dos voces originales.03_REFERENCIAS: identidad/estilo.04_MONTAJES: previews, no fuentes adicionales de voz.05_TIMELINE: MASTER_COMPLETO nuevo más documentos antiguos conservados.06_PENDIENTES: estado de producción.07_SUPLEMENTOS: historial de QA.08_MUSICA: prompt y mapa de mezcla.
+Importar originales por pistas. Si usas un preview con narrador, no superpongas otra copia del narrador. Los originales permanecen intactos. Toda toma nueva se selecciona tras QA; terminar una generación no significa aprobarla. No reemplazar una toma mejor por una peor. Los faltantes se identifican como tales, no rellenar con escenas repetidas, stock o fondos negros en una supuesta exportación final.
+
+
+ORDEN, ARCHIVO Y MONTAJE CLIP A CLIP
+
+
+00_HOOK — VISUAL_APROBADO_AUDIO_ORIGINAL_EN_PREVIEW_QC_FINAL_PENDIENTE
+MÁSTER: 0.000000000–5.416666667s | frames 0–130 | 130 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4
+IN/OUT FUENTE: 0.000000000–5.416666667s.
+ENLACE: CORTE A 01.
+VOZ: Si eres dueño de un ecommerce ya sabes que con Andrómeda necesitas anuncios nuevos cada semana.
+MONTAJE: Azul invade el oído del protagonista; éste mira a cámara asustado. Mantener el acercamiento nativo final, no superponer otro zoom. Las fotos de fondo son objetos estáticos. Narrador desde 0, susurro ORIGINAL del azul desde1,970s sobre «Andrómeda necesitas». En la fuente hay una voz generada: NO duplicarla con el MP3 original. Extraer/reconstruir solo ese ambiente si hace falta; la referencia de ensamble ya usa room tone sin diálogo de04. Revisar lipsync a velocidad normal; no se certifica aquí. Música mínima, ninguna entrada que tape el susurro.
+
+
+01_VENTANILLA_ESPERA — UTILIZABLE_BASE_DEL_MONTAJE
+MÁSTER: 5.416666667–14.583333333s | frames 130–350 | 220 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/01_ventanilla_espera.mp4
+IN/OUT FUENTE: 0.000000000–9.166666667s.
+ENLACE: CORTE.
+VOZ: Y sabes que de la forma tradicional es la misma mierda de siempre: días y días para que el editor o una agencia te entregue las piezas.
+MONTAJE: La carpeta, la persiana, el banco y las posturas de espera cuentan el problema. Conservar cortes internos de la fuente: son elipsis deliberadas. La pieza diminuta al final remata el tiempo perdido. No interpolar posturas, no mantener diez segundos por usar todo el bruto. La frustración crece sin convertirlo en gritos. Persiana y banco por delante de música, por detrás de las consonantes del narrador.
+
+
+02_TICKET_ANGULO — UTILIZABLE_BASE_DEL_MONTAJE
+MÁSTER: 14.583333333–18.750000000s | frames 350–450 | 100 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/02_ticket_angulo.mp4
+IN/OUT FUENTE: 0.500000000–4.666666667s.
+ENLACE: CORTE.
+VOZ: Quieres testear un nuevo ángulo y necesitas semanas para ver el fruto de eso.
+MONTAJE: Entrada de fuente EN0,500s, imprescindible. Papel sale de ranura y cae con peso; acabar en reacción. No tapar ticket con subtítulos grandes. Conservar motor/arrastre. La discrepancia de zapatilla antigua fue aceptada por Ale y no requiere rehacer este plano. No usarlo otra vez como ejemplo de ads nuevos.
+
+
+03_ADS_APAGADOS — UTILIZABLE_BASE_DEL_MONTAJE
+MÁSTER: 18.750000000–23.000000000s | frames 450–552 | 102 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03_ads_apagados.mp4
+IN/OUT FUENTE: 0.000000000–4.250000000s.
+ENLACE: CORTE.
+VOZ: Y durante todo ese proceso ya se te han caído los ads antiguos.
+MONTAJE: Tres pantallas del problema se apagan; el último apagado y la reacción del azul deben quedar antes del corte. Un clic eléctrico por evento real, sin boom repetido. No confundir estas pantallas agotadas con el dashboard nuevo. Bajar una capa musical acompaña al agotamiento sin silenciar el ambiente.
+
+
+03B_REPETIR — UTILIZABLE_BASE_DEL_MONTAJE
+MÁSTER: 23.000000000–25.416666667s | frames 552–610 | 58 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03b_repetir.mp4
+IN/OUT FUENTE: 0.000000000–2.416666667s.
+ENLACE: CORTE.
+VOZ: y venga a repetir otra puta vez.
+MONTAJE: Puente obligatorio de58 frames: otra bobina enorme, mirada de hartazgo. La frase «y venga a repetir otra puta vez» va ENTERA. No unir03 con 04 saltándose este archivo. Dejar que el gag se resuelva con la bobina y la mirada; no repetir ticket02 ni censurar el taco con beep.
+
+
+04_SUDADERA — UTILIZABLE_BASE_DEL_MONTAJE
+MÁSTER: 25.416666667–32.583333333s | frames 610–782 | 172 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/04_sudadera.mp4
+IN/OUT FUENTE: 0.000000000–7.166666667s.
+ENLACE: CORTE.
+VOZ: No vengo a hablarte de tu problema, ya tienes suficiente con eso y con la sudadera de este tío. Vengo a hablarte de la solución.
+MONTAJE: Inicio más contenido; comentario de la sudadera aprox29,05–30,66s absolutos. La cámara baja al estampado y vuelve a cara mientras se cubre. El dibujo sigue siendo tela impresa. Quitar batería musical durante este comentario permite humor seco; mantener tela/room tone. En «solución», aprox31–32,3, recuperar postura/impulso. Ninguna cola de varios segundos enseñando algo en silencio.
+
+
+05_PRESENTACION — UTILIZABLE_BASE_DEL_MONTAJE
+MÁSTER: 32.583333333–35.000000000s | frames 782–840 | 58 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/05_presentacion.mp4
+IN/OUT FUENTE: 0.000000000–2.416666667s.
+ENLACE: CORTE_A_06.
+VOZ: Instalaremos en tu tienda esta maquinita.
+MONTAJE: Solo 58 frames: coloca la máquina crema real sobre mostrador. Respetar tamaño, bisel negro inclinado, botón ámbar, ratón y cable. El gesto posterior de frenar al azul del bruto NO cabe aquí. Corte limpio al06; no se requiere extend05→06. Música pasa a orden y seguridad, sin fanfarria de gran revelación.
+
+
+06_CINCO_ADS — CANDIDATO_UI_FILA_DUPLICADA
+MÁSTER: 35.000000000–38.333333333s | frames 840–920 | 80 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/06_V5_CANDIDATO_FILA_DUPLICADA.mp4
+IN/OUT FUENTE: 0.000000000–3.333333333s.
+ENLACE: CORTE_A_07.
+VOZ: Le pedirás cinco ads para un concepto nuevo, te los dará.
+MONTAJE: La v5 ya está generada y copiada como candidato. Muestra seis filas (1,2,3,4,5,5); no es versión final y requiere corrección de UI. El07 se ha lanzado como toma independiente para avanzar sin propagar esta UI. Objetivo: ambos protagonistas completos con máquina pequeña; dashboard perlado BRAUD solo DENTRO de pantalla; cinco versiones y un reproductor con cortes internos de zapatilla EN MOVIMIENTO. No aceptar por defecto como definitiva porque terminó. Mantener las capturas como estilo, no copiar sus actores ni textos de otro proyecto. Usar80 frames exactos del resultado elegido. La v4 es alternativa existente, con vídeo real pero UI de ejemplo; puede servir solo si el editor corrige la pantalla con seguimiento de perspectiva. No reutilizar versión de fondo blanco. La nueva v5 reemplaza únicamente si mejora el resultado.
+
+
+07_GESTION — UTILIZABLE_PREVIEW_CON_LIMITACIONES
+MÁSTER:38.333333333–42.583333333s | frames920–1022 |102frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/07_CAMPANAS_V3_REVISADO.mp4
+IN/OUT FUENTE:0–4.25s. CORTE desde06 y hacia08, noextend.
+VOZ: Luego le pedirás que los gestione en las campañas él mismo, te lo hará.
+QA: Tres vídeos de zapatilla en movimiento y tres checks verdes tras cursor/clic, antes2.25s. Dueño deja ratón y cruza brazos antes4.25s. SinON/OFFcontradictorio. Mantiene frontal, no ángulo sobre hombro solicitado; encabezado mal escrito y botón inferior ilegible. Función visual utilizable para preview, no acabadoUIperfecto. Escucha final pendiente.
+PREVIEW: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/07_CAMPANAS_V3_PREVIEW_CON_NARRADOR.mp4
+Audio original conservado; narrador original sinretiming. Escucha final pendiente.07anteriores siguen excluidas.
+
+08_OPTIMIZACION — CANDIDATO_VISUAL_UTILIZABLE_CON_LIMITACIONES
+MÁSTER:42.583333333–51.541666667s | frames1022–1237 |215frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/08_GAG_V3_CANDIDATO_UI_PENDIENTE.mp4
+IN/OUT FUENTE:0–8.958333333s. CORTE desde07 y hacia09. Sin retiming.
+VOZ: Y luego te dirá: «Hey, estos dos ángulos han funcionado espectacular, ¿quieres que te empiece a generar más versiones?». Y tú le dirás «Sí» y escalarás.
+MONTAJE: Nueva generación08_optimizacion_gag_v3, job83109f4d-2593-4dad-8a85-328002236db2. Un anuncio de zapatilla girando al principio; desde~2s dos paneles de producto EN MOVIMIENTO (macro y pies caminando). Sin cara dentro de anuncios ni zapatilla flotante observada. Zoom nativo al azul~3.8s; zoom al protagonista~7.7s, que queda en primer plano durante «sí»50.48–50.64máster. Vuelve a ambos~8.7s con botón verde. Conservar estas cámaras nativas sin añadir otro zoom encima ni whooshes repetidos.
+QA REAL: fotogramas cada0.5s y muestreo fino alrededor de ambos gags; mano sobre ratón sin anomalía evidente en muestra. Persiste UI lateral1,2,3,4,5,5 y botón ilegible, estilo no fiel al dashboard BRAUD. Asentimiento sutil. Azul abre la boca durante reacción; ASR no reconoce palabras. Audio ASR [Música] y clasificador local ambiguo: NO confirman música ni ausencia; escucha final pendiente. Ambiente/SFX conservados, narrador original intacto y ninguna música añadida. Se entrega candidato para preview, no aprobado por usuario.
+PREVIEW: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/08_GAG_V3_PREVIEW_CON_NARRADOR.mp4
+EXCLUIDOS:08v2original y08_optimizacion_pantalla reparado localmente siguen RECHAZADOS. No restaurar, repetir ni usar como cobertura.
+
+09_PAPELES — GENERADO_DISPONIBLE_CON_OBSERVACION_DE_BEAT
+MÁSTER: 51.541666667–55.833333333s | frames 1237–1340 | 103 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/09_PAPELES_V2_GENERADO_AJUSTE_DE_BEAT.mp4
+IN/OUT FUENTE: 0.000000000–4.291666667s.
+ENLACE: CORTE.
+VOZ: Pero eh, que si metes ideas de mierda sacarás el doble de mierda.
+MONTAJE: YA GENERADO: v2, no falta producirlo. Se ven dos papeles. La observación anterior era de causalidad/tempo: caen en1,125–1,625s de fuente, mientras «el doble» suena hacia54,79–55,07absolutos (relativo3,25–3,53). Base sugerida: conservar0–4,2917de fuente y tratar la caída como anticipación visual; sostener la reacción cuando llega «el doble». No congelar, estirar voz, repetir caída ni añadir otro papel. Si se busca sincronía exacta, el editor debe encontrar cobertura ORIGINAL anterior a caída dentro de esta toma; si no existe, conservar anticipación. No fabricar un relleno de otra escena. Bruto y preview con voz incluidos; es candidato con esta limitación explícita, no nuevo aprobado automático. ASR no detectó palabras claras; escucha final pendiente.
+
+
+10_FUNDADORES — VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+MÁSTER: 55.833333333–61.583333333s | frames 1340–1478 | 138 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/10_FUNDADORES_VISUAL_REVISADO.mp4
+IN/OUT FUENTE: 0.000000000–5.750000000s.
+ENLACE: CORTE.
+VOZ: Pero para eso están el melenas y el cabeza kiwi, que llevan haciendo estos ads con IA meses y meses.
+MONTAJE: Usar UNA SOLA VEZ. Elliot y kiwi son las personas de las referencias, no los actores ficticios. La fuente presenta Elliot, kiwi, luego ambos. Los nombres de voz aprox56,72–57,30y57,54–58,30; la imagen de kiwi llega aprox2,5 sde fuente/58,33absolutos, revisar corte por reconocimiento sin retimar narración. Handle @notelliotkay sobre Elliot; @notkurtgodel sobre kiwi. Entrada discreta de 4–6 frames, sostener al menos1scuando posible, sin cubrir cara. En dos-shot ambos rótulos pueden permanecer correctamente anclados. No subtitular el handle como si el narrador lo dijese. No reciclar fundadores al CTA.
+
+
+11_CRITERIO — VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+MÁSTER: 61.583333333–66.041666667s | frames 1478–1585 | 107 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/11_CRITERIO_VISUAL_REVISADO_AUDIO_PENDIENTE.mp4
+IN/OUT FUENTE: 0.000000000–4.458333333s.
+ENLACE: CORTE.
+VOZ: E instalarán en tu tienda el criterio que necesitas para hacer este tipo de ads.
+MONTAJE: Bajar intensidad: seleccionar entre propuestas expresa juicio humano. El gesto de apartar dos y elegir una debe leerse; no cubrir manos con tipografía ni meter otro zoom. Palabra «criterio» merece peso vocal, no un carrusel de titulares. Esta pausa de efectos da credibilidad al producto. No cortar a maquinaria antes de que se entienda la decisión. Fuente revisada visualmente; audio nativo por escuchar antes de aprobar mezcla.
+
+
+12_HABITACION — CANDIDATO_VISUAL_CON_LIMITACIONES
+MÁSTER: 66.041666667–70.041666667s | frames 1585–1681 | 96 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/12_HABITACION_V3_CANDIDATO_PROYECCION.mp4
+IN/OUT FUENTE: 0.000000000–4.000000000s.
+ENLACE: CORTE.
+VOZ: Para que no estés solo contra una máquina que te puede llenar la habitación de creativos.
+MONTAJE: V3 ya generada y disponible como candidato. Muestra producto en movimiento y cortes internos, con el azul accionando un interruptor. Los proyectores y cables existen desde inicio, pero sus lentes apuntan hacia cámara y las proyecciones aparecen detrás: la geometría óptica necesita ajuste o aceptación consciente. No declarar que la causalidad física está validada. No recortar para ocultar un problema si destruye la reacción o el sentido del plano. Mostrar zapatilla moviéndose y cortes internos, no fotos ni caras repetidas. Cámara retrocede y revela cantidad; prota abrumado, azul orgulloso. El rack de tablets de la versión anterior no comunica esto y queda fuera de selección. Crescendo musical solo de cuatro segundos: más actividad, sin subida brutal ni tapar frase. Si termina pero no cumple, registrar incidencia real.
+
+
+13_METAGAG — VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+MÁSTER: 70.041666667–74.416666667s | frames 1681–1786 | 105 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/13_METAGAG_VISUAL_REVISADO.mp4
+IN/OUT FUENTE: 0.000000000–4.375000000s.
+ENLACE: CORTE.
+VOZ: Me olvidaba, este mismo ad lo ha hecho la maquinita de la que te hablo.
+MONTAJE: Máquina reproduce una recreación del hook con los mismos protagonistas; se entiende «este mismo ad». La fuente no contiene pegado el hook original exacto: no describirlo como captura literal. Si se desea exactitud, hacer corner-pin del hook original exclusivamente DENTRO del player y conservar bisel/reflejos, sin reciclarlo como escena a pantalla completa. Mantener mirada cómplice y no alargar pausa. Música recupera pequeño motivo del inicio, más relajado: reconocimiento, no risita musical.
+
+
+14_CTA — VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+MÁSTER: 74.416666667–82.958333333s | frames 1786–1991 | 205 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/14_CTA_HONESTO_VISUAL_REVISADO.mp4
+IN/OUT FUENTE: 0.000000000–8.541666667s.
+ENLACE: CORTE.
+VOZ: Así que si la quieres: pincha abajo y reserva una llamada con nosotros. Veremos si tiene encaje para ti; si lo tiene te lo diremos y si no, también.
+MONTAJE: El gesto hacia abajo acompaña «pincha abajo» aprox75,56–76,22s. Rótulo opcional discreto «Reserva una llamada», sin URL inventada, sin pop-ups de botón cada segundo. Aproximación más calma; «si encaja… si no, también» necesita sinceridad. De78,3a82,95quitar actividad percusiva y dejar respirar. No poner urgencia falsa, contadores, garantías o nuevos claims. Mantener gesto y cara en zona visible con subtítulos.
+
+
+15_SALIDA — VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE
+MÁSTER: 82.958333333–85.416666667s | frames 1991–2050 | 59 frames.
+FUENTE: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/15_SALIDA_V2_PANTALLA_ENCENDIDA.mp4
+IN/OUT FUENTE: 0.750000000–3.208333333s.
+ENLACE: FIN.
+VOZ: Me voy que quiero seguir produciendo ads.
+MONTAJE: Elegir V2 de pantalla encendida, no V1oscura. Fuente empieza0,750spara entrar en acción. En la timeline completa propongo59 frames (hasta3,208333s), un frame más que el preview previo de58: así se conserva toda la voz85,39425s dentro de85,416667s de imagen. Termina trabajando con anuncio de zapatilla en movimiento, no inmóvil mirando. Música recoge pulso, resuelve antes de85,2ydecay corto. Sin logo extra, negro ni cola que maten final.
+
+
+SONIDO, MÚSICA Y ESPACIO
+Separar pistas: narrador, susurro, ambiente nativo/SFX, música y rótulos. Conservar fondo nativo de clips; nunca mutearlos en bloque al poner VO. Ganancia0,65de previews es punto de partida, no nivel final. Automatizar golpes que tapen voz; cruces de ambiente de2–4 frames si evitan clic, sin doblar acciones. El hook requiere limpieza de voz generada: es una excepción concreta, no permiso para quitar fondos al resto. Revisar cada bruto a oído: ASR con «Música» o sin palabras no certifica ausencia de música/gibberish. Si hay música accidental, separar/atenuar esa capa conservando efectos cuando sea posible y dejar constancia.
+
+Música: una pieza instrumental de85,4s según08_MUSICA/PROMPT_ELEVENLABS.txt. REVISIÓN DE ALE: debe sonar claramente cómica, como un gag: pizzicatos nerviosos, fagot descarado, piano juguetón y silencios que rematan miradas; motivo insistente para el azul. Aproximadamente118BPM. Suavizar en fundadores, criterio y encaje sin abandonar la identidad de comedia. El mapa de tiempos manda sobre la forma que devuelva el generador; los acentos exactos se ajustan en edición de música, nunca retimando narrador. Si no obedece un silencio o resolución, cortar/reorganizar instrumental con crossfade corto en punto limpio. Música presente desde 0pero mínima para el hook; no intro de varios segundos. No generar voces ni usar loops distintos sin identidad común. Ningún nuevo gasto de música autorizado por este brief: se entrega el prompt solicitado, no una generación musical.
+
+SUBTÍTULOS Y RÓTULOS
+Subtítulos corregidos con puntuación, unidades legibles de2–6palabras según frase, máximo2 líneas. Blanco cálido con sombra fina sobre imagen; pequeño énfasis azul cuando aporta jerarquía. Una sola familia sans limpia. Tomar tamaño base52–64 pxa1080ancho y ajustar por plano/lectura. No poner banda vacía debajo del vídeo ni mover película hacia arriba. Zona de partida:100 pxde margen lateral y200 pxdel borde inferior; desplazar una frase entera si tapa mano, player, ticket o reacción. Verificar encuadres en móvil: las medidas son guía, no protección automática de interfaces de plataforma. No carnaval palabra a palabra ni karaoke obligatorio. Reservar énfasis para «días y días», «5 ads» o «criterio» cuando imagen lo permita, no todos a la vez. No tapar oído/boca del azul ni grandes ojos del prota. Handles solo en10. No inventar métricas en overlays.
+
+REVISIÓN FINAL Y ENTREGA
+1. Confirmar lista de17unidades, incluido03b, y cero frases perdidas. Narrador de 0 a 85,39425sin retiming.
+2. Hook con susurro original una sola vez; boca del azul revisada a velocidad normal; prota no habla.
+3. 06→07 y07→08 son cortes entre ángulos independientes. Mantener continuidad de máquina/vestuario y evitar repetir clics; no buscar un prefijo de extend que no existe.
+4. Dentro de pantallas hay producto en movimiento con cortes de vídeo, no fotos con icono play. Los papeles09son metáfora deliberada de idea mala, no demostración del producto.
+5. Anatomía/manos/objetos y reacción sin congelados. Fundadores una sola vez, handles bien asignados.
+6. Voz inteligible en altavoz pequeño y auriculares, sin tercera voz o música nativa accidental. Conservar foley. Música acompaña arco y se retira en momentos señalados.
+7. Exportar previewH.2641080×1920/24 fps, AAC48 kHz; mantener proyecto editable y stems. Como objetivo de mezcla inicial, voz estable y picos finales por debajo de−1 dBTP; medir y escuchar antes de fijar loudness. No tratar un valor como sustituto de inteligibilidad.
+8. Entregar changelog de selección/fuentes/empalmes; no publicar ni mandar a otros chats. Si quedan pendientes, nombrar exportaciónWIPy listar huecos, sin presentarla como terminada.

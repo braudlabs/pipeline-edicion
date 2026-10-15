@@ -1,0 +1,1 @@
+[{"name": "ae_save_project", "arguments": {"path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad3-pipeline/ae/Backup-Cocina-V3.aep"}}, {"name": "ae_do", "arguments": {"operation": "project.new", "args": {"save": true}}}, {"name": "ae_catalog", "arguments": {"category": "timeline"}}, {"name": "ae_do", "arguments": {"operation": "render.list_templates", "args": {}}}]

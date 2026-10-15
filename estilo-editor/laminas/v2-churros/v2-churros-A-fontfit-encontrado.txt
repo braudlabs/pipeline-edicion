@@ -1,0 +1,12 @@
+# v2-churros f65 «encontrado»  tinta real: 559x87 px
+Helvetica Bold                   IoU 0.944  cuerpo  118px  interletrado   -72 milésimas (-8.5px)
+Arial Bold                       IoU 0.908  cuerpo  120px  interletrado   -80 milésimas (-9.6px)
+SF Pro Display Bold              IoU 0.901  cuerpo  122px  interletrado   -69 milésimas (-8.4px)
+Helvetica Neue Bold              IoU 0.899  cuerpo  119px  interletrado   -80 milésimas (-9.6px)
+SF Pro (sistema) Bold            IoU 0.883  cuerpo  122px  interletrado   -68 milésimas (-8.3px)
+SF Pro (sistema) Semibold        IoU 0.863  cuerpo  124px  interletrado   -57 milésimas (-7.1px)
+Helvetica Neue Medium            IoU 0.832  cuerpo  119px  interletrado   -59 milésimas (-7.0px)
+SF Pro (sistema) Heavy           IoU 0.794  cuerpo  122px  interletrado   -96 milésimas (-11.7px)
+Arial Black                      IoU 0.724  cuerpo  115px  interletrado  -146 milésimas (-16.8px)
+Helvetica Neue Condensed Bold    IoU 0.601  cuerpo  125px  interletrado    +3 milésimas (+0.4px)
+lámina: estilo-editor/analysis/tmp/v2-churros-A/fontfit-encontrado.jpg (rojo = real, verde = candidata, amarillo = coinciden)

@@ -1,0 +1,28 @@
+{
+  "request": "Add a motion graphic; specifically not in the maquinita",
+  "selected": "calendar leaves accelerating over waiting shot",
+  "windowOutputFrames": [
+    480,
+    551
+  ],
+  "seconds": [
+    10,
+    11.479166666666666
+  ],
+  "concepts": [
+    "physical leaves",
+    "calendar grid traversal",
+    "accelerated clock"
+  ],
+  "references": [
+    "T3 accelerated calendar states; locally inspected"
+  ],
+  "preserved": [
+    "maquinita footage and captions",
+    "sweatshirt monochrome/no-caption gag",
+    "native hook audio",
+    "V04 mix and montage",
+    "three contour/fill moments"
+  ],
+  "status": "rendered_prototype_pending_user_verdict"
+}

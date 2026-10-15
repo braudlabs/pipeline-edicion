@@ -1,0 +1,35 @@
+{
+  "version": "V3",
+  "hero": "La máquina de fabricar creativos",
+  "duration_seconds": 46.3,
+  "fps": 30,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "status": "ready_for_review",
+  "project": "ae/v3/El-Sistema-V3.aep",
+  "design": "src/v3/design.json",
+  "voice": "assets/v3/Voice.wav",
+  "mix": "assets/v3/Mix.wav",
+  "preview": "output/v3/Avance-V3.mp4",
+  "user_approved": false,
+  "output": "output/v3/El-Sistema-V3.mp4",
+  "delivery_root": "/Users/alejandrorubiocamarero/Desktop/El director/video-saas/videos/el-sistema",
+  "validation": {
+    "encoded_frames": 1389,
+    "duration_seconds": 46.3,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "fps": 30,
+    "decode_errors": 0,
+    "missing_media": 0,
+    "missing_fonts": 0,
+    "integrated_lufs": -15.33,
+    "true_peak_dbtp": -1.46,
+    "visual_review": "28 encoded frames and 4 sampled transition strips",
+    "black_scan_review": "42.667–43.533 flagged by sparse-text coverage; visible Tú, la idea title confirmed at 43.2; intentional black background"
+  }
+}

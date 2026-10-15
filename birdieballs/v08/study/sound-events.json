@@ -1,0 +1,98 @@
+[
+  {
+    "file": "whoosh-short.mp3",
+    "time": 2.19,
+    "gain": 0.075,
+    "purpose": "entrada de riñón"
+  },
+  {
+    "file": "pop.mp3",
+    "time": 2.68,
+    "gain": 0.04,
+    "purpose": "remate en bolas"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 4.83,
+    "gain": 0.026,
+    "purpose": "segunda insistencia"
+  },
+  {
+    "file": "pop.mp3",
+    "time": 5.0,
+    "gain": 0.045,
+    "purpose": "tercera insistencia"
+  },
+  {
+    "file": "impact-bass-1.mp3",
+    "time": 6.22,
+    "gain": 0.06,
+    "purpose": "NO sobre impacto original"
+  },
+  {
+    "file": "whoosh-short.mp3",
+    "time": 9.25,
+    "gain": 0.075,
+    "purpose": "solución en profundidad"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 10.74,
+    "gain": 0.036,
+    "purpose": "literalmente"
+  },
+  {
+    "file": "whoosh-short.mp3",
+    "time": 13.08,
+    "gain": 0.05,
+    "purpose": "originales"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 14.3,
+    "gain": 0.04,
+    "purpose": "favoritas"
+  },
+  {
+    "file": "whoosh-short.mp3",
+    "time": 20.81,
+    "gain": 0.035,
+    "purpose": "barrido de revisión"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 21.4,
+    "gain": 0.025,
+    "purpose": "una"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 22.06,
+    "gain": 0.035,
+    "purpose": "una revisada"
+  },
+  {
+    "file": "pop.mp3",
+    "time": 25.16,
+    "gain": 0.044,
+    "purpose": "nuevas"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 30.16,
+    "gain": 0.025,
+    "purpose": "más baratas"
+  },
+  {
+    "file": "whoosh-short.mp3",
+    "time": 32.16,
+    "gain": 0.045,
+    "purpose": "tuyas"
+  },
+  {
+    "file": "click-soft.mp3",
+    "time": 36.88,
+    "gain": 0.026,
+    "purpose": "por menos"
+  }
+]

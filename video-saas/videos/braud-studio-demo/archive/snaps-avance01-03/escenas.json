@@ -1,0 +1,26 @@
+{
+ "viewport": {
+  "w": 1512,
+  "h": 900,
+  "scrollY": 275
+ },
+ "videos": [
+  {
+   "x": 241,
+   "y": 115.796875,
+   "w": 512,
+   "h": 548,
+   "src": "http://127.0.0.1:8810/media/V06d",
+   "poster": "http://127.0.0.1:8810/media/V06d-poster"
+  }
+ ],
+ "marks": {
+  "prepare": {
+   "x": 803,
+   "y": 674.921875,
+   "w": 288,
+   "h": 41,
+   "text": "Preparar esta escena"
+  }
+ }
+}

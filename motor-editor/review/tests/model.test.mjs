@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {nearestFrame,validateNote,exportFeedback} from '../model.mjs';
+const v={id:'v1',frameCount:48,frameTimes:Array.from({length:48},(_,i)=>i/24)};
+const note=()=>({startFrame:5,endFrame:20,text:'Mover el foco',category:'imagen',shapes:[{type:'rect',frame:5,points:[{x:.2,y:.3},{x:.5,y:.7}]},{type:'arrow',frame:20,points:[{x:.5,y:.7},{x:.9,y:.2}]}]});
+test('variable-rate playback selects the actual timestamp interval',()=>{const times=[0,.033,.066,.15,.19];assert.equal(nearestFrame(times,.14),2);assert.equal(nearestFrame(times,.15),3);assert.equal(nearestFrame(times,9),4);assert.equal(nearestFrame(times,-1),0);});
+test('both interval endpoints and frame zero are valid',()=>{assert.deepEqual(validateNote(note(),v),note());assert.equal(validateNote({...note(),startFrame:0,endFrame:0,shapes:[]},v).startFrame,0);});
+test('out-of-range, fractional and reversed frame selections fail',()=>{for(const [startFrame,endFrame] of [[-1,2],[0,48],[20,5],[.1,5]])assert.throws(()=>validateNote({...note(),startFrame,endFrame},v),/Intervalo/);});
+test('marks must belong to the selected interval',()=>{const n=note();n.shapes[0].frame=4;assert.throws(()=>validateNote(n,v),/Marca fuera/);});
+test('spatial coordinates and shape geometry are validated',()=>{const n=note();n.shapes[0].points[0].x=1.2;assert.throws(()=>validateNote(n,v));n.shapes[0].points[0].x=.2;n.shapes[0].points.pop();assert.throws(()=>validateNote(n,v));});
+test('exports retain version identity, timestamps and saved evidence',()=>{const p={id:'p',versions:[v],notes:[{...note(),versionId:v.id,snapshots:[{frame:5,image:'frame-5.png'}]}]};const out=exportFeedback(p);assert.equal(out.notes[0].versionId,'v1');assert.equal(out.versions[0].frameTimes[5],5/24);assert.match(out.frameConvention,/inclusive/);assert.equal(out.notes[0].snapshots[0].frame,5);});

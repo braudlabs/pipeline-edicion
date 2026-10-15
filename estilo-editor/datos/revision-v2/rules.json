@@ -1,0 +1,1497 @@
+[
+  {
+    "id": "C01",
+    "category": "Posición",
+    "title": "El ancla pertenece a una composición y a una función",
+    "when": "Antes de colocar el primer subtítulo de un bloque.",
+    "observed": "La narración cambia entre posiciones altas, centro, laterales y baja según plano/capas; se mantiene localmente aunque se mueva la cámara.",
+    "inference": "La función verbal y la jerarquía del plano explican más que una altura global por marca.",
+    "action": "Definir layoutId persistente, railId y coordenadas normalizadas; evaluar zonas durante todo el bloque. Cambiar solo al variar función, plano o competencia entre capas.",
+    "exceptions": [
+      "No seguir el centro de la cara cuadro a cuadro.",
+      "Una ausencia de colisión no basta para justificar la composición."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 919,
+        "f1": 1134,
+        "observation": "Narración y20%; protesta y50%",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "landing",
+        "f0": 4738,
+        "f1": 5077,
+        "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "lafabrica-v2p1",
+        "f0": 1559,
+        "f1": 1623,
+        "observation": "Derecha50%→centro26% sin corte",
+        "level": "prior_review",
+        "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+        "independentFamily": "lafabrica-v2p1"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "C02",
+    "category": "Posición",
+    "title": "El rostro no es una zona prohibida universal",
+    "when": "Hay texto sobre el sujeto.",
+    "observed": "El rail puede cruzar boca/cuerpo; titulares pueden quedar detrás de cabeza, delante de ella o con contorno frontal.",
+    "inference": "La legibilidad y el efecto de profundidad son decisiones distintas; no resolver ambos con evitar caras.",
+    "action": "Separar avoidSemanticObject, allowFaceOverlap y occlusionPolicy; validar máscara por letras/objeto visible.",
+    "exceptions": [
+      "No inferir máscara por intersección de cajas OCR.",
+      "No usar una elipse genérica como sustituto del pelo/casco."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 734,
+        "f1": 844,
+        "observation": "Rail sobre boca en primer plano",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "landing",
+        "f0": 913,
+        "f1": 944,
+        "observation": "Funcionan detrás de cabeza y CRT, sin outline",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 2120,
+        "f1": 2220,
+        "observation": "Q4 delante, no máscara demostrada",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "C03",
+    "category": "Tamaño",
+    "title": "Escala de lectura y escala de titular son sistemas distintos",
+    "when": "Se decide tamaño de una palabra.",
+    "observed": "El rail conserva tamaño local aunque cambie la longitud; términos protagonistas alcanzan gran ancho, y palabras largas pueden reducirse.",
+    "inference": "Rol, énfasis y espacio condicionan escala; número de letras solo impone el ajuste final.",
+    "action": "Elegir primero rol y cuerpo óptico de bloque; después shrink-to-fit limitado. No estirar cada palabra al mismo ancho. Registrar tinta real y métricas de fuente por separado.",
+    "exceptions": [
+      "Automáticamente grande en ancho puede seguir siendo rail.",
+      "No promover cifras automáticamente: dependen del argumento."
+    ],
+    "evidence": [
+      {
+        "slug": "v7-ads90-rev",
+        "f0": 33,
+        "f1": 373,
+        "observation": "Te≈229px vs entrega≈745px dentro del mismo rail grande",
+        "level": "prior_review",
+        "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+        "independentFamily": "ads90_variants"
+      },
+      {
+        "slug": "v5-maquina",
+        "f0": 690,
+        "f1": 723,
+        "observation": "Automáticamente≈717px, rail",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      },
+      {
+        "slug": "v5-maquina",
+        "f0": 2099,
+        "f1": 2120,
+        "observation": "Personalmente reducido para caber",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "C04",
+    "category": "Tamaño",
+    "title": "No convertir OCR en fontSize",
+    "when": "Se ajustan tamaño o fuente a una referencia.",
+    "observed": "Caja de tinta, caja OCR y cuerpo nominal difieren; máscaras/acentos/fondo alteran mediciones.",
+    "inference": null,
+    "action": "Ajustar render de glifos sobre ROI nativa, comparar varias palabras no ocluidas, guardar fuente candidata, tracking y error. fontSize=null mientras no esté calibrado.",
+    "exceptions": [
+      "Dos fuentes parecidas pueden producir ajustes casi equivalentes."
+    ],
+    "evidence": [
+      {
+        "slug": "v5-maquina",
+        "f0": 390,
+        "f1": 390,
+        "observation": "Montamos: Helvetica Bold IoU .905 frente SFPro .815 en ajuste anterior",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      },
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 2350,
+        "f1": 2350,
+        "observation": "Analizaremos: Helvetica .910 frente SFPro .800",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {
+      "exactFontRecovered": false,
+      "SFPro": "Decisión de implementación previa, no fuente universal identificada",
+      "V8_multiword_font_fit": [
+        {
+          "text": "pagar",
+          "frame": 590,
+          "bestCandidate": "SF Pro Display Regular",
+          "IoU": 0.9522516977286257,
+          "size": 409,
+          "trackingPx": -29.36161422729493
+        },
+        {
+          "text": "Braudd",
+          "frame": 1679,
+          "bestCandidate": "SF Pro Display Regular",
+          "IoU": 0.9241099606515988,
+          "size": 313,
+          "trackingPx": -20.882825469970705
+        }
+      ],
+      "V8_caution": "SF Pro Display Regular is a strong local candidate for these two heroes, not universal font identification. Size/tracking are calibrated fits, not original project values."
+    },
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "C05",
+    "category": "Multilínea",
+    "title": "Apoyo + núcleo semántico + remate",
+    "when": "Una frase contiene un término que lleva la promesa/coste/acción.",
+    "observed": "Pequeña línea de contexto, palabra principal grande y a veces complemento inferior; el complemento puede anclarse a izquierda del héroe.",
+    "inference": "La jerarquía sintáctica permite retener contexto mientras enfatiza el concepto principal.",
+    "action": "Segmentar unidades sintácticas, no partir por caracteres. Layout de dos/tres niveles ligado a cajas de tinta. Guardar alignTo=hero.left/center y offsets medidos.",
+    "exceptions": [
+      "No toda frase larga se convierte en multilínea.",
+      "El apoyo no debe saltar de ancla por cambiar de una a dos líneas sin una transición diseñada."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 545,
+        "f1": 619,
+        "observation": "no es solo / pagar / otro sueldo",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v8",
+        "f0": 2690,
+        "f1": 2780,
+        "observation": "puedes crear / nuevas / versiones",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v1-pagado",
+        "f0": 117,
+        "f1": 137,
+        "observation": "ni me han / pagado",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "C06",
+    "category": "Multilínea",
+    "title": "Compactación sin un interlineado universal",
+    "when": "Se compone un bloque con tamaños distintos.",
+    "observed": "Las líneas forman unidades compactas; algunos apoyos llegan a solapar ópticamente partes de glifos durante entrada.",
+    "inference": "La masa tipográfica cuenta más que un line-height fijo del contenedor.",
+    "action": "Medir gap de tinta por pareja de líneas y por frame, acentos/descendentes, sombra y blur. Proponer gap relativo a altura óptica y comprobarlo visualmente. No copiar 6–8px de V03 como ley de las refs.",
+    "exceptions": [
+      "No corregir el movimiento de entrada con un ancla que desplace todo el bloque.",
+      "Las composiciones que rodean un objeto no obedecen stack vertical."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 550,
+        "f1": 575,
+        "observation": "Apoyos entran separados y se compactan alrededor de pagar",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "lafabrica-v1",
+        "f0": 106,
+        "f1": 121,
+        "observation": "Dos flancos alrededor del megáfono",
+        "level": "prior_review",
+        "sourceSha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+        "independentFamily": "lafabrica-v1"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "C07",
+    "category": "Multilínea",
+    "title": "Acumulación editorial, no salto automático de línea",
+    "when": "Se enfatiza una pregunta, enumeración o demostración verbal.",
+    "observed": "La pregunta V8 construye seis filas; lista Landing conserva cuatro términos; una frase ordinaria puede reemplazar una palabra cada vez.",
+    "inference": "Retener términos permite comparar o materializar una idea completa.",
+    "action": "Definir grafo de dependencias: aparecer, mantener, sustituir, reubicar; cada palabra lleva tiempos propios. Mantener las ya asentadas si no hay reflow observado.",
+    "exceptions": [
+      "No reanimar todas las filas al entrar la siguiente.",
+      "No limitar el sistema a máximo dos líneas."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 2563,
+        "f1": 2672,
+        "observation": "Pregunta de seis filas, alternancia blanco/lima",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "landing",
+        "f0": 4738,
+        "f1": 5076,
+        "observation": "planos/escenas/hooks/visuales persistentes",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "lafabrica-v2p1",
+        "f0": 1515,
+        "f1": 1558,
+        "observation": "Frase gráfica refluye al añadirse palabras",
+        "level": "prior_review",
+        "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+        "independentFamily": "lafabrica-v2p1"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "C08",
+    "category": "Multilínea",
+    "title": "Dos voces son dos pistas, no una multilínea",
+    "when": "Narración y diálogo se superponen.",
+    "observed": "V8 narra arriba y protesta en lima central; V6rev narra blanco y diálogo amarillo abajo.",
+    "inference": "Color/posición permiten separar emisores simultáneos.",
+    "action": "Asignar speakerId y railId con in/out independientes; alinear cada voz con su frase. Conservar pausa de un hablante mientras sigue el otro.",
+    "exceptions": [
+      "La versión original V6 no tiene la misma pista amarilla."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 1040,
+        "f1": 1134,
+        "observation": "DEJADME/EN/PAZ/JODER!",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 961,
+        "f1": 1088,
+        "observation": "Quiero un UGC... amarillo y completo blanco",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      },
+      {
+        "slug": "v7-ads90-rev",
+        "f0": 978,
+        "f1": 1033,
+        "observation": "Retiming distinto al V6rev, no offset global",
+        "level": "prior_review",
+        "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A01",
+    "category": "Entradas",
+    "title": "Sustitución directa del rail",
+    "when": "La palabra sirve a lectura continua.",
+    "observed": "Porque y contratar en V8 aparecen legibles de una vez; Landing la reemplaza es sin fundido visible.",
+    "inference": "La animación reducida preserva el flujo cuando la imagen ya lleva acción.",
+    "action": "Evento replace at frame, sin desplazar el ancla, sin añadir bounce por defecto. Comprobar el frame previo y el primero visible.",
+    "exceptions": [
+      "No aplicar a titulares por analogía."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 450,
+        "f1": 469,
+        "observation": "Porque452 / contratar463, control continuo",
+        "level": "native_review_this_revision",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "landing",
+        "f0": 4317,
+        "f1": 4324,
+        "observation": "La4321 sustituye es",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "v7-ads90-rev",
+        "f0": 374,
+        "f1": 385,
+        "observation": "¿Pero ya firme en374",
+        "level": "prior_review",
+        "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A02",
+    "category": "Entradas",
+    "title": "Ascenso desacelerado sin escala probada",
+    "when": "Un término protagonista o una fila nueva toma foco.",
+    "observed": "Gracias y hooks en Landing ascienden con ancho y altura casi constantes; aumenta contraste.",
+    "inference": "Entrada espacial breve destaca el término sin hacer un pop de escala.",
+    "action": "Separar translationY, scale, contrastProxy; ajustar curva a la serie de tinta y guardar dominio/error, no escoger spring por costumbre.",
+    "exceptions": [
+      "El contraste medido no es alpha.",
+      "OCR temprano puede subestimar caja y simular crecimiento."
+    ],
+    "evidence": [
+      {
+        "slug": "landing",
+        "f0": 9,
+        "f1": 55,
+        "observation": "Gracias: desplazamiento≈48px; ajuste exponencial RMSE .627px",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "landing",
+        "f0": 4798,
+        "f1": 4808,
+        "observation": "Hooks: top604→585px; alto118–119, ancho405–407",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      }
+    ],
+    "parameters": {
+      "fitExample": "cy=537.035+46.350*exp(-0.0859*(f-9)), válido f9–55 a60fps; no easing original recuperado"
+    },
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A03",
+    "category": "Entradas",
+    "title": "Ascenso, sobrepaso y asentamiento son fases separadas",
+    "when": "Héroe lima en V8 con apoyo escalonado.",
+    "observed": "Pagar sube entre550–554 y después desciende al asentarse. Sirve entra abajo3328–3331 y desciende después. Los apoyos tienen su propia fase.",
+    "inference": "El golpe tipográfico usa un sobrepaso controlado; no todos los títulos comparten la curva monótona de Landing.",
+    "action": "Modelar preentrada→ascenso→extremo→asentamiento→lectura. Medir extrema y retorno; no reconstruirlo con un fade sin desplazamiento.",
+    "exceptions": [
+      "Una sola caja inicial y final oculta el sobrepaso.",
+      "No atribuir el nombre de un plugin/spring sin el proyecto."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 544,
+        "f1": 575,
+        "observation": "Pagar y apoyos, control continuo",
+        "level": "native_review_this_revision",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v8",
+        "f0": 3319,
+        "f1": 3346,
+        "observation": "Pedir sale mientras sirve entra, control continuo",
+        "level": "native_review_this_revision",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      }
+    ],
+    "parameters": {
+      "measuredProfile": "datos/revision-v2/v8-motion-fit.json",
+      "formula": "y(frameAge)=layoutOffset+exp(-decay*frameAge)*(cosCoefficient*cos(omega*frameAge)+sinCoefficient*sin(omega*frameAge))",
+      "decayPerSourceFrame": 0.099,
+      "omegaRadiansPerSourceFrame": 0.313,
+      "trainingRMSEpx": 0.3550713573626672,
+      "trainingSamples": 118,
+      "heldOutEntryRMSEpx": 1.2324225862447027,
+      "heldOutFullRangeRMSEpx": 14.295280160409865,
+      "caution": "Posición solamente. Ajuste a pagar/Braudd; sirve coincide durante entrada pero diverge al salir. Separación exploratoria por fases, no validación del estilo completo."
+    },
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A04",
+    "category": "Entradas",
+    "title": "Parpadeo es un patrón discreto",
+    "when": "Un titular usa encendido intermitente.",
+    "observed": "BLACK tiene opaco/parcial/ausente/parcial; FRIDAY repite el patrón.",
+    "inference": "Un golpe gráfico estacional puede usar pulsos en lugar de fundido.",
+    "action": "Guardar secuencia de estados por fotograma y luego sostener. Mantener fps fuente al convertir tiempos; no interpolar como fade.",
+    "exceptions": [
+      "No generalizar a cada titular ni cada corte."
+    ],
+    "evidence": [
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 268,
+        "f1": 287,
+        "observation": "BLACK268opaco269parcial270ausente271parcial272opaco; FRIDAY283–287",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {
+      "period_source_frames": 4,
+      "source_fps": 60,
+      "period_ms": 66.667
+    },
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A05",
+    "category": "Entradas",
+    "title": "Desenfoque direccional y desenfoque de foco no son equivalentes",
+    "when": "Una palabra/grupo llega con estela.",
+    "observed": "Megáfono usa desplazamiento lateral desenfocado; semanas y negaciones muestran arrastre vertical; otros títulos entran con bordes definidos.",
+    "inference": "Dirección y velocidad del gesto condicionan estela; añadir GaussianBlur global no reconstruye el recurso.",
+    "action": "Medir vector del centro, extensión de estela y fase de enfoque. Guardar técnica como desconocida si no puede distinguirse obturador/filtro.",
+    "exceptions": [
+      "No introducir blur en una entrada directa nítida.",
+      "No inferir ángulo exacto de obturador del MP4."
+    ],
+    "evidence": [
+      {
+        "slug": "lafabrica-v1",
+        "f0": 106,
+        "f1": 121,
+        "observation": "Texto lateral alrededor del megáfono",
+        "level": "prior_review",
+        "sourceSha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+        "independentFamily": "lafabrica-v1"
+      },
+      {
+        "slug": "lafabrica-v2p1",
+        "f0": 981,
+        "f1": 995,
+        "observation": "3/semanas con arrastre vertical",
+        "level": "prior_review",
+        "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+        "independentFamily": "lafabrica-v2p1"
+      },
+      {
+        "slug": "landing",
+        "f0": 4798,
+        "f1": 4808,
+        "observation": "Hooks nítido: contraejemplo",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A06",
+    "category": "Entradas",
+    "title": "El texto sobre una curva necesita trayectoria por glifo",
+    "when": "La frase describe una idea/objeto/sujeto identificado.",
+    "observed": "Arcos rodean bombilla, cabeza y medalla; cada letra cambia orientación a lo largo del camino.",
+    "inference": "El texto puede actuar como etiqueta espacial del concepto, no como subtítulo rectangular.",
+    "action": "Representar path normalizado, avance por glifo, tangentRotation, startOffset(t), revelado y vínculo a objectId. Separar movimiento del objeto del desplazamiento sobre path.",
+    "exceptions": [
+      "No rotar la frase entera como un bloque.",
+      "No usar OCR como geometría del arco."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 0,
+        "f1": 97,
+        "observation": "Agencia de contenido",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v8",
+        "f0": 2112,
+        "f1": 2272,
+        "observation": "Pone la idea sigue bombilla",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "lafabrica-v2p1",
+        "f0": 1245,
+        "f1": 1289,
+        "observation": "60 días de soporte en medalla",
+        "level": "prior_review",
+        "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+        "independentFamily": "lafabrica-v2p1"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "A07",
+    "category": "Salidas",
+    "title": "Solapamiento entre eventos y salida autónoma",
+    "when": "Entra la frase siguiente o cambia la palabra protagonista.",
+    "observed": "Gracias y Te coexisten; pedir se desvanece arriba mientras sirve aparece abajo; otros textos salen con corte.",
+    "inference": "La continuidad verbal puede enlazarse con continuidad espacial sin borrar todo entre palabras.",
+    "action": "Guardar lastPixel de saliente y firstPixel de entrante; permitir overlap controlado con prioridades de lectura. No establecer exit=startNext por defecto.",
+    "exceptions": [
+      "El caso A PAGAR→APAGAR tiene1f vacío y sustitución; no morph."
+    ],
+    "evidence": [
+      {
+        "slug": "landing",
+        "f0": 86,
+        "f1": 96,
+        "observation": "Te86 y Gracias hasta89",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "v8",
+        "f0": 3324,
+        "f1": 3330,
+        "observation": "Cruce de pedir/sirve",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v5-maquina",
+        "f0": 1794,
+        "f1": 1803,
+        "observation": "1797vacío1798APAGAR",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "T01",
+    "category": "Tipografía",
+    "title": "Cambio de voz tipográfica por bloque semántico",
+    "when": "Un remate o una palabra clave requiere otro tono.",
+    "observed": "V8 usa ultracondensada para Jerry y sans para explicación; V3 usa serif para costes/proceso/resultado/negocio, pero otros énfasis son sans.",
+    "inference": "La fuente distingue la función dramática del bloque; no cambia aleatoriamente por palabra.",
+    "action": "Catalogar familia visual, proporciones, peso, caja, tracking, color y efectos por función. Buscar fuentes por ajuste de glifos y declarar candidatas.",
+    "exceptions": [
+      "No afirmar nombre exacto sin ajuste suficiente.",
+      "No asumir que lima significa siempre serif."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 328,
+        "f1": 451,
+        "observation": "Remate condensado muy alto",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v3-ia-cara",
+        "f0": 717,
+        "f1": 823,
+        "observation": "QUÉ/PROCESO/RESULTADO serif",
+        "level": "prior_review",
+        "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+        "independentFamily": "v3-ia-cara"
+      },
+      {
+        "slug": "v3-ia-cara",
+        "f0": 1192,
+        "f1": 1275,
+        "observation": "Generaciones/consistencia/artificiales sans lima",
+        "level": "prior_review",
+        "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+        "independentFamily": "v3-ia-cara"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "T02",
+    "category": "Tipografía",
+    "title": "El color codifica rol o foco dentro de la paleta",
+    "when": "Se decide segundo color.",
+    "observed": "Blanco es frecuente en lectura; lima/verde/amarillo pueden marcar palabra principal, hablante o alternancia de conceptos.",
+    "inference": "Color tiene función local, no correspondencia global fija.",
+    "action": "Asignar colorRole por layout y speaker; mantener coherencia dentro del bloque y contraste con vídeo real. Extraer muestras de interior de glifos, no bordes mezclados.",
+    "exceptions": [
+      "No copiar lima a Birdieballs sin adaptar paleta.",
+      "No interpretar cada cambio de RGB del MP4 como animación de color."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 2563,
+        "f1": 2672,
+        "observation": "Blanco/lima por fila",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v8",
+        "f0": 1040,
+        "f1": 1134,
+        "observation": "Lima para otra voz",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v1-pagado",
+        "f0": 476,
+        "f1": 496,
+        "observation": "Mejor verde",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "M01",
+    "category": "Máscaras",
+    "title": "Relleno detrás y contorno delante requieren capas distintas",
+    "when": "Un texto conserva silueta sobre la cabeza.",
+    "observed": "30 y curso tienen relleno ocluido pero contorno delante; funcionan de Landing no muestra ese outline.",
+    "inference": "El contorno conserva reconocimiento sin perder profundidad.",
+    "action": "Componer fondo→relleno→recorte sujeto→contorno opcional→apoyos frontales. Máscara comparte frame,crop,transform y blur del metraje. Medir oclusión efectiva por palabra.",
+    "exceptions": [
+      "Contorno no es sombra.",
+      "No aplicar máscara a todos los objetos claros del set."
+    ],
+    "evidence": [
+      {
+        "slug": "v1-pagado",
+        "f0": 35,
+        "f1": 88,
+        "observation": "30 tras cabeza y outline frontal",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "v1-pagado",
+        "f0": 1272,
+        "f1": 1320,
+        "observation": "Curso",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "landing",
+        "f0": 913,
+        "f1": 944,
+        "observation": "Sin outline",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "v3-ia-cara",
+        "f0": 1410,
+        "f1": 1434,
+        "observation": "CLIENTES tapa softbox pero no cabeza",
+        "level": "prior_review",
+        "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+        "independentFamily": "v3-ia-cara"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "M02",
+    "category": "Máscaras",
+    "title": "La máscara puede aplicarse a un rail grande",
+    "when": "La narración completa se integra en escena.",
+    "observed": "Oficina de V5 y almacén de V6rev usan palabra a palabra grande detrás del sujeto con contorno.",
+    "inference": "Modo de lectura y profundidad son ejes independientes.",
+    "action": "Permitir maskPolicy por layout además de hero; no codificar masked como una única receta de palabra clave.",
+    "exceptions": [
+      "V7gancho grande delante: tamaño no implica máscara."
+    ],
+    "evidence": [
+      {
+        "slug": "v5-maquina",
+        "f0": 1546,
+        "f1": 1666,
+        "observation": "Rail gigante máscara+contorno",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      },
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 1511,
+        "f1": 1687,
+        "observation": "Almacén grande con máscara",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      },
+      {
+        "slug": "v7-ads90-rev",
+        "f0": 33,
+        "f1": 373,
+        "observation": "Grande frontal",
+        "level": "prior_review",
+        "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "G01",
+    "category": "Motion",
+    "title": "El disparador es una función narrativa",
+    "when": "Se decide insertar una representación gráfica.",
+    "observed": "Precio, coste acumulado, comparación, pasos y demostración tienen tratamientos propios. Hay extensos bloques sin interludio gráfico.",
+    "inference": "La gráfica aparece cuando vuelve visible una relación que la persona/escena no expresa por sí sola.",
+    "action": "Etiquetar función cuantificar/comparar/explicar_proceso/demostrar/reencuadrar_concepto. Exigir evidencia pertinente y objeto narrativo antes de proponer escena.",
+    "exceptions": [
+      "No poner un icono por sustantivo.",
+      "No confundir objeto dentro del metraje con overlay creado por el editor."
+    ],
+    "evidence": [
+      {
+        "slug": "v1-pagado",
+        "f0": 176,
+        "f1": 225,
+        "observation": "Precio300€",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "v1-pagado",
+        "f0": 383,
+        "f1": 449,
+        "observation": "30variantes→coste mínimo",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "lafabrica-v2p1",
+        "f0": 343,
+        "f1": 504,
+        "observation": "Sistema y comparación",
+        "level": "prior_review",
+        "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+        "independentFamily": "lafabrica-v2p1"
+      },
+      {
+        "slug": "v8",
+        "f0": 2396,
+        "f1": 2562,
+        "observation": "Resultados y primera versión",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "G02",
+    "category": "Motion",
+    "title": "No hay periodicidad universal demostrada",
+    "when": "Se distribuyen escenas gráficas.",
+    "observed": "Los intervalos entre inicios anotados varían por pieza. LaFabrica concentra tarjetas semanales cercanas; V5 cuenta mediante escena física.",
+    "inference": "La cadencia responde a estructura del argumento y medio de representación, no a un temporizador fijo.",
+    "action": "Calcular distribuciones por familia y función; separar interludio,overlay,UI en escena,VFX y cámara. Conservar intervalos de origen y denominador del censo.",
+    "exceptions": [
+      "Cero eventos etiquetados no prueba cero motion.",
+      "V6/V6rev/V7 no son tres muestras independientes."
+    ],
+    "evidence": [
+      {
+        "slug": "lafabrica-v2p1",
+        "f0": 996,
+        "f1": 1289,
+        "observation": "Semanas1/2/3 + soporte",
+        "level": "prior_review",
+        "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+        "independentFamily": "lafabrica-v2p1"
+      },
+      {
+        "slug": "v1-pagado",
+        "f0": 176,
+        "f1": 449,
+        "observation": "Dos gráficos tempranos",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "v5-maquina",
+        "f0": 0,
+        "f1": 2290,
+        "observation": "Escenificación, no interludios independientes anotados",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "G03",
+    "category": "Motion",
+    "title": "Coreografía causal con fases",
+    "when": "Se diseña una gráfica de varios conceptos.",
+    "observed": "30 crece, aparece variantes, el grupo viaja y cede foco a mínimo; reloj sale y hucha entra en un mismo desplazamiento. V8 contrae una selección, recorta clientes, presenta = y reabre para empleados, con timings independientes.",
+    "inference": "La transformación de un elemento prepara el siguiente y guía la mirada.",
+    "action": "Definir estado inicial, cambio de información, vector compartido, relevo de foco, asentamiento y salida. Todo movimiento debe cambiar posición, jerarquía, relación o legibilidad.",
+    "exceptions": [
+      "Sostener una cifra puede ser correcto mientras otra capa cambia.",
+      "No añadir wobble para cumplir un límite de quietud arbitrario."
+    ],
+    "evidence": [
+      {
+        "slug": "v1-pagado",
+        "f0": 383,
+        "f1": 449,
+        "observation": "Contador y viaje arriba-izquierda",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "v2-churros",
+        "f0": 760,
+        "f1": 793,
+        "observation": "Tiempo/reloj→Dinero/hucha",
+        "level": "prior_review",
+        "sourceSha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+        "independentFamily": "v2-churros"
+      },
+      {
+        "slug": "v3-ia-cara",
+        "f0": 760,
+        "f1": 823,
+        "observation": "Proceso→Resultado con relevo diagonal",
+        "level": "prior_review",
+        "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+        "independentFamily": "v3-ia-cara"
+      },
+      {
+        "slug": "v8",
+        "f0": 196,
+        "f1": 327,
+        "observation": "Clientes→igualdad→empleados: tiradores medidos y secuencia nativa continua",
+        "level": "native_sequence_measured",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      }
+    ],
+    "parameters": {
+      "measuredProfile": "datos/revision-v2/v8-selector-curves.json",
+      "coordinates": "1080×1920; source60000/1001fps; handle medians, not glyph bounds",
+      "handleSeparationPx": {
+        "230": 810.0,
+        "235": 574.0,
+        "240": 202.0,
+        "250": 22.0,
+        "255": 2.0,
+        "256": 2.0,
+        "257": 2.0,
+        "258": 14.0,
+        "265": 458.0,
+        "270": 614.0,
+        "280": 758.0,
+        "290": 806.0,
+        "300": 810.0
+      },
+      "midpointXRangePx_196_326": [
+        538.5,
+        540.5
+      ],
+      "thresholdSensitivityPx_196_326": {
+        "median": 0,
+        "maximum": 1
+      },
+      "observedPhaseGraph": [
+        {
+          "frames": [
+            196,
+            230
+          ],
+          "state": "Nuevos + clientes; texto recortado por pelo delantero; selección abierta"
+        },
+        {
+          "frames": [
+            231,
+            257
+          ],
+          "state": "Nuevos sale; caja se cierra; clientes conserva forma de glifos mientras máscara estrecha área visible; = toma el contexto superior"
+        },
+        {
+          "frames": [
+            255,
+            257
+          ],
+          "state": "Separación horizontal≈2px; = visible, sin palabra central legible"
+        },
+        {
+          "frames": [
+            258,
+            265
+          ],
+          "state": "Selección reabre; Nuevos regresa antes de empleados"
+        },
+        {
+          "frames": [
+            266,
+            299
+          ],
+          "state": "empleados aparece desde abajo dentro de máscara que sigue abriendo; sus extremos aún recortados"
+        },
+        {
+          "frames": [
+            300,
+            326
+          ],
+          "state": "Lectura Nuevos empleados; cabeza vuelve a ocluir borde inferior"
+        },
+        {
+          "frames": [
+            327,
+            328
+          ],
+          "state": "Nuevos y tirador superior ya no visibles327; empleados y tirador inferior persisten327; corte328"
+        }
+      ],
+      "requiredIndependentTracks": [
+        "selectionLeftX",
+        "selectionRightX",
+        "selectionFill",
+        "upperContext",
+        "centralTextTranslateY",
+        "centralTextClip",
+        "foregroundSubjectMask"
+      ],
+      "caution": "El grafo es observación localizada; no recupera alpha, fuente o easing original. Hitos de legibilidad revisados en hojas reducidas, no primer píxel certificado de cada letra."
+    },
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "G04",
+    "category": "Motion",
+    "title": "Material, luz y profundidad forman parte del diseño",
+    "when": "Se crea un fondo gráfico.",
+    "observed": "Hay oliva texturizado/viñeta, charcoal, gris iluminado con sombras y naranja con medalla. El material depende de la escena.",
+    "inference": "La coherencia entre objetos, luz, textura, cámara y tipografía produce calidad; no la suma de filtros.",
+    "action": "Guardar mapa de luz/grano, escala de textura, sombras de contacto/proyectadas, material del objeto, profundidad y vector cámara. Validar frame quieto y transición.",
+    "exceptions": [
+      "El fondo lima plano V3existe: textura no es ley universal de toda referencia.",
+      "Para Birdieballs el usuario sí rechazó fondo verde plano."
+    ],
+    "evidence": [
+      {
+        "slug": "v1-pagado",
+        "f0": 383,
+        "f1": 449,
+        "observation": "Oliva, textura y viñeta",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "v8",
+        "f0": 1969,
+        "f1": 2071,
+        "observation": "Gris iluminado, móvil y sombra",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v3-ia-cara",
+        "f0": 1135,
+        "f1": 1176,
+        "observation": "Fondo lima con rail negro: contraejemplo",
+        "level": "prior_review",
+        "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+        "independentFamily": "v3-ia-cara"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "G05",
+    "category": "Motion",
+    "title": "Contadores: curva del valor y cámara separadas",
+    "when": "Se anima una cantidad.",
+    "observed": "30usa incrementos decrecientes; contador monetario Landing avanza≈84/85€ por frame en tramo final y tiene dígitos fantasma.",
+    "inference": "El redondeo numérico y la transformación espacial cumplen funciones distintas.",
+    "action": "Guardar value(t),rounding,format,oldDigitTreatment,objectTransform,cameraTransform. Ajustar curva al segmento completo antes de generalizar.",
+    "exceptions": [
+      "No reconstruir easing de toda subida con solo cola lineal."
+    ],
+    "evidence": [
+      {
+        "slug": "v1-pagado",
+        "f0": 389,
+        "f1": 398,
+        "observation": "1,6,15,21,24,26,28,29,29,30",
+        "level": "prior_review",
+        "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+        "independentFamily": "v1-pagado"
+      },
+      {
+        "slug": "landing",
+        "f0": 2213,
+        "f1": 2317,
+        "observation": "€ tarjeta con sombra y arrastre de cifras",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "G06",
+    "category": "Motion",
+    "title": "UI y objetos en escena no son captions",
+    "when": "OCR detecta pantallas, ropa, logos o controles.",
+    "observed": "BRAUD en monitor sigue perspectiva; V8 tiene texto en caja/ropa y carrusel con controles diminutos.",
+    "inference": null,
+    "action": "Clasificar cada objeto textual: caption,hero,dialogue,label,diegetic,UI,noise. Mantener unknown cuando no se haya verificado. Nunca contar todos los tracks OCR como subtítulos.",
+    "exceptions": [
+      "Un logo legible no demuestra capa3D editada independientemente."
+    ],
+    "evidence": [
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 563,
+        "f1": 642,
+        "observation": "Marca en monitor",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      },
+      {
+        "slug": "v8",
+        "f0": 1372,
+        "f1": 1464,
+        "observation": "BRAUDD en caja",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v8",
+        "f0": 2420,
+        "f1": 2562,
+        "observation": "Controles carrusel",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      }
+    ],
+    "parameters": {},
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "E01",
+    "category": "Efectos",
+    "title": "Efecto ligado a argumento, gesto o cambio de registro",
+    "when": "Se selecciona un efecto sobre imagen.",
+    "observed": "Recuadros señalan errores de cara/manos; damero representa recorte; B/N acompaña remate; silueta blanca oculta cambio de plano.",
+    "inference": "Los efectos hacen visible el significado o marcan un registro narrativo.",
+    "action": "Registrar trigger exacto, ámbito del efecto, duración, capas afectadas y evidencia. Distinguir imagen completa/persona/objeto/texto.",
+    "exceptions": [
+      "B/N no prueba freeze.",
+      "Un flash de sujeto no autoriza un flash global."
+    ],
+    "evidence": [
+      {
+        "slug": "v2-churros",
+        "f0": 209,
+        "f1": 239,
+        "observation": "Errores señalados cara/manos",
+        "level": "prior_review",
+        "sourceSha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+        "independentFamily": "v2-churros"
+      },
+      {
+        "slug": "v3-ia-cara",
+        "f0": 1428,
+        "f1": 1434,
+        "observation": "Silueta blanca solo persona",
+        "level": "prior_review",
+        "sourceSha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+        "independentFamily": "v3-ia-cara"
+      },
+      {
+        "slug": "v7-ads90-rev",
+        "f0": 374,
+        "f1": 416,
+        "observation": "B/N con movimiento",
+        "level": "prior_review",
+        "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+        "independentFamily": "ads90_variants"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "E02",
+    "category": "Tiempo",
+    "title": "El caption puede atravesar un corte",
+    "when": "La frase sigue al cambiar plano.",
+    "observed": "Servicio, voilà,10 y palabras ordinarias empiezan antes o persisten después de cortes.",
+    "inference": "Continuidad semántica domina sobre la división física del metraje.",
+    "action": "Mantener eventos de texto en tiempo maestro, independientes de clips. Corte no reinicia automáticamente animación ni frase.",
+    "exceptions": [
+      "Un nuevo plano puede justificar otro layout, pero requiere una decisión explícita."
+    ],
+    "evidence": [
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 1191,
+        "f1": 1262,
+        "observation": "Voilà entra antes1197",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      },
+      {
+        "slug": "landing",
+        "f0": 4506,
+        "f1": 4679,
+        "observation": "Variaciones/probar/diferentes atraviesan planos",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      },
+      {
+        "slug": "v8",
+        "f0": 3363,
+        "f1": 3449,
+        "observation": "Corregir cruza a plano de equipo",
+        "level": "this_revision_qualitative",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "E03",
+    "category": "Tiempo",
+    "title": "Hay omisiones y pausas deliberadas",
+    "when": "La imagen o reacción ya lleva la información.",
+    "observed": "Hay tramos sin rail con voz o reacción; el nombre ya visible en la pantalla puede sustituir al rail.",
+    "inference": "La ausencia de subtítulo puede evitar duplicación y dejar leer acción.",
+    "action": "Etiquetar omissionReason y rango; no considerar todo hueco OCR como omisión. Comparar audio/transcripción y evidencia nativa.",
+    "exceptions": [
+      "No suprimir palabras solo porque falló OCR."
+    ],
+    "evidence": [
+      {
+        "slug": "v5-maquina",
+        "f0": 802,
+        "f1": 1031,
+        "observation": "Narración/acción sin rail ordinario",
+        "level": "prior_review",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      },
+      {
+        "slug": "v6-ads90-rev",
+        "f0": 1263,
+        "f1": 1307,
+        "observation": "Reacción sin rail",
+        "level": "prior_review",
+        "sourceSha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+        "independentFamily": "ads90_variants"
+      },
+      {
+        "slug": "landing",
+        "f0": 3976,
+        "f1": 4312,
+        "observation": "Making-of y producto",
+        "level": "prior_review",
+        "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+        "independentFamily": "landing"
+      }
+    ],
+    "parameters": {},
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  },
+  {
+    "id": "S01",
+    "category": "Sonido",
+    "title": "Detectar cuándo no identifica qué sonido",
+    "when": "Se estudia sonido de una exportación mezclada.",
+    "observed": "Los análisis disponibles contienen onsets y bandas espectrales; no identificaciones auditivas verificadas.",
+    "inference": null,
+    "action": "Usar waveform/STFT para proponer ventanas; escuchar/contextualizar, clasificar familia y contrastar candidatos de biblioteca. Guardar unknown y confianza si no hay evidencia.",
+    "exceptions": [
+      "Fricativas, golpes de voz y percusión confunden detector.",
+      "No asignar whoosh a todos los onsets."
+    ],
+    "evidence": [],
+    "parameters": {
+      "stft_window": 2048,
+      "sample_rate": 44100,
+      "hop": 441,
+      "temporal_step_ms": 10,
+      "frequency_bin_hz": 21.533,
+      "identificationComplete": false
+    },
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "S02",
+    "category": "Sonido",
+    "title": "Familia acústica y sample exacto son niveles distintos",
+    "when": "Se necesita imitar el sonido.",
+    "observed": "La forma espectral no lleva el nombre del archivo original.",
+    "inference": null,
+    "action": "Clasificador/embeddings sugieren familia y vecinos; fingerprint/correlación buscan coincidencia en biblioteca conocida; confirmar ataque,cuerpo,cola,pitch,time-stretch,mezcla. Sin candidato no emitir assetId exacto.",
+    "exceptions": [
+      "Separación de fuentes puede crear artefactos.",
+      "Con stems/proyecto original la identificación puede ser directa."
+    ],
+    "evidence": [],
+    "parameters": {
+      "levels": [
+        "onset_window",
+        "perceptual_family",
+        "catalog_candidate",
+        "verified_sample"
+      ],
+      "primarySources": [
+        "https://github.com/LAION-AI/CLAP",
+        "https://github.com/dpwe/audfprint",
+        "https://github.com/Audio-AGI/AudioSep"
+      ]
+    },
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "Q01",
+    "category": "Validación",
+    "title": "Conservar la edición de entrada",
+    "when": "El material del usuario ya está montado y no pide cortes.",
+    "observed": "Ale rechaza los cortes añadidos a Birdieballs.",
+    "inference": null,
+    "action": "Usar una base continua con sourceFrameMapping1:1. Bloquear reorder,trim,speedRamp y transiciones que alteren tiempo salvo autorización específica. Probar duración,orden,PTS y continuidad del audio.",
+    "exceptions": [
+      "Se puede elegir una ventana de20s para prueba sin alterar el orden dentro de ella."
+    ],
+    "evidence": [],
+    "parameters": {
+      "authority": "Feedback explícito de Ale",
+      "default": "preserve_source_timing"
+    },
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "Q02",
+    "category": "Validación",
+    "title": "Una prueba debe contener edición final del tramo",
+    "when": "Se presenta un fragmento para feedback.",
+    "observed": "Ale pide20s completos con subtítulos, efectos,motion y sonido integrados.",
+    "inference": null,
+    "action": "Diseñar y validar una unidad completa corta; conservar versiones y vincular feedback por frame. No presentar solo subtítulos como edición final.",
+    "exceptions": [
+      "La tarea actual es estudio; no renderizar otra propuesta antes de trasladar el criterio."
+    ],
+    "evidence": [],
+    "parameters": {},
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "Q03",
+    "category": "Validación",
+    "title": "No certificar estilo con tests de geometría",
+    "when": "Se valida una nueva receta/motor.",
+    "observed": "V03pasó pruebas técnicas y fue rechazada por calidad y semejanza.",
+    "inference": null,
+    "action": "Separar testsfuncionales, comparación perceptual por recurso y aprobación del usuario. Evaluar temporalidad,paleta,fuente,masa,oclusión,causalidad y audio a velocidad real.",
+    "exceptions": [
+      "Más reglas y más tokens no sustituyen la comparación visual.",
+      "Una aprobación parcial no aprueba toda la pieza."
+    ],
+    "evidence": [],
+    "parameters": {},
+    "status": "observed_constraint",
+    "productionValidated": false
+  },
+  {
+    "id": "G07",
+    "category": "Motion",
+    "title": "Separar metraje de base y aportación de edición",
+    "when": "Hay acceso al bruto de la misma escena.",
+    "observed": "En V8 la bombilla flotante ya está en el bruto; el arco de texto se añade. El teléfono con fondo gris no está en el bruto. En V5 la máquina y tarjetas en vuelo ya están presentes.",
+    "inference": "La dirección del motion añadido debe aprenderse separada de la escenificación/generación de los clips.",
+    "action": "Vincular SHA del bruto y del editado, alinear cada intervalo, modelar recorte/color/tiempo y anotar baseVisual,addedText,addedGraphic,addedEffect,unknown. Construir máscara por diferencia solo tras verificar alineación. Excluir objetos del bruto al calcular cadencia de motion añadido.",
+    "exceptions": [
+      "Nombres de archivo y similitud no prueban correspondencia.",
+      "El tiempo puede variar dentro de un mismo anuncio; no aplicar un único offset global.",
+      "Landing y LaFabrica no tienen bruto correspondiente identificado en la nueva entrega."
+    ],
+    "evidence": [
+      {
+        "slug": "v8",
+        "f0": 2160,
+        "f1": 2160,
+        "observation": "Bombilla presente en bruto; pone la idea/dirige añadidos",
+        "level": "raw_edited_pair_reviewed",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v8",
+        "f0": 1980,
+        "f1": 1980,
+        "observation": "Metraje dentro de teléfono añadido",
+        "level": "raw_edited_pair_reviewed",
+        "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+        "independentFamily": "v8"
+      },
+      {
+        "slug": "v5-maquina",
+        "f0": 120,
+        "f1": 120,
+        "observation": "Máquina/tarjetas y blur presentes en bruto",
+        "level": "raw_edited_pair_reviewed",
+        "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+        "independentFamily": "v5-maquina"
+      }
+    ],
+    "parameters": {
+      "pairs": "datos/raw-comparison/pairs.json",
+      "rawManifest": "datos/raw-comparison/manifest.json",
+      "ui": "http://127.0.0.1:4317/raw-study",
+      "alignment": "scene-correspondence reviewed; exact temporal mapping pending"
+    },
+    "status": "conditional_hypothesis",
+    "productionValidated": false
+  }
+]

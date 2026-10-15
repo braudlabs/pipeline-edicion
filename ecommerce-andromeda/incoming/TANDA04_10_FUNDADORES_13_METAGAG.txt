@@ -1,0 +1,28 @@
+SUPLEMENTO TANDA04 — ESCENAS10 Y13
+Visual revisado; previews con voz original y SFX conservados. No música añadida. Escucha final pendiente: análisis local y ASR no equivalen a escucha.
+
+10_fundadores
+Master IN55.833333333 / OUT61.583333333 exclusivo. Fuente0–5.750000000; 138frames a24fps.
+Original: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/10_FUNDADORES_VISUAL_REVISADO.mp4
+Preview: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/10_FUNDADORES_PREVIEW_CON_NARRADOR.mp4
+Elliot: pelo rizado, piercing, camiseta blanca; Kiwi: pelo corto, gafas marrones y camisa azul. Rasgos de referencias conservados en muestras.
+Presentación pasa de Elliot a Kiwi hacia2.5s y abre a ambos trabajando hacia4.5s.
+Sin anomalías evidentes de manos en contacto y frame5.0s a tamaño completo.
+Lavandería azul/crema consistente. No duplicar esta escena en otro momento.
+Audio: [Música]; Clasificación local SoundAnalysis: ruido, respiración y papel; música con baja confianza, sin diálogo inteligible en ASR.
+
+13_metagag
+Master IN70.041666667 / OUT74.416666667 exclusivo. Fuente0–4.375000000; 105frames a24fps.
+Original: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/13_METAGAG_VISUAL_REVISADO.mp4
+Preview: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/13_METAGAG_PREVIEW_CON_NARRADOR.mp4
+Revelación de pantalla dentro de la máquina física, con ambos protagonistas en la lavandería.
+El reproductor muestra una recreación reconocible del hook; expresiones cambian entre muestras, no es una imagen fija. No afirmar que contiene el archivo original exacto.
+Pantalla/máquina mantienen soporte físico. UI clara con marca braud pequeña y controles de reproducción; no es réplica exacta del dashboard.
+Mirada final del protagonista y reencuadre mantienen movimiento.
+Audio: [Motor]; Clasificación local SoundAnalysis: roce, viento, motor y respiración; sin música entre primeras5clases. ASR[Motor].
+
+10: Añadir @notelliotkay a Elliot y @notkurtgodel a Kiwi, solo en esta escena. Entrada sugerida en sus primeros planos0.5s y2.6s respectivamente; mantener el nombre asociado a su cuerpo en el plano conjunto si se prolonga. No tapar caras.
+No apilar las previews con otra copia del narrador. Para montaje usa originales y la pista maestra original.
+10 precede11, pero no va pegado a08: falta09;13 no va pegado a11:12 está descartado.07 sigue faltando entre06y08. Mantener huecos.
+No modificar el ensamble previo ni completar huecos reutilizando planos.
+No certificar réplica exacta del dashboard ni reproducción literal del archivo del hook: es una recreación generada reconocible.

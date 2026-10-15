@@ -1,0 +1,109 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/alejandrorubiocamarero/.cache/whisper-models/ggml-large-v3-turbo.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2000
+			},
+			"text": " Gracias"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,000",
+				"to": "00:00:02,690"
+			},
+			"offsets": {
+				"from": 2000,
+				"to": 2690
+			},
+			"text": " por"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,690",
+				"to": "00:00:03,380"
+			},
+			"offsets": {
+				"from": 2690,
+				"to": 3380
+			},
+			"text": " ver"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,380",
+				"to": "00:00:03,840"
+			},
+			"offsets": {
+				"from": 3380,
+				"to": 3840
+			},
+			"text": " el"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,840",
+				"to": "00:00:05,000"
+			},
+			"offsets": {
+				"from": 3840,
+				"to": 5000
+			},
+			"text": " video"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,000",
+				"to": "00:00:05,000"
+			},
+			"offsets": {
+				"from": 5000,
+				"to": 5000
+			},
+			"text": "."
+		}
+	]
+}

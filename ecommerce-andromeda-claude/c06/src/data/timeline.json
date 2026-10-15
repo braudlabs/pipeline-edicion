@@ -1,0 +1,181 @@
+{
+ "fps": 24,
+ "width": 1080,
+ "height": 1920,
+ "renderedFrames": 2050,
+ "narratorFrames": 2049,
+ "narratorSeconds": 85.39425,
+ "master": "source-notes/MASTER_COMPLETO_24FPS.json",
+ "scenes": [
+  {
+   "id": "00_hook",
+   "masterId": "00_hook",
+   "label": "Hook · susurro",
+   "status": "VISUAL_APROBADO_AUDIO_ORIGINAL_EN_PREVIEW_QC_FINAL_PENDIENTE",
+   "asset": "assets/clips/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4",
+   "dur": 130,
+   "srcIn": 0,
+   "from": 0
+  },
+  {
+   "id": "01_ventanilla",
+   "masterId": "01_ventanilla_espera",
+   "label": "Ventanilla · espera",
+   "status": "UTILIZABLE_BASE_DEL_MONTAJE",
+   "asset": "assets/clips/01_ventanilla_espera.mp4",
+   "dur": 220,
+   "srcIn": 0,
+   "from": 130
+  },
+  {
+   "id": "02_ticket",
+   "masterId": "02_ticket_angulo",
+   "label": "Ticket · ángulo",
+   "status": "UTILIZABLE_BASE_DEL_MONTAJE",
+   "asset": "assets/clips/02_ticket_angulo.mp4",
+   "dur": 100,
+   "srcIn": 12,
+   "from": 350
+  },
+  {
+   "id": "03_apagados",
+   "masterId": "03_ads_apagados",
+   "label": "Ads apagados",
+   "status": "UTILIZABLE_BASE_DEL_MONTAJE",
+   "asset": "assets/clips/03_ads_apagados.mp4",
+   "dur": 102,
+   "srcIn": 0,
+   "from": 450
+  },
+  {
+   "id": "03b_repetir",
+   "masterId": "03b_repetir",
+   "label": "Repetir",
+   "status": "UTILIZABLE_BASE_DEL_MONTAJE",
+   "asset": "assets/clips/03b_repetir.mp4",
+   "dur": 58,
+   "srcIn": 0,
+   "from": 552
+  },
+  {
+   "id": "04_sudadera",
+   "masterId": "04_sudadera",
+   "label": "Sudadera · solución",
+   "status": "UTILIZABLE_BASE_DEL_MONTAJE",
+   "asset": "assets/clips/04_sudadera.mp4",
+   "dur": 172,
+   "srcIn": 0,
+   "from": 610
+  },
+  {
+   "id": "05_presentacion",
+   "masterId": "05_presentacion",
+   "label": "Presentación máquina",
+   "status": "UTILIZABLE_BASE_DEL_MONTAJE",
+   "asset": "assets/clips/05_presentacion.mp4",
+   "dur": 58,
+   "srcIn": 0,
+   "from": 782
+  },
+  {
+   "id": "06_cinco_ads",
+   "masterId": "06_cinco_ads",
+   "label": "Cinco ads · v5 (fila duplicada)",
+   "status": "CANDIDATO_UI_FILA_DUPLICADA",
+   "asset": "assets/clips/06_V5_CANDIDATO_FILA_DUPLICADA.mp4",
+   "dur": 80,
+   "srcIn": 0,
+   "from": 840
+  },
+  {
+   "id": "07_gestion",
+   "masterId": "07_gestion",
+   "label": "Gestión · campañas v3",
+   "status": "UTILIZABLE_PREVIEW_CON_LIMITACIONES",
+   "asset": "assets/clips/07_CAMPANAS_V3_REVISADO.mp4",
+   "dur": 102,
+   "srcIn": 0,
+   "from": 920
+  },
+  {
+   "id": "08_optimizacion",
+   "masterId": "08_optimizacion",
+   "label": "Optimización · gag v3",
+   "status": "CANDIDATO_VISUAL_UTILIZABLE_CON_LIMITACIONES",
+   "asset": "assets/clips/08_GAG_V3_CANDIDATO_UI_PENDIENTE.mp4",
+   "dur": 215,
+   "srcIn": 0,
+   "from": 1022
+  },
+  {
+   "id": "09_papeles",
+   "masterId": "09_papeles",
+   "label": "Papeles · idea de mierda",
+   "status": "GENERADO_DISPONIBLE_CON_OBSERVACION_DE_BEAT",
+   "asset": "assets/clips/09_PAPELES_V2_GENERADO_AJUSTE_DE_BEAT.mp4",
+   "dur": 103,
+   "srcIn": 0,
+   "from": 1237
+  },
+  {
+   "id": "10_fundadores",
+   "masterId": "10_fundadores",
+   "label": "Fundadores",
+   "status": "VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE",
+   "asset": "assets/clips/10_FUNDADORES_VISUAL_REVISADO.mp4",
+   "dur": 138,
+   "srcIn": 0,
+   "from": 1340
+  },
+  {
+   "id": "11_criterio",
+   "masterId": "11_criterio",
+   "label": "Criterio",
+   "status": "VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE",
+   "asset": "assets/clips/11_CRITERIO_VISUAL_REVISADO_AUDIO_PENDIENTE.mp4",
+   "dur": 107,
+   "srcIn": 0,
+   "from": 1478
+  },
+  {
+   "id": "12_habitacion",
+   "masterId": "12_habitacion",
+   "label": "Habitación · creativos v3",
+   "status": "CANDIDATO_VISUAL_CON_LIMITACIONES",
+   "asset": "assets/clips/12_HABITACION_V3_CANDIDATO_PROYECCION.mp4",
+   "dur": 96,
+   "srcIn": 0,
+   "from": 1585
+  },
+  {
+   "id": "13_metagag",
+   "masterId": "13_metagag",
+   "label": "Metagag · este mismo ad",
+   "status": "VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE",
+   "asset": "assets/clips/13_METAGAG_VISUAL_REVISADO.mp4",
+   "dur": 105,
+   "srcIn": 0,
+   "from": 1681
+  },
+  {
+   "id": "14_cta",
+   "masterId": "14_cta",
+   "label": "CTA honesto",
+   "status": "VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE",
+   "asset": "assets/clips/14_CTA_HONESTO_VISUAL_REVISADO.mp4",
+   "dur": 205,
+   "srcIn": 0,
+   "from": 1786
+  },
+  {
+   "id": "15_salida",
+   "masterId": "15_salida",
+   "label": "Salida · pantalla encendida",
+   "status": "VISUAL_REVISADO_AUDIO_FINAL_PENDIENTE",
+   "asset": "assets/clips/15_SALIDA_V2_PANTALLA_ENCENDIDA.mp4",
+   "dur": 59,
+   "srcIn": 18,
+   "from": 1991
+  }
+ ]
+}

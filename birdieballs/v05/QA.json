@@ -1,0 +1,112 @@
+{
+  "status": "ready_for_user_verdict",
+  "source": "/Users/alejandrorubiocamarero/Downloads/Birdieballs v1 (Sin Postpro).mp4",
+  "sourceSHA256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v05/Birdieballs-20s-V05.mp4",
+  "sha256": "f95d44db539c7ed6411453784f53a5964d3eec3bb948a73aa6200a4c62f9e34b",
+  "video": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "60000/1001",
+    "duration": "19.602911",
+    "nb_frames": "1175"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "19.605000"
+  },
+  "mapping": {
+    "sourceStartSeconds": 0,
+    "sourceFrames": 1175,
+    "outputFrames": 1175,
+    "speed": 1,
+    "additionalCuts": 0,
+    "maxProxyVsOriginalTimestampErrorMs": 0.8340000000011116,
+    "maxOutputVsOriginalTimestampErrorMs": 0.8340000000011116,
+    "note": "Source VFR has600Hz timestamps; delivery60000/1001fps. No deliberate retiming; CFR quantization is reported."
+  },
+  "audioSync": [
+    {
+      "intervalSeconds": [
+        1,
+        4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9996531044103643
+    },
+    {
+      "intervalSeconds": [
+        8,
+        10
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9995308928343085
+    },
+    {
+      "intervalSeconds": [
+        15.2,
+        16.4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.999697580595492
+    }
+  ],
+  "decodeWithoutErrors": true,
+  "V03Preserved": true,
+  "review": {
+    "tool": "Remotion",
+    "styleApprovedByUser": false,
+    "sourceQuizRevision": 132,
+    "independentAudioListening": false,
+    "normalSpeedPlayback": "Functional browser playback at1x reached final displayed frame without errors or dropped frames; not continuous model visual observation or independent audio listening.",
+    "nativeMasks": {
+      "method": "macOS Vision person segmentation, one mask per native frame",
+      "frames": [
+        550,
+        599
+      ],
+      "usedFor": "SOLUCIÓN fill behind subject, outline in front"
+    },
+    "corrections": [
+      "RIÑÓN accent clearance",
+      "CAMPOS left edge clearance",
+      "SOLUCIÓN height and outline legibility",
+      "LAGOS colour follows original shot cut",
+      "Product text contrast and position follow source cuts at frames757 and794"
+    ],
+    "limitations": [
+      "Mask is automatic person segmentation, not manual hair rotoscoping.",
+      "Reference style remains an adaptation awaiting Ale verdict."
+    ],
+    "ui": {
+      "versions": 6,
+      "notesPreserved": 0,
+      "reviewVersionId": "67263d19-c9c3-4f19-85cd-62f08b881b36",
+      "playbackError": null,
+      "droppedFrames": 0,
+      "lastTime": 19.586233
+    },
+    "nativeFrameContactSheets": [
+      "stills/final-sequence.jpg",
+      "stills/final-hook.jpg",
+      "stills/final-mask.jpg",
+      "stills/final-landscape.jpg",
+      "stills/final-product.jpg"
+    ],
+    "contactNote": "Full sequence, hook, mask and landscape inspected before final product-only adjustment. Affected product frames re-inspected after final render."
+  },
+  "V04Preserved": true,
+  "audioMeter": {
+    "integratedLUFS": -13.6,
+    "loudnessRangeLU": 3.6,
+    "truePeakDBFS": -0.4,
+    "source": "audio-meter.log"
+  }
+}

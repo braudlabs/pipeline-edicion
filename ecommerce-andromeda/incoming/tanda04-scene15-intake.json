@@ -1,0 +1,35 @@
+{
+  "received": "2026-10-14",
+  "provenance": "handoff from thread 01a12645-f5ac-7953-b9d7-b4624ed41ccd; observations reported by sender, not independently visually or aurally verified here",
+  "supplement": "TANDA04_15_SALIDA.txt",
+  "scene": 15,
+  "status": "candidate_dark_screen_audio_pending",
+  "masterFrames24fps": [
+    1991,
+    2049
+  ],
+  "sourceFrames24fps": [
+    30,
+    88
+  ],
+  "frameCount": 58,
+  "speed": 1,
+  "original": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/15_SALIDA_CANDIDATO_PANTALLA_OSCURA.mp4",
+  "preview": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/15_SALIDA_PREVIEW_CORTE_AJUSTADO.mp4",
+  "originalExists": true,
+  "previewExists": true,
+  "previewContainsNarration": true,
+  "integrated": false,
+  "userApproved": false,
+  "audioReviewRequired": true,
+  "limitations": [
+    "Screen remains dark; does not show ad production. Resolve before definitive closing use.",
+    "Original narrator ends at 85.39425s, 0.01925s past picture grid end. Preserve full audio where appropriate; do not truncate phoneme."
+  ],
+  "constraints": [
+    "Keep scene14 gap; do not append directly after13.",
+    "No duplicate narrator from preview.",
+    "Do not repeat shot elsewhere."
+  ],
+  "currentRenderUnchanged": "V05"
+}

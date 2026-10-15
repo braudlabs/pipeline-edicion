@@ -1,0 +1,74 @@
+/* Role explorations use Studio's existing paper, type, and spacing. */
+.creative-casting{min-width:0;color:var(--ink)}
+.creative-casting .cast-paper{margin:0}
+.creative-casting .casting-eyebrow{display:block;color:var(--muted);font-size:10px;line-height:1.5;letter-spacing:1.3px;text-transform:uppercase}
+.creative-casting .casting-section-heading{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.creative-casting .casting-section-heading>div{min-width:0}
+.creative-casting .casting-section-heading h3{font-size:22px;line-height:1.25;letter-spacing:-.6px;margin:8px 0 10px;font-weight:500}
+.creative-casting .casting-main-heading h3{font-size:26px;letter-spacing:-.8px}
+.creative-casting .casting-section-heading p{font-size:13px;line-height:1.7;color:var(--muted);margin:0;max-width:580px}
+.creative-casting .text-btn{font-size:12px;line-height:1.5;display:inline-flex;align-items:center;gap:8px}
+.creative-casting .text-btn svg{flex:none;width:16px;height:16px}
+.creative-casting .btn{font-size:12px;min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:10px}
+.creative-casting .casting-main-heading>.text-btn{flex:none}
+.creative-casting .casting-role-tabs{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:32px 0 0;border-bottom:1px solid var(--line);padding-bottom:20px}
+.creative-casting .casting-role-tabs button{border:1px solid transparent;border-radius:999px;padding:10px 18px;font-size:13px;line-height:1.5;color:var(--muted);display:inline-flex;align-items:center;gap:8px;max-width:100%;overflow-wrap:anywhere}
+.creative-casting .casting-role-tabs button.active{background:var(--selection);border-color:color-mix(in srgb,var(--accent) 25%,transparent);color:var(--ink)}
+.creative-casting .casting-role-tabs button:hover{color:var(--ink)}
+.creative-casting .casting-role-tabs .casting-add-role{font-size:12px;padding-inline:12px}
+.creative-casting .casting-role-tabs svg{width:14px;height:14px;flex:none}
+.creative-casting .casting-role-plan{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;padding:32px 0}
+.creative-casting .casting-role-heading h4,.creative-casting .casting-start h4{font-size:24px;line-height:1.3;letter-spacing:-.6px;font-weight:500;margin:12px 0 14px;overflow-wrap:anywhere}
+.creative-casting .casting-role-heading p{font-size:16px;line-height:1.75;margin:0;white-space:pre-wrap;overflow-wrap:anywhere}
+.creative-casting .casting-character-direction{padding-left:28px;border-left:1px solid var(--line)}
+.creative-casting .casting-character-direction p{font-size:14px;line-height:1.8;margin:12px 0 22px;white-space:pre-wrap;overflow-wrap:anywhere}
+.creative-casting .casting-start{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(220px,.7fr);gap:44px;padding:36px 0 30px}
+.creative-casting .casting-start-copy>p{font-size:15px;line-height:1.8;margin:0;max-width:560px;color:var(--muted)}
+.creative-casting .casting-start-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin-top:26px}
+.creative-casting .casting-process{padding:2px 0 0 28px;border-left:1px solid var(--line)}
+.creative-casting .casting-process>div{display:flex;align-items:flex-start;gap:16px;margin-bottom:22px}
+.creative-casting .casting-process>div:last-child{margin-bottom:0}
+.creative-casting .casting-process>div>span{font-size:11px;line-height:1.7;color:var(--accent);font-variant-numeric:tabular-nums;padding-top:2px}
+.creative-casting .casting-process p{margin:0;font-size:12px;line-height:1.8;color:var(--muted)}
+.creative-casting .casting-process strong{display:block;font-size:14px;font-weight:500;color:var(--ink);margin-bottom:3px}
+.creative-casting .casting-candidates{border-top:1px solid var(--line);padding-top:28px}
+.creative-casting .casting-candidates .casting-section-heading h3{font-size:20px}
+.creative-casting .casting-candidates-empty{display:flex;align-items:center;gap:22px;min-height:136px;padding:28px 0}
+.creative-casting .casting-empty-symbol{width:52px;height:60px;border-radius:14px;background:var(--paper);display:grid;place-items:center;flex:none;color:var(--muted)}
+.creative-casting .casting-empty-symbol svg{width:24px;height:24px}
+.creative-casting .casting-candidates-empty strong{font-size:15px;font-weight:500}
+.creative-casting .casting-candidates-empty p{font-size:13px;line-height:1.7;color:var(--muted);margin:8px 0 0;max-width:520px}
+.creative-casting .casting-footer-line{display:flex;align-items:center;justify-content:space-between;gap:24px;border-top:1px solid var(--line);padding-top:22px}
+.creative-casting .casting-footer-line>p{font-size:11px;line-height:1.7;color:var(--muted);margin:0;max-width:440px}
+.creative-casting .casting-footer-line>.text-btn{flex:none}
+.creative-casting .casting-candidate-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:24px;margin:24px 0}
+.creative-casting .casting-candidate{min-width:0;display:flex;align-items:flex-start;gap:18px;padding:18px 0;border-top:1px solid var(--line)}
+.creative-casting .casting-candidate>img,.creative-casting .casting-candidate>.casting-image-missing{width:96px;height:128px;object-fit:cover;border-radius:13px;flex:none;background:var(--paper)}
+.creative-casting .casting-candidate-copy{min-width:0;flex:1}
+.creative-casting .casting-candidate h4,.creative-casting .casting-existing-card h4{font-size:17px;line-height:1.5;margin:6px 0 8px;font-weight:500;overflow-wrap:anywhere}
+.creative-casting .casting-candidate p{font-size:12px;line-height:1.7;margin:8px 0;color:var(--muted);white-space:pre-wrap;overflow-wrap:anywhere}
+.creative-casting .casting-candidate-actions{display:flex;align-items:flex-start;flex-wrap:wrap;gap:8px 14px;margin-top:14px}
+.creative-casting .casting-candidate-actions .text-btn{font-size:11px;text-align:left}
+.creative-casting .casting-incorporate{color:var(--accent)}
+.creative-casting .is-shortlisted .casting-eyebrow{color:var(--accent)}
+.creative-casting .is-shortlisted>img{outline:2px solid color-mix(in srgb,var(--accent) 40%,transparent);outline-offset:3px}
+.creative-casting .casting-existing{margin-top:28px}
+.creative-casting .casting-existing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:28px;margin-top:24px}
+.creative-casting .casting-existing-card{display:flex;gap:20px;align-items:flex-start;padding-top:22px;border-top:1px solid var(--line);min-width:0}
+.creative-casting .casting-existing-card>img,.creative-casting .casting-existing-card>.casting-image-missing{width:112px;height:150px;object-fit:cover;border-radius:14px;flex:none;background:var(--paper)}
+.creative-casting .casting-existing-card>div:not(.casting-image-missing){min-width:0}
+.creative-casting .casting-existing-card p{font-size:12px;line-height:1.75;margin:10px 0;white-space:pre-wrap;overflow-wrap:anywhere}
+.creative-casting .casting-scene-summary{color:var(--muted)}
+.creative-casting .casting-image-missing{display:grid;place-items:center;padding:12px;text-align:center;font-size:11px;line-height:1.6;color:var(--muted)}
+.creative-casting .casting-library-intro{font-size:13px;line-height:1.8;color:var(--muted);margin:0 0 24px}
+.creative-casting .casting-library-intro strong{font-weight:500;color:var(--ink)}
+.creative-casting .casting-library-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:20px}
+.creative-casting .casting-library-option{display:flex;flex-direction:column;min-width:0;gap:8px;text-align:left;border:1px solid transparent;padding:8px;border-radius:16px}
+.creative-casting .casting-library-option img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:10px;background:var(--paper)}
+.creative-casting .casting-library-option>span{font-size:13px;line-height:1.5;overflow-wrap:anywhere}
+.creative-casting .casting-library-option>small{font-size:11px;line-height:1.5;color:var(--muted)}
+.creative-casting .casting-library-option:not(:disabled):hover,.creative-casting .casting-library-option.is-added{background:var(--selection);border-color:color-mix(in srgb,var(--accent) 30%,transparent)}
+.creative-casting .casting-library-option:disabled{opacity:.72;cursor:default}
+@container piece (max-width:760px){.creative-casting .casting-start,.creative-casting .casting-role-plan{grid-template-columns:minmax(0,1fr);gap:26px}.creative-casting .casting-process{display:flex;flex-wrap:wrap;gap:20px 28px;padding:22px 0 0;border-left:0;border-top:1px solid var(--line)}.creative-casting .casting-process>div{margin:0;flex:1;min-width:150px}.creative-casting .casting-character-direction{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.creative-casting .casting-main-heading{align-items:flex-start}.creative-casting .casting-main-heading>.text-btn{max-width:120px;flex-shrink:0}}
+@container piece (max-width:560px){.creative-casting .casting-section-heading,.creative-casting .casting-footer-line{align-items:flex-start;flex-direction:column;gap:16px}.creative-casting .casting-main-heading>.text-btn{max-width:none}.creative-casting .casting-main-heading h3{font-size:23px}.creative-casting .casting-candidate-grid,.creative-casting .casting-existing-grid{grid-template-columns:minmax(0,1fr)}.creative-casting .casting-start-actions{gap:16px}.creative-casting .casting-role-tabs button{padding:9px 13px}}
+@media(max-width:600px){.creative-casting .casting-section-heading,.creative-casting .casting-footer-line{align-items:flex-start;flex-direction:column;gap:16px}.creative-casting .casting-start,.creative-casting .casting-role-plan{grid-template-columns:minmax(0,1fr);gap:24px}.creative-casting .casting-character-direction,.creative-casting .casting-process{border-left:0;border-top:1px solid var(--line);padding:22px 0 0}.creative-casting .casting-main-heading h3{font-size:23px}.creative-casting .casting-existing-card{gap:16px}.creative-casting .casting-existing-card>img{width:96px;height:128px}}

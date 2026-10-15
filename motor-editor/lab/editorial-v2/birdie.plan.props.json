@@ -1,0 +1,909 @@
+{
+  "plan": {
+    "version": 1,
+    "engineVersion": "0.2.0-editorial-experimental",
+    "jobId": "birdie-editorial-v2-lab",
+    "width": 1080,
+    "height": 1920,
+    "fps": {
+      "num": 60000,
+      "den": 1001
+    },
+    "durationInFrames": 270,
+    "family": "braud",
+    "font": {
+      "family": "Reference SF Pro",
+      "boldSrc": "fonts/SFProDisplay-bold.otf",
+      "regularSrc": "fonts/SFProDisplay-regular.otf"
+    },
+    "palette": {
+      "foreground": "#fffdf1",
+      "accent": "#dcf395",
+      "background": "#18382b"
+    },
+    "assets": [
+      {
+        "id": "source",
+        "kind": "video",
+        "src": "media/editorial-v2-birdie-source.mp4",
+        "duration": 38.005,
+        "sha256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba"
+      }
+    ],
+    "clips": [
+      {
+        "id": "locked-source",
+        "shotId": "locked-source",
+        "assetId": "source",
+        "start": 0,
+        "end": 270,
+        "sourceStart": 0,
+        "crop": {
+          "scale": 1,
+          "x": 0,
+          "y": 0
+        },
+        "mute": false
+      }
+    ],
+    "captions": [],
+    "graphics": [
+      {
+        "id": "v2:intro",
+        "clauseId": "intro",
+        "recipe": "rail",
+        "start": 73,
+        "end": 100,
+        "fullScreen": false,
+        "nodes": [
+          {
+            "id": "v2:intro",
+            "kind": "text",
+            "text": "¿Cansado",
+            "wordIds": [
+              "intro"
+            ],
+            "start": 73,
+            "end": 100,
+            "z": 50,
+            "textRole": "rail",
+            "x": 540,
+            "y": 1075.2,
+            "fontSize": 102.6,
+            "weight": 700,
+            "tracking": -0.035,
+            "fill": "#fffdf1",
+            "shadow": {
+              "color": "#00000066",
+              "x": 0,
+              "y": 2.88,
+              "blur": 1.92
+            }
+          }
+        ],
+        "evidence": [
+          "estilo-editor/ALGORITMO-V2.md"
+        ]
+      },
+      {
+        "id": "v2:cost",
+        "clauseId": "cost",
+        "recipe": "hero",
+        "start": 100,
+        "end": 183,
+        "fullScreen": false,
+        "nodes": [
+          {
+            "id": "v2:support",
+            "kind": "text",
+            "text": "de dejarte un",
+            "wordIds": [
+              "support"
+            ],
+            "start": 100,
+            "end": 183,
+            "z": 50,
+            "textRole": "support",
+            "x": 540,
+            "y": 1075.2,
+            "fontSize": 84.24,
+            "weight": 700,
+            "tracking": -0.035,
+            "fill": "#fffdf1",
+            "shadow": {
+              "color": "#00000066",
+              "x": 0,
+              "y": 2.88,
+              "blur": 1.92
+            }
+          },
+          {
+            "id": "v2:focus",
+            "kind": "text",
+            "text": "riñón",
+            "wordIds": [
+              "focus"
+            ],
+            "start": 135,
+            "end": 183,
+            "z": 50,
+            "textRole": "focus",
+            "x": 540,
+            "y": 1251.59639859375,
+            "fontSize": 275.4,
+            "weight": 700,
+            "tracking": -0.035,
+            "fill": "#dcf395",
+            "shadow": {
+              "color": "#00000066",
+              "x": 0,
+              "y": 2.88,
+              "blur": 1.92
+            },
+            "motion": {
+              "y": [
+                {
+                  "f": 135,
+                  "v": 48,
+                  "ease": "out"
+                },
+                {
+                  "f": 146,
+                  "v": 0
+                }
+              ],
+              "opacity": [
+                {
+                  "f": 135,
+                  "v": 0
+                },
+                {
+                  "f": 138,
+                  "v": 1
+                }
+              ]
+            },
+            "motionLabel": "authored-rise-to-avoid-context-collision",
+            "motionBlur": {
+              "samples": 8,
+              "angle": 180
+            }
+          },
+          {
+            "id": "v2:tail",
+            "kind": "text",
+            "text": "en bolas",
+            "wordIds": [
+              "tail"
+            ],
+            "start": 161,
+            "end": 183,
+            "z": 50,
+            "textRole": "support",
+            "x": 540,
+            "y": 1382.505703125,
+            "fontSize": 84.24,
+            "weight": 700,
+            "tracking": -0.035,
+            "fill": "#fffdf1",
+            "shadow": {
+              "color": "#00000066",
+              "x": 0,
+              "y": 2.88,
+              "blur": 1.92
+            }
+          }
+        ],
+        "evidence": [
+          "estilo-editor/ALGORITMO-V2.md"
+        ]
+      },
+      {
+        "id": "v2:question",
+        "clauseId": "question",
+        "recipe": "rail",
+        "start": 183,
+        "end": 254,
+        "fullScreen": false,
+        "nodes": [
+          {
+            "id": "v2:question",
+            "kind": "text",
+            "text": "cada vez que sales",
+            "wordIds": [
+              "question"
+            ],
+            "start": 183,
+            "end": 225,
+            "z": 50,
+            "textRole": "rail",
+            "x": 540,
+            "y": 1075.2,
+            "fontSize": 102.6,
+            "weight": 700,
+            "tracking": -0.035,
+            "fill": "#fffdf1",
+            "shadow": {
+              "color": "#00000066",
+              "x": 0,
+              "y": 2.88,
+              "blur": 1.92
+            }
+          },
+          {
+            "id": "v2:play",
+            "kind": "text",
+            "text": "a jugar?",
+            "wordIds": [
+              "play"
+            ],
+            "start": 225,
+            "end": 254,
+            "z": 50,
+            "textRole": "rail",
+            "x": 540,
+            "y": 1075.2,
+            "fontSize": 102.6,
+            "weight": 700,
+            "tracking": -0.035,
+            "fill": "#fffdf1",
+            "shadow": {
+              "color": "#00000066",
+              "x": 0,
+              "y": 2.88,
+              "blur": 1.92
+            }
+          }
+        ],
+        "evidence": [
+          "estilo-editor/ALGORITMO-V2.md"
+        ]
+      }
+    ],
+    "audio": [],
+    "decisions": [
+      {
+        "clauseId": "intro",
+        "recipe": "rail",
+        "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+        "wordIds": [
+          "intro"
+        ],
+        "shotId": "locked-source",
+        "evidence": [
+          "estilo-editor/ALGORITMO-V2.md"
+        ],
+        "candidates": [
+          {
+            "recipe": "rail",
+            "eligible": true,
+            "score": 0,
+            "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+          },
+          {
+            "recipe": "hero",
+            "eligible": false,
+            "score": 0,
+            "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+          },
+          {
+            "recipe": "accumulate",
+            "eligible": false,
+            "score": -2,
+            "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras. No cumple función, longitud, tamaño mínimo o continuidad de frase."
+          },
+          {
+            "recipe": "silence",
+            "eligible": false,
+            "score": 2,
+            "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+          }
+        ]
+      },
+      {
+        "clauseId": "cost",
+        "recipe": "hero",
+        "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+        "wordIds": [
+          "support",
+          "focus",
+          "tail"
+        ],
+        "shotId": "locked-source",
+        "evidence": [
+          "estilo-editor/ALGORITMO-V2.md"
+        ],
+        "candidates": [
+          {
+            "recipe": "rail",
+            "eligible": true,
+            "score": -7,
+            "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+          },
+          {
+            "recipe": "hero",
+            "eligible": true,
+            "score": 0,
+            "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto."
+          },
+          {
+            "recipe": "accumulate",
+            "eligible": true,
+            "score": -2,
+            "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras."
+          },
+          {
+            "recipe": "silence",
+            "eligible": false,
+            "score": 2,
+            "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+          }
+        ]
+      },
+      {
+        "clauseId": "question",
+        "recipe": "rail",
+        "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+        "wordIds": [
+          "question",
+          "play"
+        ],
+        "shotId": "locked-source",
+        "evidence": [
+          "estilo-editor/ALGORITMO-V2.md"
+        ],
+        "candidates": [
+          {
+            "recipe": "rail",
+            "eligible": true,
+            "score": 0,
+            "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+          },
+          {
+            "recipe": "hero",
+            "eligible": false,
+            "score": 0,
+            "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+          },
+          {
+            "recipe": "accumulate",
+            "eligible": false,
+            "score": -2,
+            "reason": "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras. No cumple función, longitud, tamaño mínimo o continuidad de frase."
+          },
+          {
+            "recipe": "silence",
+            "eligible": false,
+            "score": 2,
+            "reason": "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+          }
+        ]
+      }
+    ],
+    "diagnostics": [],
+    "coverage": [
+      {
+        "wordId": "intro",
+        "representations": [
+          "v2:intro"
+        ]
+      },
+      {
+        "wordId": "support",
+        "representations": [
+          "v2:cost"
+        ]
+      },
+      {
+        "wordId": "focus",
+        "representations": [
+          "v2:cost"
+        ]
+      },
+      {
+        "wordId": "tail",
+        "representations": [
+          "v2:cost"
+        ]
+      },
+      {
+        "wordId": "question",
+        "representations": [
+          "v2:question"
+        ]
+      },
+      {
+        "wordId": "play",
+        "representations": [
+          "v2:question"
+        ]
+      }
+    ],
+    "provenance": {
+      "study": "estilo-editor/ALGORITMO-V2.md",
+      "fidelity": "unverified_without_visual_comparison"
+    },
+    "editorial": {
+      "version": 2,
+      "decisions": [
+        {
+          "clauseId": "intro",
+          "layoutId": "hook",
+          "treatment": "rail",
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+          "observation": {
+            "kind": "agent",
+            "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+          },
+          "semanticFunction": "ordinary",
+          "candidates": [
+            {
+              "treatment": "rail",
+              "eligible": true,
+              "cost": 0,
+              "reasons": [
+                "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+              ]
+            },
+            {
+              "treatment": "stack",
+              "eligible": false,
+              "cost": 0,
+              "reasons": [
+                "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto.",
+                "No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+              ]
+            },
+            {
+              "treatment": "inline",
+              "eligible": false,
+              "cost": 2,
+              "reasons": [
+                "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras.",
+                "No cumple función, longitud, tamaño mínimo o continuidad de frase."
+              ]
+            },
+            {
+              "treatment": "quiet",
+              "eligible": false,
+              "cost": -2,
+              "reasons": [
+                "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+              ]
+            }
+          ],
+          "anchor": [
+            0.5,
+            0.56
+          ],
+          "evidence": [
+            {
+              "rule": "C01",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v8",
+                  "f0": 919,
+                  "f1": 1134,
+                  "observation": "Narración y20%; protesta y50%",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                },
+                {
+                  "slug": "landing",
+                  "f0": 4738,
+                  "f1": 5077,
+                  "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+                  "level": "prior_review",
+                  "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+                  "independentFamily": "landing"
+                },
+                {
+                  "slug": "lafabrica-v2p1",
+                  "f0": 1559,
+                  "f1": 1623,
+                  "observation": "Derecha50%→centro26% sin corte",
+                  "level": "prior_review",
+                  "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                  "independentFamily": "lafabrica-v2p1"
+                }
+              ]
+            },
+            {
+              "rule": "C03",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v7-ads90-rev",
+                  "f0": 33,
+                  "f1": 373,
+                  "observation": "Te≈229px vs entrega≈745px dentro del mismo rail grande",
+                  "level": "prior_review",
+                  "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+                  "independentFamily": "ads90_variants"
+                },
+                {
+                  "slug": "v5-maquina",
+                  "f0": 690,
+                  "f1": 723,
+                  "observation": "Automáticamente≈717px, rail",
+                  "level": "prior_review",
+                  "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                  "independentFamily": "v5-maquina"
+                },
+                {
+                  "slug": "v5-maquina",
+                  "f0": 2099,
+                  "f1": 2120,
+                  "observation": "Personalmente reducido para caber",
+                  "level": "prior_review",
+                  "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                  "independentFamily": "v5-maquina"
+                }
+              ]
+            },
+            {
+              "rule": "G01",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v1-pagado",
+                  "f0": 176,
+                  "f1": 225,
+                  "observation": "Precio300€",
+                  "level": "prior_review",
+                  "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                  "independentFamily": "v1-pagado"
+                },
+                {
+                  "slug": "v1-pagado",
+                  "f0": 383,
+                  "f1": 449,
+                  "observation": "30variantes→coste mínimo",
+                  "level": "prior_review",
+                  "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                  "independentFamily": "v1-pagado"
+                },
+                {
+                  "slug": "lafabrica-v2p1",
+                  "f0": 343,
+                  "f1": 504,
+                  "observation": "Sistema y comparación",
+                  "level": "prior_review",
+                  "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                  "independentFamily": "lafabrica-v2p1"
+                },
+                {
+                  "slug": "v8",
+                  "f0": 2396,
+                  "f1": 2562,
+                  "observation": "Resultados y primera versión",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                }
+              ]
+            }
+          ],
+          "motion": "Direct replacement",
+          "needsDesign": false
+        },
+        {
+          "clauseId": "cost",
+          "layoutId": "hook",
+          "treatment": "stack",
+          "reason": "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+          "observation": {
+            "kind": "agent",
+            "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+          },
+          "semanticFunction": "emphasis",
+          "candidates": [
+            {
+              "treatment": "rail",
+              "eligible": true,
+              "cost": 7,
+              "reasons": [
+                "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+              ]
+            },
+            {
+              "treatment": "stack",
+              "eligible": true,
+              "cost": 0,
+              "reasons": [
+                "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto."
+              ]
+            },
+            {
+              "treatment": "inline",
+              "eligible": true,
+              "cost": 2,
+              "reasons": [
+                "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras."
+              ]
+            },
+            {
+              "treatment": "quiet",
+              "eligible": false,
+              "cost": -2,
+              "reasons": [
+                "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+              ]
+            }
+          ],
+          "anchor": [
+            0.5,
+            0.56
+          ],
+          "evidence": [
+            {
+              "rule": "C01",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v8",
+                  "f0": 919,
+                  "f1": 1134,
+                  "observation": "Narración y20%; protesta y50%",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                },
+                {
+                  "slug": "landing",
+                  "f0": 4738,
+                  "f1": 5077,
+                  "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+                  "level": "prior_review",
+                  "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+                  "independentFamily": "landing"
+                },
+                {
+                  "slug": "lafabrica-v2p1",
+                  "f0": 1559,
+                  "f1": 1623,
+                  "observation": "Derecha50%→centro26% sin corte",
+                  "level": "prior_review",
+                  "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                  "independentFamily": "lafabrica-v2p1"
+                }
+              ]
+            },
+            {
+              "rule": "C05",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v8",
+                  "f0": 545,
+                  "f1": 619,
+                  "observation": "no es solo / pagar / otro sueldo",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                },
+                {
+                  "slug": "v8",
+                  "f0": 2690,
+                  "f1": 2780,
+                  "observation": "puedes crear / nuevas / versiones",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                },
+                {
+                  "slug": "v1-pagado",
+                  "f0": 117,
+                  "f1": 137,
+                  "observation": "ni me han / pagado",
+                  "level": "prior_review",
+                  "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                  "independentFamily": "v1-pagado"
+                }
+              ]
+            },
+            {
+              "rule": "C06",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v8",
+                  "f0": 550,
+                  "f1": 575,
+                  "observation": "Apoyos entran separados y se compactan alrededor de pagar",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                },
+                {
+                  "slug": "lafabrica-v1",
+                  "f0": 106,
+                  "f1": 121,
+                  "observation": "Dos flancos alrededor del megáfono",
+                  "level": "prior_review",
+                  "sourceSha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+                  "independentFamily": "lafabrica-v1"
+                }
+              ]
+            }
+          ],
+          "motion": "Authored monotone entrance: fitted overshoot rejected by animated ink collision",
+          "needsDesign": false
+        },
+        {
+          "clauseId": "question",
+          "layoutId": "hook",
+          "treatment": "rail",
+          "reason": "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico. Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor.",
+          "observation": {
+            "kind": "agent",
+            "reason": "Timing units reuse V07 cue onsets, not a new forced alignment. Semantic cost focus, stable hook anchor."
+          },
+          "semanticFunction": "ordinary",
+          "candidates": [
+            {
+              "treatment": "rail",
+              "eligible": true,
+              "cost": 0,
+              "reasons": [
+                "Lectura ordinaria; cifras, longitud y assets disponibles no bastan para promover un gráfico."
+              ]
+            },
+            {
+              "treatment": "stack",
+              "eligible": false,
+              "cost": 0,
+              "reasons": [
+                "Apoyo sintáctico + foco contiguo; espacio y tiempo para retener contexto.",
+                "No cumple función, foco contiguo, apoyo, duración o continuidad de frase."
+              ]
+            },
+            {
+              "treatment": "inline",
+              "eligible": false,
+              "cost": 2,
+              "reasons": [
+                "La frase cabe con lectura suficiente; reserva posiciones y revela sin recolocar palabras.",
+                "No cumple función, longitud, tamaño mínimo o continuidad de frase."
+              ]
+            },
+            {
+              "treatment": "quiet",
+              "eligible": false,
+              "cost": -2,
+              "reasons": [
+                "La acción visual tiene prioridad y la omisión está justificada explícitamente."
+              ]
+            }
+          ],
+          "anchor": [
+            0.5,
+            0.56
+          ],
+          "evidence": [
+            {
+              "rule": "C01",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v8",
+                  "f0": 919,
+                  "f1": 1134,
+                  "observation": "Narración y20%; protesta y50%",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                },
+                {
+                  "slug": "landing",
+                  "f0": 4738,
+                  "f1": 5077,
+                  "observation": "Lista izquierda; rail pasa derecha y vuelve tras corte",
+                  "level": "prior_review",
+                  "sourceSha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+                  "independentFamily": "landing"
+                },
+                {
+                  "slug": "lafabrica-v2p1",
+                  "f0": 1559,
+                  "f1": 1623,
+                  "observation": "Derecha50%→centro26% sin corte",
+                  "level": "prior_review",
+                  "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                  "independentFamily": "lafabrica-v2p1"
+                }
+              ]
+            },
+            {
+              "rule": "C03",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v7-ads90-rev",
+                  "f0": 33,
+                  "f1": 373,
+                  "observation": "Te≈229px vs entrega≈745px dentro del mismo rail grande",
+                  "level": "prior_review",
+                  "sourceSha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+                  "independentFamily": "ads90_variants"
+                },
+                {
+                  "slug": "v5-maquina",
+                  "f0": 690,
+                  "f1": 723,
+                  "observation": "Automáticamente≈717px, rail",
+                  "level": "prior_review",
+                  "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                  "independentFamily": "v5-maquina"
+                },
+                {
+                  "slug": "v5-maquina",
+                  "f0": 2099,
+                  "f1": 2120,
+                  "observation": "Personalmente reducido para caber",
+                  "level": "prior_review",
+                  "sourceSha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+                  "independentFamily": "v5-maquina"
+                }
+              ]
+            },
+            {
+              "rule": "G01",
+              "status": "conditional_hypothesis",
+              "evidence": [
+                {
+                  "slug": "v1-pagado",
+                  "f0": 176,
+                  "f1": 225,
+                  "observation": "Precio300€",
+                  "level": "prior_review",
+                  "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                  "independentFamily": "v1-pagado"
+                },
+                {
+                  "slug": "v1-pagado",
+                  "f0": 383,
+                  "f1": 449,
+                  "observation": "30variantes→coste mínimo",
+                  "level": "prior_review",
+                  "sourceSha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+                  "independentFamily": "v1-pagado"
+                },
+                {
+                  "slug": "lafabrica-v2p1",
+                  "f0": 343,
+                  "f1": 504,
+                  "observation": "Sistema y comparación",
+                  "level": "prior_review",
+                  "sourceSha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+                  "independentFamily": "lafabrica-v2p1"
+                },
+                {
+                  "slug": "v8",
+                  "f0": 2396,
+                  "f1": 2562,
+                  "observation": "Resultados y primera versión",
+                  "level": "this_revision_qualitative",
+                  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+                  "independentFamily": "v8"
+                }
+              ]
+            }
+          ],
+          "motion": "Direct replacement",
+          "needsDesign": false
+        }
+      ],
+      "selectionCost": 0,
+      "limits": [
+        "Semantic observations are supplied by the agent/user, not inferred from pixels by this compiler.",
+        "Candidate costs and safety margins are authored hypotheses, not learned probabilities.",
+        "No new sound effects or automatic masks.",
+        "Cross-family visual fidelity remains unverified.",
+        "Source audio passes through unless a separate narration is supplied; this compiler does not listen or realign phonemes."
+      ]
+    }
+  }
+}

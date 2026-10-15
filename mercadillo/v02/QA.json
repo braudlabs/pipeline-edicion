@@ -1,0 +1,227 @@
+{
+  "status": "rendered_checked_pending_user_verdict",
+  "engine": "Adobe After Effects 26.5x89",
+  "nativeRenderSeconds": 43,
+  "format": {
+    "programs": [],
+    "stream_groups": [
+      {
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "avg_frame_rate": "24/1",
+            "duration": "88.375000",
+            "nb_frames": "2121"
+          },
+          {
+            "codec_type": "data",
+            "avg_frame_rate": "12288/512",
+            "duration": "88.375000",
+            "nb_frames": "1"
+          }
+        ]
+      }
+    ],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "avg_frame_rate": "24/1",
+        "duration": "88.375000",
+        "nb_frames": "2121"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "avg_frame_rate": "0/0",
+        "duration": "88.375000",
+        "nb_frames": "4144"
+      },
+      {
+        "codec_type": "data",
+        "avg_frame_rate": "12288/512",
+        "duration": "88.375000",
+        "nb_frames": "1"
+      }
+    ],
+    "format": {
+      "duration": "88.375000",
+      "size": "69862540"
+    }
+  },
+  "sha256": "d51685e8a37e7715a73aaf537378eeca408f5a0f0f0e5128154d006bb1866397",
+  "nativeAudit": {
+    "nativeComp": {
+      "name": "V02 MASTER",
+      "width": 1080,
+      "height": 1920,
+      "frameRate": 24,
+      "duration": 88.375,
+      "layerCount": 144,
+      "shutterAngle": 160,
+      "shutterPhase": -80,
+      "motionBlur": true
+    },
+    "captionsChecked": 106,
+    "sourceClipsChecked": 20,
+    "nativeSpecMismatches": [],
+    "sameAnchorOverlaps": [],
+    "criterion": {
+      "layout": "V01 requested composition",
+      "font": "SFProDisplay-Bold",
+      "baselines": [
+        655,
+        925
+      ],
+      "sizes": [
+        211,
+        287
+      ],
+      "tracking": -55,
+      "matte": "assets/criterion-matte-25f.mov",
+      "matteNote": "Frame 1392 repeats 1393 during fully transparent text start; subsequent frames use original per-frame person segmentation.",
+      "outlinePx": 1.65,
+      "outlineOpacity": 90
+    },
+    "visualChecks": [
+      "28 native representative frames reviewed before refinement",
+      "6 long-caption layouts corrected and rechecked",
+      "7 frames of criterion entrance / settled / exit reviewed"
+    ],
+    "limitations": [
+      "No independent auditory listening by the agent",
+      "Aesthetic approval remains with Ale"
+    ]
+  },
+  "signalAudit": {
+    "masterAudioByteIdenticalToMixSpec": true,
+    "audioFrames": 4242000,
+    "peak": 0.79669189453125,
+    "clippedSamples": 0,
+    "audioDifferenceMaxLSB": 0.0,
+    "reviewSheets": {
+      "hook": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        14,
+        16,
+        18,
+        20,
+        22,
+        24,
+        26,
+        28,
+        30,
+        32,
+        34,
+        36
+      ],
+      "grandma": [
+        1162,
+        1165,
+        1168,
+        1171,
+        1174,
+        1177,
+        1180,
+        1183,
+        1186,
+        1189,
+        1192,
+        1195,
+        1198,
+        1201,
+        1204,
+        1207,
+        1210,
+        1213,
+        1216,
+        1219,
+        1222,
+        1225,
+        1228,
+        1231,
+        1234,
+        1237,
+        1240,
+        1243,
+        1246,
+        1249,
+        1252,
+        1255,
+        1258
+      ],
+      "criterion": [
+        1352,
+        1355,
+        1358,
+        1361,
+        1364,
+        1367,
+        1370,
+        1373,
+        1376,
+        1379,
+        1382,
+        1385,
+        1388,
+        1391,
+        1394,
+        1397,
+        1400,
+        1403,
+        1406,
+        1409,
+        1412,
+        1415
+      ]
+    }
+  },
+  "decodeErrors": 0,
+  "reviewedMotionSamples": 74,
+  "playback": {
+    "url": "http://127.0.0.1:4318/",
+    "testedIntervals": [
+      [
+        45.5,
+        54.448129
+      ],
+      [
+        56.3,
+        60.443034
+      ]
+    ],
+    "speed": 1,
+    "muted": true,
+    "readyState": 4,
+    "error": null,
+    "totalVideoFrames": 523,
+    "droppedVideoFrames": 0,
+    "claimScope": "Functional playback check plus sampled visual sequences; not an independent audio listening pass",
+    "exactFrameCheck": {
+      "frame": 1412,
+      "seconds": 58.833333,
+      "imageLoaded": true,
+      "nativeWidth": 1080
+    }
+  },
+  "review": {
+    "id": "272b06d2-5f93-4880-8a4b-fdab762568d0",
+    "label": "Mercadillo · V02 · After Effects · Sincronía y composición",
+    "frames": 2121,
+    "sha256": "d51685e8a37e7715a73aaf537378eeca408f5a0f0f0e5128154d006bb1866397",
+    "url": "http://127.0.0.1:4318"
+  },
+  "approval": false
+}

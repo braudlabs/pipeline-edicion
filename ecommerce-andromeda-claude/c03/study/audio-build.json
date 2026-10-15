@@ -1,0 +1,84 @@
+{
+ "sampleRate": 48000,
+ "fps": 24,
+ "segments": [
+  {
+   "scene": "00_hook",
+   "file": "audio/stems/native-00_hook.wav",
+   "recordFrom": 0,
+   "frames": 130,
+   "sourceInFrames": 0,
+   "samples": 260000,
+   "peakDb": -4.06
+  },
+  {
+   "scene": "01_ventanilla",
+   "file": "audio/stems/native-01_ventanilla.wav",
+   "recordFrom": 130,
+   "frames": 220,
+   "sourceInFrames": 0,
+   "samples": 440000,
+   "peakDb": -1.14
+  },
+  {
+   "scene": "02_ticket",
+   "file": "audio/stems/native-02_ticket.wav",
+   "recordFrom": 350,
+   "frames": 100,
+   "sourceInFrames": 12,
+   "samples": 200000,
+   "peakDb": -3.02
+  },
+  {
+   "scene": "03_apagados",
+   "file": "audio/stems/native-03_apagados.wav",
+   "recordFrom": 450,
+   "frames": 102,
+   "sourceInFrames": 0,
+   "samples": 204000,
+   "peakDb": -2.97
+  },
+  {
+   "scene": "03b_repetir",
+   "file": "audio/stems/native-03b_repetir.wav",
+   "recordFrom": 552,
+   "frames": 58,
+   "sourceInFrames": 0,
+   "samples": 116000,
+   "peakDb": -6.37
+  },
+  {
+   "scene": "04_sudadera",
+   "file": "audio/stems/native-04_sudadera.wav",
+   "recordFrom": 610,
+   "frames": 172,
+   "sourceInFrames": 0,
+   "samples": 344000,
+   "peakDb": -10.24
+  },
+  {
+   "scene": "05_presentacion",
+   "file": "audio/stems/native-05_presentacion.wav",
+   "recordFrom": 782,
+   "frames": 58,
+   "sourceInFrames": 0,
+   "samples": 116000,
+   "peakDb": -1.93
+  },
+  {
+   "scene": "06_cinco_ads",
+   "file": "audio/stems/native-06_cinco_ads.wav",
+   "recordFrom": 840,
+   "frames": 80,
+   "sourceInFrames": 0,
+   "samples": 160000,
+   "peakDb": -3.04
+  }
+ ],
+ "narrador": {
+  "file": "audio/stems/narrador.wav",
+  "start": 0,
+  "seconds": 38.333333333333336,
+  "fullSeconds": 85.39429166666666
+ }
+}

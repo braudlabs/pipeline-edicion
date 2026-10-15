@@ -1,0 +1,140 @@
+{
+  "note": "Pistas independientes y editables. Ganancias lineales. Stems generados por build-audio.py con cortes exactos y microfundidos de 8 ms (el narrador, sin tocar). Música: pista propia (ver «musica»).",
+  "tracks": [
+    {
+      "id": "narrador",
+      "src": "assets/audio/stems/narrador.wav",
+      "from": 0,
+      "gain": 1.0,
+      "note": "NARRADOR_COMPLETO_ORIGINAL.mp3 completo (0–85,39425 s), sin retiming, recorte ni fundidos; WAV float32 = decodificación exacta del mp3 (-ac 2, como C03)"
+    },
+    {
+      "id": "hook-nativo",
+      "src": "assets/audio/stems/native-00_hook.wav",
+      "from": 0,
+      "gain": 0.8,
+      "note": "Audio nativo del hook: voz generada sincronizada «Más anuncios. Más.» + ambiente. Instrucción directa de Ale. Sin stem externo del azul ni cama del 04."
+    },
+    {
+      "id": "nativo-01",
+      "src": "assets/audio/stems/native-01_ventanilla.wav",
+      "from": 130,
+      "gain": 0.65
+    },
+    {
+      "id": "nativo-02",
+      "src": "assets/audio/stems/native-02_ticket.wav",
+      "from": 350,
+      "gain": 0.65
+    },
+    {
+      "id": "nativo-03",
+      "src": "assets/audio/stems/native-03_apagados.wav",
+      "from": 450,
+      "gain": 0.75,
+      "note": "clics eléctricos de los apagados; nivel fuente bajo (-31 LUFS)"
+    },
+    {
+      "id": "nativo-03b",
+      "src": "assets/audio/stems/native-03b_repetir.wav",
+      "from": 552,
+      "gain": 0.75
+    },
+    {
+      "id": "nativo-04",
+      "src": "assets/audio/stems/native-04_sudadera.wav",
+      "from": 610,
+      "gain": 0.75,
+      "note": "roce de tela; nivel fuente bajo (-30 LUFS)"
+    },
+    {
+      "id": "nativo-05",
+      "src": "assets/audio/stems/native-05_presentacion.wav",
+      "from": 782,
+      "gain": 0.6,
+      "note": "golpes de la máquina sobre el mostrador"
+    },
+    {
+      "id": "nativo-06",
+      "src": "assets/audio/stems/native-06_cinco_ads.wav",
+      "from": 840,
+      "gain": 0.75,
+      "note": "v5 (fila duplicada). Ambiente muy bajo (-36,1 LUFS, pico de muestra -12,7 dBFS): sube a 0,75. Ya no existe el tono de interfaz del provisional (-13,9 LUFS) que obligaba a 0,42."
+    },
+    {
+      "id": "nativo-07",
+      "src": "assets/audio/stems/native-07_gestion.wav",
+      "from": 920,
+      "gain": 0.75,
+      "note": "nivel fuente bajo (-31,6 LUFS)"
+    },
+    {
+      "id": "nativo-08",
+      "src": "assets/audio/stems/native-08_optimizacion.wav",
+      "from": 1022,
+      "gain": 0.75,
+      "note": "nivel fuente bajo (-31,8 LUFS); pico de -1,8 dBFS en 46,35 s: revisar a oído bajo la locución"
+    },
+    {
+      "id": "nativo-09",
+      "src": "assets/audio/stems/native-09_papeles.wav",
+      "from": 1237,
+      "gain": 0.65
+    },
+    {
+      "id": "nativo-10",
+      "src": "assets/audio/stems/native-10_fundadores.wav",
+      "from": 1340,
+      "gain": 0.75,
+      "note": "nivel fuente bajo (-33,2 LUFS)"
+    },
+    {
+      "id": "nativo-11",
+      "src": "assets/audio/stems/native-11_criterio.wav",
+      "from": 1478,
+      "gain": 0.65,
+      "note": "audio nativo por escuchar antes de aprobar mezcla"
+    },
+    {
+      "id": "nativo-12",
+      "src": "assets/audio/stems/native-12_habitacion.wav",
+      "from": 1585,
+      "gain": 0.65,
+      "note": "la fuente trae 32 ms menos de audio que de vídeo: las últimas 1.536 muestras del stem son silencio"
+    },
+    {
+      "id": "nativo-13",
+      "src": "assets/audio/stems/native-13_metagag.wav",
+      "from": 1681,
+      "gain": 0.75,
+      "note": "nivel fuente bajo (-33,7 LUFS)"
+    },
+    {
+      "id": "nativo-14",
+      "src": "assets/audio/stems/native-14_cta.wav",
+      "from": 1786,
+      "gain": 0.65,
+      "note": "pico de -1,2 dBFS en 78,31 s (LRA 18 LU): revisar a oído bajo la locución"
+    },
+    {
+      "id": "nativo-15",
+      "src": "assets/audio/stems/native-15_salida.wav",
+      "from": 1991,
+      "gain": 0.65
+    },
+    {
+      "id": "sfx-subtitulos",
+      "src": "assets/audio/stems/sfx-captions.wav",
+      "from": 0,
+      "gain": 1.0,
+      "note": "Acentos discretos ligados a construcciones tipográficas concretas (solo 0–38,3 s: los rótulos de 07–15 están pendientes); desactivable"
+    },
+    {
+      "id": "musica",
+      "src": "assets/audio/stems/musica.wav",
+      "from": 0,
+      "gain": 1.0,
+      "note": "Banda sonora ElevenLabs (toma 2) montada a la timeline en ../music (final_soundtrack_85_4s.wav, 85,400 s) con ducking bajo el narrador (build-music.py): −12 dB con voz, hasta −6 dB en huecos ≥150 ms, −3 dB extra en el hook. Pista separada; el máster de música no se toca."
+    }
+  ]
+}

@@ -1,0 +1,204 @@
+{
+  "fps": 48,
+  "duration": 2162,
+  "video": [
+    {
+      "clip": 1,
+      "src": "01-hook.mp4",
+      "duration": 84,
+      "sourceFrame": 0,
+      "sourceEnd": 84,
+      "from": 0
+    },
+    {
+      "clip": 1,
+      "src": "01-hook.mp4",
+      "duration": 156,
+      "sourceFrame": 104,
+      "sourceEnd": 260,
+      "from": 84
+    },
+    {
+      "clip": 1,
+      "src": "01-hook.mp4",
+      "duration": 100,
+      "sourceFrame": 278,
+      "sourceEnd": 378,
+      "from": 240
+    },
+    {
+      "clip": 2,
+      "src": "02-persona-escenario.mp4",
+      "duration": 94,
+      "sourceFrame": 2,
+      "sourceEnd": 96,
+      "from": 340
+    },
+    {
+      "clip": 2,
+      "src": "02-persona-escenario.mp4",
+      "duration": 62,
+      "sourceFrame": 118,
+      "sourceEnd": 180,
+      "from": 434
+    },
+    {
+      "clip": 3,
+      "src": "03-planos-voz.mp4",
+      "duration": 92,
+      "sourceFrame": 2,
+      "sourceEnd": 94,
+      "from": 496
+    },
+    {
+      "clip": 3,
+      "src": "03-planos-voz.mp4",
+      "duration": 54,
+      "sourceFrame": 128,
+      "sourceEnd": 182,
+      "from": 588
+    },
+    {
+      "clip": 4,
+      "src": "04-montaje-automatico.mp4",
+      "duration": 188,
+      "sourceFrame": 2,
+      "sourceEnd": 190,
+      "from": 642
+    },
+    {
+      "clip": 5,
+      "src": "05-creatividad-completa.mp4",
+      "duration": 224,
+      "sourceFrame": 6,
+      "sourceEnd": 230,
+      "from": 830
+    },
+    {
+      "clip": 6,
+      "src": "06-todo-encaje.mp4",
+      "duration": 106,
+      "sourceFrame": 2,
+      "sourceEnd": 108,
+      "from": 1054
+    },
+    {
+      "clip": 6,
+      "src": "06-todo-encaje.mp4",
+      "duration": 102,
+      "sourceFrame": 128,
+      "sourceEnd": 230,
+      "from": 1160
+    },
+    {
+      "clip": 7,
+      "src": "07-consistencia.mp4",
+      "duration": 84,
+      "sourceFrame": 2,
+      "sourceEnd": 86,
+      "from": 1262
+    },
+    {
+      "clip": 7,
+      "src": "07-consistencia.mp4",
+      "duration": 84,
+      "sourceFrame": 100,
+      "sourceEnd": 184,
+      "from": 1346
+    },
+    {
+      "clip": 8,
+      "src": "08-visual-hub-sistemas.mp4",
+      "duration": 282,
+      "sourceFrame": 0,
+      "sourceEnd": 282,
+      "from": 1430
+    },
+    {
+      "clip": 9,
+      "src": "09-linea-produccion.mp4",
+      "duration": 228,
+      "sourceFrame": 0,
+      "sourceEnd": 228,
+      "from": 1712
+    },
+    {
+      "clip": 10,
+      "src": "10-cta-39.mp4",
+      "duration": 56,
+      "sourceFrame": 0,
+      "sourceEnd": 56,
+      "from": 1940
+    },
+    {
+      "clip": 10,
+      "src": "10-cta-39.mp4",
+      "duration": 166,
+      "sourceFrame": 72,
+      "sourceEnd": 238,
+      "from": 1996
+    }
+  ],
+  "clips": [
+    {
+      "id": 1,
+      "src": "01-hook.mp4",
+      "to": 340,
+      "from": 0
+    },
+    {
+      "id": 2,
+      "src": "02-persona-escenario.mp4",
+      "to": 496,
+      "from": 340
+    },
+    {
+      "id": 3,
+      "src": "03-planos-voz.mp4",
+      "to": 642,
+      "from": 496
+    },
+    {
+      "id": 4,
+      "src": "04-montaje-automatico.mp4",
+      "to": 830,
+      "from": 642
+    },
+    {
+      "id": 5,
+      "src": "05-creatividad-completa.mp4",
+      "to": 1054,
+      "from": 830
+    },
+    {
+      "id": 6,
+      "src": "06-todo-encaje.mp4",
+      "to": 1262,
+      "from": 1054
+    },
+    {
+      "id": 7,
+      "src": "07-consistencia.mp4",
+      "to": 1430,
+      "from": 1262
+    },
+    {
+      "id": 8,
+      "src": "08-visual-hub-sistemas.mp4",
+      "to": 1712,
+      "from": 1430
+    },
+    {
+      "id": 9,
+      "src": "09-linea-produccion.mp4",
+      "to": 1940,
+      "from": 1712
+    },
+    {
+      "id": 10,
+      "src": "10-cta-39.mp4",
+      "to": 2162,
+      "from": 1940
+    }
+  ]
+}

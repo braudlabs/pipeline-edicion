@@ -1,0 +1,29 @@
+{
+  "photo": {
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v04/assets/golf-ball-photo.png",
+    "source": "image_gen built-in",
+    "sha256": "c894daf7c3a3c59abfa7b3ad933613724af74f1e2bf769f31a1b9c93432b62e6",
+    "prompt": "Use case: product-mockup. Create one ultra realistic premium white golf ball as a clean isolated photography cutout on a genuinely transparent background. One complete perfect sphere centered in square canvas, occupying84% of width, with room around every edge. Crisp accurate recessed circular dimples with shallow rounded rims, natural off-white urethane surface with subtle microtexture. Studio key light from upper left, delicate highlight on upper left, sculpted gray-green shadows lower right, realistic dimensional spherical shading, enough detail for a macro camera move. No text, no logo, no numbers, no stand, no floor shadow, no grass, no extra objects, no glow, no border. Commercial sports product photography, not an icon, illustration or toy. Asset will be composited and animated in a vertical Birdieballs golf advert.",
+    "transparency": true,
+    "use": "Generated product illustration as photographic cutout;2.5D transforms, not actual3D model or inventory photograph"
+  },
+  "fonts": {
+    "sans": "SF Pro Display Regular/Bold frozen in assets",
+    "serif": "Times New Roman Italic, deliberate design adaptation",
+    "evidence": "V8 pagar/Braudd best fits SF Pro Display Regular; not universal font identification"
+  },
+  "audio": {
+    "voiceAndAmbience": "User source, continuous0..19.602916667s",
+    "effects": "Existing local media-use library, whoosh-short and click-soft. Provenance recorded in public/assets/v2/CREDITOS.md",
+    "originalGain": 0.86,
+    "limiterCeiling": 0.94,
+    "sfxTimelineSeconds": [
+      12.255,
+      13.162,
+      13.655,
+      14.6,
+      18.74
+    ],
+    "identityClaim": "Chosen effects, not identified exact samples from references"
+  }
+}

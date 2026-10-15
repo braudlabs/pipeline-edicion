@@ -1,0 +1,5 @@
+Birdieballs V08
+Vídeo, locución y música: fuente facilitada por Ale, Birdieballs v1 (Sin Postpro).mp4.
+SFX reutilizados de la biblioteca ya presente del proyecto: ad3-pipeline/assets/whoosh-short.mp3, click-soft.mp3, impact-bass-1.mp3, pop.mp3. Procedencia y créditos originales: ad3-pipeline/v2/Entrega/CREDITOS.md.
+Fuentes locales: SF Pro Display Regular y Bold.
+No se ha extraído sonido de las referencias profesionales.

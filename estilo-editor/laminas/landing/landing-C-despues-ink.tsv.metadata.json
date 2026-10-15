@@ -1,0 +1,7 @@
+{
+  "id": "landing-C",
+  "source": "native decoded MP4 select n; zero-based",
+  "file": "despues-ink.tsv",
+  "scope": "thresholded inkbox; contrast not alpha; inclusive frames",
+  "limitations": "Selective measurement, not exhaustive event review; source frame dimensions and ROI from commands/coverage."
+}

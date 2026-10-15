@@ -1,0 +1,24 @@
+{
+  "file": "original_music.mp3",
+  "model_id": "music_v2_5",
+  "output_format": "mp3_48000_320",
+  "seed": 85400,
+  "response_headers": {
+    "date": "Wed, 14 Oct 2026 21:21:41 GMT",
+    "server": "uvicorn",
+    "song-id": "I3YOOZY5evCCOiht9tA3",
+    "Content-Length": "3413804",
+    "content-type": "audio/mpeg",
+    "vary": "Accept-Language",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "*",
+    "access-control-allow-methods": "POST, PATCH, OPTIONS, DELETE, GET, PUT",
+    "access-control-max-age": "600",
+    "Strict-Transport-Security": "max-age=1800;",
+    "x-trace-id": "3a575a33a407645b8bb83b936d12141c",
+    "x-region": "us-central1",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Connection": "close"
+  }
+}

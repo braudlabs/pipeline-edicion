@@ -1,0 +1,2453 @@
+{
+ "fps": 48,
+ "master": "CREATINA - FINAL",
+ "width": 1080,
+ "height": 1920,
+ "duration": 952,
+ "comps": {
+  "CREATINA - FINAL": {
+   "name": "CREATINA - FINAL",
+   "width": 1080,
+   "height": 1920,
+   "duration": 952,
+   "layers": [
+    {
+     "type": "video",
+     "name": "Montaje Remotion",
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "from": 0,
+     "to": 952,
+     "asset": "Montaje-Creatina.mp4",
+     "anchor": [
+      540.0,
+      960.0
+     ]
+    },
+    {
+     "type": "audio",
+     "name": "Voz y ambiente",
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "from": 0,
+     "to": 952,
+     "asset": "Voz-Creatina.wav",
+     "anchor": [
+      540.0,
+      960.0
+     ]
+    },
+    {
+     "type": "comp",
+     "name": "Cifra - seis meses",
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "from": 20,
+     "to": 128,
+     "source": "G1 - Seis meses",
+     "anchor": [
+      540.0,
+      960.0
+     ],
+     "startTime": 0.4166666666666667
+    },
+    {
+     "type": "comp",
+     "name": "Cifra - cinco gramos",
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "from": 520,
+     "to": 624,
+     "source": "G2 - Cinco gramos",
+     "anchor": [
+      540.0,
+      960.0
+     ],
+     "startTime": 10.833333333333334
+    },
+    {
+     "type": "comp",
+     "name": "Cifra - tres euros",
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "from": 654,
+     "to": 710,
+     "source": "G3 - Tres euros",
+     "anchor": [
+      540.0,
+      960.0
+     ],
+     "startTime": 13.625
+    },
+    {
+     "type": "comp",
+     "name": "Codigo ANDREA10",
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "from": 845,
+     "to": 952,
+     "source": "G4 - Codigo",
+     "anchor": [
+      540.0,
+      960.0
+     ],
+     "startTime": 17.604166666666668
+    },
+    {
+     "type": "text",
+     "name": "SUB 01 - y lo que más me pregun",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 128,
+     "to": 206,
+     "text": "y lo que más me preguntáis",
+     "size": 84,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        128,
+        138
+       ],
+       "values": [
+        [
+         604.0,
+         1500
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        199,
+        206
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        128,
+        138
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 02 - es si hincha",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 208,
+     "to": 279,
+     "text": "es si hincha",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        208,
+        218
+       ],
+       "values": [
+        [
+         476.0,
+         1500
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        272,
+        279
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        208,
+        218
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 03 - A mí no me ha hinchado",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 287,
+     "to": 335,
+     "text": "A mí no me ha hinchado",
+     "size": 96,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        287,
+        297
+       ],
+       "values": [
+        [
+         540.0,
+         1564
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        328,
+        335
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        287,
+        297
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 04 - Lo que noté",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 338,
+     "to": 383,
+     "text": "Lo que noté",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        338,
+        348
+       ],
+       "values": [
+        [
+         476.0,
+         1500
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        376,
+        383
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        338,
+        348
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 05 - es que aguanto",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 385,
+     "to": 439,
+     "text": "es que aguanto",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        385,
+        395
+       ],
+       "values": [
+        [
+         604.0,
+         1500
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        432,
+        439
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        385,
+        395
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 06 - la última serie entera",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 441,
+     "to": 509,
+     "text": "la última serie entera",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        441,
+        451
+       ],
+       "values": [
+        [
+         540.0,
+         1564
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        502,
+        509
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        441,
+        451
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 07 - Así que nada",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 712,
+     "to": 764,
+     "text": "Así que nada",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        712,
+        722
+       ],
+       "values": [
+        [
+         604.0,
+         1500
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        757,
+        764
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        712,
+        722
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 08 - si quieres ponerte",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 766,
+     "to": 794,
+     "text": "si quieres ponerte",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        766,
+        776
+       ],
+       "values": [
+        [
+         476.0,
+         1500
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        787,
+        794
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        766,
+        776
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "SUB 09 - bien fuerte",
+     "pos": [
+      540.0,
+      1500
+     ],
+     "from": 796,
+     "to": 832,
+     "text": "bien fuerte",
+     "size": 92,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -45,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      4,
+      "#182015",
+      0.65
+     ],
+     "textStroke": [
+      "#20271b",
+      1.1
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        796,
+        806
+       ],
+       "values": [
+        [
+         540.0,
+         1564
+        ],
+        [
+         540.0,
+         1500
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        825,
+        832
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        796,
+        806
+       ],
+       "values": [
+        5,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    }
+   ]
+  },
+  "G1 - Seis meses": {
+   "name": "G1 - Seis meses",
+   "width": 1080,
+   "height": 1920,
+   "duration": 108,
+   "layers": [
+    {
+     "type": "ellipse",
+     "name": "Anillo",
+     "pos": [
+      413.74375,
+      1530
+     ],
+     "from": 0,
+     "to": 108,
+     "w": 244,
+     "h": 244,
+     "color": null,
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "anim": {
+      "scale": {
+       "frames": [
+        0,
+        15
+       ],
+       "values": [
+        [
+         0.7,
+         0.7
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        100,
+        108
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "Cifra",
+     "pos": [
+      413.74375,
+      1582.56
+     ],
+     "from": 0,
+     "to": 108,
+     "text": "6",
+     "size": 146,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -30,
+     "align": "center",
+     "anim": {
+      "pos": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        [
+         413.74375,
+         1626.56
+        ],
+        [
+         413.74375,
+         1582.56
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        100,
+        108
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        6,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "Etiqueta",
+     "pos": [
+      561.74375,
+      1553.4
+     ],
+     "from": 5,
+     "to": 108,
+     "text": "meses",
+     "size": 78,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -20,
+     "align": "left",
+     "anim": {
+      "pos": {
+       "frames": [
+        5,
+        19
+       ],
+       "values": [
+        [
+         513.74375,
+         1553.4
+        ],
+        [
+         561.74375,
+         1553.4
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        100,
+        108
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        5,
+        19
+       ],
+       "values": [
+        6,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Subrayado",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 8,
+     "to": 108,
+     "points": [
+      [
+       561.74375,
+       1573.4
+      ],
+      [
+       788.2562499999999,
+       1573.4
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      8,
+      24
+     ],
+     "anim": {
+      "opacity": {
+       "frames": [
+        100,
+        108
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    }
+   ]
+  },
+  "G2 - Cinco gramos": {
+   "name": "G2 - Cinco gramos",
+   "width": 1080,
+   "height": 1920,
+   "duration": 104,
+   "layers": [
+    {
+     "type": "ellipse",
+     "name": "Anillo",
+     "pos": [
+      427.303125,
+      1760
+     ],
+     "from": 0,
+     "to": 104,
+     "w": 152,
+     "h": 152,
+     "color": null,
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "anim": {
+      "scale": {
+       "frames": [
+        0,
+        15
+       ],
+       "values": [
+        [
+         0.7,
+         0.7
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        96,
+        104
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "Cifra",
+     "pos": [
+      427.303125,
+      1794.56
+     ],
+     "from": 0,
+     "to": 104,
+     "text": "5",
+     "size": 96,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -30,
+     "align": "center",
+     "anim": {
+      "pos": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        [
+         427.303125,
+         1838.56
+        ],
+        [
+         427.303125,
+         1794.56
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        96,
+        104
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        6,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "Etiqueta",
+     "pos": [
+      529.303125,
+      1778.0
+     ],
+     "from": 5,
+     "to": 104,
+     "text": "gramos",
+     "size": 60,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -20,
+     "align": "left",
+     "anim": {
+      "pos": {
+       "frames": [
+        5,
+        19
+       ],
+       "values": [
+        [
+         481.303125,
+         1778.0
+        ],
+        [
+         529.303125,
+         1778.0
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        96,
+        104
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        5,
+        19
+       ],
+       "values": [
+        6,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Subrayado",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 8,
+     "to": 104,
+     "points": [
+      [
+       529.303125,
+       1798.0
+      ],
+      [
+       728.6968750000001,
+       1798.0
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      8,
+      24
+     ],
+     "anim": {
+      "opacity": {
+       "frames": [
+        96,
+        104
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    }
+   ]
+  },
+  "G3 - Tres euros": {
+   "name": "G3 - Tres euros",
+   "width": 1080,
+   "height": 1920,
+   "duration": 56,
+   "layers": [
+    {
+     "type": "ellipse",
+     "name": "Anillo",
+     "pos": [
+      394.6421875,
+      1760
+     ],
+     "from": 0,
+     "to": 56,
+     "w": 152,
+     "h": 152,
+     "color": null,
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "anim": {
+      "scale": {
+       "frames": [
+        0,
+        15
+       ],
+       "values": [
+        [
+         0.7,
+         0.7
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        48,
+        56
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "Cifra",
+     "pos": [
+      394.6421875,
+      1787.36
+     ],
+     "from": 0,
+     "to": 56,
+     "text": "3€",
+     "size": 76,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -30,
+     "align": "center",
+     "anim": {
+      "pos": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        [
+         394.6421875,
+         1831.36
+        ],
+        [
+         394.6421875,
+         1787.36
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        48,
+        56
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        6,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "text",
+     "name": "Etiqueta",
+     "pos": [
+      496.6421875,
+      1778.0
+     ],
+     "from": 5,
+     "to": 56,
+     "text": "la semana",
+     "size": 60,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -20,
+     "align": "left",
+     "anim": {
+      "pos": {
+       "frames": [
+        5,
+        19
+       ],
+       "values": [
+        [
+         448.6421875,
+         1778.0
+        ],
+        [
+         496.6421875,
+         1778.0
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        48,
+        56
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        5,
+        19
+       ],
+       "values": [
+        6,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Subrayado",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 8,
+     "to": 56,
+     "points": [
+      [
+       496.6421875,
+       1798.0
+      ],
+      [
+       761.3578124999999,
+       1798.0
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      8,
+      24
+     ],
+     "anim": {
+      "opacity": {
+       "frames": [
+        48,
+        56
+       ],
+       "values": [
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    }
+   ]
+  },
+  "G4 - Codigo": {
+   "name": "G4 - Codigo",
+   "width": 1080,
+   "height": 1920,
+   "duration": 107,
+   "layers": [
+    {
+     "type": "path",
+     "name": "Radio 0",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 10,
+     "to": 107,
+     "points": [
+      [
+       205.91827470302678,
+       1483.2402524506945
+      ],
+      [
+       156.56529255688298,
+       1482.5371079263653
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      10,
+      23
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 0",
+     "pos": [
+      156.56529255688298,
+      1482.5371079263653
+     ],
+     "from": 18,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        18,
+        24
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 1",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 11,
+     "to": 107,
+     "points": [
+      [
+       210.18609484594987,
+       1469.990005248483
+      ],
+      [
+       178.32906991629727,
+       1468.2504034827114
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      11,
+      24
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 2",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 12,
+     "to": 107,
+     "points": [
+      [
+       219.37068066007623,
+       1457.008245585908
+      ],
+      [
+       172.00498575758752,
+       1452.4299182292807
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      12,
+      25
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 2",
+     "pos": [
+      172.00498575758752,
+      1452.4299182292807
+     ],
+     "from": 20,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        20,
+        26
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 3",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 13,
+     "to": 107,
+     "points": [
+      [
+       233.33511112561456,
+       1444.488501598877
+      ],
+      [
+       203.71407072297507,
+       1440.285686412405
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      13,
+      26
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 4",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 14,
+     "to": 107,
+     "points": [
+      [
+       251.8712087483538,
+       1432.617413833728
+      ],
+      [
+       209.3067282225424,
+       1424.4358954228014
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      14,
+      27
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 4",
+     "pos": [
+      209.3067282225424,
+      1424.4358954228014
+     ],
+     "from": 22,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        22,
+        28
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 5",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 15,
+     "to": 107,
+     "points": [
+      [
+       274.70264300661097,
+       1421.5719528665684
+      ],
+      [
+       249.07733011520412,
+       1415.1556074048165
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      15,
+      28
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 6",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 10,
+     "to": 107,
+     "points": [
+      [
+       301.4890498028417,
+       1411.5167810796002
+      ],
+      [
+       266.2544776146252,
+       1400.2181237390866
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      10,
+      23
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 6",
+     "pos": [
+      266.2544776146252,
+      1400.2181237390866
+     ],
+     "from": 18,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        18,
+        24
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 7",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 11,
+     "to": 107,
+     "points": [
+      [
+       331.83110550838006,
+       1402.6017979242647
+      ],
+      [
+       311.72388274498496,
+       1394.35310795104
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      11,
+      24
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 8",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 12,
+     "to": 107,
+     "points": [
+      [
+       365.2764799589868,
+       1394.9599052656815
+      ],
+      [
+       339.46505086201887,
+       1381.2153458162934
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      12,
+      25
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 8",
+     "pos": [
+      339.46505086201887,
+      1381.2153458162934
+     ],
+     "from": 20,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        20,
+        26
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 9",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 13,
+     "to": 107,
+     "points": [
+      [
+       401.3265796557537,
+       1388.7050261219515
+      ],
+      [
+       387.93198791795714,
+       1379.1140343269128
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      13,
+      26
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 10",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 14,
+     "to": 107,
+     "points": [
+      [
+       439.4439806457711,
+       1383.9304063343534
+      ],
+      [
+       424.58911415026,
+       1368.556489088292
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      14,
+      27
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 10",
+     "pos": [
+      424.58911415026,
+      1368.556489088292
+     ],
+     "from": 22,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        22,
+        28
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 11",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 15,
+     "to": 107,
+     "points": [
+      [
+       479.06044027542595,
+       1380.7072244866213
+      ],
+      [
+       473.17423280202956,
+       1370.343717760897
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      15,
+      28
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 12",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 10,
+     "to": 107,
+     "points": [
+      [
+       519.5853683795439,
+       1379.0835307962059
+      ],
+      [
+       516.5695705265219,
+       1362.9935978456454
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      10,
+      23
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 12",
+     "pos": [
+      516.5695705265219,
+      1362.9935978456454
+     ],
+     "from": 18,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        18,
+        24
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 13",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 11,
+     "to": 107,
+     "points": [
+      [
+       560.4146316204561,
+       1379.0835307962059
+      ],
+      [
+       562.386499447432,
+       1368.5631900208393
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      11,
+      24
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 14",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 12,
+     "to": 107,
+     "points": [
+      [
+       600.9395597245741,
+       1380.7072244866213
+      ],
+      [
+       609.9419946838862,
+       1364.8571553766903
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      12,
+      25
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 14",
+     "pos": [
+      609.9419946838862,
+      1364.8571553766903
+     ],
+     "from": 20,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        20,
+        26
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 15",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 13,
+     "to": 107,
+     "points": [
+      [
+       640.556019354229,
+       1383.9304063343534
+      ],
+      [
+       650.268816678217,
+       1373.878229673467
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      13,
+      26
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 16",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 14,
+     "to": 107,
+     "points": [
+      [
+       678.6734203442463,
+       1388.7050261219515
+      ],
+      [
+       699.1592665314646,
+       1374.0364504354218
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      14,
+      27
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 16",
+     "pos": [
+      699.1592665314646,
+      1374.0364504354218
+     ],
+     "from": 22,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        22,
+        28
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 17",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 15,
+     "to": 107,
+     "points": [
+      [
+       714.7235200410133,
+       1394.9599052656815
+      ],
+      [
+       731.6002236813384,
+       1385.9730779333893
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      15,
+      28
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 18",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 10,
+     "to": 107,
+     "points": [
+      [
+       748.16889449162,
+       1402.6017979242647
+      ],
+      [
+       778.9211175415185,
+       1389.9861544358037
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      10,
+      23
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 18",
+     "pos": [
+      778.9211175415185,
+      1389.9861544358037
+     ],
+     "from": 18,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        18,
+        24
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 19",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 11,
+     "to": 107,
+     "points": [
+      [
+       778.5109501971583,
+       1411.5167810796002
+      ],
+      [
+       801.5489397048384,
+       1404.1291974338799
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      11,
+      24
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 20",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 12,
+     "to": 107,
+     "points": [
+      [
+       805.297356993389,
+       1421.5719528665684
+      ],
+      [
+       844.4890120037761,
+       1411.758718630948
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      12,
+      25
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 20",
+     "pos": [
+      844.4890120037761,
+      1411.758718630948
+     ],
+     "from": 20,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        20,
+        26
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 21",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 13,
+     "to": 107,
+     "points": [
+      [
+       828.1287912516461,
+       1432.617413833728
+      ],
+      [
+       855.9594131339074,
+       1427.2679594881222
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      13,
+      26
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 22",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 14,
+     "to": 107,
+     "points": [
+      [
+       846.6648888743855,
+       1444.488501598877
+      ],
+      [
+       891.9676565490106,
+       1438.0606666078022
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      14,
+      27
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 22",
+     "pos": [
+      891.9676565490106,
+      1438.0606666078022
+     ],
+     "from": 22,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        22,
+        28
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 23",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 15,
+     "to": 107,
+     "points": [
+      [
+       860.6293193399238,
+       1457.008245585908
+      ],
+      [
+       891.5991967761663,
+       1454.0147238527286
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      15,
+      28
+     ]
+    },
+    {
+     "type": "path",
+     "name": "Radio 24",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 10,
+     "to": 107,
+     "points": [
+      [
+       869.8139051540502,
+       1469.990005248483
+      ],
+      [
+       918.5364138699895,
+       1467.3294378420087
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      10,
+      23
+     ]
+    },
+    {
+     "type": "ellipse",
+     "name": "Punta 24",
+     "pos": [
+      918.5364138699895,
+      1467.3294378420087
+     ],
+     "from": 18,
+     "to": 107,
+     "w": 7,
+     "h": 7,
+     "color": "#92bd65",
+     "anim": {
+      "opacity": {
+       "frames": [
+        18,
+        24
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Radio 25",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 11,
+     "to": 107,
+     "points": [
+      [
+       874.0817252969732,
+       1483.2402524506945
+      ],
+      [
+       906.3509828540673,
+       1482.7805041078639
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      11,
+      24
+     ]
+    },
+    {
+     "type": "text",
+     "name": "Codigo",
+     "pos": [
+      540.0,
+      1528
+     ],
+     "from": 0,
+     "to": 107,
+     "text": "ANDREA10",
+     "size": 138,
+     "color": "#f0f7eb",
+     "font": "bold",
+     "track": -30,
+     "align": "center",
+     "shadow": [
+      0,
+      3,
+      5,
+      "#182015",
+      0.55
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        [
+         540.0,
+         1592
+        ],
+        [
+         540.0,
+         1528
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        0,
+        6
+       ],
+       "values": [
+        0,
+        1
+       ],
+       "ease": "out"
+      },
+      "blur": {
+       "frames": [
+        0,
+        14
+       ],
+       "values": [
+        7,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "type": "path",
+     "name": "Regla",
+     "pos": [
+      0,
+      0
+     ],
+     "from": 6,
+     "to": 107,
+     "points": [
+      [
+       204.8803125,
+       1566
+      ],
+      [
+       875.1196875,
+       1566
+      ]
+     ],
+     "stroke": "#bacfa8",
+     "strokeWidth": 2,
+     "trim": [
+      6,
+      26
+     ]
+    }
+   ]
+  }
+ }
+}

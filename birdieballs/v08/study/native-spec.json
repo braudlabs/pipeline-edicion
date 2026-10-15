@@ -1,0 +1,51 @@
+{
+  "tool": "Adobe After Effects 2026",
+  "composition": "BIRDIEBALLS V08 - MASTER",
+  "nativeCaptions": 57,
+  "durationFrames": 2278,
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "duration": 38.00463333333333,
+  "sourceMapping": "One continuous layer, original order and timings; no new cuts or retiming. Local camera scale accents only.",
+  "style": {
+    "fontFamily": "SF Pro Display",
+    "weights": [
+      "Regular",
+      "Bold"
+    ],
+    "fill": [
+      "#fcfbf0",
+      "#dcf395"
+    ],
+    "motionBlur": {
+      "shutterAngle": 180,
+      "phase": -90
+    },
+    "positionRule": "stable per semantic block; macro dialogue lower rail corrected to1640 to uncover ball and mouth"
+  },
+  "rejected": [
+    {
+      "layer": "OFERTA - contraste suave",
+      "enabled": false,
+      "reason": "Explicit latest user rejection of mask over70%",
+      "lastOperation": "offer-clean.json"
+    }
+  ],
+  "operationReplayOrder": [
+    "start.json",
+    "design.json",
+    "import-matte.json",
+    "build.json",
+    "import-audio.json",
+    "finish-setup.json",
+    "render-setup.json",
+    "contrast-pass.json",
+    "soften.json",
+    "offer-clean.json",
+    "final-save.json"
+  ],
+  "creativeStatus": "Awaiting user verdict; V07 only partially liked; no claim of reference equivalence.",
+  "audioHeadroom": "-1 dB after mixing; encoded output verified at0.856421 peak"
+}

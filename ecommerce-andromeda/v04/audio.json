@@ -1,0 +1,40 @@
+{
+  "tracks": [
+    {
+      "id": "narrador",
+      "src": "assets/STEM_NARRADOR_00-38s.wav",
+      "gain": 1,
+      "startSeconds": 0,
+      "retiming": false
+    },
+    {
+      "id": "hook-nativo-voz-y-ambiente",
+      "src": "assets/hook-native.wav",
+      "gain": 1,
+      "startSeconds": 0,
+      "sourceStartSeconds": 0,
+      "retiming": false,
+      "note": "Latest direct user correction: original synchronized hook audio replaces external blue voice and provisional hook ambience."
+    },
+    {
+      "id": "ambiente-sfx",
+      "src": "assets/ambient-after-hook.wav",
+      "gain": 1,
+      "startSeconds": 0,
+      "note": "Stem already contains source .65 and hook .25 gains and microfades; do not apply them again"
+    },
+    {
+      "id": "musica",
+      "src": null,
+      "enabled": false,
+      "status": "pending-user-supply-after-production"
+    }
+  ],
+  "master": {
+    "duration": 38.333333333333336,
+    "sampleRate": 48000,
+    "limiterPeak": 0.96,
+    "latencyCompensation": true,
+    "normalize": false
+  }
+}

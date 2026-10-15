@@ -1,0 +1,75 @@
+[
+  {
+    "id": "06_revision_v3",
+    "job": "825b056e-14ac-464a-ad80-11fbcea459a0",
+    "status": "FAILED",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/tanda-02-maquina/06_cinco_ads_v3",
+    "note": "No vídeo resultante. Rehacer nueva toma con ambos protagonistas y máquina física; dashboard solo dentro de pantalla. No usar v2."
+  },
+  {
+    "id": "07_gestion_extend",
+    "start": 38.333333333333336,
+    "end": 42.583333333333336,
+    "status": "NO_GENERADO_DEPENDE_DE_06_VALIDO",
+    "note": "Extensión forward desde final exacto de 06 usado en montaje; no iniciar desde principio ni duplicar acción."
+  },
+  {
+    "id": "08_optimizacion_escalar",
+    "start": 42.583333333333336,
+    "end": 51.541666666666664,
+    "status": "NO_GENERADO",
+    "timing": "Provisional salvo inicio42.5833 y enlace09 51.5417",
+    "note": "Dos ángulos funcionan, propone más versiones, sí y escalarás. No inventar métricas."
+  },
+  {
+    "id": "09_doble_basura",
+    "start": 51.541666666666664,
+    "end": 55.833333333333336,
+    "status": "IN_PROGRESS",
+    "job": "b4430d59-09d3-4832-bfd7-3710a29b9ed3",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/tanda-03-criterio/09_doble_basura",
+    "note": "Gag borrador duplicado, misma lavandería, referencias vídeo05 y04. No está al lado de06: respetar hueco07/08."
+  },
+  {
+    "id": "10_fundadores",
+    "start": 55.833333333333336,
+    "end": 61.583333333,
+    "status": "NO_GENERADO_TIMING_PROVISIONAL",
+    "note": "Melenas/Elliot @notelliotkay y kiwi @notkurtgodel, referencias reales, una sola aparición de escena; no reutilizar para CTA."
+  },
+  {
+    "id": "11_criterio",
+    "start": 61.583333333,
+    "end": 66.041666667,
+    "status": "NO_GENERADO_TIMING_PROVISIONAL",
+    "note": "Instalar criterio: bajar caos, momento serio y concreto."
+  },
+  {
+    "id": "12_habitacion_creativos",
+    "start": 66.041666667,
+    "end": 70.041666667,
+    "status": "NO_GENERADO_TIMING_PROVISIONAL",
+    "note": "Máquina puede llenar habitación: acumulación con procedencia física clara, no creativos que aparecen de la nada."
+  },
+  {
+    "id": "13_metagag",
+    "start": 70.041666667,
+    "end": 74.416666667,
+    "status": "NO_GENERADO_TIMING_PROVISIONAL",
+    "note": "Este mismo ad lo hizo la máquina: revelación dentro del entorno, no reciclar plano06 como nueva escena."
+  },
+  {
+    "id": "14_cta_honesto",
+    "start": 74.416666667,
+    "end": 82.958333333,
+    "status": "NO_GENERADO_TIMING_PROVISIONAL",
+    "note": "Reserva llamada, encaje sí o no: claridad y sinceridad. No métricas/garantías nuevas."
+  },
+  {
+    "id": "15_salida",
+    "start": 82.958333333,
+    "end": 85.39425,
+    "status": "NO_GENERADO_TIMING_PROVISIONAL",
+    "note": "Me voy, quiero seguir produciendo ads. Salida con intención; no cola vacía."
+  }
+]

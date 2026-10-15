@@ -1,0 +1,201 @@
+{
+  "frames": 2059,
+  "duration": 85.79166666666667,
+  "sourceWord": [
+    47.9,
+    48.635
+  ],
+  "restoredWordOldTimeline": [
+    56.375,
+    56.965
+  ],
+  "restoredWordFinal": [
+    53.791666666666664,
+    54.38166666666667
+  ],
+  "prematureNarratorRemoved": [
+    47.65,
+    56.375
+  ],
+  "silence": [
+    12.791666666666666,
+    14.541666666666666
+  ],
+  "musicMaxDuringSilence": 0.0,
+  "sfxMaxDuringSilence": 0.0,
+  "foleyMaxDuringSilence": 0.0,
+  "originalNarratorGain": 1.0,
+  "peakBeforeGain": 0.7850955128669739,
+  "masterGain": 1,
+  "events": [
+    {
+      "sourceTime": 0.7,
+      "time": 0.6999999999999998,
+      "sound": "whoosh-short",
+      "peak": 0.07,
+      "reason": "agencia"
+    },
+    {
+      "sourceTime": 8.21,
+      "time": 7.876666666666668,
+      "sound": "click-soft",
+      "peak": 0.09,
+      "reason": "precio"
+    },
+    {
+      "sourceTime": 9.29,
+      "time": 8.956666666666665,
+      "sound": "whoosh-short",
+      "peak": 0.075,
+      "reason": "rapidez"
+    },
+    {
+      "sourceTime": 12.1,
+      "time": 11.766666666666666,
+      "sound": "pop",
+      "peak": 0.075,
+      "reason": "soluci\u00f3n"
+    },
+    {
+      "sourceTime": 14.96,
+      "time": 14.626666666666667,
+      "sound": "impact-bass-1",
+      "peak": 0.12,
+      "reason": "vuelve m\u00fasica / Vamos"
+    },
+    {
+      "sourceTime": 16.7,
+      "time": 16.366666666666664,
+      "sound": "click-soft",
+      "peak": 0.11,
+      "reason": "destello rodaje"
+    },
+    {
+      "sourceTime": 19.25,
+      "time": 18.916666666666668,
+      "sound": "whoosh-short",
+      "peak": 0.07,
+      "reason": "premium"
+    },
+    {
+      "sourceTime": 21.17,
+      "time": 20.83666666666667,
+      "sound": "pop",
+      "peak": 0.11,
+      "reason": "percebe"
+    },
+    {
+      "sourceTime": 24.45,
+      "time": 24.116666666666664,
+      "sound": "click-soft",
+      "peak": 0.09,
+      "reason": "genera"
+    },
+    {
+      "sourceTime": 24.79,
+      "time": 24.456666666666667,
+      "sound": "pop",
+      "peak": 0.075,
+      "reason": "creativos"
+    },
+    {
+      "sourceTime": 29.4,
+      "time": 29.066666666666663,
+      "sound": "whoosh-short",
+      "peak": 0.065,
+      "reason": "formaci\u00f3n"
+    },
+    {
+      "sourceTime": 39.75,
+      "time": 39.416666666666664,
+      "sound": "impact-bass-1",
+      "peak": 0.16,
+      "reason": "BOOM"
+    },
+    {
+      "sourceTime": 46.77,
+      "time": 46.43666666666667,
+      "sound": "click-soft",
+      "peak": 0.07,
+      "reason": "ChatGPT"
+    },
+    {
+      "sourceTime": 49.25,
+      "time": 47.90277777777778,
+      "sound": "pop",
+      "peak": 0.08,
+      "reason": "hiperrealista"
+    },
+    {
+      "sourceTime": 50.42,
+      "time": 48.94277777777777,
+      "sound": "click-soft",
+      "peak": 0.08,
+      "reason": "UGC"
+    },
+    {
+      "sourceTime": 51.08,
+      "time": 49.529444444444444,
+      "sound": "pop",
+      "peak": 0.055,
+      "reason": "bla 1"
+    },
+    {
+      "sourceTime": 51.25,
+      "time": 49.68055555555555,
+      "sound": "pop",
+      "peak": 0.065,
+      "reason": "bla 2"
+    },
+    {
+      "sourceTime": 51.42,
+      "time": 49.83166666666667,
+      "sound": "pop",
+      "peak": 0.075,
+      "reason": "bla 3"
+    },
+    {
+      "sourceTime": 52.08,
+      "time": 50.41833333333333,
+      "sound": "impact-bass-1",
+      "peak": 0.14,
+      "reason": "YA"
+    },
+    {
+      "sourceTime": 58.5,
+      "time": 55.916666666666664,
+      "sound": "whoosh-short",
+      "peak": 0.065,
+      "reason": "criterio visual"
+    },
+    {
+      "sourceTime": 68.9,
+      "time": 66.31666666666668,
+      "sound": "whoosh-short",
+      "peak": 0.07,
+      "reason": "traductor"
+    },
+    {
+      "sourceTime": 70.3,
+      "time": 67.71666666666665,
+      "sound": "impact-bass-1",
+      "peak": 0.1,
+      "reason": "malas ideas"
+    },
+    {
+      "sourceTime": 74.55,
+      "time": 71.96666666666665,
+      "sound": "whoosh-short",
+      "peak": 0.08,
+      "reason": "arte"
+    },
+    {
+      "sourceTime": 81.75,
+      "time": 79.16666666666667,
+      "sound": "click-soft",
+      "peak": 0.07,
+      "reason": "llamada"
+    }
+  ],
+  "independentListening": false
+}

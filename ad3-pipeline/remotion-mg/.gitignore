@@ -1,0 +1,10 @@
+node_modules/
+output/
+analysis/
+public/*.mp4
+public/*.wav
+public/*.jpg
+public/*.png
+!public/textures/
+__pycache__/
+.DS_Store

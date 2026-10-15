@@ -1,0 +1,134 @@
+{
+  "slug": "landing",
+  "segment": "landing-D",
+  "frame_range": [
+    2269,
+    3257
+  ],
+  "status": "partial",
+  "sheets_viewed": [
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d063_f02269-f02298.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d064_f02299-f02337.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d065_f02338-f02389.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d066_f02390-f02448.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d067_f02449-f02507.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d068_f02508-f02573.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d069_f02574-f02638.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d070_f02639-f02705.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d071_f02706-f02779.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d072_f02780-f02813.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d073_f02814-f02843.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d074_f02844-f02873.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d075_f02874-f02918.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d076_f02919-f02948.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d077_f02949-f02978.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d078_f02979-f03039.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d079_f03040-f03106.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d080_f03107-f03167.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d081_f03168-f03197.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d082_f03198-f03227.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/dense/landing/d083_f03228-f03257.jpg"
+  ],
+  "native_ranges": [
+    {
+      "f0": 2406,
+      "f1": 2415,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f2406-2415.jpg",
+      "extraction": "original select n"
+    },
+    {
+      "f0": 2787,
+      "f1": 2799,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f2787-2799.jpg",
+      "extraction": "original select n"
+    },
+    {
+      "f0": 3207,
+      "f1": 3217,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f3207-3217.jpg",
+      "extraction": "original select n"
+    },
+    {
+      "f0": 3238,
+      "f1": 3248,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-f3238-3248.jpg",
+      "extraction": "original select n"
+    },
+    {
+      "f0": 2317,
+      "f1": 2319,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2318.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 2509,
+      "f1": 2511,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2510.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 2608,
+      "f1": 2610,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2609.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 2769,
+      "f1": 2771,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2770.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 2979,
+      "f1": 2981,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f2980.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 3058,
+      "f1": 3060,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f3059.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 3164,
+      "f1": 3166,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/cut-f3165.jpg",
+      "extraction": "original select n; full image scaled490px for cut verification"
+    },
+    {
+      "f0": 2618,
+      "f1": 2638,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-correctas-que-puede.jpg",
+      "extraction": "original select n; crop text"
+    },
+    {
+      "f0": 2787,
+      "f1": 2805,
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/tmp/landing-D/native-creador-curve.jpg",
+      "extraction": "original select n; cropped clean text; inkbox white threshold90"
+    }
+  ],
+  "spectrograms_viewed": [
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_032-040.png",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_040-048.png",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/spectro/landing/s_048-056.png"
+  ],
+  "supplemental_sheets_viewed": [
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s012_f01775-f02343.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s013_f02345-f02412.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s014_f02414-f02475.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s015_f02477-f02533.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s016_f02535-f02587.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s017_f02588-f02643.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s018_f02645-f02695.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s019_f02697-f02748.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s020_f02750-f02903.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s021_f02904-f03021.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s022_f03023-f03076.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s023_f03078-f03133.jpg",
+    "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/supplemental/landing/s024_f03135-f03317.jpg"
+  ],
+  "dense_status": "completed",
+  "review_limitations": "All dense and related supplemental sheets viewed. Native key events and each confirmed cut viewed, not native every word/event. Spectral audio only, no audition. status partial is intentional."
+}

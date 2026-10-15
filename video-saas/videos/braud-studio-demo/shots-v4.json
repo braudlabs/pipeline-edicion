@@ -1,0 +1,415 @@
+{
+ "origin": "http://127.0.0.1:8811",
+ "url": "/?brand=braud",
+ "viewport": {
+  "width": 1512,
+  "height": 900,
+  "theme": "light",
+  "dpr": 3
+ },
+ "shots": [
+  {
+   "name": "home",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "idea",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=idea]',null,1200);",
+   "marks": {
+    "steps": [
+     ".piece-steps, nav[aria-label='Pasos de la pieza']"
+    ],
+    "concept": [
+     "h2"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "guion",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=script]',null,1200);",
+   "marks": {
+    "opening2": [
+     "button",
+     "^Usar apertura$"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "casting",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=casting]',null,1200);",
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "escenas",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/El hook/,1400);",
+   "marks": {
+    "prepare": [
+     "button",
+     "^Preparar esta escena$"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "montaje",
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=review]',null,1400);",
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "marca",
+   "act": "await __click('[data-view=brands]',null,1400);",
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente-vacio",
+   "act": "await __click('[data-view=conversation]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "user": [
+     ".message.user, article.user, [data-role=user]"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-creatina]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ],
+    "reply": [
+     "article.agent-message.assistant"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente-pensando",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-creatina]',null,1500);const a=document.querySelector('article[data-message-id=m2]');const w=document.createElement('div');w.innerHTML='<div data-part=\"working\" class=\"agent-working is-thinking\" role=\"status\"><span class=\"thinking-orb\" aria-hidden=\"true\"></span><span class=\"thinking-label\">Leyendo el contexto de tu marca…</span><button class=\"text-btn\" data-ecom=\"cancel\">Detener</button></div>';a.replaceWith(w.firstChild);await __sleep(400);const l=document.querySelector('.thinking-label');const cs=getComputedStyle(l);const d=document.createElement('div');d.id='__font';d.textContent=cs.fontSize+'|'+cs.fontWeight+'|'+cs.lineHeight+'|'+cs.letterSpacing+'|'+cs.fontFamily.slice(0,40);d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);",
+   "marks": {
+    "working": [
+     "[data-part=working]"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ],
+    "orb": [
+     ".thinking-orb"
+    ],
+    "label": [
+     ".thinking-label"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "marca-tarjetas",
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=true);await __sleep(700);",
+   "crops": {
+    "business": [
+     "section",
+     "^NEGOCIO Y DIRECCIÓN"
+    ],
+    "product": [
+     "details.brand-area",
+     "^Productos y oferta"
+    ],
+    "audience": [
+     "details.brand-area",
+     "^Públicos y necesidades"
+    ],
+    "identity": [
+     "details.brand-area",
+     "^Identidad y voz"
+    ],
+    "learning": [
+     "details.brand-area",
+     "^Aprendizajes"
+    ],
+    "header": [
+     "h1"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "agente-vacio-limpio",
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.blur();document.activeElement?.blur?.();await __sleep(300);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "composer": [
+     "form"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "biblioteca",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=library]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(500);",
+   "settle": 800
+  },
+  {
+   "name": "taller",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=workshop]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(500);",
+   "settle": 800
+  },
+  {
+   "name": "generar",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-act=open-piece][data-id=creatina]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('button',/^Ver instrucciones y consultar coste$/,1500);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(500);",
+   "marks": {
+    "cost": [
+     "button",
+     "^Consultar coste$"
+    ]
+   },
+   "settle": 800
+  },
+  {
+   "name": "marca-plegada",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=false);await __sleep(700);",
+   "crops": {
+    "products": [
+     "details.brand-area",
+     "^Productos y oferta"
+    ],
+    "audience": [
+     "details.brand-area",
+     "^Públicos y necesidades"
+    ],
+    "identity": [
+     "details.brand-area",
+     "^Identidad y voz"
+    ],
+    "learning": [
+     "details.brand-area",
+     "^Aprendizajes"
+    ],
+    "note": [
+     ".brand-context-note"
+    ]
+   }
+  },
+  {
+   "name": "marca-material",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=false);const p=[...document.querySelectorAll('details.brand-area')].find(d=>/^Productos y oferta/.test(d.innerText.trim()));p.open=true;await __sleep(900);",
+   "crops": {
+    "material": [
+     "section.brand-media-group"
+    ]
+   }
+  },
+  {
+   "name": "agente-escrito",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un UGC para la creatina: una chica que responde si hincha, con el bote en la mano,\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "agente-grabando-0",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un UGC para la creatina: una chica que responde si hincha, con el bote en la mano,\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;el.classList.toggle('recording',true);el.disabled=false;el.querySelector('span').textContent=\"Terminar\";el.setAttribute('aria-label',\"Detener dictado\");el.setAttribute('aria-pressed','true');const st=document.createElement('div');st.className='dictation-status';st.setAttribute('role','status');composer.append(st);st.hidden=false;st.textContent=\"Grabando \\u00b7 0:00 \\u00b7 El texto aparecer\\u00e1 al terminar\";composer.classList.toggle('is-recording',true);const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "agente-grabando-1",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un UGC para la creatina: una chica que responde si hincha, con el bote en la mano,\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;el.classList.toggle('recording',true);el.disabled=false;el.querySelector('span').textContent=\"Terminar\";el.setAttribute('aria-label',\"Detener dictado\");el.setAttribute('aria-pressed','true');const st=document.createElement('div');st.className='dictation-status';st.setAttribute('role','status');composer.append(st);st.hidden=false;st.textContent=\"Grabando \\u00b7 0:01 \\u00b7 El texto aparecer\\u00e1 al terminar\";composer.classList.toggle('is-recording',true);const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "agente-transcribiendo",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un UGC para la creatina: una chica que responde si hincha, con el bote en la mano,\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;el.classList.toggle('recording',false);el.disabled=true;el.querySelector('span').textContent=\"Transcribiendo\\u2026\";el.setAttribute('aria-label',\"Dictar una indicaci\\u00f3n\");el.setAttribute('aria-pressed','false');const st=document.createElement('div');st.className='dictation-status';st.setAttribute('role','status');composer.append(st);st.hidden=false;st.textContent=\"Transcribiendo el audio\\u2026\";composer.classList.toggle('is-recording',false);const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "agente-dictado",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un UGC para la creatina: una chica que responde si hincha, con el bote en la mano, y que cierre con su c\\u00f3digo de descuento.\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  }
+ ]
+}

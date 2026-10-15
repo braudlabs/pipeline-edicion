@@ -1,0 +1,153 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/alejandrorubiocamarero/.cache/whisper-models/ggml-large-v3-turbo.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,090"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 90
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,090",
+				"to": "00:00:00,150"
+			},
+			"offsets": {
+				"from": 90,
+				"to": 150
+			},
+			"text": " ¡"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,150",
+				"to": "00:00:00,260"
+			},
+			"offsets": {
+				"from": 150,
+				"to": 260
+			},
+			"text": "M"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,260",
+				"to": "00:00:00,380"
+			},
+			"offsets": {
+				"from": 260,
+				"to": 380
+			},
+			"text": "ás"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,380",
+				"to": "00:00:00,970"
+			},
+			"offsets": {
+				"from": 380,
+				"to": 970
+			},
+			"text": " anunci"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,970",
+				"to": "00:00:01,170"
+			},
+			"offsets": {
+				"from": 970,
+				"to": 1170
+			},
+			"text": "os"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,170",
+				"to": "00:00:01,500"
+			},
+			"offsets": {
+				"from": 1170,
+				"to": 1500
+			},
+			"text": "!"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,500",
+				"to": "00:00:01,640"
+			},
+			"offsets": {
+				"from": 1500,
+				"to": 1640
+			},
+			"text": " ¡"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,640",
+				"to": "00:00:01,780"
+			},
+			"offsets": {
+				"from": 1640,
+				"to": 1780
+			},
+			"text": "M"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,780",
+				"to": "00:00:02,060"
+			},
+			"offsets": {
+				"from": 1780,
+				"to": 2060
+			},
+			"text": "ás"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,060",
+				"to": "00:00:02,500"
+			},
+			"offsets": {
+				"from": 2060,
+				"to": 2500
+			},
+			"text": "!"
+		}
+	]
+}

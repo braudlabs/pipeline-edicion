@@ -1,0 +1,99 @@
+{
+  "version": 3,
+  "take": "original_music_take3.mp3",
+  "note": "Toma 3 (plan continuo, tras «frena mucho a la mitad»). La toma va a 122,00 BPM exactos desde 18 ms (bombo en 1 y 3, sin deriva) y suena continua hasta el compás 41; desde 79,2 s el modelo hizo un fundido de salida que no se pidió. Se conserva la toma hasta el tiempo fuerte del compás 41 (78,7065) y el final se construye con material de la propia toma: dos compases de la sección cálida (desde 53,1328, misma fase de compás) para el tramo honesto, el riff de apertura en el corte al clip 15 (82,958) y un golpe grave final hecho con el primer golpe de la toma en el siguiente tiempo fuerte (84,925, sobre «ads»). Sin silencios en todo el montaje: solo un apagado corto (paso bajo) en la sudadera.",
+  "grid": {
+    "bpm": 122.0,
+    "beat_s": 0.491803,
+    "phase_s": 0.018,
+    "bar_s": 1.967213
+  },
+  "floating": [
+    "Las secciones del plan (32,583 · 51,542 · 66,042) no se anclan: con el groove continuo no hay paradas que delaten el cambio y Ale pidió que no frene.",
+    "82,958: el riff entra en el corte al clip 15 aunque cae a 0,32 s del tiempo fuerte del compás 43 de la toma; el corte de imagen tapa el cambio de fase."
+  ],
+  "needs_listening": [
+    "Continuidad: la toma 3 no tiene paradas de compás (13 ahogos de ~0,09 s frente a 27 paradas en la toma 2); comprobar que no frena.",
+    "Empalme 78,707 (fin de la toma → compases cálidos) y corte 82,958 (riff de apertura): crossfades de 8 y 5 ms en tiempo fuerte.",
+    "Remate: primer golpe de la toma con envolvente seca (130 ms y caída) y paso bajo de 1,8 kHz en 84,925.",
+    "Sudadera (29,05–30,92): apagado con paso bajo a 700 Hz y −7 dB, sin silencio.",
+    "Reducciones suaves (ideas de mierda, criterio, encaje): −3/−4 dB con paso bajo; no separan instrumentos."
+  ],
+  "cue_treatment": {
+    "default": {
+      "gain_db": 0,
+      "lowpass_hz": null,
+      "treat_from": null
+    },
+    "hoodie reveal (hard dropout)": {
+      "gain_db": -7,
+      "lowpass_hz": 700
+    },
+    "bad ideas warning (stripped)": {
+      "gain_db": -4,
+      "lowpass_hz": 1600
+    },
+    "human creative judgment (reduced)": {
+      "gain_db": -3,
+      "lowpass_hz": 3000
+    },
+    "honest fit / no-fit (quiet)": {
+      "gain_db": -4,
+      "lowpass_hz": 2500
+    }
+  },
+  "segments": [
+    {
+      "id": "S1",
+      "src": [
+        0.0,
+        78.7105
+      ],
+      "shift": 0.0,
+      "fade_in_ms": 0,
+      "fade_out_ms": 8,
+      "why": "la toma 3 tal cual hasta el tiempo fuerte del compás 41"
+    },
+    {
+      "id": "S2",
+      "src": [
+        53.1288,
+        57.3883
+      ],
+      "anchor": [
+        53.1328,
+        78.7065
+      ],
+      "fade_in_ms": 8,
+      "fade_out_ms": 5,
+      "why": "tramo honesto: compases 28–29 de la sección cálida, en la misma fase de compás"
+    },
+    {
+      "id": "S3",
+      "src": [
+        0.013,
+        1.981
+      ],
+      "anchor": [
+        0.018,
+        82.958
+      ],
+      "fade_in_ms": 3,
+      "fade_out_ms": 5,
+      "why": "vuelta al trabajo: el riff de apertura entra en el corte al clip 15"
+    }
+  ],
+  "notes": [
+    {
+      "id": "N1",
+      "src": 0.018,
+      "dst": 84.925,
+      "dur": 0.42,
+      "hold_ms": 130,
+      "lowpass_hz": 1800,
+      "gain_db": 0,
+      "why": "remate grave final sobre «ads»: el primer golpe de la toma, seco, en el tiempo fuerte siguiente al riff",
+      "isolated": false
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+BRIEF DE EDICIÓN — ECOMMERCE / ANDRÓMEDA / BRAUD
+Entrega de trabajo, 14 de octubre de 2026. Vídeo INCOMPLETO.
+Destinatario: sesión «Localiza el trabajo de Claude», carpeta del proyecto editor.
+
+1. QUÉ RECIBES Y QUÉ SE TE PIDE AHORA
+
+Este es el NUEVO anuncio de ecommerce: hombre azul calvo, protagonista con bigote daliniano y sudadera morada, lavandería azul/crema. NO es el anuncio anterior de agencias con el personaje calvo de pelos laterales y peto. No mezclar sus clips, voces, renders ni carpetas.
+
+Puedes empezar YA con la edición, el estilo, el tratamiento del sonido, la jerarquía de subtítulos y la continuidad de lo disponible. La producción no está terminada: no presentar esto como anuncio final. El narrador completo dura 85,39425 s. El ensamble suministrado cubre 0–38,333333 s, aproximadamente el 45% de la pieza, e incluye un último plano expresamente PROVISIONAL. No acelerar la voz para hacerla caber, no borrar frases y no inventar imágenes de relleno para simular un vídeo acabado.
+
+Prioridad de este primer pase: sacar una prueba de edición coherente sobre el ensamble existente, conservar todos sus beats narrativos y dejar la estructura preparada para incorporar nuevas tomas. La dirección/producción de clips sigue en la sesión de origen. No lanzar por tu cuenta nuevas generaciones pagadas ni sustituir actores, escenario o guion.
+
+02_AUDIO contiene las dos grabaciones originales. 01_CLIPS contiene ocho fuentes ordenadas con audio nativo. 04_MONTAJES contiene un preview con voces y otro de imagen+ambiente, además de stems. 05_TIMELINE contiene CSV, JSON y EDL. Los archivos suministrados son copias para esta entrega; no sobrescribir los originales de producción. Trabajar en un proyecto nuevo identificable como ecommerce-andromeda; conservar los otros experimentos del proyecto editor.
+
+2. ESTILO, SENTIMIENTO Y CÓMO DEBE VERSE
+
+La sensación es la de estar atrapado en un pequeño mundo absurdo que funciona con una lógica física reconocible. El azul representa la demanda insaciable de Meta: necesita más anuncios, es invasivo y ridículo. El protagonista representa al dueño de ecommerce: primero está asustado, luego harto y finalmente recupera el control. El espectador debe identificarse con su frustración y confiar en la solución, además de reírse.
+
+Humor seco y visual. La reacción del personaje remata el gag; no taparla con tipografía ni con otro efecto. Caos controlado en los momentos de dolor y absurdo, claridad en la demostración, seriedad al hablar de criterio y de si el servicio encaja. No convertir todo en un meme gritón ni en una demo corporativa fría. La gracia está en tratar los objetos absurdos con absoluta normalidad.
+
+Fotografía práctica, textura de iPhone, pulso leve e irregular, luz real de la lavandería. Paleta: azul del ambiente y del personaje, crema/paja/pana, acento morado de la sudadera. Conservar la piel y las telas. Igualar exposición, balance y contraste entre planos con suavidad; evitar look naranja/teal, bloom digital, sharpening duro o saturación que vuelva fosforescente al azul.
+
+El ritmo se apoya en acciones: cierre de persiana, espera, ticket que sale, pantallas que se apagan, mirada a la cámara, esconder la sudadera, presentar máquina, clic y reproducción. No aplicar un zoom por palabra. Los acercamientos, movimientos de cámara y gags ya están producidos en Seedance: no duplicarlos con otra capa automática de sacudidas, zooms o swooshes.
+
+Objetivo aproximado para la pieza: 75% cambios de plano/escenario-momento y 25% continuaciones enlazadas. Es una orientación, no un contador rígido. Los cortes limpios entre tomas son bienvenidos. Reservar las continuaciones reales para acciones que lo necesitan; no intentar disolver todos los planos en una falsa toma continua.
+
+Contraste emocional:
+0–5,417: invasión incómoda, miedo cómico, entrada instantánea del narrador.
+5,417–25,417: frustración burocrática que escala, varios remates diferentes.
+25,417–32,583: comentario sobre la sudadera, dignidad herida y giro hacia solución.
+32,583–51,542: demostración concreta, control creciente; interfaz legible y prueba visual.
+51,542–55,833: aviso serio con un gag seco sobre duplicar una mala idea.
+55,833–66,042 aprox.: personas reales y criterio; dar credibilidad, bajar ruido.
+66,042–74,417 aprox.: crescendo absurdo y guiño de que este ad lo hizo el sistema.
+74,417–final: CTA claro, honesto y seguro; salida con intención, sin cola muerta.
+
+3. RELOJ MAESTRO Y REGLAS DE SINCRONÍA
+
+Formato 1080×1920, vertical 9:16, 24 fps progresivos. No convertir a 30/60 fps por defecto. Audio de entrega 48 kHz; conservar los MP3 originales en el paquete. Timecode no drop frame. Los OUT del CSV/EDL son EXCLUSIVOS. Un frame dura 1/24 s.
+
+El tiempo cero del montaje es el tiempo cero de NARRADOR_COMPLETO_ORIGINAL.mp3. La voz entra DE GOLPE al comienzo, no después del susurro, no tras una introducción musical. Es la columna vertebral de toda la pieza. En el ensamble, el narrador es un único tramo continuo 0–38,333333 s, sin cortes internos ni cambios de velocidad.
+
+AZUL_SUSURRO_ORIGINAL.mp3 empieza en 1,970 s del máster; su primer sonido perceptible ronda 2,10 s, sobre «Andrómeda necesitas». Dice «Más anuncios. Más.». Es el archivo de ElevenLabs proporcionado por Ale, no una imitación generada. No regenerarlo ni sustituir la voz. En el hook solo habla el azul al oído del protagonista; el protagonista reacciona. El resto del material disponible se interpreta bajo voz en off, no requiere inventar lip sync.
+
+Los CSV de transcripción automática son una guía semántica, NO alineación fonética certificada: contienen errores como «Unicomers», «conía» o «cambien». Corregir los subtítulos a ecommerce, IA y también según el guion y el audio. No copiar esos errores. Para una palabra que active un gráfico, ajustar sobre el audio real al frame. La tabla de cortes sí recoge la selección editorial exacta del ensamble.
+
+El hook visual v2 está aprobado por Ale. Su audio nativo contiene una voz generada; no mezclar esa voz con el archivo original del azul porque se duplica. En este preview se usan las dos voces originales y una cama provisional obtenida del audio nativo SIN DIÁLOGO de la misma lavandería (clip04), a nivel bajo. Se entrega el hook original intacto para que el editor pueda hacer una limpieza fina/extraer ambiente si dispone de separación de diálogo. La fidelidad final del lip sync debe revisarse a velocidad normal; no se declara certificada por esta entrega. No retimar la voz para perseguir la boca.
+
+4. ORDEN Y CORTE EXACTO DE LOS CLIPS
+
+00_HOOK — VISUAL_APROBADO_AUDIO_ORIGINAL_EN_PREVIEW_QC_FINAL_PENDIENTE
+Máster 0.000000–5.416667 s | frames 0–130 exclusivos.
+Fuente 0.000000–5.416667 s | 130 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4
+Voz: Si eres dueño de un ecommerce ya sabes que con Andrómeda necesitas anuncios nuevos cada semana.
+Dirección: Azul susurra cerca del oído; protagonista tiene miedo y mira al espectador. Las fotos del fondo deben permanecer objetos quietos. El acercamiento final al miedo ya está en el vídeo, alrededor de 4,8–5,2 s. Conservarlo y cortar en 5,416667 al siguiente bloque. No utilizar hook v1: fue descartado por movimiento falso de las cartas. No añadir una voz del protagonista. No alargar la reacción más allá del final del hook.
+
+01_VENTANILLA_ESPERA — UTILIZABLE_BASE_DEL_MONTAJE
+Máster 5.416667–14.583333 s | frames 130–350 exclusivos.
+Fuente 0.000000–9.166667 s | 220 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/01_ventanilla_espera.mp4
+Voz: Y sabes que de la forma tradicional es la misma mierda de siempre: días y días para que el editor o una agencia te entregue las piezas.
+Dirección: Ventanilla/empleada: entrega de carpeta, cierre de persiana, banco con distintas posturas y entrega de una pieza mínima. El vídeo ya tiene cortes internos: no confundirlos con fallos. Los distintos estados de espera son el remate a «días y días». Conservar la reacción a la entrega pequeña. Hay cambios de postura por CORTE, nunca interpolarlos para que parezcan morphs. El final se recorta a 9,166667 s de fuente; no usar los 10 s completos solo porque existen.
+
+02_TICKET_ANGULO — UTILIZABLE_BASE_DEL_MONTAJE
+Máster 14.583333–18.750000 s | frames 350–450 exclusivos.
+Fuente 0.500000–4.666667 s | 100 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/02_ticket_angulo.mp4
+Voz: Quieres testear un nuevo ángulo y necesitas semanas para ver el fruto de eso.
+Dirección: Pide un pequeño cambio en la pieza y la máquina dispensa un ticket absurdamente largo. MUY IMPORTANTE: la fuente empieza en 0,500 s, no en 0. Se usan 0,500–4,666667 para que llegue la reacción del protagonista al final. El papel debe salir de la ranura y caer por gravedad. No insertar aquí otro plano de la zapatilla ni cambiar su identidad. Hay una pequeña discrepancia histórica de producto entre tomas iniciales que Ale indicó que no había que rehacer: no ampliar el alcance para corregirla; en futuros clips se usa vídeo real de referencia.
+
+03_ADS_APAGADOS — UTILIZABLE_BASE_DEL_MONTAJE
+Máster 18.750000–23.000000 s | frames 450–552 exclusivos.
+Fuente 0.000000–4.250000 s | 102 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03_ads_apagados.mp4
+Voz: Y durante todo ese proceso ya se te han caído los ads antiguos.
+Dirección: Tres pantallas se van apagando mientras siguen esperando. El último apagado y la reacción del azul son el remate. La interfaz de estas pantallas pertenece al PROBLEMA (ads agotados), no a la nueva máquina. No reutilizarlas más adelante como demostración de cinco ads nuevos. El plano acaba en 4,250 s de fuente. Mantener los pequeños clics eléctricos, no sumar un boom a cada apagado.
+
+03B_REPETIR — UTILIZABLE_BASE_DEL_MONTAJE
+Máster 23.000000–25.416667 s | frames 552–610 exclusivos.
+Fuente 0.000000–2.416667 s | 58 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/03b_repetir.mp4
+Voz: y venga a repetir otra puta vez.
+Dirección: Clip PUENTE imprescindible. La empleada desliza otra bobina enorme de ticket y el protagonista vuelve a mirar a cámara harto. Cubre «y venga a repetir otra puta vez», frase que antes se había perdido. Usar 2,416667 s. Nunca unir 03 directamente con04: eso elimina 2,416667 s de guion. No repetir el ticket anterior como sustituto; esta es una toma nueva con su propio gesto.
+
+04_SUDADERA — UTILIZABLE_BASE_DEL_MONTAJE
+Máster 25.416667–32.583333 s | frames 610–782 exclusivos.
+Fuente 0.000000–7.166667 s | 172 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/04_sudadera.mp4
+Voz: No vengo a hablarte de tu problema, ya tienes suficiente con eso y con la sudadera de este tío. Vengo a hablarte de la solución.
+Dirección: Empieza más quieto para escuchar «No vengo a hablarte de tu problema». La cámara baja al dibujo de la sudadera alrededor de3,6–4,65 s de fuente, vuelve a la cara y él se cubre con la chaqueta. Ese movimiento ES el chiste; no convertir el estampado en un personaje animado. En «solución» se endereza y mira hacia el lugar de la máquina. Cortar sin pausa extra a05. No insistir con varios zooms sobre la sudadera ni alargar segundos de pose.
+
+05_PRESENTACION — UTILIZABLE_BASE_DEL_MONTAJE
+Máster 32.583333–35.000000 s | frames 782–840 exclusivos.
+Fuente 0.000000–2.416667 s | 58 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/05_presentacion.mp4
+Voz: Instalaremos en tu tienda esta maquinita.
+Dirección: El protagonista coloca la máquina crema sobre el mostrador. Se usan SOLO 0–2,416667 s de fuente, suficientes para presentar el objeto. El gag de frenar al azul que ocurre más tarde en el bruto NO entra en este corte: no ralentizar la narración ni alargar la escena para meterlo. Esta toma define el hardware que deben conservar todas las siguientes: pantalla negra inclinada, base crema, botón naranja inferior derecho, ratón y cable.
+
+06_CINCO_ADS — PROVISIONAL_SUSTITUIR_NO_FINAL
+Máster 35.000000–38.333333 s | frames 840–920 exclusivos.
+Fuente 0.000000–3.333333 s | 80 frames.
+Archivo: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/06_CINCO_ADS_PROVISIONAL_SUSTITUIR.mp4
+Voz: Le pedirás cinco ads para un concepto nuevo, te los dará.
+Dirección: PROVISIONAL. Se incluye para que haya una base de ritmo hasta «te los dará», no porque cumpla el objetivo final. La fuente antigua muestra miniaturas estáticas y puede mostrar seis tarjetas; Ale pidió que sean cinco anuncios COMPLETOS DE VÍDEO y una interfaz moderna BRAUD. Debe reemplazarse por nueva toma: ambos protagonistas y maquinita sobre el mostrador en la lavandería, dashboard SOLO dentro de la pantalla, un reproductor grande con acción/cortes internos y lista de cinco versiones. La revisión v2 que convirtió todo en demo sobre fondo blanco fue RECHAZADA; no usar. La revisión v3 falló en el servicio y no existe resultado. No extraer imágenes de las capturas para llenar todo el vídeo ni convertir esto en una web a pantalla completa.
+
+5. CONTINUIDAD, EXTENDS Y HUECOS
+
+Hasta06, los enlaces entre archivos son cortes directos. No hay razón para fabricar un extend entre05 y06: cambia el encuadre y eso ayuda a la variedad. Mantener el ambiente sonoro de la misma habitación debajo del corte y ajustar solo para que no haya clics/colas absurdas.
+
+06 → 07 SÍ es el enlace previsto por EXTEND. 07 todavía NO se ha generado. Debe partir del vídeo FINAL elegido de06, recortado al último frame que realmente se usa en montaje. Si06 usa80 frames (3,333333 s), esa base debe terminar ahí, no en el final4,04 del bruto: de lo contrario puede haber un salto de acción. Cuando llegue07, comprobar si el proveedor devuelve solo continuación o también prefijo repetido. Buscar la misma acción/pose al principio y eliminar el solapamiento real; NO asumir que un fundido corrige un reinicio. Comparar los últimos6–12 frames de06 y los primeros12–24 de07. No repetir el clic de generar ni volver a enseñar el arranque de la misma acción.
+
+07: 38,333333–42,583333 s, 102 frames; «Luego le pedirás que los gestione en las campañas él mismo, te lo hará». Misma máquina/interfaz, los cinco anuncios pasan a campañas. Sin resultados numéricos inventados.
+08: 42,583333–51,541667 s, pendiente de producción. «Y luego te dirá… estos dos ángulos… más versiones… sí… escalarás». El tono es demostración clara y control. No convertir cada palabra en un contador. No usar06 otra vez como si fuera una escena diferente.
+09: 51,541667–55,833333 s, 103 frames. Generación independiente EN PROCESO: borrador arrugado que el azul mete en una lavadora y vuelve duplicado; reacción seria del protagonista. Es metáfora de una MALA IDEA, no muestra de anuncios estáticos. Se han pasado los vídeos05 y04 más el frame de identidad. No colocar09 inmediatamente después06: hay un hueco07/08 de13,208333 s entre ellos. Esperar archivo y revisión; la transcripción del corte original de voz ya verifica la frase completa.
+10: fundadores, aproximadamente55,833–61,583. Melenas/Elliot y cabeza kiwi son personas con sus referencias propias; NO son automáticamente los dos actores surrealistas del hook. Handles exactos: @notelliotkay (Elliot) y @notkurtgodel (kiwi). Aparecen con cada persona en ESA escena. Usar la escena de ambos una sola vez; no reciclarla en otro momento del anuncio.
+11: instalar criterio, aproximadamente61,583–66,042. Pausa de intensidad, credibilidad y claridad.
+12: no estar solo frente a la máquina / habitación de creativos, aproximadamente66,042–70,042. Escalada visual con origen físico de cada salida; evitar objetos materializándose sin causa.
+13: «Me olvidaba, este mismo ad…», aproximadamente70,042–74,417. Guiño metanarrativo, no reutilizar el clip de pantalla como relleno.
+14: CTA y encaje, aproximadamente74,417–82,958. Reserva de llamada; si encaja se dice y si no también. Honestidad, no añadir promesas nuevas.
+15: salida, aproximadamente82,958–85,394. «Me voy que quiero seguir produciendo ads». Cierre con intención; no guardar varios segundos de un personaje inmóvil al final.
+
+Los cortes desde10 son PROPUESTA de organización basada en transcripción aproximada, no finales bloqueados. Revisarlos contra la voz cuando llegue cada imagen. El audio completo conserva el guion; no cortar para adaptar al número de escenas. El archivo06_PENDIENTES/estado-y-huecos.json da el estado operativo.
+
+6. SONIDO Y MÚSICA
+
+Conservar el fondo nativo de los clips: lavadoras, roce de ropa/papel, ratón, persiana, mecanismos, pasos y golpes físicos. Ale pidió expresamente no quitarlo. La base usa gain0,65 para esos clips bajo narración; es un punto de partida ajustable, no una norma de loudness. Revisar oído/medidores y automatizar si un golpe tapa consonantes. Evitar normalizar cada escena a un nivel distinto que haga respirar la sala.
+
+La voz original manda. Nada de cambiar el timbre, reescribir, sintetizar, acelerar o estirar la locución. Evitar voz duplicada al combinar brutos y versiones «con narrador». Importar los brutos para la edición por pistas; el preview es referencia de montaje, no otra capa de voz encima de la grabación completa.
+
+SFX con función concreta y variedad. No el mismo whoosh en cada corte. En espera: persiana y banco. En ticket: motor/papel. En apagados: relés. En sudadera: tela. En máquina: clic/interfaz discreta. En doble-basura: papel y golpe mecánico. Elegir dónde el silencio relativo deja que una mirada sea graciosa. No añadir risas enlatadas ni sonidos de meme genéricos.
+
+MÚSICA PENDIENTE DE CIERRE. Ale ha indicado que se resolverá/entregará cuando esté el clip completo. En este primer pase NO añadir una canción provisional que cambie el ritmo o el sentimiento. Dejar una pista separada, desactivada y etiquetada como pendiente. No interpretar esto como que la música solo empieza en los últimos segundos: lo pendiente es su selección/entrega al finalizar producción. La música definitiva se acordará sobre el arco entero; no recolocar ahora las voces o gags para cuadrarlos a un tema inventado.
+
+7. SUBTÍTULOS Y GRÁFICOS: DIRECCIÓN PARA EL EDITOR
+
+Aprovecha el trabajo de estilo del proyecto editor, pero adapta cada decisión a este material. No sobreponer automáticamente el mismo tratamiento usado en otro anuncio. El gag y la pantalla deben leerse sin pelear con un bloque de texto.
+
+Subtítulo base legible, jerarquía contenida, una o dos líneas como máximo según encuadre. Frases cortas con puntuación normal. Tamaño/posición se deciden sobre cada plano; mantener anclas estables dentro de una frase, no saltar de sitio con cada palabra. No colocar texto encima del oído/boca en el hook, la reacción de ojos, el dibujo de la sudadera, el ticket ni el reproductor de la máquina. No crear una banda inferior vacía ni desplazar toda la película para reservarla.
+
+El énfasis grande se reserva para ideas que lo merecen y cuando no haya ya un gag que haga ese trabajo. Posibles focos para estudiar, no obligación de ejecutar todos: «cada semana», «días y días», «otra puta vez», «5 ads», «criterio». No llenar cada segundo de palabras enormes. «5 ads» no necesita además un contador si el dashboard ya enseña claramente las cinco versiones. La sudadera no necesita una etiqueta que explique el chiste.
+
+Si explicas una relación, que el movimiento comunique esa relación y termine a tiempo de leerla. No efectos automáticos por detectar una cifra o una palabrota. La voz dice tacos: no censurar el audio ni añadir pitidos sin petición de Ale. Si hay una decisión de censura visual, mantenerla uniforme y no cambiar la energía del guion.
+
+Color de gráficos coherente con BRAUD y el rodaje: blanco/azul claro, azul acento, texto oscuro cuando el fondo lo permita; buen contraste si van sobre imagen. Los pantallazos son referencia de producto. No copiar las conversaciones visibles, pestañas del navegador, localhost ni personajes de los ejemplos dentro de esta historia. No añadir un logo gigante como transición entre todos los planos.
+
+8. QUÉ HAY QUE VERIFICAR ANTES DE ENSEÑAR EL PRIMER PASE
+
+Ver el ensamble con sonido a velocidad normal y revisar frames en cortes problemáticos. Las hojas de contacto y transcripciones de producción no certifican una reproducción completa ni una escucha humana. En particular:
+— Narrador desde0 y susurro original en1,97, sin tercera voz ni doblaje duplicado.
+— Hook: lip sync del azul por revisar, protagonista sin habla; no inventar aprobación final del audio.
+— Se escucha completa «y venga a repetir otra puta vez» entre23 y25,416667.
+— No hay silencio añadido enseñando la solución entre04/05.
+— Ticket02 usa offset0,5, remate del apagado03 entra antes del corte.
+— No se reutiliza ninguna toma para dos momentos narrativos diferentes.
+— Último plano06 está identificado como PROVISIONAL en nombre de fuente y timeline; el preview no lleva rótulo quemado, consultar esta advertencia.
+— No incluir06v2, no hay archivo válido06v3, no inventar07.
+— Cuando aparezca07, revisar la junta y cualquier prefijo duplicado frame a frame.
+— Conservar ambiente, eliminar habla generada no deseada, sin música provisional.
+— No tapar caras, manos causales u objeto del gag con gráficos.
+— Los cinco ads finales deben mostrar reproducción real y cambios internos, no cinco imágenes con icono de play.
+
+9. ENTREGABLE DE ESTA SESIÓN EDITORA
+
+Preparar el proyecto editable y una primera prueba estilizada del material que sí existe. Mantener el ensamble temporal y los archivos fuente accesibles. Es preferible que se vea claramente dónde termina el material a llenar la cola con negros o repeticiones sin avisar. Se puede desarrollar el estilo sobre el tramo inicial y aplicar coherentemente al resto listo. Exportar preview H.264 1080×1920/24fps con audio AAC y conservar el proyecto y las pistas originales. Separar narración, susurro, ambiente/SFX y futura música.
+
+Nombrar versiones y documentar qué cambia, qué sigue provisional y cualquier desviación del CSV. No sobreescribir esta entrega de referencia. Si una modificación de ritmo requiere mover un corte, conservar íntegra la frase y explicar el motivo. No publicar ni entregar como versión final mientras haya huecos/planos provisionales.
+
+10. GUION COMPLETO DE REFERENCIA (EL AUDIO ORIGINAL GOBIERNA EL TEXTO FINAL)
+
+Si eres dueño de un ecommerce ya sabes que con Andrómeda necesitas anuncios nuevos cada semana.
+Y sabes que de la forma tradicional es la misma mierda de siempre: días y días para que el editor o una agencia te entregue las piezas, quieres testear un nuevo ángulo y necesitas semanas para ver el fruto de eso y durante todo ese proceso ya se te han caído los ads antiguos y venga a repetir otra puta vez.
+No vengo a hablarte de tu problema, ya tienes suficiente con eso (y con la sudadera de este tío), vengo a hablarte de la solución.
+Instalaremos en tu tienda esta maquinita; le pedirás cinco ads para un concepto nuevo, te los dará, luego le pedirás que los gestione en las campañas él mismo, te lo hará y luego te dirá: «Hey, estos dos ángulos han funcionado espectacular, ¿quieres que te empiece a generar más versiones?». Y tú le dirás «Sí» y escalarás.
+Pero eh, que si metes ideas de mierda sacarás el doble de mierda, pero para eso están el melenas y el cabeza kiwi, que llevan haciendo estos ads con IA meses y meses e instalarán en tu tienda el criterio que necesitas para hacer este tipo de ads, para que no estés solo contra una máquina que te puede llenar la habitación de creativos.
+Me olvidaba, este mismo ad lo ha hecho la maquinita de la que te hablo, así que si la quieres: pincha abajo y reserva una llamada con nosotros. Veremos si tiene encaje para ti; si lo tiene, te lo diremos y si no, también. Me voy que quiero seguir produciendo ads.
+
+Susurro del azul, simultáneo al hook: «Más anuncios. Más.»

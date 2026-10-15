@@ -1,0 +1,7 @@
+{
+  "take": "original_music_take2.mp3",
+  "note": "Corrección de montaje (no estiramiento): la frase final de la toma 2 empieza en 83,860 s tras una parada natural del riff (83,765–83,855) y su golpe acaba ≈84,14, 0,7 s antes del remate pedido en 84,800. Se retrasa 2 tiempos exactos a 122 BPM (0,984 s) para conservar la rejilla: el golpe cae en ≈84,844 y decae antes de 85,400. El hueco resultante es una parada cómica antes del remate.",
+  "moves": [
+    {"from_s": 83.855, "shift_s": 0.98361, "fade_ms": 5, "why": "remate final en ≈84,8 (sobre «ads»), 2 tiempos a 122 BPM"}
+  ]
+}

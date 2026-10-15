@@ -1,0 +1,24 @@
+{
+  "id": "v3-ia-cara-A",
+  "source": "native decoded MP4 select n; zero-based",
+  "file": "fontfit-exactamente.txt",
+  "scope": "single-word candidate fit, not source font identification",
+  "limitations": "Selective measurement, not exhaustive event review; source frame dimensions and ROI from commands/coverage.",
+  "frame": 175,
+  "text": "exactamente",
+  "roi_px": [
+    216,
+    1350,
+    864,
+    1460
+  ],
+  "threshold": 240,
+  "best": "SF Pro sistema Semibold",
+  "body_px": 95,
+  "tracking_per_thousand_em": -73,
+  "iou": 0.772,
+  "ink_wh": [
+    472,
+    63
+  ]
+}

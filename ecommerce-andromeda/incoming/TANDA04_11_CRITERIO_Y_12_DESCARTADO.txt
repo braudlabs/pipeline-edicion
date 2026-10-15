@@ -1,0 +1,17 @@
+SUPLEMENTO TANDA04 — SOLO11 COMO CANDIDATO VISUAL
+
+11_CRITERIO
+Master IN61.583333333 / OUT66.041666667, OUT exclusivo. Frames1478–1585,107frames a24fps.
+Fuente IN0 / OUT4.458333333.
+Texto: E instalarán en tu tienda el criterio que necesitas para hacer este tipo de ads.
+Original: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/11_CRITERIO_VISUAL_REVISADO_AUDIO_PENDIENTE.mp4
+Preview: /Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/11_CRITERIO_PREVIEW_AUDIO_PENDIENTE.mp4
+Original narrador conservado sin retiming. Ambiente nativo a0.65, sin música añadida. No apilar preview sobre narrador otra vez.
+Visual: aparta dos borradores y elige uno; actores y espacio coherentes. Es un descanso deliberado tras los fundadores.
+AUDIO PENDIENTE: Whisper produce [Música]; clasificación local mezcla golpes/roce con posible música. No se ha escuchado ni certificado ausencia de música. DAPI bloqueado por permisos, no subido. Revisar auditivamente antes de final; conservar sonidos físicos útiles. No dar esta preview por mezcla final aprobada.
+No montar inmediatamente tras08 ni06: mantener huecos07,09 y10 hasta su entrega. No reutilizar esta escena en otro momento.
+
+12_HABITACION_CREATIVOS — DESCARTADO
+Master66.041666667–70.041666667. El carro avanza y las caras se mueven, pero todas las pantallas parecen retratos/talking heads repetidos; no se ven anuncios completos con producto/cortes. Mantener hueco. No se ha regenerado.
+
+Resto de tanda04 pendiente de resultado y QA. Máquina06v3 fallida,07 no generado,09 rechazado siguen pendientes. Música global pendiente de decidir al completar vídeo.

@@ -1,0 +1,4447 @@
+{
+  "schemaVersion": 1,
+  "id": "birdieballs-direction-v1",
+  "title": "Definamos la edición de Birdieballs",
+  "sections": [
+    {
+      "id": "referencias",
+      "title": "01 · Tus referencias",
+      "intro": "Valora cada vídeo por separado. Puedes copiar su tipografía sin querer sus gráficos. Las tres versiones ADS 90 pertenecen a una misma familia: no son tres pruebas independientes."
+    },
+    {
+      "id": "direccion",
+      "title": "02 · Dirección y prioridades",
+      "intro": "Ya están fijados: conservar montaje y voz originales, trabajar este bloque de ~20 s, recuperar SF Pro y retirar los tratamientos rechazados de V04. Aquí defines el carácter de la nueva edición."
+    },
+    {
+      "id": "tipografia",
+      "title": "03 · Tipografía",
+      "intro": "SF Pro vuelve a ser la base por tu indicación. La cursiva de V04 queda descartada; ninguna alternativa está preseleccionada."
+    },
+    {
+      "id": "composicion",
+      "title": "04 · Composición y multilíneas",
+      "intro": "Separar contenido, jerarquía y posición evita repetir la misma pareja de líneas en cada frase."
+    },
+    {
+      "id": "movimiento",
+      "title": "05 · Movimiento del texto",
+      "intro": "Elige familias que te gustan y dónde tienen sentido. Las referencias muestran diferencias entre aparición, desplazamiento, asentamiento y salida."
+    },
+    {
+      "id": "profundidad",
+      "title": "06 · Texto dentro del plano",
+      "intro": "Estos tratamientos requieren integración real con el sujeto; no una máscara aproximada sobre la cabeza."
+    },
+    {
+      "id": "motion",
+      "title": "07 · Motion graphics",
+      "intro": "El gráfico de bolas de V04 queda descartado como dirección. Decide qué debe contar el nuevo bloque antes de elegir objetos o cámara."
+    },
+    {
+      "id": "momentos",
+      "title": "08 · Birdieballs, frase a frase",
+      "intro": "Responde sobre el material original. Las propuestas de esta sección aún no están renderizadas ni aprobadas; los ejemplos laterales solo ilustran recursos profesionales."
+    },
+    {
+      "id": "sonido",
+      "title": "09 · Sonido y efectos",
+      "intro": "Los samples de las referencias no están identificados. Puedes escuchar los originales aquí y señalar momentos; las familias siguientes son opciones creativas, no atribuciones verificadas."
+    },
+    {
+      "id": "entrega",
+      "title": "10 · Prueba y criterio de éxito",
+      "intro": "Tus respuestas se guardan como decisiones del proyecto, separadas de las mediciones del corpus. No se genera una nueva edición al completar este cuestionario."
+    }
+  ],
+  "questions": [
+    {
+      "id": "ref-v8",
+      "section": "referencias",
+      "title": "BRAUDLABS - V8",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C01-1",
+        "C02-1",
+        "C05-1"
+      ],
+      "ruleIds": [
+        "C01",
+        "C02",
+        "C05"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-landing",
+      "section": "referencias",
+      "title": "BRAUDLABS - LANDING",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C01-2",
+        "C02-2",
+        "C07-2"
+      ],
+      "ruleIds": [
+        "C01",
+        "C02",
+        "C07"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v1-pagado",
+      "section": "referencias",
+      "title": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C05-3",
+        "T02-3",
+        "M01-1"
+      ],
+      "ruleIds": [
+        "C05",
+        "T02",
+        "M01"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v2-churros",
+      "section": "referencias",
+      "title": "BRAUDLABS - V2 - CHURROS COCINA",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G03-2",
+        "E01-1"
+      ],
+      "ruleIds": [
+        "G03",
+        "E01"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v3-ia-cara",
+      "section": "referencias",
+      "title": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "T01-2",
+        "T01-3",
+        "M01-4"
+      ],
+      "ruleIds": [
+        "T01",
+        "M01"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v5-maquina",
+      "section": "referencias",
+      "title": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C03-2",
+        "C03-3",
+        "C04-1"
+      ],
+      "ruleIds": [
+        "C03",
+        "C04"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v6-ads90",
+      "section": "referencias",
+      "title": "BRAUDLABS - V6 - ADS 90S",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "REF-v6-ads90"
+      ],
+      "ruleIds": [
+        "REF"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v6-ads90-rev",
+      "section": "referencias",
+      "title": "BRAUDLABS - V6 - ADS 90s - REV",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C02-3",
+        "C04-2",
+        "C08-2"
+      ],
+      "ruleIds": [
+        "C02",
+        "C04",
+        "C08"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-v7-ads90-rev",
+      "section": "referencias",
+      "title": "BRAUDLABS - V7 - ADS 90s - REV",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C03-1",
+        "C08-3",
+        "A01-3"
+      ],
+      "ruleIds": [
+        "C03",
+        "C08",
+        "A01"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-lafabrica-v1",
+      "section": "referencias",
+      "title": "LaFabrica-V1",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C06-2",
+        "A05-1"
+      ],
+      "ruleIds": [
+        "C06",
+        "A05"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "ref-lafabrica-v2p1",
+      "section": "referencias",
+      "title": "LaFabrica_V2_P1",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia principal",
+          "description": "Quiero que guíe la dirección de Birdieballs."
+        },
+        {
+          "id": "o2",
+          "label": "Solo algunos recursos",
+          "description": "Especifico abajo qué copiar y qué evitar."
+        },
+        {
+          "id": "o3",
+          "label": "No para este anuncio",
+          "description": "Puede ser buena edición sin encajar aquí."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C01-3",
+        "C07-3",
+        "A05-2"
+      ],
+      "ruleIds": [
+        "C01",
+        "C07",
+        "A05"
+      ],
+      "why": "En el reproductor puedes ver el tramo o liberar el vídeo completo. Anota lo que sí y lo que no; no se interpretará como aprobación global.",
+      "scene": null
+    },
+    {
+      "id": "tono",
+      "section": "direccion",
+      "title": "¿Qué carácter debe dominar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Publicidad de producto cuidada",
+          "description": "Precisión, contraste y foco en la bola real."
+        },
+        {
+          "id": "o2",
+          "label": "Humor con edición expresiva",
+          "description": "La tipografía participa en el gag."
+        },
+        {
+          "id": "o3",
+          "label": "Impacto tipográfico",
+          "description": "Las palabras construyen la mayor parte del espectáculo."
+        },
+        {
+          "id": "o4",
+          "label": "Equilibrio entre humor y producto",
+          "description": "Cambiar de registro entre problema y solución."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "T01-1",
+        "T01-2",
+        "T01-3",
+        "G01-1",
+        "G01-2",
+        "G01-3",
+        "E01-1",
+        "E01-2",
+        "E01-3"
+      ],
+      "ruleIds": [
+        "T01",
+        "G01",
+        "E01"
+      ],
+      "why": "Elegir una dirección limita la mezcla arbitraria de estilos.",
+      "scene": null
+    },
+    {
+      "id": "prioridades",
+      "section": "direccion",
+      "title": "¿Qué debe mejorar más? Elige hasta tres prioridades.",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Composición de los subtítulos",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Variedad de entradas y salidas",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Jerarquía y tamaño",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Ideas del motion graphic",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Materiales, luz y profundidad",
+          "description": ""
+        },
+        {
+          "id": "o6",
+          "label": "Integración con el plano real",
+          "description": ""
+        },
+        {
+          "id": "o7",
+          "label": "Sonido y sincronía",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "C01-1",
+        "C01-2",
+        "C01-3",
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "G04-1",
+        "G04-2",
+        "G04-3"
+      ],
+      "ruleIds": [
+        "C01",
+        "C05",
+        "G04"
+      ],
+      "why": "Estas prioridades ordenan las pruebas, sin excluir las demás mejoras.",
+      "scene": null,
+      "maxSelections": 3
+    },
+    {
+      "id": "densidad",
+      "section": "direccion",
+      "title": "¿Cuánta presencia debe tener la edición?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Picos fuertes y descanso",
+          "description": "Concentrar el tratamiento en palabras y acciones elegidas."
+        },
+        {
+          "id": "o2",
+          "label": "Presencia frecuente",
+          "description": "Composición variable a lo largo de casi cada frase."
+        },
+        {
+          "id": "o3",
+          "label": "Máxima expresividad",
+          "description": "Cambios frecuentes, con pausas de lectura."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "E03-1",
+        "E03-2",
+        "E03-3",
+        "C07-1",
+        "C07-2",
+        "C07-3",
+        "G02-1",
+        "G02-2",
+        "G02-3"
+      ],
+      "ruleIds": [
+        "E03",
+        "C07",
+        "G02"
+      ],
+      "why": "No se interpreta como añadir un efecto cada N segundos.",
+      "scene": null
+    },
+    {
+      "id": "variacion",
+      "section": "direccion",
+      "title": "¿Cómo quieres variar los recursos?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Un sistema reconocible, varias construcciones",
+          "description": "Cambian composición y movimiento sin cambiar de identidad."
+        },
+        {
+          "id": "o2",
+          "label": "Contrastes claros por escena",
+          "description": "Problema, solución y demostración tienen lenguajes distintos."
+        },
+        {
+          "id": "o3",
+          "label": "Variedad amplia",
+          "description": "Permitir varios registros, todos ligados al guion."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "T01-1",
+        "T01-2",
+        "T01-3",
+        "C08-1",
+        "C08-2",
+        "C08-3",
+        "G03-1",
+        "G03-2",
+        "G03-3"
+      ],
+      "ruleIds": [
+        "T01",
+        "C08",
+        "G03"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "peso",
+      "section": "tipografia",
+      "title": "¿Qué peso de SF Pro quieres para el texto habitual?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Regular / Medium",
+          "description": "Ligero, con énfasis resuelto por escala y composición."
+        },
+        {
+          "id": "o2",
+          "label": "Semibold",
+          "description": "Más presencia sin convertir todo en titular."
+        },
+        {
+          "id": "o3",
+          "label": "Bold",
+          "description": "Lectura contundente."
+        },
+        {
+          "id": "o4",
+          "label": "Variable por función",
+          "description": "Lectura ligera, palabra clave más pesada."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C04-1",
+        "C04-2",
+        "C03-1",
+        "C03-2",
+        "C03-3"
+      ],
+      "ruleIds": [
+        "C04",
+        "C03"
+      ],
+      "why": "El peso se probará con glifos reales; no se deduce de la caja OCR.",
+      "scene": null
+    },
+    {
+      "id": "secundaria",
+      "section": "tipografia",
+      "title": "¿Qué contraste tipográfico permitirías además de SF Pro?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Solo SF Pro",
+          "description": "Variar tamaño, peso, caja y composición."
+        },
+        {
+          "id": "o2",
+          "label": "Condensada para algún remate",
+          "description": "Contraste alto y estrecho como el bloque Jerry de V8."
+        },
+        {
+          "id": "o3",
+          "label": "Otra sans muy distinta",
+          "description": "Mostrar pareja concreta antes de animarla."
+        },
+        {
+          "id": "o4",
+          "label": "Proponer pares visuales primero",
+          "description": "No introducir otra fuente sin ver la prueba."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "T01-1",
+        "T01-2",
+        "T01-3"
+      ],
+      "ruleIds": [
+        "T01"
+      ],
+      "why": "La serif cursiva usada en V04 no se reutiliza. Estas opciones no aprueban una fuente aún no mostrada.",
+      "scene": null
+    },
+    {
+      "id": "caja",
+      "section": "tipografia",
+      "title": "¿Mayúsculas para qué función?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Solo gritos o interjecciones",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Palabras clave protagonistas",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Frases gráficas completas",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Preferencia por minúsculas",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "T01-1",
+        "T01-2",
+        "T01-3",
+        "C08-1",
+        "C08-2",
+        "C08-3"
+      ],
+      "ruleIds": [
+        "T01",
+        "C08"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "tracking",
+      "section": "tipografia",
+      "title": "¿Cómo prefieres la densidad de letras?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Compacta",
+          "description": "Tracking ajustado, sin fusionar letras."
+        },
+        {
+          "id": "o2",
+          "label": "Natural",
+          "description": "Mantener más aire entre letras."
+        },
+        {
+          "id": "o3",
+          "label": "Depende de la escala",
+          "description": "Titulares más compactos que la lectura."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C04-1",
+        "C04-2",
+        "C06-1",
+        "C06-2"
+      ],
+      "ruleIds": [
+        "C04",
+        "C06"
+      ],
+      "why": "El ajuste final depende de los glifos y se comprobará a tamaño móvil.",
+      "scene": null
+    },
+    {
+      "id": "color-texto",
+      "section": "tipografia",
+      "title": "¿Cómo debe usarse el color en los subtítulos?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Blanco / crema de base y un acento",
+          "description": "El acento señala conceptos clave."
+        },
+        {
+          "id": "o2",
+          "label": "Un solo color por bloque",
+          "description": "La escala crea la jerarquía."
+        },
+        {
+          "id": "o3",
+          "label": "Color por hablante",
+          "description": "Distinguir narrador y personaje."
+        },
+        {
+          "id": "o4",
+          "label": "Alternancia por construcción",
+          "description": "Cambiar color al acumular líneas."
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "T02-1",
+        "T02-2",
+        "T02-3",
+        "C08-1",
+        "C08-2",
+        "C08-3"
+      ],
+      "ruleIds": [
+        "T02",
+        "C08"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "contraste",
+      "section": "tipografia",
+      "title": "¿Qué tratamientos de contraste te gustan?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Sombra pequeña y discreta",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Trazo muy fino",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Invertir a texto oscuro en fondos claros",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Cambiar de posición si mejora el plano",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Oscurecer localmente el fondo con sutileza",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "G04-1",
+        "G04-2",
+        "G04-3",
+        "T02-1",
+        "T02-2",
+        "T02-3"
+      ],
+      "ruleIds": [
+        "G04",
+        "T02"
+      ],
+      "why": "Son recursos permitidos, no capas obligatorias. El tratamiento verde cursivo de «de campos» está descartado.",
+      "scene": null
+    },
+    {
+      "id": "escala",
+      "section": "tipografia",
+      "title": "¿Cómo quieres repartir el tamaño?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Lectura discreta y picos grandes",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Lectura mediana y titulares muy grandes",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Texto grande casi siempre",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Decidir por composición de cada plano",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C03-1",
+        "C03-2",
+        "C03-3",
+        "M02-1",
+        "M02-2",
+        "M02-3"
+      ],
+      "ruleIds": [
+        "C03",
+        "M02"
+      ],
+      "why": "Se medirá ancho y altura visible; un mismo cuerpo no produce el mismo tamaño en fuentes distintas.",
+      "scene": null
+    },
+    {
+      "id": "fragmentacion",
+      "section": "composicion",
+      "title": "¿Cómo debería dividirse la voz?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Grupos de sentido cortos",
+          "description": "Dos o tres palabras cuando la frase lo permita."
+        },
+        {
+          "id": "o2",
+          "label": "Palabra a palabra",
+          "description": "La palabra actual sustituye a la anterior."
+        },
+        {
+          "id": "o3",
+          "label": "Construcción acumulativa",
+          "description": "Las palabras forman una composición."
+        },
+        {
+          "id": "o4",
+          "label": "Mezcla por función",
+          "description": "Lectura breve y acumulación solo en énfasis."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "A01-1",
+        "A01-2",
+        "A01-3",
+        "C07-1",
+        "C07-2",
+        "C07-3",
+        "C05-1",
+        "C05-2",
+        "C05-3"
+      ],
+      "ruleIds": [
+        "A01",
+        "C07",
+        "C05"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "posicion",
+      "section": "composicion",
+      "title": "¿Cuándo cambiar de posición?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Al cambiar el plano o el espacio disponible",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Al cambiar de hablante",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Al cambiar de lectura a titular",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "También dentro de una frase, si el movimiento cuenta algo",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "C01-1",
+        "C01-2",
+        "C01-3",
+        "C08-1",
+        "C08-2",
+        "C08-3"
+      ],
+      "ruleIds": [
+        "C01",
+        "C08"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "ancla",
+      "section": "composicion",
+      "title": "Dentro de una misma frase, ¿qué se mantiene estable?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "La línea de base",
+          "description": "Como pediste para Cansado / de dejarte un."
+        },
+        {
+          "id": "o2",
+          "label": "El centro del conjunto",
+          "description": "La composición crece alrededor de un punto."
+        },
+        {
+          "id": "o3",
+          "label": "La palabra protagonista",
+          "description": "Los apoyos se organizan a su alrededor."
+        },
+        {
+          "id": "o4",
+          "label": "Elegir un ancla distinta por construcción",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C01-1",
+        "C01-2",
+        "C01-3",
+        "C06-1",
+        "C06-2"
+      ],
+      "ruleIds": [
+        "C01",
+        "C06"
+      ],
+      "why": "Tu corrección de alineación sigue vigente: ningún salto accidental entre reemplazos.",
+      "scene": null
+    },
+    {
+      "id": "multilinea-cuando",
+      "section": "composicion",
+      "title": "¿En qué casos usar varias líneas?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Contexto pequeño + concepto clave",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Frase que se construye progresivamente",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Contraste entre dos conceptos",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Remate o consecuencia debajo",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Evitar multilínea si no aporta jerarquía",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "C07-1",
+        "C07-2",
+        "C07-3",
+        "C08-1",
+        "C08-2",
+        "C08-3"
+      ],
+      "ruleIds": [
+        "C05",
+        "C07",
+        "C08"
+      ],
+      "why": "Seleccionar casos no obliga a aplicarles la misma construcción.",
+      "scene": null
+    },
+    {
+      "id": "multilinea-formas",
+      "section": "composicion",
+      "title": "¿Qué construcciones quieres permitir?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Apoyo pequeño arriba y núcleo grande",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Núcleo grande con remate lateral",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Dos bloques enfrentados",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Escalera o bloque acumulativo",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Texto rodeando un objeto",
+          "description": ""
+        },
+        {
+          "id": "o6",
+          "label": "Una sola línea que cambia de escala",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "C06-1",
+        "C06-2",
+        "A06-1",
+        "A06-2",
+        "A06-3",
+        "C07-1",
+        "C07-2",
+        "C07-3"
+      ],
+      "ruleIds": [
+        "C05",
+        "C06",
+        "A06",
+        "C07"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "compactacion",
+      "section": "composicion",
+      "title": "¿Cómo debe sentirse el espacio entre líneas?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Muy compacto, sin tocarse",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Compacto con algo de aire",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Contacto óptico controlado",
+          "description": "Puede acercarse mucho durante la animación, sin perder lectura."
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C06-1",
+        "C06-2"
+      ],
+      "ruleIds": [
+        "C06"
+      ],
+      "why": "Se medirán cajas de tinta durante la entrada y el asentamiento, no solo line-height.",
+      "scene": null
+    },
+    {
+      "id": "persistencia",
+      "section": "composicion",
+      "title": "Cuando aparece la palabra clave, ¿qué pasa con el apoyo?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Permanece hasta completar la idea",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Sale para ceder todo el foco",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Se recoloca y se reduce",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Depende del tipo de frase",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "A07-1",
+        "A07-2",
+        "A07-3",
+        "C07-1",
+        "C07-2",
+        "C07-3"
+      ],
+      "ruleIds": [
+        "C05",
+        "A07",
+        "C07"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "repeticion",
+      "section": "composicion",
+      "title": "¿Cuándo se puede repetir una construcción?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Solo si repite una función narrativa",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Con variaciones claras de posición y entrada",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Reservar cada construcción destacada a un único momento",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G02-1",
+        "G02-2",
+        "G02-3",
+        "T01-1",
+        "T01-2",
+        "T01-3"
+      ],
+      "ruleIds": [
+        "G02",
+        "T01"
+      ],
+      "why": "Tu rechazo de las dos multilíneas iguales de V04 queda registrado.",
+      "scene": null
+    },
+    {
+      "id": "entradas",
+      "section": "movimiento",
+      "title": "¿Qué entradas quieres en el repertorio?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Aparición directa",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Ascenso que frena sin rebotar",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Ascenso con sobrepaso y asentamiento",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Desplazamiento lateral",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Revelado dentro de máscara",
+          "description": ""
+        },
+        {
+          "id": "o6",
+          "label": "Parpadeo breve en un énfasis",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "A01-1",
+        "A01-2",
+        "A01-3",
+        "A02-1",
+        "A02-2",
+        "A03-1",
+        "A03-2",
+        "A04-1",
+        "G03-1",
+        "G03-2",
+        "G03-3"
+      ],
+      "ruleIds": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "G03"
+      ],
+      "why": "No se aplicarán todas a cada frase.",
+      "scene": null
+    },
+    {
+      "id": "funcion-entrada",
+      "section": "movimiento",
+      "title": "¿Cómo asignar las entradas?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Discreta para lectura; expresiva para conceptos",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Variar dirección según hueco del plano",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Vincularlas a gesto o acción de escena",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Un mismo movimiento dentro de cada bloque",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "A01-1",
+        "A01-2",
+        "A01-3",
+        "A03-1",
+        "A03-2",
+        "E01-1",
+        "E01-2",
+        "E01-3"
+      ],
+      "ruleIds": [
+        "A01",
+        "A03",
+        "E01"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "asentamiento",
+      "section": "movimiento",
+      "title": "¿Cuánto sobrepaso o elasticidad aceptas?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Nada",
+          "description": "Frenada limpia."
+        },
+        {
+          "id": "o2",
+          "label": "Sutil",
+          "description": "Un asentamiento corto casi imperceptible."
+        },
+        {
+          "id": "o3",
+          "label": "Visible en palabras protagonistas",
+          "description": "El texto tiene carácter físico."
+        },
+        {
+          "id": "o4",
+          "label": "Elegir tras comparar dos intensidades",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "A02-1",
+        "A02-2",
+        "A03-1",
+        "A03-2"
+      ],
+      "ruleIds": [
+        "A02",
+        "A03"
+      ],
+      "why": "El ajuste medido de pagar no es una receta universal.",
+      "scene": null
+    },
+    {
+      "id": "desfase-lineas",
+      "section": "movimiento",
+      "title": "¿Cómo deben combinarse las líneas al entrar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Contexto primero, palabra clave después",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Palabra clave primero, apoyos después",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Entradas simultáneas desde posiciones distintas",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Una línea se transforma en la siguiente",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Alternar según significado",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "A03-1",
+        "A03-2",
+        "C07-1",
+        "C07-2",
+        "C07-3"
+      ],
+      "ruleIds": [
+        "C05",
+        "A03",
+        "C07"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "salidas",
+      "section": "movimiento",
+      "title": "¿Qué salidas permites?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Reemplazo directo",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Desplazamiento fuera del grupo",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Desvanecimiento corto",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Recorte por máscara",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Transformación hacia la palabra siguiente",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "A07-1",
+        "A07-2",
+        "A07-3",
+        "G03-1",
+        "G03-2",
+        "G03-3"
+      ],
+      "ruleIds": [
+        "A07",
+        "G03"
+      ],
+      "why": "Separa la salida del texto de cualquier corte del metraje, que sigue bloqueado.",
+      "scene": null
+    },
+    {
+      "id": "blur-texto",
+      "section": "movimiento",
+      "title": "¿Dónde quieres desenfoque de movimiento?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Solo en desplazamientos rápidos",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "En entradas protagonistas y cambios de escala",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Muy poco: priorizar nitidez",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Comparar intensidad baja y media antes de elegir",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "A05-1",
+        "A05-2",
+        "A05-3"
+      ],
+      "ruleIds": [
+        "A05"
+      ],
+      "why": "El blur direccional acompaña velocidad; no equivale a desenfocar todo el texto.",
+      "scene": null
+    },
+    {
+      "id": "continuidad",
+      "section": "movimiento",
+      "title": "¿Cómo debería enlazarse una frase con la siguiente?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Reemplazos limpios para lectura",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Mantener una palabra como ancla",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Viajar como grupo y entregar el foco",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Mezclar continuidad y cortes tipográficos",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G03-1",
+        "G03-2",
+        "G03-3",
+        "A07-1",
+        "A07-2",
+        "A07-3",
+        "E02-1",
+        "E02-2",
+        "E02-3"
+      ],
+      "ruleIds": [
+        "G03",
+        "A07",
+        "E02"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "oclusiones",
+      "section": "profundidad",
+      "title": "¿Qué capas te gustan?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Texto frontal nítido",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Relleno detrás del sujeto",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Relleno detrás + contorno delante",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "No usar oclusiones en este bloque",
+          "description": "",
+          "exclusive": true
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "M01-1",
+        "M01-2",
+        "M01-3",
+        "M02-1",
+        "M02-2",
+        "M02-3",
+        "C02-1",
+        "C02-2",
+        "C02-3"
+      ],
+      "ruleIds": [
+        "M01",
+        "M02",
+        "C02"
+      ],
+      "why": "Elige recursos deseados. «No usar» es excluyente.",
+      "scene": null
+    },
+    {
+      "id": "mascara-frecuencia",
+      "section": "profundidad",
+      "title": "¿En cuántos momentos tendría sentido ocultar texto tras el sujeto?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Un momento protagonista",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Varias palabras de un mismo bloque",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Solo si el plano lo permite sin forzarlo",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Decidir tras un fotograma de prueba",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "M01-1",
+        "M01-2",
+        "M01-3",
+        "M02-1",
+        "M02-2",
+        "M02-3"
+      ],
+      "ruleIds": [
+        "M01",
+        "M02"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "texto-curvo",
+      "section": "profundidad",
+      "title": "¿Cuándo usar texto curvo o ligado a un objeto?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Una sola composición protagonista",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Cuando siga una forma real del plano",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "No lo quiero en Birdieballs",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Primero ver una propuesta concreta",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "A06-1",
+        "A06-2",
+        "A06-3",
+        "G07-1",
+        "G07-2",
+        "G07-3"
+      ],
+      "ruleIds": [
+        "A06",
+        "G07"
+      ],
+      "why": "La bombilla de V8 venía en el bruto; el recurso a evaluar aquí es el texto curvo añadido.",
+      "scene": null
+    },
+    {
+      "id": "integracion",
+      "section": "profundidad",
+      "title": "¿Qué otras integraciones aceptarías?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Perspectiva ligada a una superficie",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Texto junto al producto sin taparlo",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Foco de luz que dirige la mirada",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Recorte del personaje para una composición",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Ninguna de estas",
+          "description": "",
+          "exclusive": true
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "G06-1",
+        "G06-2",
+        "G06-3",
+        "E01-1",
+        "E01-2",
+        "E01-3"
+      ],
+      "ruleIds": [
+        "G06",
+        "E01"
+      ],
+      "why": "Los focos y nuevos recortes son propuestas para Birdieballs, no efectos atribuidos sin prueba a las referencias.",
+      "scene": null
+    },
+    {
+      "id": "motion-funcion",
+      "section": "motion",
+      "title": "¿Qué debería explicar el gráfico principal?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Recuperar una bola y devolverle valor",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Originales de marcas conocidas",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Variedad de bolas disponibles",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "De usado a como nuevo",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Prefiero que el metraje real cuente esto",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G01-1",
+        "G01-2",
+        "G01-3",
+        "G03-1",
+        "G03-2",
+        "G03-3"
+      ],
+      "ruleIds": [
+        "G01",
+        "G03"
+      ],
+      "why": "La elección debe corresponder a la frase disponible; limpieza/precio aún no se narran en este bloque.",
+      "scene": null
+    },
+    {
+      "id": "motion-formato",
+      "section": "motion",
+      "title": "¿Cómo debe convivir con el metraje?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Gráfico integrado sobre el plano",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Composición gráfica a pantalla completa",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Transición desde objeto real a escena gráfica",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Sin interludio: tipografía protagonista sobre imagen",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G01-1",
+        "G01-2",
+        "G01-3",
+        "G04-1",
+        "G04-2",
+        "G04-3",
+        "G07-1",
+        "G07-2",
+        "G07-3"
+      ],
+      "ruleIds": [
+        "G01",
+        "G04",
+        "G07"
+      ],
+      "why": "Pantalla completa oculta temporalmente la imagen, pero no cambia sus cortes ni su duración.",
+      "scene": null
+    },
+    {
+      "id": "motion-metafora",
+      "section": "motion",
+      "title": "¿Qué tipo de construcción explorar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Tipografía que transforma conceptos",
+          "description": "Como selección clientes → empleados."
+        },
+        {
+          "id": "o2",
+          "label": "Objetos que se transforman o se relevan",
+          "description": "Como reloj → hucha."
+        },
+        {
+          "id": "o3",
+          "label": "Detalle que revela un conjunto",
+          "description": "Cambio de escala con una relación clara."
+        },
+        {
+          "id": "o4",
+          "label": "Comparación de estados",
+          "description": "Antes/después cuando el guion lo permita."
+        },
+        {
+          "id": "o5",
+          "label": "Sistema de tarjetas o elementos conectados",
+          "description": "Solo si hay variedad real que mostrar."
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "G03-1",
+        "G03-2",
+        "G03-3",
+        "G01-1",
+        "G01-2",
+        "G01-3",
+        "G06-1",
+        "G06-2",
+        "G06-3"
+      ],
+      "ruleIds": [
+        "G03",
+        "G01",
+        "G06"
+      ],
+      "why": "Son familias de propuesta, no conceptos originales ya aprobados.",
+      "scene": null
+    },
+    {
+      "id": "motion-material",
+      "section": "motion",
+      "title": "¿Qué materiales encajan con Birdieballs?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Producto fotográfico real integrado",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Producto 3D con iluminación cuidada",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Formas gráficas y tipografía sin bolas flotantes",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Combinación de metraje y grafismo",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Ver alternativas antes de fijarlo",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G04-1",
+        "G04-2",
+        "G04-3",
+        "G07-1",
+        "G07-2",
+        "G07-3"
+      ],
+      "ruleIds": [
+        "G04",
+        "G07"
+      ],
+      "why": "Una imagen 2D girada no se presentará como una bola 3D.",
+      "scene": null
+    },
+    {
+      "id": "motion-fondo",
+      "section": "motion",
+      "title": "¿Qué fondo te interesa?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Estudio claro con sombras y volumen",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Oscuro con luz localizada y textura",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Material relacionado con golf",
+          "description": "Césped, papel o superficie física sin distraer."
+        },
+        {
+          "id": "o4",
+          "label": "Imagen del plano con tratamiento integrado",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Ver dos direcciones de arte primero",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G04-1",
+        "G04-2",
+        "G04-3"
+      ],
+      "ruleIds": [
+        "G04"
+      ],
+      "why": "La textura por sí sola no salva una idea débil.",
+      "scene": null
+    },
+    {
+      "id": "motion-camara",
+      "section": "motion",
+      "title": "¿Qué movimiento de cámara te interesa?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Fija y coreografía de objetos",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Detalle → conjunto",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Recorrido entre elementos",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Profundidad con cambio de foco",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Combinación con un recorrido principal",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "G03-1",
+        "G03-2",
+        "G03-3",
+        "G04-1",
+        "G04-2",
+        "G04-3"
+      ],
+      "ruleIds": [
+        "G03",
+        "G04"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "motion-ritmo",
+      "section": "motion",
+      "title": "¿Qué ritmo debe tener el bloque?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Una transformación clara con pausa de lectura",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Dos o tres beats ligados a la frase",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Muy dinámico con cambios frecuentes de foco",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Comparar dos duraciones dentro del mismo espacio",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G02-1",
+        "G02-2",
+        "G02-3",
+        "G03-1",
+        "G03-2",
+        "G03-3"
+      ],
+      "ruleIds": [
+        "G02",
+        "G03"
+      ],
+      "why": "No se estirará una bola parada para rellenar cinco segundos.",
+      "scene": null
+    },
+    {
+      "id": "motion-handover",
+      "section": "motion",
+      "title": "¿Cómo volver al plano real?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Salida limpia al mismo metraje",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Movimiento que entrega el foco a un objeto real",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "El grafismo se disuelve dejando el plano",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Cierre de la composición antes del gag",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G03-1",
+        "G03-2",
+        "G03-3",
+        "A07-1",
+        "A07-2",
+        "A07-3"
+      ],
+      "ruleIds": [
+        "G03",
+        "A07"
+      ],
+      "why": "Se conserva el instante original de la acción.",
+      "scene": null
+    },
+    {
+      "id": "motion-cantidad",
+      "section": "motion",
+      "title": "Para estos ~20 s, ¿qué estructura te interesa?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Un bloque protagonista y pequeños acentos",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Dos bloques cortos con funciones distintas",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Solo efectos integrados sobre el metraje",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Decidir tras ver el mapa de la pieza",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G02-1",
+        "G02-2",
+        "G02-3",
+        "G01-1",
+        "G01-2",
+        "G01-3"
+      ],
+      "ruleIds": [
+        "G02",
+        "G01"
+      ],
+      "why": "Propuesta de estructura para este anuncio; no periodicidad deducida del corpus.",
+      "scene": null
+    },
+    {
+      "id": "motion-evitar",
+      "section": "motion",
+      "title": "¿Qué recursos quieres excluir?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Bolas flotando como decoración",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Iconos genéricos",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Flechas explicativas sobre gags",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Fondos lisos sin intención",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Cambios de escala sin función",
+          "description": ""
+        },
+        {
+          "id": "o6",
+          "label": "Contadores sin una cifra del guion",
+          "description": ""
+        },
+        {
+          "id": "o7",
+          "label": "Tarjetas que aparecen una detrás de otra sin relación",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "G03-1",
+        "G03-2",
+        "G03-3",
+        "G04-1",
+        "G04-2",
+        "G04-3",
+        "E01-1",
+        "E01-2",
+        "E01-3",
+        "G05-1",
+        "G05-2"
+      ],
+      "ruleIds": [
+        "G03",
+        "G04",
+        "E01",
+        "G05"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "escena-hook",
+      "section": "momentos",
+      "title": "1,22–4,24 · «¿Cansado de dejarte un riñón…?»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "SF Pro con un gran énfasis en riñón",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Composición que se construye alrededor de riñón",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Texto ligado al riñón que ya aparece en imagen",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Una frase expresiva sin duplicar visualmente el gag",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "C07-1",
+        "C07-2",
+        "C07-3",
+        "M01-1",
+        "M01-2",
+        "M01-3"
+      ],
+      "ruleIds": [
+        "C05",
+        "C07",
+        "M01"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 1.22,
+        "end": 4.24
+      }
+    },
+    {
+      "id": "escena-venga",
+      "section": "momentos",
+      "title": "4,44–6,61 · «Venga… ¡NO!»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Solo la interjección final",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Diálogo pequeño y grito grande",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Intervención tipográfica ligada a la trayectoria",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Dejar que imagen y voz hagan el gag",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C08-1",
+        "C08-2",
+        "C08-3",
+        "E03-1",
+        "E03-2",
+        "E03-3",
+        "E01-1",
+        "E01-2",
+        "E01-3"
+      ],
+      "ruleIds": [
+        "C08",
+        "E03",
+        "E01"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 4.44,
+        "end": 6.61
+      }
+    },
+    {
+      "id": "escena-solucion",
+      "section": "momentos",
+      "title": "7,62–9,96 · «Tranquilo… te traigo la solución»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Palabra solución protagonista en una línea",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Apoyos laterales alrededor de solución",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Texto tras el sujeto, si funciona la máscara",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Cambio de composición al entrar el segundo personaje",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C05-1",
+        "C05-2",
+        "C05-3",
+        "C01-1",
+        "C01-2",
+        "C01-3",
+        "M01-1",
+        "M01-2",
+        "M01-3"
+      ],
+      "ruleIds": [
+        "C05",
+        "C01",
+        "M01"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 7.62,
+        "end": 9.96
+      }
+    },
+    {
+      "id": "escena-literal",
+      "section": "momentos",
+      "title": "10,74–11,30 · «Literalmente»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Remate tipográfico muy seco",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Cambio puntual de peso o anchura",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Pequeño acento gráfico sobre la entrega real",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Sin añadido, confiar en la actuación",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "T01-1",
+        "T01-2",
+        "T01-3",
+        "A01-1",
+        "A01-2",
+        "A01-3",
+        "E03-1",
+        "E03-2",
+        "E03-3"
+      ],
+      "ruleIds": [
+        "T01",
+        "A01",
+        "E03"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 10.74,
+        "end": 11.3
+      }
+    },
+    {
+      "id": "escena-marca",
+      "section": "momentos",
+      "title": "11,48–12,30 · «En Birdieballs»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "SF Pro junto a la marca visible",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Aprovechar solo la marca ya visible",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Transición gráfica desde el producto",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Rótulo de marca protagonista breve",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G06-1",
+        "G06-2",
+        "G06-3",
+        "E03-1",
+        "E03-2",
+        "E03-3"
+      ],
+      "ruleIds": [
+        "G06",
+        "E03"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 11.48,
+        "end": 12.3
+      }
+    },
+    {
+      "id": "escena-producto",
+      "section": "momentos",
+      "title": "12,30–14,92 · «Recuperamos bolas originales…»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Nueva escena gráfica completa",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Integración sobre la bola real del plano",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Solo una composición tipográfica fuerte",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Primero dos conceptos en fotogramas para escoger",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "G01-1",
+        "G01-2",
+        "G01-3",
+        "G03-1",
+        "G03-2",
+        "G03-3",
+        "G04-1",
+        "G04-2",
+        "G04-3"
+      ],
+      "ruleIds": [
+        "G01",
+        "G03",
+        "G04"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 12.3,
+        "end": 14.92
+      }
+    },
+    {
+      "id": "escena-lagos",
+      "section": "momentos",
+      "title": "15,08–16,76 · «De lagos, de campos…»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "SF Pro sin adorno, posición cuidada",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Dos composiciones distintas conectadas",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Texto vinculado a la profundidad del paisaje",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Solo enfatizar lagos / campos con escala",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C01-1",
+        "C01-2",
+        "C01-3",
+        "A05-1",
+        "A05-2",
+        "A05-3",
+        "T02-1",
+        "T02-2",
+        "T02-3"
+      ],
+      "ruleIds": [
+        "C01",
+        "A05",
+        "T02"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 15.08,
+        "end": 16.76
+      }
+    },
+    {
+      "id": "escena-enfado",
+      "section": "momentos",
+      "title": "16,79–17,43 · «Me cago en…»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Diálogo discreto en SF Pro",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Remate grande y breve",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "No subtitular la reacción",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Sugerir énfasis sonoro, sin grafismo",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "C08-1",
+        "C08-2",
+        "C08-3",
+        "E03-1",
+        "E03-2",
+        "E03-3"
+      ],
+      "ruleIds": [
+        "C08",
+        "E03"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 16.79,
+        "end": 17.43
+      }
+    },
+    {
+      "id": "escena-salto",
+      "section": "momentos",
+      "title": "18,72–19,60 · «Justo ahí»",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Solo SF Pro, sin flecha ni cursiva",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Dejar únicamente imagen y voz",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Composición compacta distinta al resto",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Probar un único acento sincronizado con la caída",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [
+        "E03-1",
+        "E03-2",
+        "E03-3",
+        "C01-1",
+        "C01-2",
+        "C01-3",
+        "E01-1",
+        "E01-2",
+        "E01-3"
+      ],
+      "ruleIds": [
+        "E03",
+        "C01",
+        "E01"
+      ],
+      "why": "Añade abajo el detalle que decide si esta propuesta te encaja.",
+      "scene": {
+        "start": 18.72,
+        "end": 19.6
+      }
+    },
+    {
+      "id": "sfx-presencia",
+      "section": "sonido",
+      "title": "¿Qué presencia deben tener los efectos sonoros?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Muy sutil, para unir acciones",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Clara en acentos y transiciones",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Expresiva en gags y motion",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Primero una comparación con y sin SFX",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [],
+      "ruleIds": [
+        "S01",
+        "S02"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "sfx-familias",
+      "section": "sonido",
+      "title": "¿Qué familias te interesan probar?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Whoosh corto para desplazamientos",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Golpes suaves para asentamientos",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Clicks para estados o selección",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Sonido físico ligado a bola, golpe o agua",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Texturas y ambientes",
+          "description": ""
+        },
+        {
+          "id": "o6",
+          "label": "Sin efectos añadidos",
+          "description": "",
+          "exclusive": true
+        }
+      ],
+      "type": "multi",
+      "examples": [],
+      "ruleIds": [
+        "S01",
+        "S02"
+      ],
+      "why": "«Sin efectos añadidos» es excluyente. No se modifica la voz ni se inventa que un sonido ya está en la referencia.",
+      "scene": null
+    },
+    {
+      "id": "musica",
+      "section": "sonido",
+      "title": "¿Qué hacer con la música en este bloque?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Conservar lo que trae la fuente",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Probar una base muy discreta",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Base con ritmo perceptible, voz siempre delante",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Decidir escuchando dos opciones",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [],
+      "ruleIds": [
+        "S01"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "sfx-sincronia",
+      "section": "sonido",
+      "title": "¿Con qué debe coincidir el acento sonoro?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Inicio de una entrada",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Asentamiento o contacto",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Transformación de un objeto",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Gesto o caída del personaje",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Solo los acontecimientos principales",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "G03-1",
+        "G03-2",
+        "G03-3"
+      ],
+      "ruleIds": [
+        "S01",
+        "G03"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "efectos-imagen",
+      "section": "sonido",
+      "title": "¿Qué efectos sobre la imagen aceptas?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Cambio puntual de color o B/N",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Realce de luz localizado",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Contorno o selección de un detalle",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Desenfoque ligado a una acción gráfica",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Ninguno: mantener el aspecto de la fuente",
+          "description": "",
+          "exclusive": true
+        }
+      ],
+      "type": "multi",
+      "examples": [
+        "E01-1",
+        "E01-2",
+        "E01-3",
+        "G07-1",
+        "G07-2",
+        "G07-3"
+      ],
+      "ruleIds": [
+        "E01",
+        "G07"
+      ],
+      "why": "No autoriza cortes, zooms o retiming del montaje base.",
+      "scene": null
+    },
+    {
+      "id": "primera-prueba",
+      "section": "entrega",
+      "title": "¿Qué quieres ver antes de la siguiente versión completa?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Dos direcciones en fotogramas + un fragmento animado",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Una escena de 3–5 s completamente terminada",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Los ~20 s integrados tras la autoevaluación",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Comparación A/B del mismo momento",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [],
+      "ruleIds": [
+        "Q02",
+        "Q03"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "comparar",
+      "section": "entrega",
+      "title": "¿Qué comparación te resulta más útil?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Referencia y prueba lado a lado",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "A/B a tamaño móvil",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Original y nueva edición",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Entrada, estado principal y salida por fotogramas",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [],
+      "ruleIds": [
+        "Q03"
+      ],
+      "why": "",
+      "scene": null
+    },
+    {
+      "id": "aprobacion",
+      "section": "entrega",
+      "title": "¿Qué debe resolverse para dar por buena la siguiente prueba?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Tipografía y composición",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Movimiento y variedad",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Concepto del motion",
+          "description": ""
+        },
+        {
+          "id": "o4",
+          "label": "Materiales e integración",
+          "description": ""
+        },
+        {
+          "id": "o5",
+          "label": "Sonido",
+          "description": ""
+        },
+        {
+          "id": "o6",
+          "label": "Conjunto con ritmo natural",
+          "description": ""
+        }
+      ],
+      "type": "multi",
+      "examples": [],
+      "ruleIds": [
+        "Q03"
+      ],
+      "why": "Puedes marcar varios y describir abajo tu condición mínima.",
+      "scene": null
+    },
+    {
+      "id": "delegacion",
+      "section": "entrega",
+      "title": "Cuando algo quede abierto, ¿cómo prefieres resolverlo?",
+      "options": [
+        {
+          "id": "o1",
+          "label": "Proponer dos alternativas visuales",
+          "description": ""
+        },
+        {
+          "id": "o2",
+          "label": "Elegir autónomamente según referencias y explicar la decisión",
+          "description": ""
+        },
+        {
+          "id": "o3",
+          "label": "Dejar ese recurso fuera hasta tener criterio",
+          "description": ""
+        }
+      ],
+      "type": "single",
+      "examples": [],
+      "ruleIds": [
+        "Q03"
+      ],
+      "why": "Esta decisión no amplía una aprobación de fragmento al anuncio entero.",
+      "scene": null
+    }
+  ],
+  "examples": {
+    "C01-1": {
+      "id": "C01-1",
+      "ruleId": "C01",
+      "title": "Dos voces, dos posiciones",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 919,
+      "f1": 1134,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "La narración cambia entre posiciones altas, centro, laterales y baja según plano/capas; se mantiene localmente aunque se mueva la cámara.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Narración y20%; protesta y50%"
+    },
+    "C01-2": {
+      "id": "C01-2",
+      "ruleId": "C01",
+      "title": "El texto cambia de lado con la composición",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 4738,
+      "f1": 5077,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "La narración cambia entre posiciones altas, centro, laterales y baja según plano/capas; se mantiene localmente aunque se mueva la cámara.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Lista izquierda; rail pasa derecha y vuelve tras corte"
+    },
+    "C01-3": {
+      "id": "C01-3",
+      "ruleId": "C01",
+      "title": "Recolocación dentro del mismo plano",
+      "source": "lafabrica-v2p1",
+      "sourceTitle": "LaFabrica_V2_P1",
+      "f0": 1559,
+      "f1": 1623,
+      "fps": 24.0,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "level": "prior_review",
+      "observation": "La narración cambia entre posiciones altas, centro, laterales y baja según plano/capas; se mantiene localmente aunque se mueva la cámara.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Derecha50%→centro26% sin corte"
+    },
+    "C02-1": {
+      "id": "C02-1",
+      "ruleId": "C02",
+      "title": "Texto frontal sobre el primer plano",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 734,
+      "f1": 844,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "El rail puede cruzar boca/cuerpo; titulares pueden quedar detrás de cabeza, delante de ella o con contorno frontal.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Rail sobre boca en primer plano"
+    },
+    "C02-2": {
+      "id": "C02-2",
+      "ruleId": "C02",
+      "title": "Titular detrás de cabeza y pantalla",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 913,
+      "f1": 944,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "El rail puede cruzar boca/cuerpo; titulares pueden quedar detrás de cabeza, delante de ella o con contorno frontal.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Funcionan detrás de cabeza y CRT, sin outline"
+    },
+    "C02-3": {
+      "id": "C02-3",
+      "ruleId": "C02",
+      "title": "Titular delante del sujeto",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 2120,
+      "f1": 2220,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "El rail puede cruzar boca/cuerpo; titulares pueden quedar detrás de cabeza, delante de ella o con contorno frontal.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Q4 delante, no máscara demostrada"
+    },
+    "C03-1": {
+      "id": "C03-1",
+      "ruleId": "C03",
+      "title": "Lectura grande con ancho variable",
+      "source": "v7-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V7 - ADS 90s - REV",
+      "f0": 33,
+      "f1": 373,
+      "fps": 60.0,
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "level": "prior_review",
+      "observation": "El rail conserva tamaño local aunque cambie la longitud; términos protagonistas alcanzan gran ancho, y palabras largas pueden reducirse.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Te≈229px vs entrega≈745px dentro del mismo rail grande"
+    },
+    "C03-2": {
+      "id": "C03-2",
+      "ruleId": "C03",
+      "title": "Una palabra larga dentro del sistema",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 690,
+      "f1": 723,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "El rail conserva tamaño local aunque cambie la longitud; términos protagonistas alcanzan gran ancho, y palabras largas pueden reducirse.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Automáticamente≈717px, rail"
+    },
+    "C03-3": {
+      "id": "C03-3",
+      "ruleId": "C03",
+      "title": "Reducir una palabra larga sin romper el bloque",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 2099,
+      "f1": 2120,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "El rail conserva tamaño local aunque cambie la longitud; términos protagonistas alcanzan gran ancho, y palabras largas pueden reducirse.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Personalmente reducido para caber"
+    },
+    "C04-1": {
+      "id": "C04-1",
+      "ruleId": "C04",
+      "title": "Peso y forma de «Montamos»",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 390,
+      "f1": 390,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "Caja de tinta, caja OCR y cuerpo nominal difieren; máscaras/acentos/fondo alteran mediciones.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Montamos: Helvetica Bold IoU .905 frente SFPro .815 en ajuste anterior"
+    },
+    "C04-2": {
+      "id": "C04-2",
+      "ruleId": "C04",
+      "title": "Peso y forma de «Analizaremos»",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 2350,
+      "f1": 2350,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "Caja de tinta, caja OCR y cuerpo nominal difieren; máscaras/acentos/fondo alteran mediciones.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Analizaremos: Helvetica .910 frente SFPro .800"
+    },
+    "C05-1": {
+      "id": "C05-1",
+      "ruleId": "C05",
+      "title": "Apoyo + pagar + remate",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 545,
+      "f1": 619,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Pequeña línea de contexto, palabra principal grande y a veces complemento inferior; el complemento puede anclarse a izquierda del héroe.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "no es solo / pagar / otro sueldo"
+    },
+    "C05-2": {
+      "id": "C05-2",
+      "ruleId": "C05",
+      "title": "Puedes crear / nuevas / versiones",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2690,
+      "f1": 2780,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Pequeña línea de contexto, palabra principal grande y a veces complemento inferior; el complemento puede anclarse a izquierda del héroe.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "puedes crear / nuevas / versiones"
+    },
+    "C05-3": {
+      "id": "C05-3",
+      "ruleId": "C05",
+      "title": "Ni me han / pagado",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 117,
+      "f1": 137,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "Pequeña línea de contexto, palabra principal grande y a veces complemento inferior; el complemento puede anclarse a izquierda del héroe.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "ni me han / pagado"
+    },
+    "C06-1": {
+      "id": "C06-1",
+      "ruleId": "C06",
+      "title": "Los apoyos se compactan alrededor de pagar",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 550,
+      "f1": 575,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Las líneas forman unidades compactas; algunos apoyos llegan a solapar ópticamente partes de glifos durante entrada.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Apoyos entran separados y se compactan alrededor de pagar"
+    },
+    "C06-2": {
+      "id": "C06-2",
+      "ruleId": "C06",
+      "title": "Dos flancos alrededor del megáfono",
+      "source": "lafabrica-v1",
+      "sourceTitle": "LaFabrica-V1",
+      "f0": 106,
+      "f1": 121,
+      "fps": 24.0,
+      "sha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+      "level": "prior_review",
+      "observation": "Las líneas forman unidades compactas; algunos apoyos llegan a solapar ópticamente partes de glifos durante entrada.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Dos flancos alrededor del megáfono"
+    },
+    "C07-1": {
+      "id": "C07-1",
+      "ruleId": "C07",
+      "title": "Pregunta que acumula seis filas",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2563,
+      "f1": 2672,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "La pregunta V8 construye seis filas; lista Landing conserva cuatro términos; una frase ordinaria puede reemplazar una palabra cada vez.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Pregunta de seis filas, alternancia blanco/lima"
+    },
+    "C07-2": {
+      "id": "C07-2",
+      "ruleId": "C07",
+      "title": "Lista persistente junto a la narración",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 4738,
+      "f1": 5076,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "La pregunta V8 construye seis filas; lista Landing conserva cuatro términos; una frase ordinaria puede reemplazar una palabra cada vez.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "planos/escenas/hooks/visuales persistentes"
+    },
+    "C07-3": {
+      "id": "C07-3",
+      "ruleId": "C07",
+      "title": "La frase se reorganiza al crecer",
+      "source": "lafabrica-v2p1",
+      "sourceTitle": "LaFabrica_V2_P1",
+      "f0": 1515,
+      "f1": 1558,
+      "fps": 24.0,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "level": "prior_review",
+      "observation": "La pregunta V8 construye seis filas; lista Landing conserva cuatro términos; una frase ordinaria puede reemplazar una palabra cada vez.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Frase gráfica refluye al añadirse palabras"
+    },
+    "C08-1": {
+      "id": "C08-1",
+      "ruleId": "C08",
+      "title": "Narrador y protesta a la vez",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 1040,
+      "f1": 1134,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "V8 narra arriba y protesta en lima central; V6rev narra blanco y diálogo amarillo abajo.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "DEJADME/EN/PAZ/JODER!"
+    },
+    "C08-2": {
+      "id": "C08-2",
+      "ruleId": "C08",
+      "title": "Diálogo amarillo y narración blanca",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 961,
+      "f1": 1088,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "V8 narra arriba y protesta en lima central; V6rev narra blanco y diálogo amarillo abajo.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Quiero un UGC... amarillo y completo blanco"
+    },
+    "C08-3": {
+      "id": "C08-3",
+      "ruleId": "C08",
+      "title": "Otra sincronía del mismo diálogo",
+      "source": "v7-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V7 - ADS 90s - REV",
+      "f0": 978,
+      "f1": 1033,
+      "fps": 60.0,
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "level": "prior_review",
+      "observation": "V8 narra arriba y protesta en lima central; V6rev narra blanco y diálogo amarillo abajo.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Retiming distinto al V6rev, no offset global"
+    },
+    "A01-1": {
+      "id": "A01-1",
+      "ruleId": "A01",
+      "title": "Reemplazo directo: porque / contratar",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 450,
+      "f1": 469,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "native_review_this_revision",
+      "observation": "Porque y contratar en V8 aparecen legibles de una vez; Landing la reemplaza es sin fundido visible.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Porque452 / contratar463, control continuo"
+    },
+    "A01-2": {
+      "id": "A01-2",
+      "ruleId": "A01",
+      "title": "Reemplazo directo sin fundido",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 4317,
+      "f1": 4324,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Porque y contratar en V8 aparecen legibles de una vez; Landing la reemplaza es sin fundido visible.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "La4321 sustituye es"
+    },
+    "A01-3": {
+      "id": "A01-3",
+      "ruleId": "A01",
+      "title": "Entrada ya firme, sin rebote",
+      "source": "v7-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V7 - ADS 90s - REV",
+      "f0": 374,
+      "f1": 385,
+      "fps": 60.0,
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "level": "prior_review",
+      "observation": "Porque y contratar en V8 aparecen legibles de una vez; Landing la reemplaza es sin fundido visible.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "¿Pero ya firme en374"
+    },
+    "A02-1": {
+      "id": "A02-1",
+      "ruleId": "A02",
+      "title": "Gracias: ascenso que desacelera",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 9,
+      "f1": 55,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Gracias y hooks en Landing ascienden con ancho y altura casi constantes; aumenta contraste.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Gracias: desplazamiento≈48px; ajuste exponencial RMSE .627px"
+    },
+    "A02-2": {
+      "id": "A02-2",
+      "ruleId": "A02",
+      "title": "Hooks: ascenso nítido",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 4798,
+      "f1": 4808,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Gracias y hooks en Landing ascienden con ancho y altura casi constantes; aumenta contraste.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Hooks: top604→585px; alto118–119, ancho405–407"
+    },
+    "A03-1": {
+      "id": "A03-1",
+      "ruleId": "A03",
+      "title": "Pagar: ascenso, sobrepaso y asentamiento",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 544,
+      "f1": 575,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "native_review_this_revision",
+      "observation": "Pagar sube entre550–554 y después desciende al asentarse. Sirve entra abajo3328–3331 y desciende después. Los apoyos tienen su propia fase.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Pagar y apoyos, control continuo"
+    },
+    "A03-2": {
+      "id": "A03-2",
+      "ruleId": "A03",
+      "title": "Pedir sale mientras sirve entra",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 3319,
+      "f1": 3346,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "native_review_this_revision",
+      "observation": "Pagar sube entre550–554 y después desciende al asentarse. Sirve entra abajo3328–3331 y desciende después. Los apoyos tienen su propia fase.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Pedir sale mientras sirve entra, control continuo"
+    },
+    "A04-1": {
+      "id": "A04-1",
+      "ruleId": "A04",
+      "title": "BLACK / FRIDAY: parpadeo breve",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 268,
+      "f1": 287,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "BLACK tiene opaco/parcial/ausente/parcial; FRIDAY repite el patrón.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "BLACK268opaco269parcial270ausente271parcial272opaco; FRIDAY283–287"
+    },
+    "A05-1": {
+      "id": "A05-1",
+      "ruleId": "A05",
+      "title": "Entrada lateral con arrastre",
+      "source": "lafabrica-v1",
+      "sourceTitle": "LaFabrica-V1",
+      "f0": 106,
+      "f1": 121,
+      "fps": 24.0,
+      "sha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+      "level": "prior_review",
+      "observation": "Megáfono usa desplazamiento lateral desenfocado; semanas y negaciones muestran arrastre vertical; otros títulos entran con bordes definidos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Texto lateral alrededor del megáfono"
+    },
+    "A05-2": {
+      "id": "A05-2",
+      "ruleId": "A05",
+      "title": "3 semanas: arrastre vertical",
+      "source": "lafabrica-v2p1",
+      "sourceTitle": "LaFabrica_V2_P1",
+      "f0": 981,
+      "f1": 995,
+      "fps": 24.0,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "level": "prior_review",
+      "observation": "Megáfono usa desplazamiento lateral desenfocado; semanas y negaciones muestran arrastre vertical; otros títulos entran con bordes definidos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "3/semanas con arrastre vertical"
+    },
+    "A05-3": {
+      "id": "A05-3",
+      "ruleId": "A05",
+      "title": "Entrada nítida, sin blur",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 4798,
+      "f1": 4808,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Megáfono usa desplazamiento lateral desenfocado; semanas y negaciones muestran arrastre vertical; otros títulos entran con bordes definidos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Hooks nítido: contraejemplo"
+    },
+    "A06-1": {
+      "id": "A06-1",
+      "ruleId": "A06",
+      "title": "Agencia de contenido sobre arco",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 0,
+      "f1": 97,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Arcos rodean bombilla, cabeza y medalla; cada letra cambia orientación a lo largo del camino.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Agencia de contenido"
+    },
+    "A06-2": {
+      "id": "A06-2",
+      "ruleId": "A06",
+      "title": "Texto curvado alrededor de la bombilla",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2112,
+      "f1": 2272,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Arcos rodean bombilla, cabeza y medalla; cada letra cambia orientación a lo largo del camino.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Pone la idea sigue bombilla"
+    },
+    "A06-3": {
+      "id": "A06-3",
+      "ruleId": "A06",
+      "title": "Texto siguiendo una medalla",
+      "source": "lafabrica-v2p1",
+      "sourceTitle": "LaFabrica_V2_P1",
+      "f0": 1245,
+      "f1": 1289,
+      "fps": 24.0,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "level": "prior_review",
+      "observation": "Arcos rodean bombilla, cabeza y medalla; cada letra cambia orientación a lo largo del camino.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "60 días de soporte en medalla"
+    },
+    "A07-1": {
+      "id": "A07-1",
+      "ruleId": "A07",
+      "title": "Cruce entre Gracias y Te",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 86,
+      "f1": 96,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Gracias y Te coexisten; pedir se desvanece arriba mientras sirve aparece abajo; otros textos salen con corte.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Te86 y Gracias hasta89"
+    },
+    "A07-2": {
+      "id": "A07-2",
+      "ruleId": "A07",
+      "title": "Relevo de pedir a sirve",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 3324,
+      "f1": 3330,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Gracias y Te coexisten; pedir se desvanece arriba mientras sirve aparece abajo; otros textos salen con corte.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Cruce de pedir/sirve"
+    },
+    "A07-3": {
+      "id": "A07-3",
+      "ruleId": "A07",
+      "title": "Vacío breve antes de APAGAR",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 1794,
+      "f1": 1803,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "Gracias y Te coexisten; pedir se desvanece arriba mientras sirve aparece abajo; otros textos salen con corte.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "1797vacío1798APAGAR"
+    },
+    "T01-1": {
+      "id": "T01-1",
+      "ruleId": "T01",
+      "title": "Jerry: contraste de letra muy condensada",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 328,
+      "f1": 451,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "V8 usa ultracondensada para Jerry y sans para explicación; V3 usa serif para costes/proceso/resultado/negocio, pero otros énfasis son sans.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Remate condensado muy alto"
+    },
+    "T01-2": {
+      "id": "T01-2",
+      "ruleId": "T01",
+      "title": "Cambio a serif por concepto",
+      "source": "v3-ia-cara",
+      "sourceTitle": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "f0": 717,
+      "f1": 823,
+      "fps": 24.0,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "level": "prior_review",
+      "observation": "V8 usa ultracondensada para Jerry y sans para explicación; V3 usa serif para costes/proceso/resultado/negocio, pero otros énfasis son sans.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "QUÉ/PROCESO/RESULTADO serif"
+    },
+    "T01-3": {
+      "id": "T01-3",
+      "ruleId": "T01",
+      "title": "Énfasis en sans y lima",
+      "source": "v3-ia-cara",
+      "sourceTitle": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "f0": 1192,
+      "f1": 1275,
+      "fps": 24.0,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "level": "prior_review",
+      "observation": "V8 usa ultracondensada para Jerry y sans para explicación; V3 usa serif para costes/proceso/resultado/negocio, pero otros énfasis son sans.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Generaciones/consistencia/artificiales sans lima"
+    },
+    "T02-1": {
+      "id": "T02-1",
+      "ruleId": "T02",
+      "title": "Alternancia blanco / lima por fila",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2563,
+      "f1": 2672,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Blanco es frecuente en lectura; lima/verde/amarillo pueden marcar palabra principal, hablante o alternancia de conceptos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Blanco/lima por fila"
+    },
+    "T02-2": {
+      "id": "T02-2",
+      "ruleId": "T02",
+      "title": "Color distinto para la otra voz",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 1040,
+      "f1": 1134,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Blanco es frecuente en lectura; lima/verde/amarillo pueden marcar palabra principal, hablante o alternancia de conceptos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Lima para otra voz"
+    },
+    "T02-3": {
+      "id": "T02-3",
+      "ruleId": "T02",
+      "title": "Mejor: una palabra de acento",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 476,
+      "f1": 496,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "Blanco es frecuente en lectura; lima/verde/amarillo pueden marcar palabra principal, hablante o alternancia de conceptos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Mejor verde"
+    },
+    "M01-1": {
+      "id": "M01-1",
+      "ruleId": "M01",
+      "title": "30: relleno detrás y contorno delante",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 35,
+      "f1": 88,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "30 y curso tienen relleno ocluido pero contorno delante; funcionan de Landing no muestra ese outline.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "30 tras cabeza y outline frontal"
+    },
+    "M01-2": {
+      "id": "M01-2",
+      "ruleId": "M01",
+      "title": "Curso: profundidad y contorno",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 1272,
+      "f1": 1320,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "30 y curso tienen relleno ocluido pero contorno delante; funcionan de Landing no muestra ese outline.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Curso"
+    },
+    "M01-3": {
+      "id": "M01-3",
+      "ruleId": "M01",
+      "title": "Ocultación sin contorno frontal",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 913,
+      "f1": 944,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "30 y curso tienen relleno ocluido pero contorno delante; funcionan de Landing no muestra ese outline.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Sin outline"
+    },
+    "M01-4": {
+      "id": "M01-4",
+      "ruleId": "M01",
+      "title": "Capas distintas para sujeto y objeto",
+      "source": "v3-ia-cara",
+      "sourceTitle": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "f0": 1410,
+      "f1": 1434,
+      "fps": 24.0,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "level": "prior_review",
+      "observation": "30 y curso tienen relleno ocluido pero contorno delante; funcionan de Landing no muestra ese outline.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "CLIENTES tapa softbox pero no cabeza"
+    },
+    "M02-1": {
+      "id": "M02-1",
+      "ruleId": "M02",
+      "title": "Lectura grande detrás del sujeto",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 1546,
+      "f1": 1666,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "Oficina de V5 y almacén de V6rev usan palabra a palabra grande detrás del sujeto con contorno.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Rail gigante máscara+contorno"
+    },
+    "M02-2": {
+      "id": "M02-2",
+      "ruleId": "M02",
+      "title": "Palabras grandes con máscara en almacén",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 1511,
+      "f1": 1687,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "Oficina de V5 y almacén de V6rev usan palabra a palabra grande detrás del sujeto con contorno.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Almacén grande con máscara"
+    },
+    "M02-3": {
+      "id": "M02-3",
+      "ruleId": "M02",
+      "title": "Texto grande, frontal, sin máscara",
+      "source": "v7-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V7 - ADS 90s - REV",
+      "f0": 33,
+      "f1": 373,
+      "fps": 60.0,
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "level": "prior_review",
+      "observation": "Oficina de V5 y almacén de V6rev usan palabra a palabra grande detrás del sujeto con contorno.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Grande frontal"
+    },
+    "G01-1": {
+      "id": "G01-1",
+      "ruleId": "G01",
+      "title": "Precio de 300 € como escena gráfica",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 176,
+      "f1": 225,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "Precio, coste acumulado, comparación, pasos y demostración tienen tratamientos propios. Hay extensos bloques sin interludio gráfico.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Precio300€"
+    },
+    "G01-2": {
+      "id": "G01-2",
+      "ruleId": "G01",
+      "title": "Variantes → coste mínimo",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 383,
+      "f1": 449,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "Precio, coste acumulado, comparación, pasos y demostración tienen tratamientos propios. Hay extensos bloques sin interludio gráfico.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "30variantes→coste mínimo"
+    },
+    "G01-3": {
+      "id": "G01-3",
+      "ruleId": "G01",
+      "title": "Sistema y comparación",
+      "source": "lafabrica-v2p1",
+      "sourceTitle": "LaFabrica_V2_P1",
+      "f0": 343,
+      "f1": 504,
+      "fps": 24.0,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "level": "prior_review",
+      "observation": "Precio, coste acumulado, comparación, pasos y demostración tienen tratamientos propios. Hay extensos bloques sin interludio gráfico.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Sistema y comparación"
+    },
+    "G01-4": {
+      "id": "G01-4",
+      "ruleId": "G01",
+      "title": "Resultados y primera versión",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2396,
+      "f1": 2562,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Precio, coste acumulado, comparación, pasos y demostración tienen tratamientos propios. Hay extensos bloques sin interludio gráfico.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Resultados y primera versión"
+    },
+    "G02-1": {
+      "id": "G02-1",
+      "ruleId": "G02",
+      "title": "Bloques semanales consecutivos",
+      "source": "lafabrica-v2p1",
+      "sourceTitle": "LaFabrica_V2_P1",
+      "f0": 996,
+      "f1": 1289,
+      "fps": 24.0,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "level": "prior_review",
+      "observation": "Los intervalos entre inicios anotados varían por pieza. LaFabrica concentra tarjetas semanales cercanas; V5 cuenta mediante escena física.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Semanas1/2/3 + soporte"
+    },
+    "G02-2": {
+      "id": "G02-2",
+      "ruleId": "G02",
+      "title": "Dos gráficos al principio",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 176,
+      "f1": 449,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "Los intervalos entre inicios anotados varían por pieza. LaFabrica concentra tarjetas semanales cercanas; V5 cuenta mediante escena física.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Dos gráficos tempranos"
+    },
+    "G02-3": {
+      "id": "G02-3",
+      "ruleId": "G02",
+      "title": "La escena física lleva la explicación",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 0,
+      "f1": 2290,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "Los intervalos entre inicios anotados varían por pieza. LaFabrica concentra tarjetas semanales cercanas; V5 cuenta mediante escena física.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Escenificación, no interludios independientes anotados"
+    },
+    "G03-1": {
+      "id": "G03-1",
+      "ruleId": "G03",
+      "title": "Contador que viaja y cede el foco",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 383,
+      "f1": 449,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "30 crece, aparece variantes, el grupo viaja y cede foco a mínimo; reloj sale y hucha entra en un mismo desplazamiento. V8 contrae una selección, recorta clientes, presenta = y reabre para empleados, con timings independientes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Contador y viaje arriba-izquierda"
+    },
+    "G03-2": {
+      "id": "G03-2",
+      "ruleId": "G03",
+      "title": "Reloj → hucha: cambio de objeto",
+      "source": "v2-churros",
+      "sourceTitle": "BRAUDLABS - V2 - CHURROS COCINA",
+      "f0": 760,
+      "f1": 793,
+      "fps": 24.0,
+      "sha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+      "level": "prior_review",
+      "observation": "30 crece, aparece variantes, el grupo viaja y cede foco a mínimo; reloj sale y hucha entra en un mismo desplazamiento. V8 contrae una selección, recorta clientes, presenta = y reabre para empleados, con timings independientes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Tiempo/reloj→Dinero/hucha"
+    },
+    "G03-3": {
+      "id": "G03-3",
+      "ruleId": "G03",
+      "title": "Proceso → resultado: relevo diagonal",
+      "source": "v3-ia-cara",
+      "sourceTitle": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "f0": 760,
+      "f1": 823,
+      "fps": 24.0,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "level": "prior_review",
+      "observation": "30 crece, aparece variantes, el grupo viaja y cede foco a mínimo; reloj sale y hucha entra en un mismo desplazamiento. V8 contrae una selección, recorta clientes, presenta = y reabre para empleados, con timings independientes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Proceso→Resultado con relevo diagonal"
+    },
+    "G03-4": {
+      "id": "G03-4",
+      "ruleId": "G03",
+      "title": "Selección clientes → empleados",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 196,
+      "f1": 327,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "native_sequence_measured",
+      "observation": "30 crece, aparece variantes, el grupo viaja y cede foco a mínimo; reloj sale y hucha entra en un mismo desplazamiento. V8 contrae una selección, recorta clientes, presenta = y reabre para empleados, con timings independientes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Clientes→igualdad→empleados: tiradores medidos y secuencia nativa continua"
+    },
+    "G04-1": {
+      "id": "G04-1",
+      "ruleId": "G04",
+      "title": "Oliva con textura y viñeta",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 383,
+      "f1": 449,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "Hay oliva texturizado/viñeta, charcoal, gris iluminado con sombras y naranja con medalla. El material depende de la escena.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Oliva, textura y viñeta"
+    },
+    "G04-2": {
+      "id": "G04-2",
+      "ruleId": "G04",
+      "title": "Móvil, fondo gris iluminado y sombra",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 1969,
+      "f1": 2071,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Hay oliva texturizado/viñeta, charcoal, gris iluminado con sombras y naranja con medalla. El material depende de la escena.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Gris iluminado, móvil y sombra"
+    },
+    "G04-3": {
+      "id": "G04-3",
+      "ruleId": "G04",
+      "title": "Fondo lima con tipografía oscura",
+      "source": "v3-ia-cara",
+      "sourceTitle": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "f0": 1135,
+      "f1": 1176,
+      "fps": 24.0,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "level": "prior_review",
+      "observation": "Hay oliva texturizado/viñeta, charcoal, gris iluminado con sombras y naranja con medalla. El material depende de la escena.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Fondo lima con rail negro: contraejemplo"
+    },
+    "G05-1": {
+      "id": "G05-1",
+      "ruleId": "G05",
+      "title": "Contador que frena al llegar a 30",
+      "source": "v1-pagado",
+      "sourceTitle": "BRAUDLABS - V1 -  NI ME HAN PAGADO",
+      "f0": 389,
+      "f1": 398,
+      "fps": 24.0,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "level": "prior_review",
+      "observation": "30usa incrementos decrecientes; contador monetario Landing avanza≈84/85€ por frame en tramo final y tiene dígitos fantasma.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "1,6,15,21,24,26,28,29,29,30"
+    },
+    "G05-2": {
+      "id": "G05-2",
+      "ruleId": "G05",
+      "title": "Cifras monetarias con arrastre",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 2213,
+      "f1": 2317,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "30usa incrementos decrecientes; contador monetario Landing avanza≈84/85€ por frame en tramo final y tiene dígitos fantasma.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "€ tarjeta con sombra y arrastre de cifras"
+    },
+    "G06-1": {
+      "id": "G06-1",
+      "ruleId": "G06",
+      "title": "Marca integrada en un monitor",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 563,
+      "f1": 642,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "BRAUD en monitor sigue perspectiva; V8 tiene texto en caja/ropa y carrusel con controles diminutos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Marca en monitor"
+    },
+    "G06-2": {
+      "id": "G06-2",
+      "ruleId": "G06",
+      "title": "Marca presente en la caja",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 1372,
+      "f1": 1464,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "BRAUD en monitor sigue perspectiva; V8 tiene texto en caja/ropa y carrusel con controles diminutos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "BRAUDD en caja"
+    },
+    "G06-3": {
+      "id": "G06-3",
+      "ruleId": "G06",
+      "title": "Carrusel y controles de interfaz",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2420,
+      "f1": 2562,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "BRAUD en monitor sigue perspectiva; V8 tiene texto en caja/ropa y carrusel con controles diminutos.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Controles carrusel"
+    },
+    "E01-1": {
+      "id": "E01-1",
+      "ruleId": "E01",
+      "title": "Señalar errores de cara y manos",
+      "source": "v2-churros",
+      "sourceTitle": "BRAUDLABS - V2 - CHURROS COCINA",
+      "f0": 209,
+      "f1": 239,
+      "fps": 24.0,
+      "sha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+      "level": "prior_review",
+      "observation": "Recuadros señalan errores de cara/manos; damero representa recorte; B/N acompaña remate; silueta blanca oculta cambio de plano.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Errores señalados cara/manos"
+    },
+    "E01-2": {
+      "id": "E01-2",
+      "ruleId": "E01",
+      "title": "Silueta blanca sobre el personaje",
+      "source": "v3-ia-cara",
+      "sourceTitle": "BRAUDLABS - V3 - LA IA TE SALE CARA",
+      "f0": 1428,
+      "f1": 1434,
+      "fps": 24.0,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "level": "prior_review",
+      "observation": "Recuadros señalan errores de cara/manos; damero representa recorte; B/N acompaña remate; silueta blanca oculta cambio de plano.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Silueta blanca solo persona"
+    },
+    "E01-3": {
+      "id": "E01-3",
+      "ruleId": "E01",
+      "title": "Cambio a blanco y negro",
+      "source": "v7-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V7 - ADS 90s - REV",
+      "f0": 374,
+      "f1": 416,
+      "fps": 60.0,
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "level": "prior_review",
+      "observation": "Recuadros señalan errores de cara/manos; damero representa recorte; B/N acompaña remate; silueta blanca oculta cambio de plano.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "B/N con movimiento"
+    },
+    "E02-1": {
+      "id": "E02-1",
+      "ruleId": "E02",
+      "title": "Voilà empieza antes del corte",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 1191,
+      "f1": 1262,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "Servicio, voilà,10 y palabras ordinarias empiezan antes o persisten después de cortes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Voilà entra antes1197"
+    },
+    "E02-2": {
+      "id": "E02-2",
+      "ruleId": "E02",
+      "title": "La frase atraviesa varios planos",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 4506,
+      "f1": 4679,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Servicio, voilà,10 y palabras ordinarias empiezan antes o persisten después de cortes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Variaciones/probar/diferentes atraviesan planos"
+    },
+    "E02-3": {
+      "id": "E02-3",
+      "ruleId": "E02",
+      "title": "Corregir continúa al cambiar de plano",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 3363,
+      "f1": 3449,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "this_revision_qualitative",
+      "observation": "Servicio, voilà,10 y palabras ordinarias empiezan antes o persisten después de cortes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Corregir cruza a plano de equipo"
+    },
+    "E03-1": {
+      "id": "E03-1",
+      "ruleId": "E03",
+      "title": "Dejar respirar la acción sin subtítulo",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 802,
+      "f1": 1031,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "prior_review",
+      "observation": "Hay tramos sin rail con voz o reacción; el nombre ya visible en la pantalla puede sustituir al rail.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Narración/acción sin rail ordinario"
+    },
+    "E03-2": {
+      "id": "E03-2",
+      "ruleId": "E03",
+      "title": "Reacción sin texto añadido",
+      "source": "v6-ads90-rev",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90s - REV",
+      "f0": 1263,
+      "f1": 1307,
+      "fps": 60.0,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "level": "prior_review",
+      "observation": "Hay tramos sin rail con voz o reacción; el nombre ya visible en la pantalla puede sustituir al rail.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Reacción sin rail"
+    },
+    "E03-3": {
+      "id": "E03-3",
+      "ruleId": "E03",
+      "title": "Producto y making-of sin duplicación",
+      "source": "landing",
+      "sourceTitle": "BRAUDLABS - LANDING",
+      "f0": 3976,
+      "f1": 4312,
+      "fps": 60.0,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "level": "prior_review",
+      "observation": "Hay tramos sin rail con voz o reacción; el nombre ya visible en la pantalla puede sustituir al rail.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Making-of y producto"
+    },
+    "G07-1": {
+      "id": "G07-1",
+      "ruleId": "G07",
+      "title": "Bombilla del bruto, texto añadido",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 2160,
+      "f1": 2160,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "raw_edited_pair_reviewed",
+      "observation": "En V8 la bombilla flotante ya está en el bruto; el arco de texto se añade. El teléfono con fondo gris no está en el bruto. En V5 la máquina y tarjetas en vuelo ya están presentes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Bombilla presente en bruto; pone la idea/dirige añadidos"
+    },
+    "G07-2": {
+      "id": "G07-2",
+      "ruleId": "G07",
+      "title": "El montaje dentro del teléfono se añade",
+      "source": "v8",
+      "sourceTitle": "BRAUDLABS - V8",
+      "f0": 1980,
+      "f1": 1980,
+      "fps": 59.94005994005994,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "level": "raw_edited_pair_reviewed",
+      "observation": "En V8 la bombilla flotante ya está en el bruto; el arco de texto se añade. El teléfono con fondo gris no está en el bruto. En V5 la máquina y tarjetas en vuelo ya están presentes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Metraje dentro de teléfono añadido"
+    },
+    "G07-3": {
+      "id": "G07-3",
+      "ruleId": "G07",
+      "title": "Máquina y tarjetas ya presentes en bruto",
+      "source": "v5-maquina",
+      "sourceTitle": "BRAUDLABS - V5 - LA MAQUINA - REV",
+      "f0": 120,
+      "f1": 120,
+      "fps": 29.97002997002997,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "level": "raw_edited_pair_reviewed",
+      "observation": "En V8 la bombilla flotante ya está en el bruto; el arco de texto se añade. El teléfono con fondo gris no está en el bruto. En V5 la máquina y tarjetas en vuelo ya están presentes.",
+      "caution": "Fragmento documentado; su presencia no demuestra que debamos repetirlo en Birdieballs. La intención del editor es una hipótesis.",
+      "technicalObservation": "Máquina/tarjetas y blur presentes en bruto"
+    },
+    "REF-v6-ads90": {
+      "id": "REF-v6-ads90",
+      "ruleId": "G07",
+      "title": "Texto sobre el estudio y los personajes",
+      "source": "v6-ads90",
+      "sourceTitle": "BRAUDLABS - V6 - ADS 90S",
+      "f0": 1450,
+      "f1": 1550,
+      "fps": 60.0,
+      "sha256": "35009cc9171e641cd6e332bbba86d759af5c90477307b79820af895df176a263",
+      "level": "qualitative_raw_pair",
+      "observation": "El estudio y los personajes ya aparecen en el bruto; la tipografía se añade.",
+      "caution": "Par bruto/editado revisado cualitativamente; alineación exacta pendiente."
+    }
+  },
+  "sources": [
+    {
+      "slug": "v8",
+      "title": "BRAUDLABS - V8.mp4",
+      "fps": 59.94005994005994,
+      "frames": 4290,
+      "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+      "family": "v8"
+    },
+    {
+      "slug": "landing",
+      "title": "BRAUDLABS - LANDING.mp4",
+      "fps": 60.0,
+      "frames": 5680,
+      "sha256": "4729d234b8c1ad28d1fa7ac8ad4bcfd68a68ed47eb020d87ec3ce515f0704280",
+      "family": "landing"
+    },
+    {
+      "slug": "v1-pagado",
+      "title": "BRAUDLABS - V1 -  NI ME HAN PAGADO.mp4",
+      "fps": 24.0,
+      "frames": 1898,
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "family": "v1-pagado"
+    },
+    {
+      "slug": "v2-churros",
+      "title": "BRAUDLABS - V2 - CHURROS COCINA.mp4",
+      "fps": 24.0,
+      "frames": 1699,
+      "sha256": "96855c23daeba9bc2e67167c6d2c9b0e14a611e7f1135a9bde157f855e5486e0",
+      "family": "v2-churros"
+    },
+    {
+      "slug": "v3-ia-cara",
+      "title": "BRAUDLABS - V3 - LA IA TE SALE CARA.mp4",
+      "fps": 24.0,
+      "frames": 1542,
+      "sha256": "7c5793c22e3468bd37baf3bfe9518f170b1ab0a99be82849ff640808a873fbab",
+      "family": "v3-ia-cara"
+    },
+    {
+      "slug": "v5-maquina",
+      "title": "BRAUDLABS - V5 - LA MAQUINA - REV.mp4",
+      "fps": 29.97002997002997,
+      "frames": 2291,
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "family": "v5-maquina"
+    },
+    {
+      "slug": "v6-ads90",
+      "title": "BRAUDLABS - V6 - ADS 90S.mp4",
+      "fps": 60.0,
+      "frames": 2650,
+      "sha256": "35009cc9171e641cd6e332bbba86d759af5c90477307b79820af895df176a263",
+      "family": "ads90_variants"
+    },
+    {
+      "slug": "v6-ads90-rev",
+      "title": "BRAUDLABS - V6 - ADS 90s - REV.mp4",
+      "fps": 60.0,
+      "frames": 2650,
+      "sha256": "676afc19b9ed60c09ed8bce0f2d71517a69ed868001977f4570245c04b834993",
+      "family": "ads90_variants"
+    },
+    {
+      "slug": "v7-ads90-rev",
+      "title": "BRAUDLABS - V7 - ADS 90s - REV.mp4",
+      "fps": 60.0,
+      "frames": 2681,
+      "sha256": "ffb1dab8d592edcc8129e0a3dfe148f2f61c35a1f2f1f577eb9d72524e061dbe",
+      "family": "ads90_variants"
+    },
+    {
+      "slug": "lafabrica-v1",
+      "title": "LaFabrica-V1.mp4",
+      "fps": 24.0,
+      "frames": 1096,
+      "sha256": "12725a2f70338b55ecadad30a41e7839d39d911cbdbbebfcbc78c33dde1e7fbe",
+      "family": "lafabrica-v1"
+    },
+    {
+      "slug": "lafabrica-v2p1",
+      "title": "LaFabrica_V2_P1.mp4",
+      "fps": 24.0,
+      "frames": 1907,
+      "sha256": "08a74c0718aefd0946d2f116f57c9f151308f0557cbd191ca5fb65edd415c7f9",
+      "family": "lafabrica-v2p1"
+    }
+  ],
+  "constraints": [
+    {
+      "id": "source-lock",
+      "text": "Conservar cortes, orden, velocidad y sincronía del montaje original.",
+      "origin": "Feedback explícito previo de Ale"
+    },
+    {
+      "id": "scope",
+      "text": "Trabajar solo el bloque de ~20 segundos; una aprobación parcial no aprueba todo el anuncio.",
+      "origin": "Encargo vigente"
+    },
+    {
+      "id": "font",
+      "text": "Recuperar SF Pro como fuente principal; descartar la secundaria cursiva de V04.",
+      "origin": "Feedback de Ale sobre V04"
+    },
+    {
+      "id": "reject-v04",
+      "text": "V04 rechazada: motion de bolas, repetición de multilíneas, tratamiento de «de campos» y del salto.",
+      "origin": "Último mensaje de Ale"
+    },
+    {
+      "id": "tools",
+      "text": "Motion graphics en After Effects y montaje base en Remotion.",
+      "origin": "AGENTS.md / preferencia vigente"
+    }
+  ],
+  "coverage": {
+    "ruleIds": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "A01",
+      "A02",
+      "A03",
+      "A04",
+      "A05",
+      "A06",
+      "A07",
+      "T01",
+      "T02",
+      "M01",
+      "M02",
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "E01",
+      "E02",
+      "E03",
+      "S01",
+      "S02",
+      "Q01",
+      "Q02",
+      "Q03",
+      "G07"
+    ],
+    "forensicComplete": false,
+    "audioSamplesIdentified": false
+  },
+  "sourceMedia": {
+    "url": "/quiz-source",
+    "sha256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+    "fps": 59.94005994005994,
+    "duration": 38.005
+  }
+}

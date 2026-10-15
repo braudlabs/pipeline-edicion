@@ -1,0 +1,31 @@
+{
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 48,
+    "frames": 2250,
+    "duration": 46.875
+  },
+  "decodeErrors": 0,
+  "videoSha256": "b8b961b9f9221ce8b5b751e75028522bbb5a3981524788a9f951aeb4b7e11119",
+  "V1Unchanged": true,
+  "audioBitstreamIdentical": true,
+  "audioSha256": "81eab8c271a4eddb8b27afcfee023ff13d93619c58e86d39b89670ad54d231ca",
+  "motionSampleUniqueFrames": 24,
+  "unchangedSectionsSSIM": {
+    "3": 0.996167,
+    "10": 0.993636,
+    "23.5": 0.993385,
+    "31": 0.987035,
+    "44": 0.989698
+  },
+  "visualInspection": "Native frames, consecutive frame sequences and final MP4 contact sheet inspected. Browser playback operation verified; not a full continuous audiovisual review.",
+  "nativeProject": {
+    "missingFonts": 0,
+    "missingFootage": 0,
+    "compositions": 32,
+    "layers": 231,
+    "editableTextTest": "CAPA V2 - Texto duplicated; native text changed to PRUEBA and rendered. Test comp excluded from delivery.",
+    "sourceMediaCollected": 14
+  }
+}

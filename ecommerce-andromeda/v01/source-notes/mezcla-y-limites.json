@@ -1,0 +1,11 @@
+{
+  "frames": 920,
+  "duration": 38.333333333333336,
+  "narrator": "Original continuo 0–38.333333, sin retiming",
+  "blue": "Original en1.970, sin retiming",
+  "ambient_hook": "Cama provisional de audio nativo clip04 fuente1–6.4167 a0.25; hook nativo íntegro entregado por separado para limpieza fina. No se ha certificado lip sync final.",
+  "ambient_other": ".65 gain; microfades25/30ms por corte",
+  "music": null,
+  "preview_mark": "Sin rótulo quemado; plano06 provisional identificado en nombre de fuente, brief y timeline",
+  "loudness": "Limiter peak0.96, no target integrated loudness asserted"
+}

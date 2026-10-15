@@ -1,0 +1,146 @@
+{
+ "fps": 24,
+ "width": 1080,
+ "height": 1920,
+ "renderedFrames": 920,
+ "narratorFrames": 2049,
+ "scenes": [
+  {
+   "id": "00_hook",
+   "label": "Hook · susurro",
+   "status": "VISUAL_APROBADO_AUDIO_NATIVO",
+   "asset": "assets/clips/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4",
+   "dur": 130,
+   "srcIn": 0,
+   "from": 0
+  },
+  {
+   "id": "01_ventanilla",
+   "label": "Ventanilla · espera",
+   "status": "UTILIZABLE",
+   "asset": "assets/clips/01_ventanilla_espera.mp4",
+   "dur": 220,
+   "srcIn": 0,
+   "from": 130
+  },
+  {
+   "id": "02_ticket",
+   "label": "Ticket · ángulo",
+   "status": "UTILIZABLE",
+   "asset": "assets/clips/02_ticket_angulo.mp4",
+   "dur": 100,
+   "srcIn": 12,
+   "from": 350
+  },
+  {
+   "id": "03_apagados",
+   "label": "Ads apagados",
+   "status": "UTILIZABLE",
+   "asset": "assets/clips/03_ads_apagados.mp4",
+   "dur": 102,
+   "srcIn": 0,
+   "from": 450
+  },
+  {
+   "id": "03b_repetir",
+   "label": "Repetir",
+   "status": "UTILIZABLE",
+   "asset": "assets/clips/03b_repetir.mp4",
+   "dur": 58,
+   "srcIn": 0,
+   "from": 552
+  },
+  {
+   "id": "04_sudadera",
+   "label": "Sudadera · solución",
+   "status": "UTILIZABLE",
+   "asset": "assets/clips/04_sudadera.mp4",
+   "dur": 172,
+   "srcIn": 0,
+   "from": 610
+  },
+  {
+   "id": "05_presentacion",
+   "label": "Presentación máquina",
+   "status": "UTILIZABLE",
+   "asset": "assets/clips/05_presentacion.mp4",
+   "dur": 58,
+   "srcIn": 0,
+   "from": 782
+  },
+  {
+   "id": "06_cinco_ads",
+   "label": "Cinco ads · PROVISIONAL",
+   "status": "PROVISIONAL_SUSTITUIR_NO_FINAL",
+   "asset": "assets/clips/06_CINCO_ADS_PROVISIONAL_SUSTITUIR.mp4",
+   "dur": 80,
+   "srcIn": 0,
+   "from": 840
+  }
+ ],
+ "pending": [
+  {
+   "id": "07_gestion_extend",
+   "status": "NO_GENERADO_DEPENDE_DE_06_VALIDO",
+   "to": 1022,
+   "note": "Extensión forward desde final exacto de 06 usado en montaje; no iniciar desde principio ni duplicar acción.",
+   "from": 920
+  },
+  {
+   "id": "08_optimizacion_escalar",
+   "status": "NO_GENERADO",
+   "to": 1237,
+   "note": "Dos ángulos funcionan, propone más versiones, sí y escalarás. No inventar métricas.",
+   "from": 1022
+  },
+  {
+   "id": "09_doble_basura",
+   "status": "COMPLETED_RECHAZADO_QA",
+   "to": 1340,
+   "note": "Generación completada, rechazada: aparecen tres bolas de papel y no se entiende inequívocamente su salida del tambor. Audio ASR [Música] no corroborado por escucha. No usar ni insertar después de06; siguen faltando07/08. Sin relanzamiento.",
+   "from": 1237
+  },
+  {
+   "id": "10_fundadores",
+   "status": "NO_GENERADO_TIMING_PROVISIONAL",
+   "to": 1478,
+   "note": "Melenas/Elliot @notelliotkay y kiwi @notkurtgodel, referencias reales, una sola aparición de escena; no reutilizar para CTA.",
+   "from": 1340
+  },
+  {
+   "id": "11_criterio",
+   "status": "NO_GENERADO_TIMING_PROVISIONAL",
+   "to": 1585,
+   "note": "Instalar criterio: bajar caos, momento serio y concreto.",
+   "from": 1478
+  },
+  {
+   "id": "12_habitacion_creativos",
+   "status": "NO_GENERADO_TIMING_PROVISIONAL",
+   "to": 1681,
+   "note": "Máquina puede llenar habitación: acumulación con procedencia física clara, no creativos que aparecen de la nada.",
+   "from": 1585
+  },
+  {
+   "id": "13_metagag",
+   "status": "NO_GENERADO_TIMING_PROVISIONAL",
+   "to": 1786,
+   "note": "Este mismo ad lo hizo la máquina: revelación dentro del entorno, no reciclar plano06 como nueva escena.",
+   "from": 1681
+  },
+  {
+   "id": "14_cta_honesto",
+   "status": "NO_GENERADO_TIMING_PROVISIONAL",
+   "to": 1991,
+   "note": "Reserva llamada, encaje sí o no: claridad y sinceridad. No métricas/garantías nuevas.",
+   "from": 1786
+  },
+  {
+   "id": "15_salida",
+   "status": "NO_GENERADO_TIMING_PROVISIONAL",
+   "to": 2049,
+   "note": "Me voy, quiero seguir produciendo ads. Salida con intención; no cola vacía.",
+   "from": 1991
+  }
+ ]
+}

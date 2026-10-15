@@ -1,0 +1,89 @@
+{
+  "render": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "48/1",
+        "nb_frames": "1840"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0",
+        "nb_frames": "1799"
+      }
+    ],
+    "format": {
+      "duration": "38.336000"
+    }
+  },
+  "retainedContourMoments": 3,
+  "subtitleWords": 112,
+  "intentionalOmissionWords": 7,
+  "gagCaptionOverlap": false,
+  "monochromePixelChecks": [
+    {
+      "frame": 184,
+      "meanChannelSpread": 45.17595291137695,
+      "monochromeExpected": false
+    },
+    {
+      "frame": 461,
+      "meanChannelSpread": 36.26740646362305,
+      "monochromeExpected": false
+    },
+    {
+      "frame": 1277,
+      "meanChannelSpread": 43.780635833740234,
+      "monochromeExpected": false
+    },
+    {
+      "frame": 1383,
+      "meanChannelSpread": 53.29362487792969,
+      "monochromeExpected": false
+    },
+    {
+      "frame": 1384,
+      "meanChannelSpread": 1.4404475688934326,
+      "monochromeExpected": true
+    },
+    {
+      "frame": 1430,
+      "meanChannelSpread": 0.5786824822425842,
+      "monochromeExpected": true
+    },
+    {
+      "frame": 1481,
+      "meanChannelSpread": 0.018634259700775146,
+      "monochromeExpected": true
+    },
+    {
+      "frame": 1482,
+      "meanChannelSpread": 44.14061737060547,
+      "monochromeExpected": false
+    },
+    {
+      "frame": 1534,
+      "meanChannelSpread": 44.74645233154297,
+      "monochromeExpected": false
+    }
+  ],
+  "audioMixIdenticalToV03": true,
+  "encodedAudioChecks": [
+    {
+      "seconds": 2,
+      "lagSamples": 0,
+      "correlation": 0.9997902766121952
+    },
+    {
+      "seconds": 29,
+      "lagSamples": 0,
+      "correlation": 0.9998305417063587
+    }
+  ],
+  "visualReview": "selected frames and both boundaries; not full playback or listening",
+  "userApproved": false
+}

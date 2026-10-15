@@ -1,0 +1,328 @@
+{
+  "sourceSha256": "8/8 match",
+  "montageFrames": 920,
+  "cutsPreserved": true,
+  "ticketOffsetFrames": 12,
+  "bridge03bFrames": 58,
+  "audio": {
+    "tracks": [
+      {
+        "id": "narrador",
+        "src": "assets/STEM_NARRADOR_00-38s.wav",
+        "gain": 1,
+        "startSeconds": 0,
+        "retiming": false
+      },
+      {
+        "id": "azul",
+        "src": "assets/STEM_AZUL_COLOCADO_1_970.wav",
+        "gain": 1,
+        "startSeconds": 0,
+        "containsOriginalOffsetSeconds": 1.97,
+        "retiming": false
+      },
+      {
+        "id": "ambiente-sfx",
+        "src": "assets/STEM_AMBIENTE_00-38s.wav",
+        "gain": 1,
+        "startSeconds": 0,
+        "note": "Stem already contains source .65 and hook .25 gains and microfades; do not apply them again"
+      },
+      {
+        "id": "musica",
+        "src": null,
+        "enabled": false,
+        "status": "pending-user-supply-after-production"
+      }
+    ],
+    "master": {
+      "duration": 38.333333333333336,
+      "sampleRate": 48000,
+      "limiterPeak": 0.96,
+      "latencyCompensation": true,
+      "normalize": false
+    }
+  },
+  "captionPhrases": 41,
+  "timedWords": 119,
+  "drawnPhrases": 33,
+  "omittedPhrases": [
+    {
+      "text": "o una agencia",
+      "start": 12.5,
+      "end": 13.25,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "te entregue las piezas",
+      "start": 13.25,
+      "end": 14.583333333333334,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "Quieres testear",
+      "start": 14.708333333333334,
+      "end": 15.333333333333334,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "un nuevo ángulo",
+      "start": 15.333333333333334,
+      "end": 16.125,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "y necesitas",
+      "start": 16.125,
+      "end": 16.708333333333332,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "para ver el fruto",
+      "start": 17.333333333333332,
+      "end": 18.125,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "de eso",
+      "start": 18.125,
+      "end": 18.625,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    },
+    {
+      "text": "y con la sudadera de este tío",
+      "start": 28.833333333333332,
+      "end": 30.541666666666668,
+      "reason": "Visual action priority: hook reaction/shirt, small delivered object or sweatshirt gag; full voice and sidecar transcript preserved."
+    }
+  ],
+  "metaPlacement": {
+    "anchorY": [
+      430,
+      1190
+    ],
+    "guide": [
+      65,
+      270,
+      1015,
+      1248
+    ],
+    "status": "conservative internal guide; not actual Ads Manager UI; per-frame visual review required"
+  },
+  "unfinished": true,
+  "provisionalScene": "06_cinco_ads",
+  "fullDurationPending": 85.39425,
+  "listening": "not independently verified; dapi CLI unavailable (no response)",
+  "lipSyncHook": "pending; untouched",
+  "music": "pending; no provisional music",
+  "approval": "pending",
+  "render": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1",
+        "duration": "38.333333",
+        "nb_frames": "920"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "r_frame_rate": "0/0",
+        "duration": "38.336000",
+        "nb_frames": "1799"
+      }
+    ],
+    "format": {
+      "duration": "38.336000"
+    }
+  },
+  "outputSha256": "fed8a6290155bafc1775d66b6959d3db62953154ce55590c9577f26e35792244",
+  "cutPixelChecks": {
+    "region": "bottom y1320–1840 of source1080x1920, clear of captions; images downscaled to540 for comparison",
+    "samples": [
+      {
+        "scene": "00_hook",
+        "outputFrame": 0,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.7950379848480225
+      },
+      {
+        "scene": "00_hook",
+        "outputFrame": 129,
+        "sourceFrame": 129,
+        "meanAbsoluteRGBDifference": 3.785106897354126
+      },
+      {
+        "scene": "01_ventanilla_espera",
+        "outputFrame": 130,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.8841476440429688
+      },
+      {
+        "scene": "01_ventanilla_espera",
+        "outputFrame": 349,
+        "sourceFrame": 219,
+        "meanAbsoluteRGBDifference": 3.8630127906799316
+      },
+      {
+        "scene": "02_ticket_angulo",
+        "outputFrame": 350,
+        "sourceFrame": 12,
+        "meanAbsoluteRGBDifference": 3.8715171813964844
+      },
+      {
+        "scene": "02_ticket_angulo",
+        "outputFrame": 449,
+        "sourceFrame": 111,
+        "meanAbsoluteRGBDifference": 3.91390323638916
+      },
+      {
+        "scene": "03_ads_apagados",
+        "outputFrame": 450,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.8420181274414062
+      },
+      {
+        "scene": "03_ads_apagados",
+        "outputFrame": 551,
+        "sourceFrame": 101,
+        "meanAbsoluteRGBDifference": 4.009067058563232
+      },
+      {
+        "scene": "03b_repetir",
+        "outputFrame": 552,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.939207077026367
+      },
+      {
+        "scene": "03b_repetir",
+        "outputFrame": 609,
+        "sourceFrame": 57,
+        "meanAbsoluteRGBDifference": 3.826265335083008
+      },
+      {
+        "scene": "04_sudadera",
+        "outputFrame": 610,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.7937488555908203
+      },
+      {
+        "scene": "04_sudadera",
+        "outputFrame": 781,
+        "sourceFrame": 171,
+        "meanAbsoluteRGBDifference": 3.75358510017395
+      },
+      {
+        "scene": "05_presentacion",
+        "outputFrame": 782,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.831695079803467
+      },
+      {
+        "scene": "05_presentacion",
+        "outputFrame": 839,
+        "sourceFrame": 57,
+        "meanAbsoluteRGBDifference": 3.8284401893615723
+      },
+      {
+        "scene": "06_cinco_ads",
+        "outputFrame": 840,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.9637393951416016
+      },
+      {
+        "scene": "06_cinco_ads",
+        "outputFrame": 919,
+        "sourceFrame": 79,
+        "meanAbsoluteRGBDifference": 3.9626946449279785
+      }
+    ],
+    "note": "compression/resampling prevent pixel equality; every supplied cut start/end compared to exact source index"
+  },
+  "audioRenderCheck": {
+    "reference": "mix-preview.wav derived from delivered stems",
+    "sampleRate": 48000,
+    "renderSamples": 1840128,
+    "referenceSamples": 1840000,
+    "peakAbsoluteRendered": 1.0638302564620972,
+    "windows": [
+      {
+        "start": 0,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998976879319625
+      },
+      {
+        "start": 2,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998894023010897
+      },
+      {
+        "start": 10,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9999179244665211
+      },
+      {
+        "start": 23,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998418487434132
+      },
+      {
+        "start": 30,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998852483998818
+      },
+      {
+        "start": 36,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9999046783519794
+      }
+    ],
+    "scope": "checks output mux/codec timing; not phonetic/lip-sync verification or listening"
+  },
+  "visualReview": {
+    "selectedFrames": [
+      19,
+      31,
+      60,
+      86,
+      119,
+      185,
+      211,
+      251,
+      270,
+      307,
+      338,
+      406,
+      468,
+      542,
+      596,
+      638,
+      677,
+      715,
+      767,
+      828,
+      862,
+      886,
+      913
+    ],
+    "guide": "stills/review-meta-board.jpg",
+    "corrections": [
+      "Subtitles raised per Ale feedback",
+      "Paper/ticket and sweatshirt gags left clear",
+      "Machine text moved above screen after pixel inspection"
+    ],
+    "fullPlaybackOrListening": false
+  }
+}

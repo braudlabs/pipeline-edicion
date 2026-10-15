@@ -1,0 +1,39 @@
+{
+  "project": "Mercadillo de agencias",
+  "version": "V03",
+  "status": "ready_for_user_verdict",
+  "date": "2026-10-11",
+  "engine": "Adobe After Effects 26.5x89",
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/mercadillo/v03/Mercadillo-agencias-V03.mp4",
+  "sha256": "241cf4f420dce0385839b517a058e29915631b050e8bce8453485f773098cace",
+  "durationSeconds": 85.79166666666667,
+  "fps": 24,
+  "frames": 2059,
+  "width": 1080,
+  "height": 1920,
+  "renderSeconds": 66,
+  "review": {
+    "url": "http://127.0.0.1:4318/",
+    "versionId": "d8b88cdf-50a2-4b8d-baf2-7090b82a9147",
+    "sha256": "241cf4f420dce0385839b517a058e29915631b050e8bce8453485f773098cace"
+  },
+  "qa": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/mercadillo/v03/QA.json",
+  "changes": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/mercadillo/v03/CAMBIOS.md",
+  "sourceRoot": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-10-mercadillo-agencias/ENTREGA_EDITOR_2026-10-11",
+  "reference": "estilo-editor/analysis/refs/v5-maquina.mp4",
+  "music": {
+    "title": "Funky Martian",
+    "artist": "Michael Ramir C.",
+    "provider": "Mixkit",
+    "track": 1029
+  },
+  "approved": false,
+  "editableProject": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/mercadillo/v03/ae/Mercadillo-V03.aep",
+  "latestFeedbackApplied": {
+    "pause": "Pelillos: voice solo + monochrome, music and color return on Vamos",
+    "audio": "Evidentemente reconstructed from original, premature syllable removed",
+    "pace": "8 opening frames and 22 pre-grandmother frames removed; grandmother 1.125x, physical gag 93 to 72 frames",
+    "effects": "Optical accents, progressive grandma zooms, sound accents",
+    "preserved": "V02 criterion composition, pixel-identical at corresponding frame"
+  }
+}

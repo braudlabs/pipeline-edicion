@@ -1,0 +1,37 @@
+{
+ "products": {
+  "x": 156,
+  "y": 811.28125,
+  "w": 1200,
+  "h": 103.390625,
+  "text": "Productos y oferta\nQué vendes, por qué lo compran y qué lo respalda.\n1 ficha"
+ },
+ "audience": {
+  "x": 156,
+  "y": 928.671875,
+  "w": 1200,
+  "h": 103.390625,
+  "text": "Públicos y necesidades\nSituaciones, deseos, objeciones y lenguaje real.\n1 entrad"
+ },
+ "identity": {
+  "x": 156,
+  "y": 1046.0625,
+  "w": 1200,
+  "h": 103.390625,
+  "text": "Identidad y voz\nLogos, colores, estilo visual y forma de hablar.\nContexto y recu"
+ },
+ "learning": {
+  "x": 156,
+  "y": 1515.625,
+  "w": 1200,
+  "h": 103.390625,
+  "text": "Aprendizajes de marca\nDecisiones con fuente que nos ayudan a seguir.\n1 entrada"
+ },
+ "note": {
+  "x": 1046,
+  "y": 506.71875,
+  "w": 310,
+  "h": 217.171875,
+  "text": "Una base para cada pieza.\n\nEl contexto se construye contigo. Conservamos qué est"
+ }
+}

@@ -1,0 +1,24 @@
+{
+  "file": "original_music_take3.mp3",
+  "model_id": "music_v2_5",
+  "output_format": "mp3_48000_320",
+  "seed": 85402,
+  "response_headers": {
+    "date": "Thu, 15 Oct 2026 09:24:24 GMT",
+    "server": "uvicorn",
+    "song-id": "nBTombcUYv35sbs5JIP0",
+    "Content-Length": "3417644",
+    "content-type": "audio/mpeg",
+    "vary": "Accept-Language",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "*",
+    "access-control-allow-methods": "POST, PATCH, OPTIONS, DELETE, GET, PUT",
+    "access-control-max-age": "600",
+    "Strict-Transport-Security": "max-age=1800;",
+    "x-trace-id": "8da615cef3a24074ea7df92761e7ba65",
+    "x-region": "us-central1",
+    "Via": "1.1 google",
+    "Alt-Svc": "h3=\":443\"; ma=2592000",
+    "Connection": "close"
+  }
+}

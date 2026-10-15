@@ -1,0 +1,181 @@
+/* Geometry recovered directly from previous-styles.css (v1). Theme is separate. */
+@media(min-width:1151px){.topbar{padding-inline:48px;grid-template-columns:minmax(0,1fr) auto minmax(max-content,1fr)}}
+.workspace-shell .scene-workspace,.workspace-shell.with-agent .scene-workspace{display:grid;grid-template-columns:155px minmax(280px,1fr) 305px;gap:23px;align-items:start}
+.workspace-shell .scene-rail,.workspace-shell.with-agent .scene-rail{max-height:870px;overflow:auto;padding:4px 8px 12px 0}
+.workspace-shell .rail-label,.workspace-shell.with-agent .rail-label{display:flex;align-items:center;justify-content:space-between;font-size:9px;letter-spacing:.14em;margin:2px 5px 15px}
+.workspace-shell .rail-label span,.workspace-shell.with-agent .rail-label span{font-size:10px;letter-spacing:0}
+.workspace-shell .scene-tile,.workspace-shell.with-agent .scene-tile{display:block;width:100%;padding:7px;border-radius:13px;text-align:left;margin-bottom:11px}
+.workspace-shell .scene-thumb,.workspace-shell.with-agent .scene-thumb{height:83px;border-radius:8px;position:relative;overflow:hidden;margin-bottom:9px}
+.workspace-shell .scene-thumb img,.workspace-shell.with-agent .scene-thumb img{width:100%;height:100%;object-fit:cover;object-position:center 35%}
+.workspace-shell .scene-tile>strong,.workspace-shell.with-agent .scene-tile>strong{display:block;font-size:11px;font-weight:550;line-height:1.3}
+.workspace-shell .scene-tile>span,.workspace-shell.with-agent .scene-tile>span{display:block;font-size:9px;margin-top:5px}
+.workspace-shell .rail-add,.workspace-shell.with-agent .rail-add{width:100%;font-size:10px;padding:8px 3px;border-radius:9px}
+.workspace-shell .rail-add .icon,.workspace-shell.with-agent .rail-add .icon{width:13px}
+.workspace-shell .canvas-header,.workspace-shell.with-agent .canvas-header{display:flex;align-items:center;gap:12px;padding:16px 20px;font-size:12px}
+.workspace-shell .canvas-format,.workspace-shell.with-agent .canvas-format{margin-left:auto;font-size:8px;letter-spacing:.1em}
+.workspace-shell .preview-stage,.workspace-shell.with-agent .preview-stage{min-height:430px;height:min(55vw,505px);display:grid;overflow:hidden}
+.workspace-shell .preview-stage video,.workspace-shell.with-agent .preview-stage video{width:100%;height:100%;max-height:505px;object-fit:contain}
+.workspace-shell .direction-panel,.workspace-shell.with-agent .direction-panel{padding:20px;border-radius:19px}
+.workspace-shell .panel-heading,.workspace-shell.with-agent .panel-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}
+.workspace-shell .panel-heading h2,.workspace-shell.with-agent .panel-heading h2{font-size:19px}
+.workspace-shell .panel-heading .icon-btn,.workspace-shell.with-agent .panel-heading .icon-btn{height:28px;width:28px}
+.workspace-shell .panel-heading .icon,.workspace-shell.with-agent .panel-heading .icon{height:15px;width:15px}
+.workspace-shell .direction-panel .eyebrow,.workspace-shell.with-agent .direction-panel .eyebrow{font-size:8px;letter-spacing:.1em}
+.workspace-shell .direction-panel blockquote,.workspace-shell.with-agent .direction-panel blockquote{margin:10px 0 0;font-size:13px;line-height:1.65;letter-spacing:-.1px}
+.workspace-shell .panel-divider,.workspace-shell.with-agent .panel-divider{height:1px;margin:22px 0}
+.workspace-shell .label-row,.workspace-shell.with-agent .label-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.workspace-shell .label-row button,.workspace-shell.with-agent .label-row button{font-size:10px;padding:0}
+.workspace-shell .intent,.workspace-shell.with-agent .intent{font-size:11px;line-height:1.75;margin-top:10px;white-space:pre-wrap}
+.workspace-shell .audio-pills,.workspace-shell.with-agent .audio-pills{display:flex;gap:5px;flex-wrap:wrap;margin-top:13px}
+.workspace-shell .audio-pills>span,.workspace-shell.with-agent .audio-pills>span{padding:5px 7px;border-radius:6px;font-size:9px;display:flex;gap:5px;align-items:center}
+.workspace-shell .audio-pills .icon,.workspace-shell.with-agent .audio-pills .icon{width:11px;height:11px}
+.workspace-shell .ref-stack,.workspace-shell.with-agent .ref-stack{margin:12px 0 20px}
+.workspace-shell .ref-item,.workspace-shell.with-agent .ref-item{display:flex;gap:10px;align-items:center;margin:10px 0}
+.workspace-shell .ref-item img,.workspace-shell.with-agent .ref-item img{width:40px;height:49px;border-radius:7px;object-fit:cover}
+.workspace-shell .ref-item strong,.workspace-shell.with-agent .ref-item strong{display:block;font-size:10px}
+.workspace-shell .ref-item span,.workspace-shell.with-agent .ref-item span{display:block;font-size:9px;margin-top:3px}
+.workspace-shell .ref-item>.icon,.workspace-shell.with-agent .ref-item>.icon{width:13px;margin-left:auto}
+.workspace-shell .direction-panel>.micro,.workspace-shell.with-agent .direction-panel>.micro{margin-top:9px;text-align:center;font-size:9px}
+.workspace-shell .direction-panel .full,.workspace-shell.with-agent .direction-panel .full{font-size:11px;padding:10px 8px}
+.workspace-shell .direction-panel textarea,.workspace-shell.with-agent .direction-panel textarea{height:80px;padding:10px;font-size:10px;margin-top:14px;border-radius:10px;min-height:60px}
+@media(min-width:1500px){
+.workspace-shell .scene-workspace,.workspace-shell.with-agent .scene-workspace{grid-template-columns:170px minmax(400px,1fr) 330px;gap:28px}
+.workspace-shell .preview-stage,.workspace-shell.with-agent .preview-stage{height:550px;max-height:550px}
+.workspace-shell .preview-stage video,.workspace-shell.with-agent .preview-stage video{max-height:550px}
+}
+@media(max-width:1150px){
+.workspace-shell .scene-workspace,.workspace-shell.with-agent .scene-workspace{grid-template-columns:120px minmax(250px,1fr) 265px;gap:14px}
+.workspace-shell .direction-panel,.workspace-shell.with-agent .direction-panel{padding:16px}
+.workspace-shell .canvas-format,.workspace-shell.with-agent .canvas-format{display:none}
+.workspace-shell .scene-thumb,.workspace-shell.with-agent .scene-thumb{height:70px}
+.workspace-shell .scene-tile>span,.workspace-shell.with-agent .scene-tile>span{font-size:8px}
+.workspace-shell .preview-stage,.workspace-shell.with-agent .preview-stage{height:430px}
+}
+@media(max-width:900px){
+.workspace-shell .scene-workspace,.workspace-shell.with-agent .scene-workspace{grid-template-columns:minmax(0,1fr) 265px}
+.workspace-shell .scene-rail,.workspace-shell.with-agent .scene-rail{grid-column:1/-1;display:flex;max-height:none;gap:9px;padding:0 0 10px;overflow:auto;align-items:stretch}
+.workspace-shell .rail-label,.workspace-shell.with-agent .rail-label{display:none}
+.workspace-shell .scene-tile,.workspace-shell.with-agent .scene-tile{width:105px;flex:none;margin:0}
+.workspace-shell .rail-add,.workspace-shell.with-agent .rail-add{width:90px;white-space:normal;flex:none}
+.workspace-shell .scene-tile strong,.workspace-shell.with-agent .scene-tile strong{font-size:10px}
+.workspace-shell .scene-thumb,.workspace-shell.with-agent .scene-thumb{height:65px}
+.workspace-shell .preview-stage,.workspace-shell.with-agent .preview-stage{height:460px}
+}
+@media(max-width:620px){
+.workspace-shell .scene-workspace,.workspace-shell.with-agent .scene-workspace{grid-template-columns:1fr;gap:15px}
+.workspace-shell .scene-rail,.workspace-shell.with-agent .scene-rail{grid-column:1}
+.workspace-shell .scene-tile,.workspace-shell.with-agent .scene-tile{width:96px}
+.workspace-shell .preview-stage,.workspace-shell.with-agent .preview-stage{height:450px;min-height:300px}
+.workspace-shell .direction-panel,.workspace-shell.with-agent .direction-panel{padding:22px}
+.workspace-shell .direction-panel .intent,.workspace-shell.with-agent .direction-panel .intent{font-size:12px}
+.workspace-shell .direction-panel blockquote,.workspace-shell.with-agent .direction-panel blockquote{font-size:14px}
+.workspace-shell .direction-panel .eyebrow,.workspace-shell.with-agent .direction-panel .eyebrow{font-size:9px}
+.workspace-shell .direction-panel .full,.workspace-shell.with-agent .direction-panel .full{font-size:12px}
+.workspace-shell .canvas-header,.workspace-shell.with-agent .canvas-header{padding:15px}
+}
+
+/* Preserve component scale. The canvas gutters absorb the conversation width. */
+.piece-main{max-width:1504px;padding:25px 42px;margin:auto}
+.piece-main:has(.with-agent){max-width:calc(1504px + 28px + var(--agent-width))}
+.workspace-shell{overflow:visible;padding-bottom:0;align-items:start;min-width:0}
+.workspace-shell.with-agent{grid-template-columns:minmax(0,1fr) 28px var(--agent-width)}
+.workspace-shell.with-agent>.piece-board{display:block}
+.workspace-topline{min-height:20px;margin-bottom:24px;flex-wrap:wrap}.workspace-topline>div{flex-wrap:wrap;align-items:center}
+.workspace-topline>div{gap:20px}
+:is(.workspace-shell,.workspace-overview) .guide-heading{margin:0 0 35px;min-height:62px;gap:24px}
+:is(.workspace-shell,.workspace-overview) .guide-heading h1{font-size:31px;line-height:1.15;margin:0;letter-spacing:-1.2px}
+:is(.workspace-shell,.workspace-overview) .guide-heading .guide-caption{display:block;font-size:11px;margin:0 0 8px}
+:is(.workspace-shell,.workspace-overview) .guide-steps.workspace-tabs{display:flex;gap:5px;min-height:0;width:100%;border:0;border-bottom:1px solid var(--line);border-radius:0;background:none;box-shadow:none;padding:0 0 13px;margin:0 0 22px;flex-wrap:nowrap;justify-content:flex-start}
+:is(.workspace-shell,.workspace-overview) .guide-steps.workspace-tabs>button{font-size:12px;min-height:0;padding:10px 19px;gap:11px;line-height:1.4}
+:is(.workspace-shell,.workspace-overview) .guide-steps.workspace-tabs .step-number{font-size:10px}
+.workspace-shell .scene-workspace{grid-auto-rows:auto}
+.workspace-shell .scene-rail,.workspace-shell.with-agent .scene-rail{grid-row:auto;position:relative;height:var(--scene-height,auto);max-height:var(--scene-height,870px);min-height:0;overscroll-behavior:contain}
+.workspace-shell .scene-canvas,.workspace-shell.with-agent .scene-canvas{grid-row:auto;grid-column:auto}
+.workspace-shell .direction-panel,.workspace-shell.with-agent .direction-panel{grid-column:auto;grid-row:auto;height:var(--scene-height,auto);max-height:var(--scene-height,none);overflow:auto;scrollbar-width:thin;scrollbar-gutter:stable}
+.workspace-shell .direction-panel blockquote{padding:0}
+.workspace-shell .canvas-header{min-height:0}
+.workspace-shell .direction-panel .panel-heading h2{font-size:19px}
+.workspace-shell .scene-tile strong{font-size:11px;line-height:1.3}
+.workspace-shell .scene-tile>span{display:block}
+.workspace-shell .preview-stage{min-width:0}
+.workspace-shell .agent-docked{position:sticky;align-self:start;top:24px;max-width:none;width:100%;min-width:0;justify-self:stretch;margin-top:var(--dock-offset,0px);height:var(--dock-height,600px);background:none;border:0;box-shadow:none}
+.workspace-shell .workspace-resizer{display:flex;position:relative;top:auto;margin-top:var(--dock-offset,0px)}
+.dock-label-wide{display:inline}.dock-label-compact{display:none}
+.guided-studio[data-guide-step=scenes]>.guide-intro{display:none}
+@media(max-width:1150px){.piece-main{padding-left:25px;padding-right:25px}}
+@media(max-width:620px){.piece-main{padding:20px 15px}:is(.workspace-shell,.workspace-overview) .guide-heading h1{font-size:23px}:is(.workspace-shell,.workspace-overview) .guide-steps.workspace-tabs{overflow-x:auto}:is(.workspace-shell,.workspace-overview) .guide-steps.workspace-tabs>button{font-size:11px;padding:9px 12px;gap:7px}.workspace-topline{flex-wrap:wrap;white-space:normal}.workspace-topline>div{flex-wrap:wrap}.workspace-shell .scene-tile strong{font-size:10px}}
+.workspace-shell .direction-panel .intent,.workspace-shell.with-agent .direction-panel .intent{font-size:11px;line-height:1.75;margin:10px 0 0}
+.workspace-shell .canvas-header{height:51px;position:relative}
+.workspace-shell .canvas-header .icon-btn{position:absolute;right:14px;top:12px}
+.workspace-shell .canvas-format{margin-right:28px}
+@media(max-width:620px){.workspace-shell .direction-panel .intent,.workspace-shell.with-agent .direction-panel .intent{font-size:12px}}
+
+@media(min-width:1151px){.workspace-shell .canvas-format{display:block}}
+@media(max-width:900px){.workspace-shell .scene-thumb{width:auto}.workspace-shell .scene-tile{min-width:0}}
+
+.workspace-overview{min-width:0}.workspace-overview .guide-intro{margin-bottom:24px}
+
+/* Restore the full v1 spacing inside the panels, not only their outer dimensions. */
+.workspace-shell .direction-panel .panel-heading{margin-bottom:24px}
+.workspace-shell .direction-panel .audio-pills{margin:13px 0 0}
+.workspace-shell .direction-panel .ref-stack{margin:12px 0 20px}
+.workspace-shell .version-bar,.workspace-shell.with-agent .version-bar{padding:17px 20px;gap:10px}
+.workspace-shell .review-row,.workspace-shell.with-agent .review-row{padding:18px 20px;gap:12px;flex-wrap:wrap}
+.workspace-shell .review-actions,.workspace-shell.with-agent .review-actions{flex-wrap:wrap}
+.workspace-shell .review-actions .btn{min-height:34px;padding:8px 12px}
+.workspace-shell .preview-stage{width:100%}
+.workspace-shell .agent-docked .agent-history{min-height:0;overscroll-behavior:contain}
+.workspace-shell .scene-rail{scrollbar-gutter:stable}
+/* The same component sizes fit smaller windows by reflowing, never cropping the board. */
+@media(min-width:901px) and (max-width:1050px){
+ .workspace-shell.with-agent .scene-workspace{grid-template-columns:minmax(250px,1fr) 265px}
+ .workspace-shell.with-agent .scene-rail{grid-column:1/-1;display:flex;height:auto;max-height:none;gap:9px;padding:0 0 12px;overflow:auto;align-items:stretch;scrollbar-gutter:auto}
+ .workspace-shell.with-agent .rail-label{display:none}
+ .workspace-shell.with-agent .scene-tile{width:105px;flex:none;margin:0;min-width:0}
+ .workspace-shell.with-agent .scene-thumb{height:65px;width:auto}
+ .workspace-shell.with-agent .rail-add{width:90px;flex:none;white-space:normal}
+}
+@media(max-width:1050px){.workspace-shell.with-agent{grid-template-columns:minmax(0,1fr) 20px var(--agent-width)}}
+@media(max-width:900px){
+ .workspace-shell .scene-rail,.workspace-shell.with-agent .scene-rail{height:auto;max-height:none;scrollbar-gutter:auto;grid-column:1/-1}
+ .workspace-shell.with-agent .scene-workspace{grid-template-columns:minmax(0,1fr)}
+ .workspace-shell.with-agent .direction-panel{height:auto;max-height:none}
+ .workspace-shell.with-agent .scene-tile{display:block;width:105px;min-width:105px}
+ .workspace-shell.with-agent .scene-thumb{width:auto}
+}
+@media(max-width:700px){
+ .workspace-shell.with-agent{grid-template-columns:minmax(0,1fr)}
+ .workspace-shell.with-agent .workspace-resizer{display:none}
+ .workspace-shell.with-agent .agent-docked{position:relative;top:auto;margin-top:28px;height:620px;max-height:85dvh}
+ .guide-heading{flex-wrap:wrap}.guide-heading .saved-state{margin-left:0}
+ .workspace-shell .direction-panel{height:auto;max-height:none}
+ .workspace-shell .scene-rail{height:auto;max-height:none}
+}
+
+@media(min-width:1151px) and (max-width:1220px){
+ .workspace-shell.with-agent .scene-workspace{grid-template-columns:120px minmax(250px,1fr) 265px;gap:14px}
+}
+
+/* Two optional starting lines, with one viewport- and content-bounded composer. */
+.workspace-layout{--dock-gap:28px;display:flow-root;min-width:0}
+.workspace-layout[data-agent-position="title"]:has(.with-agent)>.workspace-overview{width:calc(100% - var(--agent-width) - var(--dock-gap))}
+.workspace-layout[data-agent-position="title"]:has(.with-agent) .workspace-overview .guide-heading{flex-wrap:wrap}
+.workspace-layout .workspace-overview .guide-steps{overflow-x:auto;scrollbar-width:none}
+.agent-position-button .icon{transform:rotate(-90deg)}
+.agent-position-button[data-position="title"] .icon{transform:rotate(90deg)}
+@media(max-width:1050px){.workspace-layout{--dock-gap:20px}}
+@media(max-width:700px){
+ .workspace-layout[data-agent-position="title"]:has(.with-agent)>.workspace-overview{width:100%}
+ .agent-position-button{display:none}
+}
+
+@media(min-width:701px){
+ .workspace-layout[data-agent-position="title"]:has(.with-agent) .guide-steps.workspace-tabs{flex-wrap:wrap;overflow:visible}
+}
+
+/* Pending edits identify their section without changing the heading geometry. */
+.draft-status-action{display:inline-flex;align-items:center;gap:6px;padding:0;font:inherit;color:inherit;text-align:left;line-height:inherit}
+.draft-status-action:hover{color:var(--ink)}
+.draft-review-list .conversation-row{justify-content:space-between;gap:16px}
+
+.recovered-draft p{white-space:pre-wrap;overflow-wrap:anywhere}

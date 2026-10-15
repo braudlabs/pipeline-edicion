@@ -1,0 +1,74 @@
+[
+  {
+    "word": "Vamos",
+    "ASRStart": 14.92,
+    "editorialRange": [
+      14.66,
+      14.92
+    ]
+  },
+  {
+    "word": "Instalaremos",
+    "ASRStart": 22.98,
+    "editorialRange": [
+      22.16,
+      22.7
+    ]
+  },
+  {
+    "word": "una",
+    "ASRStart": 22.98,
+    "editorialRange": [
+      22.7,
+      22.98
+    ]
+  },
+  {
+    "word": "No",
+    "ASRStart": 35.82,
+    "editorialRange": [
+      35.72,
+      35.77
+    ]
+  },
+  {
+    "word": "te",
+    "ASRStart": 35.82,
+    "editorialRange": [
+      35.77,
+      35.82
+    ]
+  },
+  {
+    "word": "La",
+    "ASRStart": 67.84,
+    "editorialRange": [
+      67.78,
+      67.84
+    ]
+  },
+  {
+    "word": "Si",
+    "ASRStart": 71.9,
+    "editorialRange": [
+      71.82,
+      71.9
+    ]
+  },
+  {
+    "word": "Y",
+    "ASRStart": 74.98,
+    "editorialRange": [
+      74.85,
+      74.98
+    ]
+  },
+  {
+    "word": "Ese",
+    "ASRStart": 77.72,
+    "editorialRange": [
+      77.61,
+      77.72
+    ]
+  }
+]

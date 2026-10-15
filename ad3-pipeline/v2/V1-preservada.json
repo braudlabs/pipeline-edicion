@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "status": "rendered-and-checked",
+  "duration": 46.875,
+  "fps": 48,
+  "width": 1080,
+  "height": 1920,
+  "video": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/AD3-Pipeline-V1.mp4",
+  "aep": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/edicion-final/After-Effects/AD3-Pipeline-V1.aep",
+  "review": "http://127.0.0.1:8779/Revisar.html",
+  "videoSha256": "41ff0592942f76537456db5a497b0f127d5a7e09e7c6f43d93eca1cdcc37d50b"
+}

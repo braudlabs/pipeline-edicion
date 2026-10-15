@@ -1,0 +1,10 @@
+# Pesados o regenerables
+ui/media/
+remotion/build/
+remotion/public/clips/
+remotion/public/snaps/
+remotion/public/audio/
+snaps/.profile/
+output/*.mp4
+assets/*.wav
+remotion/public/tiles/

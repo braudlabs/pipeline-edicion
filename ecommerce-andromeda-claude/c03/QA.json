@@ -1,0 +1,298 @@
+{
+ "checks": [
+  {
+   "name": "corte 00_hook",
+   "ok": true,
+   "detail": {
+    "from": 0,
+    "dur": 130,
+    "srcIn": 0,
+    "csv": [
+     0,
+     130,
+     0
+    ]
+   }
+  },
+  {
+   "name": "corte 01_ventanilla",
+   "ok": true,
+   "detail": {
+    "from": 130,
+    "dur": 220,
+    "srcIn": 0,
+    "csv": [
+     130,
+     350,
+     0
+    ]
+   }
+  },
+  {
+   "name": "corte 02_ticket",
+   "ok": true,
+   "detail": {
+    "from": 350,
+    "dur": 100,
+    "srcIn": 12,
+    "csv": [
+     350,
+     450,
+     12
+    ]
+   }
+  },
+  {
+   "name": "corte 03_apagados",
+   "ok": true,
+   "detail": {
+    "from": 450,
+    "dur": 102,
+    "srcIn": 0,
+    "csv": [
+     450,
+     552,
+     0
+    ]
+   }
+  },
+  {
+   "name": "corte 03b_repetir",
+   "ok": true,
+   "detail": {
+    "from": 552,
+    "dur": 58,
+    "srcIn": 0,
+    "csv": [
+     552,
+     610,
+     0
+    ]
+   }
+  },
+  {
+   "name": "corte 04_sudadera",
+   "ok": true,
+   "detail": {
+    "from": 610,
+    "dur": 172,
+    "srcIn": 0,
+    "csv": [
+     610,
+     782,
+     0
+    ]
+   }
+  },
+  {
+   "name": "corte 05_presentacion",
+   "ok": true,
+   "detail": {
+    "from": 782,
+    "dur": 58,
+    "srcIn": 0,
+    "csv": [
+     782,
+     840,
+     0
+    ]
+   }
+  },
+  {
+   "name": "corte 06_cinco_ads",
+   "ok": true,
+   "detail": {
+    "from": 840,
+    "dur": 80,
+    "srcIn": 0,
+    "csv": [
+     840,
+     920,
+     0
+    ]
+   }
+  },
+  {
+   "name": "920 fotogramas contiguos",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "sin stem externo del azul",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "música desactivada",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "narrador desde 0 sin retiming",
+   "ok": true,
+   "detail": 3.1888484954833984e-05
+  },
+  {
+   "name": "audio nativo 00_hook en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.319978713989258e-05,
+    "samples": 260000
+   }
+  },
+  {
+   "name": "audio nativo 01_ventanilla en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 4.035234451293945e-05,
+    "samples": 440000
+   }
+  },
+  {
+   "name": "audio nativo 02_ticket en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.1948089599609375e-05,
+    "samples": 200000
+   }
+  },
+  {
+   "name": "audio nativo 03_apagados en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.230571746826172e-05,
+    "samples": 204000
+   }
+  },
+  {
+   "name": "audio nativo 03b_repetir en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.6881694793701172e-05,
+    "samples": 116000
+   }
+  },
+  {
+   "name": "audio nativo 04_sudadera en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.372264862060547e-05,
+    "samples": 344000
+   }
+  },
+  {
+   "name": "audio nativo 05_presentacion en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.8623809814453125e-05,
+    "samples": 116000
+   }
+  },
+  {
+   "name": "audio nativo 06_cinco_ads en su IN",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.5703182220458984e-05,
+    "samples": 160000
+   }
+  },
+  {
+   "name": "hook con audio nativo",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "hook = variante A aprobada",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "cobertura 0–118 salvo gag",
+   "ok": true,
+   "detail": {
+    "faltan": []
+   }
+  },
+  {
+   "name": "B/N del gag = «y con la sudadera» → «Vengo»",
+   "ok": true,
+   "detail": [
+    "691",
+    "739"
+   ]
+  },
+  {
+   "name": "Andromeda-C03-00-38s-144fps-1080.mp4: 1080×1920 144 fps 5520 f H.264",
+   "ok": true,
+   "detail": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "144/1",
+    "nb_read_frames": "5520"
+   }
+  },
+  {
+   "name": "Andromeda-C03-00-38s-144fps-1080.mp4: audio AAC 48 kHz",
+   "ok": true,
+   "detail": {
+    "codec_name": "aac",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "r_frame_rate": "0/0",
+    "nb_read_frames": "1797"
+   }
+  },
+  {
+   "name": "Andromeda-C03-00-38s-144fps-1080.mp4: desfase audio vs stems = 0 muestras",
+   "ok": true,
+   "detail": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "name": "Andromeda-C03-00-38s-60fps-1080.mp4: 1080×1920 60 fps 2300 f H.264",
+   "ok": true,
+   "detail": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "60/1",
+    "nb_read_frames": "2300"
+   }
+  },
+  {
+   "name": "Andromeda-C03-00-38s-60fps-1080.mp4: audio AAC 48 kHz",
+   "ok": true,
+   "detail": {
+    "codec_name": "aac",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "r_frame_rate": "0/0",
+    "nb_read_frames": "1797"
+   }
+  },
+  {
+   "name": "Andromeda-C03-00-38s-60fps-1080.mp4: desfase audio vs stems = 0 muestras",
+   "ok": true,
+   "detail": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ]
+  }
+ ],
+ "ok": true
+}

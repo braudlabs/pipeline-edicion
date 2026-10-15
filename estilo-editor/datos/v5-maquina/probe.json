@@ -1,0 +1,18 @@
+{
+ "slug": "v5-maquina",
+ "original": "BRAUDLABS - V5 - LA MAQUINA - REV.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 29.97002997002997,
+ "fps_num": 30000,
+ "fps_den": 1001,
+ "frames": 2291,
+ "duration": 76.443039,
+ "video_codec": "h264",
+ "video_bitrate": 10614103,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 44100,
+ "audio_channels": 2,
+ "audio_bitrate": 189525
+}

@@ -1,0 +1,6 @@
+{
+  "status": "partial refresh stopped after clean temporary runtime succeeded",
+  "operation": "Same-byte atomic rewrites; no version changes",
+  "temporaryRuntime": "/private/tmp/birdie-v07-runtime",
+  "install": "npm ci --offline --ignore-scripts from existing lockfile"
+}

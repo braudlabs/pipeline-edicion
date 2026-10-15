@@ -1,0 +1,39 @@
+{
+  "source_video": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v6-ads90-rev.mp4",
+  "source_slug": "v6-ads90-rev",
+  "source_frame": 2350,
+  "source_resolution": [
+    1080,
+    1920
+  ],
+  "selection": "ffmpeg select=eq(n,frame), no seek",
+  "text": "Analizaremos",
+  "roi_xyxy_px": [
+    290,
+    910,
+    790,
+    1015
+  ],
+  "white_threshold": 230,
+  "ink_wh_px": [
+    470,
+    69
+  ],
+  "fit_script": "scripts/fontfit.py",
+  "best_candidate": {
+    "font": "Helvetica Bold",
+    "iou": 0.91,
+    "font_size_px": 94,
+    "tracking_per_thousand_em": -131
+  },
+  "sf_pro_display_bold": {
+    "iou": 0.8,
+    "font_size_px": 95,
+    "tracking_per_thousand_em": -112
+  },
+  "fit_table": "v6-ads90-rev-C-rail-fontfit.txt",
+  "fit_image": "v6-ads90-rev-C-rail-fontfit.jpg",
+  "source_crop": "v6-ads90-rev-C-rail-source.png",
+  "limit": "One word, candidate-model fit, not unique source font identification. Source crop preserves native px. V5 first ROI cut top and discarded. Implementation SF Pro Display Bold−60 remains decision.",
+  "source_crop_margin_px": 4
+}

@@ -1,0 +1,29 @@
+{
+  "name": "ad3-motion-graphics-remotion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "studio": "remotion studio src/index.tsx",
+    "replay": "python3 scripts/replay-ae.py",
+    "textures": "python3 scripts/make-textures.py",
+    "verify": "python3 scripts/verify-replay.py",
+    "still": "node scripts/still.mjs",
+    "render": "node scripts/render.mjs",
+    "render:graficos": "node scripts/render.mjs AD3-V8-Graficos",
+    "verify:video": "python3 scripts/compare-video.py",
+    "bench": "node scripts/bench.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.534",
+    "@remotion/cli": "4.0.534",
+    "@remotion/motion-blur": "4.0.534",
+    "@remotion/renderer": "4.0.534",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.534",
+    "typescript": "7.0.2"
+  }
+}

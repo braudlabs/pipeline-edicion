@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "status": "proposal_for_structure_review",
+  "sourceQuiz": {
+    "revision": 132,
+    "updatedAt": "2026-10-10T19:02:19.225Z",
+    "sha256": "e76d5c2e588a0bff7909de7c35381fd44cb768613f4bc279348712f3b9787160",
+    "answered": 64,
+    "total": 69
+  },
+  "title": "Birdieballs · dirección para la siguiente prueba",
+  "scope": {
+    "sourceStart": 0,
+    "sourceEnd": 19.602916666666665,
+    "frames": 1175,
+    "newCuts": false,
+    "speedChanges": false,
+    "baseMontage": "Remotion",
+    "motionGraphics": "Remotion"
+  },
+  "selectedReferences": [
+    "v8",
+    "v1-pagado",
+    "v3-ia-cara",
+    "v5-maquina",
+    "v6-ads90",
+    "v7-ads90-rev"
+  ],
+  "excludedAsDirection": [
+    "landing",
+    "v2-churros",
+    "v6-ads90-rev",
+    "lafabrica-v1",
+    "lafabrica-v2p1"
+  ],
+  "confirmed": [
+    "Humor con edición expresiva y pausas de lectura.",
+    "SF Pro con pesos y escalas por función; condensada reservada a algún remate.",
+    "Blanco/crema con un acento; tracking compacto y contacto óptico controlado.",
+    "Grupos cortos por sentido; entradas según hueco y gesto; asentamiento sutil.",
+    "Una oclusión protagonista: relleno detrás y contorno delante.",
+    "Conservar la música de la fuente; SFX expresivos en gags y acciones.",
+    "Conservar montaje; excluir flechas explicativas y fondos lisos sin intención."
+  ],
+  "interpretations": [
+    "V8: dos voces y apoyo + pagar + remate; V1: combinación de subtítulos y gráficos; V5: subtitulación. No son aprobaciones globales.",
+    "«Lo q quieras» y «a elección creativa» delegan decisiones locales; «no sé» / «idk» mantienen criterio abierto.",
+    "El máximo de tres prioridades del formulario no limita el encargo: Ale escribió «realmente, todo lo mencionado arriba».",
+    "Preferir el metraje real para explicar el producto tiene prioridad sobre incorporar un interludio por rutina.",
+    "Las referencias descartadas para este anuncio no se borran del corpus ni pierden su valor analítico."
+  ],
+  "intro": "0–1,22 s: conservar la apertura visual sin añadir texto antes de la voz.",
+  "scenes": [
+    {
+      "id": "hook",
+      "start": 1.22,
+      "end": 4.24,
+      "frame": 150,
+      "title": "El problema: RIÑÓN",
+      "proposal": "Construir el grupo alrededor de RIÑÓN en SF Pro: apoyo más pequeño, núcleo de mayor escala y un remate que complete la frase. Mantener el ancla entre Cansado y de dejarte un.",
+      "movement": "Entradas separadas por sentido; sobrepaso pequeño. El apoyo se recoloca con el núcleo, sin repetir una plantilla de dos líneas.",
+      "basis": [
+        "escena-hook",
+        "peso",
+        "tracking",
+        "compactacion",
+        "ref-v8"
+      ],
+      "reference": {
+        "rule": "C05",
+        "source": "v8",
+        "frame": 550
+      },
+      "check": "Comparar las fases de composición con pagar de V8; revisar cara, tinta y legibilidad en todo el intervalo."
+    },
+    {
+      "id": "gag",
+      "start": 4.44,
+      "end": 6.61,
+      "frame": 380,
+      "title": "Diálogo pequeño → ¡NO! grande",
+      "proposal": "Separar la insistencia pequeña del grito. Probar la condensada solo en ¡NO!, como cambio de voz cómica, no como segunda fuente para todas las líneas.",
+      "movement": "Repetición del diálogo ligada a la voz; el grito tiene una entrada breve y firme. El sonido acompaña el acontecimiento, sin duplicar innecesariamente el agua original.",
+      "basis": [
+        "escena-venga",
+        "secundaria",
+        "ref-v8",
+        "sfx-presencia"
+      ],
+      "reference": {
+        "rule": "C08",
+        "source": "v8",
+        "frame": 1040
+      },
+      "check": "El gag debe entenderse sin una flecha ni un objeto añadido; legibilidad sobre el agua clara."
+    },
+    {
+      "id": "solution",
+      "start": 7.62,
+      "end": 9.96,
+      "frame": 568,
+      "title": "Una única composición con profundidad",
+      "proposal": "Texto ligero para Tranquilo / mindunguis; SOLUCIÓN como momento protagonista detrás del sujeto, con relleno ocluido y contorno frontal. Construcción distinta al hook.",
+      "movement": "Elegir el eje por el hueco del plano y la entrada del segundo personaje. No seguir la cabeza con una traslación arbitraria.",
+      "basis": [
+        "escena-solucion",
+        "oclusiones",
+        "mascara-frecuencia",
+        "funcion-entrada"
+      ],
+      "reference": {
+        "rule": "M02",
+        "source": "v5-maquina",
+        "frame": 1600
+      },
+      "check": "Máscara real del sujeto durante el movimiento. Si falla pelo/manos o no queda lectura suficiente, rediseñar antes de entregar; no sustituirla por una elipse."
+    },
+    {
+      "id": "literal",
+      "start": 10.74,
+      "end": 11.3,
+      "frame": 658,
+      "title": "Literalmente: remate seco",
+      "proposal": "SF Pro con un cambio puntual de peso y composición breve. La entrega de la caja sigue siendo el gag principal.",
+      "movement": "Entrada corta, pausa legible y desvanecimiento breve. Evitar añadir otra transformación protagonista aquí.",
+      "basis": [
+        "escena-literal",
+        "tono",
+        "salidas"
+      ],
+      "reference": {
+        "rule": "A01",
+        "source": "v8",
+        "frame": 452
+      },
+      "check": "Elección del agente bajo «lo q quieras»; no tratarla como una preferencia específica aprobada."
+    },
+    {
+      "id": "brand",
+      "start": 11.48,
+      "end": 12.3,
+      "frame": 720,
+      "title": "Presentar Birdieballs",
+      "proposal": "Aprovechar la marca que ya aparece en el metraje. Si necesita apoyo, resolverlo en SF Pro sin competir con la marca visible.",
+      "movement": "Continuidad limpia hacia la frase de producto. No introducir un logotipo ajeno ni rediseñar el de la fuente.",
+      "basis": [
+        "escena-marca",
+        "variacion"
+      ],
+      "reference": {
+        "rule": "G06",
+        "source": "v8",
+        "frame": 1400
+      },
+      "check": "La identidad del producto se reconoce; ausencia de duplicación innecesaria."
+    },
+    {
+      "id": "product",
+      "start": 12.3,
+      "end": 14.92,
+      "frame": 800,
+      "title": "Que el producto lo cuente el metraje",
+      "proposal": "Conservar visible el plano original. Componer recuperamos / bolas originales / marcas favoritas con SF Pro, contraste de escala y una relación clara con el producto real. Sin escena de bolas flotantes a pantalla completa.",
+      "movement": "Cambiar el foco tipográfico por concepto. Se puede relevar un grupo por otro, evitando una nueva fila idéntica al hook.",
+      "basis": [
+        "motion-funcion",
+        "escena-producto",
+        "fragmentacion",
+        "repeticion"
+      ],
+      "reference": {
+        "rule": "C05",
+        "source": "v1-pagado",
+        "frame": 125
+      },
+      "check": "No inventar una comparación antes/después: el tramo todavía no narra la limpieza ni el descuento. Materiales nuevos siguen sin fijarse."
+    },
+    {
+      "id": "places",
+      "start": 15.08,
+      "end": 16.76,
+      "frame": 970,
+      "title": "Lagos → campos",
+      "proposal": "Dos grupos en SF Pro ligados a los paisajes. Cambiar contraste claro/oscuro según el plano y elegir posición con sentido; sin cursiva ni tratamiento ornamental de V04.",
+      "movement": "Relacionar ambos conceptos con un relevo tipográfico, conservando el corte original. Mantener nitidez de lectura después de la entrada.",
+      "basis": [
+        "escena-lagos",
+        "contraste",
+        "posicion",
+        "entradas"
+      ],
+      "reference": {
+        "rule": "C03",
+        "source": "v5-maquina",
+        "frame": 700
+      },
+      "check": "No heredar las coordenadas de V04. Comprobar cada grupo sobre agua, arena y cambio de plano."
+    },
+    {
+      "id": "reaction",
+      "start": 16.79,
+      "end": 17.43,
+      "frame": 1020,
+      "title": "La protesta como segunda voz",
+      "proposal": "Diálogo breve y de menor escala en SF Pro, colocado según el hueco real. Conservar la actuación y el texto original.",
+      "movement": "El ritmo lo da la protesta; evitar convertirla en un segundo titular o subir texto a una zona arbitraria.",
+      "basis": [
+        "escena-enfado",
+        "tono",
+        "ref-v8"
+      ],
+      "reference": {
+        "rule": "C08",
+        "source": "v8",
+        "frame": 1040
+      },
+      "check": "Decisión creativa del agente. No tapar cara, boca ni gesto por copiar literalmente otra referencia."
+    },
+    {
+      "id": "jump",
+      "start": 18.72,
+      "end": 19.603,
+      "frame": 1146,
+      "title": "Justo ahí: dejar funcionar la caída",
+      "proposal": "Una intervención compacta en SF Pro, sin flecha ni la cursiva anterior. La caída real conserva todo el protagonismo.",
+      "movement": "Sin perseguir al personaje con un gráfico. El acento, si hace falta, se liga al contacto con el agua y respeta el sonido existente.",
+      "basis": [
+        "escena-salto",
+        "motion-evitar",
+        "sfx-sincronia"
+      ],
+      "reference": {
+        "rule": "E03",
+        "source": "v5-maquina",
+        "frame": 900
+      },
+      "check": "Evaluar con y sin acento sonoro; quitarlo si solo explica lo que ya se ve."
+    }
+  ],
+  "open": [
+    {
+      "id": "blur-texto",
+      "text": "Comparación visual de blur bajo y medio antes de fijar intensidad.",
+      "kind": "requested_comparison"
+    },
+    {
+      "id": "texto-curvo",
+      "text": "No introducir texto curvo sin mostrar la propuesta concreta.",
+      "kind": "conditional_resource"
+    },
+    {
+      "id": "motion-material",
+      "text": "Materiales nuevos sin elegir; el mapa propone mantener el metraje real. Si se crea un bloque aparte, presentar alternativas antes.",
+      "kind": "conditional_resource"
+    },
+    {
+      "id": "motion-cantidad",
+      "text": "Este mapa es la estructura propuesta para revisar, no una estructura ya aprobada.",
+      "kind": "requested_map"
+    },
+    {
+      "id": "continuidad",
+      "text": "«No sé»: criterio no definido. Los enlaces por escena son propuestas del agente.",
+      "kind": "unresolved"
+    },
+    {
+      "id": "motion-formato",
+      "text": "«idk»: formato no definido. Se prioriza la selección explícita de conservar la explicación en el metraje.",
+      "kind": "unresolved"
+    },
+    {
+      "id": "motion-ritmo",
+      "text": "Sin responder; no convertirlo en permiso o preferencia.",
+      "kind": "unanswered"
+    },
+    {
+      "id": "primera-prueba",
+      "text": "Sin responder; no convertirlo en permiso o preferencia.",
+      "kind": "unanswered"
+    },
+    {
+      "id": "comparar",
+      "text": "Sin responder; no convertirlo en permiso o preferencia.",
+      "kind": "unanswered"
+    },
+    {
+      "id": "aprobacion",
+      "text": "Sin responder; no convertirlo en permiso o preferencia.",
+      "kind": "unanswered"
+    },
+    {
+      "id": "delegacion",
+      "text": "Sin responder; no convertirlo en permiso o preferencia.",
+      "kind": "unanswered"
+    }
+  ],
+  "nextChecks": [
+    "Comparar el hook con la construcción de pagar y el tratamiento de V1 por fases, no solo por un frame.",
+    "Preparar intensidad de blur baja/media sobre el mismo fragmento y cámara.",
+    "Validar el único momento de máscara en movimiento antes de extender el diseño.",
+    "La siguiente entrega audiovisual debe integrar imagen, texto y sonido; una geometría correcta no certifica calidad."
+  ],
+  "notYetDone": [
+    "No hay una V05 renderizada.",
+    "Este mapa no completa el estudio forense de las once referencias."
+  ],
+  "toolOverride": "Latest user instruction: everything in Remotion."
+}

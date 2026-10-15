@@ -1,0 +1,16 @@
+{
+  "reviewed_source": "landing",
+  "frame_range": [
+    2787,
+    2805
+  ],
+  "roi_px": [
+    96,
+    388,
+    643,
+    604
+  ],
+  "mode": "white",
+  "threshold": 90,
+  "limitations": "ROI roza extremo derecho r; ancho no certifica letra completa. Medición vertical limpia."
+}

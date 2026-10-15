@@ -1,0 +1,3660 @@
+[
+ {
+  "slug": "landing",
+  "original": "BRAUDLABS - LANDING.mp4",
+  "ancho": 1920,
+  "alto": 1080,
+  "fps": 60.0,
+  "fotogramas": 5680,
+  "duracion_s": 94.667,
+  "metraje_fps_estimado": 26.07,
+  "repetidos_pct": 35.0,
+  "audio": {
+   "integrated_lufs": -11.0,
+   "lra": 9.8,
+   "true_peak_dbfs": 1.2,
+   "primer_sonido_s": 0.03,
+   "ultimo_sonido_s": 93.6
+  },
+  "voz": {
+   "palabras": 240,
+   "palabras_por_s": 2.891,
+   "pausas_ge_300ms": 7,
+   "primera_palabra_s": 6.8,
+   "ultima_palabra_s": 89.82
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 240,
+   "palabras_localizadas_n": 214,
+   "muestra_desfase_cercano_n": 191,
+   "desfase_todos_f_p10_p50_p90": [
+    -6.0,
+    0.0,
+    10.7
+   ],
+   "desfases_excluidos_del_resumen_base_n": 23,
+   "palabras_localizadas_pct": 89.2,
+   "desfase_fotogramas_p10_p50_p90": [
+    -4.0,
+    0.0,
+    6.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 55.8,
+   "cuerpo_px_estimado_por_anchura": 62,
+   "cuerpo_pct_ancho": 3.24,
+   "en_pantalla_s_p10_p50_p90": [
+    0.117,
+    0.283,
+    0.62
+   ],
+   "palabra_dicha_s_p50": 0.24,
+   "centro_x_pct_p10_p50_p90": [
+    21.6,
+    49.9,
+    61.1
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    50.1,
+    50.8,
+    77.0
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    0.038,
+    0.36,
+    1.33
+   ],
+   "respecto_cara_n": 119
+  },
+  "enfasis": {
+   "n": 22,
+   "cada_s": 3.77,
+   "gigantes": 18,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    51.2,
+    52.2,
+    61.2
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.313,
+    0.65,
+    4.598
+   ],
+   "con_linea_pequena": 10,
+   "linea_encima": 7,
+   "linea_sale_a_la_vez": 8,
+   "linea_separacion_centros_px_p50": 116.0,
+   "linea_entra_antes_s_p50": 0.25,
+   "palabras": [
+    {
+     "palabra": "funcionan",
+     "t": 15.16,
+     "f_in": 913,
+     "f_out": 1026,
+     "en_pantalla_s": 1.9,
+     "alto_px": 254.0,
+     "veces_base": 4.55,
+     "ancho_pct": 70.2,
+     "cx_pct": 50.6,
+     "cy_pct": 29.5,
+     "cuerpo_px": 330,
+     "gigante": true,
+     "linea": {
+      "texto": "probablemente producir anundios que",
+      "alto_px": 64.2,
+      "posicion": "encima",
+      "separacion_centros_px": 177,
+      "entra_antes_s": 1.333,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "negocio",
+     "t": 17.48,
+     "f_in": 1053,
+     "f_out": 1079,
+     "en_pantalla_s": 0.45,
+     "alto_px": 88.4,
+     "veces_base": 1.58,
+     "ancho_pct": 17.4,
+     "cx_pct": 50.0,
+     "cy_pct": 51.3,
+     "cuerpo_px": 101,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "inteligencia",
+     "t": 20.14,
+     "f_in": 1205,
+     "f_out": 1257,
+     "en_pantalla_s": 0.883,
+     "alto_px": 175.8,
+     "veces_base": 3.15,
+     "ancho_pct": 39.7,
+     "cx_pct": 70.1,
+     "cy_pct": 45.9,
+     "cuerpo_px": 166,
+     "gigante": true,
+     "linea": {
+      "texto": "conlallegada de la",
+      "alto_px": 62.9,
+      "posicion": "encima",
+      "separacion_centros_px": 119,
+      "entra_antes_s": 0.017,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "artificial",
+     "t": 20.5,
+     "f_in": 1221,
+     "f_out": 1257,
+     "en_pantalla_s": 0.617,
+     "alto_px": 147.9,
+     "veces_base": 2.65,
+     "ancho_pct": 28.5,
+     "cx_pct": 76.6,
+     "cy_pct": 59.8,
+     "cuerpo_px": 174,
+     "gigante": true,
+     "linea": {
+      "texto": "conlallegada de la",
+      "alto_px": 62.9,
+      "posicion": "encima",
+      "separacion_centros_px": 270,
+      "entra_antes_s": 0.283,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "media",
+     "t": 21.4,
+     "f_in": 1289,
+     "f_out": 1374,
+     "en_pantalla_s": 1.433,
+     "alto_px": 170.5,
+     "veces_base": 3.06,
+     "ancho_pct": 46.1,
+     "cx_pct": 54.6,
+     "cy_pct": 34.4,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "costes",
+     "t": 27.88,
+     "f_in": 1667,
+     "f_out": 1707,
+     "en_pantalla_s": 0.683,
+     "alto_px": 175.8,
+     "veces_base": 3.15,
+     "ancho_pct": 37.2,
+     "cx_pct": 28.9,
+     "cy_pct": 52.9,
+     "cuerpo_px": 260,
+     "gigante": true,
+     "linea": {
+      "texto": "reducir",
+      "alto_px": 53.0,
+      "posicion": "encima",
+      "separacion_centros_px": 100,
+      "entra_antes_s": 0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "volumen",
+     "t": 29.2,
+     "f_in": 1745,
+     "f_out": 1770,
+     "en_pantalla_s": 0.433,
+     "alto_px": 187.0,
+     "veces_base": 3.35,
+     "ancho_pct": 50.2,
+     "cx_pct": 35.3,
+     "cy_pct": 53.0,
+     "cuerpo_px": 272,
+     "gigante": true,
+     "linea": {
+      "texto": "multiplicar el",
+      "alto_px": 69.8,
+      "posicion": "encima",
+      "separacion_centros_px": 82,
+      "entra_antes_s": 0.467,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "velocidad",
+     "t": 29.78,
+     "f_in": 1784,
+     "f_out": 1861,
+     "en_pantalla_s": 1.3,
+     "alto_px": 164.7,
+     "veces_base": 2.95,
+     "ancho_pct": 44.5,
+     "cx_pct": 32.1,
+     "cy_pct": 49.5,
+     "cuerpo_px": 217,
+     "gigante": true,
+     "linea": {
+      "texto": "de producción",
+      "alto_px": 72.6,
+      "posicion": "debajo",
+      "separacion_centros_px": 120,
+      "entra_antes_s": -0.35,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "adaptarse",
+     "t": 32.72,
+     "f_in": 1959,
+     "f_out": 2137,
+     "en_pantalla_s": 2.983,
+     "alto_px": 159.1,
+     "veces_base": 2.85,
+     "ancho_pct": 37.5,
+     "cx_pct": 71.4,
+     "cy_pct": 44.6,
+     "cuerpo_px": 174,
+     "gigante": true,
+     "linea": {
+      "texto": "alarespuesta del mercado",
+      "alto_px": 65.2,
+      "posicion": "debajo",
+      "separacion_centros_px": 113,
+      "entra_antes_s": -0.8,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "creador",
+     "t": 46.54,
+     "f_in": 2789,
+     "f_out": 2845,
+     "en_pantalla_s": 0.95,
+     "alto_px": 134.0,
+     "veces_base": 2.4,
+     "ancho_pct": 30.7,
+     "cx_pct": 20.4,
+     "cy_pct": 45.2,
+     "cuerpo_px": 186,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "UGC",
+     "t": 46.82,
+     "f_in": 2813,
+     "f_out": 2845,
+     "en_pantalla_s": 0.55,
+     "alto_px": 139.5,
+     "veces_base": 2.5,
+     "ancho_pct": 17.4,
+     "cx_pct": 14.2,
+     "cy_pct": 57.8,
+     "cuerpo_px": 165,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "editor",
+     "t": 47.66,
+     "f_in": 2862,
+     "f_out": 2888,
+     "en_pantalla_s": 0.45,
+     "alto_px": 128.4,
+     "veces_base": 2.3,
+     "ancho_pct": 21.2,
+     "cx_pct": 15.4,
+     "cy_pct": 52.5,
+     "cuerpo_px": 172,
+     "gigante": false,
+     "linea": {
+      "texto": "Al",
+      "alto_px": 75.3,
+      "posicion": "encima",
+      "separacion_centros_px": 107,
+      "entra_antes_s": 0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "rodaje",
+     "t": 49.1,
+     "f_in": 2945,
+     "f_out": 2979,
+     "en_pantalla_s": 0.583,
+     "alto_px": 159.0,
+     "veces_base": 2.85,
+     "ancho_pct": 24.9,
+     "cx_pct": 17.2,
+     "cy_pct": 52.5,
+     "cuerpo_px": 187,
+     "gigante": true,
+     "linea": {
+      "texto": "al equipo de",
+      "alto_px": 61.4,
+      "posicion": "encima",
+      "separacion_centros_px": 110,
+      "entra_antes_s": 0.433,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "produce",
+     "t": 52.72,
+     "f_in": 3166,
+     "f_out": 3198,
+     "en_pantalla_s": 0.55,
+     "alto_px": 226.1,
+     "veces_base": 4.05,
+     "ancho_pct": 39.7,
+     "cx_pct": 45.6,
+     "cy_pct": 54.4,
+     "cuerpo_px": 222,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "edita",
+     "t": 53.5,
+     "f_in": 3211,
+     "f_out": 3228,
+     "en_pantalla_s": 0.3,
+     "alto_px": 201.0,
+     "veces_base": 3.6,
+     "ancho_pct": 28.9,
+     "cx_pct": 50.1,
+     "cy_pct": 52.2,
+     "cuerpo_px": 271,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "el",
+     "t": 53.8,
+     "f_in": 3237,
+     "f_out": 3238,
+     "en_pantalla_s": 0.033,
+     "alto_px": 186.9,
+     "veces_base": 3.35,
+     "ancho_pct": 11.6,
+     "cx_pct": 50.9,
+     "cy_pct": 54.4,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "anuncio",
+     "t": 54.04,
+     "f_in": 3243,
+     "f_out": 3259,
+     "en_pantalla_s": 0.283,
+     "alto_px": 173.0,
+     "veces_base": 3.1,
+     "ancho_pct": 41.4,
+     "cx_pct": 48.3,
+     "cy_pct": 55.4,
+     "cuerpo_px": 243,
+     "gigante": true,
+     "linea": {
+      "texto": "5220005",
+      "alto_px": 80.0,
+      "posicion": "debajo",
+      "separacion_centros_px": 121,
+      "entra_antes_s": 0.0,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "completo",
+     "t": 54.32,
+     "f_in": 3265,
+     "f_out": 3292,
+     "en_pantalla_s": 0.467,
+     "alto_px": 228.9,
+     "veces_base": 4.1,
+     "ancho_pct": 52.2,
+     "cx_pct": 49.7,
+     "cy_pct": 53.8,
+     "cuerpo_px": 259,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "planos",
+     "t": 78.88,
+     "f_in": 4738,
+     "f_out": 5076,
+     "en_pantalla_s": 5.65,
+     "alto_px": 156.3,
+     "veces_base": 2.8,
+     "ancho_pct": 24.1,
+     "cx_pct": 17.2,
+     "cy_pct": 31.8,
+     "cuerpo_px": 169,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "escenas",
+     "t": 79.44,
+     "f_in": 4762,
+     "f_out": 5076,
+     "en_pantalla_s": 5.25,
+     "alto_px": 106.0,
+     "veces_base": 1.9,
+     "ancho_pct": 30.5,
+     "cx_pct": 20.3,
+     "cy_pct": 44.3,
+     "cuerpo_px": 170,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "hooks",
+     "t": 80.0,
+     "f_in": 4798,
+     "f_out": 5076,
+     "en_pantalla_s": 4.65,
+     "alto_px": 136.8,
+     "veces_base": 2.45,
+     "ancho_pct": 22.5,
+     "cx_pct": 16.1,
+     "cy_pct": 57.8,
+     "cuerpo_px": 171,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "visuales",
+     "t": 80.48,
+     "f_in": 4829,
+     "f_out": 5076,
+     "en_pantalla_s": 4.133,
+     "alto_px": 131.2,
+     "veces_base": 2.35,
+     "ancho_pct": 29.9,
+     "cx_pct": 20.3,
+     "cy_pct": 70.4,
+     "cuerpo_px": 174,
+     "gigante": false,
+     "linea": null
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 2,
+   "tolerancia_s_real": 0.03333,
+   "fuente": "detector",
+   "n": 46,
+   "plano_medio_s": 1.932,
+   "plano_s_p10_p50_p90_max": [
+    0.507,
+    1.517,
+    4.373,
+    6.6
+   ],
+   "primer_corte_s": 3.583,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -11.5,
+    -2.5,
+    13.5
+   ],
+   "pct_a_1f_de_un_inicio": 19.6,
+   "pct_tras_puntuacion": 43.5
+  },
+  "arranque": {
+   "primer_rotulo_f": 0,
+   "primer_rotulo_s": 0.0,
+   "primer_rotulo": "*Inaudible*",
+   "primer_enfasis_s": 15.16,
+   "primer_enfasis": "funcionan"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 4.847,
+   "negro_final_fotogramas": 85,
+   "negro_final_s": 1.417
+  }
+ },
+ {
+  "slug": "v1-pagado",
+  "original": "BRAUDLABS - V1 -  NI ME HAN PAGADO.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 24.0,
+  "fotogramas": 1898,
+  "duracion_s": 79.083,
+  "metraje_fps_estimado": 22.81,
+  "repetidos_pct": 2.1,
+  "audio": {
+   "integrated_lufs": -11.5,
+   "lra": 1.9,
+   "true_peak_dbfs": 0.4,
+   "primer_sonido_s": 0.02,
+   "ultimo_sonido_s": 78.52
+  },
+  "voz": {
+   "palabras": 248,
+   "palabras_por_s": 3.229,
+   "pausas_ge_300ms": 7,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 76.8
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 248,
+   "palabras_localizadas_n": 223,
+   "muestra_desfase_cercano_n": 210,
+   "desfase_todos_f_p10_p50_p90": [
+    -2.0,
+    0.0,
+    3.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 13,
+   "palabras_localizadas_pct": 89.9,
+   "desfase_fotogramas_p10_p50_p90": [
+    -2.0,
+    0.0,
+    2.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 83.7,
+   "cuerpo_px_estimado_por_anchura": 105,
+   "cuerpo_pct_ancho": 9.7,
+   "en_pantalla_s_p10_p50_p90": [
+    0.125,
+    0.292,
+    0.758
+   ],
+   "palabra_dicha_s_p50": 0.24,
+   "centro_x_pct_p10_p50_p90": [
+    48.1,
+    49.7,
+    50.4
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    49.8,
+    60.0,
+    65.8
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    0.456,
+    0.65,
+    0.87
+   ],
+   "respecto_cara_n": 137
+  },
+  "enfasis": {
+   "n": 15,
+   "cada_s": 5.12,
+   "gigantes": 8,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    70.5,
+    73.3,
+    74.9
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.542,
+    0.75,
+    1.508
+   ],
+   "con_linea_pequena": 12,
+   "linea_encima": 10,
+   "linea_sale_a_la_vez": 10,
+   "linea_separacion_centros_px_p50": 155.5,
+   "linea_entra_antes_s_p50": 0.25,
+   "palabras": [
+    {
+     "palabra": "pagado",
+     "t": 5.16,
+     "f_in": 125,
+     "f_out": 137,
+     "en_pantalla_s": 0.542,
+     "alto_px": 280.0,
+     "veces_base": 3.35,
+     "ancho_pct": 77.0,
+     "cx_pct": 48.9,
+     "cy_pct": 68.9,
+     "cuerpo_px": 264,
+     "gigante": true,
+     "linea": {
+      "texto": "nimehan",
+      "alto_px": 96.0,
+      "posicion": "encima",
+      "separacion_centros_px": 171,
+      "entra_antes_s": 0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "Porque",
+     "t": 6.08,
+     "f_in": 156,
+     "f_out": 175,
+     "en_pantalla_s": 0.833,
+     "alto_px": 164.7,
+     "veces_base": 1.97,
+     "ancho_pct": 68.1,
+     "cx_pct": 65.2,
+     "cy_pct": 34.4,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "300",
+     "t": 7.92,
+     "f_in": 187,
+     "f_out": 225,
+     "en_pantalla_s": 1.625,
+     "alto_px": 240.0,
+     "veces_base": 2.87,
+     "ancho_pct": 72.4,
+     "cx_pct": 51.7,
+     "cy_pct": 50.1,
+     "cuerpo_px": 432,
+     "gigante": true,
+     "linea": {
+      "texto": "no necesito",
+      "alto_px": 81.3,
+      "posicion": "encima",
+      "separacion_centros_px": 161,
+      "entra_antes_s": 0.208,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "semanas",
+     "t": 11.68,
+     "f_in": 280,
+     "f_out": 292,
+     "en_pantalla_s": 0.542,
+     "alto_px": 332.0,
+     "veces_base": 3.97,
+     "ancho_pct": 74.9,
+     "cx_pct": 50.1,
+     "cy_pct": 67.1,
+     "cuerpo_px": 215,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "funcionan",
+     "t": 13.9,
+     "f_in": 334,
+     "f_out": 350,
+     "en_pantalla_s": 0.708,
+     "alto_px": 159.1,
+     "veces_base": 1.9,
+     "ancho_pct": 75.2,
+     "cx_pct": 49.4,
+     "cy_pct": 68.8,
+     "cuerpo_px": 199,
+     "gigante": false,
+     "linea": {
+      "texto": "que luegoni",
+      "alto_px": 92.1,
+      "posicion": "encima",
+      "separacion_centros_px": 160,
+      "entra_antes_s": 0.417,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "mínimo",
+     "t": 17.5,
+     "f_in": 418,
+     "f_out": 449,
+     "en_pantalla_s": 1.333,
+     "alto_px": 200.0,
+     "veces_base": 2.39,
+     "ancho_pct": 70.5,
+     "cx_pct": 53.5,
+     "cy_pct": 51.3,
+     "cuerpo_px": 249,
+     "gigante": false,
+     "linea": {
+      "texto": "de producción",
+      "alto_px": 59.1,
+      "posicion": "debajo",
+      "separacion_centros_px": 87,
+      "entra_antes_s": -0.417,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "mejor",
+     "t": 19.78,
+     "f_in": 477,
+     "f_out": 481,
+     "en_pantalla_s": 0.208,
+     "alto_px": 276.2,
+     "veces_base": 3.3,
+     "ancho_pct": 76.2,
+     "cx_pct": 52.1,
+     "cy_pct": 64.2,
+     "cuerpo_px": 350,
+     "gigante": true,
+     "linea": {
+      "texto": "conelque",
+      "alto_px": 83.8,
+      "posicion": "encima",
+      "separacion_centros_px": 191,
+      "entra_antes_s": 0.333,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "con",
+     "t": 24.4,
+     "f_in": 588,
+     "f_out": 600,
+     "en_pantalla_s": 0.542,
+     "alto_px": 212.2,
+     "veces_base": 2.54,
+     "ancho_pct": 64.1,
+     "cx_pct": 49.6,
+     "cy_pct": 67.4,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": {
+      "texto": "hechos",
+      "alto_px": 78.2,
+      "posicion": "encima",
+      "separacion_centros_px": 142,
+      "entra_antes_s": 0.208,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "cara",
+     "t": 27.02,
+     "f_in": 647,
+     "f_out": 664,
+     "en_pantalla_s": 0.75,
+     "alto_px": 251.1,
+     "veces_base": 3.0,
+     "ancho_pct": 68.0,
+     "cx_pct": 48.1,
+     "cy_pct": 69.6,
+     "cuerpo_px": 405,
+     "gigante": true,
+     "linea": {
+      "texto": "porla",
+      "alto_px": 92.1,
+      "posicion": "encima",
+      "separacion_centros_px": 176,
+      "entra_antes_s": 0.208,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "mensaje",
+     "t": 28.02,
+     "f_in": 673,
+     "f_out": 690,
+     "en_pantalla_s": 0.75,
+     "alto_px": 206.5,
+     "veces_base": 2.47,
+     "ancho_pct": 74.7,
+     "cx_pct": 50.0,
+     "cy_pct": 68.8,
+     "cuerpo_px": 231,
+     "gigante": true,
+     "linea": {
+      "texto": "porel",
+      "alto_px": 95.1,
+      "posicion": "encima",
+      "separacion_centros_px": 164,
+      "entra_antes_s": 0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "conecta",
+     "t": 30.68,
+     "f_in": 737,
+     "f_out": 752,
+     "en_pantalla_s": 0.667,
+     "alto_px": 161.9,
+     "veces_base": 1.93,
+     "ancho_pct": 73.4,
+     "cx_pct": 49.4,
+     "cy_pct": 68.2,
+     "cuerpo_px": 238,
+     "gigante": false,
+     "linea": {
+      "texto": "conelque",
+      "alto_px": 88.0,
+      "posicion": "encima",
+      "separacion_centros_px": 151,
+      "entra_antes_s": 0.375,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "curso",
+     "t": 52.98,
+     "f_in": 1272,
+     "f_out": 1313,
+     "en_pantalla_s": 1.75,
+     "alto_px": 220.5,
+     "veces_base": 2.63,
+     "ancho_pct": 73.3,
+     "cx_pct": 49.4,
+     "cy_pct": 19.0,
+     "cuerpo_px": 340,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "aprendas",
+     "t": 53.78,
+     "f_in": 1290,
+     "f_out": 1313,
+     "en_pantalla_s": 1.0,
+     "alto_px": 181.4,
+     "veces_base": 2.17,
+     "ancho_pct": 72.4,
+     "cx_pct": 49.9,
+     "cy_pct": 70.9,
+     "cuerpo_px": 203,
+     "gigante": false,
+     "linea": {
+      "texto": "a hacerlo",
+      "alto_px": 78.2,
+      "posicion": "debajo",
+      "separacion_centros_px": 70,
+      "entra_antes_s": -0.5,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "consistente",
+     "t": 58.28,
+     "f_in": 1399,
+     "f_out": 1418,
+     "en_pantalla_s": 0.833,
+     "alto_px": 142.3,
+     "veces_base": 1.7,
+     "ancho_pct": 74.9,
+     "cx_pct": 48.6,
+     "cy_pct": 66.8,
+     "cuerpo_px": 170,
+     "gigante": false,
+     "linea": {
+      "texto": "mantenerme",
+      "alto_px": 78.1,
+      "posicion": "encima",
+      "separacion_centros_px": 127,
+      "entra_antes_s": 0.708,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "vendan",
+     "t": 70.24,
+     "f_in": 1684,
+     "f_out": 1701,
+     "en_pantalla_s": 0.75,
+     "alto_px": 184.2,
+     "veces_base": 2.2,
+     "ancho_pct": 70.5,
+     "cx_pct": 49.6,
+     "cy_pct": 61.2,
+     "cuerpo_px": 249,
+     "gigante": false,
+     "linea": {
+      "texto": "deverdad",
+      "alto_px": 78.2,
+      "posicion": "encima",
+      "separacion_centros_px": 149,
+      "entra_antes_s": 0.333,
+      "sale_con_ella": true
+     }
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 1,
+   "tolerancia_s_real": 0.04167,
+   "fuente": "detector",
+   "n": 25,
+   "plano_medio_s": 2.992,
+   "plano_s_p10_p50_p90_max": [
+    0.938,
+    2.396,
+    5.938,
+    11.583
+   ],
+   "primer_corte_s": 6.292,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -5.0,
+    0.0,
+    4.6
+   ],
+   "pct_a_1f_de_un_inicio": 40.0,
+   "pct_tras_puntuacion": 64.0
+  },
+  "arranque": {
+   "primer_rotulo_f": 0,
+   "primer_rotulo_s": 0.0,
+   "primer_rotulo": "Esta",
+   "primer_enfasis_s": 5.16,
+   "primer_enfasis": "pagado"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 2.283,
+   "negro_final_fotogramas": 38,
+   "negro_final_s": 1.583
+  }
+ },
+ {
+  "slug": "v2-churros",
+  "original": "BRAUDLABS - V2 - CHURROS COCINA.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 24.0,
+  "fotogramas": 1699,
+  "duracion_s": 70.792,
+  "metraje_fps_estimado": 21.87,
+  "repetidos_pct": 6.7,
+  "audio": {
+   "integrated_lufs": -11.9,
+   "lra": 1.5,
+   "true_peak_dbfs": 0.2,
+   "primer_sonido_s": 0.02,
+   "ultimo_sonido_s": 70.08
+  },
+  "voz": {
+   "palabras": 225,
+   "palabras_por_s": 3.272,
+   "pausas_ge_300ms": 2,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 68.76
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 225,
+   "palabras_localizadas_n": 208,
+   "muestra_desfase_cercano_n": 184,
+   "desfase_todos_f_p10_p50_p90": [
+    -4.3,
+    -1.0,
+    2.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 24,
+   "palabras_localizadas_pct": 92.4,
+   "desfase_fotogramas_p10_p50_p90": [
+    -2.0,
+    -1.0,
+    1.0
+   ],
+   "desfase_ms_p50": -42,
+   "caja_alto_px_p50": 103.3,
+   "cuerpo_px_estimado_por_anchura": 124,
+   "cuerpo_pct_ancho": 11.47,
+   "en_pantalla_s_p10_p50_p90": [
+    0.083,
+    0.333,
+    0.55
+   ],
+   "palabra_dicha_s_p50": 0.26,
+   "centro_x_pct_p10_p50_p90": [
+    48.1,
+    49.9,
+    51.2
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    33.58,
+    49.4,
+    55.58
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -2.904,
+    1.25,
+    2.084
+   ],
+   "respecto_cara_n": 97
+  },
+  "enfasis": {
+   "n": 11,
+   "cada_s": 6.25,
+   "gigantes": 1,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    71.925,
+    73.8,
+    78.4
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.5,
+    0.708,
+    1.25
+   ],
+   "con_linea_pequena": 2,
+   "linea_encima": 0,
+   "linea_sale_a_la_vez": 2,
+   "linea_separacion_centros_px_p50": 157.5,
+   "linea_entra_antes_s_p50": -0.125,
+   "palabras": [
+    {
+     "palabra": "crear",
+     "t": 0.66,
+     "f_in": 19,
+     "f_out": 43,
+     "en_pantalla_s": 1.042,
+     "alto_px": 226.0,
+     "veces_base": 2.19,
+     "ancho_pct": 79.3,
+     "cx_pct": 50.8,
+     "cy_pct": 50.9,
+     "cuerpo_px": 405,
+     "gigante": false,
+     "linea": {
+      "texto": "contenido con IA",
+      "alto_px": 96.0,
+      "posicion": "debajo",
+      "separacion_centros_px": 175,
+      "entra_antes_s": -0.167,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "alguno",
+     "t": 3.18,
+     "f_in": 76,
+     "f_out": 109,
+     "en_pantalla_s": 1.417,
+     "alto_px": 189.8,
+     "veces_base": 1.84,
+     "ancho_pct": 53.8,
+     "cx_pct": 36.7,
+     "cy_pct": 40.3,
+     "cuerpo_px": 207,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "problemas",
+     "t": 3.78,
+     "f_in": 89,
+     "f_out": 109,
+     "en_pantalla_s": 0.875,
+     "alto_px": 181.4,
+     "veces_base": 1.76,
+     "ancho_pct": 81.1,
+     "cx_pct": 50.1,
+     "cy_pct": 67.1,
+     "cuerpo_px": 201,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "la",
+     "t": 7.84,
+     "f_in": 185,
+     "f_out": 208,
+     "en_pantalla_s": 1.0,
+     "alto_px": 184.0,
+     "veces_base": 1.78,
+     "ancho_pct": 75.7,
+     "cx_pct": 48.5,
+     "cy_pct": 47.7,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": {
+      "texto": "persona",
+      "alto_px": 86.5,
+      "posicion": "debajo",
+      "separacion_centros_px": 140,
+      "entra_antes_s": -0.083,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "usable",
+     "t": 20.84,
+     "f_in": 498,
+     "f_out": 499,
+     "en_pantalla_s": 0.083,
+     "alto_px": 237.2,
+     "veces_base": 2.3,
+     "ancho_pct": 71.6,
+     "cx_pct": 46.9,
+     "cy_pct": 53.4,
+     "cuerpo_px": 283,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "absurda",
+     "t": 22.46,
+     "f_in": 539,
+     "f_out": 568,
+     "en_pantalla_s": 1.25,
+     "alto_px": 173.0,
+     "veces_base": 1.67,
+     "ancho_pct": 72.9,
+     "cx_pct": 45.6,
+     "cy_pct": 40.2,
+     "cuerpo_px": 234,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "de",
+     "t": 23.14,
+     "f_in": 554,
+     "f_out": 568,
+     "en_pantalla_s": 0.625,
+     "alto_px": 181.4,
+     "veces_base": 1.76,
+     "ancho_pct": 25.3,
+     "cx_pct": 21.7,
+     "cy_pct": 49.8,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "créditos",
+     "t": 23.26,
+     "f_in": 556,
+     "f_out": 568,
+     "en_pantalla_s": 0.542,
+     "alto_px": 187.0,
+     "veces_base": 1.81,
+     "ancho_pct": 71.6,
+     "cx_pct": 44.6,
+     "cy_pct": 58.5,
+     "cuerpo_px": 234,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "dinero",
+     "t": 32.3,
+     "f_in": 775,
+     "f_out": 786,
+     "en_pantalla_s": 0.5,
+     "alto_px": 251.2,
+     "veces_base": 2.43,
+     "ancho_pct": 93.8,
+     "cx_pct": 46.9,
+     "cy_pct": 50.4,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "profesional",
+     "t": 47.36,
+     "f_in": 1136,
+     "f_out": 1149,
+     "en_pantalla_s": 0.583,
+     "alto_px": 170.3,
+     "veces_base": 1.65,
+     "ancho_pct": 73.4,
+     "cx_pct": 50.4,
+     "cy_pct": 52.3,
+     "cuerpo_px": 176,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "realistas",
+     "t": 56.58,
+     "f_in": 1352,
+     "f_out": 1368,
+     "en_pantalla_s": 0.708,
+     "alto_px": 170.2,
+     "veces_base": 1.65,
+     "ancho_pct": 74.2,
+     "cx_pct": 50.4,
+     "cy_pct": 49.6,
+     "cuerpo_px": 237,
+     "gigante": false,
+     "linea": null
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 1,
+   "tolerancia_s_real": 0.04167,
+   "fuente": "detector",
+   "n": 29,
+   "plano_medio_s": 2.325,
+   "plano_s_p10_p50_p90_max": [
+    0.496,
+    2.312,
+    4.721,
+    5.333
+   ],
+   "primer_corte_s": 3.042,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -2.4,
+    0.0,
+    2.2
+   ],
+   "pct_a_1f_de_un_inicio": 55.2,
+   "pct_tras_puntuacion": 41.4
+  },
+  "arranque": {
+   "primer_rotulo_f": 0,
+   "primer_rotulo_s": 0.0,
+   "primer_rotulo": "Si",
+   "primer_enfasis_s": 0.66,
+   "primer_enfasis": "crear"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 2.032,
+   "negro_final_fotogramas": 43,
+   "negro_final_s": 1.792
+  }
+ },
+ {
+  "slug": "v3-ia-cara",
+  "original": "BRAUDLABS - V3 - LA IA TE SALE CARA.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 24.0,
+  "fotogramas": 1542,
+  "duracion_s": 64.25,
+  "metraje_fps_estimado": 22.02,
+  "repetidos_pct": 1.8,
+  "audio": {
+   "integrated_lufs": -12.0,
+   "lra": 2.2,
+   "true_peak_dbfs": 0.9,
+   "primer_sonido_s": 0.02,
+   "ultimo_sonido_s": 63.63
+  },
+  "voz": {
+   "palabras": 206,
+   "palabras_por_s": 3.287,
+   "pausas_ge_300ms": 3,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 62.68
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 206,
+   "palabras_localizadas_n": 186,
+   "muestra_desfase_cercano_n": 168,
+   "desfase_todos_f_p10_p50_p90": [
+    -3.0,
+    0.0,
+    4.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 18,
+   "palabras_localizadas_pct": 90.3,
+   "desfase_fotogramas_p10_p50_p90": [
+    -2.0,
+    0.0,
+    2.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 87.3,
+   "cuerpo_px_estimado_por_anchura": 99,
+   "cuerpo_pct_ancho": 9.12,
+   "en_pantalla_s_p10_p50_p90": [
+    0.125,
+    0.292,
+    0.75
+   ],
+   "palabra_dicha_s_p50": 0.26,
+   "centro_x_pct_p10_p50_p90": [
+    48.6,
+    49.9,
+    51.0
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    30.4,
+    56.5,
+    73.0
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -1.184,
+    0.74,
+    1.004
+   ],
+   "respecto_cara_n": 127
+  },
+  "enfasis": {
+   "n": 13,
+   "cada_s": 4.82,
+   "gigantes": 5,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    69.9,
+    73.6,
+    80.7
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.325,
+    0.583,
+    1.0
+   ],
+   "con_linea_pequena": 9,
+   "linea_encima": 5,
+   "linea_sale_a_la_vez": 8,
+   "linea_separacion_centros_px_p50": 175.0,
+   "linea_entra_antes_s_p50": 0.0,
+   "palabras": [
+    {
+     "palabra": "producir",
+     "t": 1.52,
+     "f_in": 41,
+     "f_out": 64,
+     "en_pantalla_s": 1.0,
+     "alto_px": 296.0,
+     "veces_base": 3.39,
+     "ancho_pct": 83.0,
+     "cx_pct": 50.0,
+     "cy_pct": 31.7,
+     "cuerpo_px": 263,
+     "gigante": true,
+     "linea": {
+      "texto": "más",
+      "alto_px": 83.7,
+      "posicion": "debajo",
+      "separacion_centros_px": 171,
+      "entra_antes_s": -0.333,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "Abres",
+     "t": 8.8,
+     "f_in": 214,
+     "f_out": 230,
+     "en_pantalla_s": 0.708,
+     "alto_px": 245.6,
+     "veces_base": 2.81,
+     "ancho_pct": 69.8,
+     "cx_pct": 50.3,
+     "cy_pct": 22.7,
+     "cuerpo_px": 306,
+     "gigante": true,
+     "linea": {
+      "texto": "una app",
+      "alto_px": 95.3,
+      "posicion": "debajo",
+      "separacion_centros_px": 186,
+      "entra_antes_s": -0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "generas",
+     "t": 9.8,
+     "f_in": 232,
+     "f_out": 245,
+     "en_pantalla_s": 0.583,
+     "alto_px": 192.6,
+     "veces_base": 2.21,
+     "ancho_pct": 71.6,
+     "cx_pct": 49.9,
+     "cy_pct": 27.3,
+     "cuerpo_px": 232,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "no",
+     "t": 10.4,
+     "f_in": 250,
+     "f_out": 271,
+     "en_pantalla_s": 0.917,
+     "alto_px": 240.0,
+     "veces_base": 2.75,
+     "ancho_pct": 80.0,
+     "cx_pct": 48.5,
+     "cy_pct": 24.0,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": {
+      "texto": "bien",
+      "alto_px": 142.3,
+      "posicion": "debajo",
+      "separacion_centros_px": 175,
+      "entra_antes_s": -0.333,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "bien",
+     "t": 10.72,
+     "f_in": 258,
+     "f_out": 271,
+     "en_pantalla_s": 0.583,
+     "alto_px": 142.3,
+     "veces_base": 1.63,
+     "ancho_pct": 30.0,
+     "cx_pct": 70.9,
+     "cy_pct": 33.1,
+     "cuerpo_px": 181,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "generar",
+     "t": 11.68,
+     "f_in": 281,
+     "f_out": 291,
+     "en_pantalla_s": 0.458,
+     "alto_px": 198.2,
+     "veces_base": 2.27,
+     "ancho_pct": 33.3,
+     "cx_pct": 30.1,
+     "cy_pct": 27.7,
+     "cuerpo_px": 113,
+     "gigante": false,
+     "linea": {
+      "texto": "vuelves a",
+      "alto_px": 104.0,
+      "posicion": "encima",
+      "separacion_centros_px": 160,
+      "entra_antes_s": 0.333,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "prompt",
+     "t": 12.76,
+     "f_in": 309,
+     "f_out": 312,
+     "en_pantalla_s": 0.167,
+     "alto_px": 217.7,
+     "veces_base": 2.49,
+     "ancho_pct": 73.6,
+     "cx_pct": 50.8,
+     "cy_pct": 26.8,
+     "cuerpo_px": 263,
+     "gigante": true,
+     "linea": {
+      "texto": "cambias el",
+      "alto_px": 89.3,
+      "posicion": "encima",
+      "separacion_centros_px": 179,
+      "entra_antes_s": 0.0,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "otra",
+     "t": 13.6,
+     "f_in": 326,
+     "f_out": 337,
+     "en_pantalla_s": 0.5,
+     "alto_px": 321.0,
+     "veces_base": 3.68,
+     "ancho_pct": 70.0,
+     "cx_pct": 49.7,
+     "cy_pct": 29.7,
+     "cuerpo_px": 459,
+     "gigante": true,
+     "linea": {
+      "texto": "pruebas",
+      "alto_px": 89.3,
+      "posicion": "encima",
+      "separacion_centros_px": 180,
+      "entra_antes_s": 0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "horas",
+     "t": 16.76,
+     "f_in": 404,
+     "f_out": 417,
+     "en_pantalla_s": 0.583,
+     "alto_px": 198.2,
+     "veces_base": 2.27,
+     "ancho_pct": 81.4,
+     "cx_pct": 49.5,
+     "cy_pct": 23.5,
+     "cuerpo_px": 377,
+     "gigante": false,
+     "linea": {
+      "texto": "hasgastado",
+      "alto_px": 100.5,
+      "posicion": "encima",
+      "separacion_centros_px": 212,
+      "entra_antes_s": 0.625,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "créditos",
+     "t": 17.9,
+     "f_in": 419,
+     "f_out": 444,
+     "en_pantalla_s": 1.083,
+     "alto_px": 175.9,
+     "veces_base": 2.01,
+     "ancho_pct": 81.1,
+     "cx_pct": 49.9,
+     "cy_pct": 21.5,
+     "cuerpo_px": 266,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "proceso",
+     "t": 32.06,
+     "f_in": 766,
+     "f_out": 789,
+     "en_pantalla_s": 1.0,
+     "alto_px": 209.3,
+     "veces_base": 2.4,
+     "ancho_pct": 65.1,
+     "cx_pct": 45.0,
+     "cy_pct": 56.7,
+     "cuerpo_px": 210,
+     "gigante": false,
+     "linea": {
+      "texto": "soguir",
+      "alto_px": 92.0,
+      "posicion": "debajo",
+      "separacion_centros_px": 156,
+      "entra_antes_s": -0.083,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "generaciones",
+     "t": 49.72,
+     "f_in": 1192,
+     "f_out": 1208,
+     "en_pantalla_s": 0.708,
+     "alto_px": 153.9,
+     "veces_base": 1.76,
+     "ancho_pct": 80.3,
+     "cx_pct": 49.8,
+     "cy_pct": 68.6,
+     "cuerpo_px": 157,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "clientes",
+     "t": 59.04,
+     "f_in": 1423,
+     "f_out": 1429,
+     "en_pantalla_s": 0.292,
+     "alto_px": 159.0,
+     "veces_base": 1.82,
+     "ancho_pct": 62.8,
+     "cx_pct": 42.0,
+     "cy_pct": 36.0,
+     "cuerpo_px": 215,
+     "gigante": false,
+     "linea": {
+      "texto": "ocon",
+      "alto_px": 64.2,
+      "posicion": "encima",
+      "separacion_centros_px": 119,
+      "entra_antes_s": 0.292,
+      "sale_con_ella": true
+     }
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 1,
+   "tolerancia_s_real": 0.04167,
+   "fuente": "detector",
+   "n": 19,
+   "plano_medio_s": 3.183,
+   "plano_s_p10_p50_p90_max": [
+    0.887,
+    2.979,
+    5.825,
+    8.375
+   ],
+   "primer_corte_s": 4.458,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -1.2,
+    0.0,
+    3.0
+   ],
+   "pct_a_1f_de_un_inicio": 52.6,
+   "pct_tras_puntuacion": 73.7
+  },
+  "arranque": {
+   "primer_rotulo_f": 1,
+   "primer_rotulo_s": 0.0417,
+   "primer_rotulo": "La",
+   "primer_enfasis_s": 1.52,
+   "primer_enfasis": "producir"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 1.57,
+   "negro_final_fotogramas": 29,
+   "negro_final_s": 1.208
+  }
+ },
+ {
+  "slug": "v5-maquina",
+  "original": "BRAUDLABS - V5 - LA MAQUINA - REV.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 29.97,
+  "fotogramas": 2291,
+  "duracion_s": 76.443,
+  "metraje_fps_estimado": 23.47,
+  "repetidos_pct": 16.2,
+  "audio": {
+   "integrated_lufs": -11.4,
+   "lra": 2.6,
+   "true_peak_dbfs": 0.1,
+   "primer_sonido_s": 0.09,
+   "ultimo_sonido_s": 76.37
+  },
+  "voz": {
+   "palabras": 193,
+   "palabras_por_s": 2.586,
+   "pausas_ge_300ms": 5,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 74.64
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 193,
+   "palabras_localizadas_n": 154,
+   "muestra_desfase_cercano_n": 143,
+   "desfase_todos_f_p10_p50_p90": [
+    -2.0,
+    0.0,
+    4.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 11,
+   "palabras_localizadas_pct": 79.8,
+   "desfase_fotogramas_p10_p50_p90": [
+    -2.0,
+    0.0,
+    3.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 92.1,
+   "cuerpo_px_estimado_por_anchura": 106,
+   "cuerpo_pct_ancho": 9.84,
+   "en_pantalla_s_p10_p50_p90": [
+    0.133,
+    0.334,
+    0.667
+   ],
+   "palabra_dicha_s_p50": 0.26,
+   "centro_x_pct_p10_p50_p90": [
+    42.1,
+    49.7,
+    50.5
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    24.6,
+    50.2,
+    50.8
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -1.763,
+    1.03,
+    2.588
+   ],
+   "respecto_cara_n": 94
+  },
+  "enfasis": {
+   "n": 21,
+   "cada_s": 3.55,
+   "gigantes": 3,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    69.2,
+    70.5,
+    73.1
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.1,
+    0.4,
+    1.802
+   ],
+   "con_linea_pequena": 0,
+   "linea_encima": 0,
+   "linea_sale_a_la_vez": 0,
+   "linea_separacion_centros_px_p50": null,
+   "linea_entra_antes_s_p50": null,
+   "palabras": [
+    {
+     "palabra": "produce",
+     "t": 37.76,
+     "f_in": 1136,
+     "f_out": 1199,
+     "en_pantalla_s": 2.135,
+     "alto_px": 209.3,
+     "veces_base": 2.27,
+     "ancho_pct": 70.5,
+     "cx_pct": 57.8,
+     "cy_pct": 30.5,
+     "cuerpo_px": 222,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "creativos",
+     "t": 38.12,
+     "f_in": 1146,
+     "f_out": 1199,
+     "en_pantalla_s": 1.802,
+     "alto_px": 164.6,
+     "veces_base": 1.79,
+     "ancho_pct": 74.4,
+     "cx_pct": 46.2,
+     "cy_pct": 66.3,
+     "cuerpo_px": 217,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "a",
+     "t": 38.7,
+     "f_in": 1149,
+     "f_out": 1151,
+     "en_pantalla_s": 0.1,
+     "alto_px": 209.3,
+     "veces_base": 2.27,
+     "ancho_pct": 69.5,
+     "cx_pct": 57.2,
+     "cy_pct": 30.6,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "ya",
+     "t": 40.92,
+     "f_in": 1228,
+     "f_out": 1235,
+     "en_pantalla_s": 0.267,
+     "alto_px": 216.0,
+     "veces_base": 2.35,
+     "ancho_pct": 26.9,
+     "cx_pct": 50.5,
+     "cy_pct": 52.7,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "estás",
+     "t": 41.38,
+     "f_in": 1240,
+     "f_out": 1246,
+     "en_pantalla_s": 0.234,
+     "alto_px": 214.9,
+     "veces_base": 2.33,
+     "ancho_pct": 55.8,
+     "cx_pct": 49.9,
+     "cy_pct": 50.4,
+     "cuerpo_px": 269,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "viendo",
+     "t": 41.56,
+     "f_in": 1247,
+     "f_out": 1263,
+     "en_pantalla_s": 0.567,
+     "alto_px": 203.7,
+     "veces_base": 2.21,
+     "ancho_pct": 69.9,
+     "cx_pct": 50.1,
+     "cy_pct": 50.3,
+     "cuerpo_px": 273,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "visual",
+     "t": 49.56,
+     "f_in": 1486,
+     "f_out": 1503,
+     "en_pantalla_s": 0.601,
+     "alto_px": 280.0,
+     "veces_base": 3.04,
+     "ancho_pct": 74.1,
+     "cx_pct": 54.8,
+     "cy_pct": 50.2,
+     "cuerpo_px": 341,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "cuesta",
+     "t": 51.2,
+     "f_in": 1546,
+     "f_out": 1548,
+     "en_pantalla_s": 0.1,
+     "alto_px": 181.4,
+     "veces_base": 1.97,
+     "ancho_pct": 67.7,
+     "cx_pct": 49.9,
+     "cy_pct": 36.3,
+     "cuerpo_px": 262,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "mucho",
+     "t": 51.68,
+     "f_in": 1549,
+     "f_out": 1556,
+     "en_pantalla_s": 0.267,
+     "alto_px": 198.2,
+     "veces_base": 2.15,
+     "ancho_pct": 69.5,
+     "cx_pct": 50.8,
+     "cy_pct": 36.0,
+     "cuerpo_px": 259,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "dinero",
+     "t": 51.98,
+     "f_in": 1558,
+     "f_out": 1568,
+     "en_pantalla_s": 0.367,
+     "alto_px": 195.4,
+     "veces_base": 2.12,
+     "ancho_pct": 64.6,
+     "cx_pct": 49.6,
+     "cy_pct": 35.9,
+     "cuerpo_px": 270,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "tiempo",
+     "t": 52.54,
+     "f_in": 1573,
+     "f_out": 1574,
+     "en_pantalla_s": 0.067,
+     "alto_px": 237.2,
+     "veces_base": 2.58,
+     "ancho_pct": 71.3,
+     "cx_pct": 48.6,
+     "cy_pct": 37.0,
+     "cuerpo_px": 267,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "y",
+     "t": 52.82,
+     "f_in": 1575,
+     "f_out": 1583,
+     "en_pantalla_s": 0.3,
+     "alto_px": 240.0,
+     "veces_base": 2.61,
+     "ancho_pct": 71.4,
+     "cx_pct": 48.8,
+     "cy_pct": 37.1,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "dolores",
+     "t": 52.98,
+     "f_in": 1587,
+     "f_out": 1598,
+     "en_pantalla_s": 0.4,
+     "alto_px": 189.8,
+     "veces_base": 2.06,
+     "ancho_pct": 73.1,
+     "cx_pct": 49.7,
+     "cy_pct": 36.2,
+     "cuerpo_px": 260,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "cabeza",
+     "t": 53.48,
+     "f_in": 1602,
+     "f_out": 1617,
+     "en_pantalla_s": 0.534,
+     "alto_px": 184.2,
+     "veces_base": 2.0,
+     "ancho_pct": 69.2,
+     "cx_pct": 51.2,
+     "cy_pct": 36.4,
+     "cuerpo_px": 250,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "Cuando",
+     "t": 53.8,
+     "f_in": 1620,
+     "f_out": 1629,
+     "en_pantalla_s": 0.334,
+     "alto_px": 175.9,
+     "veces_base": 1.91,
+     "ancho_pct": 70.5,
+     "cx_pct": 49.7,
+     "cy_pct": 36.1,
+     "cuerpo_px": 232,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "intentas",
+     "t": 54.4,
+     "f_in": 1630,
+     "f_out": 1644,
+     "en_pantalla_s": 0.501,
+     "alto_px": 178.6,
+     "veces_base": 1.94,
+     "ancho_pct": 73.9,
+     "cx_pct": 49.6,
+     "cy_pct": 36.1,
+     "cuerpo_px": 243,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "escalar",
+     "t": 54.96,
+     "f_in": 1645,
+     "f_out": 1666,
+     "en_pantalla_s": 0.734,
+     "alto_px": 175.8,
+     "veces_base": 1.91,
+     "ancho_pct": 67.2,
+     "cx_pct": 50.5,
+     "cy_pct": 36.0,
+     "cuerpo_px": 245,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "apagar",
+     "t": 55.76,
+     "f_in": 1676,
+     "f_out": 1880,
+     "en_pantalla_s": 6.84,
+     "alto_px": 178.6,
+     "veces_base": 1.94,
+     "ancho_pct": 81.9,
+     "cx_pct": 50.3,
+     "cy_pct": 20.4,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "pincha",
+     "t": 68.92,
+     "f_in": 2063,
+     "f_out": 2074,
+     "en_pantalla_s": 0.4,
+     "alto_px": 144.0,
+     "veces_base": 1.56,
+     "ancho_pct": 41.5,
+     "cx_pct": 47.0,
+     "cy_pct": 51.2,
+     "cuerpo_px": 161,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "máquina",
+     "t": 72.42,
+     "f_in": 2170,
+     "f_out": 2180,
+     "en_pantalla_s": 0.367,
+     "alto_px": 159.1,
+     "veces_base": 1.73,
+     "ancho_pct": 43.1,
+     "cx_pct": 50.3,
+     "cy_pct": 49.6,
+     "cuerpo_px": 130,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "dentro",
+     "t": 73.6,
+     "f_in": 2205,
+     "f_out": 2218,
+     "en_pantalla_s": 0.467,
+     "alto_px": 144.0,
+     "veces_base": 1.56,
+     "ancho_pct": 34.1,
+     "cx_pct": 49.6,
+     "cy_pct": 51.2,
+     "cuerpo_px": 136,
+     "gigante": false,
+     "linea": null
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 1,
+   "tolerancia_s_real": 0.03337,
+   "fuente": "detector",
+   "n": 17,
+   "plano_medio_s": 4.199,
+   "plano_s_p10_p50_p90_max": [
+    0.801,
+    3.987,
+    7.247,
+    15.549
+   ],
+   "primer_corte_s": 4.671,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -5.6,
+    1.0,
+    25.4
+   ],
+   "pct_a_1f_de_un_inicio": 29.4,
+   "pct_tras_puntuacion": 58.8
+  },
+  "arranque": {
+   "primer_rotulo_f": 13,
+   "primer_rotulo_s": 0.4338,
+   "primer_rotulo": "es",
+   "primer_enfasis_s": 37.76,
+   "primer_enfasis": "produce"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 1.803,
+   "negro_final_fotogramas": 29,
+   "negro_final_s": 0.968
+  }
+ },
+ {
+  "slug": "v6-ads90-rev",
+  "original": "BRAUDLABS - V6 - ADS 90s - REV.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 60.0,
+  "fotogramas": 2650,
+  "duracion_s": 44.167,
+  "metraje_fps_estimado": 28.77,
+  "repetidos_pct": 33.1,
+  "audio": {
+   "integrated_lufs": -11.8,
+   "lra": 2.5,
+   "true_peak_dbfs": 0.7,
+   "primer_sonido_s": 0.01,
+   "ultimo_sonido_s": 43.91
+  },
+  "voz": {
+   "palabras": 117,
+   "palabras_por_s": 2.834,
+   "pausas_ge_300ms": 9,
+   "primera_palabra_s": 1.64,
+   "ultima_palabra_s": 42.92
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 117,
+   "palabras_localizadas_n": 98,
+   "muestra_desfase_cercano_n": 89,
+   "desfase_todos_f_p10_p50_p90": [
+    -5.0,
+    0.0,
+    9.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 9,
+   "palabras_localizadas_pct": 83.8,
+   "desfase_fotogramas_p10_p50_p90": [
+    -4.2,
+    0.0,
+    8.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 86.5,
+   "cuerpo_px_estimado_por_anchura": 96,
+   "cuerpo_pct_ancho": 8.86,
+   "en_pantalla_s_p10_p50_p90": [
+    0.117,
+    0.358,
+    0.708
+   ],
+   "palabra_dicha_s_p50": 0.23,
+   "centro_x_pct_p10_p50_p90": [
+    48.65,
+    49.7,
+    50.1
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    41.2,
+    50.3,
+    54.55
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -0.015,
+    1.1,
+    1.874
+   ],
+   "respecto_cara_n": 54
+  },
+  "enfasis": {
+   "n": 20,
+   "cada_s": 2.06,
+   "gigantes": 10,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    66.9,
+    71.1,
+    74.9
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.08,
+    0.533,
+    0.95
+   ],
+   "con_linea_pequena": 3,
+   "linea_encima": 3,
+   "linea_sale_a_la_vez": 2,
+   "linea_separacion_centros_px_p50": 149.0,
+   "linea_entra_antes_s_p50": 0.433,
+   "palabras": [
+    {
+     "palabra": "e",
+     "t": 2.64,
+     "f_in": 166,
+     "f_out": 199,
+     "en_pantalla_s": 0.567,
+     "alto_px": 145.1,
+     "veces_base": 1.68,
+     "ancho_pct": 75.6,
+     "cx_pct": 48.2,
+     "cy_pct": 50.6,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "Black",
+     "t": 4.5,
+     "f_in": 268,
+     "f_out": 312,
+     "en_pantalla_s": 0.75,
+     "alto_px": 203.7,
+     "veces_base": 2.35,
+     "ancho_pct": 66.9,
+     "cx_pct": 49.2,
+     "cy_pct": 36.4,
+     "cuerpo_px": 318,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "Friday",
+     "t": 4.66,
+     "f_in": 283,
+     "f_out": 312,
+     "en_pantalla_s": 0.5,
+     "alto_px": 206.5,
+     "veces_base": 2.39,
+     "ancho_pct": 72.9,
+     "cx_pct": 50.4,
+     "cy_pct": 47.1,
+     "cuerpo_px": 310,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "Así",
+     "t": 11.28,
+     "f_in": 677,
+     "f_out": 746,
+     "en_pantalla_s": 1.167,
+     "alto_px": 296.6,
+     "veces_base": 3.43,
+     "ancho_pct": 52.7,
+     "cx_pct": 37.2,
+     "cy_pct": 35.0,
+     "cuerpo_px": 431,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "de",
+     "t": 11.66,
+     "f_in": 701,
+     "f_out": 746,
+     "en_pantalla_s": 0.767,
+     "alto_px": 238.4,
+     "veces_base": 2.76,
+     "ancho_pct": 35.0,
+     "cx_pct": 27.8,
+     "cy_pct": 50.7,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "fácil",
+     "t": 11.8,
+     "f_in": 706,
+     "f_out": 746,
+     "en_pantalla_s": 0.683,
+     "alto_px": 313.0,
+     "veces_base": 3.62,
+     "ancho_pct": 65.2,
+     "cx_pct": 40.0,
+     "cy_pct": 66.9,
+     "cuerpo_px": 423,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "generar",
+     "t": 18.78,
+     "f_in": 1130,
+     "f_out": 1150,
+     "en_pantalla_s": 0.35,
+     "alto_px": 209.3,
+     "veces_base": 2.42,
+     "ancho_pct": 74.2,
+     "cx_pct": 48.1,
+     "cy_pct": 52.6,
+     "cuerpo_px": 252,
+     "gigante": true,
+     "linea": {
+      "texto": "Ledasa",
+      "alto_px": 86.5,
+      "posicion": "encima",
+      "separacion_centros_px": 140,
+      "entra_antes_s": 0.433,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "voilá",
+     "t": 19.72,
+     "f_in": 1197,
+     "f_out": 1262,
+     "en_pantalla_s": 1.1,
+     "alto_px": 276.3,
+     "veces_base": 3.19,
+     "ancho_pct": 54.3,
+     "cx_pct": 51.9,
+     "cy_pct": 50.2,
+     "cuerpo_px": 313,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "atención",
+     "t": 21.92,
+     "f_in": 1308,
+     "f_out": 1353,
+     "en_pantalla_s": 0.767,
+     "alto_px": 164.7,
+     "veces_base": 1.9,
+     "ancho_pct": 74.9,
+     "cx_pct": 50.1,
+     "cy_pct": 68.8,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "servicio",
+     "t": 23.36,
+     "f_in": 1398,
+     "f_out": 1444,
+     "en_pantalla_s": 0.783,
+     "alto_px": 228.8,
+     "veces_base": 2.65,
+     "ancho_pct": 69.8,
+     "cx_pct": 48.1,
+     "cy_pct": 49.6,
+     "cuerpo_px": 240,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "tuyo",
+     "t": 24.42,
+     "f_in": 1473,
+     "f_out": 1493,
+     "en_pantalla_s": 0.35,
+     "alto_px": 368.0,
+     "veces_base": 4.25,
+     "ancho_pct": 67.4,
+     "cx_pct": 46.8,
+     "cy_pct": 53.3,
+     "cuerpo_px": 393,
+     "gigante": true,
+     "linea": {
+      "texto": "Es",
+      "alto_px": 78.2,
+      "posicion": "encima",
+      "separacion_centros_px": 187,
+      "entra_antes_s": 0.45,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "Lo",
+     "t": 25.14,
+     "f_in": 1511,
+     "f_out": 1513,
+     "en_pantalla_s": 0.05,
+     "alto_px": 175.8,
+     "veces_base": 2.03,
+     "ancho_pct": 25.1,
+     "cx_pct": 51.2,
+     "cy_pct": 29.9,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "instalamos",
+     "t": 25.32,
+     "f_in": 1514,
+     "f_out": 1542,
+     "en_pantalla_s": 0.483,
+     "alto_px": 195.3,
+     "veces_base": 2.26,
+     "ancho_pct": 75.5,
+     "cx_pct": 49.6,
+     "cy_pct": 30.2,
+     "cuerpo_px": 184,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "en",
+     "t": 25.76,
+     "f_in": 1547,
+     "f_out": 1548,
+     "en_pantalla_s": 0.033,
+     "alto_px": 145.1,
+     "veces_base": 1.68,
+     "ancho_pct": 20.4,
+     "cx_pct": 49.7,
+     "cy_pct": 30.5,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "tu",
+     "t": 25.9,
+     "f_in": 1550,
+     "f_out": 1556,
+     "en_pantalla_s": 0.117,
+     "alto_px": 159.1,
+     "veces_base": 1.84,
+     "ancho_pct": 24.0,
+     "cx_pct": 51.6,
+     "cy_pct": 30.2,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "usas",
+     "t": 26.58,
+     "f_in": 1593,
+     "f_out": 1611,
+     "en_pantalla_s": 0.317,
+     "alto_px": 150.7,
+     "veces_base": 1.74,
+     "ancho_pct": 30.8,
+     "cx_pct": 49.1,
+     "cy_pct": 29.9,
+     "cuerpo_px": 168,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "cuando",
+     "t": 26.9,
+     "f_in": 1612,
+     "f_out": 1631,
+     "en_pantalla_s": 0.333,
+     "alto_px": 212.1,
+     "veces_base": 2.45,
+     "ancho_pct": 47.3,
+     "cx_pct": 50.3,
+     "cy_pct": 30.3,
+     "cuerpo_px": 164,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "quieras",
+     "t": 27.16,
+     "f_in": 1632,
+     "f_out": 1687,
+     "en_pantalla_s": 0.933,
+     "alto_px": 203.7,
+     "veces_base": 2.35,
+     "ancho_pct": 45.7,
+     "cx_pct": 49.5,
+     "cy_pct": 30.7,
+     "cuerpo_px": 164,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "veces",
+     "t": 28.08,
+     "f_in": 1693,
+     "f_out": 1748,
+     "en_pantalla_s": 0.933,
+     "alto_px": 216.0,
+     "veces_base": 2.5,
+     "ancho_pct": 71.1,
+     "cx_pct": 48.9,
+     "cy_pct": 52.5,
+     "cuerpo_px": 314,
+     "gigante": true,
+     "linea": {
+      "texto": "las",
+      "alto_px": 78.1,
+      "posicion": "encima",
+      "separacion_centros_px": 149,
+      "entra_antes_s": 0.067,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "10",
+     "t": 30.9,
+     "f_in": 1877,
+     "f_out": 1881,
+     "en_pantalla_s": 0.083,
+     "alto_px": 605.6,
+     "veces_base": 7.0,
+     "ancho_pct": 75.2,
+     "cx_pct": 46.3,
+     "cy_pct": 50.0,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 2,
+   "tolerancia_s_real": 0.03333,
+   "fuente": "detector",
+   "n": 31,
+   "plano_medio_s": 1.372,
+   "plano_s_p10_p50_p90_max": [
+    0.29,
+    1.008,
+    2.947,
+    4.167
+   ],
+   "primer_corte_s": 1.067,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -10.0,
+    -1.0,
+    6.0
+   ],
+   "pct_a_1f_de_un_inicio": 29.0,
+   "pct_tras_puntuacion": 54.8
+  },
+  "arranque": {
+   "primer_rotulo_f": 117,
+   "primer_rotulo_s": 1.95,
+   "primer_rotulo": "deres dueñodeun",
+   "primer_enfasis_s": 2.64,
+   "primer_enfasis": "e"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 1.247,
+   "negro_final_fotogramas": 65,
+   "negro_final_s": 1.083
+  }
+ },
+ {
+  "slug": "v7-ads90-rev",
+  "original": "BRAUDLABS - V7 - ADS 90s - REV.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 60.0,
+  "fotogramas": 2681,
+  "duracion_s": 44.683,
+  "metraje_fps_estimado": 28.71,
+  "repetidos_pct": 37.2,
+  "audio": {
+   "integrated_lufs": -11.6,
+   "lra": 2.8,
+   "true_peak_dbfs": 0.4,
+   "primer_sonido_s": 0.02,
+   "ultimo_sonido_s": 44.41
+  },
+  "voz": {
+   "palabras": 127,
+   "palabras_por_s": 2.965,
+   "pausas_ge_300ms": 9,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 42.84
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 127,
+   "palabras_localizadas_n": 109,
+   "muestra_desfase_cercano_n": 100,
+   "desfase_todos_f_p10_p50_p90": [
+    -6.2,
+    0.0,
+    8.2
+   ],
+   "desfases_excluidos_del_resumen_base_n": 9,
+   "palabras_localizadas_pct": 85.8,
+   "desfase_fotogramas_p10_p50_p90": [
+    -5.0,
+    0.0,
+    6.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 94.9,
+   "cuerpo_px_estimado_por_anchura": 98,
+   "cuerpo_pct_ancho": 9.03,
+   "en_pantalla_s_p10_p50_p90": [
+    0.117,
+    0.383,
+    0.742
+   ],
+   "palabra_dicha_s_p50": 0.24,
+   "centro_x_pct_p10_p50_p90": [
+    48.15,
+    49.7,
+    50.2
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    47.85,
+    50.4,
+    51.35
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -0.006,
+    1.11,
+    1.978
+   ],
+   "respecto_cara_n": 54
+  },
+  "enfasis": {
+   "n": 33,
+   "cada_s": 1.3,
+   "gigantes": 10,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    53.725,
+    65.55,
+    72.6
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.103,
+    0.333,
+    0.903
+   ],
+   "con_linea_pequena": 3,
+   "linea_encima": 2,
+   "linea_sale_a_la_vez": 1,
+   "linea_separacion_centros_px_p50": 148.0,
+   "linea_entra_antes_s_p50": 0.417,
+   "palabras": [
+    {
+     "palabra": "creador",
+     "t": 0.68,
+     "f_in": 41,
+     "f_out": 63,
+     "en_pantalla_s": 0.383,
+     "alto_px": 198.2,
+     "veces_base": 2.09,
+     "ancho_pct": 65.9,
+     "cx_pct": 50.0,
+     "cy_pct": 50.2,
+     "cuerpo_px": 225,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "UGC",
+     "t": 1.0,
+     "f_in": 64,
+     "f_out": 76,
+     "en_pantalla_s": 0.217,
+     "alto_px": 208.0,
+     "veces_base": 2.19,
+     "ancho_pct": 43.7,
+     "cx_pct": 49.2,
+     "cy_pct": 50.1,
+     "cuerpo_px": 233,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "te",
+     "t": 1.58,
+     "f_in": 98,
+     "f_out": 103,
+     "en_pantalla_s": 0.1,
+     "alto_px": 173.0,
+     "veces_base": 1.82,
+     "ancho_pct": 21.2,
+     "cx_pct": 50.0,
+     "cy_pct": 50.6,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "deja",
+     "t": 1.76,
+     "f_in": 105,
+     "f_out": 121,
+     "en_pantalla_s": 0.283,
+     "alto_px": 265.1,
+     "veces_base": 2.79,
+     "ancho_pct": 36.7,
+     "cx_pct": 50.1,
+     "cy_pct": 50.7,
+     "cuerpo_px": 225,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "tirado",
+     "t": 2.0,
+     "f_in": 122,
+     "f_out": 142,
+     "en_pantalla_s": 0.35,
+     "alto_px": 189.7,
+     "veces_base": 2.0,
+     "ancho_pct": 50.9,
+     "cx_pct": 49.5,
+     "cy_pct": 50.7,
+     "cuerpo_px": 233,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "a",
+     "t": 2.36,
+     "f_in": 148,
+     "f_out": 169,
+     "en_pantalla_s": 0.367,
+     "alto_px": 189.8,
+     "veces_base": 2.0,
+     "ancho_pct": 53.5,
+     "cx_pct": 49.7,
+     "cy_pct": 50.4,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "hora",
+     "t": 2.72,
+     "f_in": 170,
+     "f_out": 199,
+     "en_pantalla_s": 0.5,
+     "alto_px": 203.7,
+     "veces_base": 2.15,
+     "ancho_pct": 50.1,
+     "cx_pct": 49.7,
+     "cy_pct": 50.7,
+     "cuerpo_px": 289,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "te",
+     "t": 3.46,
+     "f_in": 213,
+     "f_out": 219,
+     "en_pantalla_s": 0.117,
+     "alto_px": 186.9,
+     "veces_base": 1.97,
+     "ancho_pct": 32.8,
+     "cx_pct": 49.5,
+     "cy_pct": 50.8,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "entrega",
+     "t": 3.68,
+     "f_in": 220,
+     "f_out": 238,
+     "en_pantalla_s": 0.317,
+     "alto_px": 220.5,
+     "veces_base": 2.32,
+     "ancho_pct": 69.0,
+     "cx_pct": 49.6,
+     "cy_pct": 52.1,
+     "cuerpo_px": 235,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "algo",
+     "t": 4.0,
+     "f_in": 239,
+     "f_out": 250,
+     "en_pantalla_s": 0.2,
+     "alto_px": 244.1,
+     "veces_base": 2.57,
+     "ancho_pct": 37.1,
+     "cx_pct": 49.6,
+     "cy_pct": 51.7,
+     "cuerpo_px": 225,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "no",
+     "t": 4.34,
+     "f_in": 262,
+     "f_out": 271,
+     "en_pantalla_s": 0.167,
+     "alto_px": 173.0,
+     "veces_base": 1.82,
+     "ancho_pct": 24.8,
+     "cx_pct": 50.4,
+     "cy_pct": 51.5,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "se",
+     "t": 4.54,
+     "f_in": 273,
+     "f_out": 281,
+     "en_pantalla_s": 0.15,
+     "alto_px": 161.8,
+     "veces_base": 1.7,
+     "ancho_pct": 20.9,
+     "cx_pct": 50.0,
+     "cy_pct": 51.5,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "parece",
+     "t": 4.72,
+     "f_in": 282,
+     "f_out": 305,
+     "en_pantalla_s": 0.4,
+     "alto_px": 192.5,
+     "veces_base": 2.03,
+     "ancho_pct": 59.2,
+     "cx_pct": 49.4,
+     "cy_pct": 52.4,
+     "cuerpo_px": 225,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "en",
+     "t": 5.06,
+     "f_in": 306,
+     "f_out": 310,
+     "en_pantalla_s": 0.083,
+     "alto_px": 153.4,
+     "veces_base": 1.62,
+     "ancho_pct": 22.5,
+     "cx_pct": 50.3,
+     "cy_pct": 51.5,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "nada",
+     "t": 5.3,
+     "f_in": 311,
+     "f_out": 327,
+     "en_pantalla_s": 0.283,
+     "alto_px": 200.0,
+     "veces_base": 2.11,
+     "ancho_pct": 52.6,
+     "cx_pct": 45.6,
+     "cy_pct": 50.8,
+     "cuerpo_px": 272,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "que",
+     "t": 5.64,
+     "f_in": 338,
+     "f_out": 343,
+     "en_pantalla_s": 0.1,
+     "alto_px": 216.0,
+     "veces_base": 2.28,
+     "ancho_pct": 40.0,
+     "cx_pct": 48.1,
+     "cy_pct": 52.7,
+     "cuerpo_px": 269,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "pediste",
+     "t": 5.74,
+     "f_in": 345,
+     "f_out": 373,
+     "en_pantalla_s": 0.483,
+     "alto_px": 231.6,
+     "veces_base": 2.44,
+     "ancho_pct": 74.2,
+     "cx_pct": 50.5,
+     "cy_pct": 51.5,
+     "cuerpo_px": 263,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "Así",
+     "t": 11.18,
+     "f_in": 672,
+     "f_out": 741,
+     "en_pantalla_s": 1.167,
+     "alto_px": 299.6,
+     "veces_base": 3.16,
+     "ancho_pct": 53.0,
+     "cx_pct": 37.2,
+     "cy_pct": 34.9,
+     "cuerpo_px": 433,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "de",
+     "t": 11.58,
+     "f_in": 696,
+     "f_out": 741,
+     "en_pantalla_s": 0.767,
+     "alto_px": 238.3,
+     "veces_base": 2.51,
+     "ancho_pct": 35.2,
+     "cx_pct": 27.8,
+     "cy_pct": 50.7,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "fácil",
+     "t": 11.72,
+     "f_in": 701,
+     "f_out": 741,
+     "en_pantalla_s": 0.683,
+     "alto_px": 306.3,
+     "veces_base": 3.23,
+     "ancho_pct": 65.2,
+     "cx_pct": 40.0,
+     "cy_pct": 67.1,
+     "cuerpo_px": 423,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "generar",
+     "t": 18.7,
+     "f_in": 1123,
+     "f_out": 1143,
+     "en_pantalla_s": 0.35,
+     "alto_px": 209.3,
+     "veces_base": 2.21,
+     "ancho_pct": 73.1,
+     "cx_pct": 47.7,
+     "cy_pct": 52.6,
+     "cuerpo_px": 248,
+     "gigante": false,
+     "linea": {
+      "texto": "Ledasa",
+      "alto_px": 86.6,
+      "posicion": "encima",
+      "separacion_centros_px": 140,
+      "entra_antes_s": 0.417,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "voilá",
+     "t": 19.64,
+     "f_in": 1192,
+     "f_out": 1257,
+     "en_pantalla_s": 1.1,
+     "alto_px": 277.0,
+     "veces_base": 2.92,
+     "ancho_pct": 54.4,
+     "cx_pct": 51.9,
+     "cy_pct": 50.2,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "atención",
+     "t": 21.84,
+     "f_in": 1303,
+     "f_out": 1348,
+     "en_pantalla_s": 0.767,
+     "alto_px": 164.6,
+     "veces_base": 1.73,
+     "ancho_pct": 74.9,
+     "cx_pct": 50.1,
+     "cy_pct": 68.8,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "servicio",
+     "t": 23.28,
+     "f_in": 1393,
+     "f_out": 1439,
+     "en_pantalla_s": 0.783,
+     "alto_px": 228.9,
+     "veces_base": 2.41,
+     "ancho_pct": 69.8,
+     "cx_pct": 48.1,
+     "cy_pct": 49.6,
+     "cuerpo_px": 240,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "tuyo",
+     "t": 24.34,
+     "f_in": 1468,
+     "f_out": 1482,
+     "en_pantalla_s": 0.25,
+     "alto_px": 337.6,
+     "veces_base": 3.56,
+     "ancho_pct": 63.3,
+     "cx_pct": 46.2,
+     "cy_pct": 53.2,
+     "cuerpo_px": 369,
+     "gigante": true,
+     "linea": {
+      "texto": "Es",
+      "alto_px": 78.2,
+      "posicion": "encima",
+      "separacion_centros_px": 185,
+      "entra_antes_s": 0.45,
+      "sale_con_ella": false
+     }
+    },
+    {
+     "palabra": "Lo",
+     "t": 25.06,
+     "f_in": 1506,
+     "f_out": 1508,
+     "en_pantalla_s": 0.05,
+     "alto_px": 175.8,
+     "veces_base": 1.85,
+     "ancho_pct": 25.1,
+     "cx_pct": 51.2,
+     "cy_pct": 29.9,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "instalamos",
+     "t": 25.24,
+     "f_in": 1509,
+     "f_out": 1537,
+     "en_pantalla_s": 0.483,
+     "alto_px": 195.6,
+     "veces_base": 2.06,
+     "ancho_pct": 75.9,
+     "cx_pct": 50.4,
+     "cy_pct": 30.4,
+     "cuerpo_px": 185,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "tu",
+     "t": 25.82,
+     "f_in": 1545,
+     "f_out": 1558,
+     "en_pantalla_s": 0.233,
+     "alto_px": 159.1,
+     "veces_base": 1.68,
+     "ancho_pct": 24.0,
+     "cx_pct": 51.6,
+     "cy_pct": 30.2,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "usas",
+     "t": 26.5,
+     "f_in": 1590,
+     "f_out": 1598,
+     "en_pantalla_s": 0.15,
+     "alto_px": 150.7,
+     "veces_base": 1.59,
+     "ancho_pct": 31.0,
+     "cx_pct": 49.1,
+     "cy_pct": 30.1,
+     "cuerpo_px": 170,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "cuando",
+     "t": 26.82,
+     "f_in": 1607,
+     "f_out": 1626,
+     "en_pantalla_s": 0.333,
+     "alto_px": 213.2,
+     "veces_base": 2.25,
+     "ancho_pct": 47.3,
+     "cx_pct": 50.2,
+     "cy_pct": 30.3,
+     "cuerpo_px": 164,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "quieras",
+     "t": 27.08,
+     "f_in": 1627,
+     "f_out": 1682,
+     "en_pantalla_s": 0.933,
+     "alto_px": 200.9,
+     "veces_base": 2.12,
+     "ancho_pct": 45.8,
+     "cx_pct": 49.5,
+     "cy_pct": 30.7,
+     "cuerpo_px": 164,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "veces",
+     "t": 28.0,
+     "f_in": 1688,
+     "f_out": 1743,
+     "en_pantalla_s": 0.933,
+     "alto_px": 216.0,
+     "veces_base": 2.28,
+     "ancho_pct": 71.1,
+     "cx_pct": 48.9,
+     "cy_pct": 52.7,
+     "cuerpo_px": 314,
+     "gigante": false,
+     "linea": {
+      "texto": "quequieras",
+      "alto_px": 96.0,
+      "posicion": "debajo",
+      "separacion_centros_px": 148,
+      "entra_antes_s": -0.2,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "10",
+     "t": 30.82,
+     "f_in": 1870,
+     "f_out": 1877,
+     "en_pantalla_s": 0.133,
+     "alto_px": 605.6,
+     "veces_base": 6.38,
+     "ancho_pct": 74.9,
+     "cx_pct": 46.0,
+     "cy_pct": 49.9,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 2,
+   "tolerancia_s_real": 0.03333,
+   "fuente": "detector",
+   "n": 30,
+   "plano_medio_s": 1.414,
+   "plano_s_p10_p50_p90_max": [
+    0.283,
+    0.917,
+    2.95,
+    6.233
+   ],
+   "primer_corte_s": 6.233,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -10.0,
+    -2.0,
+    5.6
+   ],
+   "pct_a_1f_de_un_inicio": 30.0,
+   "pct_tras_puntuacion": 56.7
+  },
+  "arranque": {
+   "primer_rotulo_f": 0,
+   "primer_rotulo_s": 0.0,
+   "primer_rotulo": "tiYo meprott",
+   "primer_enfasis_s": 0.68,
+   "primer_enfasis": "creador"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 1.843,
+   "negro_final_fotogramas": 101,
+   "negro_final_s": 1.683
+  }
+ },
+ {
+  "slug": "lafabrica-v1",
+  "original": "LaFabrica-V1.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 24.0,
+  "fotogramas": 1096,
+  "duracion_s": 45.667,
+  "metraje_fps_estimado": 19.95,
+  "repetidos_pct": 4.3,
+  "audio": {
+   "integrated_lufs": -14.1,
+   "lra": 2.4,
+   "true_peak_dbfs": 0.4,
+   "primer_sonido_s": 0.01,
+   "ultimo_sonido_s": 45.64
+  },
+  "voz": {
+   "palabras": 131,
+   "palabras_por_s": 2.972,
+   "pausas_ge_300ms": 2,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 44.08
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 131,
+   "palabras_localizadas_n": 117,
+   "muestra_desfase_cercano_n": 97,
+   "desfase_todos_f_p10_p50_p90": [
+    -6.4,
+    0.0,
+    5.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 20,
+   "palabras_localizadas_pct": 89.3,
+   "desfase_fotogramas_p10_p50_p90": [
+    -3.0,
+    0.0,
+    3.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 154.9,
+   "cuerpo_px_estimado_por_anchura": 179,
+   "cuerpo_pct_ancho": 16.58,
+   "en_pantalla_s_p10_p50_p90": [
+    0.125,
+    0.312,
+    0.792
+   ],
+   "palabra_dicha_s_p50": 0.3,
+   "centro_x_pct_p10_p50_p90": [
+    24.35,
+    48.8,
+    50.35
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    23.05,
+    29.65,
+    51.55
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -1.796,
+    -0.15,
+    1.394
+   ],
+   "respecto_cara_n": 19
+  },
+  "enfasis": {
+   "n": 10,
+   "cada_s": 4.41,
+   "gigantes": 0,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    68.725,
+    74.3,
+    76.225
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.079,
+    0.333,
+    0.629
+   ],
+   "con_linea_pequena": 1,
+   "linea_encima": 0,
+   "linea_sale_a_la_vez": 1,
+   "linea_separacion_centros_px_p50": 630.0,
+   "linea_entra_antes_s_p50": 0.25,
+   "palabras": [
+    {
+     "palabra": "exige",
+     "t": 1.04,
+     "f_in": 27,
+     "f_out": 34,
+     "en_pantalla_s": 0.333,
+     "alto_px": 280.0,
+     "veces_base": 1.81,
+     "ancho_pct": 53.3,
+     "cx_pct": 50.5,
+     "cy_pct": 21.0,
+     "cuerpo_px": 259,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "UGC",
+     "t": 2.82,
+     "f_in": 70,
+     "f_out": 81,
+     "en_pantalla_s": 0.5,
+     "alto_px": 320.0,
+     "veces_base": 2.07,
+     "ancho_pct": 76.3,
+     "cx_pct": 48.5,
+     "cy_pct": 19.6,
+     "cuerpo_px": 407,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "plazos",
+     "t": 15.74,
+     "f_in": 378,
+     "f_out": 388,
+     "en_pantalla_s": 0.458,
+     "alto_px": 270.7,
+     "veces_base": 1.75,
+     "ancho_pct": 75.2,
+     "cx_pct": 48.9,
+     "cy_pct": 26.7,
+     "cuerpo_px": 305,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "costes",
+     "t": 16.28,
+     "f_in": 389,
+     "f_out": 404,
+     "en_pantalla_s": 0.667,
+     "alto_px": 256.7,
+     "veces_base": 1.66,
+     "ancho_pct": 73.4,
+     "cx_pct": 48.3,
+     "cy_pct": 27.1,
+     "cuerpo_px": 288,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "IA",
+     "t": 23.12,
+     "f_in": 561,
+     "f_out": 563,
+     "en_pantalla_s": 0.125,
+     "alto_px": 320.0,
+     "veces_base": 2.07,
+     "ancho_pct": 48.1,
+     "cx_pct": 42.6,
+     "cy_pct": 25.4,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "Tú",
+     "t": 25.56,
+     "f_in": 614,
+     "f_out": 615,
+     "en_pantalla_s": 0.083,
+     "alto_px": 254.0,
+     "veces_base": 1.64,
+     "ancho_pct": 29.2,
+     "cx_pct": 50.0,
+     "cy_pct": 60.7,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "o",
+     "t": 25.76,
+     "f_in": 599,
+     "f_out": 613,
+     "en_pantalla_s": 0.625,
+     "alto_px": 362.4,
+     "veces_base": 2.34,
+     "ancho_pct": 71.3,
+     "cx_pct": 50.4,
+     "cy_pct": 35.3,
+     "cuerpo_px": null,
+     "gigante": false,
+     "linea": {
+      "texto": "a tu producto y turmarca",
+      "alto_px": 103.3,
+      "posicion": "debajo",
+      "separacion_centros_px": 630,
+      "entra_antes_s": 0.25,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "alguien",
+     "t": 26.06,
+     "f_in": 625,
+     "f_out": 631,
+     "en_pantalla_s": 0.292,
+     "alto_px": 259.6,
+     "veces_base": 1.68,
+     "ancho_pct": 78.3,
+     "cx_pct": 49.2,
+     "cy_pct": 62.0,
+     "cuerpo_px": 285,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "equipo",
+     "t": 26.56,
+     "f_in": 638,
+     "f_out": 638,
+     "en_pantalla_s": 0.042,
+     "alto_px": 259.5,
+     "veces_base": 1.68,
+     "ancho_pct": 76.2,
+     "cx_pct": 49.7,
+     "cy_pct": 61.8,
+     "cuerpo_px": 291,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "dirige",
+     "t": 26.86,
+     "f_in": 651,
+     "f_out": 658,
+     "en_pantalla_s": 0.333,
+     "alto_px": 262.4,
+     "veces_base": 1.69,
+     "ancho_pct": 61.0,
+     "cx_pct": 50.1,
+     "cy_pct": 60.8,
+     "cuerpo_px": 288,
+     "gigante": false,
+     "linea": null
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 1,
+   "tolerancia_s_real": 0.04167,
+   "fuente": "detector",
+   "n": 19,
+   "plano_medio_s": 2.252,
+   "plano_s_p10_p50_p90_max": [
+    0.696,
+    1.979,
+    4.188,
+    5.708
+   ],
+   "primer_corte_s": 5.708,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -2.0,
+    0.0,
+    6.2
+   ],
+   "pct_a_1f_de_un_inicio": 57.9,
+   "pct_tras_puntuacion": 68.4
+  },
+  "arranque": {
+   "primer_rotulo_f": 0,
+   "primer_rotulo_s": 0.0,
+   "primer_rotulo": "Cuando",
+   "primer_enfasis_s": 1.04,
+   "primer_enfasis": "exige"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 1.587,
+   "negro_final_fotogramas": 33,
+   "negro_final_s": 1.375
+  }
+ },
+ {
+  "slug": "lafabrica-v2p1",
+  "original": "LaFabrica_V2_P1.mp4",
+  "ancho": 1080,
+  "alto": 1920,
+  "fps": 24.0,
+  "fotogramas": 1907,
+  "duracion_s": 79.458,
+  "metraje_fps_estimado": 22.2,
+  "repetidos_pct": 2.6,
+  "audio": {
+   "integrated_lufs": -12.7,
+   "lra": 1.2,
+   "true_peak_dbfs": 0.6,
+   "primer_sonido_s": 0.01,
+   "ultimo_sonido_s": 78.85
+  },
+  "voz": {
+   "palabras": 303,
+   "palabras_por_s": 3.891,
+   "pausas_ge_300ms": 0,
+   "primera_palabra_s": 0.0,
+   "ultima_palabra_s": 77.88
+  },
+  "subtitulo_base": {
+   "palabras_alineadas_n": 303,
+   "palabras_localizadas_n": 264,
+   "muestra_desfase_cercano_n": 240,
+   "desfase_todos_f_p10_p50_p90": [
+    -3.0,
+    0.0,
+    3.0
+   ],
+   "desfases_excluidos_del_resumen_base_n": 24,
+   "palabras_localizadas_pct": 87.1,
+   "desfase_fotogramas_p10_p50_p90": [
+    -2.0,
+    0.0,
+    2.0
+   ],
+   "desfase_ms_p50": 0,
+   "caja_alto_px_p50": 145.1,
+   "cuerpo_px_estimado_por_anchura": 177,
+   "cuerpo_pct_ancho": 16.35,
+   "en_pantalla_s_p10_p50_p90": [
+    0.083,
+    0.292,
+    0.583
+   ],
+   "palabra_dicha_s_p50": 0.24,
+   "centro_x_pct_p10_p50_p90": [
+    49.1,
+    50.2,
+    57.2
+   ],
+   "centro_y_pct_p10_p50_p90": [
+    16.75,
+    25.8,
+    50.1
+   ],
+   "respecto_cara_y_p10_p50_p90": [
+    -2.514,
+    -1.4,
+    0.848
+   ],
+   "respecto_cara_n": 177
+  },
+  "enfasis": {
+   "n": 5,
+   "cada_s": 15.58,
+   "gigantes": 1,
+   "ancho_pct_p25_p50_p75_de_las_anchas": [
+    62.85,
+    63.7,
+    72.95
+   ],
+   "en_pantalla_s_p10_p50_p90": [
+    0.142,
+    0.417,
+    0.925
+   ],
+   "con_linea_pequena": 3,
+   "linea_encima": 3,
+   "linea_sale_a_la_vez": 3,
+   "linea_separacion_centros_px_p50": 178.0,
+   "linea_entra_antes_s_p50": 0.333,
+   "palabras": [
+    {
+     "palabra": "creativa",
+     "t": 0.46,
+     "f_in": 13,
+     "f_out": 24,
+     "en_pantalla_s": 0.5,
+     "alto_px": 231.6,
+     "veces_base": 1.6,
+     "ancho_pct": 82.2,
+     "cx_pct": 50.1,
+     "cy_pct": 28.5,
+     "cuerpo_px": 275,
+     "gigante": false,
+     "linea": {
+      "texto": "LaIA",
+      "alto_px": 131.2,
+      "posicion": "encima",
+      "separacion_centros_px": 178,
+      "entra_antes_s": 0.458,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "Abres",
+     "t": 4.14,
+     "f_in": 99,
+     "f_out": 105,
+     "en_pantalla_s": 0.292,
+     "alto_px": 226.1,
+     "veces_base": 1.56,
+     "ancho_pct": 62.0,
+     "cx_pct": 49.6,
+     "cy_pct": 12.1,
+     "cuerpo_px": 272,
+     "gigante": false,
+     "linea": null
+    },
+    {
+     "palabra": "cámara",
+     "t": 27.74,
+     "f_in": 667,
+     "f_out": 695,
+     "en_pantalla_s": 1.208,
+     "alto_px": 232.0,
+     "veces_base": 1.6,
+     "ancho_pct": 63.7,
+     "cx_pct": 37.0,
+     "cy_pct": 34.4,
+     "cuerpo_px": 222,
+     "gigante": false,
+     "linea": {
+      "texto": "sin",
+      "alto_px": 92.1,
+      "posicion": "encima",
+      "separacion_centros_px": 123,
+      "entra_antes_s": -0.167,
+      "sale_con_ella": true
+     }
+    },
+    {
+     "palabra": "4",
+     "t": 67.64,
+     "f_in": 1625,
+     "f_out": 1625,
+     "en_pantalla_s": 0.042,
+     "alto_px": 360.0,
+     "veces_base": 2.48,
+     "ancho_pct": 25.9,
+     "cx_pct": 50.0,
+     "cy_pct": 24.0,
+     "cuerpo_px": null,
+     "gigante": true,
+     "linea": null
+    },
+    {
+     "palabra": "botella",
+     "t": 73.2,
+     "f_in": 1757,
+     "f_out": 1766,
+     "en_pantalla_s": 0.417,
+     "alto_px": 228.9,
+     "veces_base": 1.58,
+     "ancho_pct": 43.9,
+     "cx_pct": 73.4,
+     "cy_pct": 28.6,
+     "cuerpo_px": 173,
+     "gigante": false,
+     "linea": {
+      "texto": "cuello",
+      "alto_px": 136.8,
+      "posicion": "encima",
+      "separacion_centros_px": 186,
+      "entra_antes_s": 0.333,
+      "sale_con_ella": true
+     }
+    }
+   ]
+  },
+  "cortes": {
+   "tolerancia_f_real": 1,
+   "tolerancia_s_real": 0.04167,
+   "fuente": "detector",
+   "n": 43,
+   "plano_medio_s": 1.793,
+   "plano_s_p10_p50_p90_max": [
+    0.537,
+    1.292,
+    3.683,
+    5.125
+   ],
+   "primer_corte_s": 1.042,
+   "corte_menos_inicio_palabra_f_p10_p50_p90": [
+    -1.0,
+    0.0,
+    2.8
+   ],
+   "pct_a_1f_de_un_inicio": 69.8,
+   "pct_tras_puntuacion": 69.8
+  },
+  "arranque": {
+   "primer_rotulo_f": 2,
+   "primer_rotulo_s": 0.0833,
+   "primer_rotulo": "LaIA",
+   "primer_enfasis_s": 0.46,
+   "primer_enfasis": "creativa"
+  },
+  "final": {
+   "cola_tras_ultima_palabra_s": 1.578,
+   "negro_final_fotogramas": 34,
+   "negro_final_s": 1.417
+  }
+ }
+]

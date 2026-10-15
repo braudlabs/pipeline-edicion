@@ -1,0 +1,1 @@
+[{"name": "ae_do", "arguments": {"operation": "font.list", "args": {"familyContains": "SF Pro", "limit": 40}}}, {"name": "ae_catalog", "arguments": {"category": "shape"}}, {"name": "ae_catalog", "arguments": {"category": "transform"}}, {"name": "ae_do", "arguments": {"operation": "project.list_effects", "args": {}}}]

@@ -1,0 +1,153 @@
+{
+  "status": "render_calibration_not_cross_video_validation",
+  "sourceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+  "component": "ReferenceTest in Film.tsx; SFPro Display Regular409px tracking−29.36px, baseline1184, anchor517; measured position fit",
+  "rows": [
+    {
+      "ageSourceFrames": 2,
+      "referenceFrame": 552,
+      "referenceBoundsInROI": [
+        20.0,
+        80.0,
+        834.0,
+        280.0
+      ],
+      "renderBoundsInROI": [
+        21.0,
+        80.0,
+        834.0,
+        284.0
+      ],
+      "errorXYWHpx": [
+        1.0,
+        0.0,
+        0.0,
+        4.0
+      ],
+      "inkIoU": 0.9440942303362738
+    },
+    {
+      "ageSourceFrames": 6,
+      "referenceFrame": 556,
+      "referenceBoundsInROI": [
+        20.0,
+        45.0,
+        834.6079999999929,
+        283.0
+      ],
+      "renderBoundsInROI": [
+        20.0,
+        45.0,
+        835.0,
+        285.0
+      ],
+      "errorXYWHpx": [
+        0.0,
+        0.0,
+        0.39200000000710133,
+        2.0
+      ],
+      "inkIoU": 0.9520921892942764
+    },
+    {
+      "ageSourceFrames": 16,
+      "referenceFrame": 566,
+      "referenceBoundsInROI": [
+        20.0,
+        98.0,
+        834.0,
+        274.0
+      ],
+      "renderBoundsInROI": [
+        20.0,
+        98.0,
+        835.0,
+        284.0
+      ],
+      "errorXYWHpx": [
+        0.0,
+        0.0,
+        1.0,
+        10.0
+      ],
+      "inkIoU": 0.8286459284511272
+    },
+    {
+      "ageSourceFrames": 26,
+      "referenceFrame": 576,
+      "referenceBoundsInROI": [
+        20.0,
+        79.0,
+        835.0,
+        282.0
+      ],
+      "renderBoundsInROI": [
+        20.0,
+        79.0,
+        835.0,
+        284.0
+      ],
+      "errorXYWHpx": [
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "inkIoU": 0.952781423523473
+    },
+    {
+      "ageSourceFrames": 40,
+      "referenceFrame": 590,
+      "referenceBoundsInROI": [
+        20.0,
+        85.0,
+        835.0,
+        282.0
+      ],
+      "renderBoundsInROI": [
+        20.0,
+        85.0,
+        835.0,
+        284.0
+      ],
+      "errorXYWHpx": [
+        0.0,
+        0.0,
+        0.0,
+        2.0
+      ],
+      "inkIoU": 0.9546362627383715
+    },
+    {
+      "ageSourceFrames": 59,
+      "referenceFrame": 609,
+      "referenceBoundsInROI": [
+        20.0,
+        84.0,
+        835.0,
+        283.0
+      ],
+      "renderBoundsInROI": [
+        20.0,
+        84.0,
+        835.0,
+        284.0
+      ],
+      "errorXYWHpx": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "inkIoU": 0.9524165748425512
+    }
+  ],
+  "maxAbsPositionErrorPx": 1.0,
+  "meanInkIoU": 0.9307777681976788,
+  "limits": [
+    "Six frames calibrate this reconstruction only.",
+    "Lime mask threshold is not original alpha.",
+    "Ink-height difference is1–4px in five frames and10px at age16; the source support overlaps the hero and contrast changes. Test reconstructs main word only, not support or original alpha.",
+    "Birdieballs serif, spacing and amplitudes are design adaptations, not replicas of pagar."
+  ]
+}

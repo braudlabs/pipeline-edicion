@@ -1,0 +1,629 @@
+{
+ "checks": [
+  {
+   "name": "17 unidades (timeline = máster JSON = CSV)",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "sin lista «pending» obsoleta",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "corte 00_hook",
+   "ok": true,
+   "detail": {
+    "from": 0,
+    "dur": 130,
+    "srcIn": 0,
+    "master": [
+     0,
+     130,
+     0
+    ],
+    "fotogramasFuente": 145,
+    "asset": "00_HOOK_visual_aprobado_audio_nativo_no_final.mp4"
+   }
+  },
+  {
+   "name": "corte 01_ventanilla",
+   "ok": true,
+   "detail": {
+    "from": 130,
+    "dur": 220,
+    "srcIn": 0,
+    "master": [
+     130,
+     350,
+     0
+    ],
+    "fotogramasFuente": 241,
+    "asset": "01_ventanilla_espera.mp4"
+   }
+  },
+  {
+   "name": "corte 02_ticket",
+   "ok": true,
+   "detail": {
+    "from": 350,
+    "dur": 100,
+    "srcIn": 12,
+    "master": [
+     350,
+     450,
+     12
+    ],
+    "fotogramasFuente": 121,
+    "asset": "02_ticket_angulo.mp4"
+   }
+  },
+  {
+   "name": "corte 03_apagados",
+   "ok": true,
+   "detail": {
+    "from": 450,
+    "dur": 102,
+    "srcIn": 0,
+    "master": [
+     450,
+     552,
+     0
+    ],
+    "fotogramasFuente": 121,
+    "asset": "03_ads_apagados.mp4"
+   }
+  },
+  {
+   "name": "corte 03b_repetir",
+   "ok": true,
+   "detail": {
+    "from": 552,
+    "dur": 58,
+    "srcIn": 0,
+    "master": [
+     552,
+     610,
+     0
+    ],
+    "fotogramasFuente": 97,
+    "asset": "03b_repetir.mp4"
+   }
+  },
+  {
+   "name": "corte 04_sudadera",
+   "ok": true,
+   "detail": {
+    "from": 610,
+    "dur": 172,
+    "srcIn": 0,
+    "master": [
+     610,
+     782,
+     0
+    ],
+    "fotogramasFuente": 193,
+    "asset": "04_sudadera.mp4"
+   }
+  },
+  {
+   "name": "corte 05_presentacion",
+   "ok": true,
+   "detail": {
+    "from": 782,
+    "dur": 58,
+    "srcIn": 0,
+    "master": [
+     782,
+     840,
+     0
+    ],
+    "fotogramasFuente": 97,
+    "asset": "05_presentacion.mp4"
+   }
+  },
+  {
+   "name": "corte 06_cinco_ads",
+   "ok": true,
+   "detail": {
+    "from": 840,
+    "dur": 80,
+    "srcIn": 0,
+    "master": [
+     840,
+     920,
+     0
+    ],
+    "fotogramasFuente": 97,
+    "asset": "06_V5_CANDIDATO_FILA_DUPLICADA.mp4"
+   }
+  },
+  {
+   "name": "corte 07_gestion",
+   "ok": true,
+   "detail": {
+    "from": 920,
+    "dur": 102,
+    "srcIn": 0,
+    "master": [
+     920,
+     1022,
+     0
+    ],
+    "fotogramasFuente": 121,
+    "asset": "07_CAMPANAS_V3_REVISADO.mp4"
+   }
+  },
+  {
+   "name": "corte 08_optimizacion",
+   "ok": true,
+   "detail": {
+    "from": 1022,
+    "dur": 215,
+    "srcIn": 0,
+    "master": [
+     1022,
+     1237,
+     0
+    ],
+    "fotogramasFuente": 217,
+    "asset": "08_GAG_V3_CANDIDATO_UI_PENDIENTE.mp4"
+   }
+  },
+  {
+   "name": "corte 09_papeles",
+   "ok": true,
+   "detail": {
+    "from": 1237,
+    "dur": 103,
+    "srcIn": 0,
+    "master": [
+     1237,
+     1340,
+     0
+    ],
+    "fotogramasFuente": 121,
+    "asset": "09_PAPELES_V2_GENERADO_AJUSTE_DE_BEAT.mp4"
+   }
+  },
+  {
+   "name": "corte 10_fundadores",
+   "ok": true,
+   "detail": {
+    "from": 1340,
+    "dur": 138,
+    "srcIn": 0,
+    "master": [
+     1340,
+     1478,
+     0
+    ],
+    "fotogramasFuente": 145,
+    "asset": "10_FUNDADORES_VISUAL_REVISADO.mp4"
+   }
+  },
+  {
+   "name": "corte 11_criterio",
+   "ok": true,
+   "detail": {
+    "from": 1478,
+    "dur": 107,
+    "srcIn": 0,
+    "master": [
+     1478,
+     1585,
+     0
+    ],
+    "fotogramasFuente": 121,
+    "asset": "11_CRITERIO_VISUAL_REVISADO_AUDIO_PENDIENTE.mp4"
+   }
+  },
+  {
+   "name": "corte 12_habitacion",
+   "ok": true,
+   "detail": {
+    "from": 1585,
+    "dur": 96,
+    "srcIn": 0,
+    "master": [
+     1585,
+     1681,
+     0
+    ],
+    "fotogramasFuente": 97,
+    "asset": "12_HABITACION_V3_CANDIDATO_PROYECCION.mp4"
+   }
+  },
+  {
+   "name": "corte 13_metagag",
+   "ok": true,
+   "detail": {
+    "from": 1681,
+    "dur": 105,
+    "srcIn": 0,
+    "master": [
+     1681,
+     1786,
+     0
+    ],
+    "fotogramasFuente": 121,
+    "asset": "13_METAGAG_VISUAL_REVISADO.mp4"
+   }
+  },
+  {
+   "name": "corte 14_cta",
+   "ok": true,
+   "detail": {
+    "from": 1786,
+    "dur": 205,
+    "srcIn": 0,
+    "master": [
+     1786,
+     1991,
+     0
+    ],
+    "fotogramasFuente": 217,
+    "asset": "14_CTA_HONESTO_VISUAL_REVISADO.mp4"
+   }
+  },
+  {
+   "name": "corte 15_salida",
+   "ok": true,
+   "detail": {
+    "from": 1991,
+    "dur": 59,
+    "srcIn": 18,
+    "master": [
+     1991,
+     2050,
+     18
+    ],
+    "fotogramasFuente": 97,
+    "asset": "15_SALIDA_V2_PANTALLA_ENCENDIDA.mp4"
+   }
+  },
+  {
+   "name": "2050 fotogramas contiguos",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "composiciones AndromedaC04 (24), -144, -60 y HookStudy",
+   "ok": true,
+   "detail": [
+    "AndromedaC04",
+    "AndromedaC04-144",
+    "AndromedaC04-60",
+    "HookStudy"
+   ]
+  },
+  {
+   "name": "sin stem externo del azul",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "música: banda sonora de 85,400 s en su pista, desde 0 y con ducking (stem de toda la timeline)",
+   "ok": true,
+   "detail": {
+    "master_samples": 4099200,
+    "stem_samples": 4100000,
+    "gain": 1.0
+   }
+  },
+  {
+   "name": "narrador desde 0, entero y sin retiming (muestra a muestra)",
+   "ok": true,
+   "detail": {
+    "maxAbsError": 0.0,
+    "muestras": 4098926,
+    "segundos": 85.39429166666666
+   }
+  },
+  {
+   "name": "narrador cubre sus 85,39425 s dentro de la imagen",
+   "ok": true,
+   "detail": {
+    "narrador": 85.39429166666666,
+    "imagen": 85.41666666666667
+   }
+  },
+  {
+   "name": "audio nativo 00_hook en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.319978713989258e-05,
+    "samples": 260000,
+    "silencioFinal": 0,
+    "gain": 0.8
+   }
+  },
+  {
+   "name": "audio nativo 01_ventanilla en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 4.035234451293945e-05,
+    "samples": 440000,
+    "silencioFinal": 0,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "audio nativo 02_ticket en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.1948089599609375e-05,
+    "samples": 200000,
+    "silencioFinal": 0,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "audio nativo 03_apagados en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.230571746826172e-05,
+    "samples": 204000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 03b_repetir en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.6881694793701172e-05,
+    "samples": 116000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 04_sudadera en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.372264862060547e-05,
+    "samples": 344000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 05_presentacion en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.8623809814453125e-05,
+    "samples": 116000,
+    "silencioFinal": 0,
+    "gain": 0.6
+   }
+  },
+  {
+   "name": "audio nativo 06_cinco_ads en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 1.9550323486328125e-05,
+    "samples": 160000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 07_gestion en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.141164779663086e-05,
+    "samples": 204000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 08_optimizacion en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.62396240234375e-05,
+    "samples": 430000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 09_papeles en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.540515899658203e-05,
+    "samples": 206000,
+    "silencioFinal": 0,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "audio nativo 10_fundadores en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.7954578399658203e-05,
+    "samples": 276000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 11_criterio en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.355741500854492e-05,
+    "samples": 214000,
+    "silencioFinal": 0,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "audio nativo 12_habitacion en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 3.141164779663086e-05,
+    "samples": 192000,
+    "silencioFinal": 1536,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "audio nativo 13_metagag en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.2217631340026855e-05,
+    "samples": 210000,
+    "silencioFinal": 0,
+    "gain": 0.75
+   }
+  },
+  {
+   "name": "audio nativo 14_cta en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 4.1425228118896484e-05,
+    "samples": 410000,
+    "silencioFinal": 0,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "audio nativo 15_salida en su IN y su posición",
+   "ok": true,
+   "detail": {
+    "maxErr": 2.7388334274291992e-05,
+    "samples": 118000,
+    "silencioFinal": 0,
+    "gain": 0.65
+   }
+  },
+  {
+   "name": "ganancias de 00–05 = las de C03",
+   "ok": true,
+   "detail": {
+    "hook-nativo": 0.8,
+    "nativo-01": 0.65,
+    "nativo-02": 0.65,
+    "nativo-03": 0.75,
+    "nativo-03b": 0.75,
+    "nativo-04": 0.75,
+    "nativo-05": 0.6
+   }
+  },
+  {
+   "name": "hook con audio nativo",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "hook = variante A aprobada",
+   "ok": true,
+   "detail": null
+  },
+  {
+   "name": "cobertura de las 274 palabras salvo el gag",
+   "ok": true,
+   "detail": {
+    "faltan": []
+   }
+  },
+  {
+   "name": "B/N del gag = «y con la sudadera» → «Vengo»",
+   "ok": true,
+   "detail": [
+    "691",
+    "739"
+   ]
+  },
+  {
+   "name": "Andromeda-C04-00-85s-24fps-1080.mp4: 1080×1920 24 fps 2050 f H.264",
+   "ok": true,
+   "detail": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "24/1",
+    "nb_read_frames": "2050"
+   }
+  },
+  {
+   "name": "Andromeda-C04-00-85s-24fps-1080.mp4: audio AAC 48 kHz",
+   "ok": true,
+   "detail": {
+    "codec_name": "aac",
+    "codec_type": "audio",
+    "sample_rate": "48000",
+    "channels": 2,
+    "r_frame_rate": "0/0",
+    "nb_read_frames": "4004"
+   }
+  },
+  {
+   "name": "Andromeda-C04-00-85s-24fps-1080.mp4: desfase audio vs stems = 0 muestras",
+   "ok": true,
+   "detail": {
+    "ventanas_s": [
+     1.0,
+     6.5,
+     15.0,
+     22.0,
+     27.0,
+     33.0,
+     40.0,
+     45.0,
+     50.0,
+     55.0,
+     60.0,
+     65.0,
+     70.0,
+     75.0,
+     80.0,
+     84.0
+    ],
+    "lags": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  },
+  {
+   "name": "Andromeda-C04-00-85s-24fps-1080.mp4: ganancia de la mezcla ≈ 1 frente a los stems",
+   "ok": true,
+   "detail": [
+    0.998,
+    0.996,
+    0.998,
+    0.998,
+    0.985,
+    0.988,
+    0.993,
+    0.995,
+    0.997,
+    0.995,
+    0.969,
+    0.998,
+    0.982,
+    0.998,
+    0.999,
+    0.989
+   ]
+  }
+ ],
+ "ok": true
+}

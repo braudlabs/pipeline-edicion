@@ -1,0 +1,1 @@
+[{"name": "ae_comp_info", "arguments": {"nameOrId": "V02 MASTER"}}, {"name": "ae_do", "arguments": {"operation": "project.import_file", "args": {"path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/mercadillo/v02/mix.wav", "name": "MIX V02"}}}]

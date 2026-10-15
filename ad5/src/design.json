@@ -1,0 +1,2007 @@
+{
+ "fps": 48,
+ "master": "AD5 - FINAL",
+ "total": 1148,
+ "paleta": {
+  "navy": "#0C2654",
+  "azul": "#3A7CE0",
+  "crema": "#F6F9FF"
+ },
+ "fuente": "Optima",
+ "comps": {
+  "AD5 - FINAL": {
+   "name": "AD5 - FINAL",
+   "width": 1080,
+   "height": 1920,
+   "duration": 1148,
+   "layers": [
+    {
+     "name": "Montaje",
+     "type": "video",
+     "asset": "Montaje.mov",
+     "from": 0,
+     "to": 1148,
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "scale": [
+      1,
+      1
+     ],
+     "srcW": 1080,
+     "srcH": 1920,
+     "anim": {}
+    },
+    {
+     "name": "Voz",
+     "type": "audio",
+     "asset": "Voz.wav",
+     "from": 0,
+     "to": 1148,
+     "pos": [
+      540.0,
+      960.0
+     ],
+     "anim": {}
+    },
+    {
+     "name": "linea-1",
+     "type": "path",
+     "points": [
+      [
+       688,
+       838
+      ],
+      [
+       734,
+       813
+      ],
+      [
+       783,
+       800
+      ],
+      [
+       830,
+       801
+      ]
+     ],
+     "stroke": "#3A7CE0",
+     "strokeWidth": 7,
+     "from": 204,
+     "to": 329,
+     "pos": [
+      0,
+      0
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "trim": [
+      204,
+      240
+     ],
+     "shadow": [
+      0,
+      6,
+      9,
+      "#0C2654",
+      0.5
+     ],
+     "anim": {}
+    },
+    {
+     "name": "linea-2",
+     "type": "path",
+     "points": [
+      [
+       700,
+       884
+      ],
+      [
+       742,
+       866
+      ],
+      [
+       788,
+       858
+      ]
+     ],
+     "stroke": "#3A7CE0",
+     "strokeWidth": 6,
+     "from": 282,
+     "to": 329,
+     "pos": [
+      0,
+      0
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "trim": [
+      282,
+      296
+     ],
+     "shadow": [
+      0,
+      5,
+      8,
+      "#0C2654",
+      0.45
+     ],
+     "anim": {}
+    },
+    {
+     "name": "linea-3",
+     "type": "path",
+     "points": [
+      [
+       704,
+       790
+      ],
+      [
+       744,
+       768
+      ],
+      [
+       790,
+       757
+      ]
+     ],
+     "stroke": "#3A7CE0",
+     "strokeWidth": 6,
+     "from": 289,
+     "to": 329,
+     "pos": [
+      0,
+      0
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "trim": [
+      289,
+      302
+     ],
+     "shadow": [
+      0,
+      5,
+      8,
+      "#0C2654",
+      0.45
+     ],
+     "anim": {}
+    },
+    {
+     "name": "linea-remate",
+     "type": "path",
+     "points": [
+      [
+       706,
+       842
+      ],
+      [
+       748,
+       818
+      ],
+      [
+       790,
+       806
+      ],
+      [
+       826,
+       806
+      ]
+     ],
+     "stroke": "#3A7CE0",
+     "strokeWidth": 7,
+     "from": 819,
+     "to": 867,
+     "pos": [
+      0,
+      0
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "trim": [
+      840,
+      863
+     ],
+     "trimInvertido": true,
+     "shadow": [
+      0,
+      5,
+      8,
+      "#0C2654",
+      0.4
+     ],
+     "anim": {
+      "opacity": {
+       "frames": [
+        819,
+        828,
+        857,
+        867
+       ],
+       "values": [
+        0,
+        0.95,
+        0.95,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "flecha",
+     "type": "path",
+     "points": [
+      [
+       -46,
+       -30
+      ],
+      [
+       0,
+       22
+      ],
+      [
+       46,
+       -30
+      ]
+     ],
+     "stroke": "#3A7CE0",
+     "strokeWidth": 7,
+     "from": 964,
+     "to": 1040,
+     "pos": [
+      540,
+      1660
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      5,
+      9,
+      "#0C2654",
+      0.45
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        964,
+        979,
+        994,
+        1010
+       ],
+       "values": [
+        [
+         540,
+         1600
+        ],
+        [
+         540,
+         1672
+        ],
+        [
+         540,
+         1614
+        ],
+        [
+         540,
+         1668
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        964,
+        975,
+        1027,
+        1040
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-00",
+     "type": "text",
+     "text": "A los",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 0,
+     "to": 84,
+     "pos": [
+      300,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        0,
+        7
+       ],
+       "values": [
+        [
+         300,
+         1640
+        ],
+        [
+         300,
+         1520
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        0,
+        5,
+        80,
+        84
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "anillo-1",
+     "type": "ellipse",
+     "w": 184,
+     "h": 184,
+     "stroke": "#3A7CE0",
+     "strokeWidth": 4,
+     "from": 20,
+     "to": 84,
+     "pos": [
+      640,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      7,
+      12,
+      "#0C2654",
+      0.45
+     ],
+     "anim": {
+      "scale": {
+       "frames": [
+        20,
+        29
+       ],
+       "values": [
+        [
+         0.42,
+         0.42
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        20,
+        26,
+        79,
+        84
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "cifra-1",
+     "type": "text",
+     "text": "50",
+     "font": "bold",
+     "size": 104,
+     "color": "#F6F9FF",
+     "track": 6,
+     "from": 20,
+     "to": 84,
+     "pos": [
+      640,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      7,
+      14,
+      "#0C2654",
+      0.55
+     ],
+     "anim": {
+      "scale": {
+       "frames": [
+        22,
+        31
+       ],
+       "values": [
+        [
+         0.5,
+         0.5
+        ],
+        [
+         1,
+         1
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        22,
+        28,
+        79,
+        84
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-02",
+     "type": "text",
+     "text": "el maquillaje",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 84,
+     "to": 112,
+     "pos": [
+      540.0,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        84,
+        91
+       ],
+       "values": [
+        [
+         710.0,
+         1520
+        ],
+        [
+         540.0,
+         1520
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        84,
+        89,
+        108,
+        112
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-03",
+     "type": "text",
+     "text": "ya no tapaba",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 114,
+     "to": 145,
+     "pos": [
+      540.0,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        114,
+        121
+       ],
+       "values": [
+        [
+         540.0,
+         1640
+        ],
+        [
+         540.0,
+         1520
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        114,
+        119,
+        141,
+        145
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-04",
+     "type": "text",
+     "text": "mis líneas",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 147,
+     "to": 199,
+     "pos": [
+      540.0,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        147,
+        154
+       ],
+       "values": [
+        [
+         370.0,
+         1520
+        ],
+        [
+         540.0,
+         1520
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        147,
+        152,
+        195,
+        199
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-05",
+     "type": "text",
+     "text": "se metía dentro",
+     "font": "bold",
+     "size": 110,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 202,
+     "to": 278,
+     "pos": [
+      540.0,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        202,
+        209
+       ],
+       "values": [
+        [
+         710.0,
+         1520
+        ],
+        [
+         540.0,
+         1520
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        202,
+        207,
+        274,
+        278
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-06",
+     "type": "text",
+     "text": "y las marcaba más",
+     "font": "bold",
+     "size": 84,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 282,
+     "to": 329,
+     "pos": [
+      540.0,
+      1520
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        282,
+        289
+       ],
+       "values": [
+        [
+         540.0,
+         1640
+        ],
+        [
+         540.0,
+         1520
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        282,
+        287,
+        325,
+        329
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-07",
+     "type": "text",
+     "text": "dejé de gastar",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 332,
+     "to": 369,
+     "pos": [
+      540.0,
+      1470
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        332,
+        339
+       ],
+       "values": [
+        [
+         370.0,
+         1470
+        ],
+        [
+         540.0,
+         1470
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        332,
+        337,
+        365,
+        369
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-08",
+     "type": "text",
+     "text": "dinero en",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 371,
+     "to": 389,
+     "pos": [
+      540.0,
+      1470
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        371,
+        378
+       ],
+       "values": [
+        [
+         710.0,
+         1470
+        ],
+        [
+         540.0,
+         1470
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        371,
+        376,
+        385,
+        389
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-09",
+     "type": "text",
+     "text": "correctores",
+     "font": "bold",
+     "size": 120,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 391,
+     "to": 423,
+     "pos": [
+      540.0,
+      1470
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        391,
+        398
+       ],
+       "values": [
+        [
+         540.0,
+         1590
+        ],
+        [
+         540.0,
+         1470
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        391,
+        396,
+        419,
+        423
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-10",
+     "type": "text",
+     "text": "el día que",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 425,
+     "to": 519,
+     "pos": [
+      540.0,
+      1470
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        425,
+        432
+       ],
+       "values": [
+        [
+         370.0,
+         1470
+        ],
+        [
+         540.0,
+         1470
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        425,
+        430,
+        515,
+        519
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-11",
+     "type": "text",
+     "text": "entendí esto",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 521,
+     "to": 572,
+     "pos": [
+      540.0,
+      1470
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        521,
+        528
+       ],
+       "values": [
+        [
+         710.0,
+         1470
+        ],
+        [
+         540.0,
+         1470
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        521,
+        526,
+        568,
+        572
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-12",
+     "type": "text",
+     "text": "ahora uso",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 574,
+     "to": 611,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        574,
+        581
+       ],
+       "values": [
+        [
+         540.0,
+         1720
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        574,
+        579,
+        607,
+        611
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-13",
+     "type": "text",
+     "text": "este serum",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 613,
+     "to": 644,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        613,
+        620
+       ],
+       "values": [
+        [
+         370.0,
+         1600
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        613,
+        618,
+        640,
+        644
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-14",
+     "type": "text",
+     "text": "con color",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 646,
+     "to": 686,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        646,
+        653
+       ],
+       "values": [
+        [
+         710.0,
+         1600
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        646,
+        651,
+        682,
+        686
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-15",
+     "type": "text",
+     "text": "con ácido",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 689,
+     "to": 717,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        689,
+        696
+       ],
+       "values": [
+        [
+         540.0,
+         1720
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        689,
+        694,
+        713,
+        717
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-16",
+     "type": "text",
+     "text": "hialurónico",
+     "font": "bold",
+     "size": 118,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 720,
+     "to": 766,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        720,
+        727
+       ],
+       "values": [
+        [
+         370.0,
+         1600
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        720,
+        725,
+        762,
+        766
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-17",
+     "type": "text",
+     "text": "no se cuartea",
+     "font": "bold",
+     "size": 112,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 768,
+     "to": 803,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        768,
+        775
+       ],
+       "values": [
+        [
+         710.0,
+         1600
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        768,
+        773,
+        799,
+        803
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-18",
+     "type": "text",
+     "text": "y la piel se ve",
+     "font": "bold",
+     "size": 84,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 805,
+     "to": 869,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        805,
+        812
+       ],
+       "values": [
+        [
+         540.0,
+         1720
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        805,
+        810,
+        865,
+        869
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-19",
+     "type": "text",
+     "text": "jugosa",
+     "font": "bold",
+     "size": 140,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 871,
+     "to": 903,
+     "pos": [
+      540.0,
+      1600
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        871,
+        878
+       ],
+       "values": [
+        [
+         370.0,
+         1600
+        ],
+        [
+         540.0,
+         1600
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        871,
+        876,
+        899,
+        903
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-20",
+     "type": "text",
+     "text": "te dejo",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 906,
+     "to": 936,
+     "pos": [
+      540.0,
+      1430
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        906,
+        913
+       ],
+       "values": [
+        [
+         710.0,
+         1430
+        ],
+        [
+         540.0,
+         1430
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        906,
+        911,
+        932,
+        936
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-21",
+     "type": "text",
+     "text": "el enlace",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 938,
+     "to": 959,
+     "pos": [
+      540.0,
+      1430
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        938,
+        945
+       ],
+       "values": [
+        [
+         540.0,
+         1550
+        ],
+        [
+         540.0,
+         1430
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        938,
+        943,
+        955,
+        959
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-22",
+     "type": "text",
+     "text": "aquí abajo",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 961,
+     "to": 1040,
+     "pos": [
+      540.0,
+      1430
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        961,
+        968
+       ],
+       "values": [
+        [
+         370.0,
+         1430
+        ],
+        [
+         540.0,
+         1430
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        961,
+        966,
+        1036,
+        1040
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-23",
+     "type": "text",
+     "text": "pruébalo un mes",
+     "font": "bold",
+     "size": 106,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 1045,
+     "to": 1103,
+     "pos": [
+      540.0,
+      1430
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        1045,
+        1052
+       ],
+       "values": [
+        [
+         710.0,
+         1430
+        ],
+        [
+         540.0,
+         1430
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        1045,
+        1050,
+        1099,
+        1103
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    },
+    {
+     "name": "tx-24",
+     "type": "text",
+     "text": "y me cuentas",
+     "font": "bold",
+     "size": 88,
+     "color": "#F6F9FF",
+     "track": 8,
+     "textStroke": [
+      "#0C2654",
+      2
+     ],
+     "from": 1105,
+     "to": 1146,
+     "pos": [
+      540.0,
+      1430
+     ],
+     "anchor": [
+      0,
+      0
+     ],
+     "opacity": 0,
+     "shadow": [
+      0,
+      9,
+      20,
+      "#0C2654",
+      0.62
+     ],
+     "anim": {
+      "pos": {
+       "frames": [
+        1105,
+        1112
+       ],
+       "values": [
+        [
+         540.0,
+         1550
+        ],
+        [
+         540.0,
+         1430
+        ]
+       ],
+       "ease": "out"
+      },
+      "opacity": {
+       "frames": [
+        1105,
+        1110,
+        1142,
+        1146
+       ],
+       "values": [
+        0,
+        1,
+        1,
+        0
+       ],
+       "ease": "out"
+      }
+     }
+    }
+   ]
+  }
+ }
+}

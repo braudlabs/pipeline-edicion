@@ -1,0 +1,204 @@
+{
+  "project": "Birdieballs",
+  "activeBlock": "0–38,005 s · vídeo completo",
+  "activeVersion": "V08",
+  "status": "ready_for_user_verdict",
+  "source": "/Users/alejandrorubiocamarero/Downloads/Birdieballs v1 (Sin Postpro).mp4",
+  "sourceSha256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+  "sourceDurationSeconds": 38.005,
+  "sourceCoveredUntil": 38.00463333333333,
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/Birdieballs-completo-V08.mp4",
+  "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/ae/Birdieballs-V08.aep",
+  "durationFrames": 2278,
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "durationVideoSeconds": 38.00463333333333,
+  "renderSeconds": 45,
+  "reviewUrl": "http://127.0.0.1:4317/",
+  "reviewVersionId": "2b6a4f61-8470-4e2d-8e41-49e49286ecb8",
+  "reviewBaseId": "7778305c-3a57-45c1-91c5-16e66f3c13ea",
+  "feedbackFile": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/motor-editor/review/data/project.json",
+  "nextAction": "Recoger veredicto de V08 en Cutroom4317. Máscara superior del70% retirada por rechazo explícito durante preparación. No inferir aprobación global.",
+  "validation": {
+    "status": "ready_for_user_verdict",
+    "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/Birdieballs-completo-V08.mp4",
+    "sha256": "d850759679408c2cbec6516d7840ce39e619a08629e9281770fc2f49bd6da342",
+    "video": {
+      "codec_name": "h264",
+      "width": 1080,
+      "height": 1920,
+      "r_frame_rate": "60000/1001",
+      "duration": "38.004633",
+      "nb_frames": "2278"
+    },
+    "audio": {
+      "codec_name": "aac",
+      "sample_rate": "48000",
+      "channels": 2,
+      "duration": "38.004625"
+    },
+    "decodeWithoutErrors": true,
+    "decodedAudioPeak": 0.8564211130142212,
+    "audioClippedSamples": 0,
+    "sourceSync": [
+      {
+        "interval": [
+          1.25,
+          2.1
+        ],
+        "lagMs": 0.0,
+        "correlation": 0.999214095819375
+      },
+      {
+        "interval": [
+          8,
+          8.5
+        ],
+        "lagMs": 0.0,
+        "correlation": 0.9955902705440473
+      },
+      {
+        "interval": [
+          15.3,
+          16.4
+        ],
+        "lagMs": 0.0,
+        "correlation": 0.9988172049561553
+      },
+      {
+        "interval": [
+          22.45,
+          23
+        ],
+        "lagMs": 0.0,
+        "correlation": 0.9994927165972612
+      },
+      {
+        "interval": [
+          28.1,
+          28.6
+        ],
+        "lagMs": 0.0,
+        "correlation": 0.9993588425625126
+      },
+      {
+        "interval": [
+          33,
+          33.6
+        ],
+        "lagMs": 0.0,
+        "correlation": 0.9992346259489214
+      }
+    ],
+    "masterVsMixMonoMaxError": 5.909055471420288e-05,
+    "mapping": {
+      "sourceFrames": 2278,
+      "outputFrames": 2278,
+      "extraCuts": 0,
+      "retiming": false,
+      "cameraAccents": 4
+    },
+    "nativeProject": {
+      "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/ae/Birdieballs-V08.aep",
+      "missingFonts": 0,
+      "missingMedia": 0,
+      "editableTextLayers": 57,
+      "mask": "Automatic Vision segmentation for solution, original f550–599",
+      "totalLayers": 75,
+      "rejectedOfferMaskEnabled": false
+    },
+    "review": {
+      "contactFrames": 82,
+      "nativeDesignAlternatives": 3,
+      "passes": 2,
+      "userRejected70MaskRemoved": true,
+      "reference": "Focused V8 comparison (compact hierarchy, stable caption anchors); no whole-style equivalence claimed",
+      "audioAudition": false,
+      "normalSpeedPlayback": {
+        "mode": "muted functional playback at1x; not independent audio audition",
+        "reachedSeconds": 37.98795,
+        "duration": 38.004633,
+        "droppedFrames": 0,
+        "error": null,
+        "note": "Cutroom pauses at final displayed frame."
+      },
+      "cutroomVersionId": "2b6a4f61-8470-4e2d-8e41-49e49286ecb8",
+      "corrections": [
+        "End title safe margins",
+        "Removed repeated underline accents",
+        "Macro dialogue reading rail lowered to uncover mouth and ball",
+        "70% background mask rejected by user and disabled in delivered master",
+        "AAC headroom adjusted; final decoded peak below full scale"
+      ]
+    },
+    "limitations": [
+      "Automatic mask, not manually rotoscoped hair",
+      "No independent audio audition; waveform sync and signal checks performed",
+      "Creative direction remains awaiting user verdict"
+    ],
+    "renderSeconds": 45
+  },
+  "previousVersions": [
+    {
+      "version": "V01",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v01/Birdieballs-B01-V01.mp4",
+      "reviewVersionId": "bad2f999-f44e-4bc1-93ea-9b9142ef5ff1"
+    },
+    {
+      "version": "V02",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v02/Birdieballs-20s-V02.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v02/plan.json",
+      "reviewVersionId": "135ad75e-fe89-43e8-a753-bd8f4199a9d8"
+    },
+    {
+      "version": "V03",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v03/Birdieballs-20s-V03.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v03/plan.json",
+      "reviewVersionId": "d45baa0c-8940-403d-93cb-e5dda9ea3c59",
+      "status": "rejected_by_user",
+      "sha256": "0f5095fd1f3e7e6a3990010aa1aefaaf302851aae60760cdf4cbe03d9f3ec7f1"
+    },
+    {
+      "version": "V04",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v04/Birdieballs-20s-V04.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v04/Film.tsx",
+      "reviewVersionId": "bbd17192-8773-4cbc-a7bb-31fdcb54b226",
+      "status": "rejected_by_user",
+      "sha256": "776d61792f585e19fb390b0f49da408ad7abdd7fb994536e580068aef664425b"
+    },
+    {
+      "version": "V05",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v05/Birdieballs-20s-V05.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v05/Film.tsx",
+      "reviewVersionId": "67263d19-c9c3-4f19-85cd-62f08b881b36",
+      "status": "color_revision_requested_and_scope_extended",
+      "sha256": "f95d44db539c7ed6411453784f53a5964d3eec3bb948a73aa6200a4c62f9e34b"
+    },
+    {
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v06/Birdieballs-completo-V06.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v06/Film.tsx",
+      "reviewVersionId": "914f00dd-96c6-4ff7-b47c-71f9990f5c36",
+      "status": "revision_requested_caption_continuity",
+      "version": "V06",
+      "sha256": "325edb1d67cb549038e9a0a064afcb522bab2913d100499fd0e2c2f2ce710314"
+    },
+    {
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v07/Birdieballs-completo-V07.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v07/Film.tsx",
+      "reviewVersionId": "78e1df27-7dbb-42d1-80b9-e0af6a5158c5",
+      "version": "V07",
+      "status": "partially_liked_but_too_simple",
+      "sha256": "a79056c8da8095c356ef30e5a8329ef16aab41136d1fe40bf783265122d429b5"
+    }
+  ],
+  "directionQuiz": "http://127.0.0.1:4317/quiz",
+  "directionQuizRevision": 132,
+  "directionProposal": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v05-direction/direction.json",
+  "productionTool": "After Effects 2026 para esta reedición completa, por petición explícita actual de Ale; fuente original y música conservadas.",
+  "blurComparison": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v05/Comparacion-blur.mp4",
+  "comparison": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/stills/final-complete.jpg",
+  "motionEngine": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/ae/build.py",
+  "nativePatchOrder": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v08/study/native-spec.json"
+}

@@ -1,0 +1,15 @@
+{
+  "name": "motor-editor-referencias",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "node cli.ts compile",
+    "inspect": "node cli.ts inspect",
+    "test": "node --test tests/*.test.ts",
+    "typecheck": "../node_modules/.bin/tsc --project tsconfig.json",
+    "studio": "../node_modules/.bin/remotion studio src/index.tsx",
+    "bundle": "../node_modules/.bin/remotion bundle src/index.tsx",
+    "review": "node review/server.mjs",
+    "test:review": "node --test review/tests/*.test.mjs"
+  }
+}

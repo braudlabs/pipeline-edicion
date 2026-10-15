@@ -1,0 +1,283 @@
+{
+  "status": "technical_checks_passed_pending_user_verdict",
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/mercadillo/v01/Mercadillo-agencias-V01.mp4",
+  "sha256": "852b41ce925222fb8362c4840afb42630f820ae28b35cb5bf9d6238caf00eb90",
+  "video": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "nb_frames": "2121",
+    "r_frame_rate": "24/1",
+    "duration": "88.375000",
+    "pix_fmt": "yuvj420p"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "88.384000"
+  },
+  "loudness": {
+    "input_i": "-18.54",
+    "input_tp": "-2.26",
+    "input_lra": "4.20"
+  },
+  "sources": [
+    {
+      "id": 1,
+      "sha256": "2ff4e7e6566956e9d57ff3fc366dc796742f917f73332483f3b77a90a50ea645",
+      "frames": 149,
+      "startFrame": 0
+    },
+    {
+      "id": 2,
+      "sha256": "4c088e867197382a84f67856dbea8dbd9251d16e406383dfbddd22ad3ef3c38e",
+      "frames": 114,
+      "startFrame": 149
+    },
+    {
+      "id": 3,
+      "sha256": "78d1a221ae854a570b30e627ca4e5b04eed14d569cb0823c444cf259cf5b90cd",
+      "frames": 52,
+      "startFrame": 263
+    },
+    {
+      "id": 4,
+      "sha256": "f5a07c16e073bffba8deb32ada3429b26d2a36e95985ac5b77c1afabfbdaaaee",
+      "frames": 132,
+      "startFrame": 315
+    },
+    {
+      "id": 5,
+      "sha256": "5081ebb615c848ef2f70c0ee4a11367ee3a475ab9addc4e41e66b80b8d57f2d3",
+      "frames": 83,
+      "startFrame": 447
+    },
+    {
+      "id": 6,
+      "sha256": "f461b186da05df34c68ffd647eb9f190ed373ba080c2cf19afa31c91ae600c2f",
+      "frames": 114,
+      "startFrame": 530
+    },
+    {
+      "id": 7,
+      "sha256": "275ba9bd6415ad7f49035b90df1b529e9815ad52f88e1052bba809e3fc7f7487",
+      "frames": 138,
+      "startFrame": 644
+    },
+    {
+      "id": 8,
+      "sha256": "52a43c6fddcc573f9b1386e04e297d18e6681cc064342fa1c546200cb4e1632d",
+      "frames": 75,
+      "startFrame": 782
+    },
+    {
+      "id": 9,
+      "sha256": "ecd7771507cd55028697445d810450e6ec0c33d49187b3b593a94542a2faa25e",
+      "frames": 183,
+      "startFrame": 857
+    },
+    {
+      "id": 10,
+      "sha256": "32a5fc0f0aa782ea73c2f5c471d9848a93cd2a7b1afc34cddbceed68c2f4eedf",
+      "frames": 109,
+      "startFrame": 1040
+    },
+    {
+      "id": 11,
+      "sha256": "366bdf5be2b56c8773b87ee4a98805df5bef72c7d2451a4f58983dae5ee8f92e",
+      "frames": 111,
+      "startFrame": 1149
+    },
+    {
+      "id": 12,
+      "sha256": "2fcdc2f222cf5a41ec2099bcd6eb2b4ec9c9a3d377334e70db6fb7b91227a789",
+      "frames": 93,
+      "startFrame": 1260
+    },
+    {
+      "id": 13,
+      "sha256": "73377773d65eee5babea94309656987d75a3bb55ed0b06946b56e6166f401bf3",
+      "frames": 119,
+      "startFrame": 1353
+    },
+    {
+      "id": 14,
+      "sha256": "9fa193da4fb8ab1de8139abf37bf1b55c5b4f87bb0e28bac04f0c43eaaedfe17",
+      "frames": 18,
+      "startFrame": 1472
+    },
+    {
+      "id": 15,
+      "sha256": "e3568f7bda15353f01af8008ec2d3e694fddd9318c8dbfa812061b4dadd960bb",
+      "frames": 72,
+      "startFrame": 1490
+    },
+    {
+      "id": 16,
+      "sha256": "af9d73950bff9ab3105c1187dba35193de63ad31a05d3221d0e3bbe4e8bdd765",
+      "frames": 64,
+      "startFrame": 1562
+    },
+    {
+      "id": 17,
+      "sha256": "ab3c63a4561352ac840c33880f522d60b16ed5a9f367fa3ca8014d9861a5ac2f",
+      "frames": 100,
+      "startFrame": 1626
+    },
+    {
+      "id": 18,
+      "sha256": "1c492e076dcbe87c408dd0c38604874a926a14660a4274ed9160175f752faef7",
+      "frames": 140,
+      "startFrame": 1726
+    },
+    {
+      "id": 19,
+      "sha256": "73b4b64e11ab67414f634e5dd57c21b817b4ee0e92d850ccad922725d618f1e9",
+      "frames": 67,
+      "startFrame": 1866
+    },
+    {
+      "id": 20,
+      "sha256": "c348f0657615d1326887df2a5dcab77d72dc9c78ecaa5166c56a8f4f43471b7e",
+      "frames": 188,
+      "startFrame": 1933
+    }
+  ],
+  "sourceCutsPreserved": true,
+  "clip15Occurrences": 1,
+  "dialogueAndFoleyRetained": true,
+  "audioSync": [
+    {
+      "rangeSeconds": [
+        1,
+        3
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.8877250563675853
+    },
+    {
+      "rangeSeconds": [
+        8,
+        10
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9515216030360544
+    },
+    {
+      "rangeSeconds": [
+        15,
+        17
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9529064161634525
+    },
+    {
+      "rangeSeconds": [
+        28,
+        31
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9564348476209156
+    },
+    {
+      "rangeSeconds": [
+        48.3,
+        51
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9994153380731762
+    },
+    {
+      "rangeSeconds": [
+        57,
+        60
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9622493574980299
+    },
+    {
+      "rangeSeconds": [
+        69,
+        71.5
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9814176379678698
+    },
+    {
+      "rangeSeconds": [
+        83,
+        86
+      ],
+      "lagMs": 0.0,
+      "correlation": 0.9512216217883066
+    }
+  ],
+  "decodeWithoutErrors": true,
+  "captionElements": 140,
+  "maskedFramesAvailable": true,
+  "independentAudioListening": false,
+  "music": "Funky Martian / Michael Ramir C. / Mixkit 1029",
+  "musicVolumeAutomation": "Film.tsx musicPoints",
+  "visualReview": {
+    "designAlternatives": [
+      "A",
+      "B",
+      "C"
+    ],
+    "hookMaskRejectedForLegibility": true,
+    "sampledSourceFrames": 60,
+    "compositionStills": 44,
+    "prototypeSequence": "stills/prototype-motion.jpg",
+    "finalNativeContacts": {
+      "status": "inspected",
+      "frames": 95,
+      "files": [
+        "stills/final-complete-1.jpg",
+        "stills/final-complete-2.jpg",
+        "stills/final-complete-3.jpg",
+        "stills/final-complete-4.jpg",
+        "stills/final-motion-a.jpg",
+        "stills/final-motion-b.jpg"
+      ]
+    },
+    "normalSpeedPlayback": {
+      "status": "passed",
+      "type": "functional_browser_playback_muted",
+      "speed": 1,
+      "startSeconds": 0,
+      "lastFrameSeconds": 88.333333,
+      "mediaError": null,
+      "droppedFrames": 0,
+      "independentAudioListening": false
+    }
+  },
+  "limitations": [
+    "Local ASR timings with documented editorial repairs, not manual phonetic alignment",
+    "Automatic person segmentation",
+    "Source clip20 contains cropped head during action as noted in provided brief; retained as action shot",
+    "No independent auditory review of music or final mix"
+  ],
+  "review": {
+    "url": "http://127.0.0.1:4318/",
+    "versionId": "1157a9e9-5e30-4fa7-800c-257f1dad1046",
+    "sha256": "852b41ce925222fb8362c4840afb42630f820ae28b35cb5bf9d6238caf00eb90",
+    "ui": {
+      "title": "Cutroom · Mercadillo de agencias",
+      "birdieQuizHidden": true,
+      "exactFrameSeekTest": 1490,
+      "returnedImageSize": [
+        1080,
+        1920
+      ],
+      "resetToStart": true,
+      "readyWithSound": true
+    }
+  },
+  "preservation": {
+    "birdieballsVersions": 8,
+    "birdieballsNotes": 0,
+    "mercadilloVersions": 1,
+    "mercadilloNotes": 0
+  }
+}

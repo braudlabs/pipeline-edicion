@@ -1,0 +1,1852 @@
+[
+  {
+    "from": 3,
+    "to": 21,
+    "words": [
+      {
+        "text": "La",
+        "from": 3,
+        "to": 6
+      },
+      {
+        "text": "IA",
+        "from": 6,
+        "to": 9
+      },
+      {
+        "text": "creativa",
+        "from": 9,
+        "to": 21
+      }
+    ],
+    "emphasis": false,
+    "clip": 1,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 21,
+    "to": 36,
+    "words": [
+      {
+        "text": "debería",
+        "from": 21,
+        "to": 30
+      },
+      {
+        "text": "hacerte",
+        "from": 30,
+        "to": 36
+      }
+    ],
+    "emphasis": false,
+    "clip": 1,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 36,
+    "to": 64,
+    "words": [
+      {
+        "text": "producir",
+        "from": 36,
+        "to": 48
+      },
+      {
+        "text": "más",
+        "from": 48,
+        "to": 52
+      },
+      {
+        "text": "rápido",
+        "from": 52,
+        "to": 61
+      }
+    ],
+    "emphasis": true,
+    "clip": 1,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 66,
+    "to": 73,
+    "words": [
+      {
+        "text": "y",
+        "from": 66,
+        "to": 67
+      },
+      {
+        "text": "te",
+        "from": 67,
+        "to": 70
+      },
+      {
+        "text": "lo",
+        "from": 70,
+        "to": 73
+      }
+    ],
+    "emphasis": false,
+    "clip": 1,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 73,
+    "to": 86,
+    "words": [
+      {
+        "text": "digo",
+        "from": 73,
+        "to": 76
+      },
+      {
+        "text": "yo",
+        "from": 76,
+        "to": 83
+      }
+    ],
+    "emphasis": false,
+    "clip": 1,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 94,
+    "to": 115,
+    "words": [
+      {
+        "text": "que",
+        "from": 94,
+        "to": 98
+      },
+      {
+        "text": "literalmente",
+        "from": 98,
+        "to": 115
+      }
+    ],
+    "emphasis": false,
+    "clip": 1,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 115,
+    "to": 132,
+    "words": [
+      {
+        "text": "soy",
+        "from": 115,
+        "to": 123
+      },
+      {
+        "text": "la",
+        "from": 123,
+        "to": 127
+      },
+      {
+        "text": "prueba",
+        "from": 127,
+        "to": 132
+      }
+    ],
+    "emphasis": true,
+    "clip": 1,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 132,
+    "to": 143,
+    "words": [
+      {
+        "text": "de",
+        "from": 132,
+        "to": 137
+      },
+      {
+        "text": "ello",
+        "from": 137,
+        "to": 141
+      }
+    ],
+    "emphasis": false,
+    "clip": 1,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 145,
+    "to": 154,
+    "words": [
+      {
+        "text": "Pero",
+        "from": 145,
+        "to": 148
+      },
+      {
+        "text": "a",
+        "from": 148,
+        "to": 151
+      },
+      {
+        "text": "mucha",
+        "from": 151,
+        "to": 154
+      }
+    ],
+    "emphasis": false,
+    "clip": 2,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 154,
+    "to": 169,
+    "words": [
+      {
+        "text": "gente",
+        "from": 154,
+        "to": 162
+      },
+      {
+        "text": "le",
+        "from": 162,
+        "to": 165
+      },
+      {
+        "text": "está",
+        "from": 165,
+        "to": 169
+      }
+    ],
+    "emphasis": false,
+    "clip": 2,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 169,
+    "to": 190,
+    "words": [
+      {
+        "text": "pasando",
+        "from": 169,
+        "to": 177
+      },
+      {
+        "text": "exactamente",
+        "from": 177,
+        "to": 190
+      }
+    ],
+    "emphasis": false,
+    "clip": 2,
+    "fontSize": 78,
+    "keywordSize": 145
+  },
+  {
+    "from": 190,
+    "to": 217,
+    "words": [
+      {
+        "text": "lo",
+        "from": 190,
+        "to": 207
+      },
+      {
+        "text": "contrario",
+        "from": 207,
+        "to": 214
+      }
+    ],
+    "emphasis": true,
+    "clip": 2,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 220,
+    "to": 246,
+    "words": [
+      {
+        "text": "Abres",
+        "from": 220,
+        "to": 232
+      },
+      {
+        "text": "una",
+        "from": 232,
+        "to": 236
+      },
+      {
+        "text": "app",
+        "from": 236,
+        "to": 243
+      }
+    ],
+    "emphasis": false,
+    "clip": 3,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 249,
+    "to": 265,
+    "words": [
+      {
+        "text": "generas",
+        "from": 249,
+        "to": 262
+      }
+    ],
+    "emphasis": true,
+    "clip": 3,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 265,
+    "to": 282,
+    "words": [
+      {
+        "text": "no",
+        "from": 265,
+        "to": 268
+      },
+      {
+        "text": "sale",
+        "from": 268,
+        "to": 272
+      },
+      {
+        "text": "bien",
+        "from": 272,
+        "to": 279
+      }
+    ],
+    "emphasis": true,
+    "clip": 3,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 288,
+    "to": 311,
+    "words": [
+      {
+        "text": "vuelves",
+        "from": 288,
+        "to": 293
+      },
+      {
+        "text": "a",
+        "from": 293,
+        "to": 296
+      },
+      {
+        "text": "generar",
+        "from": 296,
+        "to": 308
+      }
+    ],
+    "emphasis": true,
+    "clip": 3,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 312,
+    "to": 331,
+    "words": [
+      {
+        "text": "cambias",
+        "from": 312,
+        "to": 318
+      },
+      {
+        "text": "el",
+        "from": 318,
+        "to": 321
+      },
+      {
+        "text": "prompt",
+        "from": 321,
+        "to": 328
+      }
+    ],
+    "emphasis": true,
+    "clip": 3,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 334,
+    "to": 354,
+    "words": [
+      {
+        "text": "pruebas",
+        "from": 334,
+        "to": 342
+      },
+      {
+        "text": "otra",
+        "from": 342,
+        "to": 347
+      },
+      {
+        "text": "app",
+        "from": 347,
+        "to": 353
+      }
+    ],
+    "emphasis": false,
+    "clip": 3,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 356,
+    "to": 362,
+    "words": [
+      {
+        "text": "Y",
+        "from": 356,
+        "to": 358
+      },
+      {
+        "text": "cuando",
+        "from": 358,
+        "to": 362
+      }
+    ],
+    "emphasis": false,
+    "clip": 4,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 362,
+    "to": 376,
+    "words": [
+      {
+        "text": "por",
+        "from": 362,
+        "to": 367
+      },
+      {
+        "text": "fin",
+        "from": 367,
+        "to": 370
+      },
+      {
+        "text": "tienes",
+        "from": 370,
+        "to": 376
+      }
+    ],
+    "emphasis": false,
+    "clip": 4,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 376,
+    "to": 388,
+    "words": [
+      {
+        "text": "algo",
+        "from": 376,
+        "to": 380
+      },
+      {
+        "text": "que",
+        "from": 380,
+        "to": 383
+      },
+      {
+        "text": "puedes",
+        "from": 383,
+        "to": 388
+      }
+    ],
+    "emphasis": false,
+    "clip": 4,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 388,
+    "to": 404,
+    "words": [
+      {
+        "text": "utilizar",
+        "from": 388,
+        "to": 401
+      }
+    ],
+    "emphasis": false,
+    "clip": 4,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 407,
+    "to": 427,
+    "words": [
+      {
+        "text": "has",
+        "from": 407,
+        "to": 409
+      },
+      {
+        "text": "gastado",
+        "from": 409,
+        "to": 420
+      },
+      {
+        "text": "horas",
+        "from": 420,
+        "to": 427
+      }
+    ],
+    "emphasis": true,
+    "clip": 4,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 427,
+    "to": 444,
+    "words": [
+      {
+        "text": "y",
+        "from": 427,
+        "to": 437
+      },
+      {
+        "text": "un",
+        "from": 437,
+        "to": 439
+      },
+      {
+        "text": "montón",
+        "from": 439,
+        "to": 444
+      }
+    ],
+    "emphasis": false,
+    "clip": 4,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 444,
+    "to": 460,
+    "words": [
+      {
+        "text": "de",
+        "from": 444,
+        "to": 448
+      },
+      {
+        "text": "créditos",
+        "from": 448,
+        "to": 457
+      }
+    ],
+    "emphasis": true,
+    "clip": 4,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 462,
+    "to": 471,
+    "words": [
+      {
+        "text": "Eso",
+        "from": 462,
+        "to": 465
+      },
+      {
+        "text": "puede",
+        "from": 465,
+        "to": 471
+      }
+    ],
+    "emphasis": false,
+    "clip": 5,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 471,
+    "to": 480,
+    "words": [
+      {
+        "text": "dar",
+        "from": 471,
+        "to": 474
+      },
+      {
+        "text": "igual",
+        "from": 474,
+        "to": 480
+      }
+    ],
+    "emphasis": false,
+    "clip": 5,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 480,
+    "to": 498,
+    "words": [
+      {
+        "text": "si",
+        "from": 480,
+        "to": 485
+      },
+      {
+        "text": "estás",
+        "from": 485,
+        "to": 488
+      },
+      {
+        "text": "jugando",
+        "from": 488,
+        "to": 498
+      }
+    ],
+    "emphasis": false,
+    "clip": 5,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 498,
+    "to": 513,
+    "words": [
+      {
+        "text": "con",
+        "from": 498,
+        "to": 502
+      },
+      {
+        "text": "IA",
+        "from": 502,
+        "to": 513
+      }
+    ],
+    "emphasis": false,
+    "clip": 5,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 513,
+    "to": 541,
+    "words": [
+      {
+        "text": "por",
+        "from": 513,
+        "to": 524
+      },
+      {
+        "text": "curiosidad",
+        "from": 524,
+        "to": 538
+      }
+    ],
+    "emphasis": true,
+    "clip": 5,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 543,
+    "to": 554,
+    "words": [
+      {
+        "text": "Pero",
+        "from": 543,
+        "to": 546
+      },
+      {
+        "text": "si",
+        "from": 546,
+        "to": 549
+      },
+      {
+        "text": "tienes",
+        "from": 549,
+        "to": 554
+      }
+    ],
+    "emphasis": false,
+    "clip": 6,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 554,
+    "to": 571,
+    "words": [
+      {
+        "text": "una",
+        "from": 554,
+        "to": 558
+      },
+      {
+        "text": "agencia",
+        "from": 558,
+        "to": 568
+      }
+    ],
+    "emphasis": true,
+    "clip": 6,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 571,
+    "to": 580,
+    "words": [
+      {
+        "text": "una",
+        "from": 571,
+        "to": 573
+      },
+      {
+        "text": "marca",
+        "from": 573,
+        "to": 580
+      }
+    ],
+    "emphasis": true,
+    "clip": 6,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 580,
+    "to": 601,
+    "words": [
+      {
+        "text": "o",
+        "from": 580,
+        "to": 585
+      },
+      {
+        "text": "produces",
+        "from": 585,
+        "to": 592
+      },
+      {
+        "text": "contenido",
+        "from": 592,
+        "to": 601
+      }
+    ],
+    "emphasis": false,
+    "clip": 6,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 601,
+    "to": 624,
+    "words": [
+      {
+        "text": "para",
+        "from": 601,
+        "to": 607
+      },
+      {
+        "text": "clientes",
+        "from": 607,
+        "to": 621
+      }
+    ],
+    "emphasis": true,
+    "clip": 6,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 626,
+    "to": 651,
+    "words": [
+      {
+        "text": "cada",
+        "from": 626,
+        "to": 629
+      },
+      {
+        "text": "generación",
+        "from": 629,
+        "to": 641
+      },
+      {
+        "text": "fallada",
+        "from": 641,
+        "to": 651
+      }
+    ],
+    "emphasis": true,
+    "clip": 6,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 651,
+    "to": 666,
+    "words": [
+      {
+        "text": "es",
+        "from": 651,
+        "to": 658
+      },
+      {
+        "text": "dinero",
+        "from": 658,
+        "to": 666
+      }
+    ],
+    "emphasis": true,
+    "clip": 6,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 666,
+    "to": 680,
+    "words": [
+      {
+        "text": "y",
+        "from": 666,
+        "to": 673
+      },
+      {
+        "text": "tiempo",
+        "from": 673,
+        "to": 680
+      }
+    ],
+    "emphasis": true,
+    "clip": 6,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 680,
+    "to": 701,
+    "words": [
+      {
+        "text": "que",
+        "from": 680,
+        "to": 684
+      },
+      {
+        "text": "estás",
+        "from": 684,
+        "to": 688
+      },
+      {
+        "text": "tirando",
+        "from": 688,
+        "to": 698
+      }
+    ],
+    "emphasis": false,
+    "clip": 6,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 703,
+    "to": 716,
+    "words": [
+      {
+        "text": "El",
+        "from": 703,
+        "to": 706
+      },
+      {
+        "text": "problema",
+        "from": 706,
+        "to": 716
+      }
+    ],
+    "emphasis": true,
+    "clip": 7,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 716,
+    "to": 739,
+    "words": [
+      {
+        "text": "no",
+        "from": 716,
+        "to": 727
+      },
+      {
+        "text": "es",
+        "from": 727,
+        "to": 729
+      },
+      {
+        "text": "simplemente",
+        "from": 729,
+        "to": 739
+      }
+    ],
+    "emphasis": false,
+    "clip": 7,
+    "fontSize": 78,
+    "keywordSize": 146
+  },
+  {
+    "from": 739,
+    "to": 783,
+    "words": [
+      {
+        "text": "qué",
+        "from": 739,
+        "to": 749
+      },
+      {
+        "text": "herramienta",
+        "from": 749,
+        "to": 763
+      },
+      {
+        "text": "utilizas",
+        "from": 763,
+        "to": 780
+      }
+    ],
+    "emphasis": false,
+    "clip": 7,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 797,
+    "to": 805,
+    "words": [
+      {
+        "text": "Es",
+        "from": 797,
+        "to": 800
+      },
+      {
+        "text": "saber",
+        "from": 800,
+        "to": 805
+      }
+    ],
+    "emphasis": false,
+    "clip": 8,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 805,
+    "to": 824,
+    "words": [
+      {
+        "text": "qué",
+        "from": 805,
+        "to": 809
+      },
+      {
+        "text": "proceso",
+        "from": 809,
+        "to": 816
+      },
+      {
+        "text": "seguir",
+        "from": 816,
+        "to": 824
+      }
+    ],
+    "emphasis": false,
+    "clip": 8,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 824,
+    "to": 835,
+    "words": [
+      {
+        "text": "para",
+        "from": 824,
+        "to": 831
+      },
+      {
+        "text": "llegar",
+        "from": 831,
+        "to": 835
+      }
+    ],
+    "emphasis": false,
+    "clip": 8,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 835,
+    "to": 848,
+    "words": [
+      {
+        "text": "al",
+        "from": 835,
+        "to": 839
+      },
+      {
+        "text": "resultado",
+        "from": 839,
+        "to": 848
+      }
+    ],
+    "emphasis": true,
+    "clip": 8,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 848,
+    "to": 861,
+    "words": [
+      {
+        "text": "que",
+        "from": 848,
+        "to": 852
+      },
+      {
+        "text": "buscas",
+        "from": 852,
+        "to": 861
+      }
+    ],
+    "emphasis": false,
+    "clip": 8,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 861,
+    "to": 883,
+    "words": [
+      {
+        "text": "con",
+        "from": 861,
+        "to": 872
+      },
+      {
+        "text": "muchas",
+        "from": 872,
+        "to": 878
+      },
+      {
+        "text": "menos",
+        "from": 878,
+        "to": 883
+      }
+    ],
+    "emphasis": false,
+    "clip": 8,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 883,
+    "to": 900,
+    "words": [
+      {
+        "text": "iteraciones",
+        "from": 883,
+        "to": 897
+      }
+    ],
+    "emphasis": true,
+    "clip": 8,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 901,
+    "to": 921,
+    "words": [
+      {
+        "text": "Nosotros",
+        "from": 901,
+        "to": 909
+      },
+      {
+        "text": "llevamos",
+        "from": 909,
+        "to": 916
+      },
+      {
+        "text": "meses",
+        "from": 916,
+        "to": 921
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 74,
+    "keywordSize": 148
+  },
+  {
+    "from": 921,
+    "to": 947,
+    "words": [
+      {
+        "text": "trabajando",
+        "from": 921,
+        "to": 930
+      },
+      {
+        "text": "de",
+        "from": 930,
+        "to": 936
+      },
+      {
+        "text": "esta",
+        "from": 936,
+        "to": 940
+      },
+      {
+        "text": "forma",
+        "from": 940,
+        "to": 947
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 75,
+    "keywordSize": 148
+  },
+  {
+    "from": 947,
+    "to": 966,
+    "words": [
+      {
+        "text": "y",
+        "from": 947,
+        "to": 952
+      },
+      {
+        "text": "hemos",
+        "from": 952,
+        "to": 955
+      },
+      {
+        "text": "utilizado",
+        "from": 955,
+        "to": 966
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 966,
+    "to": 979,
+    "words": [
+      {
+        "text": "estos",
+        "from": 966,
+        "to": 970
+      },
+      {
+        "text": "sistemas",
+        "from": 970,
+        "to": 979
+      }
+    ],
+    "emphasis": true,
+    "clip": 9,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 979,
+    "to": 1006,
+    "words": [
+      {
+        "text": "para",
+        "from": 979,
+        "to": 986
+      },
+      {
+        "text": "crear",
+        "from": 986,
+        "to": 993
+      },
+      {
+        "text": "y",
+        "from": 993,
+        "to": 996
+      },
+      {
+        "text": "escalar",
+        "from": 996,
+        "to": 1006
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1006,
+    "to": 1039,
+    "words": [
+      {
+        "text": "dos",
+        "from": 1006,
+        "to": 1017
+      },
+      {
+        "text": "cuentas",
+        "from": 1017,
+        "to": 1027
+      },
+      {
+        "text": "completas",
+        "from": 1027,
+        "to": 1039
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1039,
+    "to": 1062,
+    "words": [
+      {
+        "text": "basadas",
+        "from": 1039,
+        "to": 1048
+      },
+      {
+        "text": "en",
+        "from": 1048,
+        "to": 1054
+      },
+      {
+        "text": "avatares",
+        "from": 1054,
+        "to": 1062
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1062,
+    "to": 1085,
+    "words": [
+      {
+        "text": "generados",
+        "from": 1062,
+        "to": 1072
+      },
+      {
+        "text": "con",
+        "from": 1072,
+        "to": 1079
+      },
+      {
+        "text": "IA",
+        "from": 1079,
+        "to": 1082
+      }
+    ],
+    "emphasis": false,
+    "clip": 9,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1088,
+    "to": 1106,
+    "words": [
+      {
+        "text": "Por",
+        "from": 1088,
+        "to": 1090
+      },
+      {
+        "text": "eso",
+        "from": 1090,
+        "to": 1095
+      },
+      {
+        "text": "creamos",
+        "from": 1095,
+        "to": 1106
+      }
+    ],
+    "emphasis": false,
+    "clip": 10,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1106,
+    "to": 1126,
+    "words": [
+      {
+        "text": "Visual",
+        "from": 1106,
+        "to": 1115
+      },
+      {
+        "text": "Hub",
+        "from": 1115,
+        "to": 1123
+      }
+    ],
+    "emphasis": false,
+    "clip": 10,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1135,
+    "to": 1148,
+    "words": [
+      {
+        "text": "Dentro",
+        "from": 1135,
+        "to": 1139
+      },
+      {
+        "text": "encontrarás",
+        "from": 1139,
+        "to": 1148
+      }
+    ],
+    "emphasis": false,
+    "clip": 11,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1148,
+    "to": 1166,
+    "words": [
+      {
+        "text": "plantillas",
+        "from": 1148,
+        "to": 1157
+      },
+      {
+        "text": "y",
+        "from": 1157,
+        "to": 1160
+      },
+      {
+        "text": "sistemas",
+        "from": 1160,
+        "to": 1166
+      }
+    ],
+    "emphasis": true,
+    "clip": 11,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 1166,
+    "to": 1186,
+    "words": [
+      {
+        "text": "listos",
+        "from": 1166,
+        "to": 1174
+      },
+      {
+        "text": "para",
+        "from": 1174,
+        "to": 1177
+      },
+      {
+        "text": "utilizar",
+        "from": 1177,
+        "to": 1186
+      }
+    ],
+    "emphasis": false,
+    "clip": 11,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1186,
+    "to": 1205,
+    "words": [
+      {
+        "text": "y",
+        "from": 1186,
+        "to": 1192
+      },
+      {
+        "text": "enseñamos",
+        "from": 1192,
+        "to": 1201
+      },
+      {
+        "text": "cómo",
+        "from": 1201,
+        "to": 1205
+      }
+    ],
+    "emphasis": false,
+    "clip": 11,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1205,
+    "to": 1226,
+    "words": [
+      {
+        "text": "trabajamos",
+        "from": 1205,
+        "to": 1216
+      },
+      {
+        "text": "realmente",
+        "from": 1216,
+        "to": 1223
+      }
+    ],
+    "emphasis": false,
+    "clip": 11,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1236,
+    "to": 1249,
+    "words": [
+      {
+        "text": "Cómo",
+        "from": 1236,
+        "to": 1240
+      },
+      {
+        "text": "planteamos",
+        "from": 1240,
+        "to": 1249
+      }
+    ],
+    "emphasis": false,
+    "clip": 12,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1249,
+    "to": 1267,
+    "words": [
+      {
+        "text": "las",
+        "from": 1249,
+        "to": 1252
+      },
+      {
+        "text": "generaciones",
+        "from": 1252,
+        "to": 1264
+      }
+    ],
+    "emphasis": false,
+    "clip": 12,
+    "fontSize": 78,
+    "keywordSize": 139
+  },
+  {
+    "from": 1268,
+    "to": 1281,
+    "words": [
+      {
+        "text": "cómo",
+        "from": 1268,
+        "to": 1271
+      },
+      {
+        "text": "conseguimos",
+        "from": 1271,
+        "to": 1281
+      }
+    ],
+    "emphasis": false,
+    "clip": 12,
+    "fontSize": 78,
+    "keywordSize": 141
+  },
+  {
+    "from": 1281,
+    "to": 1299,
+    "words": [
+      {
+        "text": "consistencia",
+        "from": 1281,
+        "to": 1296
+      }
+    ],
+    "emphasis": true,
+    "clip": 12,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 1301,
+    "to": 1311,
+    "words": [
+      {
+        "text": "cómo",
+        "from": 1301,
+        "to": 1304
+      },
+      {
+        "text": "evitamos",
+        "from": 1304,
+        "to": 1311
+      }
+    ],
+    "emphasis": false,
+    "clip": 12,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1311,
+    "to": 1334,
+    "words": [
+      {
+        "text": "resultados",
+        "from": 1311,
+        "to": 1317
+      },
+      {
+        "text": "artificiales",
+        "from": 1317,
+        "to": 1334
+      }
+    ],
+    "emphasis": true,
+    "clip": 12,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 1334,
+    "to": 1350,
+    "words": [
+      {
+        "text": "y",
+        "from": 1334,
+        "to": 1336
+      },
+      {
+        "text": "cómo",
+        "from": 1336,
+        "to": 1339
+      },
+      {
+        "text": "reducimos",
+        "from": 1339,
+        "to": 1350
+      }
+    ],
+    "emphasis": false,
+    "clip": 12,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1350,
+    "to": 1357,
+    "words": [
+      {
+        "text": "todo",
+        "from": 1350,
+        "to": 1353
+      },
+      {
+        "text": "ese",
+        "from": 1353,
+        "to": 1357
+      }
+    ],
+    "emphasis": false,
+    "clip": 12,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1357,
+    "to": 1370,
+    "words": [
+      {
+        "text": "prueba",
+        "from": 1357,
+        "to": 1361
+      },
+      {
+        "text": "y",
+        "from": 1361,
+        "to": 1364
+      },
+      {
+        "text": "error",
+        "from": 1364,
+        "to": 1367
+      }
+    ],
+    "emphasis": true,
+    "clip": 12,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 1373,
+    "to": 1394,
+    "words": [
+      {
+        "text": "Está",
+        "from": 1373,
+        "to": 1377
+      },
+      {
+        "text": "pensado",
+        "from": 1377,
+        "to": 1394
+      },
+      {
+        "text": "especialmente",
+        "from": 1394,
+        "to": 1395
+      }
+    ],
+    "emphasis": false,
+    "clip": 13,
+    "fontSize": 66,
+    "keywordSize": 129
+  },
+  {
+    "from": 1394,
+    "to": 1410,
+    "words": [
+      {
+        "text": "para",
+        "from": 1394,
+        "to": 1403
+      },
+      {
+        "text": "personas",
+        "from": 1403,
+        "to": 1410
+      }
+    ],
+    "emphasis": false,
+    "clip": 13,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1410,
+    "to": 1427,
+    "words": [
+      {
+        "text": "que",
+        "from": 1410,
+        "to": 1414
+      },
+      {
+        "text": "quieren",
+        "from": 1414,
+        "to": 1418
+      },
+      {
+        "text": "utilizar",
+        "from": 1418,
+        "to": 1427
+      }
+    ],
+    "emphasis": false,
+    "clip": 13,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1427,
+    "to": 1447,
+    "words": [
+      {
+        "text": "IA",
+        "from": 1427,
+        "to": 1436
+      },
+      {
+        "text": "creativa",
+        "from": 1436,
+        "to": 1447
+      }
+    ],
+    "emphasis": false,
+    "clip": 13,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1447,
+    "to": 1468,
+    "words": [
+      {
+        "text": "dentro",
+        "from": 1447,
+        "to": 1451
+      },
+      {
+        "text": "de",
+        "from": 1451,
+        "to": 1456
+      },
+      {
+        "text": "un",
+        "from": 1456,
+        "to": 1458
+      },
+      {
+        "text": "negocio",
+        "from": 1458,
+        "to": 1468
+      }
+    ],
+    "emphasis": true,
+    "clip": 13,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 1468,
+    "to": 1490,
+    "words": [
+      {
+        "text": "o",
+        "from": 1468,
+        "to": 1472
+      },
+      {
+        "text": "con",
+        "from": 1472,
+        "to": 1476
+      },
+      {
+        "text": "clientes",
+        "from": 1476,
+        "to": 1487
+      }
+    ],
+    "emphasis": true,
+    "clip": 13,
+    "fontSize": 62,
+    "keywordSize": 148
+  },
+  {
+    "from": 1494,
+    "to": 1507,
+    "words": [
+      {
+        "text": "Puedes",
+        "from": 1494,
+        "to": 1500
+      },
+      {
+        "text": "entrar",
+        "from": 1500,
+        "to": 1507
+      }
+    ],
+    "emphasis": false,
+    "clip": 14,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1507,
+    "to": 1528,
+    "words": [
+      {
+        "text": "a",
+        "from": 1507,
+        "to": 1513
+      },
+      {
+        "text": "Visual",
+        "from": 1513,
+        "to": 1519
+      },
+      {
+        "text": "Hub",
+        "from": 1519,
+        "to": 1528
+      }
+    ],
+    "emphasis": false,
+    "clip": 14,
+    "fontSize": 78,
+    "keywordSize": 148
+  },
+  {
+    "from": 1528,
+    "to": 1570,
+    "words": [
+      {
+        "text": "por",
+        "from": 1528,
+        "to": 1540
+      },
+      {
+        "text": "39",
+        "from": 1540,
+        "to": 1553
+      },
+      {
+        "text": "dólares",
+        "from": 1553,
+        "to": 1567
+      }
+    ],
+    "emphasis": false,
+    "clip": 14,
+    "fontSize": 78,
+    "keywordSize": 148
+  }
+]

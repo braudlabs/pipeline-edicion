@@ -1,0 +1,3238 @@
+{
+ "schema": 1,
+ "revision": 1,
+ "liveRevision": 0,
+ "brand": {
+  "name": "BRAUD",
+  "accent": "#367dff"
+ },
+ "clients": [
+  {
+   "id": "braud",
+   "name": "BRAUD",
+   "createdAt": "2026-10-15T08:00:00.000Z",
+   "materials": [],
+   "context": [
+    {
+     "id": "c-business",
+     "kind": "business",
+     "title": "Instalación de IA creativa",
+     "content": "Integramos la producción creativa con IA en el negocio en 8 semanas. No es una agencia: el sistema se queda en la tienda y lo pilota su equipo.",
+     "status": "confirmed",
+     "source": "Guía comercial y landing de BRAUD",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-objective",
+     "kind": "objective",
+     "title": "Llamadas con dueños de ecommerce",
+     "content": "Cada pieza de captación lleva a reservar una llamada; si hay encaje se dice, y si no, también.",
+     "status": "confirmed",
+     "source": "Guía comercial y landing de BRAUD",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-product",
+     "kind": "product",
+     "title": "Qué incluye",
+     "content": "Instalación con la marca del cliente, tres creativos iniciales, formación de quien lo va a dirigir y seguimiento en las semanas 4 y 8.",
+     "status": "confirmed",
+     "source": "Guía comercial y landing de BRAUD",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-audience",
+     "kind": "audience",
+     "title": "Dueños de ecommerce en Meta",
+     "content": "Producto propio e inversión en Meta. «Se me queman antes de poder reponerlos», «dependo de editores o agencias», «el cuello de botella soy yo».",
+     "status": "confirmed",
+     "source": "Guía comercial y landing de BRAUD",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-identity",
+     "kind": "identity",
+     "title": "Identidad",
+     "content": "#367DFF · #101214 · #F1F4F8. Vidrio, luz suave y tipografía limpia.",
+     "status": "confirmed",
+     "source": "Studio",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-tone",
+     "kind": "tone",
+     "title": "Voz",
+     "content": "Tuteo, frases cortas y afirmativas. Humor seco con algún taco; seriedad al hablar de criterio.",
+     "status": "confirmed",
+     "source": "Guía comercial y landing de BRAUD",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-production",
+     "kind": "production",
+     "title": "Cómo producimos",
+     "content": "9:16 para Meta. Fotografía práctica, textura de iPhone. Voz en off que entra de golpe y audio nativo de los clips.",
+     "status": "confirmed",
+     "source": "Preferencias de producción",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    },
+    {
+     "id": "c-learning",
+     "kind": "learning",
+     "title": "Hook rate en nuestras cuentas",
+     "content": "50,7 % de media sobre 4 M de impresiones (lanzamiento, junio de 2026), frente al 25–35 % habitual en frío.",
+     "status": "confirmed",
+     "source": "resultados.html · Administrador de anuncios",
+     "createdAt": "2026-10-14T09:00:00.000Z",
+     "updatedAt": "2026-10-14T09:00:00.000Z"
+    }
+   ]
+  },
+  {
+   "id": "ecommerce",
+   "name": "Marca de muestra",
+   "createdAt": "2026-10-15T08:00:00.000Z",
+   "materials": [],
+   "context": []
+  }
+ ],
+ "pieces": [
+  {
+   "id": "andromeda",
+   "title": "Andrómeda pide más.",
+   "brand": "BRAUD",
+   "format": "9:16",
+   "brief": "Anuncio para dueños de ecommerce que invierten en Meta. Un pequeño mundo absurdo con lógica física: el azul es la demanda insaciable de Meta; el protagonista, el dueño que pasa del miedo al control. Humor seco. CTA: reservar una llamada.",
+   "kind": "video",
+   "style": "Fotografía práctica con textura de iPhone; azul, crema y morado.",
+   "audioMode": "off",
+   "mode": "detailed",
+   "audioId": "AUD-narrador",
+   "clientId": "braud",
+   "createdAt": "2026-10-14T14:00:00.000Z",
+   "notes": [],
+   "chat": [],
+   "chatJobs": [],
+   "memoryRecords": [],
+   "activity": [],
+   "agent": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "medium"
+   },
+   "primaryConversationId": "chat-andromeda",
+   "script": [
+    {
+     "id": "line-1",
+     "text": "Si eres dueño de un ecommerce ya sabes que con Andrómeda necesitas anuncios nuevos cada semana.",
+     "start": 0.12,
+     "end": 5.42,
+     "direction": "Narrador cercano y seco; la voz entra de golpe."
+    },
+    {
+     "id": "line-2",
+     "text": "Y sabes que de la forma tradicional es la misma mierda de siempre: días y días para que el editor o una agencia te entregue las piezas.",
+     "start": 5.42,
+     "end": 14.58,
+     "direction": ""
+    },
+    {
+     "id": "line-3",
+     "text": "Quieres testear un nuevo ángulo y necesitas semanas para ver el fruto de eso",
+     "start": 14.58,
+     "end": 18.75,
+     "direction": ""
+    },
+    {
+     "id": "line-4",
+     "text": "y durante todo ese proceso ya se te han caído los ads antiguos",
+     "start": 18.75,
+     "end": 23.0,
+     "direction": ""
+    },
+    {
+     "id": "line-5",
+     "text": "y venga a repetir otra puta vez.",
+     "start": 23.0,
+     "end": 25.42,
+     "direction": ""
+    },
+    {
+     "id": "line-6",
+     "text": "No vengo a hablarte de tu problema, ya tienes suficiente con eso y con la sudadera de este tío. Vengo a hablarte de la solución.",
+     "start": 25.42,
+     "end": 32.58,
+     "direction": ""
+    },
+    {
+     "id": "line-7",
+     "text": "Instalaremos en tu tienda esta maquinita;",
+     "start": 32.58,
+     "end": 35.0,
+     "direction": ""
+    },
+    {
+     "id": "line-8",
+     "text": "le pedirás 5 ads para un concepto nuevo, te los dará,",
+     "start": 35.0,
+     "end": 38.33,
+     "direction": ""
+    },
+    {
+     "id": "line-9",
+     "text": "luego le pedirás que los gestione en las campañas él mismo, te lo hará",
+     "start": 38.33,
+     "end": 42.58,
+     "direction": ""
+    },
+    {
+     "id": "line-10",
+     "text": "y luego te dirá: «Hey, estos dos ángulos han funcionado espectacular, ¿quieres que te empiece a generar más versiones?» Y tú le dirás «Sí» y escalarás.",
+     "start": 42.58,
+     "end": 51.54,
+     "direction": ""
+    },
+    {
+     "id": "line-11",
+     "text": "Pero eh, que si metes ideas de mierda sacarás el doble de mierda,",
+     "start": 51.54,
+     "end": 55.83,
+     "direction": ""
+    },
+    {
+     "id": "line-12",
+     "text": "pero para eso están el melenas y el cabeza kiwi, que llevan haciendo estos ads con IA meses y meses",
+     "start": 55.83,
+     "end": 61.58,
+     "direction": ""
+    },
+    {
+     "id": "line-13",
+     "text": "e instalarán en tu tienda el criterio que necesitas para hacer este tipo de ads,",
+     "start": 61.58,
+     "end": 66.04,
+     "direction": ""
+    },
+    {
+     "id": "line-14",
+     "text": "para que no estés solo contra una máquina que te puede llenar la habitación de creativos.",
+     "start": 66.04,
+     "end": 70.04,
+     "direction": ""
+    },
+    {
+     "id": "line-15",
+     "text": "Me olvidaba, este mismo ad lo ha hecho la maquinita de la que te hablo,",
+     "start": 70.04,
+     "end": 74.42,
+     "direction": ""
+    },
+    {
+     "id": "line-16",
+     "text": "así que si la quieres: pincha abajo y reserva una llamada con nosotros. Veremos si tiene encaje para ti; si lo tiene, te lo diremos y si no, también.",
+     "start": 74.42,
+     "end": 82.96,
+     "direction": ""
+    },
+    {
+     "id": "line-17",
+     "text": "Me voy que quiero seguir produciendo ads.",
+     "start": 82.96,
+     "end": 85.39,
+     "direction": ""
+    }
+   ],
+   "scenes": [
+    {
+     "id": "s01",
+     "title": "El susurro",
+     "lineId": "line-1",
+     "intent": "El azul susurra al oído del protagonista: «Más anuncios. Más.». Él, rígido de miedo, mira a cámara. Las fotos del fondo quietas; acercamiento final al miedo.",
+     "duration": 5,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V00b",
+     "timeline": {
+      "assetId": "V00b",
+      "start": 0.0,
+      "in": 0,
+      "out": 5.417,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V00a",
+       "label": "v1 · Movimiento falso de las cartas",
+       "status": "rejected",
+       "feedback": ""
+      },
+      {
+       "assetId": "V00b",
+       "label": "v2 · Susurro con lipsync",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s02",
+     "title": "La ventanilla",
+     "lineId": "line-2",
+     "intent": "Entrega de carpeta, persiana que se cierra, banco con distintas posturas por corte y una pieza mínima. Los estados de espera son el remate a «días y días».",
+     "duration": 9,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V01",
+     "timeline": {
+      "assetId": "V01",
+      "start": 5.417,
+      "in": 0,
+      "out": 9.167,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V01",
+       "label": "v1 · Esperas por corte",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s03",
+     "title": "El ticket",
+     "lineId": "line-3",
+     "intent": "Pide un pequeño cambio y la máquina dispensa un ticket absurdamente largo que cae por gravedad. Llega la reacción del protagonista.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V02",
+     "timeline": {
+      "assetId": "V02",
+      "start": 14.584,
+      "in": 0.5,
+      "out": 4.667,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V02",
+       "label": "v1 · Ticket infinito",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s04",
+     "title": "Ads apagados",
+     "lineId": "line-4",
+     "intent": "Tres pantallas se apagan mientras siguen esperando. El último apagado y la reacción del azul son el remate.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V03",
+     "timeline": {
+      "assetId": "V03",
+      "start": 18.751,
+      "in": 0,
+      "out": 4.25,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V03",
+       "label": "v1 · Tres apagados",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s05",
+     "title": "Otra vez",
+     "lineId": "line-5",
+     "intent": "Otra bobina de ticket; el protagonista vuelve a mirar a cámara, harto.",
+     "duration": 2,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V03b",
+     "timeline": {
+      "assetId": "V03b",
+      "start": 23.001,
+      "in": 0,
+      "out": 2.417,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V03b",
+       "label": "v1 · Bobina nueva",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s06",
+     "title": "El giro",
+     "lineId": "line-6",
+     "intent": "Empieza quieto para escuchar «No vengo a hablarte de tu problema». En «solución» se endereza y mira hacia donde estará la máquina.",
+     "duration": 7,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V04",
+     "timeline": {
+      "assetId": "V04",
+      "start": 25.418,
+      "in": 0,
+      "out": 7.167,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V04",
+       "label": "v1 · Hacia la solución",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s07",
+     "title": "La maquinita",
+     "lineId": "line-7",
+     "intent": "Coloca la máquina crema sobre el mostrador: pantalla negra inclinada, base crema, botón naranja, ratón y cable.",
+     "duration": 2,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V05",
+     "timeline": {
+      "assetId": "V05",
+      "start": 32.585,
+      "in": 0,
+      "out": 2.417,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V05",
+       "label": "v1 · Presentación",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s08",
+     "title": "Cinco ads",
+     "lineId": "line-8",
+     "intent": "Ambos protagonistas y la maquinita: la interfaz BRAUD solo dentro de la pantalla, reproductor grande y lista de cinco versiones de vídeo.",
+     "duration": 3,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V06d",
+     "timeline": {
+      "assetId": "V06d",
+      "start": 35.002,
+      "in": 0,
+      "out": 3.333,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V06a",
+       "label": "v1 · Miniaturas estáticas",
+       "status": "rejected",
+       "feedback": ""
+      },
+      {
+       "assetId": "V06b",
+       "label": "v2 · Demo sobre blanco",
+       "status": "rejected",
+       "feedback": ""
+      },
+      {
+       "assetId": "V06c",
+       "label": "v4 · Reparación de pantalla",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V06d",
+       "label": "v5 · Cinco vídeos",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s09",
+     "title": "A campañas",
+     "lineId": "line-9",
+     "intent": "Misma máquina e interfaz: los cinco anuncios pasan a campañas. Sin resultados numéricos inventados.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V07c",
+     "timeline": {
+      "assetId": "V07c",
+      "start": 38.335,
+      "in": 0,
+      "out": 4.25,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V07a",
+       "label": "v2 · Campañas",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V07b",
+       "label": "v3 · Campañas",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V07c",
+       "label": "Corte · Campañas",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s10",
+     "title": "Escalar",
+     "lineId": "line-10",
+     "intent": "«Estos dos ángulos han funcionado espectacular»: demostración clara y control. Él dice que sí y escala.",
+     "duration": 9,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V08b",
+     "timeline": {
+      "assetId": "V08b",
+      "start": 42.585,
+      "in": 0,
+      "out": 8.958,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V08a",
+       "label": "v2 · Optimización",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V08b",
+       "label": "v3 · Gag",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s11",
+     "title": "Doble basura",
+     "lineId": "line-11",
+     "intent": "Borrador arrugado que el azul mete en una lavadora y vuelve duplicado; reacción seria. Metáfora de una mala idea.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V09b",
+     "timeline": {
+      "assetId": "V09b",
+      "start": 51.543,
+      "in": 0,
+      "out": 4.292,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V09a",
+       "label": "v1 · Lavadora",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V09b",
+       "label": "v2 · Lavadora",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s12",
+     "title": "Los fundadores",
+     "lineId": "line-12",
+     "intent": "Melenas y cabeza kiwi, con sus referencias propias. Personas reales y criterio: bajar ruido, dar credibilidad.",
+     "duration": 6,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V10",
+     "timeline": {
+      "assetId": "V10",
+      "start": 55.835,
+      "in": 0,
+      "out": 5.75,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V10",
+       "label": "v1 · Fundadores",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s13",
+     "title": "El criterio",
+     "lineId": "line-13",
+     "intent": "Pausa de intensidad: credibilidad y claridad.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V11",
+     "timeline": {
+      "assetId": "V11",
+      "start": 61.585,
+      "in": 0,
+      "out": 4.458,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V11",
+       "label": "v1 · Criterio",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s14",
+     "title": "La habitación",
+     "lineId": "line-14",
+     "intent": "No estar solo frente a la máquina: escalada visual con origen físico de cada salida.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V12b",
+     "timeline": {
+      "assetId": "V12b",
+      "start": 66.043,
+      "in": 0,
+      "out": 4.0,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V12a",
+       "label": "v1 · Habitación",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V12b",
+       "label": "v3 · Habitación",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s15",
+     "title": "Este mismo ad",
+     "lineId": "line-15",
+     "intent": "«Me olvidaba, este mismo ad…»: guiño metanarrativo.",
+     "duration": 4,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V13",
+     "timeline": {
+      "assetId": "V13",
+      "start": 70.043,
+      "in": 0,
+      "out": 4.375,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V13",
+       "label": "v1 · Metagag",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s16",
+     "title": "Reserva",
+     "lineId": "line-16",
+     "intent": "CTA claro, honesto y seguro: si encaja se dice y si no, también.",
+     "duration": 9,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V14",
+     "timeline": {
+      "assetId": "V14",
+      "start": 74.418,
+      "in": 0,
+      "out": 8.542,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V14",
+       "label": "v1 · CTA honesto",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    },
+    {
+     "id": "s17",
+     "title": "Salida",
+     "lineId": "line-17",
+     "intent": "Salida con intención, sin cola muerta.",
+     "duration": 2,
+     "audioMode": "off",
+     "music": false,
+     "selectedId": "V15b",
+     "timeline": {
+      "assetId": "V15b",
+      "start": 82.96,
+      "in": 0,
+      "out": 2.433,
+      "muted": false
+     },
+     "refs": [
+      {
+       "assetId": "ID-pareja",
+       "role": "identity",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-lavanderia",
+       "role": "setting",
+       "confirmed": true
+      },
+      {
+       "assetId": "REF-maquina",
+       "role": "product",
+       "confirmed": true
+      }
+     ],
+     "versions": [
+      {
+       "assetId": "V15a",
+       "label": "v1 · Salida",
+       "status": "review",
+       "feedback": ""
+      },
+      {
+       "assetId": "V15b",
+       "label": "v2 · Salida",
+       "status": "approved",
+       "feedback": ""
+      }
+     ]
+    }
+   ],
+   "intentBrief": {
+    "goal": "Que dueños de ecommerce reserven una llamada.",
+    "audience": "Dueños de ecommerce con producto propio que invierten en Meta.",
+    "audienceAwareness": "Saben que desde Andrómeda necesitan anuncios nuevos cada semana.",
+    "audienceRelationship": "Primer contacto con BRAUD.",
+    "tension": "Esperar días al editor o a la agencia mientras los anuncios se queman.",
+    "offer": "Instalar en su tienda un sistema que produce, gestiona y escala anuncios con IA.",
+    "proof": "Este mismo anuncio lo ha hecho el sistema.",
+    "conceptTitle": "La maquinita",
+    "message": "Puedes ir al ritmo de Meta sin depender de nadie.",
+    "concept": "Un pequeño mundo absurdo con lógica física reconocible. El azul es la demanda insaciable de Meta; el protagonista, el dueño del ecommerce.",
+    "rationale": "El humor seco hace reconocible la frustración y vuelve creíble la solución.",
+    "cta": "Reservar una llamada.",
+    "heroReferenceId": "ID-pareja",
+    "selectedAngleId": "angle-ritmo"
+   },
+   "creativeAngles": [
+    {
+     "id": "angle-ritmo",
+     "title": "El ritmo de Meta",
+     "motivation": "Ritmo",
+     "concept": "Meta pide anuncios nuevos cada semana y la producción va a ritmo de mes.",
+     "hypothesis": "El dueño se reconoce en la presión semanal."
+    },
+    {
+     "id": "angle-control",
+     "title": "Depender de otros",
+     "motivation": "Control",
+     "concept": "Cada cambio pasa por el editor o la agencia.",
+     "hypothesis": "Recuperar el control mueve más que ahorrar."
+    },
+    {
+     "id": "angle-prueba",
+     "title": "Lo hizo la máquina",
+     "motivation": "Prueba",
+     "concept": "El propio anuncio es la demostración.",
+     "hypothesis": "Ver el resultado vence la objeción de calidad."
+    }
+   ],
+   "castRoles": [
+    {
+     "id": "azul",
+     "role": "El azul",
+     "purpose": "La demanda insaciable de Meta: invasivo y ridículo.",
+     "description": "Hombre calvo y sin cejas, completamente azul cobalto. Susurra al oído.",
+     "candidates": [
+      {
+       "id": "cand-EX-almacen-A",
+       "assetId": "EX-almacen-A",
+       "status": "exploring",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-almacen-B",
+       "assetId": "EX-almacen-B",
+       "status": "exploring",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-almacen-C",
+       "assetId": "EX-almacen-C",
+       "status": "exploring",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-lavanderia-A",
+       "assetId": "EX-lavanderia-A",
+       "status": "shortlisted",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-lavanderia-B",
+       "assetId": "EX-lavanderia-B",
+       "status": "shortlisted",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-lavanderia-C",
+       "assetId": "EX-lavanderia-C",
+       "status": "shortlisted",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-oficina-A",
+       "assetId": "EX-oficina-A",
+       "status": "exploring",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-oficina-B",
+       "assetId": "EX-oficina-B",
+       "status": "exploring",
+       "note": ""
+      },
+      {
+       "id": "cand-EX-oficina-C",
+       "assetId": "EX-oficina-C",
+       "status": "exploring",
+       "note": ""
+      }
+     ]
+    },
+    {
+     "id": "protagonista",
+     "role": "El protagonista",
+     "purpose": "El dueño del ecommerce: asustado, harto y, al final, al mando.",
+     "description": "Bigote daliniano y rigidez cómica.",
+     "candidates": [
+      {
+       "id": "cand-id",
+       "assetId": "ID-pareja",
+       "status": "shortlisted",
+       "note": "Identidad elegida para todas las escenas."
+      }
+     ]
+    }
+   ],
+   "scriptOpenings": {
+    "targetLineIds": [
+     "line-1"
+    ],
+    "sourceLines": [
+     {
+      "id": "line-1",
+      "text": "Si eres dueño de un ecommerce ya sabes que con Andrómeda necesitas anuncios nuevos cada semana.",
+      "start": 0.12,
+      "end": 5.42,
+      "direction": "Narrador cercano y seco; la voz entra de golpe."
+     }
+    ],
+    "alternatives": [
+     {
+      "id": "opening-1",
+      "title": "El problema",
+      "hypothesis": "Reconocimiento inmediato del ritmo de Meta.",
+      "lines": [
+       {
+        "text": "Si eres dueño de un ecommerce ya sabes que con Andrómeda necesitas anuncios nuevos cada semana.",
+        "direction": "Directo, sin pausa de entrada."
+       }
+      ]
+     },
+     {
+      "id": "opening-2",
+      "title": "La pregunta",
+      "hypothesis": "Una tensión que el dueño mide cada semana.",
+      "lines": [
+       {
+        "text": "¿Cuántos anuncios nuevos has subido esta semana? Andrómeda ya te está pidiendo más.",
+        "direction": "Pregunta seca, mirando a cámara."
+       }
+      ]
+     },
+     {
+      "id": "opening-3",
+      "title": "El contraste",
+      "hypothesis": "Hacer visible el desfase de ritmos.",
+      "lines": [
+       {
+        "text": "Meta quiere anuncios nuevos cada semana. Tu editor te los da cada mes.",
+        "direction": "Dos frases cortas, la segunda con resignación."
+       }
+      ]
+     }
+    ],
+    "selectedId": "opening-1"
+   }
+  }
+ ],
+ "assets": [
+  {
+   "id": "design-1",
+   "kind": "image",
+   "name": "Exploración visual 1",
+   "category": "inspiration",
+   "approved": false,
+   "file": "media/design-1.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-2",
+   "kind": "image",
+   "name": "Exploración visual 2",
+   "category": "inspiration",
+   "approved": false,
+   "file": "media/design-2.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-3",
+   "kind": "image",
+   "name": "Exploración visual 3",
+   "category": "inspiration",
+   "approved": false,
+   "file": "media/design-3.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-4",
+   "kind": "image",
+   "name": "Exploración visual 4",
+   "category": "inspiration",
+   "approved": false,
+   "file": "media/design-4.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-5",
+   "kind": "image",
+   "name": "Entrada flotant sobre paisatge",
+   "category": "inspiration",
+   "file": "media/design-5.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-6",
+   "kind": "image",
+   "name": "Cercador liquid glass",
+   "category": "inspiration",
+   "file": "media/design-6.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-7",
+   "kind": "image",
+   "name": "Botó de vidre",
+   "category": "inspiration",
+   "file": "media/design-7.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-8",
+   "kind": "image",
+   "name": "Selector Inbox / Draft",
+   "category": "inspiration",
+   "file": "media/design-8.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-9",
+   "kind": "image",
+   "name": "Navegació sobre blau",
+   "category": "inspiration",
+   "file": "media/design-9.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-10",
+   "kind": "image",
+   "name": "Frosted / Clear / Blur",
+   "category": "inspiration",
+   "file": "media/design-10.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-11",
+   "kind": "image",
+   "name": "Control de volum",
+   "category": "inspiration",
+   "file": "media/design-11.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-12",
+   "kind": "image",
+   "name": "Gestos i moviment",
+   "category": "inspiration",
+   "file": "media/design-12.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-13",
+   "kind": "image",
+   "name": "Estat Thinking",
+   "category": "inspiration",
+   "file": "media/design-13.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-14",
+   "kind": "image",
+   "name": "Panell de contingut",
+   "category": "inspiration",
+   "file": "media/design-14.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-15",
+   "kind": "image",
+   "name": "Navegació vertical",
+   "category": "inspiration",
+   "file": "media/design-15.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-16",
+   "kind": "image",
+   "name": "Dock flotant",
+   "category": "inspiration",
+   "file": "media/design-16.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "design-17",
+   "kind": "image",
+   "name": "Panell sobre paisatge",
+   "category": "inspiration",
+   "file": "media/design-17.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "7a133bb8-a712-402b-a4f1-bfc43ea2fa64",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 01.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/7a133bb8-a712-402b-a4f1-bfc43ea2fa64.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "c048ed97-a120-4ed9-aec5-a3d2a5a97028",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 02.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/c048ed97-a120-4ed9-aec5-a3d2a5a97028.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "7be20d1f-9952-4200-b153-e73d83136161",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 03.gif",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/7be20d1f-9952-4200-b153-e73d83136161.gif",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "93377af6-c0b3-4514-964b-279b6ae7ebb7",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 04.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/93377af6-c0b3-4514-964b-279b6ae7ebb7.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "322c1555-eaa4-4674-8115-f35f9fc7088f",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 05.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/322c1555-eaa4-4674-8115-f35f9fc7088f.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "cee7928a-fbbf-483f-9863-4aee7c7b0152",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 06.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/cee7928a-fbbf-483f-9863-4aee7c7b0152.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "8283255a-aae0-4b4e-88c8-625ed2e0648c",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 07.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/8283255a-aae0-4b4e-88c8-625ed2e0648c.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "b6a19f5a-e724-4e9e-b4d6-eefefc939eea",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 08.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/b6a19f5a-e724-4e9e-b4d6-eefefc939eea.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "c0a79af5-a0b9-494e-a8dd-58bf25952943",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 09.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/c0a79af5-a0b9-494e-a8dd-58bf25952943.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "0159acc5-961e-456d-988b-31301edbf136",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 10.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/0159acc5-961e-456d-988b-31301edbf136.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "1f64568a-96f8-4095-b49f-18901e309420",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 11.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/1f64568a-96f8-4095-b49f-18901e309420.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "f63a01b5-ee7b-439a-aa35-a2b34449079c",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 12.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/f63a01b5-ee7b-439a-aa35-a2b34449079c.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "dace7ade-27b2-48ae-84e6-8868d11e2ebc",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 13.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/dace7ade-27b2-48ae-84e6-8868d11e2ebc.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "cc197419-a895-4880-8f11-6493a5eb9857",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 14.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/cc197419-a895-4880-8f11-6493a5eb9857.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "97545748-03d5-4a32-888c-8f09a4bf0567",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 15.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/97545748-03d5-4a32-888c-8f09a4bf0567.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "03d4c4df-8f92-4b42-90b0-2b7efa01445c",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 16.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/03d4c4df-8f92-4b42-90b0-2b7efa01445c.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "49298529-8464-45c3-bc59-75702264db0a",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 17.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/49298529-8464-45c3-bc59-75702264db0a.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "bfaa1277-2b16-44f0-b429-50d9b4193331",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 18.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/bfaa1277-2b16-44f0-b429-50d9b4193331.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "d66c6702-84e1-4f09-bd90-69f074d7df92",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 19.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/d66c6702-84e1-4f09-bd90-69f074d7df92.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "7a6a5e97-2f19-48a0-b866-802044da0612",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 20.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/7a6a5e97-2f19-48a0-b866-802044da0612.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "79cdd887-3e04-47f1-ba90-ff473630d9dc",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 21.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/79cdd887-3e04-47f1-ba90-ff473630d9dc.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "ce5de3c4-ef9c-406b-b2ed-30be4eca478e",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 22.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/ce5de3c4-ef9c-406b-b2ed-30be4eca478e.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "603903d4-f011-48c0-ade6-530d08a3e653",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 23.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/603903d4-f011-48c0-ade6-530d08a3e653.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "2947f0ad-8a36-4c59-ae7f-648dea782d8d",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 24.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/2947f0ad-8a36-4c59-ae7f-648dea782d8d.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "e0baaa05-2649-47c6-9b25-067aa3a30034",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 25.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/e0baaa05-2649-47c6-9b25-067aa3a30034.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "cbaa8d8a-724a-4668-86b0-ea7b3c386512",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 26.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/cbaa8d8a-724a-4668-86b0-ea7b3c386512.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "7968a5ad-edde-474b-9cac-633c151e2f2d",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 27.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/7968a5ad-edde-474b-9cac-633c151e2f2d.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "ca1446e7-0ab3-4587-b610-7c1f7ab8a15f",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 28.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/ca1446e7-0ab3-4587-b610-7c1f7ab8a15f.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "8aea85e7-1e2c-4af4-9ff3-dea2032f45c2",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 29.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/8aea85e7-1e2c-4af4-9ff3-dea2032f45c2.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "24997eea-af9b-40bb-8782-b1793380c3fa",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 30.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/24997eea-af9b-40bb-8782-b1793380c3fa.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "50be9667-df43-4054-bc59-49e9884ff12c",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 31.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/50be9667-df43-4054-bc59-49e9884ff12c.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "f36a7dcd-29ae-4e62-8ec7-09e494e5bc66",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 32.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/f36a7dcd-29ae-4e62-8ec7-09e494e5bc66.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "5af8550d-46c9-4d9d-91f7-6ac2e953e194",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 33.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/5af8550d-46c9-4d9d-91f7-6ac2e953e194.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "c41f7b53-6c27-443b-ac47-59c44ff34c65",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 34.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/c41f7b53-6c27-443b-ac47-59c44ff34c65.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "de534dd6-1c60-45c5-8ba4-419f381703bd",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 35.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/de534dd6-1c60-45c5-8ba4-419f381703bd.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "523e21d6-2f7e-4891-95e3-6e84429ff84e",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 36.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/523e21d6-2f7e-4891-95e3-6e84429ff84e.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "e5d6f301-ad59-4cbe-8cbf-f458cfc6fc35",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 37.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/e5d6f301-ad59-4cbe-8cbf-f458cfc6fc35.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "7faefdc7-331f-42ed-b0c2-300bbb40c786",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 38.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/7faefdc7-331f-42ed-b0c2-300bbb40c786.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "b3d37634-0353-4c79-8527-6e1ed275d8c2",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 39.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/b3d37634-0353-4c79-8527-6e1ed275d8c2.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "e11d9688-517c-41e2-8f3c-bb10da01515e",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 40.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/e11d9688-517c-41e2-8f3c-bb10da01515e.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "9841ffc5-4c30-446e-b900-336fb3c907dd",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 41.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/9841ffc5-4c30-446e-b900-336fb3c907dd.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "aef223dd-72ed-4595-ae3e-18022c1aefc1",
+   "kind": "image",
+   "name": "Glassy motion · 13 oct · 42.png",
+   "category": "inspiration",
+   "duration": null,
+   "file": "media/aef223dd-72ed-4595-ae3e-18022c1aefc1.png",
+   "clientId": null,
+   "pieceId": null,
+   "createdAt": "2026-10-15T08:00:00.000Z"
+  },
+  {
+   "id": "ID-pareja",
+   "kind": "image",
+   "name": "Hook elegido · identidad",
+   "category": "character",
+   "approved": true,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/ID-pareja.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:40:00.000Z",
+   "castingSelected": true
+  },
+  {
+   "id": "EX-almacen-A",
+   "kind": "image",
+   "name": "Almacén · A",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-almacen-A.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:07:00.000Z"
+  },
+  {
+   "id": "EX-almacen-B",
+   "kind": "image",
+   "name": "Almacén · B",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-almacen-B.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:08:00.000Z"
+  },
+  {
+   "id": "EX-almacen-C",
+   "kind": "image",
+   "name": "Almacén · C",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-almacen-C.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:09:00.000Z"
+  },
+  {
+   "id": "EX-lavanderia-A",
+   "kind": "image",
+   "name": "Lavandería · A",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-lavanderia-A.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:07:00.000Z"
+  },
+  {
+   "id": "EX-lavanderia-B",
+   "kind": "image",
+   "name": "Lavandería · B",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-lavanderia-B.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:08:00.000Z"
+  },
+  {
+   "id": "EX-lavanderia-C",
+   "kind": "image",
+   "name": "Lavandería · C",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-lavanderia-C.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:09:00.000Z"
+  },
+  {
+   "id": "EX-oficina-A",
+   "kind": "image",
+   "name": "Oficina · A",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-oficina-A.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:07:00.000Z"
+  },
+  {
+   "id": "EX-oficina-B",
+   "kind": "image",
+   "name": "Oficina · B",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-oficina-B.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:08:00.000Z"
+  },
+  {
+   "id": "EX-oficina-C",
+   "kind": "image",
+   "name": "Oficina · C",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-oficina-C.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:09:00.000Z"
+  },
+  {
+   "id": "EX-imprenta-A",
+   "kind": "image",
+   "name": "Imprenta · A",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-imprenta-A.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:07:00.000Z"
+  },
+  {
+   "id": "EX-imprenta-B",
+   "kind": "image",
+   "name": "Imprenta · B",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-imprenta-B.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:08:00.000Z"
+  },
+  {
+   "id": "EX-imprenta-C",
+   "kind": "image",
+   "name": "Imprenta · C",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-imprenta-C.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:09:00.000Z"
+  },
+  {
+   "id": "EX-ascensor-A",
+   "kind": "image",
+   "name": "Ascensor · A",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-ascensor-A.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:07:00.000Z"
+  },
+  {
+   "id": "EX-ascensor-B",
+   "kind": "image",
+   "name": "Ascensor · B",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-ascensor-B.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:08:00.000Z"
+  },
+  {
+   "id": "EX-ascensor-C",
+   "kind": "image",
+   "name": "Ascensor · C",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-ascensor-C.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:09:00.000Z"
+  },
+  {
+   "id": "EX-mercadillo-A",
+   "kind": "image",
+   "name": "Mercadillo · A",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-mercadillo-A.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:07:00.000Z"
+  },
+  {
+   "id": "EX-mercadillo-B",
+   "kind": "image",
+   "name": "Mercadillo · B",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-mercadillo-B.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:08:00.000Z"
+  },
+  {
+   "id": "EX-mercadillo-C",
+   "kind": "image",
+   "name": "Mercadillo · C",
+   "category": "character",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/EX-mercadillo-C.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:09:00.000Z"
+  },
+  {
+   "id": "V00a-poster",
+   "kind": "image",
+   "name": "Hook · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V00a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:20:00.000Z"
+  },
+  {
+   "id": "V00a",
+   "kind": "video",
+   "name": "Hook · v1",
+   "posterId": "V00a-poster",
+   "duration": 6.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V00a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:20:00.000Z"
+  },
+  {
+   "id": "V00b-poster",
+   "kind": "image",
+   "name": "Hook · v2",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V00b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:45:00.000Z"
+  },
+  {
+   "id": "V00b",
+   "kind": "video",
+   "name": "Hook · v2",
+   "posterId": "V00b-poster",
+   "duration": 6.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V00b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:45:00.000Z"
+  },
+  {
+   "id": "V01-poster",
+   "kind": "image",
+   "name": "Ventanilla · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V01-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V01",
+   "kind": "video",
+   "name": "Ventanilla · v1",
+   "posterId": "V01-poster",
+   "duration": 10.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V01.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V02-poster",
+   "kind": "image",
+   "name": "Ticket · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V02-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V02",
+   "kind": "video",
+   "name": "Ticket · v1",
+   "posterId": "V02-poster",
+   "duration": 5.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V02.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V03-poster",
+   "kind": "image",
+   "name": "Ads apagados · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V03-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V03",
+   "kind": "video",
+   "name": "Ads apagados · v1",
+   "posterId": "V03-poster",
+   "duration": 5.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V03.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V03b-poster",
+   "kind": "image",
+   "name": "Repetir · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V03b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:30:00.000Z"
+  },
+  {
+   "id": "V03b",
+   "kind": "video",
+   "name": "Repetir · v1",
+   "posterId": "V03b-poster",
+   "duration": 4.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V03b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:30:00.000Z"
+  },
+  {
+   "id": "V04-poster",
+   "kind": "image",
+   "name": "El giro · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V04-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V04",
+   "kind": "video",
+   "name": "El giro · v1",
+   "posterId": "V04-poster",
+   "duration": 8.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V04.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:10:00.000Z"
+  },
+  {
+   "id": "V05-poster",
+   "kind": "image",
+   "name": "Presentación · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V05-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:50:00.000Z"
+  },
+  {
+   "id": "V05",
+   "kind": "video",
+   "name": "Presentación · v1",
+   "posterId": "V05-poster",
+   "duration": 4.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V05.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:50:00.000Z"
+  },
+  {
+   "id": "V06a-poster",
+   "kind": "image",
+   "name": "Cinco ads · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V06a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T17:05:00.000Z"
+  },
+  {
+   "id": "V06a",
+   "kind": "video",
+   "name": "Cinco ads · v1",
+   "posterId": "V06a-poster",
+   "duration": 4.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V06a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T17:05:00.000Z"
+  },
+  {
+   "id": "V06b-poster",
+   "kind": "image",
+   "name": "Cinco ads · v2",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V06b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T17:20:00.000Z"
+  },
+  {
+   "id": "V06b",
+   "kind": "video",
+   "name": "Cinco ads · v2",
+   "posterId": "V06b-poster",
+   "duration": 4.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V06b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T17:20:00.000Z"
+  },
+  {
+   "id": "V06c-poster",
+   "kind": "image",
+   "name": "Cinco ads · v4",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V06c-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T19:10:00.000Z"
+  },
+  {
+   "id": "V06c",
+   "kind": "video",
+   "name": "Cinco ads · v4",
+   "posterId": "V06c-poster",
+   "duration": 4.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V06c.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T19:10:00.000Z"
+  },
+  {
+   "id": "V06d-poster",
+   "kind": "image",
+   "name": "Cinco ads · v5",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V06d-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:10:00.000Z"
+  },
+  {
+   "id": "V06d",
+   "kind": "video",
+   "name": "Cinco ads · v5",
+   "posterId": "V06d-poster",
+   "duration": 4.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V06d.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:10:00.000Z"
+  },
+  {
+   "id": "V07a-poster",
+   "kind": "image",
+   "name": "Campañas · v2",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V07a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:15:00.000Z"
+  },
+  {
+   "id": "V07a",
+   "kind": "video",
+   "name": "Campañas · v2",
+   "posterId": "V07a-poster",
+   "duration": 5.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V07a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:15:00.000Z"
+  },
+  {
+   "id": "V07b-poster",
+   "kind": "image",
+   "name": "Campañas · v3",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V07b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:20:00.000Z"
+  },
+  {
+   "id": "V07b",
+   "kind": "video",
+   "name": "Campañas · v3",
+   "posterId": "V07b-poster",
+   "duration": 5.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V07b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:20:00.000Z"
+  },
+  {
+   "id": "V07c-poster",
+   "kind": "image",
+   "name": "Campañas · corte",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V07c-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:27:00.000Z"
+  },
+  {
+   "id": "V07c",
+   "kind": "video",
+   "name": "Campañas · corte",
+   "posterId": "V07c-poster",
+   "duration": 5.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V07c.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:27:00.000Z"
+  },
+  {
+   "id": "V08a-poster",
+   "kind": "image",
+   "name": "Escalar · v2",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V08a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:20:00.000Z"
+  },
+  {
+   "id": "V08a",
+   "kind": "video",
+   "name": "Escalar · v2",
+   "posterId": "V08a-poster",
+   "duration": 9.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V08a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:20:00.000Z"
+  },
+  {
+   "id": "V08b-poster",
+   "kind": "image",
+   "name": "Escalar · gag v3",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V08b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:27:00.000Z"
+  },
+  {
+   "id": "V08b",
+   "kind": "video",
+   "name": "Escalar · gag v3",
+   "posterId": "V08b-poster",
+   "duration": 9.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V08b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:27:00.000Z"
+  },
+  {
+   "id": "V09a-poster",
+   "kind": "image",
+   "name": "Doble basura · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V09a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T17:40:00.000Z"
+  },
+  {
+   "id": "V09a",
+   "kind": "video",
+   "name": "Doble basura · v1",
+   "posterId": "V09a-poster",
+   "duration": 5.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V09a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T17:40:00.000Z"
+  },
+  {
+   "id": "V09b-poster",
+   "kind": "image",
+   "name": "Doble basura · v2",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V09b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T19:15:00.000Z"
+  },
+  {
+   "id": "V09b",
+   "kind": "video",
+   "name": "Doble basura · v2",
+   "posterId": "V09b-poster",
+   "duration": 5.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V09b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T19:15:00.000Z"
+  },
+  {
+   "id": "V10-poster",
+   "kind": "image",
+   "name": "Fundadores · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V10-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:20:00.000Z"
+  },
+  {
+   "id": "V10",
+   "kind": "video",
+   "name": "Fundadores · v1",
+   "posterId": "V10-poster",
+   "duration": 6.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V10.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:20:00.000Z"
+  },
+  {
+   "id": "V11-poster",
+   "kind": "image",
+   "name": "Criterio · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V11-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:20:00.000Z"
+  },
+  {
+   "id": "V11",
+   "kind": "video",
+   "name": "Criterio · v1",
+   "posterId": "V11-poster",
+   "duration": 5.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V11.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:20:00.000Z"
+  },
+  {
+   "id": "V12a-poster",
+   "kind": "image",
+   "name": "Habitación · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V12a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:25:00.000Z"
+  },
+  {
+   "id": "V12a",
+   "kind": "video",
+   "name": "Habitación · v1",
+   "posterId": "V12a-poster",
+   "duration": 4.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V12a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:25:00.000Z"
+  },
+  {
+   "id": "V12b-poster",
+   "kind": "image",
+   "name": "Habitación · v3",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V12b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:25:00.000Z"
+  },
+  {
+   "id": "V12b",
+   "kind": "video",
+   "name": "Habitación · v3",
+   "posterId": "V12b-poster",
+   "duration": 4.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V12b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T20:25:00.000Z"
+  },
+  {
+   "id": "V13-poster",
+   "kind": "image",
+   "name": "Metagag · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V13-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:25:00.000Z"
+  },
+  {
+   "id": "V13",
+   "kind": "video",
+   "name": "Metagag · v1",
+   "posterId": "V13-poster",
+   "duration": 5.05,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V13.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:25:00.000Z"
+  },
+  {
+   "id": "V14-poster",
+   "kind": "image",
+   "name": "CTA honesto · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V14-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:30:00.000Z"
+  },
+  {
+   "id": "V14",
+   "kind": "video",
+   "name": "CTA honesto · v1",
+   "posterId": "V14-poster",
+   "duration": 9.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V14.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:30:00.000Z"
+  },
+  {
+   "id": "V15a-poster",
+   "kind": "image",
+   "name": "Salida · v1",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V15a-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:30:00.000Z"
+  },
+  {
+   "id": "V15a",
+   "kind": "video",
+   "name": "Salida · v1",
+   "posterId": "V15a-poster",
+   "duration": 4.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V15a.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T18:30:00.000Z"
+  },
+  {
+   "id": "V15b-poster",
+   "kind": "image",
+   "name": "Salida · v2",
+   "category": "still",
+   "approved": false,
+   "file": "media/andromeda/V15b-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T19:20:00.000Z"
+  },
+  {
+   "id": "V15b",
+   "kind": "video",
+   "name": "Salida · v2",
+   "posterId": "V15b-poster",
+   "duration": 4.042,
+   "model": "Seedance 2.5",
+   "file": "media/andromeda/V15b.mp4",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T19:20:00.000Z"
+  },
+  {
+   "id": "AUD-narrador",
+   "kind": "audio",
+   "name": "Locución · Guillermo",
+   "duration": 85.394,
+   "file": "media/andromeda/AUD-narrador.mp3",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T14:30:00.000Z"
+  },
+  {
+   "id": "REF-lavanderia",
+   "kind": "image",
+   "name": "Lavandería azul y crema",
+   "category": "setting",
+   "approved": false,
+   "model": "Soul 2.0",
+   "file": "media/andromeda/REF-lavanderia.png",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T15:05:00.000Z"
+  },
+  {
+   "id": "REF-maquina",
+   "kind": "image",
+   "name": "La maquinita",
+   "category": "product",
+   "approved": true,
+   "file": "media/andromeda/V05-poster.jpg",
+   "clientId": "braud",
+   "pieceId": "andromeda",
+   "createdAt": "2026-10-14T16:55:00.000Z"
+  }
+ ],
+ "jobs": [],
+ "events": [],
+ "references": [
+  {
+   "id": "webild",
+   "title": "Webild",
+   "url": "https://www.webild.io",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-1",
+   "title": "Exploración visual 1",
+   "assetId": "design-1",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-2",
+   "title": "Exploración visual 2",
+   "assetId": "design-2",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-3",
+   "title": "Exploración visual 3",
+   "assetId": "design-3",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-4",
+   "title": "Exploración visual 4",
+   "assetId": "design-4",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "behance-0",
+   "title": "AI Voice Agent",
+   "url": "https://www.behance.net/gallery/254610891/AI-Voice-Agent",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "behance-1",
+   "title": "Hers — Healthcare App Branding",
+   "url": "https://www.behance.net/gallery/245019923/Hers-Healthcare-App-Branding",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "behance-2",
+   "title": "Notis — Smart AI Workspace",
+   "url": "https://www.behance.net/gallery/245890113/Notis-Smart-AI-Workspace-UX-UI-Design",
+   "createdAt": "2026-10-12",
+   "scope": "studio",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-5",
+   "title": "Entrada flotant sobre paisatge",
+   "assetId": "design-5",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-6",
+   "title": "Cercador liquid glass",
+   "assetId": "design-6",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-7",
+   "title": "Botó de vidre",
+   "assetId": "design-7",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-8",
+   "title": "Selector Inbox / Draft",
+   "assetId": "design-8",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-9",
+   "title": "Navegació sobre blau",
+   "assetId": "design-9",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-10",
+   "title": "Frosted / Clear / Blur",
+   "assetId": "design-10",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-11",
+   "title": "Control de volum",
+   "assetId": "design-11",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-12",
+   "title": "Gestos i moviment",
+   "assetId": "design-12",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-13",
+   "title": "Estat Thinking",
+   "assetId": "design-13",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-14",
+   "title": "Panell de contingut",
+   "assetId": "design-14",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-15",
+   "title": "Navegació vertical",
+   "assetId": "design-15",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-16",
+   "title": "Dock flotant",
+   "assetId": "design-16",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "design-ref-17",
+   "title": "Panell sobre paisatge",
+   "assetId": "design-17",
+   "createdAt": "2026-10-12T19:44:00Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "bdfd3bc8-86ae-41c7-8ac5-ec5abb42690a",
+   "title": "Glassy motion · 13 oct · 01.png",
+   "assetId": "7a133bb8-a712-402b-a4f1-bfc43ea2fa64",
+   "createdAt": "2026-10-13T21:00:09.427Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "2245b52b-5e2b-48e4-801a-189531ca6a16",
+   "title": "Glassy motion · 13 oct · 02.png",
+   "assetId": "c048ed97-a120-4ed9-aec5-a3d2a5a97028",
+   "createdAt": "2026-10-13T21:00:29.854Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "d8f75b90-5523-40c7-8648-a8e0c71f4963",
+   "title": "Glassy motion · 13 oct · 03.gif",
+   "assetId": "7be20d1f-9952-4200-b153-e73d83136161",
+   "createdAt": "2026-10-13T21:00:29.865Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "7a6e1431-26bd-40ef-8ce2-8fad0ab3f469",
+   "title": "Glassy motion · 13 oct · 04.png",
+   "assetId": "93377af6-c0b3-4514-964b-279b6ae7ebb7",
+   "createdAt": "2026-10-13T21:00:29.872Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "ec3cc1a3-f0c1-4ac2-a8c4-cfb7ce4fe201",
+   "title": "Glassy motion · 13 oct · 05.png",
+   "assetId": "322c1555-eaa4-4674-8115-f35f9fc7088f",
+   "createdAt": "2026-10-13T21:00:29.876Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "9410663f-6e3c-4b6f-a491-80dd13b4bd03",
+   "title": "Glassy motion · 13 oct · 06.png",
+   "assetId": "cee7928a-fbbf-483f-9863-4aee7c7b0152",
+   "createdAt": "2026-10-13T21:00:29.879Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "fe6339e6-09e6-4275-8253-f8a57a25417f",
+   "title": "Glassy motion · 13 oct · 07.png",
+   "assetId": "8283255a-aae0-4b4e-88c8-625ed2e0648c",
+   "createdAt": "2026-10-13T21:00:29.883Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "7da21de5-4720-4b87-a48c-eff8c08b3434",
+   "title": "Glassy motion · 13 oct · 08.png",
+   "assetId": "b6a19f5a-e724-4e9e-b4d6-eefefc939eea",
+   "createdAt": "2026-10-13T21:00:29.886Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "461b1ef3-4ea5-41ef-955c-2180654997dc",
+   "title": "Glassy motion · 13 oct · 09.png",
+   "assetId": "c0a79af5-a0b9-494e-a8dd-58bf25952943",
+   "createdAt": "2026-10-13T21:00:29.889Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "1e58bb11-92c3-4e88-a6d1-9832d088a53b",
+   "title": "Glassy motion · 13 oct · 10.png",
+   "assetId": "0159acc5-961e-456d-988b-31301edbf136",
+   "createdAt": "2026-10-13T21:00:29.892Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "8e552009-9ade-4aa5-a138-a90865ac532a",
+   "title": "Glassy motion · 13 oct · 11.png",
+   "assetId": "1f64568a-96f8-4095-b49f-18901e309420",
+   "createdAt": "2026-10-13T21:00:29.894Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "31743e72-0027-46e7-8371-2522a9ae0dd9",
+   "title": "Glassy motion · 13 oct · 12.png",
+   "assetId": "f63a01b5-ee7b-439a-aa35-a2b34449079c",
+   "createdAt": "2026-10-13T21:00:29.896Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "46618067-e038-4c97-bde6-473cb8c9a067",
+   "title": "Glassy motion · 13 oct · 13.png",
+   "assetId": "dace7ade-27b2-48ae-84e6-8868d11e2ebc",
+   "createdAt": "2026-10-13T21:00:29.899Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "298a5f47-2a0a-4de7-9222-4fc6813addcd",
+   "title": "Glassy motion · 13 oct · 14.png",
+   "assetId": "cc197419-a895-4880-8f11-6493a5eb9857",
+   "createdAt": "2026-10-13T21:00:29.902Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "dba24196-6847-4bb0-bac3-c4a3422b863b",
+   "title": "Glassy motion · 13 oct · 15.png",
+   "assetId": "97545748-03d5-4a32-888c-8f09a4bf0567",
+   "createdAt": "2026-10-13T21:00:29.905Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "ea578987-7f0d-40ce-bb1a-a54b2b9bf265",
+   "title": "Glassy motion · 13 oct · 16.png",
+   "assetId": "03d4c4df-8f92-4b42-90b0-2b7efa01445c",
+   "createdAt": "2026-10-13T21:00:29.908Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "b3a84fa0-415b-4b3d-96db-bc8b95fa551c",
+   "title": "Glassy motion · 13 oct · 17.png",
+   "assetId": "49298529-8464-45c3-bc59-75702264db0a",
+   "createdAt": "2026-10-13T21:00:29.911Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "c9f62eaa-89e0-4559-ab16-b98002b1480e",
+   "title": "Glassy motion · 13 oct · 18.png",
+   "assetId": "bfaa1277-2b16-44f0-b429-50d9b4193331",
+   "createdAt": "2026-10-13T21:00:29.914Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "93b462e7-f95d-4779-a415-edf952fde98f",
+   "title": "Glassy motion · 13 oct · 19.png",
+   "assetId": "d66c6702-84e1-4f09-bd90-69f074d7df92",
+   "createdAt": "2026-10-13T21:00:29.920Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "b7b1b2aa-4e54-4a59-997b-d0fbcf1367ca",
+   "title": "Glassy motion · 13 oct · 20.png",
+   "assetId": "7a6a5e97-2f19-48a0-b866-802044da0612",
+   "createdAt": "2026-10-13T21:00:29.924Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "9db215d0-2099-4433-b4d9-1e2141b55ad3",
+   "title": "Glassy motion · 13 oct · 21.png",
+   "assetId": "79cdd887-3e04-47f1-ba90-ff473630d9dc",
+   "createdAt": "2026-10-13T21:00:29.931Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "70aa6384-d182-44d1-a8f5-666a5d5687fb",
+   "title": "Glassy motion · 13 oct · 22.png",
+   "assetId": "ce5de3c4-ef9c-406b-b2ed-30be4eca478e",
+   "createdAt": "2026-10-13T21:00:29.934Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "7619b5f9-b928-49e1-8362-9d22740fed6f",
+   "title": "Glassy motion · 13 oct · 23.png",
+   "assetId": "603903d4-f011-48c0-ade6-530d08a3e653",
+   "createdAt": "2026-10-13T21:00:29.937Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "0c83c0a0-2f46-486e-9987-bcdac317747e",
+   "title": "Glassy motion · 13 oct · 24.png",
+   "assetId": "2947f0ad-8a36-4c59-ae7f-648dea782d8d",
+   "createdAt": "2026-10-13T21:00:29.940Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "e9f66b95-ce04-49e7-83ab-52e9b14d2931",
+   "title": "Glassy motion · 13 oct · 25.png",
+   "assetId": "e0baaa05-2649-47c6-9b25-067aa3a30034",
+   "createdAt": "2026-10-13T21:00:29.943Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "906f19a2-be19-42f4-aa0d-d808dc60f1a4",
+   "title": "Glassy motion · 13 oct · 26.png",
+   "assetId": "cbaa8d8a-724a-4668-86b0-ea7b3c386512",
+   "createdAt": "2026-10-13T21:00:29.951Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "d7f4b772-f702-4032-8fe9-48cc78e59b1c",
+   "title": "Glassy motion · 13 oct · 27.png",
+   "assetId": "7968a5ad-edde-474b-9cac-633c151e2f2d",
+   "createdAt": "2026-10-13T21:00:29.954Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "8a2a4af3-8a77-4332-afca-b100b9f23fe4",
+   "title": "Glassy motion · 13 oct · 28.png",
+   "assetId": "ca1446e7-0ab3-4587-b610-7c1f7ab8a15f",
+   "createdAt": "2026-10-13T21:00:29.957Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "8ad31f22-e02f-4bc1-9cf1-6a619225453e",
+   "title": "Glassy motion · 13 oct · 29.png",
+   "assetId": "8aea85e7-1e2c-4af4-9ff3-dea2032f45c2",
+   "createdAt": "2026-10-13T21:00:29.960Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "e83b1fff-3f88-49dc-bb2f-34483e9010ed",
+   "title": "Glassy motion · 13 oct · 30.png",
+   "assetId": "24997eea-af9b-40bb-8782-b1793380c3fa",
+   "createdAt": "2026-10-13T21:00:29.964Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "ee871289-fb68-4825-a294-abf0fceae530",
+   "title": "Glassy motion · 13 oct · 31.png",
+   "assetId": "50be9667-df43-4054-bc59-49e9884ff12c",
+   "createdAt": "2026-10-13T21:00:29.967Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "7239c3eb-6a61-4b85-9b16-3a5681feb973",
+   "title": "Glassy motion · 13 oct · 32.png",
+   "assetId": "f36a7dcd-29ae-4e62-8ec7-09e494e5bc66",
+   "createdAt": "2026-10-13T21:00:29.970Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "00df4e75-016c-4cd9-b358-56e2f14e301d",
+   "title": "Glassy motion · 13 oct · 33.png",
+   "assetId": "5af8550d-46c9-4d9d-91f7-6ac2e953e194",
+   "createdAt": "2026-10-13T21:00:29.974Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "e0a82dde-be02-4473-9545-9a0bda9dbf74",
+   "title": "Glassy motion · 13 oct · 34.png",
+   "assetId": "c41f7b53-6c27-443b-ac47-59c44ff34c65",
+   "createdAt": "2026-10-13T21:00:29.977Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "f3ecd6fe-52b6-49b4-8f77-8a4cf6f0800d",
+   "title": "Glassy motion · 13 oct · 35.png",
+   "assetId": "de534dd6-1c60-45c5-8ba4-419f381703bd",
+   "createdAt": "2026-10-13T21:00:29.980Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "82b87eeb-cd2a-4fbc-9c7f-91c7dfd8441e",
+   "title": "Glassy motion · 13 oct · 36.png",
+   "assetId": "523e21d6-2f7e-4891-95e3-6e84429ff84e",
+   "createdAt": "2026-10-13T21:00:29.983Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "ccb4229d-b4ab-4f5e-ad48-719e9655be63",
+   "title": "Glassy motion · 13 oct · 37.png",
+   "assetId": "e5d6f301-ad59-4cbe-8cbf-f458cfc6fc35",
+   "createdAt": "2026-10-13T21:00:29.986Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "7d95b767-6d59-4bb3-8c68-607bb9d3b496",
+   "title": "Glassy motion · 13 oct · 38.png",
+   "assetId": "7faefdc7-331f-42ed-b0c2-300bbb40c786",
+   "createdAt": "2026-10-13T21:00:29.989Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "1db2b720-38e1-4f29-9e31-83f60bf7bed4",
+   "title": "Glassy motion · 13 oct · 39.png",
+   "assetId": "b3d37634-0353-4c79-8527-6e1ed275d8c2",
+   "createdAt": "2026-10-13T21:00:29.992Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "a1ca200e-b8ec-47a0-978d-b2e3e3350e7e",
+   "title": "Glassy motion · 13 oct · 40.png",
+   "assetId": "e11d9688-517c-41e2-8f3c-bb10da01515e",
+   "createdAt": "2026-10-13T21:00:29.997Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "06479e7f-9f5f-42cd-9b23-2f7bbd8891e4",
+   "title": "Glassy motion · 13 oct · 41.png",
+   "assetId": "9841ffc5-4c30-446e-b900-336fb3c907dd",
+   "createdAt": "2026-10-13T21:00:30.001Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "52c255ea-b298-4cca-8223-a4caa4a1c718",
+   "title": "Glassy motion · 13 oct · 42.png",
+   "assetId": "aef223dd-72ed-4595-ae3e-18022c1aefc1",
+   "createdAt": "2026-10-13T21:00:30.004Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "75684635-9e2f-4035-874b-0945c0a33fcc",
+   "title": "Glassy motion · Enlace 01",
+   "url": "https://v1.pinimg.com/videos/iht/hls/1a/fa/4b/1afa4b131991c127457ac6af01743a4c.m3u8",
+   "createdAt": "2026-10-13T21:00:30.009Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "2b518a77-12e8-471f-a52a-4438e9129df3",
+   "title": "Glassy motion · Enlace 02",
+   "url": "https://v1.pinimg.com/videos/iht/expMp4/07/18/00/071800b4702b5ea5880bd1cddb3a0e64_720w.mp4",
+   "createdAt": "2026-10-13T21:00:30.011Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "f81bb611-72d1-4d65-909b-705c4f28a8d0",
+   "title": "Glassy motion · Enlace 03",
+   "url": "https://i.pinimg.com/originals/a0/44/f0/a044f0d638deba9e4e072270caf1d120.gif",
+   "createdAt": "2026-10-13T21:00:30.014Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "926663d6-1bbb-421c-9c98-3076085a590b",
+   "title": "Glassy motion · Enlace 04",
+   "url": "https://v1.pinimg.com/videos/iht/hls/92/33/44/923344d88f63c33207c41d739d9b9590.m3u8",
+   "createdAt": "2026-10-13T21:00:30.016Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "eb11202a-8936-4835-b23a-69a342ea783c",
+   "title": "Glassy motion · Enlace 05",
+   "url": "https://v1.pinimg.com/videos/iht/hls/84/cd/6c/84cd6c4bdc427adb5aa68bc9e53fe4dd.m3u8",
+   "createdAt": "2026-10-13T21:00:30.018Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  },
+  {
+   "id": "48cbd8ca-4fc9-4cd0-a265-807320246440",
+   "title": "Glassy motion · Enlace 06",
+   "url": "https://v1.pinimg.com/videos/iht/hls/22/cf/a3/22cfa3e4b003e1d086a55ba49e89e0bc.m3u8",
+   "createdAt": "2026-10-13T21:00:30.020Z",
+   "note": "Referencia de diseño; no constituye una dirección aprobada."
+  }
+ ],
+ "agent": {
+  "provider": "codex",
+  "model": "gpt-6-astra",
+  "effort": "medium"
+ },
+ "vertical": "ecommerce",
+ "conversations": [
+  {
+   "id": "chat-andromeda",
+   "clientId": "braud",
+   "title": "Andrómeda pide más.",
+   "createdAt": "2026-10-14T14:00:00.000Z",
+   "updatedAt": "2026-10-14T20:30:00.000Z",
+   "pieceId": "andromeda",
+   "pieceIds": [
+    "andromeda"
+   ],
+   "selectedPieceId": "andromeda",
+   "agent": {
+    "provider": "codex",
+    "model": "gpt-6-astra",
+    "effort": "medium"
+   },
+   "jobs": [],
+   "messages": [
+    {
+     "id": "m1",
+     "role": "user",
+     "at": "2026-10-14T14:00:00.000Z",
+     "text": "Quiero un anuncio para dueños de ecommerce: desde Andrómeda necesitan anuncios nuevos cada semana. Humor seco, un mundo absurdo. Y que el propio anuncio demuestre que lo ha hecho el sistema."
+    },
+    {
+     "id": "m2",
+     "role": "assistant",
+     "at": "2026-10-14T14:02:00.000Z",
+     "text": "Partamos de la presión semanal de Meta y de depender de otros para seguirla.\n\n**Concepto: la maquinita**\nUn pequeño mundo absurdo con lógica física. El azul es la demanda insaciable de Meta; el protagonista, el dueño del ecommerce, pasa del miedo al control.\n\nTe preparo la intención, tres aperturas y el reparto. Antes de generar, verás el coste de cada escena."
+    }
+   ]
+  }
+ ],
+ "founderPicks": [],
+ "projects": [
+  {
+   "id": "proj-andromeda",
+   "clientId": "braud",
+   "title": "Captación ecommerce · octubre",
+   "pieceIds": [
+    "andromeda"
+   ],
+   "createdAt": "2026-10-14T14:00:00.000Z",
+   "updatedAt": "2026-10-14T20:30:00.000Z"
+  }
+ ],
+ "workshopTests": [],
+ "updatedAt": "2026-10-14T20:30:00.000Z"
+}

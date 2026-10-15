@@ -1,0 +1,5219 @@
+{
+  "fps": 30,
+  "width": 720,
+  "height": 1280,
+  "frames": 330,
+  "master": "REPLICA - FINAL",
+  "comps": {
+    "01 - Succes": {
+      "name": "01 - Succes",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Fondo radial",
+          "type": "gradient",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#1b0035",
+          "endColor": "#050207",
+          "radius": 700,
+          "center": [
+            360,
+            650
+          ]
+        },
+        {
+          "name": "Selección violeta",
+          "type": "rect",
+          "pos": [
+            146,
+            534
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 3,
+          "to": 330,
+          "w": 432,
+          "h": 125,
+          "color": "#9419b4",
+          "glow": 15,
+          "glowColor": "#a509dd",
+          "anim": {
+            "scale": {
+              "frames": [
+                0,
+                6,
+                14
+              ],
+              "values": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.28,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "smooth"
+            }
+          }
+        },
+        {
+          "name": "Borde selección azul",
+          "type": "rect",
+          "pos": [
+            146,
+            522
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 3,
+          "to": 330,
+          "w": 432,
+          "h": 13,
+          "color": "#3400d0",
+          "anim": {
+            "scale": {
+              "frames": [
+                0,
+                6,
+                14
+              ],
+              "values": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  0.28,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "smooth"
+            }
+          }
+        },
+        {
+          "name": "succes — palabra editable",
+          "type": "text",
+          "pos": [
+            148,
+            642
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 2,
+          "to": 330,
+          "text": "succes",
+          "size": 142,
+          "font": "bold",
+          "color": "#f0edef",
+          "track": -60,
+          "glow": 17,
+          "anim": {
+            "pos": {
+              "frames": [
+                2,
+                12
+              ],
+              "values": [
+                [
+                  148,
+                  727
+                ],
+                [
+                  148,
+                  642
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                2,
+                5
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                2,
+                12
+              ],
+              "values": [
+                12,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Subtítulo is",
+          "type": "text",
+          "pos": [
+            267,
+            706
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 12,
+          "to": 330,
+          "text": "is",
+          "size": 48,
+          "font": "italic",
+          "color": "#c0b5c7",
+          "track": -45,
+          "anim": {
+            "pos": {
+              "frames": [
+                12,
+                21
+              ],
+              "values": [
+                [
+                  267,
+                  741
+                ],
+                [
+                  267,
+                  706
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                12,
+                15
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                12,
+                21
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Subtítulo made",
+          "type": "text",
+          "pos": [
+            307,
+            712
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 15,
+          "to": 330,
+          "text": "made",
+          "size": 48,
+          "font": "italic",
+          "color": "#c0b5c7",
+          "track": -45,
+          "anim": {
+            "pos": {
+              "frames": [
+                15,
+                24
+              ],
+              "values": [
+                [
+                  307,
+                  747
+                ],
+                [
+                  307,
+                  712
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                15,
+                18
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                15,
+                24
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Subtítulo by",
+          "type": "text",
+          "pos": [
+            432,
+            738
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 16,
+          "to": 330,
+          "text": "by",
+          "size": 48,
+          "font": "italic",
+          "color": "#c0b5c7",
+          "track": -45,
+          "anim": {
+            "pos": {
+              "frames": [
+                16,
+                25
+              ],
+              "values": [
+                [
+                  432,
+                  773
+                ],
+                [
+                  432,
+                  738
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                16,
+                19
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                16,
+                25
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Cursor",
+          "type": "path",
+          "pos": [
+            146,
+            588
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              49
+            ],
+            [
+              11,
+              38
+            ],
+            [
+              23,
+              57
+            ],
+            [
+              31,
+              52
+            ],
+            [
+              20,
+              34
+            ],
+            [
+              37,
+              33
+            ]
+          ],
+          "closed": true,
+          "color": "#070509",
+          "stroke": "#d2c9d8",
+          "strokeWidth": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                0,
+                5,
+                14,
+                23
+              ],
+              "values": [
+                [
+                  135,
+                  588
+                ],
+                [
+                  238,
+                  606
+                ],
+                [
+                  580,
+                  654
+                ],
+                [
+                  580,
+                  654
+                ]
+              ],
+              "ease": "out"
+            }
+          }
+        },
+        {
+          "name": "Esfera violeta",
+          "type": "ellipse",
+          "pos": [
+            -105,
+            985
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 1300,
+          "h": 690,
+          "color": "#13002b",
+          "shadow": [
+            0,
+            15,
+            20,
+            "#000000",
+            0.8
+          ],
+          "anim": {
+            "pos": {
+              "frames": [
+                0,
+                8,
+                27
+              ],
+              "values": [
+                [
+                  -80,
+                  530
+                ],
+                [
+                  -170,
+                  975
+                ],
+                [
+                  -160,
+                  1005
+                ]
+              ],
+              "ease": "out"
+            },
+            "scale": {
+              "frames": [
+                0,
+                9,
+                27
+              ],
+              "values": [
+                [
+                  1,
+                  1.45
+                ],
+                [
+                  1,
+                  1.04
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "out"
+            }
+          }
+        }
+      ]
+    },
+    "02 - Action": {
+      "name": "02 - Action",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Fondo radial",
+          "type": "gradient",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#1c0033",
+          "endColor": "#040107",
+          "radius": 690,
+          "center": [
+            348,
+            605
+          ]
+        },
+        {
+          "name": "Cerebro Superior",
+          "type": "image",
+          "pos": [
+            20,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "asset": "brain.png",
+          "w": 240,
+          "h": 245,
+          "opacity": 0.18,
+          "rot": -16,
+          "blur": 1,
+          "anim": {
+            "pos": {
+              "frames": [
+                30,
+                56
+              ],
+              "values": [
+                [
+                  20,
+                  -8
+                ],
+                [
+                  24,
+                  0
+                ]
+              ],
+              "ease": "linear"
+            }
+          }
+        },
+        {
+          "name": "Cerebro Derecha",
+          "type": "image",
+          "pos": [
+            682,
+            345
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "asset": "brain.png",
+          "w": 155,
+          "h": 150,
+          "opacity": 0.6,
+          "rot": 10,
+          "blur": 0.2,
+          "anim": {
+            "pos": {
+              "frames": [
+                30,
+                56
+              ],
+              "values": [
+                [
+                  682,
+                  337
+                ],
+                [
+                  686,
+                  345
+                ]
+              ],
+              "ease": "linear"
+            }
+          }
+        },
+        {
+          "name": "Cerebro Abajo",
+          "type": "image",
+          "pos": [
+            -35,
+            710
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "asset": "brain.png",
+          "w": 190,
+          "h": 170,
+          "opacity": 0.7,
+          "rot": -25,
+          "blur": 4,
+          "anim": {
+            "pos": {
+              "frames": [
+                30,
+                56
+              ],
+              "values": [
+                [
+                  -35,
+                  702
+                ],
+                [
+                  -31,
+                  710
+                ]
+              ],
+              "ease": "linear"
+            }
+          }
+        },
+        {
+          "name": "Cerebro Inferior derecha",
+          "type": "image",
+          "pos": [
+            475,
+            910
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "asset": "brain.png",
+          "w": 260,
+          "h": 235,
+          "opacity": 0.32,
+          "rot": 0,
+          "blur": 0.7,
+          "anim": {
+            "pos": {
+              "frames": [
+                30,
+                56
+              ],
+              "values": [
+                [
+                  475,
+                  902
+                ],
+                [
+                  479,
+                  910
+                ]
+              ],
+              "ease": "linear"
+            }
+          }
+        },
+        {
+          "name": "Esfera primer plano",
+          "type": "ellipse",
+          "pos": [
+            -340,
+            1540
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 2040,
+          "h": 1720,
+          "color": "#120027",
+          "anim": {
+            "pos": {
+              "frames": [
+                30,
+                56
+              ],
+              "values": [
+                [
+                  -340,
+                  1530
+                ],
+                [
+                  -340,
+                  1550
+                ]
+              ],
+              "ease": "linear"
+            }
+          }
+        },
+        {
+          "name": "action - 1",
+          "type": "text",
+          "pos": [
+            191,
+            657
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 34,
+          "to": 330,
+          "text": "a",
+          "size": 140,
+          "font": "bolditalic",
+          "color": "#ae00df",
+          "track": -40,
+          "glow": 23,
+          "glowColor": "#ae00e7",
+          "anim": {
+            "pos": {
+              "frames": [
+                34,
+                40
+              ],
+              "values": [
+                [
+                  191,
+                  687
+                ],
+                [
+                  191,
+                  657
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                34,
+                37
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                34,
+                40
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "action - 2",
+          "type": "text",
+          "pos": [
+            267,
+            657
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 36,
+          "to": 330,
+          "text": "c",
+          "size": 140,
+          "font": "bolditalic",
+          "color": "#ae00df",
+          "track": -40,
+          "glow": 23,
+          "glowColor": "#ae00e7",
+          "anim": {
+            "pos": {
+              "frames": [
+                36,
+                40
+              ],
+              "values": [
+                [
+                  267,
+                  687
+                ],
+                [
+                  267,
+                  657
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                36,
+                39
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                36,
+                40
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "action - 3",
+          "type": "text",
+          "pos": [
+            339,
+            657
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 31,
+          "to": 330,
+          "text": "t",
+          "size": 140,
+          "font": "bolditalic",
+          "color": "#ae00df",
+          "track": -40,
+          "glow": 23,
+          "glowColor": "#ae00e7",
+          "anim": {
+            "pos": {
+              "frames": [
+                31,
+                40
+              ],
+              "values": [
+                [
+                  339,
+                  687
+                ],
+                [
+                  339,
+                  657
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                31,
+                34
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                31,
+                40
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "action - 4",
+          "type": "text",
+          "pos": [
+            387,
+            657
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 35,
+          "to": 330,
+          "text": "i",
+          "size": 140,
+          "font": "bolditalic",
+          "color": "#d377e3",
+          "track": -40,
+          "glow": 23,
+          "glowColor": "#ae00e7",
+          "anim": {
+            "pos": {
+              "frames": [
+                35,
+                40
+              ],
+              "values": [
+                [
+                  387,
+                  687
+                ],
+                [
+                  387,
+                  657
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                35,
+                38
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                35,
+                40
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "action - 5",
+          "type": "text",
+          "pos": [
+            413,
+            657
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 33,
+          "to": 330,
+          "text": "o",
+          "size": 140,
+          "font": "bolditalic",
+          "color": "#d377e3",
+          "track": -40,
+          "glow": 23,
+          "glowColor": "#ae00e7",
+          "anim": {
+            "pos": {
+              "frames": [
+                33,
+                40
+              ],
+              "values": [
+                [
+                  413,
+                  687
+                ],
+                [
+                  413,
+                  657
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                33,
+                36
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                33,
+                40
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "action - 6",
+          "type": "text",
+          "pos": [
+            489,
+            657
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 32,
+          "to": 330,
+          "text": "n",
+          "size": 140,
+          "font": "bolditalic",
+          "color": "#ae00df",
+          "track": -40,
+          "glow": 23,
+          "glowColor": "#ae00e7",
+          "anim": {
+            "pos": {
+              "frames": [
+                32,
+                40
+              ],
+              "values": [
+                [
+                  489,
+                  687
+                ],
+                [
+                  489,
+                  657
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                32,
+                35
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                32,
+                40
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        }
+      ]
+    },
+    "03 - Watch artwork": {
+      "name": "03 - Watch artwork",
+      "width": 720,
+      "height": 720,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Reloj de bolsillo — recurso",
+          "type": "image",
+          "pos": [
+            101,
+            204
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "asset": "watch.png",
+          "w": 211,
+          "h": 285,
+          "opacity": 0.68,
+          "blur": 0.6,
+          "glow": 6,
+          "glowColor": "#7333ab",
+          "anim": {
+            "pos": {
+              "frames": [
+                60,
+                72
+              ],
+              "values": [
+                [
+                  65,
+                  229
+                ],
+                [
+                  101,
+                  204
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                60,
+                67
+              ],
+              "values": [
+                0,
+                0.68
+              ],
+              "ease": "linear"
+            },
+            "rot": {
+              "frames": [
+                60,
+                74
+              ],
+              "values": [
+                -12,
+                0
+              ],
+              "ease": "out"
+            }
+          }
+        },
+        {
+          "name": "not",
+          "type": "text",
+          "pos": [
+            292,
+            326
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 65,
+          "to": 330,
+          "text": "not",
+          "size": 42,
+          "font": "italic",
+          "color": "#f0edef",
+          "track": -35,
+          "glow": 18,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                65,
+                72
+              ],
+              "values": [
+                [
+                  292,
+                  351
+                ],
+                [
+                  292,
+                  326
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                65,
+                68
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                65,
+                72
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "by",
+          "type": "text",
+          "pos": [
+            358,
+            326
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 68,
+          "to": 330,
+          "text": "by",
+          "size": 43,
+          "font": "italic",
+          "color": "#f0edef",
+          "track": -35,
+          "glow": 18,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                68,
+                75
+              ],
+              "values": [
+                [
+                  358,
+                  351
+                ],
+                [
+                  358,
+                  326
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                68,
+                71
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                68,
+                75
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "waiting",
+          "type": "text",
+          "pos": [
+            414,
+            326
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 71,
+          "to": 330,
+          "text": "waiting",
+          "size": 43,
+          "font": "italic",
+          "color": "#f0edef",
+          "track": -35,
+          "glow": 18,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                71,
+                78
+              ],
+              "values": [
+                [
+                  414,
+                  351
+                ],
+                [
+                  414,
+                  326
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                71,
+                74
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                71,
+                78
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "for the",
+          "type": "text",
+          "pos": [
+            357,
+            357
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 75,
+          "to": 330,
+          "text": "for the",
+          "size": 42,
+          "font": "italic",
+          "color": "#f0edef",
+          "track": -35,
+          "glow": 18,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                75,
+                82
+              ],
+              "values": [
+                [
+                  357,
+                  382
+                ],
+                [
+                  357,
+                  357
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                75,
+                78
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                75,
+                82
+              ],
+              "values": [
+                4,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Selección perfect",
+          "type": "rect",
+          "pos": [
+            323,
+            365
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 80,
+          "to": 330,
+          "w": 267,
+          "h": 64,
+          "color": "#b312cf",
+          "glow": 19,
+          "glowColor": "#b90fcd",
+          "anim": {
+            "scale": {
+              "frames": [
+                80,
+                86
+              ],
+              "values": [
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "out"
+            }
+          }
+        },
+        {
+          "name": "perfect — palabra editable",
+          "type": "text",
+          "pos": [
+            324,
+            421
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 80,
+          "to": 330,
+          "text": "perfect",
+          "size": 80,
+          "font": "bolditalic",
+          "color": "#f0edef",
+          "track": -47,
+          "glow": 17,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                80,
+                88
+              ],
+              "values": [
+                [
+                  324,
+                  459
+                ],
+                [
+                  324,
+                  421
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                80,
+                83
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                80,
+                88
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "day",
+          "type": "text",
+          "pos": [
+            477,
+            465
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 87,
+          "to": 330,
+          "text": "day",
+          "size": 43,
+          "font": "italic",
+          "color": "#f0edef",
+          "track": -45,
+          "glow": 18,
+          "anim": {
+            "pos": {
+              "frames": [
+                87,
+                94
+              ],
+              "values": [
+                [
+                  477,
+                  495
+                ],
+                [
+                  477,
+                  465
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                87,
+                90
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                87,
+                94
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        }
+      ]
+    },
+    "03a - Watch scene": {
+      "name": "03a - Watch scene",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Fondo radial",
+          "type": "gradient",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#20071e",
+          "endColor": "#000000",
+          "radius": 510,
+          "center": [
+            360,
+            640
+          ]
+        },
+        {
+          "name": "Reloj y tipografía",
+          "type": "comp",
+          "pos": [
+            0,
+            280
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "source": "03 - Watch artwork"
+        }
+      ]
+    },
+    "03b - Square publication": {
+      "name": "03b - Square publication",
+      "width": 720,
+      "height": 740,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Fondo radial",
+          "type": "gradient",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 740,
+          "color": "#270d26",
+          "endColor": "#050306",
+          "radius": 700,
+          "center": [
+            360,
+            360
+          ]
+        },
+        {
+          "name": "Arte ampliado",
+          "type": "comp",
+          "pos": [
+            360,
+            360
+          ],
+          "anchor": [
+            360,
+            360
+          ],
+          "from": 0,
+          "to": 330,
+          "source": "03 - Watch artwork",
+          "scale": [
+            1.21,
+            1.21
+          ]
+        }
+      ]
+    },
+    "04 - Instagram post": {
+      "name": "04 - Instagram post",
+      "width": 756,
+      "height": 990,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Publicación - arte reutilizado",
+          "type": "comp",
+          "pos": [
+            18,
+            85
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "source": "03b - Square publication",
+          "round": 13
+        },
+        {
+          "name": "Usuario",
+          "type": "text",
+          "pos": [
+            24,
+            56
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "burzaev_studio",
+          "size": 35,
+          "font": "bold",
+          "color": "#08080a",
+          "track": -40,
+          "blur": 0.8
+        },
+        {
+          "name": "Más",
+          "type": "text",
+          "pos": [
+            648,
+            58
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "···",
+          "size": 45,
+          "font": "bold",
+          "color": "#08080a",
+          "track": 0,
+          "blur": 0.8
+        },
+        {
+          "name": "Me gusta",
+          "type": "path",
+          "pos": [
+            31,
+            846
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              20,
+              30
+            ],
+            [
+              0,
+              12
+            ],
+            [
+              0,
+              3
+            ],
+            [
+              7,
+              -3
+            ],
+            [
+              15,
+              -3
+            ],
+            [
+              20,
+              3
+            ],
+            [
+              25,
+              -3
+            ],
+            [
+              33,
+              -3
+            ],
+            [
+              40,
+              3
+            ],
+            [
+              40,
+              12
+            ]
+          ],
+          "closed": true,
+          "stroke": "#16171b",
+          "strokeWidth": 2.5
+        },
+        {
+          "name": "Likes",
+          "type": "text",
+          "pos": [
+            80,
+            877
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "6",
+          "size": 42,
+          "font": "regular",
+          "color": "#111215",
+          "track": 0,
+          "blur": 0.8
+        },
+        {
+          "name": "Comentarios",
+          "type": "path",
+          "pos": [
+            129,
+            845
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              33,
+              32
+            ],
+            [
+              23,
+              28
+            ],
+            [
+              15,
+              31
+            ],
+            [
+              5,
+              28
+            ],
+            [
+              0,
+              22
+            ],
+            [
+              -2,
+              12
+            ],
+            [
+              1,
+              4
+            ],
+            [
+              8,
+              -2
+            ],
+            [
+              17,
+              -4
+            ],
+            [
+              26,
+              -1
+            ],
+            [
+              32,
+              6
+            ],
+            [
+              33,
+              17
+            ],
+            [
+              31,
+              23
+            ]
+          ],
+          "closed": true,
+          "stroke": "#16171b",
+          "strokeWidth": 2.5
+        },
+        {
+          "name": "Comentarios total",
+          "type": "text",
+          "pos": [
+            173,
+            877
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "0",
+          "size": 40,
+          "font": "regular",
+          "color": "#111215",
+          "track": 0,
+          "blur": 0.8
+        },
+        {
+          "name": "Compartir",
+          "type": "path",
+          "pos": [
+            215,
+            845
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              40,
+              0
+            ],
+            [
+              15,
+              36
+            ],
+            [
+              12,
+              15
+            ],
+            [
+              40,
+              0
+            ],
+            [
+              12,
+              15
+            ]
+          ],
+          "closed": false,
+          "stroke": "#111215",
+          "strokeWidth": 2.5
+        },
+        {
+          "name": "Compartidos total",
+          "type": "text",
+          "pos": [
+            263,
+            877
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "0",
+          "size": 40,
+          "font": "regular",
+          "color": "#111215",
+          "track": 0,
+          "blur": 0.8
+        },
+        {
+          "name": "Nombre del autor",
+          "type": "text",
+          "pos": [
+            30,
+            911
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "Burzaev_studio",
+          "size": 32,
+          "font": "bold",
+          "color": "#08090c",
+          "track": -35,
+          "blur": 0.8
+        },
+        {
+          "name": "Pie - there",
+          "type": "text",
+          "pos": [
+            274.0,
+            911
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 151,
+          "to": 330,
+          "text": "there",
+          "size": 32,
+          "font": "regular",
+          "color": "#0b0b0d",
+          "track": -8,
+          "blur": 0.8
+        },
+        {
+          "name": "Pie - will",
+          "type": "text",
+          "pos": [
+            354.578125,
+            911
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 155,
+          "to": 330,
+          "text": "will",
+          "size": 32,
+          "font": "regular",
+          "color": "#0b0b0d",
+          "track": -8,
+          "blur": 0.8
+        },
+        {
+          "name": "Pie - always",
+          "type": "text",
+          "pos": [
+            406.65625,
+            911
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 159,
+          "to": 330,
+          "text": "always",
+          "size": 32,
+          "font": "regular",
+          "color": "#0b0b0d",
+          "track": -8,
+          "blur": 0.8
+        },
+        {
+          "name": "Pie - be",
+          "type": "text",
+          "pos": [
+            511.609375,
+            911
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 168,
+          "to": 330,
+          "text": "be",
+          "size": 32,
+          "font": "regular",
+          "color": "#0b0b0d",
+          "track": -8,
+          "blur": 0.8
+        },
+        {
+          "name": "Pie - another",
+          "type": "text",
+          "pos": [
+            555.34375,
+            911
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 173,
+          "to": 330,
+          "text": "another",
+          "size": 32,
+          "font": "regular",
+          "color": "#0b0b0d",
+          "track": -8,
+          "blur": 0.8
+        },
+        {
+          "name": "Pie - reason",
+          "type": "text",
+          "pos": [
+            30,
+            950
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 181,
+          "to": 330,
+          "text": "reason",
+          "size": 32,
+          "font": "regular",
+          "color": "#0b0b0d",
+          "track": -8,
+          "blur": 0.8
+        }
+      ]
+    },
+    "05 - Instagram camera": {
+      "name": "05 - Instagram camera",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Fondo radial",
+          "type": "gradient",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#c8c8c8",
+          "endColor": "#7e7e7e",
+          "radius": 920,
+          "center": [
+            352,
+            650
+          ]
+        },
+        {
+          "name": "Plano publicación 3D",
+          "type": "comp",
+          "pos": [
+            360,
+            640
+          ],
+          "anchor": [
+            378,
+            445
+          ],
+          "from": 0,
+          "to": 330,
+          "source": "04 - Instagram post",
+          "threeD": true,
+          "anim": {
+            "scale": {
+              "frames": [
+                137,
+                149,
+                155,
+                174,
+                201,
+                213
+              ],
+              "values": [
+                [
+                  1.54,
+                  1.54
+                ],
+                [
+                  0.827,
+                  0.827
+                ],
+                [
+                  0.827,
+                  0.827
+                ],
+                [
+                  1.01,
+                  1.01
+                ],
+                [
+                  1.01,
+                  1.01
+                ],
+                [
+                  1.05,
+                  1.05
+                ]
+              ],
+              "ease": "smooth"
+            },
+            "pos": {
+              "frames": [
+                137,
+                149,
+                155,
+                174,
+                201,
+                213
+              ],
+              "values": [
+                [
+                  360,
+                  640
+                ],
+                [
+                  360,
+                  633
+                ],
+                [
+                  360,
+                  633
+                ],
+                [
+                  362,
+                  392
+                ],
+                [
+                  362,
+                  392
+                ],
+                [
+                  375,
+                  376
+                ]
+              ],
+              "ease": "smooth"
+            },
+            "ry": {
+              "frames": [
+                137,
+                150,
+                155,
+                174,
+                201,
+                213
+              ],
+              "values": [
+                0,
+                0,
+                0,
+                18,
+                18,
+                0
+              ],
+              "ease": "smooth"
+            },
+            "rx": {
+              "frames": [
+                137,
+                150,
+                155,
+                174,
+                201,
+                213
+              ],
+              "values": [
+                0,
+                0,
+                0,
+                3,
+                3,
+                0
+              ],
+              "ease": "smooth"
+            }
+          }
+        }
+      ]
+    },
+    "06 - Calendar board": {
+      "name": "06 - Calendar board",
+      "width": 2200,
+      "height": 2100,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Línea horizontal 0",
+          "type": "path",
+          "pos": [
+            0,
+            250
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea horizontal 1",
+          "type": "path",
+          "pos": [
+            0,
+            550
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea horizontal 2",
+          "type": "path",
+          "pos": [
+            0,
+            850
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea horizontal 3",
+          "type": "path",
+          "pos": [
+            0,
+            1150
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea horizontal 4",
+          "type": "path",
+          "pos": [
+            0,
+            1450
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea horizontal 5",
+          "type": "path",
+          "pos": [
+            0,
+            1750
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea horizontal 6",
+          "type": "path",
+          "pos": [
+            0,
+            2050
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              2140,
+              0
+            ]
+          ],
+          "closed": false,
+          "stroke": "#292a2b",
+          "strokeWidth": 1,
+          "opacity": 0.22
+        },
+        {
+          "name": "Línea vertical 0",
+          "type": "path",
+          "pos": [
+            22,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 1",
+          "type": "path",
+          "pos": [
+            277,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 2",
+          "type": "path",
+          "pos": [
+            532,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 3",
+          "type": "path",
+          "pos": [
+            787,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 4",
+          "type": "path",
+          "pos": [
+            1042,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 5",
+          "type": "path",
+          "pos": [
+            1297,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 6",
+          "type": "path",
+          "pos": [
+            1552,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Línea vertical 7",
+          "type": "path",
+          "pos": [
+            1807,
+            240
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1750
+            ]
+          ],
+          "closed": false,
+          "stroke": "#101113",
+          "strokeWidth": 1,
+          "opacity": 0.24
+        },
+        {
+          "name": "Día activo 1",
+          "type": "ellipse",
+          "pos": [
+            405,
+            400
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 215,
+          "to": 219,
+          "w": 114,
+          "h": 120,
+          "color": "#d9dddd",
+          "glow": 24,
+          "glowColor": "#a2bebd"
+        },
+        {
+          "name": "Fecha 1",
+          "type": "text",
+          "pos": [
+            405,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "1",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Uno negro activo",
+          "type": "text",
+          "pos": [
+            405,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 215,
+          "to": 219,
+          "text": "1",
+          "size": 88,
+          "font": "regular",
+          "color": "#050708",
+          "track": -15,
+          "align": "center",
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 2",
+          "type": "ellipse",
+          "pos": [
+            660,
+            400
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 219,
+          "to": 223,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 2",
+          "type": "text",
+          "pos": [
+            660,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "2",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 3",
+          "type": "ellipse",
+          "pos": [
+            915,
+            400
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 223,
+          "to": 227,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 3",
+          "type": "text",
+          "pos": [
+            915,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "3",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 4",
+          "type": "ellipse",
+          "pos": [
+            1170,
+            400
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 227,
+          "to": 231,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 4",
+          "type": "text",
+          "pos": [
+            1170,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "4",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 5",
+          "type": "ellipse",
+          "pos": [
+            1425,
+            400
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 231,
+          "to": 235,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 5",
+          "type": "text",
+          "pos": [
+            1425,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "5",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 6",
+          "type": "ellipse",
+          "pos": [
+            1680,
+            400
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 235,
+          "to": 239,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 6",
+          "type": "text",
+          "pos": [
+            1680,
+            429
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "6",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 7",
+          "type": "ellipse",
+          "pos": [
+            150,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 239,
+          "to": 242,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 7",
+          "type": "text",
+          "pos": [
+            150,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "7",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 8",
+          "type": "ellipse",
+          "pos": [
+            405,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 0,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 8",
+          "type": "text",
+          "pos": [
+            405,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "8",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 9",
+          "type": "ellipse",
+          "pos": [
+            660,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 242,
+          "to": 245,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 9",
+          "type": "text",
+          "pos": [
+            660,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "9",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 10",
+          "type": "ellipse",
+          "pos": [
+            915,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 245,
+          "to": 248,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 10",
+          "type": "text",
+          "pos": [
+            915,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "10",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 11",
+          "type": "ellipse",
+          "pos": [
+            1170,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 248,
+          "to": 251,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 11",
+          "type": "text",
+          "pos": [
+            1170,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "11",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 12",
+          "type": "ellipse",
+          "pos": [
+            1425,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 251,
+          "to": 253,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 12",
+          "type": "text",
+          "pos": [
+            1425,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "12",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 13",
+          "type": "ellipse",
+          "pos": [
+            1680,
+            700
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 253,
+          "to": 255,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 13",
+          "type": "text",
+          "pos": [
+            1680,
+            729
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "13",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 14",
+          "type": "ellipse",
+          "pos": [
+            150,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 255,
+          "to": 257,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 14",
+          "type": "text",
+          "pos": [
+            150,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "14",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 15",
+          "type": "ellipse",
+          "pos": [
+            405,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 257,
+          "to": 259,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 15",
+          "type": "text",
+          "pos": [
+            405,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "15",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 16",
+          "type": "ellipse",
+          "pos": [
+            660,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 259,
+          "to": 261,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 16",
+          "type": "text",
+          "pos": [
+            660,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "16",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 17",
+          "type": "ellipse",
+          "pos": [
+            915,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 261,
+          "to": 263,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 17",
+          "type": "text",
+          "pos": [
+            915,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "17",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 18",
+          "type": "ellipse",
+          "pos": [
+            1170,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 263,
+          "to": 265,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 18",
+          "type": "text",
+          "pos": [
+            1170,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "18",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 19",
+          "type": "ellipse",
+          "pos": [
+            1425,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 265,
+          "to": 267,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 19",
+          "type": "text",
+          "pos": [
+            1425,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "19",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 20",
+          "type": "ellipse",
+          "pos": [
+            1680,
+            1000
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 267,
+          "to": 269,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 20",
+          "type": "text",
+          "pos": [
+            1680,
+            1029
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "20",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 21",
+          "type": "ellipse",
+          "pos": [
+            150,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 269,
+          "to": 271,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 21",
+          "type": "text",
+          "pos": [
+            150,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "21",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 22",
+          "type": "ellipse",
+          "pos": [
+            405,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 271,
+          "to": 273,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 22",
+          "type": "text",
+          "pos": [
+            405,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "22",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 23",
+          "type": "ellipse",
+          "pos": [
+            660,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 0,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 23",
+          "type": "text",
+          "pos": [
+            660,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "23",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 24",
+          "type": "ellipse",
+          "pos": [
+            915,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 273,
+          "to": 275,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 24",
+          "type": "text",
+          "pos": [
+            915,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "24",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 25",
+          "type": "ellipse",
+          "pos": [
+            1170,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 275,
+          "to": 277,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 25",
+          "type": "text",
+          "pos": [
+            1170,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "25",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 26",
+          "type": "ellipse",
+          "pos": [
+            1425,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 277,
+          "to": 279,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 26",
+          "type": "text",
+          "pos": [
+            1425,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "26",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 27",
+          "type": "ellipse",
+          "pos": [
+            1680,
+            1300
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 279,
+          "to": 281,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 27",
+          "type": "text",
+          "pos": [
+            1680,
+            1329
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "27",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 28",
+          "type": "ellipse",
+          "pos": [
+            150,
+            1600
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 281,
+          "to": 283,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 28",
+          "type": "text",
+          "pos": [
+            150,
+            1629
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "28",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 29",
+          "type": "ellipse",
+          "pos": [
+            405,
+            1600
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 283,
+          "to": 285,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 29",
+          "type": "text",
+          "pos": [
+            405,
+            1629
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "29",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 30",
+          "type": "ellipse",
+          "pos": [
+            660,
+            1600
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 285,
+          "to": 287,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 30",
+          "type": "text",
+          "pos": [
+            660,
+            1629
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "30",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 31",
+          "type": "ellipse",
+          "pos": [
+            915,
+            1600
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 0,
+          "w": 114,
+          "h": 120,
+          "color": "#f4070f",
+          "glow": 24,
+          "glowColor": "#d61b16"
+        },
+        {
+          "name": "Fecha 31",
+          "type": "text",
+          "pos": [
+            915,
+            1629
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "31",
+          "size": 88,
+          "font": "light",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        },
+        {
+          "name": "Día activo 32",
+          "type": "ellipse",
+          "pos": [
+            1170,
+            1600
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 287,
+          "to": 330,
+          "w": 114,
+          "h": 120,
+          "color": "#069d0e",
+          "glow": 24,
+          "glowColor": "#118620"
+        },
+        {
+          "name": "Fecha 32",
+          "type": "text",
+          "pos": [
+            1170,
+            1629
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "text": "now",
+          "size": 54,
+          "font": "regular",
+          "color": "#d8d9d6",
+          "track": -15,
+          "align": "center",
+          "glow": 20,
+          "chroma": 2,
+          "blur": 0.8
+        }
+      ]
+    },
+    "07 - Calendar camera": {
+      "name": "07 - Calendar camera",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Negro",
+          "type": "rect",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#000000"
+        },
+        {
+          "name": "Tablero y fechas — plano 3D",
+          "type": "comp",
+          "pos": [
+            383,
+            616
+          ],
+          "anchor": [
+            405,
+            400
+          ],
+          "from": 0,
+          "to": 330,
+          "source": "06 - Calendar board",
+          "threeD": true,
+          "ry": 12,
+          "rx": -4,
+          "rot": 4,
+          "anim": {
+            "anchor": {
+              "frames": [
+                215,
+                219,
+                223,
+                227,
+                231,
+                235,
+                239,
+                242,
+                245,
+                248,
+                251,
+                253,
+                255,
+                257,
+                259,
+                261,
+                263,
+                265,
+                267,
+                269,
+                271,
+                273,
+                275,
+                277,
+                279,
+                281,
+                283,
+                285,
+                287,
+                299,
+                313
+              ],
+              "values": [
+                [
+                  405,
+                  400
+                ],
+                [
+                  660,
+                  400
+                ],
+                [
+                  915,
+                  400
+                ],
+                [
+                  1170,
+                  400
+                ],
+                [
+                  1425,
+                  400
+                ],
+                [
+                  1680,
+                  400
+                ],
+                [
+                  150,
+                  700
+                ],
+                [
+                  660,
+                  700
+                ],
+                [
+                  915,
+                  700
+                ],
+                [
+                  1170,
+                  700
+                ],
+                [
+                  1425,
+                  700
+                ],
+                [
+                  1680,
+                  700
+                ],
+                [
+                  150,
+                  1000
+                ],
+                [
+                  405,
+                  1000
+                ],
+                [
+                  660,
+                  1000
+                ],
+                [
+                  915,
+                  1000
+                ],
+                [
+                  1170,
+                  1000
+                ],
+                [
+                  1425,
+                  1000
+                ],
+                [
+                  1680,
+                  1000
+                ],
+                [
+                  150,
+                  1300
+                ],
+                [
+                  405,
+                  1300
+                ],
+                [
+                  915,
+                  1300
+                ],
+                [
+                  1170,
+                  1300
+                ],
+                [
+                  1425,
+                  1300
+                ],
+                [
+                  1680,
+                  1300
+                ],
+                [
+                  150,
+                  1600
+                ],
+                [
+                  405,
+                  1600
+                ],
+                [
+                  660,
+                  1600
+                ],
+                [
+                  1170,
+                  1600
+                ],
+                [
+                  1170,
+                  1600
+                ],
+                [
+                  1170,
+                  1600
+                ]
+              ],
+              "ease": "hold"
+            },
+            "rot": {
+              "frames": [
+                215,
+                235,
+                260,
+                290,
+                329
+              ],
+              "values": [
+                2,
+                4,
+                5,
+                5,
+                5
+              ],
+              "ease": "linear"
+            },
+            "pos": {
+              "frames": [
+                215,
+                297,
+                311,
+                329
+              ],
+              "values": [
+                [
+                  383,
+                  616
+                ],
+                [
+                  383,
+                  616
+                ],
+                [
+                  383,
+                  411
+                ],
+                [
+                  383,
+                  411
+                ]
+              ],
+              "ease": "smooth"
+            },
+            "blur": {
+              "frames": [
+                215,
+                295,
+                305,
+                329
+              ],
+              "values": [
+                0.6,
+                0.6,
+                7,
+                7
+              ],
+              "ease": "smooth"
+            }
+          }
+        },
+        {
+          "name": "Sombra borde superior",
+          "type": "rect",
+          "pos": [
+            -100,
+            -500
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 920,
+          "h": 660,
+          "color": "#000000",
+          "opacity": 0.92,
+          "blur": 95
+        },
+        {
+          "name": "Sombra inferior",
+          "type": "rect",
+          "pos": [
+            -100,
+            875
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 920,
+          "h": 1000,
+          "color": "#000000",
+          "opacity": 0.8,
+          "blur": 100
+        },
+        {
+          "name": "Titular You",
+          "type": "text",
+          "pos": [
+            20,
+            376
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 214,
+          "to": 239,
+          "text": "You",
+          "size": 67,
+          "font": "regular",
+          "color": "#f0edef",
+          "track": -40,
+          "glow": 20,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                214,
+                221,
+                235,
+                239
+              ],
+              "values": [
+                [
+                  20,
+                  421
+                ],
+                [
+                  20,
+                  376
+                ],
+                [
+                  20,
+                  376
+                ],
+                [
+                  20,
+                  145
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                214,
+                217
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                214,
+                221
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Titular don’t",
+          "type": "text",
+          "pos": [
+            162,
+            376
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 217,
+          "to": 239,
+          "text": "don’t",
+          "size": 67,
+          "font": "regular",
+          "color": "#f0edef",
+          "track": -40,
+          "glow": 20,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                217,
+                224,
+                235,
+                239
+              ],
+              "values": [
+                [
+                  162,
+                  421
+                ],
+                [
+                  162,
+                  376
+                ],
+                [
+                  162,
+                  376
+                ],
+                [
+                  162,
+                  145
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                217,
+                220
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                217,
+                224
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Titular start",
+          "type": "text",
+          "pos": [
+            330,
+            376
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 220,
+          "to": 239,
+          "text": "start",
+          "size": 67,
+          "font": "regular",
+          "color": "#f0edef",
+          "track": -40,
+          "glow": 20,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                220,
+                227,
+                235,
+                239
+              ],
+              "values": [
+                [
+                  330,
+                  421
+                ],
+                [
+                  330,
+                  376
+                ],
+                [
+                  330,
+                  376
+                ],
+                [
+                  330,
+                  145
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                220,
+                223
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                220,
+                227
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Titular tomorrow",
+          "type": "text",
+          "pos": [
+            466,
+            376
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 223,
+          "to": 239,
+          "text": "tomorrow",
+          "size": 67,
+          "font": "regular",
+          "color": "#f0edef",
+          "track": -40,
+          "glow": 20,
+          "chroma": 2,
+          "anim": {
+            "pos": {
+              "frames": [
+                223,
+                230,
+                235,
+                239
+              ],
+              "values": [
+                [
+                  466,
+                  421
+                ],
+                [
+                  466,
+                  376
+                ],
+                [
+                  466,
+                  376
+                ],
+                [
+                  466,
+                  145
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                223,
+                226
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                223,
+                230
+              ],
+              "values": [
+                5,
+                0.8
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Cierre you",
+          "type": "text",
+          "pos": [
+            382,
+            486
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 301,
+          "to": 330,
+          "text": "you",
+          "size": 112,
+          "font": "bold",
+          "color": "#efeff0",
+          "track": -55,
+          "align": "center",
+          "glow": 12,
+          "chroma": 4,
+          "anim": {
+            "pos": {
+              "frames": [
+                301,
+                311
+              ],
+              "values": [
+                [
+                  382,
+                  716
+                ],
+                [
+                  382,
+                  486
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                301,
+                304
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                301,
+                311
+              ],
+              "values": [
+                10,
+                0.8
+              ],
+              "ease": "out"
+            },
+            "scale": {
+              "frames": [
+                301,
+                310,
+                314
+              ],
+              "values": [
+                [
+                  0.86,
+                  0.86
+                ],
+                [
+                  1.035,
+                  1.035
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Cierre start",
+          "type": "text",
+          "pos": [
+            382,
+            592
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 310,
+          "to": 330,
+          "text": "start",
+          "size": 160,
+          "font": "bold",
+          "color": "#efeff0",
+          "track": -55,
+          "align": "center",
+          "glow": 12,
+          "chroma": 4,
+          "anim": {
+            "pos": {
+              "frames": [
+                310,
+                320
+              ],
+              "values": [
+                [
+                  382,
+                  822
+                ],
+                [
+                  382,
+                  592
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                310,
+                313
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                310,
+                320
+              ],
+              "values": [
+                10,
+                0.8
+              ],
+              "ease": "out"
+            },
+            "scale": {
+              "frames": [
+                310,
+                319,
+                323
+              ],
+              "values": [
+                [
+                  0.86,
+                  0.86
+                ],
+                [
+                  1.035,
+                  1.035
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        },
+        {
+          "name": "Cierre now",
+          "type": "text",
+          "pos": [
+            382,
+            712
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 316,
+          "to": 330,
+          "text": "now",
+          "size": 202,
+          "font": "bold",
+          "color": "#65257c",
+          "track": -55,
+          "align": "center",
+          "glow": 12,
+          "chroma": 4,
+          "anim": {
+            "pos": {
+              "frames": [
+                316,
+                326
+              ],
+              "values": [
+                [
+                  382,
+                  942
+                ],
+                [
+                  382,
+                  712
+                ]
+              ],
+              "ease": "out"
+            },
+            "opacity": {
+              "frames": [
+                316,
+                319
+              ],
+              "values": [
+                0,
+                1
+              ],
+              "ease": "linear"
+            },
+            "blur": {
+              "frames": [
+                316,
+                326
+              ],
+              "values": [
+                10,
+                0.8
+              ],
+              "ease": "out"
+            },
+            "scale": {
+              "frames": [
+                316,
+                325,
+                329
+              ],
+              "values": [
+                [
+                  0.86,
+                  0.86
+                ],
+                [
+                  1.035,
+                  1.035
+                ],
+                [
+                  1,
+                  1
+                ]
+              ],
+              "ease": "out"
+            }
+          },
+          "blur": 0.8
+        }
+      ]
+    },
+    "REPLICA - MASTER": {
+      "name": "REPLICA - MASTER",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Negro base",
+          "type": "rect",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#000000"
+        },
+        {
+          "name": "01 Succes",
+          "type": "comp",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 30,
+          "source": "01 - Succes"
+        },
+        {
+          "name": "03 Watch",
+          "type": "comp",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 56,
+          "to": 138,
+          "source": "03a - Watch scene"
+        },
+        {
+          "name": "02 Action",
+          "type": "comp",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 30,
+          "to": 67,
+          "source": "02 - Action",
+          "anim": {
+            "wipe": {
+              "frames": [
+                55,
+                62,
+                67
+              ],
+              "values": [
+                0,
+                92,
+                100
+              ],
+              "ease": "smooth"
+            }
+          }
+        },
+        {
+          "name": "04 Instagram",
+          "type": "comp",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 138,
+          "to": 215,
+          "source": "05 - Instagram camera"
+        },
+        {
+          "name": "05 Calendar",
+          "type": "comp",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 215,
+          "to": 330,
+          "source": "07 - Calendar camera"
+        },
+        {
+          "name": "Textura líneas CRT",
+          "type": "scanlines",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "w": 720,
+          "h": 1280,
+          "color": "#000000",
+          "opacity": 0.075
+        }
+      ]
+    },
+    "REPLICA - FINAL": {
+      "name": "REPLICA - FINAL",
+      "width": 720,
+      "height": 1280,
+      "frames": 330,
+      "layers": [
+        {
+          "name": "Acabado óptico - editable",
+          "type": "comp",
+          "pos": [
+            0,
+            0
+          ],
+          "anchor": [
+            0,
+            0
+          ],
+          "from": 0,
+          "to": 330,
+          "source": "REPLICA - MASTER",
+          "blur": 0.55
+        }
+      ]
+    }
+  },
+  "dateTargets": [
+    [
+      215,
+      1
+    ],
+    [
+      219,
+      2
+    ],
+    [
+      223,
+      3
+    ],
+    [
+      227,
+      4
+    ],
+    [
+      231,
+      5
+    ],
+    [
+      235,
+      6
+    ],
+    [
+      239,
+      7
+    ],
+    [
+      242,
+      9
+    ],
+    [
+      245,
+      10
+    ],
+    [
+      248,
+      11
+    ],
+    [
+      251,
+      12
+    ],
+    [
+      253,
+      13
+    ],
+    [
+      255,
+      14
+    ],
+    [
+      257,
+      15
+    ],
+    [
+      259,
+      16
+    ],
+    [
+      261,
+      17
+    ],
+    [
+      263,
+      18
+    ],
+    [
+      265,
+      19
+    ],
+    [
+      267,
+      20
+    ],
+    [
+      269,
+      21
+    ],
+    [
+      271,
+      22
+    ],
+    [
+      273,
+      24
+    ],
+    [
+      275,
+      25
+    ],
+    [
+      277,
+      26
+    ],
+    [
+      279,
+      27
+    ],
+    [
+      281,
+      28
+    ],
+    [
+      283,
+      29
+    ],
+    [
+      285,
+      30
+    ],
+    [
+      287,
+      32
+    ]
+  ]
+}

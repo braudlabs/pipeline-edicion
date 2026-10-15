@@ -1,0 +1,18 @@
+{
+ "slug": "v2-churros",
+ "original": "BRAUDLABS - V2 - CHURROS COCINA.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 24.0,
+ "fps_num": 24,
+ "fps_den": 1,
+ "frames": 1699,
+ "duration": 70.791667,
+ "video_codec": "h264",
+ "video_bitrate": 9302503,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 32000,
+ "audio_channels": 2,
+ "audio_bitrate": 190163
+}

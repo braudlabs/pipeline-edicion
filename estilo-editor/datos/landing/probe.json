@@ -1,0 +1,18 @@
+{
+ "slug": "landing",
+ "original": "BRAUDLABS - LANDING.mp4",
+ "width": 1920,
+ "height": 1080,
+ "fps": 60.0,
+ "fps_num": 60,
+ "fps_den": 1,
+ "frames": 5680,
+ "duration": 94.666667,
+ "video_codec": "h264",
+ "video_bitrate": 15909911,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 44100,
+ "audio_channels": 2,
+ "audio_bitrate": 189507
+}

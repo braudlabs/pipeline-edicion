@@ -1,0 +1,18 @@
+{
+  "fps": 48,
+  "duration": 952,
+  "nota": "01, 02 y 03 son un plano continuo partido en tres: encadenan sin corte. Los dos macros se montan sobre el audio de 02, en mudo. sourceFrame va en fotogramas de la composición (48 fps).",
+  "video": [
+    {"from": 0,   "duration": 338, "src": "01-A-hook.mp4",        "sourceFrame": 0,   "voz": "hook + «a mí no me ha hinchado»"},
+    {"from": 338, "duration": 172, "src": "02-B-desarrollo.mp4",  "sourceFrame": 0,   "voz": "«lo que noté es que aguanto la última serie entera»"},
+    {"from": 510, "duration": 116, "src": "04-macro-polvo.mp4",   "sourceFrame": 0,   "voz": "«cinco gramos con agua y ya está» (macro mudo)"},
+    {"from": 626, "duration": 26,  "src": "02-B-desarrollo.mp4",  "sourceFrame": 288, "voz": "vuelve a ella medio segundo"},
+    {"from": 652, "duration": 60,  "src": "05-macro-guardar.mp4", "sourceFrame": 0,   "voz": "«tres euros la semana» (macro mudo)"},
+    {"from": 712, "duration": 240, "src": "03-C-cierre.mp4",      "sourceFrame": 0,   "voz": "CTA con el código"}
+  ],
+  "audio": [
+    {"src": "01-A-hook.mp4",       "masterFrom": 0,   "sourceFrom": 0, "duration": 338},
+    {"src": "02-B-desarrollo.mp4", "masterFrom": 338, "sourceFrom": 0, "duration": 374},
+    {"src": "03-C-cierre.mp4",     "masterFrom": 712, "sourceFrom": 0, "duration": 240}
+  ]
+}

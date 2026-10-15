@@ -1,0 +1,51 @@
+{
+  "status": "dense_complete_native_partial",
+  "sheets_viewed": [
+    "d030_f01790-f01862.jpg",
+    "d031_f01863-f01902.jpg",
+    "d032_f01903-f01991.jpg",
+    "d033_f01992-f02086.jpg",
+    "d034_f02087-f02143.jpg",
+    "d035_f02144-f02183.jpg",
+    "d036_f02184-f02223.jpg",
+    "d037_f02224-f02263.jpg",
+    "d038_f02264-f02303.jpg",
+    "d039_f02304-f02343.jpg",
+    "d040_f02344-f02383.jpg",
+    "d041_f02384-f02443.jpg",
+    "d042_f02444-f02536.jpg",
+    "d043_f02537-f02576.jpg",
+    "d044_f02577-f02649.jpg"
+  ],
+  "supplemental_sheets_viewed": [
+    "s014_f01640-f01822.jpg",
+    "s015_f01824-f01934.jpg",
+    "s016_f01936-f02004.jpg",
+    "s017_f02006-f02074.jpg",
+    "s018_f02076-f02434.jpg",
+    "s019_f02436-f02508.jpg",
+    "s020_f02509-f02536.jpg"
+  ],
+  "native_ranges": [
+    [
+      2332,
+      2338
+    ]
+  ],
+  "spectrograms_viewed": [
+    "s_032-040.png",
+    "s_040-045.png",
+    "s_024-032.png"
+  ],
+  "forensic_complete": false,
+  "native_frames": [
+    2116,
+    2121,
+    2126,
+    2131,
+    2136,
+    2141,
+    2160,
+    2200
+  ]
+}

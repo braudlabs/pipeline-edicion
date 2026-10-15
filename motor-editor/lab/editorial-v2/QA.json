@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-14",
+  "status": "technical_pilot_visually_sampled_not_user_approved",
+  "outputSha256": "b2b79954162b5c073df24320c3a1965c42b458a1fa90669342cde31b3b69b81a",
+  "sourceSha256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+  "streams": [
+    {
+      "codec_type": "video",
+      "width": 540,
+      "height": 960,
+      "r_frame_rate": "60000/1001",
+      "duration": "4.504489",
+      "nb_frames": "270"
+    },
+    {
+      "codec_type": "audio",
+      "r_frame_rate": "0/0",
+      "duration": "4.523000",
+      "nb_frames": "214"
+    }
+  ],
+  "audio": {
+    "rate": 48000,
+    "samplesCompared": 216000,
+    "crossCorrelationLagSamples": 0,
+    "zeroLagCorrelation": 0.999887506977877,
+    "independentListening": false
+  },
+  "framesInspectedFinal": [
+    137,
+    141,
+    165,
+    195
+  ],
+  "framesInspectedInitial": [
+    108,
+    141,
+    165
+  ],
+  "referenceNativeSamples": [
+    {
+      "slug": "v1-pagado",
+      "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+      "frames": [
+        116,
+        120,
+        124,
+        128,
+        137,
+        138,
+        186,
+        189,
+        194
+      ],
+      "fps": {
+        "num": 24,
+        "den": 1
+      },
+      "note": "Exact decode-index extraction; boards reduced; native PNGs retained."
+    },
+    {
+      "slug": "v5-maquina",
+      "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+      "frames": [
+        675,
+        689,
+        690,
+        705,
+        723,
+        724
+      ],
+      "fps": {
+        "num": 30000,
+        "den": 1001
+      },
+      "note": "Exact decode-index extraction; boards reduced; native PNGs retained."
+    }
+  ],
+  "observations": [
+    {
+      "frame": 141,
+      "before": "Fitted overshoot brings the acute/tilde into the support margin.",
+      "change": "Animated ink collision check selects authored monotone entrance while retaining resting layout.",
+      "after": "Support and focus separated in reviewed final frame."
+    },
+    {
+      "frame": 165,
+      "observation": "Compact 3-level hierarchy; original actor/shot and original palette retained."
+    },
+    {
+      "frame": 195,
+      "observation": "Whole phrase remains a wide rail because input uses V07 phrase cue units, not new word alignment. This is a pilot limitation, not validated final pacing."
+    }
+  ],
+  "limits": [
+    "Only listed images inspected; no claim of complete normal-speed playback or independent listening.",
+    "53 technical tests do not certify editorial style.",
+    "No current Birdieballs delivery replaced.",
+    "Costs, safe margins and constrained entrance are authored proposals."
+  ],
+  "referenceIndividualImagesInspected": {
+    "v1-pagado": [
+      128
+    ],
+    "v5-maquina": [
+      705
+    ]
+  },
+  "technicalTestsPassed": 53,
+  "typecheck": "passed"
+}

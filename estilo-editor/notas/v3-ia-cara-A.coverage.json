@@ -1,0 +1,54 @@
+{
+  "id": "v3-ia-cara-A",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d000_f00000-f00039.jpg",
+    "d001_f00040-f00079.jpg",
+    "d002_f00080-f00119.jpg",
+    "d003_f00120-f00159.jpg",
+    "d004_f00160-f00199.jpg",
+    "d005_f00200-f00239.jpg",
+    "d006_f00240-f00279.jpg",
+    "d007_f00280-f00319.jpg",
+    "d008_f00320-f00359.jpg",
+    "d009_f00360-f00399.jpg",
+    "d010_f00400-f00439.jpg",
+    "d011_f00440-f00479.jpg",
+    "d012_f00480-f00519.jpg",
+    "d013_f00520-f00559.jpg",
+    "d014_f00560-f00599.jpg",
+    "d015_f00600-f00639.jpg",
+    "d016_f00640-f00679.jpg",
+    "d017_f00680-f00719.jpg",
+    "d018_f00720-f00759.jpg"
+  ],
+  "native_ranges": [
+    {
+      "frames": [
+        175
+      ],
+      "purpose": "control tipográfico ordinario sin cara",
+      "evidence": "analysis/tmp/v3-ia-cara-A/fontfit-exactamente.jpg"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png"
+  ],
+  "supplemental_sheets_viewed": [],
+  "provenance": "f0-131 antecedente Claude preservado; métricas heredadas pendientes de revalidación nativa",
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [
+    "laminas/v3-ia-cara/v3-ia-cara-A-01-fontfit-exactamente.jpg",
+    "laminas/v3-ia-cara/v3-ia-cara-A-02-font-control-native.jpg"
+  ],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 28,
+  "supplemental_status": "not_required",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

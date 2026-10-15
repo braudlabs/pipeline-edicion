@@ -1,0 +1,92 @@
+{
+  "output": "relation-lab.mp4",
+  "sha256": "d3e1bb7fe29b18802a247142e81fb69895484b0af681af27538ebcb4f260519c",
+  "frames": 210,
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "dimensions": [
+    540,
+    960
+  ],
+  "audio": false,
+  "technicalTestsPassed": 64,
+  "typecheck": "passed",
+  "handleMeasurement": {
+    "method": "blue pixel weighted centroid on upper/lower handle rows in decoded H264; compares instantaneous model, not shutter integration",
+    "samples": [
+      {
+        "outputFrame": 60,
+        "sourceFrameEquivalent": 230.0959040959041,
+        "renderedHandleSeparationPx": 412.4458694753922,
+        "nominalInstantaneousPx": 412.8065334665335,
+        "differencePx": -0.3606639911412799
+      },
+      {
+        "outputFrame": 70,
+        "sourceFrameEquivalent": 240.09590409590407,
+        "renderedHandleSeparationPx": 101.31123144613397,
+        "nominalInstantaneousPx": 101.0775674325678,
+        "differencePx": 0.23366401356616961
+      },
+      {
+        "outputFrame": 85,
+        "sourceFrameEquivalent": 255.0959040959041,
+        "renderedHandleSeparationPx": 1.1544894659730858,
+        "nominalInstantaneousPx": 1.0199999999999998,
+        "differencePx": 0.13448946597308598
+      },
+      {
+        "outputFrame": 95,
+        "sourceFrameEquivalent": 265.0959040959041,
+        "renderedHandleSeparationPx": 235.4427964520251,
+        "nominalInstantaneousPx": 235.53644355644312,
+        "differencePx": -0.09364710441801094
+      },
+      {
+        "outputFrame": 105,
+        "sourceFrameEquivalent": 275.0959040959041,
+        "renderedHandleSeparationPx": 359.66305306561725,
+        "nominalInstantaneousPx": 359.6269330669329,
+        "differencePx": 0.03611999868434168
+      },
+      {
+        "outputFrame": 130,
+        "sourceFrameEquivalent": 300.0959040959041,
+        "renderedHandleSeparationPx": 412.81037434625944,
+        "nominalInstantaneousPx": 413.1,
+        "differencePx": -0.28962565374058613
+      }
+    ],
+    "maxAbsDifferencePx": 0.3606639911412799
+  },
+  "visualReview": {
+    "selectedLabFrames": [
+      59,
+      80,
+      98,
+      130
+    ],
+    "sourceSamples": [
+      230,
+      240,
+      255,
+      265,
+      275,
+      300
+    ],
+    "scope": "mechanism and typography; not full playback, audio or cross-family fidelity",
+    "initialRejected": "Bold term/small context hierarchy; shutter blended discrete context labels at the transition",
+    "revision": "Regular terms/larger context; independent clip width, no glyph squash; discrete context frozen to presentation frame across shutter samples",
+    "pending": [
+      "foreground occlusion",
+      "calibrated alpha and vertical translation",
+      "initial opening and authored exit",
+      "integration over client footage",
+      "independent family transfer"
+    ]
+  },
+  "sourceReferenceSha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+  "userApproved": false
+}

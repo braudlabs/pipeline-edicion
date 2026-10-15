@@ -1,0 +1,65 @@
+{
+  "received": "2026-10-14",
+  "provenance": "handoff from thread 01a12645-f5ac-7953-b9d7-b4624ed41ccd; visual/audio observations reported by sender, not independently verified here",
+  "supplement": "TANDA04_10_FUNDADORES_13_METAGAG.txt",
+  "scenes": [
+    {
+      "scene": 10,
+      "status": "candidate_visual_audio_pending",
+      "masterFrames24fps": [
+        1340,
+        1478
+      ],
+      "sourceFrames24fps": [
+        0,
+        138
+      ],
+      "original": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/10_FUNDADORES_VISUAL_REVISADO.mp4",
+      "preview": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/10_FUNDADORES_PREVIEW_CON_NARRADOR.mp4",
+      "originalExists": true,
+      "previewExists": true,
+      "previewContainsNarration": true,
+      "audioReviewRequired": true,
+      "integrated": false
+    },
+    {
+      "scene": 13,
+      "status": "candidate_visual_audio_pending",
+      "masterFrames24fps": [
+        1681,
+        1786
+      ],
+      "sourceFrames24fps": [
+        0,
+        105
+      ],
+      "original": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/01_CLIPS/13_METAGAG_VISUAL_REVISADO.mp4",
+      "preview": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-10-14-ecommerce-andromeda/ENTREGA_EDITOR/04_MONTAJES/13_METAGAG_PREVIEW_CON_NARRADOR.mp4",
+      "originalExists": true,
+      "previewExists": true,
+      "previewContainsNarration": true,
+      "audioReviewRequired": true,
+      "integrated": false
+    }
+  ],
+  "scene10Labels": {
+    "Elliot": "@notelliotkay",
+    "Kiwi": "@notkurtgodel",
+    "scope": "scene10 only; associate with correct body; avoid faces",
+    "suggestedSourceEntrySeconds": [
+      0.5,
+      2.6
+    ],
+    "status": "pending implementation"
+  },
+  "scene13Limitations": [
+    "Generated recreation of hook, not original hook file.",
+    "Not exact dashboard replica."
+  ],
+  "constraints": [
+    "Keep gap09 before10 and gap12 before13; do not repeat shots to fill gaps.",
+    "Use originals with original master narrator; previews already include narration.",
+    "Final audio listening and music decision pending."
+  ],
+  "currentRenderUnchanged": "V05"
+}

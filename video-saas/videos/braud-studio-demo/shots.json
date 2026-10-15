@@ -1,0 +1,166 @@
+{
+ "origin": "http://127.0.0.1:8810",
+ "url": "/?dev=1&brand=braud&homePreview=1&homeStyle=original",
+ "viewport": {
+  "width": 1512,
+  "height": 900,
+  "theme": "light",
+  "dpr": 3
+ },
+ "shots": [
+  {
+   "name": "home",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ]
+   },
+   "dpr": 2
+  },
+  {
+   "name": "idea",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=idea]',null,1200);",
+   "marks": {
+    "steps": [
+     ".piece-steps, nav[aria-label='Pasos de la pieza']"
+    ],
+    "concept": [
+     "h2"
+    ]
+   }
+  },
+  {
+   "name": "guion",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=script]',null,1200);",
+   "marks": {
+    "opening2": [
+     "button",
+     "^Usar apertura$"
+    ]
+   }
+  },
+  {
+   "name": "casting",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=casting]',null,1200);"
+  },
+  {
+   "name": "escenas",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);",
+   "marks": {
+    "prepare": [
+     "button",
+     "^Preparar esta escena$"
+    ]
+   }
+  },
+  {
+   "name": "montaje",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=review]',null,1400);"
+  },
+  {
+   "name": "marca",
+   "act": "await __click('[data-view=brands]',null,1400);"
+  },
+  {
+   "name": "agente-vacio",
+   "act": "await __click('[data-view=conversation]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "user": [
+     ".message.user, article.user, [data-role=user]"
+    ]
+   }
+  },
+  {
+   "name": "agente",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-andromeda]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ],
+    "reply": [
+     "article.agent-message.assistant"
+    ]
+   }
+  },
+  {
+   "name": "agente-pensando",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-andromeda]',null,1500);const a=document.querySelector('article[data-message-id=m2]');const w=document.createElement('div');w.innerHTML='<div data-part=\"working\" class=\"agent-working is-thinking\" role=\"status\"><span class=\"thinking-orb\" aria-hidden=\"true\"></span><span class=\"thinking-label\">Leyendo el contexto de tu marca…</span><button class=\"text-btn\" data-ecom=\"cancel\">Detener</button></div>';a.replaceWith(w.firstChild);await __sleep(400);",
+   "marks": {
+    "working": [
+     "[data-part=working]"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ]
+   }
+  },
+  {
+   "name": "marca-tarjetas",
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=true);await __sleep(700);",
+   "crops": {
+    "business": [
+     "section",
+     "^NEGOCIO Y DIRECCIÓN"
+    ],
+    "product": [
+     "details.brand-area",
+     "^Productos y oferta"
+    ],
+    "audience": [
+     "details.brand-area",
+     "^Públicos y necesidades"
+    ],
+    "identity": [
+     "details.brand-area",
+     "^Identidad y voz"
+    ],
+    "learning": [
+     "details.brand-area",
+     "^Aprendizajes"
+    ],
+    "header": [
+     "h1"
+    ]
+   }
+  },
+  {
+   "name": "agente-vacio-limpio",
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.blur();document.activeElement?.blur?.();await __sleep(300);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "composer": [
+     "form"
+    ]
+   }
+  }
+ ]
+}

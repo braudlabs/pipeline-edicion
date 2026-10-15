@@ -1,0 +1,383 @@
+[
+ {
+  "id": "v1-pagado-A",
+  "slug": "v1-pagado",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d015_f00603-f00642.jpg"
+  ],
+  "n_sheets": 16,
+  "f0": 0,
+  "f1": 642,
+  "t0": 0.0,
+  "t1": 26.75
+ },
+ {
+  "id": "v1-pagado-B",
+  "slug": "v1-pagado",
+  "sheets": [
+   "d016_f00643-f00682.jpg",
+   "d031_f01243-f01282.jpg"
+  ],
+  "n_sheets": 16,
+  "f0": 643,
+  "f1": 1282,
+  "t0": 26.792,
+  "t1": 53.417
+ },
+ {
+  "id": "v1-pagado-C",
+  "slug": "v1-pagado",
+  "sheets": [
+   "d032_f01283-f01322.jpg",
+   "d046_f01843-f01897.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 1283,
+  "f1": 1897,
+  "t0": 53.458,
+  "t1": 79.042
+ },
+ {
+  "id": "v2-churros-A",
+  "slug": "v2-churros",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d019_f00796-f00835.jpg"
+  ],
+  "n_sheets": 20,
+  "f0": 0,
+  "f1": 835,
+  "t0": 0.0,
+  "t1": 34.792
+ },
+ {
+  "id": "v2-churros-B",
+  "slug": "v2-churros",
+  "sheets": [
+   "d020_f00836-f00875.jpg",
+   "d039_f01632-f01698.jpg"
+  ],
+  "n_sheets": 20,
+  "f0": 836,
+  "f1": 1698,
+  "t0": 34.833,
+  "t1": 70.75
+ },
+ {
+  "id": "v3-ia-cara-A",
+  "slug": "v3-ia-cara",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d018_f00720-f00759.jpg"
+  ],
+  "n_sheets": 19,
+  "f0": 0,
+  "f1": 759,
+  "t0": 0.0,
+  "t1": 31.625
+ },
+ {
+  "id": "v3-ia-cara-B",
+  "slug": "v3-ia-cara",
+  "sheets": [
+   "d019_f00760-f00799.jpg",
+   "d037_f01480-f01541.jpg"
+  ],
+  "n_sheets": 19,
+  "f0": 760,
+  "f1": 1541,
+  "t0": 31.667,
+  "t1": 64.208
+ },
+ {
+  "id": "v5-maquina-A",
+  "slug": "v5-maquina",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d016_f00756-f00801.jpg"
+  ],
+  "n_sheets": 17,
+  "f0": 0,
+  "f1": 801,
+  "t0": 0.0,
+  "t1": 26.727
+ },
+ {
+  "id": "v5-maquina-B",
+  "slug": "v5-maquina",
+  "sheets": [
+   "d017_f00802-f00851.jpg",
+   "d033_f01539-f01585.jpg"
+  ],
+  "n_sheets": 17,
+  "f0": 802,
+  "f1": 1585,
+  "t0": 26.76,
+  "t1": 52.886
+ },
+ {
+  "id": "v5-maquina-C",
+  "slug": "v5-maquina",
+  "sheets": [
+   "d034_f01586-f01633.jpg",
+   "d048_f02262-f02290.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 1586,
+  "f1": 2290,
+  "t0": 52.92,
+  "t1": 76.41
+ },
+ {
+  "id": "v6-ads90-rev-A",
+  "slug": "v6-ads90-rev",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d014_f00823-f00904.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 0,
+  "f1": 904,
+  "t0": 0.0,
+  "t1": 15.067
+ },
+ {
+  "id": "v6-ads90-rev-B",
+  "slug": "v6-ads90-rev",
+  "sheets": [
+   "d015_f00905-f00990.jpg",
+   "d029_f01745-f01784.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 905,
+  "f1": 1784,
+  "t0": 15.083,
+  "t1": 29.733
+ },
+ {
+  "id": "v6-ads90-rev-C",
+  "slug": "v6-ads90-rev",
+  "sheets": [
+   "d030_f01785-f01852.jpg",
+   "d044_f02572-f02649.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 1785,
+  "f1": 2649,
+  "t0": 29.75,
+  "t1": 44.15
+ },
+ {
+  "id": "lafabrica-v1-A",
+  "slug": "lafabrica-v1",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d013_f00523-f00562.jpg"
+  ],
+  "n_sheets": 14,
+  "f0": 0,
+  "f1": 562,
+  "t0": 0.0,
+  "t1": 23.417
+ },
+ {
+  "id": "lafabrica-v1-B",
+  "slug": "lafabrica-v1",
+  "sheets": [
+   "d014_f00563-f00602.jpg",
+   "d026_f01055-f01095.jpg"
+  ],
+  "n_sheets": 13,
+  "f0": 563,
+  "f1": 1095,
+  "t0": 23.458,
+  "t1": 45.625
+ },
+ {
+  "id": "lafabrica-v2p1-A",
+  "slug": "lafabrica-v2p1",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d015_f00609-f00648.jpg"
+  ],
+  "n_sheets": 16,
+  "f0": 0,
+  "f1": 648,
+  "t0": 0.0,
+  "t1": 27.0
+ },
+ {
+  "id": "lafabrica-v2p1-B",
+  "slug": "lafabrica-v2p1",
+  "sheets": [
+   "d016_f00649-f00688.jpg",
+   "d031_f01253-f01292.jpg"
+  ],
+  "n_sheets": 16,
+  "f0": 649,
+  "f1": 1292,
+  "t0": 27.042,
+  "t1": 53.833
+ },
+ {
+  "id": "lafabrica-v2p1-C",
+  "slug": "lafabrica-v2p1",
+  "sheets": [
+   "d032_f01293-f01332.jpg",
+   "d046_f01856-f01906.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 1293,
+  "f1": 1906,
+  "t0": 53.875,
+  "t1": 79.417
+ },
+ {
+  "id": "landing-A",
+  "slug": "landing",
+  "sheets": [
+   "d000_f00000-f00034.jpg",
+   "d020_f00696-f00725.jpg"
+  ],
+  "n_sheets": 21,
+  "f0": 0,
+  "f1": 725,
+  "t0": 0.0,
+  "t1": 12.083
+ },
+ {
+  "id": "landing-B",
+  "slug": "landing",
+  "sheets": [
+   "d021_f00726-f00755.jpg",
+   "d041_f01569-f01604.jpg"
+  ],
+  "n_sheets": 21,
+  "f0": 726,
+  "f1": 1604,
+  "t0": 12.1,
+  "t1": 26.733
+ },
+ {
+  "id": "landing-C",
+  "slug": "landing",
+  "sheets": [
+   "d042_f01605-f01644.jpg",
+   "d062_f02239-f02268.jpg"
+  ],
+  "n_sheets": 21,
+  "f0": 1605,
+  "f1": 2268,
+  "t0": 26.75,
+  "t1": 37.8
+ },
+ {
+  "id": "landing-D",
+  "slug": "landing",
+  "sheets": [
+   "d063_f02269-f02298.jpg",
+   "d083_f03228-f03257.jpg"
+  ],
+  "n_sheets": 21,
+  "f0": 2269,
+  "f1": 3257,
+  "t0": 37.817,
+  "t1": 54.283
+ },
+ {
+  "id": "landing-E",
+  "slug": "landing",
+  "sheets": [
+   "d084_f03258-f03287.jpg",
+   "d104_f04614-f04687.jpg"
+  ],
+  "n_sheets": 21,
+  "f0": 3258,
+  "f1": 4687,
+  "t0": 54.3,
+  "t1": 78.117
+ },
+ {
+  "id": "landing-F",
+  "slug": "landing",
+  "sheets": [
+   "d105_f04688-f04740.jpg",
+   "d122_f05554-f05679.jpg"
+  ],
+  "n_sheets": 18,
+  "f0": 4688,
+  "f1": 5679,
+  "t0": 78.133,
+  "t1": 94.65
+ },
+ {
+  "id": "v7-ads90-rev-A",
+  "slug": "v7-ads90-rev",
+  "sheets": [
+   "d000_f00000-f00078.jpg",
+   "d007_f00558-f00597.jpg"
+  ],
+  "n_sheets": 8,
+  "f0": 0,
+  "f1": 597,
+  "t0": 0,
+  "t1": 9.95
+ },
+ {
+  "id": "v6-ads90-A",
+  "slug": "v6-ads90",
+  "sheets": [
+   "d000_f00000-f00039.jpg",
+   "d014_f00823-f00904.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 0,
+  "f1": 904,
+  "t0": 0.0,
+  "t1": 15.067,
+  "added_by": "Codex coverage audit; prior study omitted full variant review"
+ },
+ {
+  "id": "v6-ads90-B",
+  "slug": "v6-ads90",
+  "sheets": [
+   "d015_f00905-f00993.jpg",
+   "d029_f01750-f01789.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 905,
+  "f1": 1789,
+  "t0": 15.083,
+  "t1": 29.817,
+  "added_by": "Codex coverage audit; prior study omitted full variant review"
+ },
+ {
+  "id": "v6-ads90-C",
+  "slug": "v6-ads90",
+  "sheets": [
+   "d030_f01790-f01862.jpg",
+   "d044_f02577-f02649.jpg"
+  ],
+  "n_sheets": 15,
+  "f0": 1790,
+  "f1": 2649,
+  "t0": 29.833,
+  "t1": 44.15,
+  "added_by": "Codex coverage audit; prior study omitted full variant review"
+ },
+ {
+  "id": "v7-ads90-rev-B",
+  "slug": "v7-ads90-rev",
+  "sheets": [
+   "d008_f00598-f00639.jpg",
+   "d042_f02577-f02680.jpg"
+  ],
+  "n_sheets": 35,
+  "f0": 598,
+  "f1": 2680,
+  "t0": 9.967,
+  "t1": 44.667,
+  "added_by": "Codex coverage audit; prior study omitted full variant review"
+ }
+]

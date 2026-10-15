@@ -1,0 +1,73 @@
+{
+  "id": "lafabrica-v1-A",
+  "status": "partial",
+  "sheets_viewed": [
+    "d000_f00000-f00039.jpg",
+    "d001_f00040-f00079.jpg",
+    "d002_f00080-f00121.jpg",
+    "d003_f00122-f00161.jpg",
+    "d004_f00162-f00201.jpg",
+    "d005_f00202-f00241.jpg",
+    "d006_f00242-f00281.jpg",
+    "d007_f00282-f00322.jpg",
+    "d008_f00323-f00362.jpg",
+    "d009_f00363-f00402.jpg",
+    "d010_f00403-f00442.jpg",
+    "d011_f00443-f00482.jpg",
+    "d012_f00483-f00522.jpg",
+    "d013_f00523-f00562.jpg"
+  ],
+  "native_ranges": [
+    {
+      "f0": 100,
+      "f1": 118,
+      "file": "analysis/tmp/lafabrica-v1-A/native-f100-118.jpg",
+      "crop": [
+        0.02,
+        0.3,
+        0.96,
+        0.42
+      ],
+      "status": "regenerated_select_n_verified"
+    },
+    {
+      "f0": 100,
+      "f1": 106,
+      "file": "analysis/tmp/lafabrica-v1-A/check-f100-106.jpg",
+      "status": "exact_select_n_verified_matches_dense"
+    },
+    {
+      "f0": 109,
+      "f1": 119,
+      "file": "analysis/tmp/lafabrica-v1-A/native-f109-119.jpg",
+      "crop": [
+        0.03,
+        0.3,
+        0.94,
+        0.4
+      ],
+      "status": "viewed_select_n_original"
+    },
+    {
+      "f0": 437,
+      "f1": 445,
+      "file": "analysis/tmp/lafabrica-v1-A/native-f437-445.jpg",
+      "crop": [
+        0.01,
+        0.34,
+        0.98,
+        0.35
+      ],
+      "status": "viewed_select_n_original"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png",
+    "s_016-024.png"
+  ],
+  "supplemental_sheets_viewed": [
+    "s000_f00103-f00959.jpg"
+  ],
+  "dense_status": "completed"
+}

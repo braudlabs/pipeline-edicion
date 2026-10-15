@@ -1,0 +1,30 @@
+{
+ "version": 1,
+ "pieza": "PIEZA 2 — CREATINA · UGC hiperrealista · escaparate web",
+ "status": "rendered-and-locally-verified",
+ "userApproval": false,
+ "duration": 19.833333333333332,
+ "fps": 48,
+ "width": 1080,
+ "height": 1920,
+ "frames": 952,
+ "video": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad4-creatina/output/Creatina-BRAUDLABS-V1.mp4",
+ "aep": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad4-creatina/ae/Creatina-BRAUDLABS.aep",
+ "design": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad4-creatina/src/design.json",
+ "videoSha256": "b9860f02e8b1d4d5c013c93363c017f348b10493fb7c9d1132b99a85619c6f29",
+ "creativeDirection": "Lenguaje BRAUDLABS sobre metraje UGC: las tres cifras (6 meses, 5 gramos, 3€ la semana) comparten una misma marca —anillo de línea fina, número y etiqueta— y solo cambia la escala. El código rompe la forma con la ráfaga radial del bloque de precio de AD3. Crema #f0f7eb y verde claro #bacfa8 sobre el metraje, sin fondos de color que peleen con el look UGC.",
+ "montaje": "Los seis cortes del brief, ajustados a fotograma de 24 fps. 01→02→03 es un plano continuo y no se ve partido. Los dos macros van sobre el audio de 02, en mudo.",
+ "audio": "Voz continua sin cortes; el corte de 02 cae en silencio, no se come ningún fonema. Sonido de los macros a −18 dBFS de pico por debajo de la voz (el brief lo autoriza). Sin música. Máster a −14 LUFS, pico −1,5 dBTP.",
+ "subtitulos": "Carril y1500 sobre el jersey, la franja más oscura y uniforme de sus planos. Entradas por un eje alternando derecha/izquierda/abajo, curva 80/15. Cuerpo autoajustado al ancho de pantalla (máx. 940 px). Donde el gráfico lleva la cifra, esa frase no se subtitula. En los macros no hay subtítulo: solo queda limpia la franja y1680-1920 y no caben gráfico y texto a la vez.",
+ "transcripcion": "Whisper small con marcas por palabra; los macros no llevan voz.",
+ "avisosParaElCliente": [
+  "En el fondo se leen dos cajas de cereales de marca real. Si molestan para publicar, hay que regenerarlas.",
+  "El sonido de los macros está incluido a −18 dBFS. Si lo quieres mudo del todo, es un solo valor en scripts/mix.py.",
+  "La duración real es 19,833 s, no los 20,05 s del brief: 03-C dura 5,00 s, no 5,20."
+ ],
+ "notasTecnicas": [
+  "La plantilla de salida H.264 de AE reescribe el contenedor a 50 fps y recorta el audio: no usarla. Se renderiza ProRes ('Calidad alta') y se transcodifica.",
+  "Los nombres de plantilla de render de AE llevan espacio duro (\\u00a0): usar la cadena que devuelve render.list_templates, no reteclearla.",
+  "El .aep se regenera siempre desde src/design.json con scripts/build-ae.py. No parchear AE a mano."
+ ]
+}

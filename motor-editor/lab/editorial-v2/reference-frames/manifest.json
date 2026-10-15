@@ -1,0 +1,39 @@
+[
+  {
+    "slug": "v1-pagado",
+    "sha256": "84c754a10b4e201019a8e4f34ae434d2b59a336984831c5f1a773470186bacdc",
+    "frames": [
+      116,
+      120,
+      124,
+      128,
+      137,
+      138,
+      186,
+      189,
+      194
+    ],
+    "fps": {
+      "num": 24,
+      "den": 1
+    },
+    "note": "Exact decode-index extraction; boards reduced; native PNGs retained."
+  },
+  {
+    "slug": "v5-maquina",
+    "sha256": "0bc575741a2195db862cb5a07c777dc49cf847aca84d5f361aa543532d0bcdee",
+    "frames": [
+      675,
+      689,
+      690,
+      705,
+      723,
+      724
+    ],
+    "fps": {
+      "num": 30000,
+      "den": 1001
+    },
+    "note": "Exact decode-index extraction; boards reduced; native PNGs retained."
+  }
+]

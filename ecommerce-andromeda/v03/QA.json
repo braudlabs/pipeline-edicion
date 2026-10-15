@@ -1,0 +1,262 @@
+{
+  "render": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "48/1",
+        "duration": "38.333333",
+        "nb_frames": "1840"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "sample_rate": "48000",
+        "r_frame_rate": "0/0",
+        "duration": "38.336000",
+        "nb_frames": "1799"
+      }
+    ],
+    "format": {
+      "duration": "38.336000"
+    }
+  },
+  "narrationWords": 119,
+  "coveredNarrationWords": 119,
+  "omittedNarrationWords": 0,
+  "captionElements": 55,
+  "occlusionElements": 16,
+  "maskFrames": 257,
+  "sourceTimelineFps": 24,
+  "sourceTimelineFrames": 920,
+  "outputFps": 48,
+  "outputFrames": 1840,
+  "sourceHashes": "8/8 match",
+  "ticketSourceOffsetFrames": 12,
+  "audioMixMatchesV02": true,
+  "audioMixSha256": "4d56b71f162a518ad399a05e8b2cc7948bdac495aaeae3706ff3f1c6b98f17a3",
+  "nativeHook": {
+    "nativeSource": "assets/00_HOOK_visual_aprobado_audio_nativo_no_final.mp4",
+    "sourceInFrame": 0,
+    "outputInFrame": 0,
+    "samplesPreserved": 260000,
+    "maxPCMError": 1.1894735507667065e-07,
+    "nativeAfterCutIsSilent": true,
+    "provisionalAmbienceBeforeCutIsSilent": true,
+    "externalVoiceInMix": false,
+    "speed": 1,
+    "scope": "Waveform and clock preservation; not independent perceptual lip-sync review"
+  },
+  "provisionalScene": "06_cinco_ads",
+  "fullAdComplete": false,
+  "userApproval": false,
+  "priorFeedback": "V02 improves somewhat; laggy perception and missing captions; requested more foreground contour/background fill resource",
+  "scope": "Complete supplied narration, not a new caption track for simultaneous native whisper",
+  "visualReview": {
+    "selectedFrames": [
+      62,
+      120,
+      199,
+      238,
+      370,
+      461,
+      502,
+      540,
+      586,
+      614,
+      677,
+      727,
+      763,
+      811,
+      859,
+      936,
+      1085,
+      1193,
+      1277,
+      1354,
+      1430,
+      1534,
+      1656,
+      1723,
+      1771,
+      1826
+    ],
+    "guide": "study/final-review.jpg",
+    "corrections": [
+      "Subtitles raised per Ale feedback",
+      "All narration restored; ticket captions below faces then on fascia; sweatshirt line above printed face",
+      "Machine text above screen",
+      "V03: 48fps text, complete phrase from onset, foreground contours and masked background fill; full foreground fill resolves on torso-dominant shots"
+    ],
+    "fullPlaybackOrListening": false,
+    "animationPhases": "study/animation-phases.jpg",
+    "passes": 2,
+    "notes": [
+      "Torso-dominant shots: restored solid foreground fill after initial occlusion gesture to avoid entire outlined words",
+      "Ticket opening captions moved below faces before camera reaches fascia",
+      "Sweatshirt captions raised clear of printed eyes/mouth",
+      "Examined 24 decoded animation phase frames; not full perceptual playback"
+    ]
+  },
+  "cutPixelChecks": {
+    "region": "bottom y1320–1840 of source1080x1920, clear of captions; images downscaled to540 for comparison",
+    "samples": [
+      {
+        "scene": "00_hook",
+        "outputFrame": 0,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.8044657707214355
+      },
+      {
+        "scene": "00_hook",
+        "outputFrame": 259,
+        "sourceFrame": 129,
+        "meanAbsoluteRGBDifference": 3.828167200088501
+      },
+      {
+        "scene": "01_ventanilla_espera",
+        "outputFrame": 260,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.877077341079712
+      },
+      {
+        "scene": "01_ventanilla_espera",
+        "outputFrame": 699,
+        "sourceFrame": 219,
+        "meanAbsoluteRGBDifference": 3.781111001968384
+      },
+      {
+        "scene": "02_ticket_angulo",
+        "outputFrame": 700,
+        "sourceFrame": 12,
+        "meanAbsoluteRGBDifference": 3.841377019882202
+      },
+      {
+        "scene": "02_ticket_angulo",
+        "outputFrame": 899,
+        "sourceFrame": 111,
+        "meanAbsoluteRGBDifference": 3.9614884853363037
+      },
+      {
+        "scene": "03_ads_apagados",
+        "outputFrame": 900,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.8449761867523193
+      },
+      {
+        "scene": "03_ads_apagados",
+        "outputFrame": 1103,
+        "sourceFrame": 101,
+        "meanAbsoluteRGBDifference": 4.130555629730225
+      },
+      {
+        "scene": "03b_repetir",
+        "outputFrame": 1104,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.928126811981201
+      },
+      {
+        "scene": "03b_repetir",
+        "outputFrame": 1219,
+        "sourceFrame": 57,
+        "meanAbsoluteRGBDifference": 3.604261636734009
+      },
+      {
+        "scene": "04_sudadera",
+        "outputFrame": 1220,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.7904226779937744
+      },
+      {
+        "scene": "04_sudadera",
+        "outputFrame": 1563,
+        "sourceFrame": 171,
+        "meanAbsoluteRGBDifference": 3.706096887588501
+      },
+      {
+        "scene": "05_presentacion",
+        "outputFrame": 1564,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.8316168785095215
+      },
+      {
+        "scene": "05_presentacion",
+        "outputFrame": 1679,
+        "sourceFrame": 57,
+        "meanAbsoluteRGBDifference": 3.82820987701416
+      },
+      {
+        "scene": "06_cinco_ads",
+        "outputFrame": 1680,
+        "sourceFrame": 0,
+        "meanAbsoluteRGBDifference": 3.9559378623962402
+      },
+      {
+        "scene": "06_cinco_ads",
+        "outputFrame": 1839,
+        "sourceFrame": 79,
+        "meanAbsoluteRGBDifference": 3.9610421657562256
+      }
+    ],
+    "note": "compression/resampling prevent pixel equality; every supplied cut start/end compared to exact source index"
+  },
+  "audioRenderCheck": {
+    "reference": "mix-preview.wav native hook plus narrator and remainder ambience",
+    "sampleRate": 48000,
+    "renderSamples": 1840128,
+    "referenceSamples": 1840000,
+    "peakAbsoluteRendered": 1.0638302564620972,
+    "windows": [
+      {
+        "start": 0,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998977726069391
+      },
+      {
+        "start": 2,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9997902766121951
+      },
+      {
+        "start": 10,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9999179244665211
+      },
+      {
+        "start": 23,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998418487434132
+      },
+      {
+        "start": 30,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9998852483998818
+      },
+      {
+        "start": 36,
+        "lagSamples": 0,
+        "lagMs": 0.0,
+        "zeroLagCorrelation": 0.9999046783519794
+      }
+    ],
+    "scope": "checks output mux/codec timing; not phonetic/lip-sync verification or listening"
+  },
+  "proxy": {
+    "path": "Andromeda-V03-REVISION-720p.mp4",
+    "width": 720,
+    "height": 1280,
+    "frames": 1840,
+    "fps": 48,
+    "bytes": 9563493,
+    "audio": "copied from master without re-encoding"
+  }
+}

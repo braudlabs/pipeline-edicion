@@ -1,0 +1,11 @@
+import {bundle} from '@remotion/bundler';
+import {renderMedia,selectComposition,openBrowser} from '@remotion/renderer';
+import path from 'node:path';
+import fs from 'node:fs/promises';
+const root=import.meta.dirname;
+const serveUrl=await bundle({entryPoint:path.join(root,'src/index.tsx'),publicDir:path.join(root,'public')});
+const browser=await openBrowser('chrome',{logLevel:'error'});
+const composition=await selectComposition({serveUrl,id:'AD3-Montaje',puppeteerInstance:browser});
+await fs.mkdir(path.join(root,'../assets'),{recursive:true});let last=-5;
+await renderMedia({serveUrl,composition,puppeteerInstance:browser,codec:'h264',outputLocation:path.join(root,'../assets/Montaje-AD3.mp4'),crf:14,pixelFormat:'yuv420p',concurrency:4,x264Preset:'fast',logLevel:'error',onProgress:p=>{const n=Math.floor(p.progress*100);if(n>=last+10){last=n;console.log(n+'%')}}});
+await browser.close({silent:true});

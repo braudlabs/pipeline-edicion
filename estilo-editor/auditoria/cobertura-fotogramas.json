@@ -1,0 +1,88 @@
+{
+  "method": "Audit sha256 of saved ffmpeg native decoded-frame manifests; per-frame identity is manifest hash, not perceptual similarity.",
+  "materials": [
+    {
+      "slug": "lafabrica-v1",
+      "frames": 1096,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/lafabrica-v1/native-framemd5.txt",
+      "exact_duplicates": 32,
+      "legacy_omitted_nonidentical": 15
+    },
+    {
+      "slug": "lafabrica-v2p1",
+      "frames": 1907,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/lafabrica-v2p1/native-framemd5.txt",
+      "exact_duplicates": 31,
+      "legacy_omitted_nonidentical": 18
+    },
+    {
+      "slug": "landing",
+      "frames": 5680,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/landing/native-framemd5.txt",
+      "exact_duplicates": 83,
+      "legacy_omitted_nonidentical": 1907
+    },
+    {
+      "slug": "v1-pagado",
+      "frames": 1898,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v1-pagado/native-framemd5.txt",
+      "exact_duplicates": 37,
+      "legacy_omitted_nonidentical": 3
+    },
+    {
+      "slug": "v2-churros",
+      "frames": 1699,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v2-churros/native-framemd5.txt",
+      "exact_duplicates": 42,
+      "legacy_omitted_nonidentical": 72
+    },
+    {
+      "slug": "v3-ia-cara",
+      "frames": 1542,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v3-ia-cara/native-framemd5.txt",
+      "exact_duplicates": 28,
+      "legacy_omitted_nonidentical": 0
+    },
+    {
+      "slug": "v5-maquina",
+      "frames": 2291,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v5-maquina/native-framemd5.txt",
+      "exact_duplicates": 35,
+      "legacy_omitted_nonidentical": 335
+    },
+    {
+      "slug": "v6-ads90",
+      "frames": 2650,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v6-ads90/native-framemd5.txt",
+      "exact_duplicates": 64,
+      "legacy_omitted_nonidentical": 817
+    },
+    {
+      "slug": "v6-ads90-rev",
+      "frames": 2650,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v6-ads90-rev/native-framemd5.txt",
+      "exact_duplicates": 64,
+      "legacy_omitted_nonidentical": 812
+    },
+    {
+      "slug": "v7-ads90-rev",
+      "frames": 2681,
+      "native_hash_sha256_valid": true,
+      "hash_file": "datos/v7-ads90-rev/native-framemd5.txt",
+      "exact_duplicates": 100,
+      "legacy_omitted_nonidentical": 897
+    }
+  ],
+  "total_frames": 24094,
+  "legacy_omitted_nonidentical": 4876,
+  "warning": "Nonidentical may be compression noise; not all differences are editorial events."
+}

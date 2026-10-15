@@ -1,0 +1,11 @@
+{
+  "reviewed_source": "lafabrica-v1",
+  "frame": 1050,
+  "roi_px": [
+    140,
+    430,
+    920,
+    620
+  ],
+  "limitations": "Ajuste selectivo, no identidad universal ni tracking exacto; millones puede contener resto luminoso."
+}

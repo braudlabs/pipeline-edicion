@@ -1,0 +1,24 @@
+{
+  "method": "Forced alignment of supplied phrase to native source; not independent transcription or perceptual lip-sync review",
+  "words": [
+    {
+      "word": "mas",
+      "start": 1.883112582781457,
+      "end": 2.1635761589403972,
+      "score": 0.9994763334592184
+    },
+    {
+      "word": "anuncios",
+      "start": 2.2437086092715233,
+      "end": 3.065066225165563,
+      "score": 0.9994441121816635
+    },
+    {
+      "word": "mas",
+      "start": 4.747847682119206,
+      "end": 5.128476821192053,
+      "score": 0.9989431897799174
+    }
+  ],
+  "fitsHookCut": true
+}

@@ -1,0 +1,2331 @@
+[
+  {
+    "from": 0,
+    "to": 32,
+    "words": [
+      {
+        "text": "Si",
+        "from": 0,
+        "to": 8,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "has",
+        "from": 8,
+        "to": 13,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "intentado",
+        "from": 13,
+        "to": 32,
+        "clip": 1,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 1
+  },
+  {
+    "from": 32,
+    "to": 72,
+    "words": [
+      {
+        "text": "crear",
+        "from": 32,
+        "to": 40,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "contenido",
+        "from": 40,
+        "to": 58,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "con",
+        "from": 58,
+        "to": 72,
+        "clip": 1,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 1
+  },
+  {
+    "from": 72,
+    "to": 87,
+    "words": [
+      {
+        "text": "IA",
+        "from": 72,
+        "to": 80,
+        "clip": 1,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 1
+  },
+  {
+    "from": 88,
+    "to": 120,
+    "words": [
+      {
+        "text": "seguramente",
+        "from": 88,
+        "to": 107,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "te",
+        "from": 107,
+        "to": 115,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "has",
+        "from": 115,
+        "to": 120,
+        "clip": 1,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 1
+  },
+  {
+    "from": 120,
+    "to": 172,
+    "words": [
+      {
+        "text": "encontrado",
+        "from": 120,
+        "to": 141,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "con",
+        "from": 141,
+        "to": 153,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "alguno",
+        "from": 153,
+        "to": 172,
+        "clip": 1,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 1
+  },
+  {
+    "from": 172,
+    "to": 207,
+    "words": [
+      {
+        "text": "de",
+        "from": 172,
+        "to": 174,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "estos",
+        "from": 174,
+        "to": 181,
+        "clip": 1,
+        "punct": false
+      },
+      {
+        "text": "problemas",
+        "from": 181,
+        "to": 200,
+        "clip": 1,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 1
+  },
+  {
+    "from": 208,
+    "to": 242,
+    "words": [
+      {
+        "text": "Consigues",
+        "from": 208,
+        "to": 225,
+        "clip": 2,
+        "punct": false
+      },
+      {
+        "text": "un",
+        "from": 225,
+        "to": 232,
+        "clip": 2,
+        "punct": false
+      },
+      {
+        "text": "avatar",
+        "from": 232,
+        "to": 242,
+        "clip": 2,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 2
+  },
+  {
+    "from": 242,
+    "to": 273,
+    "words": [
+      {
+        "text": "que",
+        "from": 242,
+        "to": 249,
+        "clip": 2,
+        "punct": false
+      },
+      {
+        "text": "te",
+        "from": 249,
+        "to": 254,
+        "clip": 2,
+        "punct": false
+      },
+      {
+        "text": "gusta",
+        "from": 254,
+        "to": 266,
+        "clip": 2,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 2
+  },
+  {
+    "from": 274,
+    "to": 304,
+    "words": [
+      {
+        "text": "pero",
+        "from": 274,
+        "to": 294,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "en",
+        "from": 294,
+        "to": 299,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "la",
+        "from": 299,
+        "to": 304,
+        "clip": 3,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 3
+  },
+  {
+    "from": 304,
+    "to": 356,
+    "words": [
+      {
+        "text": "siguiente",
+        "from": 304,
+        "to": 315,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "imagen",
+        "from": 315,
+        "to": 341,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "ya",
+        "from": 341,
+        "to": 356,
+        "clip": 3,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 3
+  },
+  {
+    "from": 356,
+    "to": 379,
+    "words": [
+      {
+        "text": "no",
+        "from": 356,
+        "to": 361,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "parece",
+        "from": 361,
+        "to": 371,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "la",
+        "from": 371,
+        "to": 379,
+        "clip": 3,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 3
+  },
+  {
+    "from": 379,
+    "to": 412,
+    "words": [
+      {
+        "text": "misma",
+        "from": 379,
+        "to": 387,
+        "clip": 3,
+        "punct": false
+      },
+      {
+        "text": "persona",
+        "from": 387,
+        "to": 407,
+        "clip": 3,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 3
+  },
+  {
+    "from": 413,
+    "to": 439,
+    "words": [
+      {
+        "text": "Cambias",
+        "from": 413,
+        "to": 422,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "de",
+        "from": 422,
+        "to": 431,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "escena",
+        "from": 431,
+        "to": 439,
+        "clip": 4,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 4
+  },
+  {
+    "from": 439,
+    "to": 465,
+    "words": [
+      {
+        "text": "y",
+        "from": 439,
+        "to": 450,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "cambia",
+        "from": 450,
+        "to": 461,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "la",
+        "from": 461,
+        "to": 465,
+        "clip": 4,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 4
+  },
+  {
+    "from": 465,
+    "to": 485,
+    "words": [
+      {
+        "text": "cara",
+        "from": 465,
+        "to": 477,
+        "clip": 4,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 4
+  },
+  {
+    "from": 486,
+    "to": 517,
+    "words": [
+      {
+        "text": "el",
+        "from": 486,
+        "to": 490,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "estilo",
+        "from": 490,
+        "to": 502,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "visual",
+        "from": 502,
+        "to": 517,
+        "clip": 4,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 4
+  },
+  {
+    "from": 517,
+    "to": 557,
+    "words": [
+      {
+        "text": "o",
+        "from": 517,
+        "to": 532,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "incluso",
+        "from": 532,
+        "to": 549,
+        "clip": 4,
+        "punct": false
+      },
+      {
+        "text": "la",
+        "from": 549,
+        "to": 557,
+        "clip": 4,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 4
+  },
+  {
+    "from": 557,
+    "to": 572,
+    "words": [
+      {
+        "text": "voz",
+        "from": 557,
+        "to": 567,
+        "clip": 4,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 4
+  },
+  {
+    "from": 573,
+    "to": 638,
+    "words": [
+      {
+        "text": "o",
+        "from": 573,
+        "to": 598,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "consigues",
+        "from": 598,
+        "to": 615,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "mantenerlo",
+        "from": 615,
+        "to": 638,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 638,
+    "to": 656,
+    "words": [
+      {
+        "text": "más",
+        "from": 638,
+        "to": 644,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "o",
+        "from": 644,
+        "to": 648,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "menos",
+        "from": 648,
+        "to": 656,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 656,
+    "to": 701,
+    "words": [
+      {
+        "text": "consistente",
+        "from": 656,
+        "to": 693,
+        "clip": 5,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 702,
+    "to": 732,
+    "words": [
+      {
+        "text": "pero",
+        "from": 702,
+        "to": 706,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "sigue",
+        "from": 706,
+        "to": 715,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "teniendo",
+        "from": 715,
+        "to": 732,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 732,
+    "to": 782,
+    "words": [
+      {
+        "text": "esa",
+        "from": 732,
+        "to": 738,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "apariencia",
+        "from": 738,
+        "to": 754,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "plástica",
+        "from": 754,
+        "to": 782,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 782,
+    "to": 820,
+    "words": [
+      {
+        "text": "y",
+        "from": 782,
+        "to": 786,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "artificial",
+        "from": 786,
+        "to": 809,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "que",
+        "from": 818,
+        "to": 820,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 820,
+    "to": 849,
+    "words": [
+      {
+        "text": "hace",
+        "from": 820,
+        "to": 826,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "evidente",
+        "from": 826,
+        "to": 846,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "que",
+        "from": 846,
+        "to": 849,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 849,
+    "to": 875,
+    "words": [
+      {
+        "text": "está",
+        "from": 849,
+        "to": 857,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "hecho",
+        "from": 857,
+        "to": 865,
+        "clip": 5,
+        "punct": false
+      },
+      {
+        "text": "con",
+        "from": 865,
+        "to": 875,
+        "clip": 5,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 875,
+    "to": 890,
+    "words": [
+      {
+        "text": "IA",
+        "from": 875,
+        "to": 884,
+        "clip": 5,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 5
+  },
+  {
+    "from": 891,
+    "to": 926,
+    "words": [
+      {
+        "text": "Y",
+        "from": 891,
+        "to": 895,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "muchas",
+        "from": 895,
+        "to": 904,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "veces",
+        "from": 904,
+        "to": 918,
+        "clip": 6,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 927,
+    "to": 963,
+    "words": [
+      {
+        "text": "hasta",
+        "from": 927,
+        "to": 934,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "que",
+        "from": 934,
+        "to": 941,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "consigues",
+        "from": 941,
+        "to": 963,
+        "clip": 6,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 963,
+    "to": 1004,
+    "words": [
+      {
+        "text": "algo",
+        "from": 963,
+        "to": 977,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "usable",
+        "from": 977,
+        "to": 995,
+        "clip": 6,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 1005,
+    "to": 1018,
+    "words": [
+      {
+        "text": "ya",
+        "from": 1005,
+        "to": 1009,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "te",
+        "from": 1009,
+        "to": 1014,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "has",
+        "from": 1014,
+        "to": 1018,
+        "clip": 6,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 1018,
+    "to": 1053,
+    "words": [
+      {
+        "text": "quemado",
+        "from": 1018,
+        "to": 1030,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "una",
+        "from": 1030,
+        "to": 1037,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "cantidad",
+        "from": 1037,
+        "to": 1053,
+        "clip": 6,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 1053,
+    "to": 1113,
+    "words": [
+      {
+        "text": "absurda",
+        "from": 1053,
+        "to": 1088,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "de",
+        "from": 1088,
+        "to": 1093,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "créditos",
+        "from": 1093,
+        "to": 1113,
+        "clip": 6,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 1113,
+    "to": 1183,
+    "words": [
+      {
+        "text": "haciendo",
+        "from": 1113,
+        "to": 1132,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "generaciones",
+        "from": 1132,
+        "to": 1167,
+        "clip": 6,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 1167,
+        "to": 1183,
+        "clip": 6,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 1183,
+    "to": 1208,
+    "words": [
+      {
+        "text": "generaciones",
+        "from": 1183,
+        "to": 1206,
+        "clip": 6,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 6
+  },
+  {
+    "from": 1208,
+    "to": 1237,
+    "words": [
+      {
+        "text": "Y",
+        "from": 1208,
+        "to": 1223,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "si",
+        "from": 1223,
+        "to": 1227,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "tienes",
+        "from": 1227,
+        "to": 1237,
+        "clip": 7,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1237,
+    "to": 1275,
+    "words": [
+      {
+        "text": "una",
+        "from": 1237,
+        "to": 1245,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "agencia",
+        "from": 1245,
+        "to": 1263,
+        "clip": 7,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1276,
+    "to": 1306,
+    "words": [
+      {
+        "text": "una",
+        "from": 1276,
+        "to": 1280,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "marca",
+        "from": 1280,
+        "to": 1291,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "o",
+        "from": 1291,
+        "to": 1306,
+        "clip": 7,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1306,
+    "to": 1342,
+    "words": [
+      {
+        "text": "un",
+        "from": 1306,
+        "to": 1313,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "negocio",
+        "from": 1313,
+        "to": 1329,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "donde",
+        "from": 1329,
+        "to": 1342,
+        "clip": 7,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1342,
+    "to": 1401,
+    "words": [
+      {
+        "text": "necesitas",
+        "from": 1342,
+        "to": 1364,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "producir",
+        "from": 1364,
+        "to": 1381,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "contenido",
+        "from": 1381,
+        "to": 1401,
+        "clip": 7,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1401,
+    "to": 1456,
+    "words": [
+      {
+        "text": "constantemente",
+        "from": 1401,
+        "to": 1446,
+        "clip": 7,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1457,
+    "to": 1479,
+    "words": [
+      {
+        "text": "esto",
+        "from": 1457,
+        "to": 1463,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "deja",
+        "from": 1463,
+        "to": 1473,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "de",
+        "from": 1473,
+        "to": 1479,
+        "clip": 7,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1479,
+    "to": 1543,
+    "words": [
+      {
+        "text": "ser",
+        "from": 1479,
+        "to": 1486,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "simplemente",
+        "from": 1486,
+        "to": 1506,
+        "clip": 7,
+        "punct": false
+      },
+      {
+        "text": "frustrante",
+        "from": 1506,
+        "to": 1536,
+        "clip": 7,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 7
+  },
+  {
+    "from": 1544,
+    "to": 1585,
+    "words": [
+      {
+        "text": "se",
+        "from": 1544,
+        "to": 1551,
+        "clip": 8,
+        "punct": false
+      },
+      {
+        "text": "convierte",
+        "from": 1551,
+        "to": 1569,
+        "clip": 8,
+        "punct": false
+      },
+      {
+        "text": "en",
+        "from": 1569,
+        "to": 1585,
+        "clip": 8,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 8
+  },
+  {
+    "from": 1585,
+    "to": 1627,
+    "words": [
+      {
+        "text": "tiempo",
+        "from": 1585,
+        "to": 1602,
+        "clip": 8,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 1602,
+        "to": 1615,
+        "clip": 8,
+        "punct": false
+      },
+      {
+        "text": "dinero",
+        "from": 1615,
+        "to": 1627,
+        "clip": 8,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 8
+  },
+  {
+    "from": 1627,
+    "to": 1655,
+    "words": [
+      {
+        "text": "perdido",
+        "from": 1627,
+        "to": 1647,
+        "clip": 8,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 8
+  },
+  {
+    "from": 1656,
+    "to": 1706,
+    "words": [
+      {
+        "text": "Nosotros",
+        "from": 1656,
+        "to": 1673,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "hemos",
+        "from": 1673,
+        "to": 1685,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "utilizado",
+        "from": 1685,
+        "to": 1706,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1706,
+    "to": 1749,
+    "words": [
+      {
+        "text": "estos",
+        "from": 1706,
+        "to": 1713,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "procesos",
+        "from": 1713,
+        "to": 1737,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "para",
+        "from": 1737,
+        "to": 1749,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1749,
+    "to": 1783,
+    "words": [
+      {
+        "text": "crear",
+        "from": 1749,
+        "to": 1761,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 1761,
+        "to": 1769,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "escalar",
+        "from": 1769,
+        "to": 1783,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1783,
+    "to": 1838,
+    "words": [
+      {
+        "text": "dos",
+        "from": 1783,
+        "to": 1798,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "cuentas",
+        "from": 1798,
+        "to": 1815,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "orgánicas",
+        "from": 1815,
+        "to": 1838,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1838,
+    "to": 1895,
+    "words": [
+      {
+        "text": "completas",
+        "from": 1838,
+        "to": 1866,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "utilizando",
+        "from": 1866,
+        "to": 1895,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1895,
+    "to": 1943,
+    "words": [
+      {
+        "text": "avatares",
+        "from": 1895,
+        "to": 1912,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "generados",
+        "from": 1912,
+        "to": 1930,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "con",
+        "from": 1930,
+        "to": 1943,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1943,
+    "to": 1957,
+    "words": [
+      {
+        "text": "IA",
+        "from": 1943,
+        "to": 1951,
+        "clip": 9,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 1958,
+    "to": 2006,
+    "words": [
+      {
+        "text": "manteniendo",
+        "from": 1958,
+        "to": 1980,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "consistencia",
+        "from": 1980,
+        "to": 2006,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 2006,
+    "to": 2062,
+    "words": [
+      {
+        "text": "visual",
+        "from": 2006,
+        "to": 2025,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "generación",
+        "from": 2025,
+        "to": 2056,
+        "clip": 9,
+        "punct": false
+      },
+      {
+        "text": "tras",
+        "from": 2056,
+        "to": 2062,
+        "clip": 9,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 2062,
+    "to": 2094,
+    "words": [
+      {
+        "text": "generación",
+        "from": 2062,
+        "to": 2087,
+        "clip": 9,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 9
+  },
+  {
+    "from": 2095,
+    "to": 2130,
+    "words": [
+      {
+        "text": "Y",
+        "from": 2095,
+        "to": 2098,
+        "clip": 10,
+        "punct": false
+      },
+      {
+        "text": "precisamente",
+        "from": 2098,
+        "to": 2113,
+        "clip": 10,
+        "punct": false
+      },
+      {
+        "text": "por",
+        "from": 2113,
+        "to": 2130,
+        "clip": 10,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 10
+  },
+  {
+    "from": 2130,
+    "to": 2147,
+    "words": [
+      {
+        "text": "eso",
+        "from": 2130,
+        "to": 2139,
+        "clip": 10,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 10
+  },
+  {
+    "from": 2148,
+    "to": 2193,
+    "words": [
+      {
+        "text": "creamos",
+        "from": 2148,
+        "to": 2159,
+        "clip": 10,
+        "punct": false
+      },
+      {
+        "text": "Visual",
+        "from": 2159,
+        "to": 2174,
+        "clip": 10,
+        "punct": false
+      },
+      {
+        "text": "Hub",
+        "from": 2174,
+        "to": 2189,
+        "clip": 10,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 10
+  },
+  {
+    "from": 2194,
+    "to": 2230,
+    "words": [
+      {
+        "text": "una",
+        "from": 2194,
+        "to": 2201,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "comunidad",
+        "from": 2201,
+        "to": 2217,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "para",
+        "from": 2217,
+        "to": 2230,
+        "clip": 11,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2230,
+    "to": 2255,
+    "words": [
+      {
+        "text": "gente",
+        "from": 2230,
+        "to": 2240,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "que",
+        "from": 2240,
+        "to": 2248,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "quiere",
+        "from": 2248,
+        "to": 2255,
+        "clip": 11,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2255,
+    "to": 2314,
+    "words": [
+      {
+        "text": "utilizar",
+        "from": 2255,
+        "to": 2273,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "IA",
+        "from": 2273,
+        "to": 2292,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "creativa",
+        "from": 2292,
+        "to": 2314,
+        "clip": 11,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2314,
+    "to": 2368,
+    "words": [
+      {
+        "text": "de",
+        "from": 2314,
+        "to": 2323,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "forma",
+        "from": 2323,
+        "to": 2331,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "profesional",
+        "from": 2331,
+        "to": 2356,
+        "clip": 11,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2369,
+    "to": 2388,
+    "words": [
+      {
+        "text": "ya",
+        "from": 2369,
+        "to": 2374,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "sea",
+        "from": 2374,
+        "to": 2379,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "para",
+        "from": 2379,
+        "to": 2388,
+        "clip": 11,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2388,
+    "to": 2423,
+    "words": [
+      {
+        "text": "su",
+        "from": 2388,
+        "to": 2395,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "negocio",
+        "from": 2395,
+        "to": 2414,
+        "clip": 11,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2424,
+    "to": 2452,
+    "words": [
+      {
+        "text": "su",
+        "from": 2424,
+        "to": 2427,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "marca",
+        "from": 2427,
+        "to": 2436,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "o",
+        "from": 2436,
+        "to": 2452,
+        "clip": 11,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2452,
+    "to": 2483,
+    "words": [
+      {
+        "text": "sus",
+        "from": 2452,
+        "to": 2460,
+        "clip": 11,
+        "punct": false
+      },
+      {
+        "text": "clientes",
+        "from": 2460,
+        "to": 2481,
+        "clip": 11,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 11
+  },
+  {
+    "from": 2483,
+    "to": 2532,
+    "words": [
+      {
+        "text": "Dentro",
+        "from": 2483,
+        "to": 2507,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "encontrarás",
+        "from": 2507,
+        "to": 2532,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2532,
+    "to": 2576,
+    "words": [
+      {
+        "text": "plantillas",
+        "from": 2532,
+        "to": 2555,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 2555,
+        "to": 2561,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "sistemas",
+        "from": 2561,
+        "to": 2576,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2576,
+    "to": 2622,
+    "words": [
+      {
+        "text": "listos",
+        "from": 2576,
+        "to": 2600,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "para",
+        "from": 2600,
+        "to": 2607,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "utilizar",
+        "from": 2607,
+        "to": 2622,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2622,
+    "to": 2674,
+    "words": [
+      {
+        "text": "y",
+        "from": 2622,
+        "to": 2636,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "compartimos",
+        "from": 2636,
+        "to": 2663,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "cómo",
+        "from": 2663,
+        "to": 2674,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2674,
+    "to": 2734,
+    "words": [
+      {
+        "text": "conseguimos",
+        "from": 2674,
+        "to": 2698,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "resultados",
+        "from": 2698,
+        "to": 2714,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "más",
+        "from": 2714,
+        "to": 2734,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2734,
+    "to": 2773,
+    "words": [
+      {
+        "text": "consistentes",
+        "from": 2734,
+        "to": 2769,
+        "clip": 12,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2774,
+    "to": 2816,
+    "words": [
+      {
+        "text": "realistas",
+        "from": 2774,
+        "to": 2796,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 2796,
+        "to": 2811,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "sin",
+        "from": 2811,
+        "to": 2816,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2816,
+    "to": 2843,
+    "words": [
+      {
+        "text": "tener",
+        "from": 2816,
+        "to": 2827,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "que",
+        "from": 2827,
+        "to": 2833,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "hacer",
+        "from": 2833,
+        "to": 2843,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2843,
+    "to": 2910,
+    "words": [
+      {
+        "text": "50",
+        "from": 2843,
+        "to": 2862,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "generaciones",
+        "from": 2862,
+        "to": 2897,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "para",
+        "from": 2897,
+        "to": 2910,
+        "clip": 12,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2910,
+    "to": 2950,
+    "words": [
+      {
+        "text": "sacar",
+        "from": 2910,
+        "to": 2920,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "algo",
+        "from": 2920,
+        "to": 2931,
+        "clip": 12,
+        "punct": false
+      },
+      {
+        "text": "bueno",
+        "from": 2931,
+        "to": 2944,
+        "clip": 12,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 12
+  },
+  {
+    "from": 2951,
+    "to": 2970,
+    "words": [
+      {
+        "text": "Además",
+        "from": 2951,
+        "to": 2962,
+        "clip": 13,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 13
+  },
+  {
+    "from": 2971,
+    "to": 3002,
+    "words": [
+      {
+        "text": "tienes",
+        "from": 2971,
+        "to": 2980,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "sesiones",
+        "from": 2980,
+        "to": 2995,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "en",
+        "from": 2995,
+        "to": 3002,
+        "clip": 13,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 13
+  },
+  {
+    "from": 3002,
+    "to": 3045,
+    "words": [
+      {
+        "text": "directo",
+        "from": 3002,
+        "to": 3022,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "donde",
+        "from": 3022,
+        "to": 3029,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "puedes",
+        "from": 3029,
+        "to": 3045,
+        "clip": 13,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 13
+  },
+  {
+    "from": 3045,
+    "to": 3082,
+    "words": [
+      {
+        "text": "traer",
+        "from": 3045,
+        "to": 3059,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "tus",
+        "from": 3059,
+        "to": 3065,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "propios",
+        "from": 3065,
+        "to": 3082,
+        "clip": 13,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 13
+  },
+  {
+    "from": 3082,
+    "to": 3128,
+    "words": [
+      {
+        "text": "casos",
+        "from": 3082,
+        "to": 3093,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 3093,
+        "to": 3107,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "trabajarlos",
+        "from": 3107,
+        "to": 3128,
+        "clip": 13,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 13
+  },
+  {
+    "from": 3128,
+    "to": 3154,
+    "words": [
+      {
+        "text": "con",
+        "from": 3128,
+        "to": 3137,
+        "clip": 13,
+        "punct": false
+      },
+      {
+        "text": "nosotros",
+        "from": 3137,
+        "to": 3148,
+        "clip": 13,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 13
+  },
+  {
+    "from": 3155,
+    "to": 3185,
+    "words": [
+      {
+        "text": "Si",
+        "from": 3155,
+        "to": 3161,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "quieres",
+        "from": 3161,
+        "to": 3170,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "dejar",
+        "from": 3170,
+        "to": 3185,
+        "clip": 14,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 14
+  },
+  {
+    "from": 3185,
+    "to": 3211,
+    "words": [
+      {
+        "text": "de",
+        "from": 3185,
+        "to": 3190,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "generar",
+        "from": 3190,
+        "to": 3209,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "a",
+        "from": 3209,
+        "to": 3211,
+        "clip": 14,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 14
+  },
+  {
+    "from": 3211,
+    "to": 3254,
+    "words": [
+      {
+        "text": "prueba",
+        "from": 3211,
+        "to": 3225,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "y",
+        "from": 3225,
+        "to": 3231,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "error",
+        "from": 3231,
+        "to": 3241,
+        "clip": 14,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 14
+  },
+  {
+    "from": 3255,
+    "to": 3281,
+    "words": [
+      {
+        "text": "puedes",
+        "from": 3255,
+        "to": 3261,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "entrar",
+        "from": 3261,
+        "to": 3274,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "a",
+        "from": 3274,
+        "to": 3281,
+        "clip": 14,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 14
+  },
+  {
+    "from": 3281,
+    "to": 3329,
+    "words": [
+      {
+        "text": "Visual",
+        "from": 3281,
+        "to": 3290,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "Hub",
+        "from": 3290,
+        "to": 3307,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "por",
+        "from": 3307,
+        "to": 3329,
+        "clip": 14,
+        "punct": false
+      }
+    ],
+    "fontSize": 68,
+    "clip": 14
+  },
+  {
+    "from": 3329,
+    "to": 3373,
+    "words": [
+      {
+        "text": "39",
+        "from": 3329,
+        "to": 3348,
+        "clip": 14,
+        "punct": false
+      },
+      {
+        "text": "dólares",
+        "from": 3348,
+        "to": 3370,
+        "clip": 14,
+        "punct": true
+      }
+    ],
+    "fontSize": 68,
+    "clip": 14
+  }
+]

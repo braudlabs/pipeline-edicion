@@ -1,0 +1,30 @@
+/* A theme reveal changes pixels, never the geometry or the playback state. */
+:root.theme-revealing::view-transition,:root.theme-revealing::view-transition-group(root),:root.theme-revealing::view-transition-image-pair(root),:root.theme-revealing::view-transition-old(root),:root.theme-revealing::view-transition-new(root){pointer-events:none}
+:root.theme-revealing::view-transition-old(root),:root.theme-revealing::view-transition-new(root){animation:none;mix-blend-mode:normal}
+:root.theme-revealing::view-transition-old(root){z-index:1}
+:root.theme-revealing::view-transition-new(root){z-index:2}
+:root.theme-revealing[data-theme-curtain=up]::view-transition-old(root){z-index:2}
+:root.theme-revealing[data-theme-curtain=up]::view-transition-new(root){z-index:1}
+:root.theme-fading body,:root.theme-fading .glass,:root.theme-fading .topbar,:root.theme-fading button,:root.theme-fading input,:root.theme-fading textarea{transition:background-color .4s ease,color .4s ease,border-color .4s ease,box-shadow .4s ease}
+.modal-backdrop.settings-backdrop{background:color-mix(in srgb,var(--paper) 36%,transparent);backdrop-filter:blur(12px);animation:settings-backdrop-in .24s ease both}
+.settings-backdrop>.modal{width:580px;max-width:100%;padding:28px 32px;border-radius:30px;box-shadow:0 25px 100px #0002;animation:settings-panel-in .3s cubic-bezier(.22,.61,.36,1) both}
+.studio-settings .settings-intro{font-size:12px;color:var(--muted);margin:-5px 0 25px}
+.studio-settings .appearance-card{display:block;min-height:0;padding:22px;background:color-mix(in srgb,var(--paper) 50%,transparent);box-shadow:none;border:1px solid var(--line);border-radius:22px;margin-bottom:25px}
+.studio-settings .appearance-card h2{font-size:23px;margin:8px 0}
+.studio-settings .appearance-card p{font-size:12px;color:var(--muted)}
+.studio-settings .appearance-options{width:100%;margin:18px 0 14px}
+.studio-settings .settings-connections>.eyebrow{display:block;margin-bottom:7px}
+.studio-settings .settings-connection{display:flex;align-items:center;gap:15px;padding:18px 0;border-bottom:1px solid var(--line)}
+.studio-settings .settings-connection>div{flex:1;min-width:0}.studio-settings .settings-connection strong{font-size:13px}.studio-settings .settings-connection p{font-size:11px;color:var(--muted);margin-top:3px}
+.studio-settings .settings-service{width:35px;height:35px;display:grid;place-items:center;border:1px solid var(--line);border-radius:12px;font-size:15px;background:color-mix(in srgb,var(--paper) 50%,transparent)}
+.studio-settings .settings-pending{font-size:10px;color:var(--muted)}
+.studio-settings .settings-braudi{margin-top:20px;font-size:12px}.studio-settings .settings-braudi input{accent-color:var(--accent)}
+.studio-settings .settings-more{border-bottom:1px solid var(--line);padding:18px 0}.studio-settings .settings-more>summary{display:flex;align-items:center;justify-content:space-between;font-size:12px;cursor:pointer;list-style:none}.studio-settings summary::-webkit-details-marker{display:none}.studio-settings .settings-more[open]>summary .icon{transform:rotate(90deg)}
+.studio-settings .settings-more>p{font-size:12px;color:var(--muted);margin-top:14px}.studio-settings .settings-more .settings-card{border:0;padding:18px 0 0;box-shadow:none;background:none;backdrop-filter:none}.studio-settings .settings-more .settings-card h2{font-size:20px}.studio-settings .settings-more .settings-card p{font-size:12px;margin:10px 0}.studio-settings .settings-dev-link{display:flex;justify-content:space-between;gap:15px;padding-top:20px}.studio-settings .settings-dev-link .text-btn{font-size:11px;color:var(--muted)}
+@keyframes settings-panel-in{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
+@keyframes settings-backdrop-in{from{opacity:0}to{opacity:1}}
+.workspace-shell .agent-docked{padding:16px 17px 12px;border:1px solid var(--glass-edge,#ffffffd9);border-radius:28px;background:var(--glass);box-shadow:inset 0 1px 0 #ffffff55,0 8px 30px #30496308;backdrop-filter:blur(24px);isolation:isolate}
+.workspace-shell .agent-docked .agent-panel-heading{min-height:36px;gap:8px}.workspace-shell .agent-docked .agent-scope-row{min-height:34px}.workspace-shell .agent-docked .agent-history{padding:12px 4px 8px}.workspace-shell .agent-docked .agent-composer{margin-top:10px;padding:12px;border-radius:23px}.workspace-shell .agent-docked .agent-footnote{font-size:9px;gap:6px}
+:root[data-theme=dark] .workspace-shell .agent-docked{background:linear-gradient(145deg,#1c1e22b8,#17191db8);box-shadow:inset 0 1px 0 #ffffff0b,0 8px 30px #0001}
+@media(max-width:540px){.settings-backdrop>.modal{padding:23px 20px}.studio-settings .settings-connection{gap:10px}.studio-settings .appearance-card{padding:18px}.studio-settings .settings-dev-link{flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){.settings-backdrop,.settings-backdrop>.modal{animation:none!important}:root.theme-fading *{transition:none!important}}

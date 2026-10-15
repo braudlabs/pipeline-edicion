@@ -1,0 +1,447 @@
+{
+  "schemaVersion": 1,
+  "catalogDigest": "d0f33e8c3b39977b6dcfb3aeb683d80c37843e21c59d6bff3494e432101ca100",
+  "revision": 132,
+  "status": "ready",
+  "answers": {
+    "ref-v8": {
+      "selected": [
+        "o2"
+      ],
+      "note": "lo de las dos voces mola porqué es estilo gag,\n\ny esa entrada de subtitulos de Apoyo + pagar + remate es la polla",
+      "deferred": false
+    },
+    "ref-landing": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "ref-v1-pagado": {
+      "selected": [
+        "o2"
+      ],
+      "note": "aquí como entran los subtitulos y como se van combinando y motion graphics son la hostia",
+      "deferred": false
+    },
+    "ref-v2-churros": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "ref-v3-ia-cara": {
+      "selected": [
+        "o2"
+      ],
+      "note": "mola",
+      "deferred": false
+    },
+    "ref-v5-maquina": {
+      "selected": [
+        "o2"
+      ],
+      "note": "los subtitulos son la polla.",
+      "deferred": false
+    },
+    "ref-v6-ads90": {
+      "selected": [
+        "o2"
+      ],
+      "note": "sencillo, pero clean.",
+      "deferred": false
+    },
+    "ref-v6-ads90-rev": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "ref-v7-ads90-rev": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "ref-lafabrica-v1": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "ref-lafabrica-v2p1": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "tono": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "prioridades": {
+      "selected": [
+        "o1",
+        "o2",
+        "o3"
+      ],
+      "note": "realmente, todo lo mencionado arriba.",
+      "deferred": false
+    },
+    "densidad": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "variacion": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "peso": {
+      "selected": [
+        "o4"
+      ],
+      "note": "combinar Lectura grande con más pequeña.",
+      "deferred": false
+    },
+    "secundaria": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "caja": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "tracking": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "color-texto": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "contraste": {
+      "selected": [
+        "o1",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "escala": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "fragmentacion": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "posicion": {
+      "selected": [],
+      "note": "a eleccion creativa, con sentido.",
+      "deferred": false
+    },
+    "ancla": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "multilinea-cuando": {
+      "selected": [
+        "o2",
+        "o3",
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "multilinea-formas": {
+      "selected": [],
+      "note": "me da igual",
+      "deferred": false
+    },
+    "compactacion": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "persistencia": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "repeticion": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "entradas": {
+      "selected": [],
+      "note": "las necesarias, bajo criterio creativo.",
+      "deferred": false
+    },
+    "funcion-entrada": {
+      "selected": [
+        "o2",
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "asentamiento": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "desfase-lineas": {
+      "selected": [
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "salidas": {
+      "selected": [
+        "o3",
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "blur-texto": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "continuidad": {
+      "selected": [],
+      "note": "no sé",
+      "deferred": false
+    },
+    "oclusiones": {
+      "selected": [
+        "o1",
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "mascara-frecuencia": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "texto-curvo": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "integracion": {
+      "selected": [
+        "o1",
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-funcion": {
+      "selected": [
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-formato": {
+      "selected": [],
+      "note": "idk",
+      "deferred": false
+    },
+    "motion-metafora": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-material": {
+      "selected": [
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-fondo": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-camara": {
+      "selected": [
+        "o1",
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-handover": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-cantidad": {
+      "selected": [
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "motion-evitar": {
+      "selected": [
+        "o3",
+        "o4"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "escena-hook": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "escena-venga": {
+      "selected": [
+        "o2"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "escena-solucion": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "escena-literal": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "escena-marca": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "escena-producto": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "escena-lagos": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "escena-enfado": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "escena-salto": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "sfx-presencia": {
+      "selected": [
+        "o3"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "sfx-familias": {
+      "selected": [
+        "o1",
+        "o3",
+        "o4",
+        "o5"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "musica": {
+      "selected": [
+        "o1"
+      ],
+      "note": "",
+      "deferred": false
+    },
+    "sfx-sincronia": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    },
+    "efectos-imagen": {
+      "selected": [],
+      "note": "lo q quieras",
+      "deferred": false
+    }
+  },
+  "updatedAt": "2026-10-10T19:02:19.225Z"
+}

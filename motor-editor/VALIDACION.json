@@ -1,0 +1,42 @@
+{
+  "checkedAt": "2026-10-10T16:23:32Z",
+  "engineVersion": "0.1.0",
+  "functionalTests": {
+    "passed": 25,
+    "failed": 0,
+    "command": "node --test motor-editor/tests/*.test.ts"
+  },
+  "typecheck": {
+    "status": "passed",
+    "command": "./node_modules/.bin/tsc --project motor-editor/tsconfig.json"
+  },
+  "cliExamples": {
+    "status": "passed",
+    "jobs": [
+      "examples/job.json",
+      "examples/automatic.json"
+    ],
+    "wordCoverageEach": "22/22",
+    "framesEach": 1109
+  },
+  "mediaStaging": {
+    "status": "passed",
+    "fixture": "temporary synthetic 3-second WAV",
+    "checks": [
+      "ffprobe duration",
+      "SHA256",
+      "byte-identical staged copy",
+      "plan audit"
+    ],
+    "fixtureRemoved": true
+  },
+  "remotionBundle": {
+    "status": "passed",
+    "date": "2026-10-10",
+    "bundler": "Rspack",
+    "detail": "Remotion 4.0.534 bundle completed; ReferenceEdit selected successfully and four Birdieballs design frames rendered."
+  },
+  "browserRuntime": "verified_on_Birdieballs_pilot",
+  "videoRenders": "Birdieballs B01 V01 rendered, 601 frames, 15.7 seconds render time",
+  "visualFidelity": "unverified_without_visual_comparison"
+}

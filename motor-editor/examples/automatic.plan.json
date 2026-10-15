@@ -1,0 +1,2726 @@
+{
+  "version": 1,
+  "engineVersion": "0.1.0",
+  "jobId": "seleccion-automatica",
+  "width": 1080,
+  "height": 1920,
+  "fps": {
+    "num": 60,
+    "den": 1
+  },
+  "durationInFrames": 1109,
+  "family": "braud",
+  "font": {
+    "family": "Reference SF Pro",
+    "boldSrc": "fonts/SFProDisplay-bold.otf",
+    "regularSrc": "fonts/SFProDisplay-regular.otf"
+  },
+  "palette": {
+    "background": "#1b2020",
+    "foreground": "#ffffff",
+    "accent": "#e5ed3c"
+  },
+  "assets": [],
+  "clips": [],
+  "captions": [
+    {
+      "id": "caption:cta-0",
+      "wordIds": [
+        "cta-0"
+      ],
+      "speaker": "narrator",
+      "start": 390,
+      "end": 422,
+      "text": "Reserva",
+      "x": 540,
+      "y": 1075.2,
+      "fontSize": 102.6,
+      "fill": "#ffffff",
+      "tracking": -0.06
+    },
+    {
+      "id": "caption:cta-1",
+      "wordIds": [
+        "cta-1"
+      ],
+      "speaker": "narrator",
+      "start": 422,
+      "end": 454,
+      "text": "una",
+      "x": 540,
+      "y": 1075.2,
+      "fontSize": 102.6,
+      "fill": "#ffffff",
+      "tracking": -0.06
+    },
+    {
+      "id": "caption:cta-2",
+      "wordIds": [
+        "cta-2"
+      ],
+      "speaker": "narrator",
+      "start": 454,
+      "end": 494,
+      "text": "llamada.",
+      "x": 540,
+      "y": 1075.2,
+      "fontSize": 102.6,
+      "fill": "#ffffff",
+      "tracking": -0.06
+    }
+  ],
+  "graphics": [
+    {
+      "id": "precio:graphic",
+      "clauseId": "precio",
+      "recipe": "price",
+      "start": 0,
+      "end": 192,
+      "fullScreen": true,
+      "background": "#1b2020",
+      "nodes": [
+        {
+          "id": "precio:n0",
+          "start": 0,
+          "end": 192,
+          "z": 20,
+          "kind": "text",
+          "text": "No necesito",
+          "x": 540,
+          "y": 652.8000000000001,
+          "fontSize": 102.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "motion": {
+            "y": [
+              {
+                "f": 0,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 24,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 0,
+                "v": 0
+              },
+              {
+                "f": 6,
+                "v": 1
+              }
+            ]
+          },
+          "wordIds": [
+            "precio-0",
+            "precio-1",
+            "precio-2",
+            "precio-3",
+            "precio-4"
+          ]
+        },
+        {
+          "id": "precio:n1",
+          "start": 72,
+          "end": 192,
+          "z": 20,
+          "kind": "text",
+          "text": "300€",
+          "x": 540,
+          "y": 940.8,
+          "fontSize": 387.5373245373181,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "motion": {
+            "y": [
+              {
+                "f": 72,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 96,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 72,
+                "v": 0
+              },
+              {
+                "f": 78,
+                "v": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "precio:n2",
+          "start": 87,
+          "end": 192,
+          "z": 20,
+          "kind": "text",
+          "text": "por pieza",
+          "x": 540,
+          "y": 1267.2,
+          "fontSize": 113.39999999999999,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "motion": {
+            "y": [
+              {
+                "f": 87,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 111,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 87,
+                "v": 0
+              },
+              {
+                "f": 93,
+                "v": 1
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md"
+      ],
+      "camera": {
+        "scale": [
+          {
+            "f": 0,
+            "v": 1
+          },
+          {
+            "f": 192,
+            "v": 1.04
+          }
+        ]
+      }
+    },
+    {
+      "id": "cantidad:graphic",
+      "clauseId": "cantidad",
+      "recipe": "count",
+      "start": 192,
+      "end": 390,
+      "fullScreen": true,
+      "background": "#1b2020",
+      "nodes": [
+        {
+          "id": "cantidad:n0",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 885.6,
+          "y": 825.6,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          },
+          "wordIds": [
+            "cantidad-0",
+            "cantidad-1",
+            "cantidad-2"
+          ]
+        },
+        {
+          "id": "cantidad:n1",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 881.3450905096796,
+          "y": 879.6637511179038,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 9
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n2",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 868.685132031605,
+          "y": 932.3962732559819,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 18
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n3",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 847.9318547595,
+          "y": 982.4991167099874,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 27
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n4",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 819.5962732559819,
+          "y": 1028.7385831922788,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 36
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n5",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 784.3761035780708,
+          "y": 1069.976103578071,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 45
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n6",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 743.1385831922787,
+          "y": 1105.1962732559819,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 54
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n7",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 696.8991167099874,
+          "y": 1133.5318547595,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 63
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n8",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 646.7962732559819,
+          "y": 1154.2851320316051,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 72
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n9",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 594.0637511179038,
+          "y": 1166.9450905096796,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 81
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n10",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 540,
+          "y": 1171.2,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 90
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n11",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 485.93624888209615,
+          "y": 1166.9450905096796,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 99.00000000000001
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n12",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 433.2037267440182,
+          "y": 1154.2851320316051,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 108
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n13",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 383.10088329001263,
+          "y": 1133.5318547595,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 117
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n14",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 336.8614168077213,
+          "y": 1105.1962732559819,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 126
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n15",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 295.6238964219292,
+          "y": 1069.976103578071,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 135
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n16",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 260.4037267440182,
+          "y": 1028.7385831922788,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 144
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n17",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 232.0681452405001,
+          "y": 982.4991167099874,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 153
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n18",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 211.31486796839494,
+          "y": 932.3962732559819,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 162
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n19",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 198.6549094903204,
+          "y": 879.6637511179039,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 171
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n20",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 194.39999999999998,
+          "y": 825.6,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 180
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n21",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 198.6549094903204,
+          "y": 771.5362488820963,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 189
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n22",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 211.31486796839494,
+          "y": 718.803726744018,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 198.00000000000003
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n23",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 232.06814524049997,
+          "y": 668.7008832900128,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 206.99999999999997
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n24",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 260.4037267440181,
+          "y": 622.4614168077213,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 216
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n25",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 295.6238964219291,
+          "y": 581.2238964219292,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 225
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n26",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 336.86141680772124,
+          "y": 546.0037267440182,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 234
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n27",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 383.1008832900126,
+          "y": 517.6681452405,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 243
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n28",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 433.2037267440181,
+          "y": 496.91486796839496,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 252
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n29",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 485.93624888209615,
+          "y": 484.2549094903204,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 261
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n30",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 539.9999999999999,
+          "y": 480,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 270
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n31",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 594.0637511179037,
+          "y": 484.2549094903204,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 279
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n32",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 646.7962732559818,
+          "y": 496.9148679683949,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 288
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n33",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 696.8991167099873,
+          "y": 517.6681452405,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 297
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n34",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 743.1385831922787,
+          "y": 546.0037267440182,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 306
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n35",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 784.3761035780708,
+          "y": 581.2238964219291,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 315
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n36",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 819.5962732559818,
+          "y": 622.4614168077212,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 324
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n37",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 847.9318547594999,
+          "y": 668.7008832900126,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 333
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n38",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 868.685132031605,
+          "y": 718.8037267440181,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 342
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n39",
+          "start": 192,
+          "end": 390,
+          "z": 10,
+          "kind": "line",
+          "x": 881.3450905096796,
+          "y": 771.5362488820962,
+          "width": 27,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 1.2959999999999998,
+          "motion": {
+            "rotate": [
+              {
+                "f": 192,
+                "v": 351
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 212,
+                "v": 0.6
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n40",
+          "start": 192,
+          "end": 390,
+          "z": 20,
+          "kind": "text",
+          "text": "Pruebo",
+          "x": 540,
+          "y": 422.4,
+          "fontSize": 102.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "motion": {
+            "y": [
+              {
+                "f": 192,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 216,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 192,
+                "v": 0
+              },
+              {
+                "f": 198,
+                "v": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "cantidad:n41",
+          "start": 212,
+          "end": 390,
+          "z": 20,
+          "kind": "text",
+          "text": "30",
+          "x": 540,
+          "y": 825.6,
+          "fontSize": 453.59999999999997,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "motion": {
+            "y": [
+              {
+                "f": 212,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 236,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 212,
+                "v": 0
+              },
+              {
+                "f": 218,
+                "v": 1
+              }
+            ]
+          },
+          "counter": {
+            "target": 30,
+            "prefix": "",
+            "suffix": "",
+            "start": 212,
+            "duration": 23
+          }
+        },
+        {
+          "id": "cantidad:n42",
+          "start": 225,
+          "end": 390,
+          "z": 20,
+          "kind": "text",
+          "text": "variantes",
+          "x": 540,
+          "y": 1228.8,
+          "fontSize": 113.39999999999999,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "motion": {
+            "y": [
+              {
+                "f": 225,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 249,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 225,
+                "v": 0
+              },
+              {
+                "f": 231,
+                "v": 1
+              }
+            ]
+          }
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md"
+      ]
+    },
+    {
+      "id": "comparacion:graphic",
+      "clauseId": "comparacion",
+      "recipe": "comparison",
+      "start": 510,
+      "end": 708,
+      "fullScreen": true,
+      "background": "#1b2020",
+      "nodes": [
+        {
+          "id": "comparacion:n0",
+          "start": 510,
+          "end": 708,
+          "z": 20,
+          "kind": "text",
+          "text": "Tiempo",
+          "x": 540,
+          "y": 902.4,
+          "fontSize": 205.2,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "wordIds": [
+            "comparacion-0",
+            "comparacion-1",
+            "comparacion-2"
+          ]
+        },
+        {
+          "id": "comparacion:n1",
+          "start": 510,
+          "end": 708,
+          "z": 20,
+          "kind": "line",
+          "x": 216,
+          "y": 1094.3999999999999,
+          "width": 648,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 6.48
+        },
+        {
+          "id": "comparacion:n2",
+          "start": 510,
+          "end": 708,
+          "z": 20,
+          "kind": "text",
+          "text": "dinero",
+          "x": 1620,
+          "y": 902.4,
+          "fontSize": 205.2,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff"
+        },
+        {
+          "id": "comparacion:n3",
+          "start": 510,
+          "end": 708,
+          "z": 20,
+          "kind": "line",
+          "x": 1296,
+          "y": 1094.3999999999999,
+          "width": 648,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 6.48
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v2-churros-A.md"
+      ],
+      "camera": {
+        "x": [
+          {
+            "f": 510,
+            "v": 0
+          },
+          {
+            "f": 615,
+            "v": 0,
+            "ease": "inOut"
+          },
+          {
+            "f": 642,
+            "v": -1080
+          }
+        ]
+      }
+    },
+    {
+      "id": "proceso:graphic",
+      "clauseId": "proceso",
+      "recipe": "steps",
+      "start": 708,
+      "end": 990,
+      "fullScreen": true,
+      "background": "#1b2020",
+      "nodes": [
+        {
+          "id": "proceso:n0",
+          "start": 708,
+          "end": 990,
+          "z": 10,
+          "kind": "circle",
+          "x": 540,
+          "y": 672,
+          "width": 248.4,
+          "height": 248.4,
+          "fill": "#e5ed3c",
+          "wordIds": [
+            "proceso-0",
+            "proceso-1",
+            "proceso-2",
+            "proceso-3"
+          ]
+        },
+        {
+          "id": "proceso:n1",
+          "start": 708,
+          "end": 990,
+          "z": 20,
+          "kind": "text",
+          "text": "1",
+          "x": 540,
+          "y": 672,
+          "fontSize": 151.20000000000002,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#1b2020",
+          "motion": {
+            "y": [
+              {
+                "f": 708,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 732,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 708,
+                "v": 0
+              },
+              {
+                "f": 714,
+                "v": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "proceso:n2",
+          "start": 708,
+          "end": 990,
+          "z": 20,
+          "kind": "text",
+          "text": "Entrenamos",
+          "x": 540,
+          "y": 1056,
+          "fontSize": 129.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff"
+        },
+        {
+          "id": "proceso:n3",
+          "start": 708,
+          "end": 990,
+          "z": 5,
+          "kind": "line",
+          "x": 680.4,
+          "y": 672,
+          "width": 745.2,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 3.24
+        },
+        {
+          "id": "proceso:n4",
+          "start": 708,
+          "end": 990,
+          "z": 10,
+          "kind": "circle",
+          "x": 1566,
+          "y": 672,
+          "width": 248.4,
+          "height": 248.4,
+          "fill": "#e5ed3c"
+        },
+        {
+          "id": "proceso:n5",
+          "start": 708,
+          "end": 990,
+          "z": 20,
+          "kind": "text",
+          "text": "2",
+          "x": 1566,
+          "y": 672,
+          "fontSize": 151.20000000000002,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#1b2020",
+          "motion": {
+            "y": [
+              {
+                "f": 708,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 732,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 708,
+                "v": 0
+              },
+              {
+                "f": 714,
+                "v": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "proceso:n6",
+          "start": 708,
+          "end": 990,
+          "z": 20,
+          "kind": "text",
+          "text": "Instalamos",
+          "x": 1566,
+          "y": 1056,
+          "fontSize": 129.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff"
+        },
+        {
+          "id": "proceso:n7",
+          "start": 708,
+          "end": 990,
+          "z": 5,
+          "kind": "line",
+          "x": 1706.4,
+          "y": 672,
+          "width": 745.2,
+          "height": 0,
+          "stroke": "#e5ed3c",
+          "strokeWidth": 3.24
+        },
+        {
+          "id": "proceso:n8",
+          "start": 708,
+          "end": 990,
+          "z": 10,
+          "kind": "circle",
+          "x": 2592,
+          "y": 672,
+          "width": 248.4,
+          "height": 248.4,
+          "fill": "#e5ed3c"
+        },
+        {
+          "id": "proceso:n9",
+          "start": 708,
+          "end": 990,
+          "z": 20,
+          "kind": "text",
+          "text": "3",
+          "x": 2592,
+          "y": 672,
+          "fontSize": 151.20000000000002,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#1b2020",
+          "motion": {
+            "y": [
+              {
+                "f": 708,
+                "v": 48,
+                "ease": "measuredRise"
+              },
+              {
+                "f": 732,
+                "v": 0
+              }
+            ],
+            "opacity": [
+              {
+                "f": 708,
+                "v": 0
+              },
+              {
+                "f": 714,
+                "v": 1
+              }
+            ]
+          }
+        },
+        {
+          "id": "proceso:n10",
+          "start": 708,
+          "end": 990,
+          "z": 20,
+          "kind": "text",
+          "text": "Producimos",
+          "x": 2592,
+          "y": 1056,
+          "fontSize": 129.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/lafabrica-v2p1-B.md"
+      ],
+      "camera": {
+        "x": [
+          {
+            "f": 708,
+            "v": 0
+          },
+          {
+            "f": 790,
+            "v": 0,
+            "ease": "inOut"
+          },
+          {
+            "f": 814,
+            "v": -1026
+          },
+          {
+            "f": 884,
+            "v": -1026,
+            "ease": "inOut"
+          },
+          {
+            "f": 908,
+            "v": -2052
+          }
+        ]
+      }
+    },
+    {
+      "id": "cierre:graphic",
+      "clauseId": "cierre",
+      "recipe": "accumulate",
+      "start": 990,
+      "end": 1109,
+      "fullScreen": false,
+      "nodes": [
+        {
+          "id": "cierre:n0",
+          "start": 990,
+          "end": 1020,
+          "z": 20,
+          "kind": "text",
+          "text": "El",
+          "x": 540,
+          "y": 1075.2,
+          "fontSize": 102.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "wordIds": [
+            "cierre-0"
+          ]
+        },
+        {
+          "id": "cierre:n1",
+          "start": 1020,
+          "end": 1050,
+          "z": 20,
+          "kind": "text",
+          "text": "El sistema",
+          "x": 540,
+          "y": 1075.2,
+          "fontSize": 102.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "wordIds": [
+            "cierre-1"
+          ]
+        },
+        {
+          "id": "cierre:n2",
+          "start": 1050,
+          "end": 1080,
+          "z": 20,
+          "kind": "text",
+          "text": "El sistema es",
+          "x": 540,
+          "y": 1075.2,
+          "fontSize": 102.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "wordIds": [
+            "cierre-2"
+          ]
+        },
+        {
+          "id": "cierre:n3",
+          "start": 1080,
+          "end": 1109,
+          "z": 20,
+          "kind": "text",
+          "text": "El sistema es tuyo.",
+          "x": 540,
+          "y": 1075.2,
+          "fontSize": 102.6,
+          "weight": 700,
+          "tracking": -0.06,
+          "fill": "#ffffff",
+          "wordIds": [
+            "cierre-3"
+          ]
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md",
+        "estilo-editor/notas/landing-A.md"
+      ]
+    }
+  ],
+  "audio": [],
+  "decisions": [
+    {
+      "clauseId": "precio",
+      "recipe": "price",
+      "reason": "Candidato según mechanism y datos disponibles",
+      "wordIds": [
+        "precio-0",
+        "precio-1",
+        "precio-2",
+        "precio-3",
+        "precio-4"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": 75,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md"
+      ]
+    },
+    {
+      "clauseId": "cantidad",
+      "recipe": "count",
+      "reason": "Candidato según mechanism y datos disponibles",
+      "wordIds": [
+        "cantidad-0",
+        "cantidad-1",
+        "cantidad-2"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -110,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": 68,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md"
+      ]
+    },
+    {
+      "clauseId": "cta",
+      "recipe": "rail",
+      "reason": "Candidato según cta y datos disponibles",
+      "wordIds": [
+        "cta-0",
+        "cta-1",
+        "cta-2"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 80,
+          "eligible": true,
+          "reason": "Candidato según cta y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según cta y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "count",
+          "score": -110,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según cta y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v6-ads90-C.md",
+        "estilo-editor/notas/landing-A.md"
+      ]
+    },
+    {
+      "clauseId": "comparacion",
+      "recipe": "comparison",
+      "reason": "Candidato según mechanism y datos disponibles",
+      "wordIds": [
+        "comparacion-0",
+        "comparacion-1",
+        "comparacion-2"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 10,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": 75,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos etapas explícitas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v2-churros-A.md"
+      ]
+    },
+    {
+      "clauseId": "proceso",
+      "recipe": "steps",
+      "reason": "Candidato según mechanism y datos disponibles",
+      "wordIds": [
+        "proceso-0",
+        "proceso-1",
+        "proceso-2",
+        "proceso-3"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita importe explícito"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita cantidad verificable"
+        },
+        {
+          "recipe": "comparison",
+          "score": -110,
+          "eligible": false,
+          "reason": "Necesita dos conceptos del guion"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita prueba y regiones de revelado"
+        },
+        {
+          "recipe": "steps",
+          "score": 70,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita al menos dos recursos"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según mechanism y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/lafabrica-v2p1-B.md"
+      ]
+    },
+    {
+      "clauseId": "cierre",
+      "recipe": "accumulate",
+      "reason": "Candidato según hook y datos disponibles",
+      "wordIds": [
+        "cierre-0",
+        "cierre-1",
+        "cierre-2",
+        "cierre-3"
+      ],
+      "candidates": [
+        {
+          "recipe": "rail",
+          "score": 20,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        },
+        {
+          "recipe": "accumulate",
+          "score": 25,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        },
+        {
+          "recipe": "hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "masked-hero",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita recorte alpha sincronizado del sujeto/objetos"
+        },
+        {
+          "recipe": "pulse",
+          "score": -100,
+          "eligible": false,
+          "reason": "Necesita foco verbal"
+        },
+        {
+          "recipe": "price",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "count",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "comparison",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "proof",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "steps",
+          "score": -110,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "carousel",
+          "score": -100,
+          "eligible": false,
+          "reason": "Respiración: límite de escenas gráficas consecutivas"
+        },
+        {
+          "recipe": "silence",
+          "score": -100,
+          "eligible": true,
+          "reason": "Candidato según hook y datos disponibles"
+        }
+      ],
+      "evidence": [
+        "estilo-editor/notas/v1-pagado-A.md",
+        "estilo-editor/notas/landing-A.md"
+      ]
+    }
+  ],
+  "diagnostics": [
+    {
+      "severity": "warning",
+      "code": "NO_FOOTAGE",
+      "message": "Overlay sin metraje: se verá sobre fondo del perfil.",
+      "clauseId": "cta"
+    },
+    {
+      "severity": "warning",
+      "code": "NO_FOOTAGE",
+      "message": "Overlay sin metraje: se verá sobre fondo del perfil.",
+      "clauseId": "cierre"
+    },
+    {
+      "severity": "warning",
+      "code": "VISUAL_GAP",
+      "message": "Sin metraje/escena de f390 a f509; fondo del perfil visible."
+    },
+    {
+      "severity": "warning",
+      "code": "VISUAL_GAP",
+      "message": "Sin metraje/escena de f990 a f1108; fondo del perfil visible."
+    },
+    {
+      "severity": "warning",
+      "code": "NO_NARRATION",
+      "message": "Guion temporizado sin pista de narración adjunta."
+    }
+  ],
+  "coverage": [
+    {
+      "wordId": "precio-0",
+      "representations": [
+        "precio:graphic"
+      ]
+    },
+    {
+      "wordId": "precio-1",
+      "representations": [
+        "precio:graphic"
+      ]
+    },
+    {
+      "wordId": "precio-2",
+      "representations": [
+        "precio:graphic"
+      ]
+    },
+    {
+      "wordId": "precio-3",
+      "representations": [
+        "precio:graphic"
+      ]
+    },
+    {
+      "wordId": "precio-4",
+      "representations": [
+        "precio:graphic"
+      ]
+    },
+    {
+      "wordId": "cantidad-0",
+      "representations": [
+        "cantidad:graphic"
+      ]
+    },
+    {
+      "wordId": "cantidad-1",
+      "representations": [
+        "cantidad:graphic"
+      ]
+    },
+    {
+      "wordId": "cantidad-2",
+      "representations": [
+        "cantidad:graphic"
+      ]
+    },
+    {
+      "wordId": "cta-0",
+      "representations": [
+        "caption:cta-0"
+      ]
+    },
+    {
+      "wordId": "cta-1",
+      "representations": [
+        "caption:cta-1"
+      ]
+    },
+    {
+      "wordId": "cta-2",
+      "representations": [
+        "caption:cta-2"
+      ]
+    },
+    {
+      "wordId": "comparacion-0",
+      "representations": [
+        "comparacion:graphic"
+      ]
+    },
+    {
+      "wordId": "comparacion-1",
+      "representations": [
+        "comparacion:graphic"
+      ]
+    },
+    {
+      "wordId": "comparacion-2",
+      "representations": [
+        "comparacion:graphic"
+      ]
+    },
+    {
+      "wordId": "proceso-0",
+      "representations": [
+        "proceso:graphic"
+      ]
+    },
+    {
+      "wordId": "proceso-1",
+      "representations": [
+        "proceso:graphic"
+      ]
+    },
+    {
+      "wordId": "proceso-2",
+      "representations": [
+        "proceso:graphic"
+      ]
+    },
+    {
+      "wordId": "proceso-3",
+      "representations": [
+        "proceso:graphic"
+      ]
+    },
+    {
+      "wordId": "cierre-0",
+      "representations": [
+        "cierre:graphic"
+      ]
+    },
+    {
+      "wordId": "cierre-1",
+      "representations": [
+        "cierre:graphic"
+      ]
+    },
+    {
+      "wordId": "cierre-2",
+      "representations": [
+        "cierre:graphic"
+      ]
+    },
+    {
+      "wordId": "cierre-3",
+      "representations": [
+        "cierre:graphic"
+      ]
+    }
+  ],
+  "provenance": {
+    "study": "estilo-editor/perfil-estilo.json",
+    "fidelity": "unverified_without_visual_comparison"
+  }
+}

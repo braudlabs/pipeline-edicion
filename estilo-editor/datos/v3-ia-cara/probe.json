@@ -1,0 +1,18 @@
+{
+ "slug": "v3-ia-cara",
+ "original": "BRAUDLABS - V3 - LA IA TE SALE CARA.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 24.0,
+ "fps_num": 24,
+ "fps_den": 1,
+ "frames": 1542,
+ "duration": 64.25,
+ "video_codec": "h264",
+ "video_bitrate": 9076249,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 32000,
+ "audio_channels": 2,
+ "audio_bitrate": 190154
+}

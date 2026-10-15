@@ -1,0 +1,26 @@
+{
+"method": "MMS_FA sobre audio nativo del hook (voz generada sincronizada con la boca + ambiente). Orientativo.",
+"words": [
+{
+"segment": 0,
+"text": "Más",
+"start": 1.8829,
+"end": 2.1641,
+"score": 0.9995
+},
+{
+"segment": 0,
+"text": "anuncios.",
+"start": 2.2444,
+"end": 3.0679,
+"score": 0.9995
+},
+{
+"segment": 0,
+"text": "Más.",
+"start": 4.7551,
+"end": 5.1368,
+"score": 0.9967
+}
+]
+}

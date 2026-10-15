@@ -1,0 +1,2226 @@
+{
+  "createdAt": "2026-10-10T18:05:10.639122+00:00",
+  "files": [
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/01-hook.mp4",
+      "name": "01-hook.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "3bc00bc230e708b21abcfecba15200187e1d58628c571f152411f6ff94c1d2b5",
+      "duration": 8.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.050000",
+          "nb_frames": "253",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/02-no-soy-real.mp4",
+      "name": "02-no-soy-real.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "2438397ab6ac2d8d3a1c5758f81cd3a3e40b82db8a4245693a645e7b53b35406",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/03-dos-semanas.mp4",
+      "name": "03-dos-semanas.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "67a9f8a94c165647cff6483d0edbe0dca136ed28e3e76fa19c8d204d008b543c",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/04-pruebo-treinta.mp4",
+      "name": "04-pruebo-treinta.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "3c1ef30a30184be9660e3be99ba8afc34f03ba587ecbe5f0ac61faf84b408938",
+      "duration": 7.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "7.041667",
+          "nb_frames": "169"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "7.050000",
+          "nb_frames": "222",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/05-adivina-que.mp4",
+      "name": "05-adivina-que.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "4cf2327684da5f5dec9a06fa293db3ee3d5666875b1fabf88f1df83e246bccde",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/06-la-cara-el-mensaje.mp4",
+      "name": "06-la-cara-el-mensaje.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "206a95eb51cc074e7c8436d31ba19ffbd99f8591775e738e05b1b65fb9a84ed9",
+      "duration": 7.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "7.041667",
+          "nb_frames": "169"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "7.050000",
+          "nb_frames": "222",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/07a-crearme-fue-facil.mp4",
+      "name": "07a-crearme-fue-facil.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "39ee2774c4e60a03db27165819596301f08df525f726933b780d28fdd4074e43",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/07b-treinta-minutos.mp4",
+      "name": "07b-treinta-minutos.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "45968f975f034ae3afebff81282260af626d9d74afec59fda489db68c251bad7",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/08-dos-meses.mp4",
+      "name": "08-dos-meses.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "fa4988647c593e57249dbd4bac976674e15237b25b6a296e52d35e1ed24c6dce",
+      "duration": 8.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.050000",
+          "nb_frames": "253",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/10-curiosidad.mp4",
+      "name": "10-curiosidad.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "6dd0edbe60011087fb74453e18bedfd2e2ee2029f7ee6db1d478640ffb83914f",
+      "duration": 9.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "9.041667",
+          "nb_frames": "217"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "9.050000",
+          "nb_frames": "284",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/12a-aqui-donde-me-ves.mp4",
+      "name": "12a-aqui-donde-me-ves.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "b7b335e3770513e9ed9425be32f8e368d7c8747197771ad076bd5c3796d3ba8b",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/12b-consistente-entre-escenas.mp4",
+      "name": "12b-consistente-entre-escenas.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "b35b545ddf4f3881c1bb234963669afcb4ace36e8f50e5ce9f823da177f5b98a",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/13-directo.mp4",
+      "name": "13-directo.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "b65bb6dbed6f5bcf9f96afc14638ab01a01a2b7fc7be0fa4f2c749715698c744",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/14-guiones.mp4",
+      "name": "14-guiones.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "6633c282ab6f60ae8aa341cc4f42cbe401602eb5dd8de96dd3c152af59343659",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/15-nos-vemos-dentro.mp4",
+      "name": "15-nos-vemos-dentro.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "e71b490155950365c5371a9db1cf8d35a6cd5188d83f2bc503a404e3cc64e6a2",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/extras/09-cafe-recurso.mp4",
+      "name": "09-cafe-recurso.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "25f580e58065e2cc4bda1513bda29cef93d5d9dbf9d7d771144d555f3ddc6d1f",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/UGC Ni me han pagado - Visual Hub/extras/12-unido-previa.mp4",
+      "name": "12-unido-previa.mp4",
+      "folder": "UGC Ni me han pagado - Visual Hub",
+      "sha256": "bd86ca143035f192708fbc5e422ba5071e447f5748c16ab7da61b8f9557399c5",
+      "duration": 8.1,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "h264",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.083333",
+          "nb_frames": "194"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.100000",
+          "nb_frames": "381",
+          "sample_rate": "48000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/Nuevos dos ads Comercial/v1/Comercial 90_s v1.mov",
+      "name": "Comercial 90_s v1.mov",
+      "folder": "Nuevos dos ads Comercial",
+      "sha256": "d84a77368c0d52b2718e8485ffb2d37a23187ab00facb5f08f52c097aa579c0a",
+      "duration": 44.633333,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "duration": "44.633333",
+          "nb_frames": "2678"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "44.628753",
+          "nb_frames": "1925",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/Nuevos dos ads Comercial/v2/Comercial 90_s v2.mov",
+      "name": "Comercial 90_s v2.mov",
+      "folder": "Nuevos dos ads Comercial",
+      "sha256": "b5f2b30dbb5dd4b2eed4c3342fa5fb186d6445484aae5ed9a60851452614f067",
+      "duration": 44.4,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "60/1",
+          "avg_frame_rate": "60/1",
+          "duration": "44.400000",
+          "nb_frames": "2664"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "44.396553",
+          "nb_frames": "1915",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/Ad Agencias/Ad Agencias v1 (audio).MP3",
+      "name": "Ad Agencias v1 (audio).MP3",
+      "folder": "Ad Agencias",
+      "sha256": "af9e9e900f204f33d69bc52e8c522c7de38dd3bb0f67a21a677edef8701a6257",
+      "duration": 69.92975,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "69.929750",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/Ad Agencias/Ad Agencias v1 (sin audio).mp4",
+      "name": "Ad Agencias v1 (sin audio).mp4",
+      "folder": "Ad Agencias",
+      "sha256": "09314234559283d5a2276435355e6dc020c3de763f2e43a70ae720128be6b856",
+      "duration": 70.960181,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "60000/1001",
+          "avg_frame_rate": "2550000/42521",
+          "duration": "70.868333",
+          "nb_frames": "4250"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "70.960181",
+          "nb_frames": "3056",
+          "sample_rate": "44100",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/01-hook-la-maquina-le-corta.mp4",
+      "name": "01-hook-la-maquina-le-corta.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "948b590c8f2d04e26325185df52394d18ab0dca94113f478611477fadb927579",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/02-que-cojones-diez-anuncios.mp4",
+      "name": "02-que-cojones-diez-anuncios.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "5204ef56d835b0bbd57b37280d2e2db40580a164ecde3c90d989f6eb3c5292a8",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/03-cara-de-flipado.mp4",
+      "name": "03-cara-de-flipado.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "7657b00184cd54d974b783156ad6b265473428f64f9f2d430d2b7c09e633196e",
+      "duration": 4.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.000000",
+          "nb_frames": "96"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "3.936000",
+          "nb_frames": "124",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/04-maquina-a-toda-maquina.mp4",
+      "name": "04-maquina-a-toda-maquina.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "82bad3fe2ba6a4b46f3030adb1167a6386a9c4cd8d8c6e4df550262c6e5e80c6",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/05-enterrado-subeme-a-meta.mp4",
+      "name": "05-enterrado-subeme-a-meta.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "b8cc90fbb9016afe2df99c1f42df88a59039c23afea1929d5260f0f7dc44d9e7",
+      "duration": 9.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "9.041667",
+          "nb_frames": "217"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "9.050000",
+          "nb_frames": "284",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/06-habla-la-maquina.mp4",
+      "name": "06-habla-la-maquina.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "b7a456ac7baad99ad999a4e543d57360283ecdb5e3234b409bd6003a6c9b2ddb",
+      "duration": 7.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "7.000000",
+          "nb_frames": "168"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.912000",
+          "nb_frames": "217",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/07-okay.mp4",
+      "name": "07-okay.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "314e009ce309091aac93910f4647f61cf32bb96e25e8c3654211b506b4b7cb2a",
+      "duration": 4.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.000000",
+          "nb_frames": "96"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "3.936000",
+          "nb_frames": "124",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/08-una-moneda.mp4",
+      "name": "08-una-moneda.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "d727dabc760d11c44772b4dfa0521782ccafeca02fd10e1d84acdddbbabaf8e1",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/09-creativos-y-sonrisa.mp4",
+      "name": "09-creativos-y-sonrisa.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "075f25ff7eb1011ce128776ed439ef435146a02791452902e2debadf5c56e8c1",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/10-ring-el-visual.mp4",
+      "name": "10-ring-el-visual.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "a34241782c69015869216bdb3f218c6661f0061158af131d8783e7dba52f4079",
+      "duration": 8.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.050000",
+          "nb_frames": "253",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/11-a-pagar-caja-registradora.mp4",
+      "name": "11-a-pagar-caja-registradora.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "c9712bf80e20a365742f279cbf6ca518d7647b6b8d34fbf8c835ec30e8e65729",
+      "duration": 8.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.050000",
+          "nb_frames": "253",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/12a-apagar-fuegos.mp4",
+      "name": "12a-apagar-fuegos.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "0bec4014495b83bec91a1a481fd444bdaf4cf9bc5c20e53f93a493632428ab79",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/12b-apagar-derrotado.mp4",
+      "name": "12b-apagar-derrotado.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "80fd13b9b7dbe551f0c43781355a65ad14f55858151503276f84e74ef7320ef8",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/13-ayyy-maquinita.mp4",
+      "name": "13-ayyy-maquinita.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "5166d1523842706f1df4d3b809e91c4b9c9a8e9f42bbcd9825ed43d0188254b8",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/14-cta-cima-con-cafe.mp4",
+      "name": "14-cta-cima-con-cafe.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "846dbda3ce159a56f9070a40ec5941b0e238c72674a11bf9ab84523baa2cf170",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/15-instalacion-almacen.mp4",
+      "name": "15-instalacion-almacen.mp4",
+      "folder": "AD La Maquina - clips",
+      "sha256": "e8af1f0c857059f36395bcb9a0f19dc77b2d40fc73478534ba85c8bf74f2ddfd",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/VO1-eso-es-lo-que-montamos.mp3",
+      "name": "VO1-eso-es-lo-que-montamos.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "8af1ed4642e32dd6e54699c5f94862ca43244f547da50f630b8a2843886ffd93",
+      "duration": 5.800249,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.800249",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/VO2-coste-ridiculo.mp3",
+      "name": "VO2-coste-ridiculo.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "b1e265ab6744205f91e153ef73fb5f48ad052b192754716cbc623af465da61da",
+      "duration": 6.66,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.660000",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/VO3-el-visual.mp3",
+      "name": "VO3-el-visual.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "39fcbabce9d740156ad16f826a607b450f2fc93289f8dac75f48cb83d4f442b5",
+      "duration": 8.04,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.040000",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/VO4-a-pagar-apagar.mp3",
+      "name": "VO4-a-pagar-apagar.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "1442a76c9fa9d658cd98c2bc34587598b9691f2584caa792310ef719f88dce5e",
+      "duration": 10.8,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "10.800000",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/VO5-ayyy-maquinita.mp3",
+      "name": "VO5-ayyy-maquinita.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "1c24451006e26d6f8594b49e683cdcfc2289bf69f14470d0dd7536503e794af0",
+      "duration": 3.02,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "3.020000",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/VO6-cta.mp3",
+      "name": "VO6-cta.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "d03b82c05380727f6f1e51dd6b189fdc62612b9029b3ea677a8a444b728b09a7",
+      "duration": 10.845714,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "10.845714",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD La Maquina - clips/locutor/locutor-COMPLETO.mp3",
+      "name": "locutor-COMPLETO.mp3",
+      "folder": "AD La Maquina - clips",
+      "sha256": "ae67d126d43fa22f85fc1fb931233b376559e0bfdef415790aa5cb50e4c2a9e3",
+      "duration": 45.165688,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "45.165687",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/01-hook.mp4",
+      "name": "01-hook.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "d5cdc355e76e7c0b246a81d3fc82eba3b5a374fd5d1ac0cd58e75ade811e118a",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/02-avatar-bueno.mp4",
+      "name": "02-avatar-bueno.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "8183ccb3f86d6e264620cbe3ec934dc831527e2aa1dcb664486a87b56169ce98",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/03-avatar-cambiado.mp4",
+      "name": "03-avatar-cambiado.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "055fac72a2aaf042f92341756f60eeef1c7609588eea8d34e9aa6fe9942ec558",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/04a-otra-cocinera.mp4",
+      "name": "04a-otra-cocinera.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "be02bb24c64edc8c8346ac68c88d4c932cc0ab564ee1b0c1e3a5e61f9fbe6be9",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/04b-otra-cocinera.mp4",
+      "name": "04b-otra-cocinera.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "572bd88fb7750af7c7906eeb503e9d6dd5ede8bbe45426aa6ebf0f569229fea4",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/04c-otra-cocinera.mp4",
+      "name": "04c-otra-cocinera.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "89f2086216c34f3f94fa037b0dba0889bd76715eade0919ed24d9aaaf74561a5",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/05-plastica-artificial-HABLA-ELLA.mp4",
+      "name": "05-plastica-artificial-HABLA-ELLA.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "b68c144ac3d1e0d0f693c88570e973ce551a5504a11d8cff80d033913f39f404",
+      "duration": 8.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.050000",
+          "nb_frames": "253",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/06-creditos-quemados.mp4",
+      "name": "06-creditos-quemados.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "d6830731d340c064f4ae302edac2f441ae97347ece78cb07c1d94b82f298da0c",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/07-hora-punta.mp4",
+      "name": "07-hora-punta.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "e72792f766ec1e9fb5ac9541075bd325aa8c6bc6830ee9c43046df18d7f3ffb0",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/08-tiempo-y-dinero.mp4",
+      "name": "08-tiempo-y-dinero.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "9c6d837aed0eb6ae109610777ddb65bb74590533c3254ce9f080d6b2676b98c1",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/09-nosotros-procesos-SIN-AUDIO.mp4",
+      "name": "09-nosotros-procesos-SIN-AUDIO.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "c1a0336feb61329f818b3753c780dae0c155bb19f34670004ed4623c35dae274",
+      "duration": 8.041667,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/10-comanda.mp4",
+      "name": "10-comanda.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "7f34d684f2dd2940dd04fd7fda64c46acc961de1a005947ed075e2fdddd99d6b",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/11-brigada.mp4",
+      "name": "11-brigada.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "600c8a8b85f6a86e52813b56ab3b64e9485460924648b5db29a10653e3a48d95",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/12-platos-iguales.mp4",
+      "name": "12-platos-iguales.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "8c1aa9b14e674441889bfba5f12c81acef888bcc6b191efb4cd8a5f91b326811",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/13-en-directo-SIN-VOZ-recomendado.mp4",
+      "name": "13-en-directo-SIN-VOZ-recomendado.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "ed9b63a6f15bf61fc970e6e033060238f1c7a96c2973912926776f857f0e8444",
+      "duration": 5.041667,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.024000",
+          "nb_frames": "158",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/13-en-directo.mp4",
+      "name": "13-en-directo.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "e72b84d514b5ec0d8ecc953dbeb3215cc85308f4f45f5557d8fdcf675a267aac",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/14-cierre-HABLA-ELLA.mp4",
+      "name": "14-cierre-HABLA-ELLA.mp4",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "68acf2a8cef82783883c8b7710afe70c51aee2b798f9f1c42a3c6705505b202b",
+      "duration": 7.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "7.041667",
+          "nb_frames": "169"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "7.050000",
+          "nb_frames": "222",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/voz-narrador-CORTADA.mp3",
+      "name": "voz-narrador-CORTADA.mp3",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "caf7a3af723787bff28b1cb2c794561daa960ea8eaaa66e5c21200168572cc3a",
+      "duration": 70.856122,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "70.856122",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD1 Churros Cocina - Visual Hub/voz-narrador-ORIGINAL.mp3",
+      "name": "voz-narrador-ORIGINAL.mp3",
+      "folder": "AD1 Churros Cocina - Visual Hub",
+      "sha256": "5bbe57f594dcd893b51e254b2ca3a8d0ce0076009794e60933f30a813f605270",
+      "duration": 71.706063,
+      "streams": [
+        {
+          "codec_type": "audio",
+          "codec_name": "mp3",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "71.706063",
+          "sample_rate": "44100",
+          "channels": 1
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/01-hook.mp4",
+      "name": "01-hook.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "42715a25c4aabac7af4f4cbd790763797d0be4c12ee507db592a7250df0fd984",
+      "duration": 7.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "7.041667",
+          "nb_frames": "169"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "7.050000",
+          "nb_frames": "222",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/02-al-contrario.mp4",
+      "name": "02-al-contrario.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "78d5be66071e587850e0d611686209a6a39ebc3d9335993f5233fa118d3af9a9",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/03-bucle-portatil.mp4",
+      "name": "03-bucle-portatil.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "eab2e5d5ec5546ded517be05eaaee6c29ba92cb835526573540c86c8b3f43c90",
+      "duration": 6.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.041667",
+          "nb_frames": "145"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "6.050000",
+          "nb_frames": "191",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/04-horas-y-creditos.mp4",
+      "name": "04-horas-y-creditos.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "d8409c8277f2e6475f6a2a54613528146af354b44fd81bbc3ee39e520b74fd46",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/05-por-curiosidad.mp4",
+      "name": "05-por-curiosidad.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "14729d31892d58afdf74927b0cbba414166b4d58666b57d8e93dcfbf3f5ac2e6",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/06-agencia-o-clientes.mp4",
+      "name": "06-agencia-o-clientes.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "893b487cf11e4750c9207f2e40d80c9cb6a86608ce4e35cca9fef6b2a995cb21",
+      "duration": 7.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "7.041667",
+          "nb_frames": "169"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "7.050000",
+          "nb_frames": "222",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/07-no-es-la-herramienta.mp4",
+      "name": "07-no-es-la-herramienta.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "94e56f538d005b539c796413a45f926590c864b6eb59a3d97b0fbfac0bec92fb",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/08-es-el-proceso-CONTINUA-DEL-07.mp4",
+      "name": "08-es-el-proceso-CONTINUA-DEL-07.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "657bfdcada93a3c313859600d5aaec0e9bb9d4c3d5983879e91a2618c32b9d90",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/09-dos-cuentas-AQUI-VAN-LAS-CUENTAS.mp4",
+      "name": "09-dos-cuentas-AQUI-VAN-LAS-CUENTAS.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "0d0c73f13dc88676013bd309b82febe67e20acb2db8b13fa39f5e604dee0cb2f",
+      "duration": 8.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "8.041667",
+          "nb_frames": "193"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "8.050000",
+          "nb_frames": "253",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/10-por-eso-visual-hub.mp4",
+      "name": "10-por-eso-visual-hub.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "3f7857fbc0d71c9783dc7a1392765c9328d6fe61ff8ce9ebab71759978b47f91",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/11-dentro-encontraras.mp4",
+      "name": "11-dentro-encontraras.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "c3249a87c95525fdefb7cb2bfa618df4255900f4bfd8fe3f760236005cba3d45",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/12-la-lista-CONTINUA-DEL-11.mp4",
+      "name": "12-la-lista-CONTINUA-DEL-11.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "dc904fe9b8484bf5af61f3e69bb3dcd168dc06da60e6a3b1dcca4b56aaaaae6a",
+      "duration": 6.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "6.000000",
+          "nb_frames": "144"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.920000",
+          "nb_frames": "186",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/13-para-quien-es.mp4",
+      "name": "13-para-quien-es.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "45c602ad8466cb6c4c1aa2f61dd3d3e12df6098513dfe85c000dafdfa1c2eeca",
+      "duration": 5.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "5.041667",
+          "nb_frames": "121"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "5.050000",
+          "nb_frames": "159",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/14-cierre-39-dolares.mp4",
+      "name": "14-cierre-39-dolares.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "66a0ca4d0bf271d73ab9e231b9b638177e7087679463f104dbc440b5fe569bbd",
+      "duration": 4.05,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.041667",
+          "nb_frames": "97"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "4.050000",
+          "nb_frames": "128",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    },
+    {
+      "path": "/Users/alejandrorubiocamarero/Downloads/AD2 La IA te sale cara - Visual Hub/extras/recurso-serum.mp4",
+      "name": "recurso-serum.mp4",
+      "folder": "AD2 La IA te sale cara - Visual Hub",
+      "sha256": "cccbb6dfe8ccffcb0f607b1771e90692095d6fe0254b5d1dce9ef1548451e89e",
+      "duration": 4.0,
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "4.000000",
+          "nb_frames": "96"
+        },
+        {
+          "codec_type": "audio",
+          "codec_name": "aac",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "3.936000",
+          "nb_frames": "124",
+          "sample_rate": "32000",
+          "channels": 2
+        }
+      ],
+      "status": "inventoried_not_aligned"
+    }
+  ],
+  "note": "Brutos aportados por Ale. El nombre no demuestra correspondencia con una versión editada; alinear imagen/audio antes de atribuir añadidos."
+}

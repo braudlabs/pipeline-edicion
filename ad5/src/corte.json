@@ -1,0 +1,52 @@
+{
+ "fps_salida": 48,
+ "fps_origen": 24,
+ "total_s": 23.916667,
+ "total_f48": 1148,
+ "cortes": [
+  {
+   "i": 0,
+   "src": "assets/src-04.mp4",
+   "rol": "problema",
+   "frames_src": 166,
+   "dur": 6.916666666666667,
+   "inicio": 0,
+   "fin": 6.916667,
+   "f48_inicio": 0,
+   "f48_fin": 332
+  },
+  {
+   "i": 1,
+   "src": "assets/src-02.mp4",
+   "rol": "giro",
+   "frames_src": 121,
+   "dur": 5.041666666666667,
+   "inicio": 6.916667,
+   "fin": 11.958333,
+   "f48_inicio": 332,
+   "f48_fin": 574
+  },
+  {
+   "i": 2,
+   "src": "assets/src-03.mp4",
+   "rol": "solución",
+   "frames_src": 166,
+   "dur": 6.916666666666667,
+   "inicio": 11.958333,
+   "fin": 18.875,
+   "f48_inicio": 574,
+   "f48_fin": 906
+  },
+  {
+   "i": 3,
+   "src": "assets/src-01.mp4",
+   "rol": "cta",
+   "frames_src": 121,
+   "dur": 5.041666666666667,
+   "inicio": 18.875,
+   "fin": 23.916667,
+   "f48_inicio": 906,
+   "f48_fin": 1148
+  }
+ ]
+}

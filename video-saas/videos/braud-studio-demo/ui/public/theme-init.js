@@ -1,0 +1,2 @@
+// Resolve before the first paint, including when storage is unavailable.
+(()=>{let choice='light';try{choice=localStorage.getItem('studio-appearance')||'light';}catch{}if(!['light','dark','system'].includes(choice))choice='light';document.documentElement.dataset.appearance=choice;document.documentElement.dataset.theme=choice==='system'?(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'):choice;})();

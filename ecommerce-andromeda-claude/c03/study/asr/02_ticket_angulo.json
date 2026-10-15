@@ -1,0 +1,142 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "large",
+		"multilingual": true,
+		"vocab": 51866,
+		"audio": {
+			"ctx": 1500,
+			"state": 1280,
+			"head": 20,
+			"layer": 32
+		},
+		"text": {
+			"ctx": 448,
+			"state": 1280,
+			"head": 20,
+			"layer": 4
+		},
+		"mels": 128,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/alejandrorubiocamarero/.cache/whisper-models/ggml-large-v3-turbo.bin",
+		"language": "es",
+		"translate": false
+	},
+	"result": {
+		"language": "es"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,000"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 0
+			},
+			"text": ""
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:00,230"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 230
+			},
+			"text": " ¡"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,230",
+				"to": "00:00:00,470"
+			},
+			"offsets": {
+				"from": 230,
+				"to": 470
+			},
+			"text": "S"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,470",
+				"to": "00:00:00,940"
+			},
+			"offsets": {
+				"from": 470,
+				"to": 940
+			},
+			"text": "us"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:00,940",
+				"to": "00:00:01,410"
+			},
+			"offsets": {
+				"from": 940,
+				"to": 1410
+			},
+			"text": "cr"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,410",
+				"to": "00:00:01,900"
+			},
+			"offsets": {
+				"from": 1410,
+				"to": 1900
+			},
+			"text": "íb"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:01,900",
+				"to": "00:00:02,590"
+			},
+			"offsets": {
+				"from": 1900,
+				"to": 2590
+			},
+			"text": "ete"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,590",
+				"to": "00:00:03,060"
+			},
+			"offsets": {
+				"from": 2590,
+				"to": 3060
+			},
+			"text": " al"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:03,060",
+				"to": "00:00:04,250"
+			},
+			"offsets": {
+				"from": 3060,
+				"to": 4250
+			},
+			"text": " canal"
+		},
+		{
+			"timestamps": {
+				"from": "00:00:04,250",
+				"to": "00:00:05,000"
+			},
+			"offsets": {
+				"from": 4250,
+				"to": 5000
+			},
+			"text": "!"
+		}
+	]
+}

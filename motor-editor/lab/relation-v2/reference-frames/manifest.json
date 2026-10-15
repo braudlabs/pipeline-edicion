@@ -1,0 +1,17 @@
+{
+  "sha256": "d1f7217c1fad432e80058e9784388d62acb103d041d258f7fd3cff9103cec85b",
+  "frames": [
+    230,
+    240,
+    255,
+    265,
+    275,
+    300
+  ],
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v8.mp4",
+  "method": "decode index; no seek-time rounding"
+}

@@ -1,0 +1,18 @@
+{
+ "slug": "v7-ads90-rev",
+ "original": "BRAUDLABS - V7 - ADS 90s - REV.mp4",
+ "width": 1080,
+ "height": 1920,
+ "fps": 60.0,
+ "fps_num": 60,
+ "fps_den": 1,
+ "frames": 2681,
+ "duration": 44.683333,
+ "video_codec": "h264",
+ "video_bitrate": 19375900,
+ "pix_fmt": "yuv420p",
+ "audio_codec": "aac",
+ "audio_rate": 44100,
+ "audio_channels": 2,
+ "audio_bitrate": 189470
+}

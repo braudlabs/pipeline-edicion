@@ -1,0 +1,38 @@
+{
+ "version": 1,
+ "pieza": "AD5 — «la gotita» · UGC skincare · serum con color",
+ "status": "rendered-and-locally-verified",
+ "userApproval": false,
+ "duration": 23.916666666666668,
+ "fps": 48,
+ "width": 1080,
+ "height": 1920,
+ "frames": 1148,
+ "video": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad5/output/AD5-GOTA-V1.mp4",
+ "aep": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad5/ae/AD5-BRAUDLABS.aep",
+ "design": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad5/src/design.json",
+ "videoSha256": "80f527c98046c5cfe35a1a75f13ceefc17142a51385b133b0f5aba04d8f30cf4",
+ "narrativa": "Orden 04→02→03→01: problema → giro → solución → CTA. Lo dictó la transcripción, no el orden de los archivos.",
+ "montaje": "Cuatro cortes alineados a fotograma de origen (24 fps), sin saltos internos: las pausas de 0,7-0,8 s dentro de 02 y 03 se dejaron porque cortarlas metía saltos visibles de su mano a mitad de frase. Solo se recortó cola muerta en las costuras.",
+ "direccionDeArte": "Fuente Futura. Paleta azul: navy #0E2A5C, azul #2E6FD9, cielo #A9C7E8, crema #F2F7FF — armoniza con su camisa azul claro, que ya estaba en el plano. El motion es una gotita con ojos y física de squash: UNA sola capa que atraviesa los cuatro clips en vez de entradas independientes.",
+ "graficos": [
+  "PROBLEMA: la línea azul se traza siguiendo su yema (x688→830, y838→801) en «se metía dentro», y se ramifica en pata de gallo en «y las marcaba más».",
+  "GIRO: la gota irrumpe por la izquierda pasada de frenada, rebota y se asoma al corrector en la palabra «correctores».",
+  "SOLUCIÓN: anillos finos + etiqueta HIALURÓNICO; luego la gota vuela a su mejilla y BORRA a su paso la misma línea del problema. Ese es el remate.",
+  "CTA: la gota se tira por donde ella señala y aterriza en la yema, dentro de una anilla."
+ ],
+ "subtitulos": "Crema con contorno navy y sombra suave, sin caja. Medido: en todos los carriles el fondo va de luma ~50 a ~210, así que el peor contraste de un color plano queda entre 1,1 y 2,0 — ninguno aguanta solo. Carril por plano (y1500/1470/1610/1420), entradas por un solo eje alternando. «con ácido hialurónico» no se subtitula: lo lleva el gráfico.",
+ "avisosParaElCliente": [
+  "Whisper transcribió mal tres cosas, corregidas en pantalla: «alorónico»→hialurónico, «no se cuatea»→no se cuartea, «Pruebal»→pruébalo.",
+  "El CTA (gota + anilla) baja hasta y1775. Si va a Reels, comprueba que la barra de interfaz de Meta no lo tape y súbelo si hace falta.",
+  "Los envases del fondo son de marca real y se leen en algunos planos."
+ ],
+ "notasTecnicas": [
+  "La plantilla H.264 de AE reescribe el contenedor a 50 fps y recorta el audio: no usarla. ProRes ('Calidad alta') + transcodificación con ffmpeg.",
+  "Los nombres de plantilla de AE llevan espacio duro: usar la cadena que devuelve render.list_templates.",
+  "render.start agota la espera del puente a los 60 s pero AE sigue: vigilar el archivo, no relanzar.",
+  "AE entregó un fotograma de más (1149 en vez de 1148); se recorta con -frames:v.",
+  "layer.set_parent recalcula la posición del hijo aunque se pase jump=False: hay que reimponer posición y claves DESPUÉS de emparentar.",
+  "Un metraje importado necesita el ancla en su centro; por defecto queda en la esquina y el vídeo se va a un cuarto de pantalla."
+ ]
+}

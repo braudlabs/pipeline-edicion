@@ -1,0 +1,477 @@
+{
+  "source": "original_music.mp3",
+  "target_seconds": 85.4,
+  "target_samples": 4099200,
+  "sample_rate": 48000,
+  "deviations": [
+    "silencio inicial de 7.326 s en la generación: la música no empieza en 0",
+    "faltan 56.0 ms: se completa con silencio tras el decaimiento"
+  ],
+  "needs_listening": [
+    "explosive opening: groove más débil de lo previsto (-82.1 dB)",
+    "subject change (polite minimal): la generación no reduce el arreglo (-2.9 dB); solo la ganancia lo hace",
+    "hoodie reveal (hard dropout): la generación no baja lo suficiente (2.4 dB); la automatización lo fuerza en la mezcla completa",
+    "bad ideas warning (stripped): la generación no reduce el arreglo (-1.4 dB); solo la ganancia lo hace",
+    "honest fit / no-fit (quiet): la generación no reduce el arreglo (0.9 dB); solo la ganancia lo hace",
+    "back to work (riff returns): groove más débil de lo previsto (-56.1 dB)",
+    "Motivo de tres notas y respuestas del fagot: no verificable automáticamente",
+    "Retirada progresiva guitarra → batería → teclados (18,75–23,00): la ganancia no separa instrumentos"
+  ],
+  "checks": [
+    {
+      "check": "muestras por canal = 4.099.200 a 48 kHz",
+      "ok": true,
+      "value": [
+        4099200,
+        48000,
+        2
+      ]
+    },
+    {
+      "check": "arranca en el tiempo cero (primeros 20 ms con señal)",
+      "ok": false,
+      "value": -153.7
+    },
+    {
+      "check": "remate final presente (84,60–84,95 s)",
+      "ok": false,
+      "value": -82.9
+    },
+    {
+      "check": "termina sin clic en 85,400 (última muestra ≈ 0 y sin saltos en los últimos 10 ms)",
+      "ok": true
+    },
+    {
+      "check": "sin silencio inicial no deseado",
+      "ok": false
+    },
+    {
+      "check": "sin outro duplicado o alargado (duración exacta)",
+      "ok": true
+    }
+  ],
+  "source_duration_ffprobe_s": 85.344,
+  "decoded_samples": 4096512,
+  "leading_digital_silence_ms": 7326.06,
+  "length_difference_ms": -56.0,
+  "measured_generation": [
+    {
+      "cue": "explosive opening",
+      "start": 0.0,
+      "end": 1.97,
+      "expect": "full",
+      "rms_dbfs": -102.75,
+      "relative_to_groove_db": -82.12
+    },
+    {
+      "cue": "whisper (near silence)",
+      "start": 1.97,
+      "end": 4.85,
+      "expect": "dropout",
+      "rms_dbfs": -102.81,
+      "relative_to_groove_db": -82.18
+    },
+    {
+      "cue": "frightened reaction (one low note)",
+      "start": 4.85,
+      "end": 5.417,
+      "expect": "sparse",
+      "rms_dbfs": -102.7,
+      "relative_to_groove_db": -82.07
+    },
+    {
+      "cue": "endless waiting (groove returns)",
+      "start": 5.417,
+      "end": 14.583,
+      "expect": "full",
+      "rms_dbfs": -21.17,
+      "relative_to_groove_db": -0.54
+    },
+    {
+      "cue": "absurd queue ticket",
+      "start": 14.583,
+      "end": 18.75,
+      "expect": "full",
+      "rms_dbfs": -20.0,
+      "relative_to_groove_db": 0.63
+    },
+    {
+      "cue": "old ads fail (progressive removal)",
+      "start": 18.75,
+      "end": 23.0,
+      "expect": "decreasing",
+      "rms_dbfs": -24.35,
+      "relative_to_groove_db": -3.72
+    },
+    {
+      "cue": "again?! (motif restarts)",
+      "start": 23.0,
+      "end": 25.417,
+      "expect": "full",
+      "rms_dbfs": -21.89,
+      "relative_to_groove_db": -1.26
+    },
+    {
+      "cue": "subject change (polite minimal)",
+      "start": 25.417,
+      "end": 29.05,
+      "expect": "reduced",
+      "rms_dbfs": -23.54,
+      "relative_to_groove_db": -2.91
+    },
+    {
+      "cue": "hoodie reveal (hard dropout)",
+      "start": 29.05,
+      "end": 30.92,
+      "expect": "dropout",
+      "rms_dbfs": -18.27,
+      "relative_to_groove_db": 2.36
+    },
+    {
+      "cue": "the idea (pickup)",
+      "start": 30.92,
+      "end": 32.583,
+      "expect": "present",
+      "rms_dbfs": -25.11,
+      "relative_to_groove_db": -4.48
+    },
+    {
+      "cue": "the machine works (full re-entry)",
+      "start": 32.583,
+      "end": 42.583,
+      "expect": "full",
+      "rms_dbfs": -20.78,
+      "relative_to_groove_db": -0.15
+    },
+    {
+      "cue": "more ad variations",
+      "start": 42.583,
+      "end": 50.4,
+      "expect": "full",
+      "rms_dbfs": -19.82,
+      "relative_to_groove_db": 0.81
+    },
+    {
+      "cue": "owner says yes (resolution)",
+      "start": 50.4,
+      "end": 51.542,
+      "expect": "present",
+      "rms_dbfs": -18.74,
+      "relative_to_groove_db": 1.89
+    },
+    {
+      "cue": "bad ideas warning (stripped)",
+      "start": 51.542,
+      "end": 55.833,
+      "expect": "sparse",
+      "rms_dbfs": -22.02,
+      "relative_to_groove_db": -1.39
+    },
+    {
+      "cue": "competent humans (warm funk)",
+      "start": 55.833,
+      "end": 61.583,
+      "expect": "full",
+      "rms_dbfs": -20.48,
+      "relative_to_groove_db": 0.15
+    },
+    {
+      "cue": "human creative judgment (reduced)",
+      "start": 61.583,
+      "end": 66.042,
+      "expect": "reduced",
+      "rms_dbfs": -24.78,
+      "relative_to_groove_db": -4.15
+    },
+    {
+      "cue": "ads everywhere (4 s burst)",
+      "start": 66.042,
+      "end": 70.042,
+      "expect": "full",
+      "rms_dbfs": -19.87,
+      "relative_to_groove_db": 0.76
+    },
+    {
+      "cue": "the reveal (hesitation + riff)",
+      "start": 70.042,
+      "end": 74.417,
+      "expect": "present",
+      "rms_dbfs": -19.55,
+      "relative_to_groove_db": 1.08
+    },
+    {
+      "cue": "call invitation",
+      "start": 74.417,
+      "end": 78.32,
+      "expect": "full",
+      "rms_dbfs": -19.72,
+      "relative_to_groove_db": 0.91
+    },
+    {
+      "cue": "honest fit / no-fit (quiet)",
+      "start": 78.32,
+      "end": 82.958,
+      "expect": "reduced",
+      "rms_dbfs": -19.69,
+      "relative_to_groove_db": 0.94
+    },
+    {
+      "cue": "back to work (riff returns)",
+      "start": 82.958,
+      "end": 84.8,
+      "expect": "full",
+      "rms_dbfs": -76.74,
+      "relative_to_groove_db": -56.11
+    },
+    {
+      "cue": "final low button + decay",
+      "start": 84.8,
+      "end": 85.4,
+      "expect": "decay",
+      "rms_dbfs": -88.91,
+      "relative_to_groove_db": -68.28
+    }
+  ],
+  "loudness": {
+    "measured_lufs_before": -18.3,
+    "target_lufs": -16.0,
+    "applied_gain_db": 1.15,
+    "peak_dbfs_after": -1.0,
+    "note": "nivel de la pista aislada; ducking bajo la voz en el montaje"
+  },
+  "applied_gain_automation": [
+    {
+      "cue": "explosive opening",
+      "start": 0.0,
+      "end": 1.97,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "whisper (near silence)",
+      "start": 1.97,
+      "end": 4.85,
+      "gain_db": -24,
+      "keep": null
+    },
+    {
+      "cue": "frightened reaction (one low note)",
+      "start": 4.85,
+      "end": 5.417,
+      "gain_db": -3,
+      "keep": null
+    },
+    {
+      "cue": "endless waiting (groove returns)",
+      "start": 5.417,
+      "end": 14.583,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "absurd queue ticket",
+      "start": 14.583,
+      "end": 18.75,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "old ads fail (progressive removal)",
+      "start": 18.75,
+      "end": 23.0,
+      "gain_db": [
+        0,
+        -5
+      ],
+      "keep": null
+    },
+    {
+      "cue": "again?! (motif restarts)",
+      "start": 23.0,
+      "end": 25.417,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "subject change (polite minimal)",
+      "start": 25.417,
+      "end": 29.05,
+      "gain_db": -3,
+      "keep": null
+    },
+    {
+      "cue": "hoodie reveal (hard dropout)",
+      "start": 29.05,
+      "end": 30.92,
+      "gain_db": -30,
+      "keep": {
+        "start": 29.6,
+        "end": 29.95,
+        "gain_db": -6,
+        "why": "tiny low comment ~29.700"
+      }
+    },
+    {
+      "cue": "the idea (pickup)",
+      "start": 30.92,
+      "end": 32.583,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "the machine works (full re-entry)",
+      "start": 32.583,
+      "end": 42.583,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "more ad variations",
+      "start": 42.583,
+      "end": 50.4,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "owner says yes (resolution)",
+      "start": 50.4,
+      "end": 51.542,
+      "gain_db": -2,
+      "keep": null
+    },
+    {
+      "cue": "bad ideas warning (stripped)",
+      "start": 51.542,
+      "end": 55.833,
+      "gain_db": -10,
+      "keep": null
+    },
+    {
+      "cue": "competent humans (warm funk)",
+      "start": 55.833,
+      "end": 61.583,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "human creative judgment (reduced)",
+      "start": 61.583,
+      "end": 66.042,
+      "gain_db": -8,
+      "keep": null
+    },
+    {
+      "cue": "ads everywhere (4 s burst)",
+      "start": 66.042,
+      "end": 70.042,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "the reveal (hesitation + riff)",
+      "start": 70.042,
+      "end": 74.417,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "call invitation",
+      "start": 74.417,
+      "end": 78.32,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "honest fit / no-fit (quiet)",
+      "start": 78.32,
+      "end": 82.958,
+      "gain_db": -6,
+      "keep": null
+    },
+    {
+      "cue": "back to work (riff returns)",
+      "start": 82.958,
+      "end": 84.8,
+      "gain_db": 0,
+      "keep": null
+    },
+    {
+      "cue": "final low button + decay",
+      "start": 84.8,
+      "end": 85.4,
+      "gain_db": 0,
+      "keep": null
+    }
+  ],
+  "key_points": [
+    {
+      "t": 1.97,
+      "rms_dbfs_80ms_after": -124.7
+    },
+    {
+      "t": 4.85,
+      "rms_dbfs_80ms_after": -103.7
+    },
+    {
+      "t": 5.417,
+      "rms_dbfs_80ms_after": -103.3
+    },
+    {
+      "t": 18.75,
+      "rms_dbfs_80ms_after": -68.0
+    },
+    {
+      "t": 23.0,
+      "rms_dbfs_80ms_after": -72.6
+    },
+    {
+      "t": 29.05,
+      "rms_dbfs_80ms_after": -46.8
+    },
+    {
+      "t": 29.7,
+      "rms_dbfs_80ms_after": -22.2
+    },
+    {
+      "t": 30.92,
+      "rms_dbfs_80ms_after": -26.5
+    },
+    {
+      "t": 32.583,
+      "rms_dbfs_80ms_after": -77.1
+    },
+    {
+      "t": 50.4,
+      "rms_dbfs_80ms_after": -34.5
+    },
+    {
+      "t": 51.542,
+      "rms_dbfs_80ms_after": -25.2
+    },
+    {
+      "t": 61.583,
+      "rms_dbfs_80ms_after": -42.5
+    },
+    {
+      "t": 66.042,
+      "rms_dbfs_80ms_after": -85.6
+    },
+    {
+      "t": 70.042,
+      "rms_dbfs_80ms_after": -16.0
+    },
+    {
+      "t": 78.32,
+      "rms_dbfs_80ms_after": -25.3
+    },
+    {
+      "t": 82.958,
+      "rms_dbfs_80ms_after": -73.9
+    },
+    {
+      "t": 84.8,
+      "rms_dbfs_80ms_after": -85.3
+    }
+  ],
+  "all_checks_ok": false
+}

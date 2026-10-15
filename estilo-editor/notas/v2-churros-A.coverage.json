@@ -1,0 +1,57 @@
+{
+  "id": "v2-churros-A",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d000_f00000-f00039.jpg",
+    "d001_f00040-f00111.jpg",
+    "d002_f00112-f00151.jpg",
+    "d003_f00152-f00191.jpg",
+    "d004_f00192-f00231.jpg",
+    "d005_f00232-f00271.jpg",
+    "d006_f00272-f00311.jpg",
+    "d007_f00312-f00351.jpg",
+    "d008_f00352-f00391.jpg",
+    "d009_f00392-f00431.jpg",
+    "d010_f00432-f00471.jpg",
+    "d011_f00472-f00511.jpg",
+    "d012_f00512-f00551.jpg",
+    "d013_f00552-f00595.jpg",
+    "d014_f00596-f00635.jpg",
+    "d015_f00636-f00675.jpg",
+    "d016_f00676-f00715.jpg",
+    "d017_f00716-f00755.jpg",
+    "d018_f00756-f00795.jpg",
+    "d019_f00796-f00835.jpg"
+  ],
+  "native_ranges": [
+    {
+      "frames": [
+        65
+      ],
+      "purpose": "control tipográfico ordinario sin cara",
+      "evidence": "analysis/tmp/v2-churros-A/fontfit-encontrado.jpg"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png",
+    "s_032-040.png"
+  ],
+  "supplemental_sheets_viewed": [
+    "s000_f00074-f01331.jpg"
+  ],
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [
+    "laminas/v2-churros/v2-churros-A-01-fontfit-encontrado.jpg",
+    "laminas/v2-churros/v2-churros-A-02-encontrado-native.jpg"
+  ],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 28,
+  "supplemental_status": "completed",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

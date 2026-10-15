@@ -1,0 +1,24 @@
+{
+  "version": "V2",
+  "hero": "La m\u00e1quina de fabricar creativos",
+  "duration_seconds": 65.16666666666667,
+  "fps": 30,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "status": "ready_for_review",
+  "project": "ae/El-Sistema-V2.aep",
+  "design": "src/design-v2.json",
+  "voice": "assets/Voz-V2.wav",
+  "mix": "assets/Mezcla-V2.wav",
+  "preview": "output/Avance-02-Maquina.mp4",
+  "user_approved": false,
+  "output": "output/El-Sistema-V2.mp4",
+  "delivery_root": "/Users/alejandrorubiocamarero/Desktop/El director/video-saas/videos/el-sistema",
+  "validation": {
+    "frames": 1955,
+    "decode_errors": 0,
+    "missing_footage": 0
+  }
+}

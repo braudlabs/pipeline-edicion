@@ -1,0 +1,60 @@
+{
+  "project": "Birdieballs",
+  "activeBlock": "Primeros 20 segundos",
+  "activeVersion": "V03",
+  "status": "rejected_by_user",
+  "source": "/Users/alejandrorubiocamarero/Downloads/Birdieballs v1 (Sin Postpro).mp4",
+  "sourceSha256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+  "sourceDurationSeconds": 38.005,
+  "sourceCoveredUntil": 22.38,
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v03/Birdieballs-20s-V03.mp4",
+  "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v03/plan.json",
+  "durationFrames": 1204,
+  "fps": {
+    "num": 60000,
+    "den": 1001
+  },
+  "durationVideoSeconds": 20.086733333333335,
+  "renderSeconds": 165.4,
+  "reviewUrl": "http://127.0.0.1:4317/",
+  "reviewVersionId": "d45baa0c-8940-403d-93cb-e5dda9ea3c59",
+  "reviewBaseId": "7778305c-3a57-45c1-91c5-16e66f3c13ea",
+  "feedbackFile": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/motor-editor/review/data/project.json",
+  "nextAction": "Study all references including BRAUDLABS V8. Preserve original pre-edited timing and cuts unless Ale explicitly requests changes. Do not make V04 before resolving the study.",
+  "validation": {
+    "decodedWithoutErrors": true,
+    "video": "H264 1080x1920 60000/1001",
+    "audioUnchangedFromV02": true,
+    "designFramesInspected": [
+      "anchor-before",
+      "anchor-after",
+      "kidney",
+      "solution",
+      "graphic-entry",
+      "graphic-main",
+      "graphic-resolution",
+      "graphic-exit",
+      "inspection"
+    ],
+    "motionContactSheetInspected": true,
+    "audioListening": "Audio unchanged from V02; no independent listening review.",
+    "styleApproved": false,
+    "engineTestsPassed": 28,
+    "typecheckPassed": true,
+    "previousV02HashVerified": true,
+    "sha256": "0f5095fd1f3e7e6a3990010aa1aefaaf302851aae60760cdf4cbe03d9f3ec7f1"
+  },
+  "previousVersions": [
+    {
+      "version": "V01",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v01/Birdieballs-B01-V01.mp4",
+      "reviewVersionId": "bad2f999-f44e-4bc1-93ea-9b9142ef5ff1"
+    },
+    {
+      "version": "V02",
+      "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v02/Birdieballs-20s-V02.mp4",
+      "plan": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v02/plan.json",
+      "reviewVersionId": "135ad75e-fe89-43e8-a753-bd8f4199a9d8"
+    }
+  ]
+}

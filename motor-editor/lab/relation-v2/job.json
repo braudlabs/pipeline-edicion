@@ -1,0 +1,104 @@
+{
+  "version": 1,
+  "id": "v8-selection-mechanism-study",
+  "family": "braud",
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": {
+      "num": 60000,
+      "den": 1001
+    }
+  },
+  "assets": [
+    {
+      "id": "source",
+      "kind": "video",
+      "src": "media/relation-lab-background.mp4",
+      "duration": 4.004
+    }
+  ],
+  "words": [
+    {
+      "id": "pre",
+      "text": "Nuevos",
+      "start": 0,
+      "end": 0.3
+    },
+    {
+      "id": "old",
+      "text": "clientes",
+      "start": 0.3,
+      "end": 0.9
+    },
+    {
+      "id": "post",
+      "text": "Nuevos",
+      "start": 1.5,
+      "end": 1.6
+    },
+    {
+      "id": "new",
+      "text": "empleados",
+      "start": 1.6,
+      "end": 3
+    }
+  ],
+  "clauses": [
+    {
+      "id": "c",
+      "wordIds": [
+        "pre",
+        "old",
+        "post",
+        "new"
+      ]
+    }
+  ],
+  "options": {
+    "palette": {
+      "foreground": "#f7f9ff",
+      "accent": "#537cfa",
+      "background": "#192330"
+    }
+  },
+  "editorial": {
+    "version": 2,
+    "source": {
+      "assetId": "source",
+      "sourceStart": 0,
+      "durationInFrames": 210
+    },
+    "annotations": [
+      {
+        "clauseId": "c",
+        "layoutId": "same-slot",
+        "function": "explain-relation",
+        "relation": {
+          "kind": "equivalence",
+          "fromWordIds": [
+            "old"
+          ],
+          "toWordIds": [
+            "new"
+          ],
+          "beforeContextWordIds": [
+            "pre"
+          ],
+          "afterContextWordIds": [
+            "post"
+          ],
+          "reason": "Reconstruction of the declared reference mechanism, not a factual claim about every business."
+        },
+        "observation": {
+          "kind": "agent",
+          "reason": "Shared identity across two labels; preserve measured window movement and distinct speech bindings."
+        },
+        "preferredAnchor": [
+          0.5,
+          0.56
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "v1-pagado-A",
+  "status": "partial",
+  "sheets_viewed": [
+    "d000_f00000-f00039.jpg",
+    "d001_f00040-f00079.jpg",
+    "d002_f00080-f00119.jpg",
+    "d003_f00120-f00159.jpg",
+    "d004_f00160-f00202.jpg",
+    "d005_f00203-f00242.jpg",
+    "d006_f00243-f00282.jpg",
+    "d007_f00283-f00322.jpg",
+    "d008_f00323-f00362.jpg",
+    "d009_f00363-f00402.jpg",
+    "d010_f00403-f00442.jpg",
+    "d011_f00443-f00482.jpg",
+    "d012_f00483-f00522.jpg",
+    "d013_f00523-f00562.jpg",
+    "d014_f00563-f00602.jpg",
+    "d015_f00603-f00642.jpg"
+  ],
+  "native_ranges": [
+    {
+      "f0": 33,
+      "f1": 38,
+      "crop_px": [
+        150,
+        75,
+        780,
+        500
+      ],
+      "file": "30-exact.jpg",
+      "method": "ffmpeg select between(n), sin seek; píxeles nativos"
+    },
+    {
+      "f0": 123,
+      "f1": 128,
+      "crop_px": [
+        100,
+        1100,
+        880,
+        400
+      ],
+      "file": "pagado-exact.jpg",
+      "method": "ffmpeg select between(n), sin seek; imagen emitida reducida por alto>2048; requiere panelizar"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png"
+  ],
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial.",
+  "frame_index_warning": "Adelanto global descartado por auditoría root byte a byte; primera cifra30 corregida de f34 a f35 (error lectura celda).",
+  "dense_status": "completed",
+  "native_events_status": "partial",
+  "supplemental_sheets_viewed": [
+    "s000_f00177-f00179.jpg"
+  ],
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [
+    "laminas/v1-pagado/v1-pagado-A-01-30-exact.jpg"
+  ],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 26,
+  "supplemental_status": "completed",
+  "spectrogram_status": "completed"
+}

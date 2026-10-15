@@ -1,0 +1,57 @@
+{
+  "id": "v3-ia-cara-B",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d019_f00760-f00799.jpg",
+    "d020_f00800-f00839.jpg",
+    "d021_f00840-f00879.jpg",
+    "d022_f00880-f00919.jpg",
+    "d023_f00920-f00959.jpg",
+    "d024_f00960-f00999.jpg",
+    "d025_f01000-f01039.jpg",
+    "d026_f01040-f01079.jpg",
+    "d027_f01080-f01119.jpg",
+    "d028_f01120-f01159.jpg",
+    "d029_f01160-f01199.jpg",
+    "d030_f01200-f01239.jpg",
+    "d031_f01240-f01279.jpg",
+    "d032_f01280-f01319.jpg",
+    "d033_f01320-f01359.jpg",
+    "d034_f01360-f01399.jpg",
+    "d035_f01400-f01439.jpg",
+    "d036_f01440-f01479.jpg",
+    "d037_f01480-f01541.jpg"
+  ],
+  "native_ranges": [
+    {
+      "start": 1426,
+      "end": 1435,
+      "purpose": "cada fotograma transición silueta/corte",
+      "evidence": "analysis/tmp/v3-ia-cara-B/silueta-1426-1427.jpg y cuatro hojas sucesivas"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_024-032.png",
+    "s_032-040.png",
+    "s_040-048.png",
+    "s_048-056.png",
+    "s_056-064.png",
+    "s_064-065.png"
+  ],
+  "supplemental_sheets_viewed": [],
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [
+    "laminas/v3-ia-cara/v3-ia-cara-B-01-silueta-1426-1427.jpg",
+    "laminas/v3-ia-cara/v3-ia-cara-B-02-silueta-1428-1429.jpg",
+    "laminas/v3-ia-cara/v3-ia-cara-B-03-silueta-1430-1431.jpg",
+    "laminas/v3-ia-cara/v3-ia-cara-B-04-silueta-1432-1433.jpg",
+    "laminas/v3-ia-cara/v3-ia-cara-B-05-silueta-1434-1435.jpg"
+  ],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 26,
+  "supplemental_status": "not_required",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

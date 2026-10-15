@@ -1,0 +1,481 @@
+{
+  "status": "ready_for_user_verdict",
+  "version": "V03",
+  "engine": "Adobe After Effects 26.5x89",
+  "renderSeconds": 66,
+  "format": {
+    "programs": [],
+    "stream_groups": [
+      {
+        "streams": [
+          {
+            "codec_name": "h264",
+            "codec_type": "video",
+            "width": 1080,
+            "height": 1920,
+            "avg_frame_rate": "24/1",
+            "duration": "85.791667",
+            "nb_frames": "2059"
+          },
+          {
+            "codec_type": "data",
+            "avg_frame_rate": "12288/512",
+            "duration": "85.791667",
+            "nb_frames": "1"
+          }
+        ]
+      }
+    ],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "avg_frame_rate": "24/1",
+        "duration": "85.791667",
+        "nb_frames": "2059"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "avg_frame_rate": "0/0",
+        "duration": "85.791667",
+        "nb_frames": "4023"
+      },
+      {
+        "codec_type": "data",
+        "avg_frame_rate": "12288/512",
+        "duration": "85.791667",
+        "nb_frames": "1"
+      }
+    ],
+    "format": {
+      "duration": "85.791667",
+      "size": "68734581"
+    }
+  },
+  "sha256": "241cf4f420dce0385839b517a058e29915631b050e8bce8453485f773098cace",
+  "native": {
+    "nativeDuration": 85.7916666666667,
+    "frames": 2059,
+    "segmentMismatches": [],
+    "framesWithoutExactlyOneVisualSegment": [],
+    "sourceOrderPreserved": true,
+    "criterionLayoutPreserved": true
+  },
+  "render": {
+    "audioMatchesMixByteForByte": true,
+    "audioFrames": 4118000,
+    "peak": 0.785064697265625,
+    "clippedSamples": 0,
+    "reviewFrameGroups": {
+      "first-join": [
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162
+      ],
+      "pelillos": [
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357
+      ],
+      "grandma-in": [
+        1126,
+        1127,
+        1128,
+        1129,
+        1130,
+        1131,
+        1132,
+        1133,
+        1134,
+        1135,
+        1136,
+        1137,
+        1138,
+        1139,
+        1140
+      ],
+      "grandma-ya": [
+        1200,
+        1202,
+        1204,
+        1206,
+        1208,
+        1210,
+        1212,
+        1214,
+        1216,
+        1218,
+        1220,
+        1222
+      ],
+      "evidentemente": [
+        1285,
+        1286,
+        1287,
+        1288,
+        1289,
+        1290,
+        1291,
+        1292,
+        1293,
+        1294,
+        1295,
+        1296,
+        1297,
+        1298,
+        1299,
+        1300,
+        1301
+      ]
+    },
+    "actualVideoProbe": {
+      "programs": [],
+      "stream_groups": [
+        {
+          "streams": [
+            {
+              "codec_name": "prores",
+              "codec_type": "video",
+              "width": 1080,
+              "height": 1920,
+              "avg_frame_rate": "24/1",
+              "duration": "85.791667",
+              "nb_frames": "2059"
+            },
+            {
+              "codec_name": "pcm_s16le",
+              "codec_type": "audio",
+              "avg_frame_rate": "0/0",
+              "duration": "85.791667",
+              "nb_frames": "4118000"
+            },
+            {
+              "codec_type": "data",
+              "avg_frame_rate": "24/1",
+              "duration": "85.791667",
+              "nb_frames": "1"
+            }
+          ]
+        }
+      ],
+      "streams": [
+        {
+          "codec_name": "prores",
+          "codec_type": "video",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "duration": "85.791667",
+          "nb_frames": "2059"
+        },
+        {
+          "codec_name": "pcm_s16le",
+          "codec_type": "audio",
+          "avg_frame_rate": "0/0",
+          "duration": "85.791667",
+          "nb_frames": "4118000"
+        },
+        {
+          "codec_type": "data",
+          "avg_frame_rate": "24/1",
+          "duration": "85.791667",
+          "nb_frames": "1"
+        }
+      ],
+      "format": {
+        "duration": "85.791667"
+      }
+    }
+  },
+  "sound": {
+    "frames": 2059,
+    "duration": 85.79166666666667,
+    "sourceWord": [
+      47.9,
+      48.635
+    ],
+    "restoredWordOldTimeline": [
+      56.375,
+      56.965
+    ],
+    "restoredWordFinal": [
+      53.791666666666664,
+      54.38166666666667
+    ],
+    "prematureNarratorRemoved": [
+      47.65,
+      56.375
+    ],
+    "silence": [
+      12.791666666666666,
+      14.541666666666666
+    ],
+    "musicMaxDuringSilence": 0.0,
+    "sfxMaxDuringSilence": 0.0,
+    "foleyMaxDuringSilence": 0.0,
+    "originalNarratorGain": 1.0,
+    "peakBeforeGain": 0.7850955128669739,
+    "masterGain": 1,
+    "events": [
+      {
+        "sourceTime": 0.7,
+        "time": 0.6999999999999998,
+        "sound": "whoosh-short",
+        "peak": 0.07,
+        "reason": "agencia"
+      },
+      {
+        "sourceTime": 8.21,
+        "time": 7.876666666666668,
+        "sound": "click-soft",
+        "peak": 0.09,
+        "reason": "precio"
+      },
+      {
+        "sourceTime": 9.29,
+        "time": 8.956666666666665,
+        "sound": "whoosh-short",
+        "peak": 0.075,
+        "reason": "rapidez"
+      },
+      {
+        "sourceTime": 12.1,
+        "time": 11.766666666666666,
+        "sound": "pop",
+        "peak": 0.075,
+        "reason": "solución"
+      },
+      {
+        "sourceTime": 14.96,
+        "time": 14.626666666666667,
+        "sound": "impact-bass-1",
+        "peak": 0.12,
+        "reason": "vuelve música / Vamos"
+      },
+      {
+        "sourceTime": 16.7,
+        "time": 16.366666666666664,
+        "sound": "click-soft",
+        "peak": 0.11,
+        "reason": "destello rodaje"
+      },
+      {
+        "sourceTime": 19.25,
+        "time": 18.916666666666668,
+        "sound": "whoosh-short",
+        "peak": 0.07,
+        "reason": "premium"
+      },
+      {
+        "sourceTime": 21.17,
+        "time": 20.83666666666667,
+        "sound": "pop",
+        "peak": 0.11,
+        "reason": "percebe"
+      },
+      {
+        "sourceTime": 24.45,
+        "time": 24.116666666666664,
+        "sound": "click-soft",
+        "peak": 0.09,
+        "reason": "genera"
+      },
+      {
+        "sourceTime": 24.79,
+        "time": 24.456666666666667,
+        "sound": "pop",
+        "peak": 0.075,
+        "reason": "creativos"
+      },
+      {
+        "sourceTime": 29.4,
+        "time": 29.066666666666663,
+        "sound": "whoosh-short",
+        "peak": 0.065,
+        "reason": "formación"
+      },
+      {
+        "sourceTime": 39.75,
+        "time": 39.416666666666664,
+        "sound": "impact-bass-1",
+        "peak": 0.16,
+        "reason": "BOOM"
+      },
+      {
+        "sourceTime": 46.77,
+        "time": 46.43666666666667,
+        "sound": "click-soft",
+        "peak": 0.07,
+        "reason": "ChatGPT"
+      },
+      {
+        "sourceTime": 49.25,
+        "time": 47.90277777777778,
+        "sound": "pop",
+        "peak": 0.08,
+        "reason": "hiperrealista"
+      },
+      {
+        "sourceTime": 50.42,
+        "time": 48.94277777777777,
+        "sound": "click-soft",
+        "peak": 0.08,
+        "reason": "UGC"
+      },
+      {
+        "sourceTime": 51.08,
+        "time": 49.529444444444444,
+        "sound": "pop",
+        "peak": 0.055,
+        "reason": "bla 1"
+      },
+      {
+        "sourceTime": 51.25,
+        "time": 49.68055555555555,
+        "sound": "pop",
+        "peak": 0.065,
+        "reason": "bla 2"
+      },
+      {
+        "sourceTime": 51.42,
+        "time": 49.83166666666667,
+        "sound": "pop",
+        "peak": 0.075,
+        "reason": "bla 3"
+      },
+      {
+        "sourceTime": 52.08,
+        "time": 50.41833333333333,
+        "sound": "impact-bass-1",
+        "peak": 0.14,
+        "reason": "YA"
+      },
+      {
+        "sourceTime": 58.5,
+        "time": 55.916666666666664,
+        "sound": "whoosh-short",
+        "peak": 0.065,
+        "reason": "criterio visual"
+      },
+      {
+        "sourceTime": 68.9,
+        "time": 66.31666666666668,
+        "sound": "whoosh-short",
+        "peak": 0.07,
+        "reason": "traductor"
+      },
+      {
+        "sourceTime": 70.3,
+        "time": 67.71666666666665,
+        "sound": "impact-bass-1",
+        "peak": 0.1,
+        "reason": "malas ideas"
+      },
+      {
+        "sourceTime": 74.55,
+        "time": 71.96666666666665,
+        "sound": "whoosh-short",
+        "peak": 0.08,
+        "reason": "arte"
+      },
+      {
+        "sourceTime": 81.75,
+        "time": 79.16666666666667,
+        "sound": "click-soft",
+        "peak": 0.07,
+        "reason": "llamada"
+      }
+    ],
+    "independentListening": false
+  },
+  "criticalWordChecks": [
+    {
+      "word": "hazme",
+      "captionStart": 47.199074074074076,
+      "measuredSpeechStart": 47.225182718579234,
+      "differenceMs": -26.11
+    },
+    {
+      "word": "hiperrealista",
+      "captionStart": 47.86574074074074,
+      "measuredSpeechStart": 47.866352117486336,
+      "differenceMs": -0.61
+    },
+    {
+      "word": "ya",
+      "captionStart": 50.34722222222222,
+      "measuredSpeechStart": 50.37092008196721,
+      "differenceMs": -23.7
+    }
+  ],
+  "criterionParity": {
+    "comparedV03Frame": 1350,
+    "comparedV02Frame": 1412,
+    "meanAbsolutePixelDifference": 0.0,
+    "maxDifference": 0.0
+  },
+  "decodeErrors": 0,
+  "playback": {
+    "intervals": [
+      [
+        11.8,
+        16.740627
+      ],
+      [
+        46.3,
+        54.732915
+      ]
+    ],
+    "speed": 1,
+    "muted": true,
+    "droppedFrames": 0,
+    "error": null,
+    "scope": "Functional playback plus reviewed frame sequences, not independent auditory listening"
+  },
+  "review": {
+    "id": "d8b88cdf-50a2-4b8d-baf2-7090b82a9147",
+    "label": "Mercadillo · V03 · Pelillos, empalmes y ritmo",
+    "frames": 2059,
+    "sha256": "241cf4f420dce0385839b517a058e29915631b050e8bce8453485f773098cace",
+    "url": "http://127.0.0.1:4318"
+  },
+  "approved": false
+}

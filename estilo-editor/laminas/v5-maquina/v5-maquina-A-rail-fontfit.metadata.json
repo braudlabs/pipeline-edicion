@@ -1,0 +1,39 @@
+{
+  "source_video": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/estilo-editor/analysis/refs/v5-maquina.mp4",
+  "source_slug": "v5-maquina",
+  "source_frame": 390,
+  "source_resolution": [
+    1080,
+    1920
+  ],
+  "selection": "ffmpeg select=eq(n,frame), no seek",
+  "text": "montamos",
+  "roi_xyxy_px": [
+    312,
+    910,
+    767,
+    1020
+  ],
+  "white_threshold": 245,
+  "ink_wh_px": [
+    438,
+    68
+  ],
+  "fit_script": "scripts/fontfit.py",
+  "best_candidate": {
+    "font": "Helvetica Bold",
+    "iou": 0.905,
+    "font_size_px": 99,
+    "tracking_per_thousand_em": -76
+  },
+  "sf_pro_display_bold": {
+    "iou": 0.815,
+    "font_size_px": 104,
+    "tracking_per_thousand_em": -83
+  },
+  "fit_table": "v5-maquina-A-rail-fontfit.txt",
+  "fit_image": "v5-maquina-A-rail-fontfit.jpg",
+  "source_crop": "v5-maquina-A-rail-source.png",
+  "limit": "One word, candidate-model fit, not unique source font identification. Source crop preserves native px. V5 first ROI cut top and discarded. Implementation SF Pro Display Bold−60 remains decision.",
+  "source_crop_margin_px": 4
+}

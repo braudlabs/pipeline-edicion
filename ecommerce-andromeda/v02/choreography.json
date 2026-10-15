@@ -1,0 +1,1156 @@
+[
+  {
+    "id": "e000",
+    "text": "Si eres dueño",
+    "start": 3,
+    "end": 19,
+    "x": 540,
+    "y": 1120,
+    "size": 112,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "Si",
+        "start": 0.1204,
+        "end": 0.2007,
+        "score": 0.9984,
+        "frame": 3
+      },
+      {
+        "text": "eres",
+        "start": 0.281,
+        "end": 0.4616,
+        "score": 0.9963,
+        "frame": 7
+      },
+      {
+        "text": "dueño",
+        "start": 0.5018,
+        "end": 0.7426,
+        "score": 0.9646,
+        "frame": 13
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e001",
+    "text": "de un",
+    "start": 19,
+    "end": 40,
+    "x": 540,
+    "y": 1033,
+    "size": 76,
+    "weight": 400,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "de",
+        "start": 0.7827,
+        "end": 0.8429,
+        "score": 0.9904,
+        "frame": 19
+      },
+      {
+        "text": "un",
+        "start": 0.9232,
+        "end": 1.0035,
+        "score": 0.9842,
+        "frame": 23
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e002",
+    "text": "ecommerce",
+    "start": 26,
+    "end": 40,
+    "x": 540,
+    "y": 1139,
+    "size": 174,
+    "weight": 400,
+    "motion": "mask",
+    "words": [
+      {
+        "text": "ecommerce",
+        "start": 1.0436,
+        "end": 1.4852,
+        "score": 0.603,
+        "frame": 26
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e003",
+    "text": "ya sabes que",
+    "start": 40,
+    "end": 53,
+    "x": 540,
+    "y": 1120,
+    "size": 112,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "ya",
+        "start": 1.6257,
+        "end": 1.706,
+        "score": 0.9969,
+        "frame": 40
+      },
+      {
+        "text": "sabes",
+        "start": 1.7862,
+        "end": 2.0271,
+        "score": 0.9995,
+        "frame": 43
+      },
+      {
+        "text": "que",
+        "start": 2.0472,
+        "end": 2.1274,
+        "score": 0.9977,
+        "frame": 50
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e004",
+    "text": "con Andrómeda",
+    "start": 53,
+    "end": 69,
+    "x": 540,
+    "y": 1120,
+    "size": 140,
+    "weight": 700,
+    "motion": "wipe",
+    "words": [
+      {
+        "text": "con",
+        "start": 2.1876,
+        "end": 2.3081,
+        "score": 0.9991,
+        "frame": 53
+      },
+      {
+        "text": "Andrómeda",
+        "start": 2.3482,
+        "end": 2.8098,
+        "score": 0.9962,
+        "frame": 57
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e005",
+    "text": "necesitas",
+    "start": 69,
+    "end": 82,
+    "x": 540,
+    "y": 1120,
+    "size": 110,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "necesitas",
+        "start": 2.87,
+        "end": 3.3718,
+        "score": 0.9992,
+        "frame": 69
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e006",
+    "text": "anuncios nuevos",
+    "start": 82,
+    "end": 104,
+    "x": 540,
+    "y": 1120,
+    "size": 128,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "anuncios",
+        "start": 3.4119,
+        "end": 3.8334,
+        "score": 0.9866,
+        "frame": 82
+      },
+      {
+        "text": "nuevos",
+        "start": 3.8936,
+        "end": 4.2147,
+        "score": 0.9994,
+        "frame": 94
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e007",
+    "text": "cada",
+    "start": 104,
+    "end": 124,
+    "x": 540,
+    "y": 1033,
+    "size": 76,
+    "weight": 400,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "cada",
+        "start": 4.3151,
+        "end": 4.576,
+        "score": 0.9997,
+        "frame": 104
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e008",
+    "text": "semana",
+    "start": 112,
+    "end": 124,
+    "x": 540,
+    "y": 1139,
+    "size": 190,
+    "weight": 400,
+    "motion": "mask",
+    "words": [
+      {
+        "text": "semana",
+        "start": 4.6362,
+        "end": 4.9975,
+        "score": 0.9998,
+        "frame": 112
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e009",
+    "text": "Y sabes que",
+    "start": 146,
+    "end": 163,
+    "x": 540,
+    "y": 1140,
+    "size": 110,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "Y",
+        "start": 6.0808,
+        "end": 6.1009,
+        "score": 0.9901,
+        "frame": 146
+      },
+      {
+        "text": "sabes",
+        "start": 6.2412,
+        "end": 6.6421,
+        "score": 0.9998,
+        "frame": 150
+      },
+      {
+        "text": "que",
+        "start": 6.6822,
+        "end": 6.7624,
+        "score": 0.989,
+        "frame": 161
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e010",
+    "text": "de la forma",
+    "start": 163,
+    "end": 191,
+    "x": 540,
+    "y": 1043,
+    "size": 76,
+    "weight": 400,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "de",
+        "start": 6.7825,
+        "end": 6.8426,
+        "score": 0.999,
+        "frame": 163
+      },
+      {
+        "text": "la",
+        "start": 6.8827,
+        "end": 6.9428,
+        "score": 0.9991,
+        "frame": 166
+      },
+      {
+        "text": "forma",
+        "start": 6.9829,
+        "end": 7.2235,
+        "score": 0.9999,
+        "frame": 168
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e011",
+    "text": "tradicional",
+    "start": 175,
+    "end": 191,
+    "x": 540,
+    "y": 1149,
+    "size": 176,
+    "weight": 400,
+    "motion": "wipe",
+    "words": [
+      {
+        "text": "tradicional",
+        "start": 7.2836,
+        "end": 7.865,
+        "score": 0.9997,
+        "frame": 175
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e012",
+    "text": "es la misma",
+    "start": 191,
+    "end": 210,
+    "x": 540,
+    "y": 1140,
+    "size": 112,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "es",
+        "start": 7.9251,
+        "end": 8.0053,
+        "score": 0.9995,
+        "frame": 191
+      },
+      {
+        "text": "la",
+        "start": 8.0855,
+        "end": 8.1857,
+        "score": 0.9998,
+        "frame": 195
+      },
+      {
+        "text": "misma",
+        "start": 8.2659,
+        "end": 8.6869,
+        "score": 0.9997,
+        "frame": 199
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e013",
+    "text": "mierda",
+    "start": 210,
+    "end": 239,
+    "x": 540,
+    "y": 1105,
+    "size": 204,
+    "weight": 700,
+    "motion": "impact",
+    "duration": 5
+  },
+  {
+    "id": "e014",
+    "text": "de siempre",
+    "start": 222,
+    "end": 239,
+    "x": 540,
+    "y": 1201,
+    "size": 78,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "de",
+        "start": 9.2281,
+        "end": 9.2882,
+        "score": 0.9988,
+        "frame": 222
+      },
+      {
+        "text": "siempre",
+        "start": 9.3684,
+        "end": 9.7694,
+        "score": 0.9763,
+        "frame": 225
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e015",
+    "text": "días",
+    "start": 246,
+    "end": 275,
+    "x": 540,
+    "y": 1135,
+    "size": 198,
+    "weight": 400,
+    "motion": "roll",
+    "change": 263,
+    "join": 261
+  },
+  {
+    "id": "e016",
+    "text": "para que el editor",
+    "start": 275,
+    "end": 300,
+    "x": 540,
+    "y": 1140,
+    "size": 108,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "para",
+        "start": 11.4331,
+        "end": 11.5934,
+        "score": 0.9996,
+        "frame": 275
+      },
+      {
+        "text": "que",
+        "start": 11.6736,
+        "end": 11.7538,
+        "score": 0.9986,
+        "frame": 281
+      },
+      {
+        "text": "el",
+        "start": 11.7938,
+        "end": 11.874,
+        "score": 0.8719,
+        "frame": 284
+      },
+      {
+        "text": "editor",
+        "start": 11.9141,
+        "end": 12.3952,
+        "score": 0.9957,
+        "frame": 286
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e017",
+    "text": "semanas",
+    "start": 401,
+    "end": 416,
+    "x": 775,
+    "y": 665,
+    "size": 98,
+    "weight": 700,
+    "motion": "wipe",
+    "width": 450
+  },
+  {
+    "id": "e018",
+    "text": "Y durante",
+    "start": 453,
+    "end": 470,
+    "x": 540,
+    "y": 775,
+    "size": 96,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "Y",
+        "start": 18.8706,
+        "end": 18.8906,
+        "score": 0.9937,
+        "frame": 453
+      },
+      {
+        "text": "durante",
+        "start": 18.9509,
+        "end": 19.4131,
+        "score": 0.9982,
+        "frame": 455
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e019",
+    "text": "todo ese proceso",
+    "start": 472,
+    "end": 504,
+    "x": 540,
+    "y": 775,
+    "size": 96,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "todo",
+        "start": 19.6341,
+        "end": 20.0761,
+        "score": 0.9982,
+        "frame": 472
+      },
+      {
+        "text": "ese",
+        "start": 20.1565,
+        "end": 20.3172,
+        "score": 0.9983,
+        "frame": 484
+      },
+      {
+        "text": "proceso",
+        "start": 20.3775,
+        "end": 20.8396,
+        "score": 0.9997,
+        "frame": 490
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e020",
+    "text": "ya se te han caído",
+    "start": 504,
+    "end": 528,
+    "x": 540,
+    "y": 775,
+    "size": 96,
+    "weight": 700,
+    "motion": "fall",
+    "words": [
+      {
+        "text": "ya",
+        "start": 20.9803,
+        "end": 21.1008,
+        "score": 0.9952,
+        "frame": 504
+      },
+      {
+        "text": "se",
+        "start": 21.2214,
+        "end": 21.3219,
+        "score": 0.9983,
+        "frame": 510
+      },
+      {
+        "text": "te",
+        "start": 21.362,
+        "end": 21.4424,
+        "score": 0.9977,
+        "frame": 513
+      },
+      {
+        "text": "han",
+        "start": 21.4625,
+        "end": 21.5831,
+        "score": 0.9977,
+        "frame": 516
+      },
+      {
+        "text": "caído",
+        "start": 21.6232,
+        "end": 21.9246,
+        "score": 0.9987,
+        "frame": 519
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e021",
+    "text": "los ads antiguos",
+    "start": 528,
+    "end": 553,
+    "x": 540,
+    "y": 775,
+    "size": 103,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "los",
+        "start": 21.9849,
+        "end": 22.1256,
+        "score": 0.997,
+        "frame": 528
+      },
+      {
+        "text": "ads",
+        "start": 22.1858,
+        "end": 22.3466,
+        "score": 0.6629,
+        "frame": 533
+      },
+      {
+        "text": "antiguos",
+        "start": 22.4069,
+        "end": 22.869,
+        "score": 0.9973,
+        "frame": 538
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e022",
+    "text": "y venga a repetir",
+    "start": 555,
+    "end": 579,
+    "x": 540,
+    "y": 1040,
+    "size": 112,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "y",
+        "start": 23.1101,
+        "end": 23.1302,
+        "score": 0.9955,
+        "frame": 555
+      },
+      {
+        "text": "venga",
+        "start": 23.1904,
+        "end": 23.552,
+        "score": 0.9315,
+        "frame": 557
+      },
+      {
+        "text": "a",
+        "start": 23.5721,
+        "end": 23.5922,
+        "score": 0.5857,
+        "frame": 566
+      },
+      {
+        "text": "repetir",
+        "start": 23.6725,
+        "end": 24.0742,
+        "score": 0.9997,
+        "frame": 569
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e023",
+    "text": "otra puta vez",
+    "start": 579,
+    "end": 602,
+    "x": 540,
+    "y": 1040,
+    "size": 150,
+    "weight": 700,
+    "motion": "impact",
+    "words": [
+      {
+        "text": "otra",
+        "start": 24.1144,
+        "end": 24.2952,
+        "score": 0.9493,
+        "frame": 579
+      },
+      {
+        "text": "puta",
+        "start": 24.3554,
+        "end": 24.6366,
+        "score": 0.9988,
+        "frame": 585
+      },
+      {
+        "text": "vez",
+        "start": 24.6969,
+        "end": 24.8978,
+        "score": 0.9994,
+        "frame": 593
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e024",
+    "text": "No vengo a hablarte",
+    "start": 612,
+    "end": 629,
+    "x": 540,
+    "y": 1100,
+    "size": 108,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "No",
+        "start": 25.4802,
+        "end": 25.5403,
+        "score": 0.9982,
+        "frame": 612
+      },
+      {
+        "text": "vengo",
+        "start": 25.5804,
+        "end": 25.781,
+        "score": 0.9824,
+        "frame": 614
+      },
+      {
+        "text": "a",
+        "start": 25.781,
+        "end": 25.8211,
+        "score": 0.66,
+        "frame": 619
+      },
+      {
+        "text": "hablarte",
+        "start": 25.8211,
+        "end": 26.162,
+        "score": 0.9972,
+        "frame": 620
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e025",
+    "text": "de tu",
+    "start": 629,
+    "end": 648,
+    "x": 540,
+    "y": 1013,
+    "size": 76,
+    "weight": 400,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "de",
+        "start": 26.2021,
+        "end": 26.2823,
+        "score": 0.9978,
+        "frame": 629
+      },
+      {
+        "text": "tu",
+        "start": 26.3225,
+        "end": 26.4027,
+        "score": 0.9989,
+        "frame": 632
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e026",
+    "text": "problema",
+    "start": 635,
+    "end": 648,
+    "x": 540,
+    "y": 1119,
+    "size": 176,
+    "weight": 400,
+    "motion": "mask",
+    "words": [
+      {
+        "text": "problema",
+        "start": 26.4428,
+        "end": 26.8038,
+        "score": 0.9999,
+        "frame": 635
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e027",
+    "text": "ya tienes suficiente",
+    "start": 651,
+    "end": 673,
+    "x": 540,
+    "y": 1100,
+    "size": 108,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "ya",
+        "start": 27.1246,
+        "end": 27.2049,
+        "score": 0.9838,
+        "frame": 651
+      },
+      {
+        "text": "tienes",
+        "start": 27.265,
+        "end": 27.4856,
+        "score": 0.864,
+        "frame": 655
+      },
+      {
+        "text": "suficiente",
+        "start": 27.5057,
+        "end": 27.9669,
+        "score": 0.9997,
+        "frame": 661
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e028",
+    "text": "con eso",
+    "start": 673,
+    "end": 685,
+    "x": 540,
+    "y": 1100,
+    "size": 112,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "con",
+        "start": 28.007,
+        "end": 28.1474,
+        "score": 0.984,
+        "frame": 673
+      },
+      {
+        "text": "eso",
+        "start": 28.1875,
+        "end": 28.368,
+        "score": 0.999,
+        "frame": 677
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e029",
+    "text": "Vengo a hablarte",
+    "start": 741,
+    "end": 758,
+    "x": 540,
+    "y": 1100,
+    "size": 110,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "Vengo",
+        "start": 30.8347,
+        "end": 31.0954,
+        "score": 0.9809,
+        "frame": 741
+      },
+      {
+        "text": "a",
+        "start": 31.0954,
+        "end": 31.1355,
+        "score": 0.7182,
+        "frame": 747
+      },
+      {
+        "text": "hablarte",
+        "start": 31.1355,
+        "end": 31.5166,
+        "score": 0.971,
+        "frame": 748
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e030",
+    "text": "de la",
+    "start": 758,
+    "end": 780,
+    "x": 540,
+    "y": 1013,
+    "size": 76,
+    "weight": 400,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "de",
+        "start": 31.5767,
+        "end": 31.6369,
+        "score": 0.996,
+        "frame": 758
+      },
+      {
+        "text": "la",
+        "start": 31.677,
+        "end": 31.7572,
+        "score": 0.9935,
+        "frame": 761
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e031",
+    "text": "solución",
+    "start": 764,
+    "end": 780,
+    "x": 540,
+    "y": 1119,
+    "size": 194,
+    "weight": 700,
+    "motion": "mask",
+    "words": [
+      {
+        "text": "solución",
+        "start": 31.8174,
+        "end": 32.3187,
+        "score": 0.9977,
+        "frame": 764
+      }
+    ],
+    "width": 850
+  },
+  {
+    "id": "e032",
+    "text": "Instalaremos",
+    "start": 787,
+    "end": 802,
+    "x": 540,
+    "y": 780,
+    "size": 102,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "Instalaremos",
+        "start": 32.78,
+        "end": 33.3424,
+        "score": 0.9984,
+        "frame": 787
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e033",
+    "text": "en tu tienda",
+    "start": 802,
+    "end": 816,
+    "x": 540,
+    "y": 780,
+    "size": 102,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "en",
+        "start": 33.3826,
+        "end": 33.463,
+        "score": 0.9963,
+        "frame": 802
+      },
+      {
+        "text": "tu",
+        "start": 33.483,
+        "end": 33.5634,
+        "score": 0.9805,
+        "frame": 804
+      },
+      {
+        "text": "tienda",
+        "start": 33.6036,
+        "end": 33.9049,
+        "score": 0.9061,
+        "frame": 807
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e034",
+    "text": "esta maquinita",
+    "start": 816,
+    "end": 839,
+    "x": 540,
+    "y": 780,
+    "size": 123,
+    "weight": 700,
+    "motion": "wipe",
+    "words": [
+      {
+        "text": "esta",
+        "start": 33.9852,
+        "end": 34.2263,
+        "score": 0.9996,
+        "frame": 816
+      },
+      {
+        "text": "maquinita",
+        "start": 34.2664,
+        "end": 34.7686,
+        "score": 0.9932,
+        "frame": 823
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e035",
+    "text": "Le pedirás",
+    "start": 844,
+    "end": 857,
+    "x": 540,
+    "y": 430,
+    "size": 102,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "Le",
+        "start": 35.1504,
+        "end": 35.2109,
+        "score": 0.9977,
+        "frame": 844
+      },
+      {
+        "text": "pedirás",
+        "start": 35.2512,
+        "end": 35.6138,
+        "score": 0.9985,
+        "frame": 847
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e036",
+    "text": "cinco ads",
+    "start": 857,
+    "end": 872,
+    "x": 540,
+    "y": 430,
+    "size": 147,
+    "weight": 700,
+    "motion": "impact",
+    "words": [
+      {
+        "text": "cinco",
+        "start": 35.6742,
+        "end": 36.0167,
+        "score": 0.9887,
+        "frame": 857
+      },
+      {
+        "text": "ads",
+        "start": 36.0771,
+        "end": 36.2383,
+        "score": 0.6126,
+        "frame": 866
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e037",
+    "text": "para un concepto",
+    "start": 872,
+    "end": 890,
+    "x": 540,
+    "y": 430,
+    "size": 100,
+    "weight": 700,
+    "motion": "rise",
+    "words": [
+      {
+        "text": "para",
+        "start": 36.2987,
+        "end": 36.4397,
+        "score": 0.9987,
+        "frame": 872
+      },
+      {
+        "text": "un",
+        "start": 36.5001,
+        "end": 36.5606,
+        "score": 0.9988,
+        "frame": 877
+      },
+      {
+        "text": "concepto",
+        "start": 36.6009,
+        "end": 37.0239,
+        "score": 0.9994,
+        "frame": 879
+      }
+    ],
+    "width": 860
+  },
+  {
+    "id": "e038",
+    "text": "nuevo",
+    "start": 890,
+    "end": 900,
+    "x": 540,
+    "y": 430,
+    "size": 140,
+    "weight": 400,
+    "motion": "wipe"
+  },
+  {
+    "id": "e039",
+    "text": "te los dará",
+    "start": 903,
+    "end": 919,
+    "x": 540,
+    "y": 430,
+    "size": 112,
+    "weight": 700,
+    "motion": "slide",
+    "words": [
+      {
+        "text": "te",
+        "start": 37.6081,
+        "end": 37.6887,
+        "score": 0.9995,
+        "frame": 903
+      },
+      {
+        "text": "los",
+        "start": 37.729,
+        "end": 37.87,
+        "score": 0.9991,
+        "frame": 906
+      },
+      {
+        "text": "dará",
+        "start": 37.8901,
+        "end": 38.0916,
+        "score": 0.9996,
+        "frame": 910
+      }
+    ],
+    "width": 860
+  }
+]

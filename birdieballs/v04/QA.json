@@ -1,0 +1,106 @@
+{
+  "status": "ready_for_user_verdict",
+  "source": "/Users/alejandrorubiocamarero/Downloads/Birdieballs v1 (Sin Postpro).mp4",
+  "sourceSHA256": "a23557b2f03a866128e087e6eb58d29d22351aabe31291cdd55f83f35bc4caba",
+  "output": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/birdieballs/v04/Birdieballs-20s-V04.mp4",
+  "sha256": "776d61792f585e19fb390b0f49da408ad7abdd7fb994536e580068aef664425b",
+  "video": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "r_frame_rate": "60000/1001",
+    "duration": "19.602911",
+    "nb_frames": "1175"
+  },
+  "audio": {
+    "codec_name": "aac",
+    "sample_rate": "48000",
+    "channels": 2,
+    "duration": "19.605000"
+  },
+  "mapping": {
+    "sourceStartSeconds": 0,
+    "sourceFrames": 1175,
+    "outputFrames": 1175,
+    "speed": 1,
+    "additionalCuts": 0,
+    "maxProxyVsOriginalTimestampErrorMs": 0.8340000000011116,
+    "maxOutputVsOriginalTimestampErrorMs": 0.8340000000011116,
+    "note": "Source VFR has600Hz timestamps; delivery60000/1001fps. No deliberate retiming; CFR quantization is reported."
+  },
+  "audioSync": [
+    {
+      "intervalSeconds": [
+        1,
+        4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.999757598026806
+    },
+    {
+      "intervalSeconds": [
+        8,
+        10
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9997332735608414
+    },
+    {
+      "intervalSeconds": [
+        15.2,
+        16.4
+      ],
+      "lagSamples8k": 0,
+      "lagMilliseconds": 0.0,
+      "zeroLagCorrelation": 0.9997012543826472
+    }
+  ],
+  "decodeWithoutErrors": true,
+  "V03Preserved": true,
+  "review": {
+    "designAlternatives": [
+      "A recovery rings",
+      "B macro",
+      "C collection selected"
+    ],
+    "continuousDraftInspectedAsContactSheets": true,
+    "normalSpeedVisualPlayback": "Browser playback at 1x reached last displayed frame without media error; functional check, not continuous model visual or auditory observation.",
+    "independentAudioListening": false,
+    "corrections": [
+      "compact graphic line gaps",
+      "arrow end follows the actor",
+      "contrast on water/sand/sky",
+      "dialogue moved off face",
+      "removed overlapping successive phrase groups at12.86 and13.70"
+    ],
+    "styleApprovedByUser": false,
+    "referenceCalibration": "reference-test/comparison.json",
+    "limitation": "Render calibration applies to one reference word. New Birdieballs treatment is an adaptation awaiting verdict, not an exhaustive style replica.",
+    "finalHandoffFramesInspected": [
+      771,
+      772,
+      773,
+      774,
+      820,
+      821,
+      822,
+      823
+    ],
+    "ui": {
+      "versions": 5,
+      "notesPreserved": 0,
+      "reviewVersionId": "bbd17192-8773-4cbc-a7bb-31fdcb54b226",
+      "playbackError": null,
+      "observedDroppedBrowserFrames": 6
+    }
+  },
+  "audioMeter": {
+    "integratedLUFS": -14.0,
+    "loudnessRangeLU": 3.6,
+    "truePeakDBFS": -0.8,
+    "source": "audio-meter.log"
+  }
+}

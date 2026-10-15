@@ -1,0 +1,21 @@
+{
+  "version": "piloto-01",
+  "status": "positive-user-style-feedback",
+  "scope": "Isolated BRAUDLABS pilot; preserve as the visual reference liked by the user. Feedback applies to this block.",
+  "reference": {
+    "sourceFrames": [
+      383,
+      449
+    ],
+    "fps": 24
+  },
+  "video": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/braud-style-lab/output/BRAUDLABS-Piloto.mp4",
+  "afterEffects": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/braud-style-lab/output/After-Effects/BRAUDLABS-Piloto.aep",
+  "comparison": "http://127.0.0.1:8780/Comparar.html",
+  "sha256": "44370d52675d7b1d331a027c1e31512e0cef3d6d590e93143541f7a14d6d7242",
+  "reused": "Reference audio only",
+  "latestUserFeedback": {
+    "quote": "A esto sí, mucho mejor, tío.",
+    "scope": "Valoración favorable del piloto aislado y de su dirección visual; no aprobación de los demás gráficos ni del montaje completo."
+  }
+}

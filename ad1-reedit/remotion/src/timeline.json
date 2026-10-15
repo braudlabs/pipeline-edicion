@@ -1,0 +1,376 @@
+{
+  "fps": 48,
+  "duration": 3400,
+  "audio": [
+    {
+      "id": 1,
+      "voice": "narrador",
+      "sourceFrom": 0.0,
+      "sourceTo": 4.270833333333333,
+      "from": 0,
+      "duration": 205
+    },
+    {
+      "id": 2,
+      "voice": "narrador",
+      "sourceFrom": 4.333333333333333,
+      "sourceTo": 5.729166666666667,
+      "from": 205,
+      "duration": 67
+    },
+    {
+      "id": 3,
+      "voice": "narrador",
+      "sourceFrom": 5.75,
+      "sourceTo": 8.645833333333334,
+      "from": 272,
+      "duration": 139
+    },
+    {
+      "id": 4,
+      "voice": "narrador",
+      "sourceFrom": 8.6875,
+      "sourceTo": 12.0,
+      "from": 411,
+      "duration": 159
+    },
+    {
+      "id": 5,
+      "voice": "plastica",
+      "sourceFrom": 0.125,
+      "sourceTo": 2.7916666666666665,
+      "from": 570,
+      "duration": 128
+    },
+    {
+      "id": 5,
+      "voice": "plastica",
+      "sourceFrom": 3.4166666666666665,
+      "sourceTo": 5.875,
+      "from": 698,
+      "duration": 118
+    },
+    {
+      "id": 5,
+      "voice": "plastica",
+      "sourceFrom": 6.333333333333333,
+      "sourceTo": 7.833333333333333,
+      "from": 816,
+      "duration": 72
+    },
+    {
+      "id": 6,
+      "voice": "narrador",
+      "sourceFrom": 18.8125,
+      "sourceTo": 25.479166666666668,
+      "from": 888,
+      "duration": 320
+    },
+    {
+      "id": 7,
+      "voice": "narrador",
+      "sourceFrom": 25.479166666666668,
+      "sourceTo": 32.395833333333336,
+      "from": 1208,
+      "duration": 332
+    },
+    {
+      "id": 8,
+      "voice": "narrador",
+      "sourceFrom": 32.4375,
+      "sourceTo": 34.770833333333336,
+      "from": 1540,
+      "duration": 112
+    },
+    {
+      "id": 9,
+      "voice": "narrador",
+      "sourceFrom": 34.979166666666664,
+      "sourceTo": 44.166666666666664,
+      "from": 1652,
+      "duration": 441
+    },
+    {
+      "id": 10,
+      "voice": "narrador",
+      "sourceFrom": 44.25,
+      "sourceTo": 46.291666666666664,
+      "from": 2093,
+      "duration": 98
+    },
+    {
+      "id": 11,
+      "voice": "narrador",
+      "sourceFrom": 46.333333333333336,
+      "sourceTo": 52.416666666666664,
+      "from": 2191,
+      "duration": 292
+    },
+    {
+      "id": 12,
+      "voice": "narrador",
+      "sourceFrom": 52.416666666666664,
+      "sourceTo": 62.104166666666664,
+      "from": 2483,
+      "duration": 465
+    },
+    {
+      "id": 13,
+      "voice": "narrador",
+      "sourceFrom": 62.145833333333336,
+      "sourceTo": 66.39583333333333,
+      "from": 2948,
+      "duration": 204
+    },
+    {
+      "id": 14,
+      "voice": "cierre",
+      "sourceFrom": 0.5416666666666666,
+      "sourceTo": 2.5833333333333335,
+      "from": 3152,
+      "duration": 98
+    },
+    {
+      "id": 14,
+      "voice": "cierre",
+      "sourceFrom": 3.3333333333333335,
+      "sourceTo": 6.125,
+      "from": 3250,
+      "duration": 134
+    }
+  ],
+  "video": [
+    {
+      "id": 1,
+      "src": "01-hook.mp4",
+      "from": 0,
+      "duration": 205,
+      "sourceFrame": 20,
+      "scale": 1.04,
+      "push": 0.05
+    },
+    {
+      "id": 2,
+      "src": "02-avatar-bueno.mp4",
+      "from": 205,
+      "duration": 67,
+      "sourceFrame": 86,
+      "scale": 1.02,
+      "push": 0.04
+    },
+    {
+      "id": 3,
+      "src": "03-avatar-cambiado.mp4",
+      "from": 272,
+      "duration": 139,
+      "sourceFrame": 36,
+      "scale": 1.02,
+      "push": 0.025
+    },
+    {
+      "id": 4,
+      "src": "04a-otra-cocinera.mp4",
+      "from": 411,
+      "duration": 64,
+      "sourceFrame": 82,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 4,
+      "src": "04b-otra-cocinera.mp4",
+      "from": 475,
+      "duration": 50,
+      "sourceFrame": 38,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 4,
+      "src": "04c-otra-cocinera.mp4",
+      "from": 525,
+      "duration": 45,
+      "sourceFrame": 43,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 5,
+      "src": "05-plastica-artificial-HABLA-ELLA.mp4",
+      "from": 570,
+      "duration": 128,
+      "sourceFrame": 6,
+      "scale": 1,
+      "push": 0.012
+    },
+    {
+      "id": 5,
+      "src": "05-plastica-artificial-HABLA-ELLA.mp4",
+      "from": 698,
+      "duration": 118,
+      "sourceFrame": 164,
+      "scale": 1.025,
+      "push": 0.012
+    },
+    {
+      "id": 5,
+      "src": "05-plastica-artificial-HABLA-ELLA.mp4",
+      "from": 816,
+      "duration": 72,
+      "sourceFrame": 304,
+      "scale": 1.025,
+      "push": 0.012
+    },
+    {
+      "id": 6,
+      "src": "06-creditos-quemados.mp4",
+      "from": 888,
+      "duration": 320,
+      "sourceFrame": 0,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 7,
+      "src": "07-hora-punta.mp4",
+      "from": 1208,
+      "duration": 238,
+      "sourceFrame": 0,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 7,
+      "src": "07-hora-punta.mp4",
+      "from": 1446,
+      "duration": 94,
+      "sourceFrame": 40,
+      "scale": 1.13,
+      "push": 0.015
+    },
+    {
+      "id": 8,
+      "src": "08-tiempo-y-dinero.mp4",
+      "from": 1540,
+      "duration": 112,
+      "sourceFrame": 19,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 9,
+      "src": "09-nosotros-procesos-SIN-AUDIO.mp4",
+      "from": 1652,
+      "duration": 441,
+      "sourceFrame": 0,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 10,
+      "src": "10-comanda.mp4",
+      "from": 2093,
+      "duration": 98,
+      "sourceFrame": 29,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 11,
+      "src": "11-brigada.mp4",
+      "from": 2191,
+      "duration": 292,
+      "sourceFrame": 0,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 12,
+      "src": "12-platos-iguales.mp4",
+      "from": 2483,
+      "duration": 149,
+      "sourceFrame": 14,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 12,
+      "src": "12-platos-iguales.mp4",
+      "from": 2632,
+      "duration": 261,
+      "sourceFrame": 0,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 12,
+      "src": "12-platos-iguales.mp4",
+      "from": 2893,
+      "duration": 55,
+      "sourceFrame": 173,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 13,
+      "src": "13-en-directo-SIN-VOZ-recomendado.mp4",
+      "from": 2948,
+      "duration": 204,
+      "sourceFrame": 10,
+      "scale": 1.02,
+      "push": 0.022
+    },
+    {
+      "id": 14,
+      "src": "14-cierre-HABLA-ELLA.mp4",
+      "from": 3152,
+      "duration": 98,
+      "sourceFrame": 26,
+      "scale": 1,
+      "push": 0.012
+    },
+    {
+      "id": 14,
+      "src": "14-cierre-HABLA-ELLA.mp4",
+      "from": 3250,
+      "duration": 150,
+      "sourceFrame": 160,
+      "scale": 1,
+      "push": 0.012
+    }
+  ],
+  "events": {
+    "credits": {
+      "from": 1015,
+      "to": 1208
+    },
+    "time": {
+      "from": 1576,
+      "to": 1652
+    },
+    "accounts": {
+      "from": 1774,
+      "to": 2093
+    },
+    "brand": {
+      "from": 2132,
+      "to": 2191
+    },
+    "community": {
+      "from": 2388,
+      "to": 2483
+    },
+    "system": {
+      "from": 2579,
+      "to": 2898
+    },
+    "live": {
+      "from": 2958,
+      "to": 3011
+    },
+    "price": {
+      "from": 3281,
+      "to": 3400
+    }
+  }
+}

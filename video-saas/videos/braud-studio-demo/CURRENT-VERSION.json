@@ -1,0 +1,144 @@
+{
+  "project": "braud-studio-demo",
+  "version": "G03",
+  "status": "preview_04_sent",
+  "format": {
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "target_seconds": 155
+  },
+  "script": "GUION-LOCUCION.md",
+  "features": "FUNCIONALIDADES.md",
+  "brief": "BRIEF.md",
+  "voice": "assets/locucion.wav",
+  "voice_ready": true,
+  "ui_source": "/Users/alejandrorubiocamarero/Downloads/braud-studio-visual-main (snapshot 15/10/2026, v0.7) — no modificar",
+  "open_decisions": [
+    "confirmar que Meta Ads conectado, subida automática y montaje final funcionan en producción (la locución grabada ya los afirma)",
+    "licencia de música y efectos (vienen de El Sistema)",
+    "marca demo del frontal: es BRAUD y su Mi marca describe la instalación de BRAUD; para el caso Creatina, crear una marca demo de suplementos o usar un cliente real con permiso (el Avance 04 solo enseña secciones plegadas)",
+    "etiqueta «CODEX» fija en las respuestas del agente (ecom.js): dejarla o cambiarla en el producto"
+  ],
+  "user_approved": false,
+  "updated": "2026-10-15",
+  "previousVersions": [
+    {
+      "version": "G02",
+      "path": "archive/GUION-LOCUCION-G02.md",
+      "status": "sustituido: faltaba el argumento de diferenciación visual y de marca"
+    },
+    {
+      "version": "G01",
+      "path": "archive/GUION-LOCUCION-G01.md",
+      "status": "sustituido: demasiado manual; Ale pidió tono autónomo y bucle con Meta"
+    }
+  ],
+  "userFeedback": [
+    {
+      "date": "2026-10-15",
+      "scope": "guion G01",
+      "quote": "se tiene que sentir como que todo va muy estructurado, tiene un proceso, pero que es muy, muy, muy autónomo; tú eres el cerebro pensante, le das la idea y te traduce automáticamente tu idea a un anuncio listo para publicar",
+      "applied": "G02"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "bloque Meta",
+      "quote": "el agente está conectado directamente a tu Meta Ads Manager… sabe interpretar métricas… te propongo meterle este hook… le das un botoncito y automáticamente te hace el nuevo ad con la versión de hook y lo sube automáticamente",
+      "applied": "G02, pendiente de confirmar que existe en producción"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "guion G02",
+      "quote": "además de la velocidad de producción… puedes hacer unos planos y una calidad que te da una diferenciación de branding y marca… que eso, además de verse reflejado en las métricas, es un activo intangible que hace que tu marca se perciba como de mucha más calidad",
+      "applied": "G03, bloque 10 con dato real de hook rate (resultados.html)"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "locución",
+      "quote": "hay que darle un poco de velocidad (un pelín), dale caña",
+      "applied": "1,08×"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "material",
+      "quote": "no pongas esa sudadera cringe, que da pena",
+      "applied": "fuera de Mi marca, referencias y títulos; Escenas abre en «Cinco ads»"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "Avance 01 (0–31 s)",
+      "quote": "es un poco cutre, tiene que ser más rápido, dopamínico, especialmente la apertura, falta salsa",
+      "applied": "Avance 02 en curso: galaxia de anuncios, palabras que golpean, contador de semanas, frenazo a gris, feed clónico, tarjeta que gira a Studio, logotipo que vuela, chispa de la idea, abanico de clips con «Aprobado», onda de dictado, espiral de Mi marca; SFX sintetizados y música montada"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "Avance 02 (0–31 s)",
+      "quote": "la musica está muy fuerte, y el hook es una mierda",
+      "applied": "Avance 03: hook reinventado con metraje real del anuncio Andrómeda (recortes cuadrados a resolución nativa, sin el estampado de la sudadera), música unos 7 dB más baja con más ducking y sin frenazo de cinta (filtrada, continua)"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "Avance 03 (0–31 s)",
+      "quote": "Es una mierda se ve muy IA tío, hazlo más pro joder",
+      "applied": "Avance 04: lenguaje de la landing de BRAUD y El Sistema FINAL (negro, titulares en degradado, píldoras mono, barra de proceso); carrusel de anuncios reales; Studio en tema oscuro y modo producción (sin DEV ni selector del inicio); módulos reales recortados bajo el titular, un foco por frase; estados reales del dictado y de «pensando»; sin recursos dibujados; primer fotograma con contenido"
+    }
+  ],
+  "voice_notes": "ElevenLabs (Guillermo) G03 a 1,08× con atempo (122,82 s); «pumicar» del bloque 11 sustituido por el «publicar» del bloque 2 (78,845–79,715 s). Original en assets/locucion-original.mp3.",
+  "decisions": [
+    {
+      "date": "2026-10-15",
+      "what": "Caso dentro del dashboard: anuncio Ecommerce Andrómeda (clips reales, sin coste)",
+      "by": "Claude, recomendado; Ale no lo vetó al pedir «dale caña»"
+    },
+    {
+      "date": "2026-10-15",
+      "what": "Styleframes A–D; elegida D: fondo negro con brillo cobalto e interfaz real en tema claro (lectura en Meet)",
+      "by": "Claude, autónomo (styleframes/contacto-v2.jpg)"
+    },
+    {
+      "date": "2026-10-15",
+      "what": "Herramienta: Remotion con capturas reales del frontal a DPR 3 (tools/snap.mjs)",
+      "by": "Claude"
+    },
+    {
+      "date": "2026-10-15",
+      "what": "Sistema visual V04: landing de BRAUD + El Sistema FINAL; sustituye la dirección D (brillo cobalto, interfaz clara)",
+      "by": "Claude, tras «se ve muy IA»"
+    },
+    {
+      "date": "2026-10-15",
+      "what": "Caso Creatina del escaparate (anuncio final real, rechazos reales con su motivo) en lugar de Andrómeda",
+      "by": "Claude"
+    },
+    {
+      "date": "2026-10-15",
+      "what": "Capturas en modo producción y tema oscuro (shots-v4.json); tools/check-snaps.py bloquea capturas con marcas de desarrollo",
+      "by": "Claude"
+    }
+  ],
+  "remotion": "remotion/ (node render.mjs --bundle; --still Avance04 …; --render Avance04 [--draft])",
+  "preview": {
+    "file": "output/BRAUD-Studio-Demo-Avance04.mp4",
+    "covers": "bloques 1–5 (0–30,45 s, corta antes de «Aterriza»)",
+    "fps": 60,
+    "dimensions": [
+      1920,
+      1080
+    ],
+    "render_seconds": 87.9,
+    "loudness": "-15,0 LUFS, pico -1,4 dBFS",
+    "black_frames": 0,
+    "user_approved": false,
+    "music": "igual que el Avance 03 (gain 0,24 × 0,7, ducking 0,55, filtrada en «ritmo de mes»)",
+    "checks": "tools/check-snaps.py sin marcas de desarrollo; tecleo dibujado = captura real (diferencia 0); escaneo a 4 fps sin huecos",
+    "previous": [
+      "output/BRAUD-Studio-Demo-Avance01.mp4 («es un poco cutre…»)",
+      "output/BRAUD-Studio-Demo-Avance02.mp4 («la música está muy fuerte, y el hook es una mierda»)",
+      "output/BRAUD-Studio-Demo-Avance03.mp4 («Es una mierda se ve muy IA tío, hazlo más pro joder»)"
+    ],
+    "sources_archive": "archive/remotion-avance03 (src y capturas del Avance 03), archive/snaps-avance01-03",
+    "render_workspace": "/private/tmp/claude-render-braud (copia fuera de iCloud; EDITOR_ROOT/OUT_DIR/CONCURRENCY/CACHE_MB; --audio para rehacer solo la mezcla)"
+  }
+}

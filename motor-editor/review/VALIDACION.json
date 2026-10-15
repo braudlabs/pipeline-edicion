@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-10",
+  "unitTests": {"passed": 6, "failed": 0},
+  "browser": {
+    "status": "passed",
+    "fixture": "temporary synthetic H.264/AAC, 2 seconds, 48 frames at 24 fps",
+    "checks": ["import", "frame extraction", "play/pause", "selected-range playback", "keyboard frame stepping", "F5–F20 selection", "rectangle F5 + arrow F20", "saved annotated snapshots", "reload persistence", "draft persistence", "resolve and reopen", "note filters", "version isolation", "JSON export", "byte-range media response", "invalid-range rejection", "90-degree rotation dimensions", "390px mobile layout without horizontal overflow", "clean user instance ready on port 4317"],
+    "testDataDirectory": "/tmp/cutroom-qa-data",
+    "testServerStopped": true
+  },
+  "userClip": "awaiting_upload",
+  "userInterface": "http://127.0.0.1:4317/",
+  "editingEngineVisualFidelity": "not_evaluated_by_these_interface_tests"
+}
