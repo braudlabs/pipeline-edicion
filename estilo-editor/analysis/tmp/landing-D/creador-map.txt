@@ -1,0 +1,57 @@
+# landing  f2787-f2820  (46.450-47.000 s)  60.000 fps  1920x1080
+# metraje estimado a ~26.07 fps dentro de la línea de 60.00; repetidos exactos en el tramo: 1
+f2787   46.450s  TEXTO «e»  f2787-f2787 (1 f, 0.017 s)  centro 49.8%,76.8%  alto 50px (4.66%)  ancho 42px  ángulo 0.0°  id=307
+f2789   46.483s  CORTE (media)  mad=4.4 hd=0.027 ratio=3.8
+f2789   46.483s  TEXTO «Creador»  f2789-f2845 (57 f, 0.950 s)  centro 20.4%,45.2%  alto 134px (12.41%)  ancho 589px  ángulo -0.5°  id=308
+f2789   46.483s  TEXTO «dy»  f2789-f2790 (2 f, 0.033 s)  centro 49.8%,95.6%  alto 34px (3.1%)  ancho 59px  ángulo 0.0°  id=309
+f2789   46.483s      · id=308 f2789: cx=392 cy=504 w=589 h=148 ang=0.1 conf=0.5 «Creador»
+f2789   46.483s  GOLPE de audio t=46.490 s  z=6.4  agudo  subida -0.4 dB  nivel -8.4 dB
+f2790   46.500s      · id=308 f2790: cx=392 cy=504 w=589 h=142 ang=0.4 conf=0.5 «Creador»
+f2791   46.517s      · id=308 f2791: cx=392 cy=501 w=589 h=142 ang=0.5 conf=0.3 «Creador»
+f2792   46.533s  VOZ «creador»  46.54-46.82 s (f2792-f2809)
+f2792   46.533s      · id=308 f2792: cx=392 cy=502 w=589 h=140 ang=0.5 conf=0.3 «Creador»
+f2793   46.550s      · id=308 f2793: cx=392 cy=500 w=589 h=140 ang=0.4 conf=0.3 «Creador»
+f2794   46.567s      · id=308 f2794: cx=392 cy=500 w=589 h=140 ang=0.1 conf=0.3 «Creador»
+f2795   46.583s      · id=308 f2795: cx=392 cy=500 w=589 h=140 ang=0.1 conf=0.3 «Creador»
+f2796   46.600s      · id=308 f2796: cx=392 cy=498 w=589 h=137 ang=1.1 conf=1 «Creador»
+f2797   46.617s      · id=308 f2797: cx=394 cy=498 w=586 h=137 ang=0.0 conf=1 «Creador»
+f2798   46.633s      · id=308 f2798: cx=394 cy=497 w=586 h=134 ang=0.0 conf=1 «Creador»
+f2800   46.667s  TEXTO «dJ»  f2800-f2801 (2 f, 0.033 s)  centro 49.9%,96.0%  alto 31px (2.84%)  ancho 50px  ángulo 0.0°  id=310
+f2807   46.783s  TEXTO «dy»  f2807-f2809 (3 f, 0.050 s)  centro 50.0%,96.0%  alto 31px (2.84%)  ancho 56px  ángulo 0.0°  id=311
+f2807   46.783s      · id=311 f2807: cx=960 cy=1037 w=56 h=31 ang=0.0 conf=0.3 «dy»
+f2808   46.800s      · id=311 f2808: cx=960 cy=1037 w=56 h=31 ang=0.0 conf=0.3 «dy»
+f2809   46.817s  VOZ «UGC,»  46.82-47.28 s (f2809-f2837)
+f2809   46.817s      · id=311 f2809: cx=959 cy=1038 w=59 h=34 ang=0.0 conf=0.3 «dy»
+f2813   46.883s  TEXTO «UGC»  f2813-f2845 (33 f, 0.550 s)  centro 14.2%,57.8%  alto 140px (12.92%)  ancho 335px  ángulo 0.0°  id=312
+f2813   46.883s      · id=312 f2813: cx=273 cy=636 w=335 h=134 ang=0.0 conf=1 «UGC»
+f2814   46.900s      · id=312 f2814: cx=273 cy=635 w=335 h=137 ang=0.0 conf=1 «UGC»
+f2814   46.900s  GOLPE de audio t=46.900 s  z=6.3  agudo  subida 1.4 dB  nivel -6.9 dB
+f2815   46.917s      · id=312 f2815: cx=273 cy=634 w=335 h=134 ang=0.0 conf=1 «UGC»
+f2816   46.933s      · id=312 f2816: cx=273 cy=632 w=335 h=137 ang=0.0 conf=1 «UGC»
+f2817   46.950s      · id=312 f2817: cx=273 cy=629 w=335 h=137 ang=0.0 conf=1 «UGC»
+f2818   46.967s      · id=312 f2818: cx=273 cy=629 w=335 h=137 ang=0.0 conf=1 «UGC»
+f2819   46.983s  TEXTO «dJi»  f2819-f2831 (13 f, 0.217 s)  centro 49.9%,96.5%  alto 36px (3.36%)  ancho 59px  ángulo 0.0°  id=313
+f2819   46.983s      · id=312 f2819: cx=275 cy=629 w=338 h=137 ang=0.0 conf=1 «UGC»
+f2819   46.983s      · id=313 f2819: cx=961 cy=1041 w=59 h=34 ang=0.0 conf=0.3 «dJ»
+f2820   47.000s      · id=312 f2820: cx=273 cy=626 w=335 h=137 ang=0.0 conf=1 «UGC»
+f2821   47.017s      · id=312 f2821: cx=274 cy=626 w=335 h=137 ang=0.7 conf=1 «UGC»
+f2822   47.033s      · id=312 f2822: cx=273 cy=625 w=335 h=134 ang=0.0 conf=1 «UGC»
+f2825   47.083s      · id=313 f2825: cx=959 cy=1042 w=59 h=36 ang=0.0 conf=0.3 «dJi»
+f2826   47.100s      · id=313 f2826: cx=959 cy=1042 w=59 h=36 ang=0.0 conf=0.3 «dJi»
+f2829   47.150s      · id=313 f2829: cx=960 cy=1042 w=56 h=36 ang=0.0 conf=0.3 «djı»
+f2830   47.167s      · id=313 f2830: cx=960 cy=1044 w=56 h=34 ang=0.0 conf=0.3 «dJ»
+f2831   47.183s      · id=313 f2831: cx=960 cy=1044 w=56 h=34 ang=0.0 conf=0.3 «dJ»
+f2841   47.350s      · id=308 f2841: cx=392 cy=481 w=589 h=131 ang=0.4 conf=0.5 «Creador» (final)
+f2841   47.350s      · id=312 f2841: cx=275 cy=617 w=338 h=140 ang=0.0 conf=1 «UGC» (final)
+f2842   47.367s      · id=308 f2842: cx=392 cy=481 w=589 h=131 ang=0.3 conf=0.5 «Creador» (final)
+f2842   47.367s      · id=312 f2842: cx=275 cy=617 w=338 h=140 ang=0.0 conf=1 «UGC» (final)
+f2843   47.383s      · id=308 f2843: cx=392 cy=480 w=589 h=134 ang=0.3 conf=0.5 «Creador» (final)
+f2843   47.383s      · id=312 f2843: cx=275 cy=617 w=338 h=140 ang=0.0 conf=1 «UGC» (final)
+f2844   47.400s      · id=308 f2844: cx=392 cy=480 w=589 h=134 ang=0.4 conf=1 «Creador» (final)
+f2844   47.400s      · id=312 f2844: cx=275 cy=617 w=338 h=140 ang=0.0 conf=1 «UGC» (final)
+f2845   47.417s      · id=308 f2845: cx=392 cy=480 w=589 h=134 ang=-0.6 conf=0.5 «Creador» (final)
+f2845   47.417s      · id=312 f2845: cx=273 cy=617 w=335 h=140 ang=0.0 conf=1 «UGC» (final)
+
+# CARA por plano (caja de Vision; alto en % del alto del fotograma, centro en %):
+f2787-f2788: sin cara (2 detecciones)
+f2789-f2820 (32 f): alto 44.1%→44.4%  centro x 49.5%→49.8%  y 48.6%→49.5%  (32 detecciones)

@@ -1,0 +1,42 @@
+{
+  "fps": 48,
+  "events": {
+    "credits": {
+      "from": 1012,
+      "to": 1208,
+      "comp": "MG - Creditos"
+    },
+    "time": {
+      "from": 1540,
+      "to": 1652,
+      "comp": "MG - Tiempo"
+    },
+    "accounts": {
+      "from": 1744,
+      "to": 2093,
+      "comp": "MG - Cuentas"
+    },
+    "brand": {
+      "from": 2125,
+      "to": 2191,
+      "comp": "MG - Marca"
+    },
+    "community": {
+      "from": 2338,
+      "to": 2483,
+      "comp": "MG - Comunidad"
+    },
+    "system": {
+      "from": 2574,
+      "to": 2948,
+      "comp": "MG - Sistemas"
+    },
+    "price": {
+      "from": 3279,
+      "to": 3400,
+      "comp": "MG - Precio"
+    }
+  },
+  "feedback": "Sin fondos en subtitulos. Sin titulos explicativos ni notas. Transformacion de cifra a perfil y reel; planos de profundidad y camara.",
+  "layers": 492
+}

@@ -1,0 +1,51 @@
+{
+  "videoStreamSha256": "SHA256=489d6a284de4323645d39c4cfe52d58f688c66ffbc5e536ee488138d4bb8270e",
+  "identicalVideoStreamToV7": true,
+  "fullDecodeErrors": 0,
+  "finalAudioLevels": {
+    "input_i": "-14.16",
+    "input_tp": "-1.42",
+    "input_lra": "1.40",
+    "input_thresh": "-24.20",
+    "output_i": "-14.04",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.09",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  },
+  "audioRepair": {
+    "originalClip09StartSample": 1712005,
+    "sourceAudioSamples": 242400,
+    "restoredSourceIntervalSeconds": [
+      4.7,
+      5.05
+    ],
+    "previousSourceCutSeconds": 4.75,
+    "restoredMissingSeconds": 0.2999999999999998,
+    "fullOriginalEndInMasterSeconds": 40.716770833333335,
+    "ctaStartSeconds": 40.791666666666664,
+    "remainingPauseSeconds": 0.07489583333333333,
+    "originalTailMaximumDifferenceBeforeFinal3msFade": 0,
+    "finalMixChangedOnlyInSeconds": [
+      40.25,
+      40.791666666666664
+    ],
+    "picture": "V7 video stream reused without re-encoding",
+    "verification": "Local source sample alignment and waveform; no external audio upload or claimed full subjective audition."
+  },
+  "missingFonts": 0,
+  "missingMedia": 0,
+  "videoSha256": "e5edb36df83642ecf05782e0ecb7ec56d39c7c34d0028d18ebbc6aa3b3a3522e",
+  "unchangedPCMOutsideRepair": true,
+  "musicAndSFXIdentical": true,
+  "duration": 45.416666666666664,
+  "fps": 48,
+  "frames": 2180,
+  "resolution": [
+    1080,
+    1920
+  ],
+  "externalAudioAnalysis": "Automatic approval review blocked private-audio upload; no external listening analysis performed. Used exact local waveform/source comparison.",
+  "userApproval": false
+}

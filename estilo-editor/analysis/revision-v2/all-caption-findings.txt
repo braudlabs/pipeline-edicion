@@ -1,0 +1,973 @@
+=== lafabrica-v1-A ===
+## 3. Subtítulos base
+Primer bloque es palabra a palabra GRANDE y alto, no regla y60%. Secuencia visual: Cuando f0–6; cada f7–11; anuncio f12–19; nuevo f20–25 (OCR lo detecta recién f22); exige f26–35 (OCR f27); otra f36–44; sesión f45–58; otro f59–68; UGC f69–81; otro f82–89; editor f90–101. Variaciones OCR en anchura/tamaño se contaminan por máscara y no prueban animación de escala. La cabeza tapa todas estas palabras; blanco, bold apretado. El conjunto deriva verticalmente con la composición.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+f106–121: y → y otra → y otra ronda arriba; de → de revisiones abajo. Textos completos antes de acabar locución: «ronda» aparece f112 frente voz f110; «revisiones» f118 frente voz f120. Entrada horizontal borrosa y frenada; sin desaparición parcial antes de corte f137. OCR ronda cx382 f112 →399 f136, cy678→699; abajo cx604 f118 →628 f136, cy1249→1235. Son medidas de caja OCR con incertidumbre.
+
+
+## 5. Escenas gráficas
+Megáfono: aparece como imagen dentro de círculo blanco que crece desde un punto, icono orientado arriba-derecha. Fondo azul con luz central y bordes oscuros, sin patrón visible a baja escala. Texto flanquea círculo con distinto alineamiento (arriba a izquierda, abajo a derecha).
+
+
+## 6. Superposiciones y efectos sobre la imagen
+Oclusión de texto por cabeza en cinta; no contorno delantero observable en hojas densas. Papeles son parte del recurso, no puede inferirse que se superpusieran en montaje.
+
+
+## 9. Reglas que se deducen de este tramo
+Lectura: recurso metafórico (correr en cinta) muestra carga de producción; máscara permite palabra detrás de cabeza. Cambia de un régimen de sustitución a composición por frase cuando introduce «otra ronda de revisiones».
+
+
+## 10. Dudas y lo que no se pudo verificar
+No atribuir cambios OCR de palabras o claqueta a nuevos rótulos. Tipografía decidida SF Pro Display Bold, tracking −60 por medición global; no nueva prueba aquí. Nativos restantes pendientes.
+
+
+
+=== lafabrica-v1-B ===
+## 3. Subtítulos base
+f614 Tú; f621 o; f625 alguien; f632 de; f634 tu; f638 equipo; f651 dirige; f659 las; f664 ideas; f676 sin texto. Anchos equipo≈818, alguien≈846; altura≈260. Posición y60–62% coincide con plano mesa; sobre bandejas. No máscara comprobable detrás persona en este bloque.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+«adaptado» en arco superior: f577 primera a, f579 ad, f582 ada, f584 adap, f588 adapt, f592 adaptad, f597 adaptado completo. Letras se desplazan y rotan individualmente para componer arco alrededor de círculo; no sustitución por palabra. Abajo f582 a, f584 tu, f587 producto, f590 y, f592 tu, f593 marca. Resaltados rectangulares oscuros se revelan detrás producto f584–587 y marca f599–602: resaltado previo al texto/tras palabra. SF Pro bold azul.
+
+
+## 5. Escenas gráficas
+Cerebro centra medallón azul, arco azul y línea «a tu producto y tu marca» debajo. Archivo OCR falla con texto curvo (Dapiag no palabra real). Diagrama IA: f677–685 crece cuadrado, debajo frase acumulativa el→el sistema→el sistema hace; segunda línea el→el trabajo→el trabajo técnico (f690–699). Todos claros crema sobre azul. Se mantiene hasta f715; f716–724 escena desliza a derecha mientras entra círculo conectado desde izquierda con generar dentro. No es corte, es movimiento del conjunto que descubre un diagrama más grande.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+Tarjetas de bandejas llevan REEL/POST/BANNER, pertenecen al recurso; no contar cada OCR como grafismo editado. Horno abre/cierra y tarjeta entra/sale; hombre dirige como recurso semántico.
+
+
+## 9. Reglas que se deducen de este tramo
+Lectura: la IA queda como nodo persistente, operaciones del sistema aparecen al navegar por diagrama.
+
+
+## 10. Dudas y lo que no se pudo verificar
+Cadencia no deducible de repeats (similares no exactos). Precisión tipográfica fina requiere nativos. No se identifica SFX sin escuchar.
+
+
+
+=== lafabrica-v2p1-A ===
+## 3. Subtítulos base
+Antes f70: titulares acumulativos altos; desde f70 sustitución palabra: y f70–71, no f72–75, es f76–78, por f79–81, la f82–84, herramienta f85–98. Blanco bold apretado, y≈20%. f99 Abres grande y12%, el f106, móvil f109, y f117, ahí f120, están f125–134. f135 anuncios baja a y57%, hechos f144, con f151–154, IA f155–159 (OCR omitido), que f160. Esta recolocación deja libre cara/móvil según acción; no regla universal y60.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+f2 La, f5 IA acumulada, creativa f13 gigante abajo ≈888×232px; se conserva La IA pequeña encima hasta f24. f25 ya sustituye conjunto, f32 funciona gigante debajo ≈807×190. f43–69 para→para ti; todavía empieza con toda f49 y se alarga, no debajo f53–55, la cara del mayor tapa extremo derecho de todavía. Entrada con desplazamiento/blur visible en todavía, preciso en nativo pendiente. Existe oclusión de texto por cabeza; retrato recortado desaturado.
+
+
+## 5. Escenas gráficas
+Pendientes en resto del tramo.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+B/N selectivo en mayor f43–69; fondo con luces sigue color. No inventar nombre real del mayor ni que metraje sea documental: sólo apariencia.
+
+
+## 9. Reglas que se deducen de este tramo
+Lectura: identifica afirmación positiva con palabra grande, contrasta no con recorte/desaturación de otro sujeto, devuelve palabra a palabra al explicar herramienta.
+
+
+## 10. Dudas y lo que no se pudo verificar
+Posibles manos/recurso generado, no certificable. Tracking −60/SF Pro Bold decididos por estudio global. Nativos pendientes.
+
+
+
+=== lafabrica-v2p1-B ===
+## 10. Dudas y lo que no se pudo verificar
+Nativas y espectrogramas pendientes; no convertir las cajas OCR ni candidatos de corte en hechos. No se identifica a las personas reales.
+
+### d020–d023 · f809–f968
+Base millones813, de824, visualizaciones826–844 (se reduce alto120px para779px ancho; no gigante). f837–841 dedo se retira y cambia gran parte de imagen sin corte. Métete845, en855, nuestro857, perfil863, y871, compruébalo874. Candidato874 es sustitución, imagen continua. f885 corte a la misma acción pero ampliación muy fuerte; cara35.2%alto contra22% antes. Texto conserva compruébalo885–886; tú887, mismo890–900. f901 corte joven de pie ante caja gris, otra persona detrás, texto en mitad y49% para dejar aire negro superior. Lo901, que903, hacemos905, es912–915, esto916–923 (el OCR fusiona es/esto desde912: corregido visualmente), y924, no928, es931, una933, formación938–951. f952–954 no subtítulo; f955 es pequeño arriba, f957 una a su lado, f958 instalación grande debajo; máscara cabeza tapa derecha de primera línea. instalación caja OCR820×151=76%ancho, hasta979. f958 entra con desenfoque fino en la hoja. Imagen mantiene acción de mano, no congelado.
+
+### d024–d027 · f969–f1130
+f980 desaparece instalación, f981 rastro numeral3 borroso, f982 3 más visible, f983 estable. f984 semanas empieza borrosa debajo, f986 casi clara, f988 estable. Numeral ocupa más altura que palabra; ambas capas delante de joven. f996 corte a fondo gris carbón y texto blanco Semana1 central y48.5%, estático hasta1013. f1014 corte a ambos operando pequeño portátil dentro caja gris abierta; caja de madera número01 integrado en pared frontal a derecha. Palabra Entrenamos excede casi el ancho (1049px≈97%); el1024,sistema1027,con1035,tu1039,marca1043,tus1050,productos1055,y1067,tus1070,creativos1075,ganadores1085–1099. Texto y desciende16.9→24.6% durante escena/cámara; no centro vertical fijo. Retirada/pullout leve del plano: cara10.6→8.4%alto. f1100 corte a misma tarjeta Semana2 central,17f (0.708s). f1117 corte joven de pie inclinado detrás del mayor sentado y caja02; Lo1117 arriba y9.6%,instalamos1120,donde1128. Palabra instalamos1002px ancho≈92.8%,alto165px.
+
+### d028–d031 · f1131–f1292
+trabajas1133, y1146, formamos1149, a1159, quien1161, lo1165, va1168, a1170, pilotar1172–1180; f1181–1184 hueco. Plano mantiene movimiento de personas. Cámara se aleja y cara se desplaza (f1117→1184alto9.8→5.7%,centro58.5→38.8%x,28.7→46.2%y). f1185 tarjeta Semana3 fondo carbón16f(0.667s). f1201 corte ambos sentados mesa/caja03, Producís1201 arriba gigantesco818pxancho187alto, vosotros1209, con1220,nosotros1223,al1233,lado1236–1243. f1244 imagen sin título. f1245 fondo naranja vacío (hoja agrupa+2 similitud; no prueba identicidad). f1248 ¿Después? llega desenfocado y angulado desde izquierda, se aclara1250; f1253 punto oscuro, f1255 círculo con medalla pequeña,f1256 crece fuerte,f1257 pausa relativa,f1258 retoma,f1260 círculo ya grande,f1263 casi final. Número60 empieza en arco abajo izquierda1263; días1265→1267; de1268; soporte1271 desenfocado→1273legible. Texto curvado alrededor borde círculo, arriba ¿Después? varía ángulo en sentido contrario durante aparición y conjunto sigue rotación leve a1289. No es subtítulo palabra a palabra. f1290 corte mayor a derecha operando caja03 y joven de espalda caminando a izquierda: y1290, sistema1292.
+
+
+## 3. Subtítulos base
+Blanco bold palabra reemplazante, rail superior y16–18% en mesa/busto782; se recoloca al49% en901. En semanas1/2/3 usa casi todo ancho para términos largos Entrenamos/instalamos; no aplicar capuniversal76%. Durante desplazamientos escena1014–1099 la línea baja de16.9→24.6%. Huecos952–954,1181–1184,1244. Es/esto912–923 se distingue por hojas, no OCRfusionado. Sin fijar cuerpo a alturaOCR. Fontfit nativo millones815 aislado favorece HelveticaBold (datos al final), independiente decisión SFPro−60.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+sin cámara665/667, y sin actores681/683/685 nativo demuestra blurvertical de rótulo con pulso de siluetas. es una instalación955–979,3 semanas981–995 sustituyen rail, máscara arriba en instalación. Numeral y semanas blur4f cadauno.¿Después?1248–1250 y60 días de soporte1263–1273 construyen arco, no palabras planas base.
+
+
+## 5. Escenas gráficas
+Separadores carbón Semana1 996–1013(18f=.75s),Semana2 1100–1116(17f=.708s),Semana3 1185–1200(16f=.667s), vistos estáticos en dense. Soporte1245–1289 fondo naranja45f=1.875s: vacío inicial, texto angular1248, punto1253, círculo crece por pasos1255–1263, medalla interna y texto arco1263–1273; recorrido/rotacióncontinúa. Native círculo1252–1263 confirma estados y crecimiento; ni alfa ni easing exactos medidos.
+
+
+## 6. Superposiciones y efectos
+661 oscurece imagen y recorta trípode con checkerboard opaco,pulso662/663 y recuperación664. Personas676 con relleno checkerboard, pulso677/678 y retorno679/680. No transparentebg necesariamente: es diseño cuadriculado. Mano/dedo782 produce perspectiva angular y textura de recurso. Máscara cabeza955 en línea pequeña. Todos verifican movimiento real, sin freeze demostrado.
+
+
+## 9. Reglas deducidas
+Lectura: negación de producción tradicional usa siluetas+dimming y nombres borroneados; etapas temporales alternan tarjetas cortas y demostración física numerada; soporte final se convierte en medalla/círculo y texto curvo. Rótulos largos pueden exceder76% de ancho. Parámetros concretos en avances, sin genérica curva universal.
+
+
+
+=== lafabrica-v2p1-C ===
+## 10. Dudas y lo que no se pudo verificar
+Nativas y espectrogramas pendientes. Cadencia estimada por similitud no prueba congelado ni repetición exacta.
+
+### d036–d039 · f1453–f1615
+son1462,tres1468,semanas1474,metidos1483,dentro1492,de1500,tu1503,equipo1506–1514. Candidato1462 no cambio de plano; es sustitución instalación→son. Joven y mayor se acercan gesto hasta casi apoyar cabezas, mantienen movimiento. f1515 corte fondo carbón vacío1515–1518(similares agrupados). f1519 No aparece pequeño y50%; es1521 llega debajo desplazado y se recoloca1522 hacia misma línea; un1524 y curso1526 llegan de igual modo; que1528 aparece debajo izquierda, se1530, envía1533,por1536,email1538: cada palabra llega fuera de posición final y asciende al raíl mientras palabras previas recolocan centradas (look nativo pendiente). Frase completa f1540–1557, primera línea«No es un curso», segunda«que se envía por email». La voz transcrita dice manda1539 y no envía: texto paráfrasis. f1558 el texto empieza deformarse/fragmentarse a derecha un fotograma antes del corte1559.
+
+f1559 corte mesa llena de tres cajas metálicas01/02/03, joven sentado primer términoizquierda, mayor de pie detrás. Base se desplaza a hueco derecha y50%: por1559,eso1561,no1565,podemos1568,llevar1577,muchas1583,a1591,la1593,vez1595–1601. Mayor camina/sale derecha. f1602 Este se relocaliza hacia centro y26%,mes1608,abrimos1613. No corte detectado o visible en ese cambio de ubicación; cámara recorre/rota progresivamente hacia el joven y cajas.
+
+### d040–d043 · f1616–f1775
+f1623 borra abrimos; f1624 4 grande desenfocado,y24%;f1625 sólido. plazas1626borroso→1628legible, caja584×192≈54%ancho,y31.8. Cabeza joven corta borde inferior de plazas; número360pxalto18.75%alto. Mantiene1645. f1646 corte joven cuerpo entero brazos cruzados de pie detrás silla metal, mayor al fondo sentado izquierda comiendo. Texto grande superior detrás de cabeza CON CONTORNO FINO DEL TEXTO POR DELANTE DE PELO/CARA, visible en Si1646,ya1649,inviertes1650,en1659,anuncios1661,y1671,la1672,producción1675,te1685,está1687,frenando1692,pide1704,la1710,evaluación1713–1725. El personaje/cabeza se desplaza hacia abajo y texto baja y11→19% junto a composición; esta superposición no es solo máscara sin contorno. Original nativa pendiente para grosor exacto. Marco película tiene ligera distorsión/cambio perspectiva hacia final; no es freeze.
+
+f1726 corte joven busto frontal sosteniendo botella por cuello, mayor al fondo derecha mesa. Miramos1726,dónde1735,está1741,tu1746,cuello1749; f1754 agrega de pequeño debajo derecha y f1757 botella grande a derecha en tercera línea a altura frente. No cambio de plano en candidatos1757/1767: entradas/salidas de texto. Frase cuello/de/botella sostiene hasta1766. y1767,si1771,esto1774.
+
+### d044–d046 · f1776–f1906
+te1779,encaja1782–1793; candidato1782 es texto sin corte. f1794 corte a picado muy inclinado(≈35°visual) sobre mesa/cubo, joven izquierda y mayor derecha comen. f1794–1797sintexto. Líneaacumulativa superior: y1798,si1801,no1803,te1805,encaja1808(la pistaOCRtodo desde1801 es falsa precisión). Segunda línea grande te1812,lo1814,digo1817; sólido1818. Detrás joven con máscara, mantiene frase pequeña superior hasta1842; dice te lo digo. f1826 aparece no basey50%,perdemos1831,el1840,tiempo1843,ninguno1850,de1860,los1862,dos1866 (OCRconfunde inicio «dos»desde1862 con «los»). Acción/cámara comienza aumentar desde1835: picado se aproxima a cubo, figuras y frasejerárquica viajan hacia arriba en perspectiva y salen. f1841 primera línea borrosa haciaarriba,f1843fragmentoencaja,f1844textoanteriorfantasma,f1846ningunoprimerafrase. El subtítulo base mantiene y50% aunque cámara viaja/rota. f1873 corte negro,34f hasta1906. Voz dos termina≈1869; cola audio pendiente espectro.
+
+
+## 3. Subtítulos base
+Blanco bold reemplazante: y37% en continuación1293; y26% fijo1324–1446 a pesar acercamiento cara cruza texto; mitad derecha1559–1601, centra superior1602 sin corte. Rail50% fijo durante picado1835–1872 aunque escena gira. OmisionesOCR breves recuperadas dense y listaenavances; locuciónEl1293 ausente, manda1539 parafraseada envía1533. No regla automática de evitar rostro ni transcripciónliteral exacta. Todos los tiemposf/24s.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+No es un curso1519–1558 fraseacumulativa2líneas; palabraentra abajo y se asienta con movimientoindividual (native1519–1531), no escalauniforme grupo.4 plazas1624–1645: blur numeral1624–1628,ambosnítidos1629; máscara cabezaenplazas. Cuello/de/botella1749/1754/1757–1766 acumulaciónjerárquica. y si no te encaja1798–1808/te lo digo1812–1818; bloque persiste mientrasrailno perdemoseltiempo… alterna.
+
+
+## 5. Escenas gráficas
+Carbón1515–1558,44f=1.833s:4fvacíos,palabrasascendentes1519–1538,completa1540–1557,fragmentación1558,corte1559. Doslíneas centradas. Fondo/color no muestreadoPX, no hexadecimalexacto. Sin nuevo gráfico completo enresto.
+
+
+## 6. Superposiciones y efectos
+Contorno fino cálido delante de pelo/frente y relleno detrás1646–1725, native1648–1653 confirmado. Grosor exactono medido alpixel. Máscara en4plazas y frasecierre1798–1843. Cámara avanzada y perspectiva1324–1446/1835–1872 llevan figuras/textojerárquico fuera,palabrabasefija. No freeze ni B/N inequívocos.
+
+
+## 9. Reglas deducidas
+Lectura: explicación práctica se refuerza con producto físico/cajas; negaciónformativa se vuelve cartel2líneas y plazas escasez se vuelvecifra+palabra grande. CTA usa relleno detrás/contorno delante para preservar lectura mientras cara lo cruza; remate sale junto con cámara y mantiene rail. Cola sonora prolonga negro, no silencioinstantáneo.
+
+
+
+=== landing-A ===
+## 3. Subtítulos base
+
+Intro lateral blanca fina: Gracias primera tinta9, acumulación por/reservar hasta línea completa. Te ya aparece86 mientras sale Gracias (última línea89, fuera90), continúa movimiento ascendente; dejamos96 y resto forma Te dejamos un mensaje de los fundadores. Ponte209 y resto de auriculares/experiencia acumula otra frase. La salida409–426 no borra todo a la vez: letras desaparecen alrededor421/422, auriculares aún423 y teléfono tenue426. Buenas416 ya íntegra a tamaño/posición final (x≈50%,y≈77%); Soy451/Alejandro470 usan rail inferior. No trasladar entrada fina a rail.
+
+
+## 4. Énfasis
+
+*inaudible* lima desde inicio, y≈76%. Bienvenida no es rail hablado. Gracias se desplaza arriba al entrar: cy585.6f9,580.5f10,575.5f11,569f13,561.5f16,555f20,548f26,544f32,542f35,540f40; estabiliza≈537.5 hacia55. Ancho127/128px y alto38/39px permanecen casi constantes. Contrast metric aumenta; no equivale a alpha ni demuestra easing original.
+
+
+## 5. Escenas gráficas
+
+Tarjetas de prueba social integradas a la izquierda mientras persona ocupa derecha. Primera tarjeta: avatar632, cabecera635, estadísticas641–647,bio649–655,botones655–666. Segunda:681–683 aún vacía; avatar684,cabecera686,estadísticas692–698,bio700–710,botones711–723; estable hacia725. Hay revelado por partes, no demostración de zoom uniforme de captura entera.
+
+
+## 6. Superposiciones
+
+Iconos son auriculares y teléfono vibrando. Placa fundador entra517–536:517/518 streak horizontal, cargo519,nombre520 inicialmente solapados; cargo se despliega/reposiciona debajo hasta534, línea extiende hacia derecha523–536. No basta etiquetar entrada por izquierda. Placa y rail cumplen funciones diferentes, permanecen a través corte570.
+
+
+## 9. Reglas respaldadas
+
+Modelar overlay con ciclo independiente de plano; permitir solapamiento de salidas/entradas de frases. Entrada protagonista/lateral y sustitución ordinaria usan comportamientos distintos. Prueba social requiere elementos/mascaras de revelado por etapas. Landings no heredan ritmo de gancho vertical automáticamente.
+
+
+## 10. Dudas y alcance
+
+21/21densas y4/4suplementarias abiertas;11 rangos nativos abiertos. Curva Gracias: ROI completa evita clipping que contaminaba medición anterior. Distancia RGB/255 puede superar1 (máximo√3): métricas de contraste no son alpha. Nameplate no tiene aún curva de cada componente ni cada palabra del rail comprobada nativa. No certificar estudio forense exhaustivo. Final exacto del pictograma tras426 pendiente.
+
+
+
+=== landing-B ===
+## 3. Subtítulos base
+
+Landing base blanca THIN y77%, recurso50%; algunos verbos reciben bold grande. Frase probablemente producir anuncios que se acumula y13% desde833..884; rail simultáneo50% después945.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+funcionan913–944 detrás cabeza YCRT, sin outline delantero (nativo925/1009). Inteligencia artificial1205–1257 thin gigante delante cara. Paid1273.. ymedia1289.. relleno detrás cámara/persona youtline Paid delante(nativo1350). IA1596–1604 delantero objetos confirmado1605.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+No interludio de pantalla completa enB.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Lowerthird sale por fragmentación762–771. Flash localizado cara/mano/claqueta1261–1262, periferia conserva escena. Fisheye1008–1045 actor se acerca; decorado sin zoom proporcional. Descartado freeze1356–1503 por brazos/boom.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: hay tres jerarquías simultáneas en recurso( frase acumulada, gigante,rail). La máscara cambia por palabra; no reutilizar automáticamente segmentación única. Acercamiento de actor no es zoom digital. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== landing-C ===
+## 3. Subtítulos base
+
+Recurso base bold y50%; énfasis a izquierda/derecha. PerfilJordi rail thin77%, además adaptarse yrespuesta delmercado laterales; no reservan banda inferior.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+IAcontinuación hasta1623 frontalCRT. costos1667–1707,volumen1745–1770,velocidad1784–1861 con de producción1805.. frontal. adaptarse1959–2137 y a la respuesta del mercado1994–2055 delante de boca/cheek. Accum no sale completo enprimera detecciónOCR.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Blanco2138–39; Después2140tenue2141..2152 asciende28px cy579→551 con anchura259 estable yfundido. De2153 entra abajo yconjunto se refluye,2153–2164 termina alinea,2165salta−94px prepara invertir. Miles2191entra,tarjetablanca2196+,counter2213tenue,22141186€,22151271€,22161356€, etc, paso84/85porf enmedio. Sombralarga ydiscos con sombra; ghost horizontal cifra. No fin de countup dentroC.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Actor1776–1804 aproxima fisheye11.3→72.6% cara mientrasBGescalaestable. Jordi lowerthird1884–1898 entra conrayalinea yalpha, sale2128–2137. Discosgráfico yaexisten antes2242; milesdeeuros seborra2242en1f.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: verbos + objeto reciben dos niveles, y desaparecen entre unidades. Counter usa crecimiento visual inicial + ghost de cifra mientras valor aumenta. Línea acumula palabra por palabra, elOCR temprano no equivale aphraseentera. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== landing-D ===
+## 3. Subtítulos base
+Rótulo blanco fino a la izquierda, y≈50%, sustituye palabra. Para f2318, nosotros2323, como2340, para2349, nuestros2359, clientes2380–2406, hemos2407, desarrollado2419. Primer estado legible parece final en densa; nativo pendiente.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+Creador2789, UGC2813, Al2847, Editor2862, al equipo de2919–2938/Rodaje2945; detalle en avances y correcciones nativas. Base se desplaza de izquierda50% a centro77% para estos énfasis.
+
+
+## 5. Escenas gráficas (motion graphics)
+f2269–2317 contador: 5847€ en2269 →8305€2298 →8390€2299 →9915€2317; no alcanza10000€ antes del corte visible. Incrementos≈84/85€ por fotograma, recorrido casi lineal en este tramo. La cifra está en pastilla blanca con punta inferior y sombra larga suave hacia abajo/derecha. Hechos2272 gris tenue→2274 negro; con2280 tenue→2283/2284 negro; IA2288 tenue→2291 negro. Base izquierda en anuncios. No derivar curva de toda subida: el arranque cae en tramo anterior.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+Texto detrás del sujeto en recurso3165–3257; mano cruza edita y la tapa. Creador/UGC ocupan el lado izquierdo del busto. Sin reflection del overlay demostrada.
+
+
+## 9. Reglas que se deducen de este tramo
+Lectura: contador central actúa como evidencia cuantitativa; laterales finos construyen la frase por opacidad.
+
+
+## 10. Dudas y lo que no se pudo verificar
+Cobertura nativa por evento pendiente. La etiqueta de repetidos procede de similitud JPEG, no demuestra identidad exacta. OCR no es fontSize.
+
+
+
+=== landing-E ===
+## 10. Dudas
+Native por evento pendiente; OCR arranque tenue tardío; no tratar reflejos como cambios de texto.
+
+### Avance hojas88–91 · f3484–3765
+Figurante termina salir con zapatillas blancas/rosa en mano y papel. cojones?! amarillo derecha abajo hasta3516; desaparece3517. *¿Qué coño?* amarillo centro bajo3535–3574 corresponde reacción/comentario con asteriscos, no subtítulo fino principal. f3599 corte con acercamiento al adulto, joven queda desenfocado en bordeizquierdo. Amarillo a altura de pecho (centro x61%, y37–38%): Perdonad3623–3656 (voztranscrita perdona), chicos3657–3689; hueco3690–3720; pero3721–3764; hueco3765–3766. Diálogo con pausas y otra localización del caption, no regla universal60%. Camisa blanca, corbata violeta, zapatillas marcaNike colorrosa, iluminación naturalizadaestudiooscuro.
+
+### Avance hojas92–95 · f3766–4057
+Amarillo ¿con3767, mi3784, producto3791, funciona?3817–3859; hueco3860–3874. Corte3875 a making-of oscuro: silueta de equipo/operador frente a actriz sentada, anillo luz blanco, cuarto cálido, cámara lateral puerta; sin base ni énfasis hasta *Toma3* amarillo3943–3975. Corte3968 a actriz real UGC camiseta deportiva rayada azulblanco frente a cámara en dormitorio con lámparas cálidas; Toma3 atraviesa corte por7/8f y sale3976. Mujer levanta zapatilla blancaNike conamarillo/rosay ocupa casi todo encuadre; no overlay adicional ni base. No congelado: manos y zapatilla se mueven suavemente3983–4057.
+
+### Avance hojas96–99 · f4058–4352
+Actriz sostiene y rota zapatilla, se ven cordones y después suela; no overlay evidente4058–4312. Candidatos4060 y4240 NOcortes visibles; gesto/manos/cambio leve objeto. OCRvariantes VIXSAN corresponde marca física sobre zapatilla, no captions. f4313 es blanco fino sobre la zapatilla (poca legibilidad por fondo blanco), anticipa retorno f4319 al joven gris frontal. No/solo de VO4244/4278 carecen base visible en este recurso. f4319 mantiene es a izquierda y≈50%, luego la4321, misma4329, calidad4343. No blur evidente desdeprimerestadolegible de palabrasbase; nativo pendiente.
+
+### Avance hojas100–103 · f4354–4614
+Baseleft calidad hasta4368, que4369, un4379, UGC4391, real4422–4452.4453 hueco; es4456 aunqueOCRno, que4465, puede4473 (VOpuedes), sacar4485.4505cut mujer mismahabitación/zapato blanco, base centro y≈50% sobre objeto muchas4506, más4525, variaciones4540.4551 corte hombre barbadohabitación mismaforma, zapatillanegra/verde, palabra variaciones atraviesa corte; y4588, probar4597anticipa2f siguiente.4599corte mujerrizadapieloscura, mostrando suela blanca/rosa en diagonal, probar mantieneencuadrecentro. Montaje variaciones materializa distintos sujetos/productos con3planos≈0,8s cadauno.
+
+### Avance hoja104 · f4614–4687
+diferentes4617, corte4637 a joven rubio mismo dormitorio/lamparas,zapatillablanca/rosa; diferentes atraviesa corte.4647 detector es cambio palabra, no cambio de plano; estilos4648–4679.4681 corte a barbado polo negro estudio frontal, Con blanco fino izquierda y≈50%. ConVO4668, visual4681+13f. Hojas84–104 completas; cobertura native aún parcial.
+
+
+
+## 3. Subtítulos base
+Palabra reemplazante, blanca fina. x≈23%,y50% junto a busto frontal; centro50%,50% sobre recursos. Frente a zapatilla blanca pierde contraste4313–4318 y4506–4550. No evita siempre producto/cara. Se omiten No/solo4244/4278 en recurso. Es anticipa retorno4319 por6f; variaciones atraviesa4551; probar entra4597 2f antes4599; diferentes atraviesa4637. Native3620–3626 demuestra Perdonad entra3623 ya amarillo, geometría final sin preestado tenue. Native4317–4324 demuestra es igual antes/después corte; la4321 reemplaza instantánea sin fundido visible. Native4503–4511: corte4505 sin palabra1f y muchas4506 final inmediata.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+Completo3262–3292 continúa gigante del tramo anterior; entrada gris→blanco aproximada3268. Diálogo amarillo cambia locutor/acción: ¡¿Qué/cojones?!3453–3516, reacción *¿Qué coño?*3535–3574, Perdonad/chicos/pero/¿con/mi/producto/funciona?3623–3859. Tipografía fina grande frente a pecho adulto, no palabra gigante bold habitual. Pausas huecas3690–3720,3765–3766,3860–3874 explícitas.
+
+
+## 5. Escenas gráficas
+No gráfico a pantalla completa nuevo: recursos reales/cinematográficos y making-of. Agujero de papel pertenece a acción filmada. No asumir técnica generativa por contexto verbal.
+
+
+## 6. Superposiciones y efectos
+Rack focus real visible3411–3429: joven primer término pierde detalle y adulto fondo gana foco. Amarillo *Toma3*3943–3975 cruza corte3968 y desaparece3976. Nada escrito3976–4312. OCR sobre marca física de zapatilla descartado como overlay.
+
+
+## 9. Reglas deducidas
+Lectura: el editor distingue locución principal blanca de escena dialogada amarilla (3453–3859), respeta las pausas del diálogo y mantiene ciertas palabras sobre cortes (4319/4551/4599/4637). La demostración de variaciones cambia personas y producto conservando fondo dormitorio y posición general. El making-of permite una pausa visual extensa antes de remontar la explicación.
+
+
+
+=== landing-F ===
+## 10. Dudas
+Native por evento pendiente. Fondo/persona móviles, nofreeze aunque similitudmuchosframes.
+
+### Avance hojas109–112 · f4831–4979
+visuales4831gris,4832másblanco,4833–4835asienta,4836–4840blanco. Cuatrofilas permanecen hasta4979observado. Base fina se traslada al lado derecho x≈77%, y≈50%: que4854,de4859,forma4866,tradicional4878,serían4912,o4938 (OCRausente),muy4945,caros4960. Anticipaciones diferencias−6/+6f respectoVO al60fps; no decir sincroníaexacta. Lectura: espacioizquierdoocupadoenumaraciónobliga moverbase a ladoopuesto. Laspalabrasgrandes noquedanrectánguloredimensionablequecontinúa reacomodarse: primerassientansolasy lasanteriores permanecen.
+
+### Avance hojas113–116 · f4980–5222
+Base derecha o4984,directamente4991,imposibles5022,de5051,hacer5056. Cuatrofilas izquierda quedan intactas y se cortan5077 con cambio a oblicuodelmismobarbado. Base vuelveizquierda x23%, y50%: En5077,la5087,llamada5094,analizaremos5116,tu5154,caso5164,y5185,veremos5195,qué5214,puede5221. Plano oblicuo conserva aspecto oscuro y silla con reflejo fino blanco. Sin viñeta nueva discernible. Corte5077 visual6fantesVOEn5083, golpeonset5079+2fsegúnmapa (porvalidarspectro).
+
+### Avance hojas117–120 · f5223–5484
+Baseleft hacer5236,el5253,sistema5260,por5289,tu5301,negocio5310–5348. Corte5349 frontalMUCHOabiertomismosujeto, torso entero sentado manos juntas, cara≈19%dealtura; Nos5349visible (OCRomite y erravernos),vemos5357,dentro5371–5411. No lowerthird. Desde5412 nadaescrito. Mantiene sonrisa sentada en vezcerrarnegro. No congelado hasta5484: parpadea/cambiaojosyhombros f5438,etc. Sostén de cierre≈1,2s en este avance; el final completo se verifica acontinuación.
+
+### Avance hojas121–122 · f5486–5679
+Sonríe5486–5499; baja cabeza e inclina torso5501–5526; se levanta5529–5561 y sale por derecha5562–5594. Imagen va oscureciéndose progresivamente al levantarse/salir, no corte a negro al terminar frase.5595miniatura casi negra con +84similares; identidadexacta y últimoestadovisible deben comprobarse en supplemental/nativo. Densa105–122completa; native y audio parcialmentependientes. Cierre retiene toma real≈3s tras salida de subtítulo5412 hasta5595, accionesdelpresentador en vezfreeze.
+
+
+
+## 3. Subtítulos base
+Blanco fino por palabra. Izquierda50% hasta4736; durante lista ocupa derecha x≈77%,y≈50% desde4854; regresa izquierda5077; al cierre5349 centro50%,50%. Salida5412 deja88f hasta primer gesto grande5501 (1.467s), aunque hay sonrisa/parpadeo natural. No confundir retención de plano con inmovilidad exacta. Con/IA corrigen transcripción automática Con/ella; Nos visible5349 aunque OCR omite.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+Lista acumulativa4filas: planos4738,escenas4762,hooks4798,visuales4829. Native muestra gris al inicio, ascenso y aclarado con bordes definidos. CORRECCIÓN a primera impresión de dense: no reducción de escala demostrada. Hooks (ROIlimpio modo white umbral90):4798 top604px, width405,height118;4799 top601;4800 598;4801 596;4802 594;4803 592;4804 591;4805 589;4806 588;4807 586;4808 585. Altura118–119px constante, ancho405–407. Fuerza .324/.464/.556/.615/.670/.706/.736/.765/.791/.807/.828. Fuerza NO opacidad real: contraste condicionado por umbral. Planos4738–4747 top312/309/306/304/302/300/299/297/296/294; alto144–145 constante y ancho442. A partir4748 haircontaminaROI y no se usaaltura. Entradas continúan asentando más allá de7–9f; no definir duración exacta final de easing. Visuales tapado por hombro, texto detrás sujeto: oclusión parcial visible4829–4839.
+
+
+## 5. Escenas gráficas
+No interludio a pantalla completa: lista bold se superpone al plano real. No fondo nuevo ni cámara gráfica.
+
+
+## 6. Superposiciones y efectos
+Cuatrofilas quedan en posición hasta5076, desaparecen con corte5077. La fila visuales es ocluida por hombro. Oscurecimiento final durante salida, después negro5595; no medir gamma ni curva de fundido con miniaturas.
+
+
+## 9. Reglas deducidas
+Lectura: enumeración mantiene términos simultáneos como prueba de capacidades; mueve el subtítulo corto al hueco opuesto; cambio de ángulo resetea composición; despedida abre escala, retiene acción humana y deja cola musical sobre negro. Movimiento de entrada medido es ascenso desacelerado + contraste, no pop de escala uniforme.
+
+
+
+=== v1-pagado-A ===
+## 3. Subtítulos base
+
+Rail blanco sin fondo; cambia altura según plano. Acumulaciones ni→ni me→ni me han; con→con el→con el que. No es siempre una palabra ni siempre y60%.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+30 f35–88 detrás de cabeza con contorno delante; pagado f124–137; funcionan f334–350; mejor f476–496 verde y funciona f481. Ver rectificación f34 vacío/f35 primer30 en bitácora.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+300€ f187–189 alpha; por pieza f193–194. Variantes389–398 contador1,6,15,21,24,26,28,29,29,30. Variantes394tenue396plena. Movimiento416–438 recorta30 por arriba.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+B/N138–150 conserva sonrisa/movimiento. No congelado probado.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: cifra y promesa se promueven a gigante; pequeño rail puede acumular. Los interludios hacen deriva en perspectiva durante lectura. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v1-pagado-B ===
+## 3. Subtítulos base
+
+Rail blanco con acumulaciones; café y50%, libros a izquierda x27.5/y41%, terraza y66%. La geometría se adapta al plano.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+cara647, mensaje673,30verde695–714,conecta737–752. Curso1272+ relleno detrás de cabeza/outline delante. Ver bitácora para entradas por cuadro.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Gráfico charcoal VisualHub820–845: entrada821–826 sube y frena, deriva827–845; punto amarillo y texto crema. No confundir con overlay sobre recurso deV2.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Texto en arco2 meses aprendiendo983–1008. B/N1009–1035 con ojos/boca en movimiento. Inserto1128 entre café y terraza dura1f.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: el rail acompaña la jerarquía/escenario, no una posición universal. El B/N puede enfatizar sin congelar. Un inserto1f mantiene la palabra anterior. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v1-pagado-C ===
+## 3. Subtítulos base
+
+Curso combina para que con aprendas abajo. Ventana y60–62%; papeles y53.3%; bolsa y53%. Nos1825 vemos1830 dentro1836–1852.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+aprendas1290, a hacerlo1302; consistente1399–1418; vendan1684gigante con de verdad; Ups1441–1453pequeño. Jerarquías múltiple dentro misma frase.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Sin interludio propio. Curso sigue efecto de B.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Corte1372 cambia pelo/textura, no solo escala. Mac1454pan a llamada1480; problema1574–1597 persiste13f después del final vocalaprox1584.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: cambios visibles de identidad ilustran inconsistencia; remate mantiene palabra hasta próximo plano. Despedida cierra con mano y negro seco. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v2-churros-A ===
+## 3. Subtítulos base
+
+No y60% universal: wok49%, prep33.5%, onda60%, chef frontal50%. Palabra y56 es hayas, no has. Acumula con alguno de estos problemas73–109.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+crear19–43 delantero; la misma persona183–208; usable497–509; absurda539–568 con de554 y créditos556. Platos y cuerpo en movimiento durante B/N parcial.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Tiempo760–770 entra con reloj y raya roja; gruposlide771–778 a Dinero con hucha, frenada779–783; sostiene784–793. No contador.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Recuadros parpadean cara/manos209–217 y237–239. Onda horizontal268–292 sobre recurso oscurecido. Damero386/388/390..420 conserva borde corporal móvil. Desaturación539 mantiene platos dorados.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: errores del avatar se representan con recuadros, damero y cambios de color; no hacer frozen-frame por detectar repetición reducida. El grafismo cambia objeto por deslizamiento lateral. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v2-churros-B ===
+## 3. Subtítulos base
+
+Gráfico cards rail20%; radial946 negro70%; resource50%; con gigante rail de forma x34y42%; lateral1130+ x31y50%; comanda y59 al llegar utilizar.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+IA1111–1116 + creativa1117–1128 detrás cabeza/outline; profesional1136–1149 misma máscara. consistentes1335–1351,realistas1352–1368 ancho801px distinta altura;39$1630–1655 rail pequeño.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Perfiles861–880 llegada y contenidos escalonados; slide881–889; restaurante→auto905–911; círculo924–928; expansión radial941–948 con foto simultánea; carrusel954–1014. +501370 literal, no countup. Zoom/mueve texto1379–1411.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+LogoVisualHub1049–1056 asciende y frena; rayos1371 y anillo1370 detrás texto. Chef1551 acercado y retirada hasta1627; corte1628 no confirmado.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: marca puede subir desde abajo mientras rail continua. Contador debe distinguirse de cifra literal,+50 no cuenta. Match de contenido cards se hace dentro misma escena. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v3-ia-cara-A ===
+## 3. Subtítulos base
+
+Rail132+ y73%, no60. En Mac tipografía encima de cabeza, alterna blanco/lime acumulado. Exactamente175 medido472×63px; fit libre SFProSystemSemibold95/−73 mejorIoU.772, decisión SFProDisplayBold−60 queda estable.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+IA creativa6–17, producir más rápido39–64 heredado; soy la prueba108–131; Abres210..,generas232,no sale247,bien258,vuelves273,generar281,cambias293,el299,prompt303,pruebas320/otra322/app324. HORAS404yCREDITOS419 detrás cabeza contorno. QUÉ717–756 serif.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Cada generación599–615, fallada615–625,dinero633,y642,tiempo646; anillo607–608 aparece y encoge640–675. No rotación180° certificada.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+B/N189–208 nofreeze. Recuadro cara109/111/113 ybrillo112–119. Curvas iniciales Claude explicitamente heredadas, no re-medidas. Varias fuentes/jerarquías, no cuerpo98 universal.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: texto serif lima detrás de cabeza sirve para coste/clave; rail blanco/lima normal queda delante del cuerpo. Los cuadros pueden blink1f. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v3-ia-cara-B ===
+## 3. Subtítulos base
+
+49→56% sentada por transformación conjunta; diágonal Por eso creamos1043..1057. Persona caminando rail50%, busto60%; de pie arriba cabeza23–26%. Rail se oculta bajo relleno blanco de silueta.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+PROCESO764–787,RESULTADO794–823 serif negro. generaciones1192,consistencia1222,artificiales1259 lime SANS frontal sin máscara. NEGOCIO1390 y CLIENTES1410 serif lima tras cabeza contorno.39$1480–1512 serif detrás cabeza.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Gears760–763 crecen, delante PROCESO yrotan770–787. Conjunto sale arriba/izquierda788–796; RESULTADOentra abajo/derecha. Fondo lime1135–1176 solo rail negro normal.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Profiles906–942 llegan desde arriba con rotación/aplastamiento y quedan detrás pelo; interiores hacen scroll943–1041. Siluetas blancas1428,1430,1431,1433 opacas SOLOpersona, no glow. Nativo1431 confirma corte oculto de escala/fondo,1433 tapa Puedes,1434 vuelve color. CLIENTES cubre softbox pero detrás cabeza.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Lectura: representar sujeto blanco puede ocultar un corte y rótulos en cuatro frames discretos. La máscara es por cabeza/persona, no por toda geometría clara del set. Cards quietas exterior pueden tener scroll interior. Evidencia en los intervalos arriba y JSON. SF Pro −60 sigue decisión del estudio; fuentes serifs ythin requieren catálogo propio.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+Cobertura dense completa y suplemento pertinente completo, espectrogramas pertinentes completos; revisión nativa SELECTIVA, aún no cada evento ni cada transición base. Véase native_ranges para lista exacta. No declarar completed forense. No afirmar todos los contornos/curvas medidos a partir de miniaturas ni cuerpo universal98px. Las entradas nativas heredadas de Claude en V3-A conservan procedencia. Queda medición exacta de alpha, curva de movimiento, máscaras por cuadro y posible corte de pose no confirmado cuando bitácora lo indica. No separar SFX con certeza sin audición/stems.
+
+
+
+=== v5-maquina-A ===
+## 3. Subtítulos base
+
+Una palabra sustituye anterior. Lima x≈28%,y≈42% en59–113: imagina59–74/tener75–83/una84–90/máquina91–106/que107–113. Tras énfasis, Ahora197/hazme207/10 (dígito)216/anuncios225/más238/para244/mi249–252/producto253–272. Sin caption273–350,78f=2,603s.
+
+Narrador blanco centrox50/y50 desde Sí351/eso365/es375–376/lo377–379/que380–382/montamos383–401/Una402–412/put*413/máquina422/de430/fabricar434/creativos447/para462/tu468/negocio474–494. B/N eh495–497/un498–505/segundo506–522; después sin rail523–552.
+
+Personaje lima x42/y44: Venga553–573/ahora574/súbeme587/todo599/esto606/a615/Meta616–632/y633–639/gestióname640/todas659/las667/campañas675/automáticamente690–723;724vacío;Que725/yo733/no739/tengo743/ni755–757/idea758–783. OCR omite palabras cortas y a veces asigna180° a texto derecho. No hay «loca» nueva al caer tarjeta781+.
+
+Fontfit nativo f390 «montamos»: ROI312,910,767,1020; thr245, tinta438×68px. Helvetica Bold IoU0,905,cuerpo99,tracking−76 milésimas; SF Pro Display Bold0,815,cuerpo104,−83. Es ajuste de una muestra, no identificación inequívoca de fuente. El primer recorte cortaba parte superior y fue descartado. Se conserva decisión de implementación SF Pro−60; esta muestra requiere matizar la homogeneidad de fuente.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+Gancho lima acumulativo Si1/eres11/dueño20–25/de un31–34/e-commerce40, conjunto hasta58. Sólido detrás persona y contorno delantero. Nativa f8–14: f11eres ya tamaño casi final translúcido;12↑opacidad,13↑,14firme, leve descenso, no curva numérica medida. Nativa47–59: salida colectiva progresiva47–58;58sin título,59imagina. No asumir ancho OCR completo cuando sujeto oculta letras.
+
+¿Qué174 línea pequeña y coj***s? grande abajo. Nativa178–187:180primer rótulo translúcido ya ancho grande;181afirma,182desciende/asienta,183–187estable. Hasta196;197Ahora sustituye. «automáticamente»690–723 ocupa≈717px sin convertirse en titular: la palabra larga cabe al rail.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+No interludio gráfico completo independiente. Las tarjetas que expulsa máquina son parte visible de escena; no clasificar como overlay ni deducir CGI/práctico. Salen111+, vuelven271+, proliferan283–333; giro, sombras suelo y blur cuando pasan primer plano.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+En gancho detrás+contorno, oclusión cambia con cuerpo. f495 B/N: nativa493–498 confirma494color→495B/N con misma geometría de máquina hasta498. Suplementos499–521 también parecen retenidos. **Lectura: congelado aparente**; esta revisión no midió hashes de fuente para certificar igualdad geométrica exacta. f784+se atenúa imagen, rail sale antes del fin del tramo (ausente789+). Tarjeta hombro cae781–788.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Gancho acumula y usa profundidad por máscara(1–58); rail se coloca lateral al personaje(59–113), cambia a blanco/centro para narrador(351+), y lima para personaje(553+). Caption cruza cortes404/522. Anchura larga no basta para promover automáticamente un énfasis(690–723).
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia. Congelado495–521 pendiente auditoría hash/imagen de parent. Color numérico y sombras del texto no medidos.
+
+
+
+=== v5-maquina-B ===
+## 3. Subtítulos base
+
+Sin rail802–1031 salvo Okay!1032–1062 lima centrox51,7/y50,5. Locución durante atenuación no se escribe completa. Desde1063 blanco central espero, está1109,maquinita1117; después pequeñas a/un/coste/ridículo entre titulares. y1200/el1206/visual1211–1227; ya1228/lo1236/estás1240/viendo1247–1263 crecen≈200px; Hoy1264/en1272/día1274/compites1280/con1296/el1301 vuelven pequeños.
+
+Ring rail y≈24%: mismo1305/producto1313/o1331/uno1334/casi1341/idéntico1350/por1364/el1370/mismo1375/cliente1383/que1397/tu1400/competencia1404/Sabes1430/que1442/te1446/diferencia1448/ahí1466. El1478–1485 pasa x57/y44,6, después y/el/visual/tradicional1504+centro50. No justifica regla fija y60.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+produce1134–1199 blanca arriba x58/y30,w≈740,h≈200; creativos1146–1199 debajo x46/y66,w≈804,h≈165. No máscaras: rail a/un/coste/ridículo entre ellas. Nativa1132–1141:1132/33sin produce;1134primer rótulo translúcido casi ancho final;1135más fuerte;1136–1141asienta con leve caída. No1133 ni1135 como primerframe. Ambas palabras persisten sobre salto1184 y desaparecen juntas1200.
+
+visual1486–1503 gigante≈800×280 central entra con opacidad; fondo se atenua1478+. Oficina desde1546 rail gigante≈700–780px ancho,y36: cuesta1546/mucho1549;1557vacío;dinero1558/tiempo1569–1583/y1584. Texto sólido detrás del sujeto y contorno por delante. OCR180°falso.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Ring no es interludio tipográfico completo; dos personas, manos, tarjeta y caída rival dentro escena. Tarjeta eleva1394+, brillo1395+, cono al suelo1396–1397. Rival gris colapsa1458–1481. Cámara se acerca1480–1545; tarjeta vira recuadro rectangular brillante.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+B/N988–1011 conserva movimiento de manos/pelo: no congelado. Fondo se oscurece1478–1485 durante respuesta El visual; caption blanco conserva contraste. Blur cámara1074–1088 no afecta texto. Oficina1546+máscara+contorno.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Hold puede tener locución sin rail(802–1031). Dos grandes palabras persisten mientras rail menor sigue(1134–1199). Oscurecer imagen precede énfasis central(1478–1503). Rail grande puede usar máscara en oficina(1546+), y caption puede cruzar salto1184.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia. Hold802–987 pendiente prueba exacta. Corte1397 no se confirma como montaje; se interpreta iluminación con alcance nativo recortado. Entradas creativos/visual no tienen curva nativa medida.
+
+
+
+=== v5-maquina-C ===
+## 3. Subtítulos base
+
+Oficina rail gigante blanco y≈36%,sólido detrás+contorno delante: dolores1587–1598/de1599–1601/cabeza1602–1619/cuando1620–1629/intentas1630–1644/escalar1645–1666. Luego pequeño centro50: y1693/cuando1696/escalar1705/significa1718/sí1739/o1745/sí1748/Contratar1756–1774/o1775–76/delegar1777–1796.
+
+Rojo: Ay1826/maquinita1839/Y1865/ahora1870/quién1877/recoge1884/todo1896/esto?1908. Tarjetas: Bueno1919/nos1931–1936/tenemos1937/que1948/ir1952/Si1961/ya1968/inviertes1973/en1986/anuncios1991/cada2002/mes2009/y2018/quieres2021–2030/acabar2031/como2042/Deivid2049/pincha2063/abajo2075/y2087/vemos2091/personalmente2099–2120/si2121/encaja2127/con2137/tu2142/tienda2147–2163. personalmente reduce cuerpo para caber≈800px ancho/tinta120px. No fusionar nos/tenemos por error OCR.
+
+Almacén: La2164/máquina2170/te2181/la2184/instalamos2188/dentro2205/de2215–2218/tu2219/negocio2224–2246; sin rail2247+. Rail centro50 puede cubrir cara/objeto, no banda inferior reservada.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+A blanco1668 x23/y20; PAGAR rojo1675/76, grupo A PAGAR≈885px ancho,centro50/y20 hasta1796. La aparición roja exacta1675 frente1676 sigue pendiente control nativo. Lectura: visualiza «a pagar», juego verbal con apagar.
+
+Nativa1794–1803(59,860–60,160s):1794–96A PAGAR;1797todo título ausente1f;1798APAGAR ya nueva geometría roja final translúcida;1799↑,1800↑,1801–03firme. **Sustitución con 1f vacío**, no morph continuo de letras. APAGAR permanece hasta1918. Rail menor continúa debajo.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+No interludio gráfico completo. Papel y fuego pertenecen imagen de escena; no consta backend ni generación. Máquina lanza tarjetas mientras personaje revela posición.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Texto grande detrás+contorno en oficina. Luz roja del techo pulsa en extintor, no caption parpadeante. Push1826–1918 en metraje; título permanece fijo respecto pantalla. Cámara en oficina muy agitada y rail legible aunque blanco sobre papel. No freeze demostrado en este tramo.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Juego verbal puede sostener titular varias frases(1668–1918). Cambio de palabra no exige morph(1797–1801). Caption cruza corte a siguiente contexto(1787,2029,2150). Palabra larga se reduce para caber(personalmente2099–2120).
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia. Barrido/corte1675 y primera aparición PAGAR1675/76 pendientes nativa. No controles nativos exhaustivos de todos cortes, máscaras ni reducción personalmente.
+
+
+
+=== v6-ads90-A ===
+## 3. Subtítulos base
+
+Sin rail en el inicio de acción hasta aproximadamente f116. ¿Eres/dueño/de/un/e-commerce se acumula en el centro sobre la caja. Después f201 ¿Lo,206 tienes,223 todo,237 listo,254 para,264 el: palabra sustituida, pecho. En el acercamiento el rail ocupa zona de boca/rostro, ≈62% de alto: no aplicar una banda inferior fija. Otros atraviesa el corte f517; Te524/presento536/el561. El/sistema/de convive brevemente con marca hasta alrededor f604; luego la pantalla representa el nombre. Pones747/748,tu759,producto768 vuelven sobre la demostración. En selector: elige818,estilo847 y resto por palabra.
+
+
+## 4. Énfasis
+
+BLACK empieza f268; FRIDAY f283. La revisión nativa de la versión rev (inicio idéntico por hash) muestra opacidad pulsada, no texto estable: BLACK268 opaco,269 parcial,270 ausente,271 parcial,272 opaco,273 parcial,274 ausente,275 parcial,276 firme; FRIDAY283 opaco,284 parcial,285 ausente,286 parcial,287 opaco. Así f677, de700, fácil706: frase acumulativa gigante sobre el mecanismo.
+
+
+## 5. Escenas gráficas
+
+La máquina, caída de perfume y selector son la demostración de la promesa. No sustituir por efectos genéricos ni identificar su herramienta de creación por apariencia. Selector desplaza varias tarjetas horizontalmente; retrato escogido crece desde centro alrededor f899.
+
+
+## 6. Superposiciones
+
+Braud f563–642 está en pantalla y sigue perspectiva del aparato: es material dentro de escena, no título frontal. Separar trayectoria del objeto, cámara y rail. Partículas del gancho acompañan salida de caja; no se midió aún cada partícula.
+
+
+## 9. Reglas respaldadas
+
+Gesto principal puede iniciar antes del rail. Nombre del producto representado en escena no requiere duplicado ordinario. Énfasis estacional admite pulsos explícitos por fotograma. Rail puede atravesar corte conservando función verbal.
+
+
+## 10. Dudas y alcance
+
+45 hojas densas del vídeo completo y 21 suplementarias abiertas por root; este tramo corresponde a 15/8 según cobertura. Lectura reducida no certifica primer pixel de cada palabra; intervalos indicados sin nativa son observaciones densas. Curvas del selector, fuerza de blur y partículas aún sin series cuantitativas completas.
+
+
+
+=== v6-ads90-B ===
+## 3. Subtítulos base
+
+Selector: sistema908,produce929. Joven: produce, y957,edita965,el981,anuncio989,completo1009; esta versión original solo usa blanco. Completo sigue sobre teclado hasta1089; Le1091 pasa al interior y se suma das hacia1107. Oficina mueve rail al tercio superior ≈24–27%: Lo1511,instalamos1514,el1543,tu1549,negocio1557, luego y/lo/usas/cuando/quieras. No seguir la cara con ancla móvil en cada frame.
+
+
+## 4. Énfasis
+
+Generar f1127 crece/aparece bajo Le das, cruza pantalla y termina hacia1164. Voilà f1192 ya aparece sobre loading y cruza corte1197, hasta1263. ¡Y atención!1310–1353; que1354 y acumulación no1372/no es1385/no es un1392/servicio1398. Servicio persiste tras corte1407 hasta1446; Es1447 y tuyo1473 sobre oscurecimiento1467. Las/veces1694/que1704/quieras1714 forman jerarquía acumulativa. ¿1 aparece alrededor1750, anuncio1759 se agrega.
+
+
+## 5. Escenas gráficas
+
+Loading ocupa pantalla1151–1196 y produce resultado selfie. Mantener fase de acción/reacción: expresión del selfie continúa sin rótulo1263–1306. No confundir ese tiempo con imagen fija o hueco de OCR.
+
+
+## 6. Superposiciones
+
+No hay diálogo amarillo en este original sobre el joven; sí lo hay en rev y V7. Conservar variantes como decisiones editoriales separadas. Héroes pueden permanecer mientras cambia metraje. Rótulo servicio y pregunta ¿1 cruzan corte.
+
+
+## 9. Reglas respaldadas
+
+Separar narración y diálogo de actores por función, no fusionar colores en una frase. Énfasis puede empezar en plano previo al resultado. Tratamiento de color y movimiento del metraje son propiedades independientes. No imitar automáticamente anomalía de un fotograma.
+
+
+## 10. Dudas y alcance
+
+Todas densas y suplementarias abiertas. Nativa f946–952 confirmada; resto de primeras entradas requiere zoom nativo antes de fijar alpha/curva exacta. Las hojas muestran comportamiento, no proyecto original ni nombre de easing.
+
+
+
+=== v6-ads90-C ===
+## 3. Subtítulos base
+
+No1806 después del sostén de pregunta hasta1805. Versiones combina con10; para1904 cambia a rail pequeño. Para atraviesa mujer1910; testear, sin, creadores, que, fallan y sin/esperas atraviesan sucesión de ejemplos. CTA: Pincha2221,abajo2246,y2271,agenda2280,una2300,llamada2310,Analizaremos2335,tu2370,caso2377,y2404,veremos2412,si2430,el2439,sistema2444,sirve2468,para2487,tu2499,ecommerce2508,Nos2537,vemos2544,dentro2559. Tiempos de hoja, no todos primer pixel verificado.
+
+
+## 4. Énfasis
+
+10 visible desde1864 antes del nuevo selfie1867; versiones1875 se superpone. Tu2116 arriba, Q4 empieza2126 gigantesco sobre oficina, y rail subordinado en2172/tus2186/manos2198. Q4 sigue hasta2220. No duplicar en rail el significado que ya muestra héroe.
+
+
+## 5. Escenas gráficas
+
+Ejemplos de resultados mantienen producto como vínculo entre identidades. CTA abandona héroes y vuelve a persona/directo, sin sumar gráfica aleatoria en cada palabra.
+
+
+## 6. Superposiciones
+
+Texto ordinario sobre rostros/frascos en ejemplos; no hay regla de reservar fondo inferior. Q4 se sitúa alto sobre oficina. Muestras nativas2116/2121/2126/2131/2136/2141/2160/2200 muestran Q4 en zona alta sin interacción visible con cabeza en esos frames. Crece contraste y hay ligero asentamiento vertical; no prueban máscara ni contorno frontal. No asignar patrón masked por otros vídeos.
+
+
+## 9. Reglas respaldadas
+
+Rail puede mantener continuidad semántica mientras cambia ejemplo. Héroes se asignan a promesas/cifras, no a un porcentaje fijo de palabras. Cierre puede estabilizar montaje sin obligar golpe en cada sílaba.
+
+
+## 10. Dudas y alcance
+
+Cobertura reducida completa, medición nativa parcial. No fijar cuerpotipográfico de CTA a caja OCR ni copiar parámetros del AD3. Negro idéntico al anterior64f según hashes, no65duplicados.
+
+
+
+=== v6-ads90-rev-A ===
+## 3. Subtítulos base
+
+Sin rail0–115. Línea ¿Eres116/dueño133/de145/un154; e-commerce166–199 debajo mayor. La transcripción ¿Eres≈98 implica diferencia≈18f=300ms, pero marca acústica ±50ms y no escuchada.
+
+Tras corte200 residual ¿Eres dueño unframe; ¿Lo201/tienes206/todo223/listo237/para254/el264–267, blanco pequeño y36. Titular BLACK/FRIDAY?268+. Se retira313 y hasta349no rail; ¿Menos350/los372/anuncios381–417 pequeño y72.
+
+Desde418 rail blanco centro50: Pues418/se433/acabó440/depender457/de485/otros493–520/Te524/presento536–561/el562/sistema569/de593–602. Sin rail603–642 mientras máquina avanza. Pones747/tu759/producto769/eliges812–840/el841/estilo848–890/y891–900/el901. Caption conserva geometría sobre cámara móvil; y ya visible891 en dense, suplementos muestran892–899 (OCR897 tarde).
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+Gancho acumulativo blanco ¿Eres dueño de un116–199 y46, e-commerce166segunda línea mayor. Sin máscara discernible en este gancho. Titular BLACK268/FRIDAY?283 hasta312. Nativa266–287(4,433–4,783s): BLACK268opaco/269semi/270ausente/271semi/272opaco/273semi/274ausente/275semi/276+opaco. FRIDAY?283opaco/284semi/285ausente/286semi/287opaco. Entrada parpadea con período4f=66,7ms, no fundido monótono. No se deduce easing de flash.
+
+Así677/de701/fácil706: tres líneas grandes blancas x37y35/x28y51/x40y67, inclinación≈−5°; todas hasta746 y se retiran747. Geometría pantalla permanece aunque cámara baja al interior. No es el mismo sistema de palabra única de rail.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Braud563–642 es texto dentro pantalla de máquina: perspectiva sigue imagen, no demostrar capa3D tipográfica ni interludio gráfico. Carrusel835+ es UI dentro monitor. Tarjeta elegida aumenta891+,otras desaparecen; no enumerar texto ambiente como captions.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Partículas blancas al salir caja, dentro material visible. Corbata personaje sostiene móvil y azul lo aparta, no cursor. Rail permanece nítido durante cambios cámara. Titulares Así/de/fácil superpuestos a descenso del metraje, no warp evidente a cámara.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Acción puede abrir antes de locución y caption(0–115). Caption cambia altura por bloque(y46→36→72→50). Entrada de título puede parpadear y quedar fija(268–287). UI/logo dentro pantalla no basta para inferir overlay independiente(563+).
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia. F64/F818 candidatos no resueltos. Primera opacidad de ¿Eres y resto palabras acumulativas no controlada a nativa. OCR del cuerpo no es fontSize exacto.
+
+
+
+=== v6-ads90-rev-B ===
+## 3. Subtítulos base
+
+Blanco y50: sistema908/produce929–956/y957–964/edita965/el982/anuncio989/completo1009–1088. Amarillo segunda voz y71: quiero961/un978/UGC989–1039/de1040/este1057/avatar1064–1085; en1087/1088blanco completo aún visible, amarillo ausente. Nativa1028–1042 confirma UGC hasta1039 y de desde1040. No unir dos voces/rail como una cadena global. Ambos cruzan1074.
+
+Le1091primero poco visible (OCR omite),das1107,a1120 acumulan pequeña línea x47/y45. generar1127 debajo. ¡Y atención!1308–1353 unidad media y69;que1354–1370 pequeño y51. En almacén rail grande y30:Lo1511/instalamos1514–1541/en1542–1549/tu1550/negocio1557/y1581/lo1586/usas1593/cuando1612/quieres1632–1687. Se ve **quieres**, transcripción dice quieras; no corregir visual hacia transcripción. Sólido detrás cabeza+contorno delante en negocio/cuando/quieres. No180°real.
+
+Las1689 pequeña/veces1693 grande/que1705/quieras1711 pequeña acumulan tres niveles hasta1748,y45/53/60. Caption sigue nítido sobre oscuro.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+generar1127–1164. Nativa1126–1135(18,767–18,917s):1126limpio;1127primer translúcido;1128geometría≈final,w801h209,x48/y53;1129/30afirma;1131/32casi firme;1133+asentado. No medir valores de opacidad exactos. Le das a arriba; cruza1151.
+
+voilà1191primer semitransparente sobre UI, cruza1197 y llega1262, giganteh≈276centro52/50.1263–1307sin rail pese YVO≈1284.
+
+no1372x27/y45,es1384/un1391 acumula línea;servicio1398bajo≈754×229,grupo hasta1444;1445sin texto. Es1446x47/y44;fondo oscurece1463–74,tuyo1472translúcido→1477firme,≈728×368hasta1510, frente ambos sin máscara.
+
+¿1primero1750semi,1755firme;anuncio?1759se añade horizontal sobre cifra; combinado numeralh≈466. Persiste a siguiente tramo hasta1805.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Loading1165–1196 «Generando creativo…» y rueda/barra son UI del monitor, no rail. No declarar gráfico tipográfico completo separado. Composiciones de titulares sobre metraje: generar/voilà/no es un servicio/tuyo.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Dos railes diferenciados color/altura durante simulado avatar(961–1085). Oscurecimiento1463–1474 prepara palabra tuyo. Máscara+contorno en almacén; caption continúa delante después de ocultarse sólido. Keyboard enter1688cian; no asumir flash de corte en1116/1143.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Otra voz puede tener rail amarillo separado(961–1085). Caption puede continuar por cortes1074/1151/1197/1407. Opacidad puede entrar durante≈6f a escala casi final(generar1127–1133); OCR da primerframe legible tarde. Máscara+contorno también se usa en rail gigante palabra a palabra(1511–1687).
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia. Inserto948 intención incierta y comparativa hash parent pendiente. Entradasvoilà/servicio/tuyo/¿1 no controladas en nativa completa. Gran máscara de almacén sin medidas de espesor exacto.
+
+
+
+=== v6-ads90-rev-C ===
+## 3. Subtítulos base
+
+¿1 anuncio? continúa hasta1805;No…1806–1862 blanco pequeño centro50. Para1904–1918/testear1919–1963/Sin1964/creadores1983/que2010/fallan2020–2045/sin2046/esperas2065–2114.2115–2119sin texto.
+
+Dentro bloqueQ4,en2173 pequeño x65/y61/tus2184/manos2197, bajo titular, sobre actor/taza. CTA radial:Pincha2221–2244/abajo2245/y2271–2278/agenda2279/una2300/llamada2310–2334/Analizaremos2335–2369/tu2370–2376/caso2377–2402/y2403–2410/veremos2411–2431/si2432–2438/el2439–2443/sistema2444/sirve2468/para2487/tu2499/ecommerce2507–2536/Nos2537/vemos2544/dentro2559–2584. y existe aunque OCR omite. Rail centro50;último Nos/vemos/dentro baja51,7→54,1→55% con framing final; no siempre y60.
+
+Fontfit nativo f2350«Analizaremos»,ROI290,910,790,1015,thr230,tinta470×69. Helvetica BoldIoU0,910,cuerpo94,tracking−131milésimas;SF Pro Display Bold0,800,cuerpo95,tracking−112. Ajuste comparativo de una palabra larga, no fuente inequívoca ni regla de tracking global. Se preserva implementación SF Pro−60; prueba exige distinguir decisión de fuente observada.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+10 primer1864semi,h≈606,w≈812;versiones1873horizontal sobre cifra,1879–1903estable;ambos se retiran1904. Voz10 registrada1854→texto1864(+10f=166,7ms), no diferencia acústica certificada por escucha. Cifra delante sujeto, sin máscara.
+
+Tu2120pequeño arriba y11%;Q4 gigante primer2126semi. Nativa2124–2135(35,400–35,583s):2124/25soloTu;2126Q4semi ya tamaño casi final;2127/28↑opacidad;2130+legible;2134firme. W≈730/H≈597,y30,tilt≈−4,7°,no giro180. Tu/Q4hasta2220. No se dispone curva numérica de tinta por frame.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+No interludio gráfico completo independiente. Q4 compuesto sobre corbatado,10 sobre avatares; perfume visible pertenece recurso. Portátil/marca no rail.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+Botella se aproxima2060+ y ocupa cuadro2074, rail blanco sigue crisp. Q4inclinado no señal OCR180°. Cuadro10/Q4delante del sujeto. Gesto de señalar abajo del CTA pertenece actor, no cursor overlay. Negro2585sin outro.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Caption/título cruza múltiples cortes(1799/1867/1910/1960/2075). Entrada tipográfica puede causar falso candidato corte(2126),salida también(1904). Body del rail no es altura tinta: tinta69pxfontfit2350 no significa fontSize69. CTA retiene escala pequeña mientras título anteriorQ4es gigante.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia.10/versiones,No y salto2335 pendientes rangos nativos exhaustivos. Tracking fontfit tiene posible sesgo por palabra/antialias/compresión; dos muestras no justifican ley global nueva.
+
+
+
+=== v7-ads90-rev-A ===
+## 3. Subtítulos base
+
+Gancho una palabra por vez,blanco grande centroy50–52:¿Tu33–40/creador41–63/UGC64–97/te98–104/deja105–121/tirado122–142/a143–147/última148–169/hora?170–199/o200–212/¿te213–219/entrega220–238/algo239–250/que251–260/no261–272/se273–281/parece282–305/en306–310/nada311–327/a328–333/lo334–337/que338–344/pediste?345–373. No acumulación. Rail delante cuerpo/móvil/papel, sin máscara; ancho te≈229px frenteentrega≈745px demuestra que no se fija cada palabra a70%W. Tinta miniatura≈180–265px; no fontSizeexacto98 ni200.
+
+B/Nrail se reduce centro50:¿Pero374–385/qué386–389/es390–397/esto398–416. f374¿Pero ya firme y geometría final nativa. OCRomite es y fusionaesto. Colorrail pequeño Pues417/se429/acabó434–454/depender455–481/de482–488/otros489–519/Te520/presento532–557/el558/sistema564/de588. A/o/de existen aunqueOCRpierde.
+
+TranscripciónTu0frenteprimer¿Tu33=550ms;no sincroníaexacta medida por escucha.0–32tiene otra frase amarilla diagonal.
+
+
+## 4. Palabras de énfasis y tipografía cinética
+
+Nativa f10 lee amarillo exacto «*¡Yo me piro!*», diagonal superiorizquierda,visible0–32 sobre metraje. Texto simultáneo de otra voz/personaje; no rail blanco todavía. Gancho posterior todo tamaño grande, incluso conectores pequeños. A partir374 reduce radicalmente escala: no unúnico railconstante toda serie.
+
+
+## 5. Escenas gráficas (motion graphics)
+
+Sin interludio gráfico completo en0–597. Braud558+ integrado pantalla,mueve perspectiva con máquina; no clasificar overlay cinético3D. Los papeles son parte de metraje.
+
+
+## 6. Superposiciones y efectos sobre la imagen
+
+B/N374–416 con movimiento verificado;no congelado. Papel delante/detrás cuerpo no ocluye caption blanco;no reservar banda inferior. Rail ordinario vuelve mientras azul tira móvil,por encimapiel/ropa.
+
+
+## 9. Reglas que se deducen de este tramo
+
+Gancho puede elevar toda cadena palabra única(33–373),sin llenar mismoancho porpalabra. Textoamarillo puede ocupar comienzoenvezprimerrail(0–32). B/Nnoimplicacongelado(374–416). Caption atraviesacortes514/558 y UIenmetraje no overlay demostrable.
+
+
+## 10. Dudas y lo que no se pudo verificar
+
+La pasada completa por hojas no resuelve la precisión de todos los bordes de entrada/salida, ni curva/easing o RGBA exactos. Solo los rangos nativos enumerados en coverage se controlaron a resolución original. No atribuir SFX por espectro ni fps del metraje por +k. La relación con words.json tiene error ≈±50 ms. Cortes y tamaños leídos en miniatura conservan incertidumbre; no reconstruir trayectorias 3D ni separar cámara física de zoom digital sin evidencia. Candidato410 y entradas de rail grande no controlados nativamente todos. Amplitud tamaño se estima desde tinta/OCR, nofontSizefinal. Equivalencia variantes pendiente auditoría parent; s006suplemento contiene622/639fueraalcance, visto entero sin adjudicar cola.
+
+
+
+=== v7-ads90-rev-B ===
+## 3. Subtítulos base
+
+Pones743/tu754/producto764, luego elige813 y estilo842; selector hasta942. Produce924,y952,edita960,el978,anuncio984,completo1004. Segunda pista amarilla inferior: quiero949/un967/UGC978/de1029/este≈1046/avatar≈1051; de1029 confirmado por nativa1026–1033, UGC sigue hasta1028. La versiónV6rev no pasa a de hasta1040: no trasladar toda cola por−5. Completo blanco sigue1083 con amarillo ya ausente. Le1086 cruza interior1098; das se suma. Oficina1506 coloca rail alto: Lo,instalamos,el,tu,negocio,y,lo,usas,cuando,quieras. CTA2216+ rail pecho: Pincha/abajo/y/agenda/una/llamada/Analizaremos/tu/caso/y/veremos/si/el/sistema/sirve/para/tu/ecommerce/Nos/vemos/dentro. No todos inicios tienen primer pixel nativo.
+
+
+## 4. Énfasis
+
+Así672,de695,fácil701. Generar1122 bajo Le das, cruza pantalla1146 hasta≈1159. Voilà1187 antes del corte selfie1192, permanece hasta1258. ¡Y atención!1305+; no1367/no es1380/no es un1387/servicio1393 (atraviesa1402hasta1441),Es1442/tuyo1468 sobre dim. Las y veces1689,que1699,quieras1709; acumulación hasta1743. ¿1 ya tenue1744,anuncio1754, cruza1794 y termina1800;No1801.10 empieza1859 antes del selfie1862,versiones1870;para1899 y regreso al rail. Tu2111,Q4 empieza2121, luegoen2167/tus2181/manos2193; Q4hasta2215. Tiempos visuales de hoja salvo donde figura nativa.
+
+
+## 5. Escenas gráficas
+
+Marca en pantalla sigue perspectiva. Selector gira/desplaza tarjetas y expande retrato central. Loading y resultado tienen preparación compartida. Expresión selfie1259–1301 continúa sin rail; respetar gesto/reacción. Material generado o recreado no revela por sí mismo herramienta original.
+
+
+## 6. Superposiciones
+
+Blanco y amarillo pertenecen a funciones simultáneas diferentes; conservar speakerId/railId y rangos independientes. Amarillo vive alrededor70% mientras blanco≈50%. Héroe Q4 alto convive con rail subordinado. Oclusión exacta de Q4 pendiente nativa, no copiar máscara del héroe de otro vídeo.
+
+
+## 9. Reglas respaldadas
+
+Comparar variantes por anclas y luego por eventos individuales. Retiming local del diálogo rompe la equivalencia−5f aun cuando cortes y blanco comparten ese desplazamiento. Rótulos atraviesan planos y no necesitan reinicio al corte. Distinguir negro editorial de fin de audio.
+
+
+## 10. Dudas y alcance
+
+35/35densas y17/17suplementarias abiertas paraB. Suplementaria s006 compartida cruzaA/B, leída por root;16 restantes por revisorB. Dos rangos nativos abiertos. Detalles nativos de curvas/asentamiento de cada palabra aún pendientes; no certificar exhaustividad por hojas completas.
+

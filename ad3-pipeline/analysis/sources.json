@@ -1,0 +1,142 @@
+[
+  {
+    "name": "01-hook.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/01-hook.mp4",
+    "duration": 8.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "02-persona-escenario.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/02-persona-escenario.mp4",
+    "duration": 4.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "03-planos-voz.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/03-planos-voz.mp4",
+    "duration": 4.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "04-montaje-automatico.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/04-montaje-automatico.mp4",
+    "duration": 4.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "05-creatividad-completa.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/05-creatividad-completa.mp4",
+    "duration": 5.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "06-todo-encaje.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/06-todo-encaje.mp4",
+    "duration": 5.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "07-consistencia.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/07-consistencia.mp4",
+    "duration": 4.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "08-visual-hub-sistemas.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/08-visual-hub-sistemas.mp4",
+    "duration": 6.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "09-linea-produccion.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/09-linea-produccion.mp4",
+    "duration": 5.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  },
+  {
+    "name": "10-cta-39.mp4",
+    "path": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-16-ad3-pipeline-autonomo/entrega/10-cta-39.mp4",
+    "duration": 5.05,
+    "fps": "24/1",
+    "width": 1080,
+    "height": 1920,
+    "audio": [
+      [
+        "32000",
+        2
+      ]
+    ]
+  }
+]

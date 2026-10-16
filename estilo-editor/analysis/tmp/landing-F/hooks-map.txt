@@ -1,0 +1,64 @@
+# landing  f4796-f4828  (79.933-80.467 s)  60.000 fps  1920x1080
+# metraje estimado a ~26.07 fps dentro de la línea de 60.00; repetidos exactos en el tramo: 0
+f4738   78.967s  TEXTO «planos»  f4738-f5076 (339 f, 5.650 s)  centro 17.2%,31.8%  alto 156px (14.47%)  ancho 463px  ángulo 0.0°  id=545
+f4738   78.967s      · id=545 f4738: cx=329 cy=391 w=463 h=156 ang=0.0 conf=1 «planos»
+f4739   78.983s      · id=545 f4739: cx=329 cy=387 w=463 h=154 ang=0.0 conf=1 «planos»
+f4740   79.000s      · id=545 f4740: cx=329 cy=384 w=463 h=154 ang=0.0 conf=1 «planos»
+f4741   79.017s      · id=545 f4741: cx=329 cy=381 w=463 h=154 ang=0.0 conf=1 «planos»
+f4742   79.033s      · id=545 f4742: cx=329 cy=381 w=463 h=154 ang=0.0 conf=1 «planos»
+f4743   79.050s      · id=545 f4743: cx=329 cy=378 w=463 h=154 ang=0.0 conf=1 «planos»
+f4744   79.067s      · id=545 f4744: cx=329 cy=377 w=463 h=156 ang=0.0 conf=1 «planos»
+f4745   79.083s      · id=545 f4745: cx=329 cy=375 w=463 h=154 ang=0.0 conf=1 «planos»
+f4746   79.100s      · id=545 f4746: cx=329 cy=374 w=463 h=151 ang=0.0 conf=1 «planos»
+f4747   79.117s      · id=545 f4747: cx=329 cy=371 w=458 h=145 ang=0.0 conf=1 «planos»
+f4762   79.367s  TEXTO «escenasi»  f4762-f5076 (315 f, 5.250 s)  centro 20.3%,44.3%  alto 106px (9.81%)  ancho 586px  ángulo -0.3°  id=547
+f4762   79.367s      · id=547 f4762: cx=391 cy=526 w=586 h=103 ang=0.0 conf=1 «escenas»
+f4763   79.383s      · id=547 f4763: cx=391 cy=523 w=586 h=103 ang=-0.2 conf=1 «escenas»
+f4764   79.400s      · id=547 f4764: cx=391 cy=520 w=580 h=98 ang=0.2 conf=0.5 «escenas»
+f4765   79.417s      · id=547 f4765: cx=391 cy=518 w=580 h=98 ang=0.0 conf=1 «escenas»
+f4766   79.433s      · id=547 f4766: cx=391 cy=516 w=580 h=100 ang=0.0 conf=0.5 «escenas»
+f4767   79.450s      · id=547 f4767: cx=391 cy=515 w=580 h=98 ang=0.0 conf=1 «escenas»
+f4768   79.467s      · id=547 f4768: cx=391 cy=512 w=580 h=98 ang=0.0 conf=1 «escenas»
+f4769   79.483s      · id=547 f4769: cx=391 cy=512 w=580 h=98 ang=0.0 conf=0.5 «escenas»
+f4770   79.500s      · id=547 f4770: cx=391 cy=509 w=580 h=98 ang=0.0 conf=1 «escenas»
+f4771   79.517s      · id=547 f4771: cx=391 cy=509 w=580 h=98 ang=0.1 conf=0.5 «escenas»
+f4798   79.967s  TEXTO «hooks»  f4798-f5076 (279 f, 4.650 s)  centro 16.1%,57.8%  alto 137px (12.67%)  ancho 433px  ángulo 0.9°  id=551
+f4798   79.967s  TEXTO «C»  f4798-f4799 (2 f, 0.033 s)  centro 49.0%,97.9%  alto 22px (2.06%)  ancho 28px  ángulo 0.0°  id=552
+f4798   79.967s      · id=551 f4798: cx=308 cy=666 w=427 h=126 ang=1.1 conf=1 «hooks»
+f4799   79.983s      · id=551 f4799: cx=308 cy=663 w=427 h=126 ang=1.4 conf=1 «hooks»
+f4799   79.983s  GOLPE de audio t=79.990 s  z=9.7  agudo  subida -2.1 dB  nivel -11.0 dB
+f4800   80.000s  VOZ «hooks»  80.00-80.26 s (f4800-f4816)  [pausa previa 0.16 s]
+f4800   80.000s      · id=551 f4800: cx=308 cy=660 w=427 h=126 ang=1.6 conf=1 «hooks»
+f4801   80.017s      · id=551 f4801: cx=308 cy=659 w=432 h=134 ang=1.2 conf=1 «hooks»
+f4802   80.033s      · id=551 f4802: cx=308 cy=657 w=432 h=131 ang=1.4 conf=1 «hooks»
+f4803   80.050s      · id=551 f4803: cx=308 cy=656 w=432 h=134 ang=1.5 conf=1 «hooks»
+f4804   80.067s      · id=551 f4804: cx=310 cy=654 w=430 h=131 ang=1.3 conf=1 «hooks»
+f4805   80.083s      · id=551 f4805: cx=310 cy=654 w=430 h=131 ang=1.3 conf=1 «hooks»
+f4806   80.100s      · id=551 f4806: cx=310 cy=653 w=430 h=134 ang=1.3 conf=1 «hooks»
+f4807   80.117s      · id=551 f4807: cx=310 cy=652 w=430 h=137 ang=1.5 conf=1 «hooks»
+f4815   80.250s  TEXTO «du»  f4815-f4820 (6 f, 0.100 s)  centro 49.7%,98.4%  alto 28px (2.58%)  ancho 56px  ángulo 0.0°  id=553
+f4815   80.250s      · id=553 f4815: cx=950 cy=1062 w=42 h=25 ang=0.0 conf=0.3 «d»
+f4815   80.250s  GOLPE de audio t=80.250 s  z=9.1  agudo  subida -6.5 dB  nivel -13.8 dB
+f4816   80.267s  VOZ «y»  80.26-80.48 s (f4816-f4829)
+f4816   80.267s      · id=553 f4816: cx=950 cy=1062 w=42 h=25 ang=0.0 conf=0.3 «d»
+f4818   80.300s      · id=553 f4818: cx=954 cy=1063 w=56 h=28 ang=0.0 conf=0.3 «du»
+f4819   80.317s      · id=553 f4819: cx=954 cy=1063 w=56 h=28 ang=0.0 conf=0.3 «du»
+f4820   80.333s      · id=553 f4820: cx=954 cy=1063 w=56 h=28 ang=0.0 conf=0.3 «du»
+f5072   84.533s      · id=545 f5072: cx=329 cy=343 w=463 h=156 ang=0.0 conf=1 «planos» (final)
+f5072   84.533s      · id=547 f5072: cx=391 cy=480 w=586 h=106 ang=-0.3 conf=0.5 «escenas» (final)
+f5072   84.533s      · id=551 f5072: cx=308 cy=624 w=433 h=137 ang=0.9 conf=1 «hooks» (final)
+f5073   84.550s      · id=545 f5073: cx=329 cy=343 w=463 h=156 ang=0.0 conf=1 «planos» (final)
+f5073   84.550s      · id=547 f5073: cx=391 cy=480 w=586 h=106 ang=-0.2 conf=1 «escenas» (final)
+f5073   84.550s      · id=551 f5073: cx=308 cy=624 w=433 h=137 ang=0.9 conf=1 «hooks» (final)
+f5074   84.567s      · id=545 f5074: cx=329 cy=343 w=463 h=156 ang=0.0 conf=1 «planos» (final)
+f5074   84.567s      · id=547 f5074: cx=391 cy=480 w=586 h=106 ang=-0.2 conf=1 «escenas» (final)
+f5074   84.567s      · id=551 f5074: cx=308 cy=624 w=433 h=137 ang=0.9 conf=1 «hooks» (final)
+f5075   84.583s      · id=545 f5075: cx=329 cy=343 w=463 h=156 ang=0.0 conf=1 «planos» (final)
+f5075   84.583s      · id=547 f5075: cx=391 cy=480 w=586 h=106 ang=-0.5 conf=0.5 «escenas» (final)
+f5075   84.583s      · id=551 f5075: cx=308 cy=624 w=433 h=137 ang=0.9 conf=1 «hooks» (final)
+f5076   84.600s      · id=545 f5076: cx=329 cy=343 w=463 h=156 ang=0.0 conf=1 «planos» (final)
+f5076   84.600s      · id=547 f5076: cx=391 cy=481 w=586 h=109 ang=-0.4 conf=1 «escenas» (final)
+f5076   84.600s      · id=551 f5076: cx=308 cy=624 w=433 h=137 ang=0.9 conf=1 «hooks» (final)
+
+# CARA por plano (caja de Vision; alto en % del alto del fotograma, centro en %):
+f4796-f4828 (33 f): alto 46.5%→44.5%  centro x 48.1%→48.7%  y 49.7%→48.8%  (33 detecciones)

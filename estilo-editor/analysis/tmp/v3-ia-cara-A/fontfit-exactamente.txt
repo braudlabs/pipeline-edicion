@@ -1,0 +1,12 @@
+# v3-ia-cara f175 «exactamente»  tinta real: 472x63 px
+SF Pro (sistema) Semibold        IoU 0.772  cuerpo   95px  interletrado   -73 milésimas (-7.0px)
+SF Pro Display Bold              IoU 0.719  cuerpo   96px  interletrado   -99 milésimas (-9.5px)
+Helvetica Neue Medium            IoU 0.708  cuerpo   92px  interletrado   -80 milésimas (-7.4px)
+SF Pro (sistema) Bold            IoU 0.702  cuerpo   95px  interletrado   -94 milésimas (-8.9px)
+Helvetica Neue Bold              IoU 0.702  cuerpo   92px  interletrado  -100 milésimas (-9.2px)
+Helvetica Bold                   IoU 0.694  cuerpo   94px  interletrado  -100 milésimas (-9.4px)
+SF Pro (sistema) Heavy           IoU 0.637  cuerpo   92px  interletrado  -108 milésimas (-9.9px)
+Arial Bold                       IoU 0.621  cuerpo   92px  interletrado   -86 milésimas (-7.9px)
+Helvetica Neue Condensed Bold    IoU 0.562  cuerpo   94px  interletrado    -6 milésimas (-0.6px)
+Arial Black                      IoU 0.533  cuerpo   90px  interletrado  -189 milésimas (-17.0px)
+lámina: estilo-editor/analysis/tmp/v3-ia-cara-A/fontfit-exactamente.jpg (rojo = real, verde = candidata, amarillo = coinciden)

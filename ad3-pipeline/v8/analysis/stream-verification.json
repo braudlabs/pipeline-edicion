@@ -1,0 +1,17 @@
+{
+  "videoStreamSha256": "SHA256=489d6a284de4323645d39c4cfe52d58f688c66ffbc5e536ee488138d4bb8270e",
+  "identicalVideoStreamToV7": true,
+  "fullDecodeErrors": 0,
+  "finalAudioLevels": {
+    "input_i": "-14.16",
+    "input_tp": "-1.42",
+    "input_lra": "1.40",
+    "input_thresh": "-24.20",
+    "output_i": "-14.04",
+    "output_tp": "-1.50",
+    "output_lra": "1.50",
+    "output_thresh": "-24.09",
+    "normalization_type": "dynamic",
+    "target_offset": "0.04"
+  }
+}

@@ -1,0 +1,7 @@
+# Python del pipeline (probado con Python 3.14). Instalar con: pip install -r requirements.txt
+numpy
+pillow
+
+# Opcional: alineación forzada de la locución (MMS_FA). Pesado; solo si se realinean palabras.
+# torch
+# torchaudio

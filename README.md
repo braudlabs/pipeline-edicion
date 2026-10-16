@@ -1,4 +1,20 @@
-# Visual Hub — AD2 «La IA te sale cara» · V5
+# Pipeline de edición
+
+Anuncios verticales para Meta: montaje en Remotion, motion graphics en After Effects y Remotion, música con
+ElevenLabs, el estudio del estilo del editor de referencia y un motor editorial que lo aplica.
+
+- **Puesta en marcha:** [SETUP.md](SETUP.md). Los medios (metraje, renders, audio, mattes) y las tipografías no
+  están en el repo.
+- **Criterio de estilo:**
+  - [docs/direccion-de-arte](docs/direccion-de-arte/): la guía de dirección de arte;
+  - [estilo-editor/FEEDBACK-ALE.md](estilo-editor/FEEDBACK-ALE.md): el feedback acumulado;
+  - [estilo-editor/](estilo-editor/README.md): el estudio del editor.
+- **Instrucciones para agentes:** [AGENTS.md](AGENTS.md). Notas técnicas en [docs/notas-tecnicas](docs/notas-tecnicas/).
+- **Cada anuncio en su carpeta**, con su `CURRENT-VERSION.json` y un `CAMBIOS.md` por versión: `ad1-reedit` (Cocina),
+  `ad3-pipeline`, `ecommerce-andromeda` y `ecommerce-andromeda-claude`, `video-saas` (El Sistema, BRAUD Studio),
+  `birdieballs`, `mercadillo` y otros. El motor está en `motor-editor/`.
+
+## AD2 «La IA te sale cara» · V5 (proyecto de la raíz)
 
 Anuncio terminado en Remotion 4.0.525, con el bloque de cuentas construido y renderizado en After Effects 2026. Vertical 1080 × 1920, 48 fps, 3160 fotogramas, **65,833333 segundos**. Mantiene las 206 palabras de la locución y elimina 7,708333 s de esperas respecto a V2.
 

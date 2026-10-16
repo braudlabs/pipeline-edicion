@@ -1,0 +1,52 @@
+{
+  "status": "partial",
+  "sheets_viewed": [
+    "d015_f00905-f00990.jpg",
+    "d016_f00991-f01080.jpg",
+    "d017_f01081-f01124.jpg",
+    "d018_f01125-f01175.jpg",
+    "d019_f01176-f01224.jpg",
+    "d020_f01225-f01266.jpg",
+    "d021_f01267-f01361.jpg",
+    "d022_f01362-f01406.jpg",
+    "d023_f01407-f01446.jpg",
+    "d024_f01447-f01486.jpg",
+    "d025_f01487-f01543.jpg",
+    "d026_f01544-f01628.jpg",
+    "d027_f01629-f01704.jpg",
+    "d028_f01705-f01744.jpg",
+    "d029_f01745-f01784.jpg"
+  ],
+  "native_ranges": [
+    [
+      1126,
+      1135
+    ],
+    [
+      946,
+      952
+    ],
+    [
+      1028,
+      1042
+    ]
+  ],
+  "spectrograms_viewed": [
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png"
+  ],
+  "dense_pass": "completed",
+  "native_event_pass": "partial",
+  "supplemental_sheets_viewed": [
+    "s007_f00861-f00931.jpg",
+    "s008_f00932-f01007.jpg",
+    "s009_f01008-f01077.jpg",
+    "s010_f01078-f01288.jpg",
+    "s011_f01289-f01358.jpg",
+    "s012_f01359-f01571.jpg",
+    "s013_f01573-f01646.jpg",
+    "s014_f01648-f01830.jpg"
+  ],
+  "supplemental_pass": "completed"
+}

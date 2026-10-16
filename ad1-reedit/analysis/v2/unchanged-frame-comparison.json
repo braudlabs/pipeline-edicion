@@ -1,0 +1,46 @@
+[
+  {
+    "frame": 12,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 81,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 190,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 396,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 677,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 2506,
+    "meanPixelDifference": 0.26953912680041153
+  },
+  {
+    "frame": 2606,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 2678,
+    "meanPixelDifference": 0.0
+  },
+  {
+    "frame": 2760,
+    "meanPixelDifference": 0.02269724151234568
+  },
+  {
+    "frame": 3000,
+    "meanPixelDifference": 0.8103986625514403
+  },
+  {
+    "frame": 3350,
+    "meanPixelDifference": 0.0
+  }
+]

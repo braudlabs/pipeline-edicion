@@ -1,0 +1,211 @@
+{
+  "ok": true,
+  "category": "effect",
+  "operations": [
+    {
+      "name": "effect.add",
+      "description": "Add an effect to a layer by matchName. Use ae_do project.list_effects (or effect.list_on_layer on a reference layer) to find matchNames.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "matchName",
+          "type": "string",
+          "required": true,
+          "description": "Effect matchName (e.g. 'ADBE Gaussian Blur 2')"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Custom display name for the effect"
+        }
+      ]
+    },
+    {
+      "name": "effect.remove",
+      "description": "Remove an effect by its 1-based index within the layer's Effects group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "effectIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based effect index"
+        }
+      ]
+    },
+    {
+      "name": "effect.list_on_layer",
+      "description": "List all effects currently applied to a layer with their matchNames and properties.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        }
+      ]
+    },
+    {
+      "name": "effect.set_property",
+      "description": "Set a property value on an effect. Property path is relative to the effect (e.g. ['Blurriness'] for Gaussian Blur).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "effectIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based effect index"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path within the effect"
+        },
+        {
+          "name": "value",
+          "type": "any",
+          "required": true,
+          "description": "Value to set"
+        },
+        {
+          "name": "time",
+          "type": "number",
+          "required": false,
+          "description": "If set, creates a keyframe at this time"
+        }
+      ]
+    },
+    {
+      "name": "effect.move",
+      "description": "Reorder an effect within a layer's effect stack (PropertyBase.moveTo). Effect order changes the render result.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "effectIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based index of the effect to move"
+        },
+        {
+          "name": "toIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based target position in the stack"
+        }
+      ]
+    },
+    {
+      "name": "effect.set_dropdown_items",
+      "description": "Set the menu items of a Dropdown Menu Control effect (Property.setPropertyParameters, AE 17.0.1+) \u2014 the key API for MOGRT dropdowns. Item strings must be unique; \"-\" inserts a separator. AE re-creates the control (references from earlier calls become invalid); this op preserves the effect's display name across that re-creation.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "effect",
+          "type": "any",
+          "required": true,
+          "description": "1-based effect index or effect name (a Dropdown Menu Control)"
+        },
+        {
+          "name": "items",
+          "type": "array",
+          "required": true,
+          "description": "Menu item strings, e.g. [\"Red\", \"Green\", \"-\", \"Custom\"]"
+        }
+      ]
+    },
+    {
+      "name": "effect.get_dropdown_items",
+      "description": "Read a Dropdown Menu Control's items (Property.propertyParameters, AE 26.0+), current 1-based selection, and its text (valueText).",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "effect",
+          "type": "any",
+          "required": true,
+          "description": "1-based effect index or effect name (a Dropdown Menu Control)"
+        }
+      ]
+    }
+  ]
+}

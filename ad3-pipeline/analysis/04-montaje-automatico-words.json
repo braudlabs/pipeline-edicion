@@ -1,0 +1,94 @@
+{
+  "text": " hasta los cortes y los subtítulos se ensamblan automáticamente.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.86,
+      "text": " hasta los cortes y los subtítulos se ensamblan automáticamente.",
+      "tokens": [
+        50364,
+        10764,
+        1750,
+        11278,
+        279,
+        288,
+        1750,
+        7257,
+        6712,
+        28348,
+        369,
+        3489,
+        2173,
+        8658,
+        3553,
+        7656,
+        23653,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2031463861465454,
+      "compression_ratio": 0.9701492537313433,
+      "no_speech_prob": 0.00027026282623410225,
+      "words": [
+        {
+          "word": " hasta",
+          "start": 0.0,
+          "end": 0.28,
+          "probability": 0.7998844981193542
+        },
+        {
+          "word": " los",
+          "start": 0.28,
+          "end": 0.48,
+          "probability": 0.9943246245384216
+        },
+        {
+          "word": " cortes",
+          "start": 0.48,
+          "end": 1.08,
+          "probability": 0.9848715960979462
+        },
+        {
+          "word": " y",
+          "start": 1.08,
+          "end": 1.24,
+          "probability": 0.9860357046127319
+        },
+        {
+          "word": " los",
+          "start": 1.24,
+          "end": 1.34,
+          "probability": 0.994500994682312
+        },
+        {
+          "word": " subtítulos",
+          "start": 1.34,
+          "end": 2.02,
+          "probability": 0.9940399726231893
+        },
+        {
+          "word": " se",
+          "start": 2.02,
+          "end": 2.3,
+          "probability": 0.9750677347183228
+        },
+        {
+          "word": " ensamblan",
+          "start": 2.3,
+          "end": 2.84,
+          "probability": 0.6891374289989471
+        },
+        {
+          "word": " automáticamente.",
+          "start": 2.84,
+          "end": 3.86,
+          "probability": 0.9863331317901611
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

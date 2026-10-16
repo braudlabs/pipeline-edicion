@@ -1,0 +1,178 @@
+{
+  "ok": true,
+  "category": "font",
+  "operations": [
+    {
+      "name": "font.list",
+      "description": "List installed fonts with postScriptName/family/style (app.fonts, AE 24.0+). Use postScriptName with text.set_style. Filter with familyContains.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "familyContains",
+          "type": "string",
+          "required": false,
+          "description": "Case-insensitive substring match on family name"
+        },
+        {
+          "name": "limit",
+          "type": "number",
+          "required": false,
+          "description": "Max results (default 200)"
+        }
+      ]
+    },
+    {
+      "name": "font.list_missing",
+      "description": "List fonts that are missing or substituted in the current project (app.fonts, AE 24.0+). Pair with project.replace_font to fix.",
+      "readOnly": true,
+      "params": []
+    },
+    {
+      "name": "font.info",
+      "description": "Full FontObject details for a font (AE 24.0+): names, location, Adobe Fonts / substitute flags, and variable-font design axes (designAxesData/designVector). Look up by postScriptName, or by family (+ optional style).",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "postScriptName",
+          "type": "string",
+          "required": false,
+          "description": "PostScript name (preferred lookup)"
+        },
+        {
+          "name": "family",
+          "type": "string",
+          "required": false,
+          "description": "Family name (used when postScriptName omitted)"
+        },
+        {
+          "name": "style",
+          "type": "string",
+          "required": false,
+          "description": "Style name for family lookup (default 'Regular')"
+        }
+      ]
+    },
+    {
+      "name": "font.check_glyphs",
+      "description": "Check whether a font has glyphs for every character of a string (FontObject.hasGlyphsFor, AE 25.1+). Essential before setting CJK or symbol text on a Latin-only font.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "postScriptName",
+          "type": "string",
+          "required": true,
+          "description": "Font PostScript name"
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "required": true,
+          "description": "Characters to check"
+        }
+      ]
+    },
+    {
+      "name": "font.list_used",
+      "description": "List every font used in the project with its usage references (Project.usedFonts, AE 24.5+). The reverse of font.list_missing: answers 'which fonts does this project depend on'.",
+      "readOnly": true,
+      "params": []
+    },
+    {
+      "name": "font.list_duplicates",
+      "description": "List groups of installed fonts that share a PostScript name (FontsObject.fontsDuplicateByPostScriptName, AE 24.6+) \u2014 the usual cause of 'wrong font picked' surprises.",
+      "readOnly": true,
+      "params": []
+    },
+    {
+      "name": "font.get_lists",
+      "description": "Read the Character panel's Favorites and most-recently-used font family lists (AE 24.6+).",
+      "readOnly": true,
+      "params": []
+    },
+    {
+      "name": "font.set_favorites",
+      "description": "Replace the Character panel's Favorites font family list (FontsObject.favoriteFontFamilyList, AE 24.6+).",
+      "readOnly": false,
+      "appConfig": true,
+      "params": [
+        {
+          "name": "families",
+          "type": "array",
+          "required": true,
+          "description": "Font family names, in display order"
+        },
+        {
+          "name": "confirm",
+          "type": "boolean",
+          "required": true,
+          "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+        }
+      ]
+    },
+    {
+      "name": "font.set_substitution",
+      "description": "Configure automatic replacement of substituted (missing) fonts (AE 24.6+): matchPolicy postScriptName|ctfiEqual|disabled, and freezeSync to stop Adobe Fonts auto-sync on project open.",
+      "readOnly": false,
+      "appConfig": true,
+      "params": [
+        {
+          "name": "matchPolicy",
+          "type": "string",
+          "required": false,
+          "description": "postScriptName|ctfiEqual|disabled"
+        },
+        {
+          "name": "freezeSync",
+          "type": "boolean",
+          "required": false,
+          "description": "Suppress Adobe Fonts auto-sync of substituted fonts"
+        },
+        {
+          "name": "confirm",
+          "type": "boolean",
+          "required": true,
+          "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+        }
+      ]
+    },
+    {
+      "name": "font.get_default_for_script",
+      "description": "Read the default font for a writing script (FontsObject.getDefaultFontForCTScript, AE 25.1+): roman|japanese|arabic|cyrillic|greek|hebrew|thai|devanagari, or a raw CTScript member name like CT_HANGUL_SCRIPT.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "script",
+          "type": "string",
+          "required": true,
+          "description": "Writing script (see description)"
+        }
+      ]
+    },
+    {
+      "name": "font.set_default_for_script",
+      "description": "Set the default font AE uses for a writing script (FontsObject.setDefaultFontForCTScript, AE 25.1+). Script names as in font.get_default_for_script; font by PostScript name.",
+      "readOnly": false,
+      "appConfig": true,
+      "params": [
+        {
+          "name": "script",
+          "type": "string",
+          "required": true,
+          "description": "Writing script"
+        },
+        {
+          "name": "postScriptName",
+          "type": "string",
+          "required": true,
+          "description": "Font PostScript name"
+        },
+        {
+          "name": "confirm",
+          "type": "boolean",
+          "required": true,
+          "description": "Must be true. This operation changes the user's After Effects APPLICATION configuration (it persists beyond the project) \u2014 set it only when the user explicitly requested this change, never as a side effect of other work."
+        }
+      ]
+    }
+  ]
+}

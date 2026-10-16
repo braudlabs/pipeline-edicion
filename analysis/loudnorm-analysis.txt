@@ -1,0 +1,28 @@
+[aist#0:0/pcm_s16le @ 0x8a5400180] Guessed Channel Layout: stereo
+Input #0, wav, from 'public/assets/narration.wav':
+  Duration: 00:01:13.54, bitrate: 1024 kb/s
+  Stream #0:0: Audio: pcm_s16le ([1][0][0][0] / 0x0001), 32000 Hz, stereo, s16, 1024 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s16le (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Stream #0:0: Audio: pcm_s16le, 192000 Hz, stereo, s16, 6144 kb/s
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s16le
+size=N/A time=00:00:19.90 bitrate=N/A speed=39.6x elapsed=0:00:00.50    size=N/A time=00:00:41.30 bitrate=N/A speed=  41x elapsed=0:00:01.00    size=N/A time=00:01:03.90 bitrate=N/A speed=42.4x elapsed=0:00:01.50    [Parsed_loudnorm_0 @ 0x8a4c509c0] 
+{
+	"input_i" : "-21.33",
+	"input_tp" : "-3.84",
+	"input_lra" : "3.70",
+	"input_thresh" : "-31.69",
+	"output_i" : "-14.39",
+	"output_tp" : "-1.50",
+	"output_lra" : "3.00",
+	"output_thresh" : "-24.71",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.39"
+}
+[out#0/null @ 0x8a4c50180] video:0KiB audio:55156KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:01:13.60 bitrate=N/A speed=43.6x elapsed=0:00:01.68    

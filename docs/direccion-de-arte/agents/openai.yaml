@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dirección de arte · Motion"
+  short_description: "Diseño y motion según las referencias de Ale"
+  default_prompt: "Usa $motion-art-direction para diseñar y revisar los motion graphics de este vídeo según mis referencias y preferencias."

@@ -1,0 +1,12 @@
+# lafabrica-v2p1 f815 «millones»  tinta real: 579x156 px
+Helvetica Neue Condensed Bold    IoU 0.473  cuerpo  222px  interletrado   -98 milésimas (-21.9px)
+Helvetica Bold                   IoU 0.428  cuerpo  201px  interletrado  -154 milésimas (-30.9px)
+Arial Bold                       IoU 0.413  cuerpo  207px  interletrado  -164 milésimas (-34.0px)
+Arial Black                      IoU 0.401  cuerpo  219px  interletrado  -250 milésimas (-54.7px)
+Helvetica Neue Bold              IoU 0.399  cuerpo  205px  interletrado  -155 milésimas (-31.8px)
+SF Pro Display Bold              IoU 0.390  cuerpo  202px  interletrado  -125 milésimas (-25.2px)
+SF Pro (sistema) Heavy           IoU 0.389  cuerpo  194px  interletrado  -136 milésimas (-26.4px)
+Helvetica Neue Medium            IoU 0.384  cuerpo  205px  interletrado  -133 milésimas (-27.2px)
+SF Pro (sistema) Semibold        IoU 0.384  cuerpo  202px  interletrado  -105 milésimas (-21.3px)
+SF Pro (sistema) Bold            IoU 0.379  cuerpo  200px  interletrado  -121 milésimas (-24.3px)
+lámina: estilo-editor/analysis/tmp/lafabrica-v2p1-B/fontfit-millones.jpg (rojo = real, verde = candidata, amarillo = coinciden)

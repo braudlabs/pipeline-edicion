@@ -1,0 +1,134 @@
+{
+  "text": " Si tienes una agencia, una marca o produces para clientes, necesitas una línea de producción.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.64,
+      "text": " Si tienes una agencia, una marca o produces para clientes, necesitas una línea de producción.",
+      "tokens": [
+        50364,
+        4909,
+        20716,
+        2002,
+        623,
+        10974,
+        11,
+        2002,
+        30582,
+        277,
+        14725,
+        1690,
+        6423,
+        279,
+        11,
+        11909,
+        14182,
+        2002,
+        37452,
+        368,
+        48586,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.19680349032084146,
+      "compression_ratio": 1.1176470588235294,
+      "no_speech_prob": 0.002862232504412532,
+      "words": [
+        {
+          "word": " Si",
+          "start": 0.0,
+          "end": 0.38,
+          "probability": 0.9419394731521606
+        },
+        {
+          "word": " tienes",
+          "start": 0.38,
+          "end": 0.6,
+          "probability": 0.9938734769821167
+        },
+        {
+          "word": " una",
+          "start": 0.6,
+          "end": 0.8,
+          "probability": 0.9467085003852844
+        },
+        {
+          "word": " agencia,",
+          "start": 0.8,
+          "end": 1.24,
+          "probability": 0.9937320351600647
+        },
+        {
+          "word": " una",
+          "start": 1.46,
+          "end": 1.52,
+          "probability": 0.9788894653320312
+        },
+        {
+          "word": " marca",
+          "start": 1.52,
+          "end": 1.84,
+          "probability": 0.9991112351417542
+        },
+        {
+          "word": " o",
+          "start": 1.84,
+          "end": 2.12,
+          "probability": 0.8938000798225403
+        },
+        {
+          "word": " produces",
+          "start": 2.12,
+          "end": 2.44,
+          "probability": 0.4801391363143921
+        },
+        {
+          "word": " para",
+          "start": 2.44,
+          "end": 2.68,
+          "probability": 0.9957815408706665
+        },
+        {
+          "word": " clientes,",
+          "start": 2.68,
+          "end": 3.22,
+          "probability": 0.9980481564998627
+        },
+        {
+          "word": " necesitas",
+          "start": 3.3,
+          "end": 3.76,
+          "probability": 0.9892453551292419
+        },
+        {
+          "word": " una",
+          "start": 3.76,
+          "end": 3.94,
+          "probability": 0.994499683380127
+        },
+        {
+          "word": " línea",
+          "start": 3.94,
+          "end": 4.16,
+          "probability": 0.9920787215232849
+        },
+        {
+          "word": " de",
+          "start": 4.16,
+          "end": 4.3,
+          "probability": 0.9987607002258301
+        },
+        {
+          "word": " producción.",
+          "start": 4.3,
+          "end": 4.64,
+          "probability": 0.9987188577651978
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

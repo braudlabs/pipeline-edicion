@@ -1,0 +1,91 @@
+{
+  "ok": true,
+  "result": {
+    "ok": true,
+    "total": 14,
+    "returned": 14,
+    "fonts": [
+      {
+        "postScriptName": "HelveticaNeue-CondensedBold",
+        "familyName": "Helvetica Neue",
+        "styleName": "Condensed Bold"
+      },
+      {
+        "postScriptName": "HelveticaNeue-CondensedBlack",
+        "familyName": "Helvetica Neue",
+        "styleName": "Condensed Black"
+      },
+      {
+        "postScriptName": "HelveticaNeue-UltraLight",
+        "familyName": "Helvetica Neue",
+        "styleName": "UltraLight"
+      },
+      {
+        "postScriptName": "HelveticaNeue-UltraLightItalic",
+        "familyName": "Helvetica Neue",
+        "styleName": "UltraLight Italic"
+      },
+      {
+        "postScriptName": "HelveticaNeue-Thin",
+        "familyName": "Helvetica Neue",
+        "styleName": "Thin"
+      },
+      {
+        "postScriptName": "HelveticaNeue-ThinItalic",
+        "familyName": "Helvetica Neue",
+        "styleName": "Thin Italic"
+      },
+      {
+        "postScriptName": "HelveticaNeue-Light",
+        "familyName": "Helvetica Neue",
+        "styleName": "Light"
+      },
+      {
+        "postScriptName": "HelveticaNeue-LightItalic",
+        "familyName": "Helvetica Neue",
+        "styleName": "Light Italic"
+      },
+      {
+        "postScriptName": "HelveticaNeue",
+        "familyName": "Helvetica Neue",
+        "styleName": "Regular"
+      },
+      {
+        "postScriptName": "HelveticaNeue-Italic",
+        "familyName": "Helvetica Neue",
+        "styleName": "Italic"
+      },
+      {
+        "postScriptName": "HelveticaNeue-Medium",
+        "familyName": "Helvetica Neue",
+        "styleName": "Medium"
+      },
+      {
+        "postScriptName": "HelveticaNeue-MediumItalic",
+        "familyName": "Helvetica Neue",
+        "styleName": "Medium Italic"
+      },
+      {
+        "postScriptName": "HelveticaNeue-Bold",
+        "familyName": "Helvetica Neue",
+        "styleName": "Bold"
+      },
+      {
+        "postScriptName": "HelveticaNeue-BoldItalic",
+        "familyName": "Helvetica Neue",
+        "styleName": "Bold Italic"
+      }
+    ]
+  },
+  "context": {
+    "project": {
+      "numItems": 0,
+      "dirty": false,
+      "file": null
+    },
+    "activeComp": null,
+    "selectedLayers": []
+  },
+  "logs": [],
+  "durationMs": 245
+}

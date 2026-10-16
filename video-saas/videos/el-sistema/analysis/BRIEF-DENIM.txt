@@ -1,0 +1,72 @@
+PIEZA DENIM — Levi's Trucker · try-on + macros
+Visual Hub · vídeo escaparate para la web · 9:16 · 1080p · 19,1 s
+
+──────────────────────────────────────────────
+MATERIAL
+──────────────────────────────────────────────
+01-tryon.mp4          7,0 s  Ella se pone la chaqueta y habla
+02-macro-sarga.mp4    4,0 s  La sarga en diagonal llenando el cuadro
+03-macro-boton.mp4    4,0 s  El botón de cobre entrando en el ojal
+04-macro-etiqueta.mp4 4,0 s  El pulgar levanta la etiqueta roja
+05-macro-puno.mp4     4,0 s  El puño doblándose, el desgaste empezando
+voz-en-off.mp3       19,1 s  La locución. ES LA COLUMNA VERTEBRAL DE LA PIEZA
+ancla.png                    El frame de referencia del que sale todo
+
+──────────────────────────────────────────────
+DECISIÓN DE AUDIO — LEER ANTES DE MONTAR
+──────────────────────────────────────────────
+La pieza va con VOZ EN OFF DE NARRADOR, no con la voz de ella.
+
+En el clip 01 ella habla. ESE AUDIO SE SILENCIA: se usa su imagen, no su
+voz. Motivo: mezclar una voz en primera persona con un narrador confunde
+sobre quién cuenta la historia — y además su take salió con acento latino,
+que al silenciarlo deja de ser un problema.
+
+Del clip 01 se conserva solo el crujido del denim, si se quiere, muy por
+debajo.
+
+──────────────────────────────────────────────
+MONTAJE — TIEMPOS MEDIDOS SOBRE LA LOCUCIÓN
+──────────────────────────────────────────────
+La pieza dura 19,1 s, lo que dura la locución. Los clips vienen más largos
+de lo que se usa: hay que RECORTARLOS. Los cortes caen en los silencios
+entre frase y frase, ya medidos sobre el audio.
+
+  0,0 –  4,5   01-tryon (MUDO)      «Una Trucker en denim crudo no se dobla.
+                                      Al principio te pelea.»
+                                     Usa los 4,5 s en los que se echa la
+                                     chaqueta a los hombros y se estira la
+                                     botonadura. Sobran 2,5 s del clip.
+
+  4,5 –  8,0   02-macro-sarga       «Sarga de doce onzas, sin lavar, sin
+                                      suavizante.»
+
+  8,0 – 11,1   03-macro-boton       «Botones de cobre. Remaches donde hace
+                                      falta.»
+                                     El botón tiene que entrar en el ojal
+                                     dentro de este tramo.
+
+ 11,1 – 15,7   04-macro-etiqueta    «Y esa etiqueta roja, cosida ahí desde
+                                      mil novecientos treinta y seis.»
+                                     Es el tramo más largo y el plano lo
+                                     aguanta: el pulgar levanta la etiqueta
+                                     justo en «mil novecientos».
+
+ 15,7 – 19,1   05-macro-puno        «A los dos meses deja de ser tuya y
+                                      empieza a ser tú.»
+
+──────────────────────────────────────────────
+RÓTULOS
+──────────────────────────────────────────────
+· Ningún rótulo está generado.
+· El cierre pide el logo sobre el último plano del puño, o un rótulo negro
+  detrás.
+· Subtítulos, opcionales. Si van, discretos: esta pieza se mira.
+· La marca se ve en la prenda (etiqueta roja, botones). No hace falta
+  rotularla dos veces.
+
+──────────────────────────────────────────────
+MÚSICA
+──────────────────────────────────────────────
+Cama grave y seca, con ritmo lento. Nada épico y nada alegre: el tono del
+texto es de oficio, no de celebración.

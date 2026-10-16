@@ -1,0 +1,833 @@
+{
+  "ok": true,
+  "category": "layer",
+  "operations": [
+    {
+      "name": "layer.create_solid",
+      "description": "Create a solid layer in a composition.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name",
+          "default": "Solid"
+        },
+        {
+          "name": "color",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1",
+          "default": [
+            1,
+            1,
+            1
+          ]
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "required": false,
+          "description": "Width in px (default: comp width)"
+        },
+        {
+          "name": "height",
+          "type": "number",
+          "required": false,
+          "description": "Height in px (default: comp height)"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_shape",
+      "description": "Create an empty shape layer.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_text",
+      "description": "Create a text layer: point text by default, paragraph (box) text when boxSize is given, vertical when orientation='vertical' (AE 24.2+). Point<->box conversion is not scriptable, so pick the right kind here.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "required": false,
+          "description": "Text content",
+          "default": ""
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name"
+        },
+        {
+          "name": "boxSize",
+          "type": "array",
+          "required": false,
+          "description": "[width, height] \u2014 creates paragraph (box) text instead of point text"
+        },
+        {
+          "name": "boxPosition",
+          "type": "array",
+          "required": false,
+          "description": "[x, y] top-left of the box in layer space (box text only)"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "required": false,
+          "description": "horizontal|vertical (vertical needs AE 24.2+)",
+          "default": "horizontal"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_null",
+      "description": "Create a null object layer.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_camera",
+      "description": "Create a camera layer.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name",
+          "default": "Camera"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_light",
+      "description": "Create a light layer.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name",
+          "default": "Light"
+        },
+        {
+          "name": "lightType",
+          "type": "string",
+          "required": false,
+          "description": "spot|parallel|point|ambient|environment (environment needs AE 24.3+ / Advanced 3D)",
+          "default": "spot"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_parametric_mesh",
+      "description": "Create a parametric 3D mesh layer (LayerCollection.addParametricMesh, AE 26.3+): cube|sphere|plane|cylinder|cone|torus. Best rendered with the Advanced 3D renderer (comp.set_renderer).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name",
+          "default": "Mesh"
+        },
+        {
+          "name": "meshType",
+          "type": "string",
+          "required": true,
+          "description": "cube|sphere|plane|cylinder|cone|torus"
+        }
+      ]
+    },
+    {
+      "name": "layer.delete",
+      "description": "Delete layers. comp supports pattern ('review_id_*'). layer supports index, name, 'selected', 'all'.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name/id/pattern (e.g. 'review_id_*')"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "Layer index, name, 'selected', or 'all'"
+        }
+      ]
+    },
+    {
+      "name": "layer.duplicate",
+      "description": "Duplicate a layer. Returns the new layer's index.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "newName",
+          "type": "string",
+          "required": false,
+          "description": "Name for the duplicate"
+        }
+      ]
+    },
+    {
+      "name": "layer.set_parent",
+      "description": "Set or clear a layer's parent. By default AE compensates the child's transform so it doesn't move; jump=true skips compensation (setParentWithJump) so the child adopts the parent's space.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based child layer index, or the layer name"
+        },
+        {
+          "name": "parentLayer",
+          "type": "any",
+          "required": true,
+          "description": "1-based parent layer index or name. Pass null or 0 to unparent.",
+          "nullable": true
+        },
+        {
+          "name": "jump",
+          "type": "boolean",
+          "required": false,
+          "description": "true = no transform compensation (setParentWithJump). Default false.",
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "layer.scene_edit_detection",
+      "description": "Run Scene Edit Detection on a video layer (Layer.doSceneEditDetection, AE 22.3+): find cuts in edited footage and mark or split at them.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "mode",
+          "type": "string",
+          "required": true,
+          "description": "markers (add layer markers) | split (split layer) | splitPrecomp (split + precompose each) | none (detect only)"
+        }
+      ]
+    },
+    {
+      "name": "layer.move",
+      "description": "Move a layer to a new stacking position (1 = top).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based current layer index, or the layer name"
+        },
+        {
+          "name": "toIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based target index, within 1..numLayers"
+        }
+      ]
+    },
+    {
+      "name": "layer.create_footage",
+      "description": "Add an existing project item (footage or comp) as a layer in a composition.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "sourceItemId",
+          "type": "number",
+          "required": true,
+          "description": "Project item id to use as source"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Layer name"
+        }
+      ]
+    },
+    {
+      "name": "layer.set_enabled",
+      "description": "Enable or disable a layer by name or index. Can target all comps matching a pattern.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name/id, or '*' for all comps, or 'review_id_*' for pattern match"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "Layer index (number) or name (string)"
+        },
+        {
+          "name": "enabled",
+          "type": "boolean",
+          "required": true,
+          "description": "true=visible, false=hidden"
+        }
+      ]
+    },
+    {
+      "name": "layer.set_guide",
+      "description": "Set guideLayer on/off for a layer. Can target all comps matching a pattern.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name/id, or '*' for all comps, or 'review_id_*' for pattern match"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "Layer index (number) or name (string)"
+        },
+        {
+          "name": "guide",
+          "type": "boolean",
+          "required": true,
+          "description": "true=guide layer, false=normal"
+        }
+      ]
+    },
+    {
+      "name": "layer.set_props",
+      "description": "Set basic layer properties. layer can be index, name, 'selected', or 'all'. Enum-valued attributes accept string names: quality (best|draft|wireframe), samplingQuality (bilinear|bicubic), frameBlendingType (off|frameMix|pixelMotion), autoOrient (off|alongPath|cameraOrPointOfInterest|charactersTowardCamera), blendingMode, lightType (spot|parallel|point|ambient|environment).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "Layer index, name, 'selected', or 'all'"
+        },
+        {
+          "name": "props",
+          "type": "object",
+          "required": true,
+          "description": "Object with keys to set, e.g. { name: 'foo', enabled: false, label: 5, threeDLayer: true }"
+        }
+      ]
+    },
+    {
+      "name": "layer.add_guide",
+      "description": "Add a ruler guide to a layer's Layer panel view (Layer.addGuide, AE 16.1+). Comp-panel guides live under comp.add_guide.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "required": true,
+          "description": "horizontal|vertical"
+        },
+        {
+          "name": "position",
+          "type": "number",
+          "required": true,
+          "description": "Position in px (y for horizontal, x for vertical)"
+        }
+      ]
+    },
+    {
+      "name": "layer.remove_guide",
+      "description": "Remove a Layer-panel ruler guide by its 0-based index (see layer.list_guides).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "guideIndex",
+          "type": "number",
+          "required": true,
+          "description": "0-based guide index"
+        }
+      ]
+    },
+    {
+      "name": "layer.move_guide",
+      "description": "Move an existing Layer-panel ruler guide to a new position (Layer.setGuide). Named move_guide because layer.set_guide already means the guide-LAYER flag.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "guideIndex",
+          "type": "number",
+          "required": true,
+          "description": "0-based guide index"
+        },
+        {
+          "name": "position",
+          "type": "number",
+          "required": true,
+          "description": "New position in px"
+        }
+      ]
+    },
+    {
+      "name": "layer.list_guides",
+      "description": "List a layer's Layer-panel ruler guides with orientation and position (AE 16.1+).",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        }
+      ]
+    },
+    {
+      "name": "layer.bounds",
+      "description": "Measure a layer's rendered bounds via sourceRectAtTime \u2014 essential for aligning/fitting text and shape layers. Returns layer-space rect and, when the host supports it, comp-space corners.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "time",
+          "type": "number",
+          "required": false,
+          "description": "Time in seconds (default: current comp time)"
+        },
+        {
+          "name": "includeExtents",
+          "type": "boolean",
+          "required": false,
+          "description": "Include pixel extents beyond the layer edges (default false)",
+          "default": false
+        }
+      ]
+    },
+    {
+      "name": "layer.convert_point",
+      "description": "Convert a point between layer source space and comp space (sourcePointToComp / compPointToSource, AE 13.2+; designed for text layers \u2014 evaluates at the first character at the given time).",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "direction",
+          "type": "string",
+          "required": true,
+          "description": "sourceToComp|compToSource"
+        },
+        {
+          "name": "point",
+          "type": "array",
+          "required": true,
+          "description": "[x, y] point to convert"
+        },
+        {
+          "name": "time",
+          "type": "number",
+          "required": false,
+          "description": "Evaluate at this time (default: current comp time)"
+        }
+      ]
+    },
+    {
+      "name": "layer.apply_preset",
+      "description": "Apply an animation preset (.ffx file) to a layer \u2014 applies effects/keyframes in one call.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "required": true,
+          "description": "Absolute path to the .ffx preset"
+        }
+      ]
+    },
+    {
+      "name": "layer.replace_source",
+      "description": "Replace a layer's source with another project item (footage or comp), keeping keyframes/effects. Set fixExpressions=false to skip expression rewriting.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "New source: project item id (number) or name (string)"
+        },
+        {
+          "name": "fixExpressions",
+          "type": "boolean",
+          "required": false,
+          "description": "Rewrite expressions that reference the old source (default true)",
+          "default": true
+        }
+      ]
+    },
+    {
+      "name": "layer.set_track_matte",
+      "description": "Set (or remove) a track matte on a layer. Uses AVLayer.setTrackMatte (AE 23.0+): the matte can be ANY layer in the comp \u2014 it does not need to sit directly above the target.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based index (or name) of the layer to apply matte TO"
+        },
+        {
+          "name": "matteLayer",
+          "type": "any",
+          "required": false,
+          "description": "Matte source layer: 1-based index or name. Ignored when matteType is 'none'."
+        },
+        {
+          "name": "matteType",
+          "type": "string",
+          "required": true,
+          "description": "alpha|alphaInverted|luma|lumaInverted|none"
+        }
+      ]
+    },
+    {
+      "name": "layer.set_blend_mode",
+      "description": "Set blending mode on a layer.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "mode",
+          "type": "string",
+          "required": true,
+          "description": "normal|add|multiply|screen|overlay|softLight|hardLight|difference|exclusion|colorDodge|colorBurn|darken|lighten|stencilAlpha|stencilLuma|silhouetteAlpha|silhouetteLuma"
+        }
+      ]
+    },
+    {
+      "name": "layer.split",
+      "description": "Split a layer at a given time. Creates a new layer that starts at the split time.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "time",
+          "type": "number",
+          "required": true,
+          "description": "Time in seconds to split at"
+        }
+      ]
+    },
+    {
+      "name": "layer.copy_to_comp",
+      "description": "Copy a layer from one comp to another.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Source comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index (or name) in source comp"
+        },
+        {
+          "name": "targetComp",
+          "type": "any",
+          "required": true,
+          "description": "Target comp name or id"
+        }
+      ]
+    },
+    {
+      "name": "layer.calculate_transform",
+      "description": "Calculate the transform that maps a 3D layer onto three corner points (AVLayer.calculateTransformFromPoints) - corner-pin style placement in 3D space. Calculation-only: returns anchorPoint/position/x-y-zRotation/scale without touching the layer \u2014 apply them with property.set / layer.set_props.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name (3D layer)"
+        },
+        {
+          "name": "topLeft",
+          "type": "array",
+          "required": true,
+          "description": "[x,y,z] world point for the layer's top-left"
+        },
+        {
+          "name": "topRight",
+          "type": "array",
+          "required": true,
+          "description": "[x,y,z] world point for the top-right"
+        },
+        {
+          "name": "bottomLeft",
+          "type": "array",
+          "required": true,
+          "description": "[x,y,z] world point for the bottom-left. The scripting guide names this pointBottomRight, but the implementation expects the bottom-left (the guide's own example passes bl): a true bottom-right returns the same placement with zScale skewed by sin(corner angle) \u2014 verified on AE 26.3."
+        }
+      ]
+    },
+    {
+      "name": "layer.info",
+      "description": "Full layer info incl. property trees and keyframes (same payload as ae_layer_info). Layer by 1-based index or name. includeProperties=false for the cheap summary.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index or layer name"
+        },
+        {
+          "name": "includeProperties",
+          "type": "boolean",
+          "required": false,
+          "description": "Walk the full property tree (default true)",
+          "default": true
+        }
+      ]
+    }
+  ]
+}

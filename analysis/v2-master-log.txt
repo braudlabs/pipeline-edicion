@@ -1,0 +1,29 @@
+Input #0, wav, from 'public/assets/v2/audio-mix-premaster.wav':
+  Metadata:
+    encoder         : Lavf63.1.101
+  Duration: 00:01:13.54, bitrate: 2304 kb/s
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+Stream mapping:
+  Stream #0:0 -> #0:0 (pcm_s24le (native) -> pcm_s24le (native))
+Press [q] to stop, [?] for help
+Output #0, wav, to 'public/assets/v2/audio-mix-normalized.wav':
+  Metadata:
+    ISFT            : Lavf63.1.101
+  Stream #0:0: Audio: pcm_s24le ([1][0][0][0] / 0x0001), 48000 Hz, stereo, s32 (24 bit), 2304 kb/s
+    Metadata:
+      encoder         : Lavc63.1.101 pcm_s24le
+size=    5888KiB time=00:00:21.09 bitrate=2286.0kbits/s speed=41.4x elapsed=0:00:00.50    size=   12032KiB time=00:00:43.29 bitrate=2276.4kbits/s speed=42.5x elapsed=0:00:01.02    size=   18176KiB time=00:01:04.99 bitrate=2290.7kbits/s speed=42.8x elapsed=0:00:01.52    [Parsed_loudnorm_0 @ 0x938c689c0] 
+{
+	"input_i" : "-14.10",
+	"input_tp" : "-0.10",
+	"input_lra" : "2.90",
+	"input_thresh" : "-24.33",
+	"output_i" : "-14.05",
+	"output_tp" : "-1.50",
+	"output_lra" : "2.70",
+	"output_thresh" : "-24.27",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.05"
+}
+[out#0/wav @ 0x938c68180] video:0KiB audio:20684KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.000482%
+size=   20684KiB time=00:01:13.60 bitrate=2302.2kbits/s speed=43.6x elapsed=0:00:01.68    

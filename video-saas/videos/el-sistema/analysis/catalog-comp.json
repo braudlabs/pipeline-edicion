@@ -1,0 +1,303 @@
+{
+  "ok": true,
+  "category": "comp",
+  "operations": [
+    {
+      "name": "comp.create",
+      "description": "Create a new composition.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "name",
+          "type": "string",
+          "required": true,
+          "description": "Composition name"
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "required": true,
+          "description": "Width in px"
+        },
+        {
+          "name": "height",
+          "type": "number",
+          "required": true,
+          "description": "Height in px"
+        },
+        {
+          "name": "fps",
+          "type": "number",
+          "required": true,
+          "description": "Frame rate"
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "required": true,
+          "description": "Duration in seconds"
+        },
+        {
+          "name": "bgColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1"
+        }
+      ]
+    },
+    {
+      "name": "comp.set_label",
+      "description": "Set label color on comps. Can target by name, id, or pattern (e.g. 'review_id_*').",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name/id, or pattern with '*' wildcard"
+        },
+        {
+          "name": "label",
+          "type": "number",
+          "required": true,
+          "description": "Label index (0=None, 1=Red, 2=Yellow, 3=Aqua, 4=Pink, 5=Lavender, 6=Peach, 7=Sea Foam, 8=Blue, 9=Green, 10=Purple, 11=Orange, 12=Brown, 13=Fuchsia, 14=Cyan, 15=Sandstone, 16=Dark Green)"
+        }
+      ]
+    },
+    {
+      "name": "comp.set_props",
+      "description": "Set composition properties (bgColor, workAreaStart, workAreaDuration, shutterAngle, motionBlur, etc.).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "props",
+          "type": "object",
+          "required": true,
+          "description": "Object with keys to set"
+        }
+      ]
+    },
+    {
+      "name": "comp.set_renderer",
+      "description": "Switch a comp's 3D renderer: classic3d | advanced3d | cinema4d (or a raw matchName from comp.list_renderers). Advanced 3D is required for 3D model layers, parametric meshes, and environment lights to render.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "renderer",
+          "type": "string",
+          "required": true,
+          "description": "classic3d|advanced3d|cinema4d, or an exact renderer matchName"
+        }
+      ]
+    },
+    {
+      "name": "comp.list_renderers",
+      "description": "List the comp's available 3D renderer matchNames, the current one, and the friendly-name mapping used by comp.set_renderer.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        }
+      ]
+    },
+    {
+      "name": "comp.set_work_area",
+      "description": "Set the work area start and duration on a composition.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "start",
+          "type": "number",
+          "required": true,
+          "description": "Work area start in seconds"
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "required": true,
+          "description": "Work area duration in seconds"
+        }
+      ]
+    },
+    {
+      "name": "comp.add_guide",
+      "description": "Add a horizontal or vertical guide line to a comp (AE 16.1+).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "orientation",
+          "type": "string",
+          "required": true,
+          "description": "horizontal|vertical"
+        },
+        {
+          "name": "position",
+          "type": "number",
+          "required": true,
+          "description": "Position in px (y for horizontal, x for vertical)"
+        }
+      ]
+    },
+    {
+      "name": "comp.remove_guide",
+      "description": "Remove a guide from a comp by its 0-based index (see comp.list_guides).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "guideIndex",
+          "type": "number",
+          "required": true,
+          "description": "0-based guide index"
+        }
+      ]
+    },
+    {
+      "name": "comp.set_guide",
+      "description": "Move an existing guide to a new position (Item.setGuide). Orientation cannot be changed after creation \u2014 remove and re-add instead.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "guideIndex",
+          "type": "number",
+          "required": true,
+          "description": "0-based guide index"
+        },
+        {
+          "name": "position",
+          "type": "number",
+          "required": true,
+          "description": "New position in px (y for horizontal, x for vertical)"
+        }
+      ]
+    },
+    {
+      "name": "comp.list_guides",
+      "description": "List all guides on a comp with orientation and position (AE 16.1+).",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        }
+      ]
+    },
+    {
+      "name": "comp.delete",
+      "description": "Delete a composition from the project.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        }
+      ]
+    },
+    {
+      "name": "comp.precompose",
+      "description": "Pre-compose selected layers into a new nested composition.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Source comp name or id"
+        },
+        {
+          "name": "layerIndices",
+          "type": "array",
+          "required": true,
+          "description": "Array of 1-based layer indices to precompose"
+        },
+        {
+          "name": "newName",
+          "type": "string",
+          "required": true,
+          "description": "Name for the new comp"
+        },
+        {
+          "name": "moveAll",
+          "type": "boolean",
+          "required": false,
+          "description": "Move all attributes into new comp (default true)",
+          "default": true
+        }
+      ]
+    },
+    {
+      "name": "comp.duplicate",
+      "description": "Duplicate a composition.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id to duplicate"
+        },
+        {
+          "name": "newName",
+          "type": "string",
+          "required": false,
+          "description": "Name for the duplicate"
+        }
+      ]
+    },
+    {
+      "name": "comp.info",
+      "description": "Comp details + per-layer summaries (same payload as ae_comp_info). As a batch.run child, lets the same call verify what a preceding mutation did.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        }
+      ]
+    }
+  ]
+}

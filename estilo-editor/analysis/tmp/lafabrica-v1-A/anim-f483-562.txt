@@ -1,0 +1,109 @@
+# lafabrica-v1  f483-f562  (20.125-23.417 s)  24.000 fps  1080x1920
+# metraje estimado a ~19.95 fps dentro de la línea de 24.00; repetidos exactos en el tramo: 0
+f485    20.208s  RÁFAGA de movimiento f485-f495 (0.458 s) mad_max=50.0
+f486    20.250s  CORTE (alta)  mad=50.02 hd=0.325 ratio=9.3
+f486    20.250s  VOZ «Instalar»  20.26-20.76 s (f486-f498)  [pausa previa 0.20 s]
+f486    20.250s  TEXTO «Instalara»  f486-f497 (12 f, 0.500 s)  centro 35.3%,27.3%  alto 154px (7.99%)  ancho 608px  ángulo 0.0°  id=292
+f486    20.250s  TEXTO «inin»  f486-f487 (2 f, 0.083 s)  centro 59.3%,45.9%  alto 14px (0.72%)  ancho 48px  ángulo 90.0°  id=293
+f486    20.250s  TEXTO «LDE»  f486-f487 (2 f, 0.083 s)  centro 55.4%,46.1%  alto 14px (0.73%)  ancho 45px  ángulo 90.0°  id=294
+f486    20.250s      · id=292 f486: cx=368 cy=497 w=636 h=156 ang=0.0 conf=1 «Instalar»
+f487    20.292s      · id=292 f487: cx=375 cy=504 w=622 h=148 ang=0.0 conf=1 «Instalar»
+f488    20.333s      · id=292 f488: cx=377 cy=522 w=620 h=179 ang=0.0 conf=1 «Instalar,»
+f488    20.333s  GOLPE de audio t=20.350 s  z=9.5  agudo  subida -2.9 dB  nivel -10.4 dB
+f489    20.375s      · id=292 f489: cx=408 cy=536 w=720 h=192 ang=0.2 conf=0.5 «Instalara»
+f490    20.417s      · id=292 f490: cx=381 cy=515 w=611 h=154 ang=0.0 conf=1 «Instalar»
+f491    20.458s      · id=292 f491: cx=382 cy=520 w=608 h=154 ang=0.0 conf=1 «Instalar»
+f492    20.500s      · id=292 f492: cx=348 cy=522 w=533 h=151 ang=0.0 conf=1 «Instala»
+f492    20.500s  GOLPE de audio t=20.480 s  z=7.6  agudo  subida -3.5 dB  nivel -13.0 dB
+f493    20.542s      · id=292 f493: cx=343 cy=525 w=525 h=151 ang=0.0 conf=0.5 «Instalal»
+f493    20.542s  GOLPE de audio t=20.550 s  z=6.5  agudo  subida -10.4 dB  nivel -18.7 dB
+f494    20.583s      · id=292 f494: cx=350 cy=526 w=528 h=154 ang=0.0 conf=0.5 «Instala»
+f495    20.625s      · id=292 f495: cx=364 cy=528 w=555 h=151 ang=0.0 conf=0.3 «Instala»
+f498    20.750s  VOZ «dentro»  20.76-21.04 s (f498-f505)
+f498    20.750s  TEXTO «dentro»  f498-f505 (8 f, 0.333 s)  centro 37.9%,30.0%  alto 229px (11.92%)  ancho 558px  ángulo 0.0°  id=297
+f498    20.750s      · id=297 f498: cx=406 cy=532 w=561 h=148 ang=0.0 conf=0.3 «dentra.»
+f499    20.792s      · id=297 f499: cx=408 cy=533 w=558 h=151 ang=0.0 conf=0.3 «dentrc.»
+f500    20.833s      · id=297 f500: cx=409 cy=576 w=555 h=232 ang=0.0 conf=0.3 «dentre-»
+f501    20.875s      · id=297 f501: cx=403 cy=536 w=544 h=151 ang=0.2 conf=0.3 «dentrc»
+f502    20.917s      · id=297 f502: cx=420 cy=578 w=578 h=229 ang=0.0 conf=0.3 «dentra»
+f504    21.000s      · id=297 f504: cx=406 cy=540 w=544 h=148 ang=0.0 conf=0.5 «dentro»
+f504    21.000s  GOLPE de audio t=21.010 s  z=9.6  agudo  subida -3.4 dB  nivel -17.0 dB
+f505    21.042s  RÁFAGA de movimiento f505-f511 (0.292 s) mad_max=16.1
+f505    21.042s  VOZ «del»  21.04-21.24 s (f505-f510)
+f505    21.042s      · id=297 f505: cx=412 cy=540 w=550 h=148 ang=0.0 conf=0.3 «dentro»
+f506    21.083s  TEXTO «del»  f506-f509 (4 f, 0.167 s)  centro 35.8%,28.3%  alto 142px (7.42%)  ancho 243px  ángulo 0.0°  id=299
+f506    21.083s      · id=299 f506: cx=388 cy=540 w=246 h=142 ang=0.0 conf=1 «del»
+f507    21.125s      · id=299 f507: cx=386 cy=540 w=243 h=142 ang=0.0 conf=1 «del»
+f508    21.167s  CORTE (media)  mad=16.12 hd=0.047 ratio=3.4
+f508    21.167s      · id=299 f508: cx=386 cy=543 w=243 h=142 ang=0.0 conf=1 «del»
+f509    21.208s      · id=299 f509: cx=388 cy=543 w=246 h=142 ang=0.0 conf=1 «del»
+f510    21.250s  CORTE (media)  mad=15.08 hd=0.046 ratio=3.2
+f510    21.250s  VOZ «negocio»  21.24-21.68 s (f510-f520)
+f510    21.250s  TEXTO «negocia»  f510-f521 (12 f, 0.500 s)  centro 32.4%,29.7%  alto 176px (9.16%)  ancho 522px  ángulo 0.0°  id=301
+f510    21.250s      · id=301 f510: cx=374 cy=564 w=580 h=179 ang=0.0 conf=0.5 «negocia»
+f511    21.292s      · id=301 f511: cx=368 cy=564 w=564 h=179 ang=0.0 conf=0.5 «negocid»
+f512    21.333s      · id=301 f512: cx=357 cy=565 w=541 h=176 ang=0.0 conf=0.5 «negocil»
+f513    21.375s      · id=301 f513: cx=357 cy=566 w=541 h=179 ang=0.0 conf=0.5 «negociy»
+f514    21.417s      · id=301 f514: cx=353 cy=568 w=533 h=176 ang=0.0 conf=0.5 «negoci»
+f515    21.458s      · id=301 f515: cx=350 cy=571 w=522 h=176 ang=0.0 conf=1 «negoci»
+f516    21.500s      · id=301 f516: cx=349 cy=571 w=519 h=176 ang=0.0 conf=1 «negoci»
+f517    21.542s      · id=301 f517: cx=349 cy=571 w=514 h=176 ang=0.0 conf=1 «negoci»
+f518    21.583s      · id=301 f518: cx=349 cy=571 w=514 h=176 ang=0.0 conf=1 «negoci»
+f519    21.625s      · id=301 f519: cx=349 cy=574 w=514 h=176 ang=0.0 conf=1 «negoci»
+f520    21.667s  VOZ «un»  21.68-21.98 s (f520-f528)
+f521    21.708s  RÁFAGA de movimiento f521-f527 (0.292 s) mad_max=13.1
+f522    21.750s  TEXTO «un»  f522-f525 (4 f, 0.167 s)  centro 36.0%,29.6%  alto 112px (5.81%)  ancho 193px  ángulo 180.0°  id=302
+f522    21.750s      · id=302 f522: cx=389 cy=566 w=194 h=110 ang=180.0 conf=1 «un»
+f523    21.792s      · id=302 f523: cx=389 cy=566 w=193 h=112 ang=180.0 conf=1 «un»
+f524    21.833s      · id=302 f524: cx=389 cy=568 w=193 h=109 ang=0.0 conf=1 «un»
+f525    21.875s      · id=302 f525: cx=389 cy=568 w=193 h=109 ang=0.0 conf=1 «un»
+f526    21.917s  TEXTO «sisteme»  f526-f533 (8 f, 0.333 s)  centro 34.2%,29.2%  alto 145px (7.56%)  ancho 530px  ángulo 1.9°  id=303
+f526    21.917s      · id=303 f526: cx=364 cy=558 w=527 h=145 ang=0.0 conf=1 «sisteme»
+f527    21.958s      · id=303 f527: cx=374 cy=558 w=541 h=145 ang=0.0 conf=0.3 «sistem»
+f528    22.000s  VOZ «sistema»  21.98-22.28 s (f528-f535)
+f528    22.000s      · id=303 f528: cx=367 cy=558 w=527 h=145 ang=0.0 conf=0.3 «sister»
+f529    22.042s      · id=303 f529: cx=370 cy=561 w=533 h=145 ang=2.0 conf=0.3 «sistenrf»
+f530    22.083s      · id=303 f530: cx=354 cy=564 w=502 h=145 ang=1.9 conf=0.5 «sistene»
+f531    22.125s      · id=303 f531: cx=371 cy=561 w=530 h=134 ang=0.0 conf=0.3 «sistenic»
+f531    22.125s  GOLPE de audio t=22.110 s  z=6.6  agudo  subida -6.0 dB  nivel -11.3 dB
+f532    22.167s      · id=303 f532: cx=370 cy=561 w=527 h=140 ang=1.4 conf=0.3 «sistenf»
+f532    22.167s  GOLPE de audio t=22.170 s  z=6.5  agudo  subida -7.4 dB  nivel -18.7 dB
+f533    22.208s      · id=303 f533: cx=364 cy=568 w=584 h=160 ang=0.6 conf=0.3 «sistenfa»
+f534    22.250s  TEXTO «creative»  f534-f547 (14 f, 0.583 s)  centro 33.8%,29.4%  alto 134px (6.98%)  ancho 508px  ángulo 0.0°  id=305
+f534    22.250s      · id=305 f534: cx=346 cy=562 w=480 h=142 ang=0.6 conf=0.5 «creatif»
+f535    22.292s  VOZ «creativo»  22.28-22.82 s (f535-f548)
+f535    22.292s      · id=305 f535: cx=342 cy=564 w=472 h=140 ang=0.7 conf=0.3 «creatik»
+f536    22.333s      · id=305 f536: cx=384 cy=572 w=560 h=152 ang=1.7 conf=0.3 «creative»
+f537    22.375s      · id=305 f537: cx=380 cy=568 w=552 h=144 ang=0.0 conf=0.3 «creatvo»
+f537    22.375s  GOLPE de audio t=22.380 s  z=10.9  agudo  subida -12.6 dB  nivel -19.8 dB
+f538    22.417s      · id=305 f538: cx=343 cy=561 w=469 h=134 ang=0.2 conf=0.3 «creati»
+f539    22.458s      · id=305 f539: cx=353 cy=562 w=483 h=137 ang=0.0 conf=0.5 «creativ»
+f540    22.500s      · id=305 f540: cx=351 cy=562 w=482 h=130 ang=0.5 conf=0.3 «creatm»
+f541    22.542s      · id=305 f541: cx=366 cy=564 w=508 h=134 ang=0.0 conf=0.5 «creativ»
+f542    22.583s      · id=305 f542: cx=384 cy=564 w=560 h=152 ang=0.0 conf=1 «creative»
+f543    22.625s      · id=305 f543: cx=370 cy=564 w=516 h=134 ang=0.5 conf=0.5 «creativi»
+f543    22.625s  GOLPE de audio t=22.630 s  z=10.2  agudo  subida -12.1 dB  nivel -22.7 dB
+f548    22.833s  VOZ «con»  22.82-23.12 s (f548-f555)
+f548    22.833s  TEXTO «con»  f548-f556 (9 f, 0.375 s)  centro 36.3%,30.1%  alto 117px (6.1%)  ancho 276px  ángulo 0.0°  id=306
+f548    22.833s      · id=306 f548: cx=392 cy=576 w=276 h=114 ang=0.0 conf=0.5 «con»
+f549    22.875s      · id=306 f549: cx=392 cy=576 w=276 h=114 ang=0.0 conf=0.5 «con»
+f550    22.917s      · id=306 f550: cx=392 cy=578 w=276 h=117 ang=0.0 conf=1 «con»
+f551    22.958s      · id=306 f551: cx=391 cy=579 w=273 h=114 ang=0.0 conf=1 «con»
+f551    22.958s  GOLPE de audio t=22.950 s  z=6.0  agudo  subida -10.8 dB  nivel -20.1 dB
+f552    23.000s      · id=306 f552: cx=391 cy=578 w=273 h=117 ang=0.0 conf=1 «con»
+f553    23.042s      · id=306 f553: cx=445 cy=576 w=400 h=139 ang=-4.9 conf=0.3 «conC»
+f554    23.083s      · id=306 f554: cx=391 cy=580 w=273 h=117 ang=0.0 conf=1 «con»
+f555    23.125s  VOZ «IA»  23.12-23.54 s (f555-f565)
+f555    23.125s      · id=306 f555: cx=391 cy=580 w=273 h=117 ang=0.0 conf=1 «con»
+f556    23.167s      · id=306 f556: cx=391 cy=580 w=273 h=117 ang=0.0 conf=1 «con»
+f558    23.250s  GOLPE de audio t=23.270 s  z=9.2  agudo  subida -2.5 dB  nivel -17.2 dB
+f561    23.375s  TEXTO «IA0»  f561-f563 (3 f, 0.125 s)  centro 42.6%,25.4%  alto 320px (16.67%)  ancho 520px  ángulo 0.0°  id=307
+f561    23.375s      · id=307 f561: cx=448 cy=488 w=496 h=320 ang=0.0 conf=0.3 «IA0»
+f562    23.417s      · id=307 f562: cx=460 cy=484 w=520 h=312 ang=0.0 conf=0.3 «1A0»
+f563    23.458s      · id=307 f563: cx=460 cy=484 w=520 h=312 ang=0.0 conf=0.3 «1A0»
+
+# CARA por plano (caja de Vision; alto en % del alto del fotograma, centro en %):
+f483-f485: sin cara (0 detecciones)
+f486-f507 (22 f): alto 22.5%→17.9%  centro x 79.9%→74.0%  y 32.8%→34.3%  (14 detecciones)
+f508-f509: sin cara (0 detecciones)
+f510-f562 (53 f): alto 20.4%→26.4%  centro x 73.2%→78.3%  y 39.0%→29.4%  (29 detecciones)

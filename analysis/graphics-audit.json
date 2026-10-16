@@ -1,0 +1,55 @@
+{
+  "overlaps": 0,
+  "intervals": [
+    {
+      "name": "Face proof",
+      "start": 133,
+      "end": 163
+    },
+    {
+      "name": "Failed hand",
+      "start": 322,
+      "end": 340
+    },
+    {
+      "name": "Failed label",
+      "start": 353,
+      "end": 368
+    },
+    {
+      "name": "Generation loop",
+      "start": 370,
+      "end": 410
+    },
+    {
+      "name": "Hours and credits",
+      "start": 485,
+      "end": 531
+    },
+    {
+      "name": "Process path",
+      "start": 913,
+      "end": 1007
+    },
+    {
+      "name": "Real profile Kurt",
+      "start": 1102,
+      "end": 1157
+    },
+    {
+      "name": "Real profile Elliot",
+      "start": 1157,
+      "end": 1209
+    },
+    {
+      "name": "Visual Hub bumper",
+      "start": 1266,
+      "end": 1306
+    },
+    {
+      "name": "Price and CTA",
+      "start": 1723,
+      "end": 1765
+    }
+  ]
+}

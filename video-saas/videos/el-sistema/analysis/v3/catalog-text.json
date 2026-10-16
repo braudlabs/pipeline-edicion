@@ -1,0 +1,841 @@
+{
+  "ok": true,
+  "category": "text",
+  "operations": [
+    {
+      "name": "text.set_content",
+      "description": "Set the text content of a text layer.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index or name (must be a TextLayer)"
+        },
+        {
+          "name": "text",
+          "type": "string",
+          "required": true,
+          "description": "New text string"
+        }
+      ]
+    },
+    {
+      "name": "text.set_style",
+      "description": "Set text styling on the whole document: font, fontSize, colors, tracking, leading, justification, caps, kerning, ligatures, paragraph indents/spacing, RTL direction, vertical baselines, digit set, and more. For a sub-range use text.set_style_range.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "font",
+          "type": "string",
+          "required": false,
+          "description": "Font postscript name (e.g. 'Arial-BoldMT')"
+        },
+        {
+          "name": "fontSize",
+          "type": "number",
+          "required": false,
+          "description": "Font size in px"
+        },
+        {
+          "name": "fillColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1"
+        },
+        {
+          "name": "strokeColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1"
+        },
+        {
+          "name": "strokeWidth",
+          "type": "number",
+          "required": false,
+          "description": "Stroke width in px"
+        },
+        {
+          "name": "tracking",
+          "type": "number",
+          "required": false,
+          "description": "Tracking value"
+        },
+        {
+          "name": "leading",
+          "type": "number",
+          "required": false,
+          "description": "Leading (line spacing) in px"
+        },
+        {
+          "name": "applyFill",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable fill"
+        },
+        {
+          "name": "applyStroke",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable stroke"
+        },
+        {
+          "name": "strokeOverFill",
+          "type": "boolean",
+          "required": false,
+          "description": "Render stroke over fill"
+        },
+        {
+          "name": "justification",
+          "type": "string",
+          "required": false,
+          "description": "left|center|right|fullLeft|fullCenter|fullRight|fullLastLineFull"
+        },
+        {
+          "name": "baselineShift",
+          "type": "number",
+          "required": false,
+          "description": "Baseline shift in px"
+        },
+        {
+          "name": "autoLeading",
+          "type": "boolean",
+          "required": false,
+          "description": "Use auto leading"
+        },
+        {
+          "name": "allCaps",
+          "type": "boolean",
+          "required": false,
+          "description": "All caps via fontCapsOption (setter needs AE 24.0+)"
+        },
+        {
+          "name": "smallCaps",
+          "type": "boolean",
+          "required": false,
+          "description": "Small caps via fontCapsOption (setter needs AE 24.0+)"
+        },
+        {
+          "name": "fauxBold",
+          "type": "boolean",
+          "required": false,
+          "description": "Faux bold (setter needs AE 24.0+)"
+        },
+        {
+          "name": "fauxItalic",
+          "type": "boolean",
+          "required": false,
+          "description": "Faux italic (setter needs AE 24.0+)"
+        },
+        {
+          "name": "horizontalScale",
+          "type": "number",
+          "required": false,
+          "description": "Horizontal scale (1 = 100%, setter needs AE 24.0+)"
+        },
+        {
+          "name": "verticalScale",
+          "type": "number",
+          "required": false,
+          "description": "Vertical scale (1 = 100%, setter needs AE 24.0+)"
+        },
+        {
+          "name": "tsume",
+          "type": "number",
+          "required": false,
+          "description": "Tsume (normalized 0-1, CJK spacing, setter needs AE 24.0+)"
+        },
+        {
+          "name": "kerning",
+          "type": "number",
+          "required": false,
+          "description": "Manual kerning amount (AE 24.0+)"
+        },
+        {
+          "name": "autoKernType",
+          "type": "string",
+          "required": false,
+          "description": "none|metric|optical (AE 24.0+)"
+        },
+        {
+          "name": "ligature",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable ligatures (AE 24.0+)"
+        },
+        {
+          "name": "noBreak",
+          "type": "boolean",
+          "required": false,
+          "description": "Prevent line breaks (AE 24.0+)"
+        },
+        {
+          "name": "autoHyphenate",
+          "type": "boolean",
+          "required": false,
+          "description": "Paragraph auto-hyphenation (AE 24.0+)"
+        },
+        {
+          "name": "everyLineComposer",
+          "type": "boolean",
+          "required": false,
+          "description": "true=Every-Line Composer, false=Single-Line (AE 24.0+)"
+        },
+        {
+          "name": "hangingRoman",
+          "type": "boolean",
+          "required": false,
+          "description": "Roman hanging punctuation (burasagari, AE 24.0+)"
+        },
+        {
+          "name": "firstLineIndent",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph first-line indent in px (AE 24.0+)"
+        },
+        {
+          "name": "startIndent",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph start indent in px (AE 24.0+)"
+        },
+        {
+          "name": "endIndent",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph end indent in px (AE 24.0+)"
+        },
+        {
+          "name": "spaceBefore",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph space before in px (AE 24.0+)"
+        },
+        {
+          "name": "spaceAfter",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph space after in px (AE 24.0+)"
+        },
+        {
+          "name": "fontBaselineOption",
+          "type": "string",
+          "required": false,
+          "description": "normal|superscript|subscript (AE 24.0+)"
+        },
+        {
+          "name": "baselineDirection",
+          "type": "string",
+          "required": false,
+          "description": "withStream|verticalRotated|verticalCrossStream (tate-chu-yoko, AE 24.0+)"
+        },
+        {
+          "name": "direction",
+          "type": "string",
+          "required": false,
+          "description": "leftToRight|rightToLeft paragraph direction (AE 24.0+)"
+        },
+        {
+          "name": "leadingType",
+          "type": "string",
+          "required": false,
+          "description": "roman|japanese leading model (AE 24.0+)"
+        },
+        {
+          "name": "lineJoinType",
+          "type": "string",
+          "required": false,
+          "description": "miter|round|bevel stroke joins (AE 24.0+)"
+        },
+        {
+          "name": "digitSet",
+          "type": "string",
+          "required": false,
+          "description": "default|arabic|hindi|farsi|arabicRtl (AE 24.0+)"
+        },
+        {
+          "name": "composerEngine",
+          "type": "string",
+          "required": false,
+          "description": "latinCjk|universalType (AE 24.0+; universalType needed for RTL)"
+        },
+        {
+          "name": "lineOrientation",
+          "type": "string",
+          "required": false,
+          "description": "horizontal|verticalRtl|verticalLtr (whole document only, AE 24.2+)"
+        }
+      ]
+    },
+    {
+      "name": "text.set_style_range",
+      "description": "Style a SUB-RANGE of a text layer (AE 24.3+): same attributes as text.set_style, applied to characters, paragraphs, or composed lines. Whole-document-only attributes (lineOrientation) are rejected by AE with a warning.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "rangeType",
+          "type": "string",
+          "required": false,
+          "description": "characters|paragraphs|lines (default characters)",
+          "default": "characters"
+        },
+        {
+          "name": "start",
+          "type": "number",
+          "required": true,
+          "description": "0-based start index (character, paragraph, or composed line)"
+        },
+        {
+          "name": "end",
+          "type": "number",
+          "required": false,
+          "description": "Exclusive end index. Default: characters \u2192 end of text; paragraphs/lines \u2192 start+1"
+        },
+        {
+          "name": "font",
+          "type": "string",
+          "required": false,
+          "description": "Font postscript name (e.g. 'Arial-BoldMT')"
+        },
+        {
+          "name": "fontSize",
+          "type": "number",
+          "required": false,
+          "description": "Font size in px"
+        },
+        {
+          "name": "fillColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1"
+        },
+        {
+          "name": "strokeColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1"
+        },
+        {
+          "name": "strokeWidth",
+          "type": "number",
+          "required": false,
+          "description": "Stroke width in px"
+        },
+        {
+          "name": "tracking",
+          "type": "number",
+          "required": false,
+          "description": "Tracking value"
+        },
+        {
+          "name": "leading",
+          "type": "number",
+          "required": false,
+          "description": "Leading (line spacing) in px"
+        },
+        {
+          "name": "applyFill",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable fill"
+        },
+        {
+          "name": "applyStroke",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable stroke"
+        },
+        {
+          "name": "strokeOverFill",
+          "type": "boolean",
+          "required": false,
+          "description": "Render stroke over fill"
+        },
+        {
+          "name": "justification",
+          "type": "string",
+          "required": false,
+          "description": "left|center|right|fullLeft|fullCenter|fullRight|fullLastLineFull"
+        },
+        {
+          "name": "baselineShift",
+          "type": "number",
+          "required": false,
+          "description": "Baseline shift in px"
+        },
+        {
+          "name": "autoLeading",
+          "type": "boolean",
+          "required": false,
+          "description": "Use auto leading"
+        },
+        {
+          "name": "allCaps",
+          "type": "boolean",
+          "required": false,
+          "description": "All caps via fontCapsOption (setter needs AE 24.0+)"
+        },
+        {
+          "name": "smallCaps",
+          "type": "boolean",
+          "required": false,
+          "description": "Small caps via fontCapsOption (setter needs AE 24.0+)"
+        },
+        {
+          "name": "fauxBold",
+          "type": "boolean",
+          "required": false,
+          "description": "Faux bold (setter needs AE 24.0+)"
+        },
+        {
+          "name": "fauxItalic",
+          "type": "boolean",
+          "required": false,
+          "description": "Faux italic (setter needs AE 24.0+)"
+        },
+        {
+          "name": "horizontalScale",
+          "type": "number",
+          "required": false,
+          "description": "Horizontal scale (1 = 100%, setter needs AE 24.0+)"
+        },
+        {
+          "name": "verticalScale",
+          "type": "number",
+          "required": false,
+          "description": "Vertical scale (1 = 100%, setter needs AE 24.0+)"
+        },
+        {
+          "name": "tsume",
+          "type": "number",
+          "required": false,
+          "description": "Tsume (normalized 0-1, CJK spacing, setter needs AE 24.0+)"
+        },
+        {
+          "name": "kerning",
+          "type": "number",
+          "required": false,
+          "description": "Manual kerning amount (AE 24.0+)"
+        },
+        {
+          "name": "autoKernType",
+          "type": "string",
+          "required": false,
+          "description": "none|metric|optical (AE 24.0+)"
+        },
+        {
+          "name": "ligature",
+          "type": "boolean",
+          "required": false,
+          "description": "Enable ligatures (AE 24.0+)"
+        },
+        {
+          "name": "noBreak",
+          "type": "boolean",
+          "required": false,
+          "description": "Prevent line breaks (AE 24.0+)"
+        },
+        {
+          "name": "autoHyphenate",
+          "type": "boolean",
+          "required": false,
+          "description": "Paragraph auto-hyphenation (AE 24.0+)"
+        },
+        {
+          "name": "everyLineComposer",
+          "type": "boolean",
+          "required": false,
+          "description": "true=Every-Line Composer, false=Single-Line (AE 24.0+)"
+        },
+        {
+          "name": "hangingRoman",
+          "type": "boolean",
+          "required": false,
+          "description": "Roman hanging punctuation (burasagari, AE 24.0+)"
+        },
+        {
+          "name": "firstLineIndent",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph first-line indent in px (AE 24.0+)"
+        },
+        {
+          "name": "startIndent",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph start indent in px (AE 24.0+)"
+        },
+        {
+          "name": "endIndent",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph end indent in px (AE 24.0+)"
+        },
+        {
+          "name": "spaceBefore",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph space before in px (AE 24.0+)"
+        },
+        {
+          "name": "spaceAfter",
+          "type": "number",
+          "required": false,
+          "description": "Paragraph space after in px (AE 24.0+)"
+        },
+        {
+          "name": "fontBaselineOption",
+          "type": "string",
+          "required": false,
+          "description": "normal|superscript|subscript (AE 24.0+)"
+        },
+        {
+          "name": "baselineDirection",
+          "type": "string",
+          "required": false,
+          "description": "withStream|verticalRotated|verticalCrossStream (tate-chu-yoko, AE 24.0+)"
+        },
+        {
+          "name": "direction",
+          "type": "string",
+          "required": false,
+          "description": "leftToRight|rightToLeft paragraph direction (AE 24.0+)"
+        },
+        {
+          "name": "leadingType",
+          "type": "string",
+          "required": false,
+          "description": "roman|japanese leading model (AE 24.0+)"
+        },
+        {
+          "name": "lineJoinType",
+          "type": "string",
+          "required": false,
+          "description": "miter|round|bevel stroke joins (AE 24.0+)"
+        },
+        {
+          "name": "digitSet",
+          "type": "string",
+          "required": false,
+          "description": "default|arabic|hindi|farsi|arabicRtl (AE 24.0+)"
+        },
+        {
+          "name": "composerEngine",
+          "type": "string",
+          "required": false,
+          "description": "latinCjk|universalType (AE 24.0+; universalType needed for RTL)"
+        },
+        {
+          "name": "lineOrientation",
+          "type": "string",
+          "required": false,
+          "description": "horizontal|verticalRtl|verticalLtr (whole document only, AE 24.2+)"
+        }
+      ]
+    },
+    {
+      "name": "text.measure",
+      "description": "Measure a text layer's composed layout: line/paragraph counts and character spans, per-line baselines (baselineLocs), box overflow. Range data needs AE 24.3+; missing fields come back null.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        }
+      ]
+    },
+    {
+      "name": "text.set_box",
+      "description": "Resize, reposition, or configure the box of a paragraph (box) text layer, including the AE 24.6 auto-fit and alignment controls. Point<->box conversion is NOT scriptable in AE \u2014 create the layer as box text from the start (layer.create_text with boxSize).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "boxSize",
+          "type": "array",
+          "required": false,
+          "description": "[width, height] of the text box"
+        },
+        {
+          "name": "boxPosition",
+          "type": "array",
+          "required": false,
+          "description": "[x, y] top-left of the box in layer space (AE 14.0+)"
+        },
+        {
+          "name": "autoFitPolicy",
+          "type": "string",
+          "required": false,
+          "description": "none|heightCursor|heightPreciseBounds|heightBaseline (AE 24.6+)"
+        },
+        {
+          "name": "verticalAlignment",
+          "type": "string",
+          "required": false,
+          "description": "top|center|bottom|justify (AE 24.6+)"
+        },
+        {
+          "name": "firstBaselineAlignment",
+          "type": "string",
+          "required": false,
+          "description": "ascent|capHeight|emBox|leading|xHeight|legacyMetric|minimumValueAsian|minimumValueRoman|typoAscent (AE 24.6+)"
+        },
+        {
+          "name": "firstBaselineAlignmentMinimum",
+          "type": "number",
+          "required": false,
+          "description": "Manual minimum offset of the first composed line (AE 24.6+)"
+        },
+        {
+          "name": "insetSpacing",
+          "type": "number",
+          "required": false,
+          "description": "Inset spacing between box bounds and text, px (AE 24.6+)"
+        }
+      ]
+    },
+    {
+      "name": "text.set_variable_font",
+      "description": "Set variable-font design axes on a text layer (AE 24.0+). axes maps axis tags to values, e.g. { \"wght\": 700, \"wdth\": 85 }. Unspecified axes keep their current values. Discover a font's axes with font.info (designAxesData).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "axes",
+          "type": "object",
+          "required": true,
+          "description": "Axis tag -> value map, e.g. { \"wght\": 700 }"
+        }
+      ]
+    },
+    {
+      "name": "text.add_font_axis",
+      "description": "Add a variable-font axis property to a text animator (PropertyGroup.addVariableFontAxis, AE 26.0+) so the axis can be animated/keyframed. Targets an existing animator by 1-based index or name, or creates a new one.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "axisTag",
+          "type": "string",
+          "required": true,
+          "description": "Four-character axis tag, e.g. 'wght'"
+        },
+        {
+          "name": "animator",
+          "type": "any",
+          "required": false,
+          "description": "Existing animator (1-based index or name). Omit to create a new animator."
+        },
+        {
+          "name": "value",
+          "type": "number",
+          "required": false,
+          "description": "Initial axis value"
+        }
+      ]
+    },
+    {
+      "name": "text.add_animator",
+      "description": "Add a text animator with animated properties and a selector. properties maps animator matchNames to initial values, e.g. {\"ADBE Text Position 3D\": [0,-50,0], \"ADBE Text Opacity\": 0}. Common: Position 3D, Scale 3D, Rotation, Opacity, Fill Color, Tracking Amount, Blur.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name (must be a TextLayer)"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Animator name"
+        },
+        {
+          "name": "properties",
+          "type": "object",
+          "required": true,
+          "description": "Map of animator-property matchName to initial value"
+        },
+        {
+          "name": "selector",
+          "type": "string",
+          "required": false,
+          "description": "range|wiggly|expression|none (default range)",
+          "default": "range"
+        },
+        {
+          "name": "rangeStart",
+          "type": "number",
+          "required": false,
+          "description": "Range selector start % (0-100)"
+        },
+        {
+          "name": "rangeEnd",
+          "type": "number",
+          "required": false,
+          "description": "Range selector end % (0-100)"
+        },
+        {
+          "name": "rangeOffset",
+          "type": "number",
+          "required": false,
+          "description": "Range selector offset % (-100..100)"
+        }
+      ]
+    },
+    {
+      "name": "text.paste_range",
+      "description": "Paste the TEXT AND STYLING of one character range into another (CharacterRange.pasteFrom, AE 25.1+) \u2014 replaces the target range's content. Source defaults to the same layer; pass sourceLayer to copy across layers.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "TARGET text layer (1-based index or name)"
+        },
+        {
+          "name": "start",
+          "type": "number",
+          "required": true,
+          "description": "Target range start (0-based character index)"
+        },
+        {
+          "name": "end",
+          "type": "number",
+          "required": false,
+          "description": "Target range end (exclusive; default: end of text)"
+        },
+        {
+          "name": "sourceLayer",
+          "type": "any",
+          "required": false,
+          "description": "SOURCE text layer (default: same as layer)"
+        },
+        {
+          "name": "sourceStart",
+          "type": "number",
+          "required": true,
+          "description": "Source range start (0-based character index)"
+        },
+        {
+          "name": "sourceEnd",
+          "type": "number",
+          "required": false,
+          "description": "Source range end (exclusive; default: end of source text)"
+        }
+      ]
+    },
+    {
+      "name": "text.reset_style",
+      "description": "Reset a text layer's styling to the default Character and/or Paragraph panel settings (TextDocument.resetCharStyle / resetParagraphStyle).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "scope",
+          "type": "string",
+          "required": false,
+          "description": "character|paragraph|both (default both)",
+          "default": "both"
+        }
+      ]
+    }
+  ]
+}

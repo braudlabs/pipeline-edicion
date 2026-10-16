@@ -1,0 +1,249 @@
+{
+  "ok": true,
+  "category": "property",
+  "operations": [
+    {
+      "name": "property.set",
+      "description": "Set any layer property by path. layer can be index, name, 'selected', or 'all'.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "Layer index, name, 'selected', or 'all'"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path, e.g. [\"Transform\",\"Position\"]"
+        },
+        {
+          "name": "value",
+          "type": "any",
+          "required": true,
+          "description": "Value to set"
+        }
+      ]
+    },
+    {
+      "name": "property.get",
+      "description": "Get the current value of any layer property by path.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path"
+        },
+        {
+          "name": "time",
+          "type": "number",
+          "required": false,
+          "description": "If set, get value at this time (for animated properties)"
+        }
+      ]
+    },
+    {
+      "name": "property.list",
+      "description": "List child properties/groups at a given path. Useful for discovering what's inside a property group.",
+      "readOnly": true,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path to a group. Use [] for the layer root."
+        }
+      ]
+    },
+    {
+      "name": "property.add",
+      "description": "Add a property to an indexed group by matchName (PropertyGroup.addProperty). Unlocks text animators ('ADBE Text Animator' on [\"Text\",\"Animators\"]), layer styles, shape contents, etc. Use property.list to discover group paths.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Path to the group to add into, e.g. [\"Text\",\"Animators\"]. Use [] for layer root."
+        },
+        {
+          "name": "matchName",
+          "type": "string",
+          "required": true,
+          "description": "Match name (or display name) of the property to add, e.g. \"ADBE Text Animator\". NOTE: adding to an indexed group re-creates it, invalidating prior property references."
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Rename the new property"
+        }
+      ]
+    },
+    {
+      "name": "property.remove",
+      "description": "Remove a property or group by path (Property.remove). Works on members of indexed groups: effects, masks, shape contents, text animators, layer styles.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Path to the property to remove"
+        }
+      ]
+    },
+    {
+      "name": "property.separate_dimensions",
+      "description": "Separate (or rejoin) the dimensions of a multi-dimensional property such as Position. When separated, animate the followers (e.g. X Position) individually.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path (e.g. Position)"
+        },
+        {
+          "name": "separated",
+          "type": "boolean",
+          "required": true,
+          "description": "true=separate, false=rejoin"
+        }
+      ]
+    },
+    {
+      "name": "property.move",
+      "description": "Reorder a property within its parent INDEXED group (PropertyBase.moveTo): masks, shape contents, text animators. For effects use effect.move.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Path to the property to move (a member of an indexed group)"
+        },
+        {
+          "name": "toIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based target position within the parent group"
+        }
+      ]
+    },
+    {
+      "name": "property.select",
+      "description": "Select or deselect a property in the timeline (PropertyBase.selected) - stages it for UI-side actions and makes it visible with the U-shortcut workflow.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path"
+        },
+        {
+          "name": "selected",
+          "type": "boolean",
+          "required": false,
+          "description": "true=select, false=deselect (default true)",
+          "default": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "status": "dense_complete_native_partial",
+  "sheets_viewed": [
+    "d015_f00905-f00993.jpg",
+    "d016_f00994-f01089.jpg",
+    "d017_f01090-f01129.jpg",
+    "d018_f01130-f01187.jpg",
+    "d019_f01188-f01229.jpg",
+    "d020_f01230-f01279.jpg",
+    "d021_f01280-f01371.jpg",
+    "d022_f01372-f01411.jpg",
+    "d023_f01412-f01451.jpg",
+    "d024_f01452-f01491.jpg",
+    "d025_f01492-f01553.jpg",
+    "d026_f01554-f01641.jpg",
+    "d027_f01642-f01709.jpg",
+    "d028_f01710-f01749.jpg",
+    "d029_f01750-f01789.jpg"
+  ],
+  "supplemental_sheets_viewed": [
+    "s007_f00861-f00931.jpg",
+    "s008_f00932-f01003.jpg",
+    "s009_f01005-f01070.jpg",
+    "s010_f01072-f01279.jpg",
+    "s011_f01281-f01348.jpg",
+    "s012_f01349-f01563.jpg",
+    "s013_f01565-f01638.jpg",
+    "s014_f01640-f01822.jpg"
+  ],
+  "native_ranges": [
+    {
+      "f0": 946,
+      "f1": 952,
+      "method": "ffmpeg select between(n), sin seek",
+      "file": "v6original-f946-952.jpg"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png"
+  ],
+  "forensic_complete": false
+}

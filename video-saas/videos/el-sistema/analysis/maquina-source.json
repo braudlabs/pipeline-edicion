@@ -1,0 +1,354 @@
+[
+  {
+    "id": 1,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/01-hook-la-maquina-le-corta.mp4",
+    "asset": "maquina-01.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "6.050000"
+    }
+  },
+  {
+    "id": 2,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/02-que-cojones-diez-anuncios.mp4",
+    "asset": "maquina-02.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "6.050000"
+    }
+  },
+  {
+    "id": 3,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/03-cara-de-flipado.mp4",
+    "asset": "maquina-03.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.000000"
+    }
+  },
+  {
+    "id": 4,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/04-maquina-a-toda-maquina.mp4",
+    "asset": "maquina-04.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "5.050000"
+    }
+  },
+  {
+    "id": 5,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/05-enterrado-subeme-a-meta.mp4",
+    "asset": "maquina-05.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "9.050000"
+    }
+  },
+  {
+    "id": 6,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/06-habla-la-maquina.mp4",
+    "asset": "maquina-06.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "7.000000"
+    }
+  },
+  {
+    "id": 7,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/07-okay.mp4",
+    "asset": "maquina-07.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.000000"
+    }
+  },
+  {
+    "id": 8,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/08-una-moneda.mp4",
+    "asset": "maquina-08.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  },
+  {
+    "id": 9,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/09-creativos-y-sonrisa.mp4",
+    "asset": "maquina-09.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  },
+  {
+    "id": 10,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/10-ring-el-visual.mp4",
+    "asset": "maquina-10.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "8.050000"
+    }
+  },
+  {
+    "id": 11,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/11-a-pagar-caja-registradora.mp4",
+    "asset": "maquina-11.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "8.050000"
+    }
+  },
+  {
+    "id": 12,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/12a-apagar-fuegos.mp4",
+    "asset": "maquina-12.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  },
+  {
+    "id": 13,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/12b-apagar-derrotado.mp4",
+    "asset": "maquina-13.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  },
+  {
+    "id": 14,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/13-ayyy-maquinita.mp4",
+    "asset": "maquina-14.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  },
+  {
+    "id": 15,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/14-cta-cima-con-cafe.mp4",
+    "asset": "maquina-15.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  },
+  {
+    "id": 16,
+    "source": "/Users/alejandrorubiocamarero/Desktop/El director/sistema-ale/cliente/creativos/2026-09-24-la-maquina/AD La Maquina - clips/15-instalacion-almacen.mp4",
+    "asset": "maquina-16.mp4",
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "24/1"
+      },
+      {
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "4.050000"
+    }
+  }
+]

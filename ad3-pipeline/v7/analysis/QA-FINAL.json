@@ -1,0 +1,55 @@
+{
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 48,
+  "frames": 2180,
+  "duration": 45.416667,
+  "audioDuration": 45.416667,
+  "fullDecodeErrors": 0,
+  "nativeComps": 10,
+  "nativeLayers": 329,
+  "missingFonts": 0,
+  "missingMedia": 0,
+  "videoSha256": "ef37c6f73b2c1f7379123884ca009e4e659a04face17fc033c8c372a5716a7dd",
+  "mixLUFS": -14.17,
+  "mixTruePeakDBTP": -1.42,
+  "scopeCheck": {
+    "preCTAMontageSSIM": {
+      "frames": 1940,
+      "mean": 0.9999019572164948,
+      "min": 0.987681
+    },
+    "masterCaptionOverlaps": [],
+    "productionToCTASeparationFrames": 9,
+    "CTAaddedFrames": 18,
+    "CTAdelaySeconds": 0.375
+  },
+  "unchangedVideoChunksIdenticalToV5": [
+    0,
+    1,
+    3,
+    4,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "rawVoiceMaximumDifferenceOutsideInsertedPause": 0.0,
+  "addedPauseSilentRawVoiceSamples": 18000,
+  "generatedAssets": {
+    "provider": "Higgsfield CLI",
+    "model": "soul_cinematic",
+    "count": 4,
+    "dimensions": [
+      2048,
+      2048
+    ],
+    "prompts": "Proyecto/PROMPTS-HIGGSFIELD.json",
+    "imagegenAssetsUsed": false
+  },
+  "visualReview": "Native frames covering caption handoff, box transition, new thumbnails, production/CTA and final offer inspected. Full MP4 decode passes. Voice verified by source timing and aligned waveform, without claiming subjective full audio audition.",
+  "userApproval": false
+}

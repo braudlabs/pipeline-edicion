@@ -1,0 +1,39 @@
+{
+  "status": "partial",
+  "sheets_viewed": [
+    "d000_f00000-f00078.jpg",
+    "d001_f00079-f00155.jpg",
+    "d002_f00156-f00234.jpg",
+    "d003_f00235-f00309.jpg",
+    "d004_f00310-f00384.jpg",
+    "d005_f00385-f00469.jpg",
+    "d006_f00470-f00557.jpg",
+    "d007_f00558-f00597.jpg"
+  ],
+  "native_ranges": [
+    [
+      372,
+      380
+    ],
+    [
+      10,
+      10
+    ]
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png"
+  ],
+  "dense_pass": "completed",
+  "supplemental_sheets_viewed": [
+    "s000_f00001-f00080.jpg",
+    "s001_f00082-f00162.jpg",
+    "s002_f00164-f00245.jpg",
+    "s003_f00247-f00332.jpg",
+    "s004_f00334-f00414.jpg",
+    "s005_f00416-f00487.jpg",
+    "s006_f00491-f00639.jpg"
+  ],
+  "supplemental_pass": "completed",
+  "native_event_pass": "partial"
+}

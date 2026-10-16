@@ -1,0 +1,255 @@
+{
+  "ok": true,
+  "category": "footage",
+  "operations": [
+    {
+      "name": "footage.replace",
+      "description": "Relink a footage item to a different file (FootageItem.replace). Layers using the item keep keyframes/effects. Pass sequence=true to relink to an image sequence.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "Footage item id (number) or name (string)"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "required": true,
+          "description": "Absolute path to the new file"
+        },
+        {
+          "name": "sequence",
+          "type": "boolean",
+          "required": false,
+          "description": "Treat path as the first file of an image sequence (default false)",
+          "default": false
+        },
+        {
+          "name": "forceAlphabetical",
+          "type": "boolean",
+          "required": false,
+          "description": "Sequence only: force alphabetical order (default false)"
+        }
+      ]
+    },
+    {
+      "name": "footage.interpret",
+      "description": "Set footage interpretation: alpha mode, frame rate conform, looping, fields, pixel aspect (FootageItem.mainSource).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "Footage item id (number) or name (string)"
+        },
+        {
+          "name": "alphaMode",
+          "type": "string",
+          "required": false,
+          "description": "ignore|straight|premultiplied"
+        },
+        {
+          "name": "premulColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1 matte color for premultiplied alpha"
+        },
+        {
+          "name": "invertAlpha",
+          "type": "boolean",
+          "required": false,
+          "description": "Invert the alpha channel"
+        },
+        {
+          "name": "guessAlpha",
+          "type": "boolean",
+          "required": false,
+          "description": "Auto-detect the alpha interpretation first"
+        },
+        {
+          "name": "conformFrameRate",
+          "type": "number",
+          "required": false,
+          "description": "Conform to this frame rate (0 = native)"
+        },
+        {
+          "name": "loop",
+          "type": "number",
+          "required": false,
+          "description": "Number of times to loop the footage"
+        },
+        {
+          "name": "fieldSeparation",
+          "type": "string",
+          "required": false,
+          "description": "off|upper|lower"
+        },
+        {
+          "name": "highQualityFields",
+          "type": "boolean",
+          "required": false,
+          "description": "High-quality field separation"
+        },
+        {
+          "name": "pixelAspect",
+          "type": "number",
+          "required": false,
+          "description": "Pixel aspect ratio (e.g. 1, 0.9091, 1.4587)"
+        },
+        {
+          "name": "guessPulldown",
+          "type": "string",
+          "required": false,
+          "description": "Auto-detect pulldown first: '3:2' or '24Pa' (runs guessPulldown)"
+        },
+        {
+          "name": "removePulldown",
+          "type": "string",
+          "required": false,
+          "description": "off|WSSWW|SSWWW|SWWWS|WWWSS|WWSSW (needs field separation on)"
+        }
+      ]
+    },
+    {
+      "name": "footage.reload",
+      "description": "Reload a footage item from its source file (FileSource.reload) \u2014 picks up external edits to the file without relinking.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "Footage item id (number) or name (string)"
+        }
+      ]
+    },
+    {
+      "name": "footage.list_missing",
+      "description": "List footage items whose source file is missing (footageMissing), with the last-known path. The footage counterpart of font.list_missing.",
+      "readOnly": true,
+      "params": []
+    },
+    {
+      "name": "footage.replace_with_solid",
+      "description": "Replace a footage item's source with a solid color (FootageItem.replaceWithSolid). Layers using the item keep keyframes/effects.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "Footage item id (number) or name (string)"
+        },
+        {
+          "name": "color",
+          "type": "array",
+          "required": true,
+          "description": "[r,g,b] 0-1"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "New source name"
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "required": false,
+          "description": "Width in px (default: keep)"
+        },
+        {
+          "name": "height",
+          "type": "number",
+          "required": false,
+          "description": "Height in px (default: keep)"
+        }
+      ]
+    },
+    {
+      "name": "footage.replace_with_placeholder",
+      "description": "Replace a footage item's source with a placeholder (FootageItem.replaceWithPlaceholder) \u2014 e.g. to stand in for footage that will arrive later. Layers keep keyframes/effects.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "Footage item id (number) or name (string)"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Placeholder name"
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "required": false,
+          "description": "Width in px (default: keep)"
+        },
+        {
+          "name": "height",
+          "type": "number",
+          "required": false,
+          "description": "Height in px (default: keep)"
+        },
+        {
+          "name": "frameRate",
+          "type": "number",
+          "required": false,
+          "description": "Frame rate (default 30)",
+          "default": 30
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "required": false,
+          "description": "Duration in seconds (default: keep, or 1)"
+        }
+      ]
+    },
+    {
+      "name": "footage.set_proxy",
+      "description": "Set or clear a proxy on any project item (comp or footage): a file, an image sequence, a solid color, or a placeholder. Omit path/solidColor/placeholder to remove the proxy.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "item",
+          "type": "any",
+          "required": true,
+          "description": "Project item id (number) or name (string)"
+        },
+        {
+          "name": "path",
+          "type": "string",
+          "required": false,
+          "description": "Absolute path to the proxy file \u2014 omit to remove the proxy",
+          "nullable": true
+        },
+        {
+          "name": "sequence",
+          "type": "boolean",
+          "required": false,
+          "description": "Treat path as the first file of an image sequence (default false)"
+        },
+        {
+          "name": "solidColor",
+          "type": "array",
+          "required": false,
+          "description": "[r,g,b] 0-1 \u2014 set a solid proxy instead of a file (setProxyWithSolid)"
+        },
+        {
+          "name": "placeholder",
+          "type": "boolean",
+          "required": false,
+          "description": "Set a placeholder proxy sized like the item (setProxyWithPlaceholder)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "unchangedSourceSectionsReused": 7,
+  "nativeFramesOutsideCreditsIdentical": [
+    850,
+    851,
+    907,
+    984,
+    1004,
+    1208,
+    1224,
+    1274
+  ],
+  "checksumsMatch": true,
+  "sourceSections": [
+    {
+      "section": 0,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-00.mov",
+      "sha256": "66c78baea455c34137ead406db50c7c824c41e36b2b23312e6721076eef36fcf"
+    },
+    {
+      "section": 1,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-01.mov",
+      "sha256": "f91c7f383d4b93cd78b08a07a70278b6fdce80693a0673cee34be77c9aa21ce7"
+    },
+    {
+      "section": 3,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-03.mov",
+      "sha256": "7ad3ad520de8e9cad79cc5f6b493066cdd79235e2eb0d34bc4ba1e669a342e80"
+    },
+    {
+      "section": 4,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-04.mov",
+      "sha256": "5deae13b017847611556a023bbbc3a73423f87308e14d99a00ee6da548fb47b7"
+    },
+    {
+      "section": 5,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-05.mov",
+      "sha256": "b684f7bff582bc5e939a0794d64dc1532ebc433d91d76ad074e1ba5672668f14"
+    },
+    {
+      "section": 6,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-06.mov",
+      "sha256": "596c0c9f48d3164e598c37e9921643674c9a22d738c85a77733e03c97d9c3115"
+    },
+    {
+      "section": 7,
+      "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-07.mov",
+      "sha256": "ee4d659b2df53eaea08830a62bb1d6d75d30ba12738df76852bc1545fd5a95b9"
+    }
+  ]
+}

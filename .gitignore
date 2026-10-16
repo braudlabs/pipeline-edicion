@@ -57,11 +57,12 @@ __pycache__/
 .env
 .env.*
 *.env
+!.env.example
 .profile/
 
-# Herramientas de terceros clonadas aparte, análisis pesados y temporales
+# Herramientas de terceros clonadas aparte y temporales (de analysis/ solo entra el texto:
+# sus fotogramas y medios ya los excluyen las reglas de extensión)
 .tools/
-analysis/
 stills/
 .media/
 .playwright-mcp/

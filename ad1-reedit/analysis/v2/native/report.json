@@ -1,0 +1,66 @@
+[
+  {
+    "section": 0,
+    "firstFrame": 0,
+    "lastFrame": 424,
+    "frames": 425,
+    "reusedUnchangedNativeSection": true,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-00.mov"
+  },
+  {
+    "section": 1,
+    "firstFrame": 425,
+    "lastFrame": 849,
+    "frames": 425,
+    "reusedUnchangedNativeSection": true,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-01.mov"
+  },
+  {
+    "section": 2,
+    "firstFrame": 850,
+    "lastFrame": 1274,
+    "frames": 425,
+    "reusedUnchangedNativeSection": false,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-02.mov"
+  },
+  {
+    "section": 3,
+    "firstFrame": 1275,
+    "lastFrame": 1699,
+    "frames": 425,
+    "reusedUnchangedNativeSection": false,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-03.mov"
+  },
+  {
+    "section": 4,
+    "firstFrame": 1700,
+    "lastFrame": 2124,
+    "frames": 425,
+    "reusedUnchangedNativeSection": false,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-04.mov"
+  },
+  {
+    "section": 5,
+    "firstFrame": 2125,
+    "lastFrame": 2549,
+    "frames": 425,
+    "reusedUnchangedNativeSection": false,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-05.mov"
+  },
+  {
+    "section": 6,
+    "firstFrame": 2550,
+    "lastFrame": 2974,
+    "frames": 425,
+    "reusedUnchangedNativeSection": false,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/v2/native/part-06.mov"
+  },
+  {
+    "section": 7,
+    "firstFrame": 2975,
+    "lastFrame": 3399,
+    "frames": 425,
+    "reusedUnchangedNativeSection": true,
+    "path": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-07.mov"
+  }
+]

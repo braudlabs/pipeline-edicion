@@ -1,0 +1,47 @@
+{
+  "id": "v2-churros-B",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d020_f00836-f00875.jpg",
+    "d021_f00876-f00915.jpg",
+    "d022_f00916-f00955.jpg",
+    "d023_f00956-f00995.jpg",
+    "d024_f00996-f01037.jpg",
+    "d025_f01038-f01077.jpg",
+    "d026_f01078-f01117.jpg",
+    "d027_f01118-f01157.jpg",
+    "d028_f01158-f01197.jpg",
+    "d029_f01198-f01237.jpg",
+    "d030_f01238-f01278.jpg",
+    "d031_f01279-f01318.jpg",
+    "d032_f01319-f01391.jpg",
+    "d033_f01392-f01431.jpg",
+    "d034_f01432-f01471.jpg",
+    "d035_f01472-f01511.jpg",
+    "d036_f01512-f01551.jpg",
+    "d037_f01552-f01591.jpg",
+    "d038_f01592-f01631.jpg",
+    "d039_f01632-f01698.jpg"
+  ],
+  "native_ranges": [],
+  "spectrograms_viewed": [
+    "s_032-040.png",
+    "s_040-048.png",
+    "s_048-056.png",
+    "s_056-064.png",
+    "s_064-071.png"
+  ],
+  "supplemental_sheets_viewed": [
+    "s000_f00074-f01331.jpg",
+    "s001_f01332-f01367.jpg"
+  ],
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 25,
+  "supplemental_status": "completed",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

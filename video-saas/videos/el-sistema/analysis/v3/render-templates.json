@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "result": {
+    "ok": true,
+    "renderTemplates": [
+      "Configuraci\u00f3n actual",
+      "Configuraci\u00f3n borrador",
+      "Configuraci\u00f3n de DV",
+      "Configuraci\u00f3n de varios equipos",
+      "Configuraci\u00f3n \u00f3ptima",
+      "_HIDDEN X-Factor"
+    ],
+    "outputTemplates": [
+      "AIFF 48\u00a0kHz",
+      "Calidad alta",
+      "Calidad alta con Alfa",
+      "H.264: Ajustes de procesamiento de coincidencia, 15\u00a0Mbps",
+      "H.264: Ajustes de procesamiento de coincidencia, 40\u00a0Mbps",
+      "H.264: Configuraci\u00f3n de procesamiento de coincidencia, 5\u00a0Mbps",
+      "Photoshop",
+      "Secuencia de varios equipos",
+      "Secuencia TIFF con alfa",
+      "Sin p\u00e9rdida",
+      "Sin p\u00e9rdida con alfa",
+      "S\u00f3lo alfa",
+      "_HIDDEN X-Factor 16",
+      "_HIDDEN X-Factor 16 Premul",
+      "_HIDDEN X-Factor 32",
+      "_HIDDEN X-Factor 32 Premul",
+      "_HIDDEN X-Factor 8",
+      "_HIDDEN X-Factor 8 Premul"
+    ]
+  },
+  "context": {
+    "project": {
+      "numItems": 93,
+      "dirty": true,
+      "file": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/video-saas/videos/el-sistema/ae/v3/El-Sistema-V3.aep"
+    },
+    "activeComp": null,
+    "selectedLayers": []
+  },
+  "logs": [],
+  "durationMs": 164
+}

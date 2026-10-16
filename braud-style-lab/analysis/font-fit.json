@@ -1,0 +1,52 @@
+{
+  "referenceBBox": [
+    152,
+    809,
+    792,
+    202
+  ],
+  "results": [
+    {
+      "font": "SFProDisplay-Bold",
+      "iou": 0.81976,
+      "tracking": -90,
+      "sizeFromHeight": 264.29906542056074,
+      "widthScale": 1.056737411776442
+    },
+    {
+      "font": "HelveticaNeue-CondensedBold",
+      "iou": 0.80491,
+      "tracking": -80,
+      "sizeFromHeight": 268.0568720379147,
+      "widthScale": 1.1784716933231785
+    },
+    {
+      "font": "Arial-Black",
+      "iou": 0.77778,
+      "tracking": -110,
+      "sizeFromHeight": 273.2367149758454,
+      "widthScale": 0.8643279663429602
+    },
+    {
+      "font": "HelveticaNeue-Bold",
+      "iou": 0.73188,
+      "tracking": -105,
+      "sizeFromHeight": 252.5,
+      "widthScale": 1.0762958648806056
+    },
+    {
+      "font": "HelveticaNeue-CondensedBlack",
+      "iou": 0.72239,
+      "tracking": -105,
+      "sizeFromHeight": 270.622009569378,
+      "widthScale": 1.1606877401621183
+    },
+    {
+      "font": "Arial-BoldMT",
+      "iou": 0.71401,
+      "tracking": -105,
+      "sizeFromHeight": 270.622009569378,
+      "widthScale": 0.9956810990941135
+    }
+  ]
+}

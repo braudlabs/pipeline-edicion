@@ -1,0 +1,134 @@
+{
+  "text": " No son clip sueltos, personaje, escenas, voz y montaje. Una creatividad completa.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.38,
+      "text": " No son clip sueltos, personaje, escenas, voz y montaje.",
+      "tokens": [
+        50364,
+        883,
+        1872,
+        7353,
+        459,
+        2018,
+        329,
+        11,
+        41746,
+        11,
+        4721,
+        11581,
+        11,
+        30005,
+        288,
+        8143,
+        11153,
+        13,
+        50542
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28512117597791886,
+      "compression_ratio": 1.0384615384615385,
+      "no_speech_prob": 0.0009787732269614935,
+      "words": [
+        {
+          "word": " No",
+          "start": 0.0,
+          "end": 0.36,
+          "probability": 0.7270031571388245
+        },
+        {
+          "word": " son",
+          "start": 0.36,
+          "end": 0.52,
+          "probability": 0.9927527904510498
+        },
+        {
+          "word": " clip",
+          "start": 0.52,
+          "end": 0.68,
+          "probability": 0.506922721862793
+        },
+        {
+          "word": " sueltos,",
+          "start": 0.68,
+          "end": 1.24,
+          "probability": 0.978143036365509
+        },
+        {
+          "word": " personaje,",
+          "start": 1.34,
+          "end": 1.78,
+          "probability": 0.8521089553833008
+        },
+        {
+          "word": " escenas,",
+          "start": 2.08,
+          "end": 2.4,
+          "probability": 0.9879066944122314
+        },
+        {
+          "word": " voz",
+          "start": 2.58,
+          "end": 2.68,
+          "probability": 0.9973161816596985
+        },
+        {
+          "word": " y",
+          "start": 2.68,
+          "end": 2.92,
+          "probability": 0.9760515689849854
+        },
+        {
+          "word": " montaje.",
+          "start": 2.92,
+          "end": 3.38,
+          "probability": 0.9940902292728424
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 3.6,
+      "end": 4.62,
+      "text": " Una creatividad completa.",
+      "tokens": [
+        50542,
+        15491,
+        1428,
+        33490,
+        46822,
+        13,
+        50614
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.28512117597791886,
+      "compression_ratio": 1.0384615384615385,
+      "no_speech_prob": 0.0009787732269614935,
+      "words": [
+        {
+          "word": " Una",
+          "start": 3.6,
+          "end": 3.8,
+          "probability": 0.9591676592826843
+        },
+        {
+          "word": " creatividad",
+          "start": 3.8,
+          "end": 4.28,
+          "probability": 0.9980754256248474
+        },
+        {
+          "word": " completa.",
+          "start": 4.28,
+          "end": 4.62,
+          "probability": 0.9980783462524414
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

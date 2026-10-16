@@ -1,0 +1,14 @@
+{
+  "video": "AD1-Churros-Cocina-FINAL.mp4",
+  "width": 1080,
+  "height": 1920,
+  "fps": 48,
+  "frames": 3400,
+  "durationSeconds": 70.83333333333333,
+  "audioCorrelationAtZeroLag": 0.9999031936298922,
+  "decodedWithoutErrors": true,
+  "nativeMotionFramesTested": 20,
+  "distinctConsecutiveMotionFrames": 20,
+  "sizeBytes": 54972052,
+  "sha256": "94bb2718c194503dfff86d18519b0c6b57508d4905c3a82375ef29b4091cafaf"
+}

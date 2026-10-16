@@ -1,0 +1,794 @@
+[
+  {
+    "file": "01-hook.wav",
+    "text": " Tengo que revelarte algo. No. Este anuncio no solo se ha hecho con IA, sino que además se ha montado solo.",
+    "words": [
+      {
+        "word": " Tengo",
+        "start": 0.0,
+        "end": 0.6,
+        "probability": 0.6213952526450157
+      },
+      {
+        "word": " que",
+        "start": 0.6,
+        "end": 0.7,
+        "probability": 0.9970853924751282
+      },
+      {
+        "word": " revelarte",
+        "start": 0.7,
+        "end": 1.2,
+        "probability": 0.8834943771362305
+      },
+      {
+        "word": " algo.",
+        "start": 1.2,
+        "end": 1.44,
+        "probability": 0.9936985969543457
+      },
+      {
+        "word": " No.",
+        "start": 2.42,
+        "end": 2.58,
+        "probability": 0.71928870677948
+      },
+      {
+        "word": " Este",
+        "start": 3.24,
+        "end": 3.5,
+        "probability": 0.9695726633071899
+      },
+      {
+        "word": " anuncio",
+        "start": 3.5,
+        "end": 3.92,
+        "probability": 0.9936147133509318
+      },
+      {
+        "word": " no",
+        "start": 3.92,
+        "end": 4.14,
+        "probability": 0.9618934392929077
+      },
+      {
+        "word": " solo",
+        "start": 4.14,
+        "end": 4.34,
+        "probability": 0.7804404497146606
+      },
+      {
+        "word": " se",
+        "start": 4.34,
+        "end": 4.5,
+        "probability": 0.9931550025939941
+      },
+      {
+        "word": " ha",
+        "start": 4.5,
+        "end": 4.56,
+        "probability": 0.9930960536003113
+      },
+      {
+        "word": " hecho",
+        "start": 4.56,
+        "end": 4.72,
+        "probability": 0.9917886853218079
+      },
+      {
+        "word": " con",
+        "start": 4.72,
+        "end": 4.94,
+        "probability": 0.9869996905326843
+      },
+      {
+        "word": " IA,",
+        "start": 4.94,
+        "end": 5.2,
+        "probability": 0.46074439585208893
+      },
+      {
+        "word": " sino",
+        "start": 5.9,
+        "end": 6.08,
+        "probability": 0.9568674564361572
+      },
+      {
+        "word": " que",
+        "start": 6.08,
+        "end": 6.24,
+        "probability": 0.9631087779998779
+      },
+      {
+        "word": " además",
+        "start": 6.24,
+        "end": 6.54,
+        "probability": 0.7634924054145813
+      },
+      {
+        "word": " se",
+        "start": 6.54,
+        "end": 6.92,
+        "probability": 0.9409253001213074
+      },
+      {
+        "word": " ha",
+        "start": 6.92,
+        "end": 6.98,
+        "probability": 0.9883884787559509
+      },
+      {
+        "word": " montado",
+        "start": 6.98,
+        "end": 7.36,
+        "probability": 0.9878895580768585
+      },
+      {
+        "word": " solo.",
+        "start": 7.36,
+        "end": 7.62,
+        "probability": 0.9558195471763611
+      }
+    ]
+  },
+  {
+    "file": "02-persona-escenario.wav",
+    "text": " Esta persona no es real. Este escenario tampoco.",
+    "words": [
+      {
+        "word": " Esta",
+        "start": 0.0,
+        "end": 0.8,
+        "probability": 0.710451066493988
+      },
+      {
+        "word": " persona",
+        "start": 0.8,
+        "end": 1.22,
+        "probability": 0.9945238828659058
+      },
+      {
+        "word": " no",
+        "start": 1.22,
+        "end": 1.48,
+        "probability": 0.9908261895179749
+      },
+      {
+        "word": " es",
+        "start": 1.48,
+        "end": 1.58,
+        "probability": 0.9979435801506042
+      },
+      {
+        "word": " real.",
+        "start": 1.58,
+        "end": 1.84,
+        "probability": 0.9841479063034058
+      },
+      {
+        "word": " Este",
+        "start": 2.54,
+        "end": 2.9,
+        "probability": 0.8552674055099487
+      },
+      {
+        "word": " escenario",
+        "start": 2.9,
+        "end": 3.28,
+        "probability": 0.9803256392478943
+      },
+      {
+        "word": " tampoco.",
+        "start": 3.28,
+        "end": 3.54,
+        "probability": 0.9691241979598999
+      }
+    ]
+  },
+  {
+    "file": "03-planos-voz.wav",
+    "text": " Estos planos nos han grabado y esta voz tampoco.",
+    "words": [
+      {
+        "word": " Estos",
+        "start": 0.0,
+        "end": 0.78,
+        "probability": 0.7932873666286469
+      },
+      {
+        "word": " planos",
+        "start": 0.78,
+        "end": 1.08,
+        "probability": 0.9900555312633514
+      },
+      {
+        "word": " nos",
+        "start": 1.08,
+        "end": 1.16,
+        "probability": 0.6024399995803833
+      },
+      {
+        "word": " han",
+        "start": 1.16,
+        "end": 1.32,
+        "probability": 0.997066080570221
+      },
+      {
+        "word": " grabado",
+        "start": 1.32,
+        "end": 1.76,
+        "probability": 0.9844374656677246
+      },
+      {
+        "word": " y",
+        "start": 1.76,
+        "end": 2.96,
+        "probability": 0.44345587491989136
+      },
+      {
+        "word": " esta",
+        "start": 2.96,
+        "end": 3.12,
+        "probability": 0.9600667357444763
+      },
+      {
+        "word": " voz",
+        "start": 3.12,
+        "end": 3.26,
+        "probability": 0.994903564453125
+      },
+      {
+        "word": " tampoco.",
+        "start": 3.26,
+        "end": 3.52,
+        "probability": 0.9632259011268616
+      }
+    ]
+  },
+  {
+    "file": "04-montaje-automatico.wav",
+    "text": " hasta los cortes y los subtítulos se ensamblan automáticamente.",
+    "words": [
+      {
+        "word": " hasta",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.7998844981193542
+      },
+      {
+        "word": " los",
+        "start": 0.28,
+        "end": 0.48,
+        "probability": 0.9943246245384216
+      },
+      {
+        "word": " cortes",
+        "start": 0.48,
+        "end": 1.08,
+        "probability": 0.9848715960979462
+      },
+      {
+        "word": " y",
+        "start": 1.08,
+        "end": 1.24,
+        "probability": 0.9860357046127319
+      },
+      {
+        "word": " los",
+        "start": 1.24,
+        "end": 1.34,
+        "probability": 0.994500994682312
+      },
+      {
+        "word": " subtítulos",
+        "start": 1.34,
+        "end": 2.02,
+        "probability": 0.9940399726231893
+      },
+      {
+        "word": " se",
+        "start": 2.02,
+        "end": 2.3,
+        "probability": 0.9750677347183228
+      },
+      {
+        "word": " ensamblan",
+        "start": 2.3,
+        "end": 2.84,
+        "probability": 0.6891374289989471
+      },
+      {
+        "word": " automáticamente.",
+        "start": 2.84,
+        "end": 3.86,
+        "probability": 0.9863331317901611
+      }
+    ]
+  },
+  {
+    "file": "05-creatividad-completa.wav",
+    "text": " No son clip sueltos, personaje, escenas, voz y montaje. Una creatividad completa.",
+    "words": [
+      {
+        "word": " No",
+        "start": 0.0,
+        "end": 0.36,
+        "probability": 0.7270031571388245
+      },
+      {
+        "word": " son",
+        "start": 0.36,
+        "end": 0.52,
+        "probability": 0.9927527904510498
+      },
+      {
+        "word": " clip",
+        "start": 0.52,
+        "end": 0.68,
+        "probability": 0.506922721862793
+      },
+      {
+        "word": " sueltos,",
+        "start": 0.68,
+        "end": 1.24,
+        "probability": 0.978143036365509
+      },
+      {
+        "word": " personaje,",
+        "start": 1.34,
+        "end": 1.78,
+        "probability": 0.8521089553833008
+      },
+      {
+        "word": " escenas,",
+        "start": 2.08,
+        "end": 2.4,
+        "probability": 0.9879066944122314
+      },
+      {
+        "word": " voz",
+        "start": 2.58,
+        "end": 2.68,
+        "probability": 0.9973161816596985
+      },
+      {
+        "word": " y",
+        "start": 2.68,
+        "end": 2.92,
+        "probability": 0.9760515689849854
+      },
+      {
+        "word": " montaje.",
+        "start": 2.92,
+        "end": 3.38,
+        "probability": 0.9940902292728424
+      },
+      {
+        "word": " Una",
+        "start": 3.6,
+        "end": 3.8,
+        "probability": 0.9591676592826843
+      },
+      {
+        "word": " creatividad",
+        "start": 3.8,
+        "end": 4.28,
+        "probability": 0.9980754256248474
+      },
+      {
+        "word": " completa.",
+        "start": 4.28,
+        "end": 4.62,
+        "probability": 0.9980783462524414
+      }
+    ]
+  },
+  {
+    "file": "06-todo-encaje.wav",
+    "text": " Generar conía es fácil. Lo difícil es que todo encaje.",
+    "words": [
+      {
+        "word": " Generar",
+        "start": 0.0,
+        "end": 0.94,
+        "probability": 0.8524576723575592
+      },
+      {
+        "word": " conía",
+        "start": 0.94,
+        "end": 1.3,
+        "probability": 0.6472108513116837
+      },
+      {
+        "word": " es",
+        "start": 1.3,
+        "end": 1.76,
+        "probability": 0.9707567691802979
+      },
+      {
+        "word": " fácil.",
+        "start": 1.76,
+        "end": 2.12,
+        "probability": 0.9973559379577637
+      },
+      {
+        "word": " Lo",
+        "start": 2.78,
+        "end": 2.9,
+        "probability": 0.9904292821884155
+      },
+      {
+        "word": " difícil",
+        "start": 2.9,
+        "end": 3.28,
+        "probability": 0.9953992962837219
+      },
+      {
+        "word": " es",
+        "start": 3.28,
+        "end": 3.8,
+        "probability": 0.9862315058708191
+      },
+      {
+        "word": " que",
+        "start": 3.8,
+        "end": 3.94,
+        "probability": 0.9967983365058899
+      },
+      {
+        "word": " todo",
+        "start": 3.94,
+        "end": 4.12,
+        "probability": 0.996519923210144
+      },
+      {
+        "word": " encaje.",
+        "start": 4.12,
+        "end": 4.66,
+        "probability": 0.969192624092102
+      }
+    ]
+  },
+  {
+    "file": "07-consistencia.wav",
+    "text": " Misma persona, mismo look. Sin volver a empezar con cada plano.",
+    "words": [
+      {
+        "word": " Misma",
+        "start": 0.0,
+        "end": 0.54,
+        "probability": 0.5902136862277985
+      },
+      {
+        "word": " persona,",
+        "start": 0.54,
+        "end": 0.96,
+        "probability": 0.9863329529762268
+      },
+      {
+        "word": " mismo",
+        "start": 1.2,
+        "end": 1.38,
+        "probability": 0.881420910358429
+      },
+      {
+        "word": " look.",
+        "start": 1.38,
+        "end": 1.7,
+        "probability": 0.9782085418701172
+      },
+      {
+        "word": " Sin",
+        "start": 2.18,
+        "end": 2.5,
+        "probability": 0.9657203555107117
+      },
+      {
+        "word": " volver",
+        "start": 2.5,
+        "end": 2.72,
+        "probability": 0.9897142052650452
+      },
+      {
+        "word": " a",
+        "start": 2.72,
+        "end": 2.82,
+        "probability": 0.9982693195343018
+      },
+      {
+        "word": " empezar",
+        "start": 2.82,
+        "end": 3.06,
+        "probability": 0.99757319688797
+      },
+      {
+        "word": " con",
+        "start": 3.06,
+        "end": 3.24,
+        "probability": 0.9921298623085022
+      },
+      {
+        "word": " cada",
+        "start": 3.24,
+        "end": 3.42,
+        "probability": 0.9978448152542114
+      },
+      {
+        "word": " plano.",
+        "start": 3.42,
+        "end": 3.74,
+        "probability": 0.9975040555000305
+      }
+    ]
+  },
+  {
+    "file": "08-visual-hub-sistemas.wav",
+    "text": " En Visual Hub compartimos los sistemas para producir imágenes, vídeos, avatares y anuncios con IA.",
+    "words": [
+      {
+        "word": " En",
+        "start": 0.0,
+        "end": 0.4,
+        "probability": 0.9215689301490784
+      },
+      {
+        "word": " Visual",
+        "start": 0.4,
+        "end": 0.66,
+        "probability": 0.9518847465515137
+      },
+      {
+        "word": " Hub",
+        "start": 0.66,
+        "end": 0.98,
+        "probability": 0.8711690902709961
+      },
+      {
+        "word": " compartimos",
+        "start": 0.98,
+        "end": 1.6,
+        "probability": 0.9125856459140778
+      },
+      {
+        "word": " los",
+        "start": 1.6,
+        "end": 1.72,
+        "probability": 0.9958873391151428
+      },
+      {
+        "word": " sistemas",
+        "start": 1.72,
+        "end": 2.06,
+        "probability": 0.9968652129173279
+      },
+      {
+        "word": " para",
+        "start": 2.06,
+        "end": 2.36,
+        "probability": 0.9979386925697327
+      },
+      {
+        "word": " producir",
+        "start": 2.36,
+        "end": 2.88,
+        "probability": 0.9975345432758331
+      },
+      {
+        "word": " imágenes,",
+        "start": 2.88,
+        "end": 3.4,
+        "probability": 0.9956796566645304
+      },
+      {
+        "word": " vídeos,",
+        "start": 3.66,
+        "end": 3.9,
+        "probability": 0.9664967656135559
+      },
+      {
+        "word": " avatares",
+        "start": 4.2,
+        "end": 4.66,
+        "probability": 0.9610692858695984
+      },
+      {
+        "word": " y",
+        "start": 4.66,
+        "end": 4.86,
+        "probability": 0.9545861482620239
+      },
+      {
+        "word": " anuncios",
+        "start": 4.86,
+        "end": 5.32,
+        "probability": 0.9954594969749451
+      },
+      {
+        "word": " con",
+        "start": 5.32,
+        "end": 5.56,
+        "probability": 0.9902862906455994
+      },
+      {
+        "word": " IA.",
+        "start": 5.56,
+        "end": 5.76,
+        "probability": 0.8525200486183167
+      }
+    ]
+  },
+  {
+    "file": "09-linea-produccion.wav",
+    "text": " Si tienes una agencia, una marca o produces para clientes, necesitas una línea de producción.",
+    "words": [
+      {
+        "word": " Si",
+        "start": 0.0,
+        "end": 0.38,
+        "probability": 0.9419394731521606
+      },
+      {
+        "word": " tienes",
+        "start": 0.38,
+        "end": 0.6,
+        "probability": 0.9938734769821167
+      },
+      {
+        "word": " una",
+        "start": 0.6,
+        "end": 0.8,
+        "probability": 0.9467085003852844
+      },
+      {
+        "word": " agencia,",
+        "start": 0.8,
+        "end": 1.24,
+        "probability": 0.9937320351600647
+      },
+      {
+        "word": " una",
+        "start": 1.46,
+        "end": 1.52,
+        "probability": 0.9788894653320312
+      },
+      {
+        "word": " marca",
+        "start": 1.52,
+        "end": 1.84,
+        "probability": 0.9991112351417542
+      },
+      {
+        "word": " o",
+        "start": 1.84,
+        "end": 2.12,
+        "probability": 0.8938000798225403
+      },
+      {
+        "word": " produces",
+        "start": 2.12,
+        "end": 2.44,
+        "probability": 0.4801391363143921
+      },
+      {
+        "word": " para",
+        "start": 2.44,
+        "end": 2.68,
+        "probability": 0.9957815408706665
+      },
+      {
+        "word": " clientes,",
+        "start": 2.68,
+        "end": 3.22,
+        "probability": 0.9980481564998627
+      },
+      {
+        "word": " necesitas",
+        "start": 3.3,
+        "end": 3.76,
+        "probability": 0.9892453551292419
+      },
+      {
+        "word": " una",
+        "start": 3.76,
+        "end": 3.94,
+        "probability": 0.994499683380127
+      },
+      {
+        "word": " línea",
+        "start": 3.94,
+        "end": 4.16,
+        "probability": 0.9920787215232849
+      },
+      {
+        "word": " de",
+        "start": 4.16,
+        "end": 4.3,
+        "probability": 0.9987607002258301
+      },
+      {
+        "word": " producción.",
+        "start": 4.3,
+        "end": 4.64,
+        "probability": 0.9987188577651978
+      }
+    ]
+  },
+  {
+    "file": "10-cta-39.wav",
+    "text": " entra en Visual Hub. 39 dólares al mes puedes cancelar cuando quieras.",
+    "words": [
+      {
+        "word": " entra",
+        "start": 0.0,
+        "end": 0.26,
+        "probability": 0.6135699152946472
+      },
+      {
+        "word": " en",
+        "start": 0.26,
+        "end": 0.4,
+        "probability": 0.9908281564712524
+      },
+      {
+        "word": " Visual",
+        "start": 0.4,
+        "end": 0.66,
+        "probability": 0.8197852969169617
+      },
+      {
+        "word": " Hub.",
+        "start": 0.66,
+        "end": 1.06,
+        "probability": 0.5215508341789246
+      },
+      {
+        "word": " 39",
+        "start": 1.6,
+        "end": 2.0,
+        "probability": 0.4028869569301605
+      },
+      {
+        "word": " dólares",
+        "start": 2.0,
+        "end": 2.48,
+        "probability": 0.9672719836235046
+      },
+      {
+        "word": " al",
+        "start": 2.48,
+        "end": 2.72,
+        "probability": 0.9869186282157898
+      },
+      {
+        "word": " mes",
+        "start": 2.72,
+        "end": 2.96,
+        "probability": 0.9993997812271118
+      },
+      {
+        "word": " puedes",
+        "start": 2.96,
+        "end": 3.52,
+        "probability": 0.7575758099555969
+      },
+      {
+        "word": " cancelar",
+        "start": 3.52,
+        "end": 4.08,
+        "probability": 0.9961048066616058
+      },
+      {
+        "word": " cuando",
+        "start": 4.08,
+        "end": 4.28,
+        "probability": 0.9798802733421326
+      },
+      {
+        "word": " quieras.",
+        "start": 4.28,
+        "end": 4.82,
+        "probability": 0.9965394139289856
+      }
+    ]
+  }
+]

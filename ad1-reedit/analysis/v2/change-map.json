@@ -1,0 +1,26 @@
+{
+  "changedComps": [
+    "MG - Creditos",
+    "MG - Tiempo",
+    "MG - Cuentas",
+    "MG - Comunidad"
+  ],
+  "removedCaptionLayers": [
+    "SUB 32.0 | absurda",
+    "SUB 32.1 | de",
+    "SUB 32.2 | créditos",
+    "SUB 73.0 | realistas",
+    "SUB 73.1 | y",
+    "SUB 73.2 | sin",
+    "SUB 76.0 | sacar",
+    "SUB 76.1 | algo",
+    "SUB 76.2 | bueno",
+    "SUB 75.0 | 50"
+  ],
+  "restoredCaption": "SUB 34.0 | generaciones",
+  "preservedMotionComps": [
+    "MG - Sistemas",
+    "OBJ - Intentos"
+  ],
+  "designDecision": "Replace repeated typography with the existing credits consolidating and being consumed; fixed page faces, camera-only page travel; remove lower caption when the graphic carries that phrase."
+}

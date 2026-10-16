@@ -1,0 +1,66 @@
+{
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 48,
+  "frames": 2162,
+  "duration": 45.041667,
+  "audioDuration": 45.041667,
+  "fullDecodeErrors": 0,
+  "nativeComps": 10,
+  "nativeLayers": 329,
+  "missingFonts": 0,
+  "missingMedia": 0,
+  "videoSha256": "2e406d6aa26eed3de1dc68b76d5692bf671534cb091a198e3bf0a552a68038c5",
+  "mixLUFS": -14.16,
+  "mixTruePeakDBTP": -1.48,
+  "scopeCheck": {
+    "otherChunksBitIdentical": {
+      "00": true,
+      "01": true,
+      "02": true,
+      "03": true,
+      "04": true,
+      "06": true,
+      "07": true,
+      "08": true,
+      "09": true,
+      "10": true,
+      "11": true,
+      "12": true,
+      "13": true,
+      "14": true,
+      "15": true
+    },
+    "unaffectedFrameChecks": {
+      "730": {
+        "meanAbsoluteRGBDifference": 0.0,
+        "pctWithin3": 100.0
+      },
+      "760": {
+        "meanAbsoluteRGBDifference": 0.45391460905349795,
+        "pctWithin3": 96.16317836934157
+      },
+      "858": {
+        "meanAbsoluteRGBDifference": 1.2334535751028806,
+        "pctWithin3": 92.59603266460906
+      },
+      "863": {
+        "meanAbsoluteRGBDifference": 1.3213864776234567,
+        "pctWithin3": 91.66827417695474
+      }
+    },
+    "decodedAudioIdentical": true
+  },
+  "handoff": {
+    "cameraSettledFrame": 852,
+    "switchToMainFrame": 858,
+    "fullFrameHoldBeforeSwitch": 6,
+    "mappedFootageTime": "max(830/48, localTime + 642/48)",
+    "visualVerification": "Native and final MP4 frames 820, 857 and 858 compared visually; matching crop and action. Native frame 857 versus source frame 857: mean RGB difference 2.407 due to image pipeline; no observed timing/crop jump."
+  },
+  "visualReview": "Native transition contact sheet, comparison of exported frames to native AE frames, browser playback sampling and inspection at 820. Full video decode passes. Unaffected video chunks byte identical and decoded audio identical to V4.",
+  "change": "Shared vertical camera descent from editing board toward waiting box shot, followed by smooth full-frame zoom. Native captions travel with the footage and hand off to master at frame 858.",
+  "userApproval": false
+}

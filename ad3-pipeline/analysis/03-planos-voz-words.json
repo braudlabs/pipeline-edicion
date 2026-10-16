@@ -1,0 +1,90 @@
+{
+  "text": " Estos planos nos han grabado y esta voz tampoco.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.52,
+      "text": " Estos planos nos han grabado y esta voz tampoco.",
+      "tokens": [
+        50364,
+        4410,
+        329,
+        1393,
+        329,
+        3269,
+        7276,
+        4444,
+        1573,
+        288,
+        5283,
+        30005,
+        36838,
+        13,
+        50550
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3256564140319824,
+      "compression_ratio": 0.9230769230769231,
+      "no_speech_prob": 0.020202061161398888,
+      "words": [
+        {
+          "word": " Estos",
+          "start": 0.0,
+          "end": 0.78,
+          "probability": 0.7932873666286469
+        },
+        {
+          "word": " planos",
+          "start": 0.78,
+          "end": 1.08,
+          "probability": 0.9900555312633514
+        },
+        {
+          "word": " nos",
+          "start": 1.08,
+          "end": 1.16,
+          "probability": 0.6024399995803833
+        },
+        {
+          "word": " han",
+          "start": 1.16,
+          "end": 1.32,
+          "probability": 0.997066080570221
+        },
+        {
+          "word": " grabado",
+          "start": 1.32,
+          "end": 1.76,
+          "probability": 0.9844374656677246
+        },
+        {
+          "word": " y",
+          "start": 1.76,
+          "end": 2.96,
+          "probability": 0.44345587491989136
+        },
+        {
+          "word": " esta",
+          "start": 2.96,
+          "end": 3.12,
+          "probability": 0.9600667357444763
+        },
+        {
+          "word": " voz",
+          "start": 3.12,
+          "end": 3.26,
+          "probability": 0.994903564453125
+        },
+        {
+          "word": " tampoco.",
+          "start": 3.26,
+          "end": 3.52,
+          "probability": 0.9632259011268616
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

@@ -1,0 +1,8 @@
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-00.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-01.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-02.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-03.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-04.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-05.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-06.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/analysis/native-chunks/part-07.mov'

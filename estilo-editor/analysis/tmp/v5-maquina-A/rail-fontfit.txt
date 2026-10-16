@@ -1,0 +1,12 @@
+# v5-maquina f390 «montamos»  tinta real: 438x68 px
+Helvetica Bold                   IoU 0.905  cuerpo   99px  interletrado   -76 milésimas (-7.6px)
+Helvetica Neue Bold              IoU 0.843  cuerpo   97px  interletrado   -69 milésimas (-6.7px)
+Helvetica Neue Medium            IoU 0.832  cuerpo   99px  interletrado   -58 milésimas (-5.7px)
+SF Pro (sistema) Semibold        IoU 0.828  cuerpo  102px  interletrado   -50 milésimas (-5.1px)
+SF Pro Display Bold              IoU 0.815  cuerpo  104px  interletrado   -83 milésimas (-8.6px)
+Arial Bold                       IoU 0.811  cuerpo  100px  interletrado   -82 milésimas (-8.2px)
+SF Pro (sistema) Bold            IoU 0.803  cuerpo  102px  interletrado   -71 milésimas (-7.3px)
+SF Pro (sistema) Heavy           IoU 0.752  cuerpo   97px  interletrado   -73 milésimas (-7.1px)
+Arial Black                      IoU 0.667  cuerpo   92px  interletrado  -124 milésimas (-11.4px)
+Helvetica Neue Condensed Bold    IoU 0.569  cuerpo  101px  interletrado   +30 milésimas (+3.1px)
+lámina: analysis/tmp/v5-maquina-A/rail-fontfit.jpg (rojo = real, verde = candidata, amarillo = coinciden)

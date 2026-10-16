@@ -1,0 +1,82 @@
+{
+  "text": " Esta persona no es real. Este escenario tampoco.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.54,
+      "text": " Esta persona no es real. Este escenario tampoco.",
+      "tokens": [
+        50364,
+        20547,
+        12184,
+        572,
+        785,
+        957,
+        13,
+        16105,
+        4721,
+        49120,
+        36838,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.3391990661621094,
+      "compression_ratio": 0.8888888888888888,
+      "no_speech_prob": 0.007357525639235973,
+      "words": [
+        {
+          "word": " Esta",
+          "start": 0.0,
+          "end": 0.8,
+          "probability": 0.710451066493988
+        },
+        {
+          "word": " persona",
+          "start": 0.8,
+          "end": 1.22,
+          "probability": 0.9945238828659058
+        },
+        {
+          "word": " no",
+          "start": 1.22,
+          "end": 1.48,
+          "probability": 0.9908261895179749
+        },
+        {
+          "word": " es",
+          "start": 1.48,
+          "end": 1.58,
+          "probability": 0.9979435801506042
+        },
+        {
+          "word": " real.",
+          "start": 1.58,
+          "end": 1.84,
+          "probability": 0.9841479063034058
+        },
+        {
+          "word": " Este",
+          "start": 2.54,
+          "end": 2.9,
+          "probability": 0.8552674055099487
+        },
+        {
+          "word": " escenario",
+          "start": 2.9,
+          "end": 3.28,
+          "probability": 0.9803256392478943
+        },
+        {
+          "word": " tampoco.",
+          "start": 3.28,
+          "end": 3.54,
+          "probability": 0.9691241979598999
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

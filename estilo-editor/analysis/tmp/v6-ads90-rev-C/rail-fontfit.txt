@@ -1,0 +1,12 @@
+# v6-ads90-rev f2350 «Analizaremos»  tinta real: 470x69 px
+Helvetica Bold                   IoU 0.910  cuerpo   94px  interletrado  -131 milésimas (-12.3px)
+Helvetica Neue Bold              IoU 0.890  cuerpo   95px  interletrado  -135 milésimas (-12.8px)
+Helvetica Neue Medium            IoU 0.844  cuerpo   98px  interletrado  -126 milésimas (-12.4px)
+SF Pro (sistema) Bold            IoU 0.819  cuerpo   96px  interletrado  -117 milésimas (-11.2px)
+Arial Bold                       IoU 0.814  cuerpo   97px  interletrado  -147 milésimas (-14.2px)
+SF Pro Display Bold              IoU 0.800  cuerpo   95px  interletrado  -112 milésimas (-10.6px)
+SF Pro (sistema) Semibold        IoU 0.790  cuerpo   97px  interletrado  -101 milésimas (-9.8px)
+Arial Black                      IoU 0.775  cuerpo   93px  interletrado  -212 milésimas (-19.7px)
+SF Pro (sistema) Heavy           IoU 0.744  cuerpo   90px  interletrado  -113 milésimas (-10.2px)
+Helvetica Neue Condensed Bold    IoU 0.527  cuerpo   98px  interletrado   -53 milésimas (-5.2px)
+lámina: analysis/tmp/v6-ads90-rev-C/rail-fontfit.jpg (rojo = real, verde = candidata, amarillo = coinciden)

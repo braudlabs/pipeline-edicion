@@ -1,0 +1,30 @@
+{
+  "file": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/braud-style-lab/output/BRAUDLABS-Piloto.mp4",
+  "video": {
+    "codec_name": "h264",
+    "codec_type": "video",
+    "width": 1080,
+    "height": 1920,
+    "r_frame_rate": "24/1",
+    "duration": "2.791667",
+    "nb_frames": "67"
+  },
+  "sha256": "44370d52675d7b1d331a027c1e31512e0cef3d6d590e93143541f7a14d6d7242",
+  "fullDecode": "passed",
+  "audioNativeMaxSampleDifference": 0,
+  "audioSamplesCompared": 268000,
+  "visualReview": "All 67 decoded frames inspected in sequence sheets; focused original/AE comparisons at entry, movement and settled poses; no claim of aesthetic approval",
+  "editabilityTest": "Changed 30 variantes to 45 versiones in a temporary native duplicate; rendered and inspected; duplicate excluded from delivery",
+  "nativeCompositions": 5,
+  "nativeLayersRecursive": 17,
+  "referenceFramesEmbedded": 0,
+  "generatedRasterAssets": 0,
+  "approval": "pending_user",
+  "browserCheck": {
+    "url": "http://127.0.0.1:8780/Comparar.html",
+    "originalAndReplica": "readyState 4, 1080x1920, 2.791667 s, no media errors",
+    "observedPlaybackDriftSeconds": 0.016269,
+    "controls": "play/pause, looping and frame advance verified in visible UI",
+    "inspectionLimit": "Frame sequences plus sampled playback states; audio verified numerically against the original fragment, not evaluated by listening"
+  }
+}

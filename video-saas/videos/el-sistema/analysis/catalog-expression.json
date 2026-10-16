@@ -1,0 +1,100 @@
+{
+  "ok": true,
+  "category": "expression",
+  "operations": [
+    {
+      "name": "expression.set",
+      "description": "Apply an expression to a property.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path"
+        },
+        {
+          "name": "expression",
+          "type": "string",
+          "required": true,
+          "description": "Expression code string"
+        }
+      ]
+    },
+    {
+      "name": "expression.disable_all",
+      "description": "Disable all expressions in a comp (all layers, all properties). Returns a manifest that can be used to re-enable them later via expression.restore_all. Manifest paths use numeric property indices; manifests produced by older versions of this operation (matchName-based paths) are not compatible.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        }
+      ]
+    },
+    {
+      "name": "expression.restore_all",
+      "description": "Re-enable expressions from a manifest produced by expression.disable_all. Optionally transform the expressions before restoring (e.g. replace content variable). Only manifests in the current format (numeric property-index paths) are supported; manifests from older versions are not compatible.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "manifest",
+          "type": "array",
+          "required": true,
+          "description": "Manifest array from expression.disable_all"
+        },
+        {
+          "name": "replacements",
+          "type": "object",
+          "required": false,
+          "description": "Optional string replacements to apply to each expression before restoring, e.g. { \"old\": \"new\" }"
+        }
+      ]
+    },
+    {
+      "name": "expression.remove",
+      "description": "Remove (disable) the expression on a property.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "property",
+          "type": "array",
+          "required": true,
+          "description": "Property path"
+        }
+      ]
+    }
+  ]
+}

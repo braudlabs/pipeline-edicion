@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "result": {
+    "ok": true,
+    "count": 0,
+    "fonts": []
+  },
+  "context": {
+    "project": {
+      "numItems": 93,
+      "dirty": false,
+      "file": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/video-saas/videos/el-sistema/ae/v3/El-Sistema-V3.aep"
+    },
+    "activeComp": null,
+    "selectedLayers": []
+  },
+  "logs": [],
+  "durationMs": 163
+}

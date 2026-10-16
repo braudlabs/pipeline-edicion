@@ -1,0 +1,23 @@
+{
+  "format": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 48,
+    "frames": 2250,
+    "duration": 46.875
+  },
+  "decodeErrors": 0,
+  "videoSha256": "8ac402868a2beb5a8524504e49403c73fdd5e53f4e038d93a29066e6281524fc",
+  "V1Unchanged": true,
+  "audioBitstreamIdentical": true,
+  "audioSha256": "81eab8c271a4eddb8b27afcfee023ff13d93619c58e86d39b89670ad54d231ca",
+  "motionSampleUniqueFrames": 24,
+  "unchangedSectionsSSIM": {
+    "3": 0.996191,
+    "10": 0.993636,
+    "23.5": 0.996313,
+    "31": 0.987034,
+    "44": 0.993839
+  },
+  "visualInspection": "Native stills and decoded frame sequences inspected. No full continuous playback or new audio listening pass is claimed."
+}

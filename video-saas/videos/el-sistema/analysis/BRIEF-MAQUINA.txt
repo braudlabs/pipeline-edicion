@@ -1,0 +1,73 @@
+BRIEF DE EDICIÓN
+AD «La máquina de fabricar creativos»
+Vertical 9:16 · 1080p · 16 clips, 85,7 s de material · locutor: 45,2 s · pieza final estimada: ~70 s
+
+
+LA IDEA EN UNA FRASE
+
+Deivid, un dueño de e-commerce con pelos locos, descubre una máquina que escupe creativos. Acaba enterrado en ellos y la máquina hasta le gestiona Meta. El estudio blanco es el mundo CON la máquina; los pain points (ring, oficina verde, oficina en llamas) son el mundo SIN ella, cada uno en su color. Al volver al blanco llega el alivio.
+
+
+LAS VOCES
+
+Hay tres voces:
+- DEIVID habla dentro de sus clips (01, 02, 05, 07). Esa voz manda: en esos tramos no va locutor.
+- LA MÁQUINA habla dentro del clip 06, con voz robótica. Tampoco va locutor ahí.
+- EL LOCUTOR (VO1…VO6, archivos aparte) va encima de todos los demás clips, que traen solo efectos de sonido. Baja los efectos por debajo de la voz, pero no los quites: los golpes de la máquina son parte del ritmo.
+
+
+LOS CLIPS, EN ORDEN
+
+| # | Archivo | Qué pasa | Voz | Qué hacer |
+|---|---|---|---|---|
+| 1 | 01-hook-la-maquina-le-corta.mp4 | «Si eres dueño de un e-commerce, imagínate una máquina que…» y la máquina le corta disparando 3 creativos; él salta hacia atrás; corte a los creativos cayendo al suelo | Deivid | Al final suelta un «¡Uff!» (3,88-4,18 s): déjalo si te hace gracia o quítalo |
+| 2 | 02-que-cojones-diez-anuncios.mp4 | Contrapicado: «¿Qué cojones? ¡Ahora hazme diez anuncios más para mi producto!» y ráfaga de creativos hacia cámara (~4,5 s) | Deivid | Escucha la última palabra, que en algún momento suena a «para el producto» |
+| 3 | 03-cara-de-flipado.mp4 | Continuación del 02 sin corte: baja los brazos y se queda mirando a cámara con cara de «¿qué es esto?» | — | Aquí EMPIEZA el VO1 |
+| 4 | 04-maquina-a-toda-maquina.mp4 | Plano heroico de la máquina escupiendo creativos en cadena | VO1 | En «…eh, un segundo…»: congelado + rayado de disco y corte seco al 05 |
+| 5 | 05-enterrado-subeme-a-meta.mp4 | Enterrado hasta el pecho: «Venga, ahora súbeme todo esto a Meta y gestióname todas las campañas automáticamente, que yo no tengo ni idea» | Deivid | El «Venga» entra en el 1,06 s: el primer segundo sobra |
+| 6 | 06-habla-la-maquina.mp4 | Sigue sin corte desde el 05. La máquina: «Y aunque supieras, pelos locos, esto déjamelo a mí, que me he tragado tropecientas horas de Meta» | Máquina | La pantalla apenas se ilumina: métele un brillo o unas ondas al ritmo de la voz para que se lea que habla ella. Él se toca el pelo al final, como reacción |
+| 7 | 07-okay.mp4 | Sigue sin corte desde el 06: se encoge de hombros, «¡Ok!» | Deivid | El «Ok» cae en el 0,0 s |
+| 8 | 08-una-moneda.mp4 | Enseña una moneda a cámara, la mete y la máquina suelta un chorro de creativos | VO2 | «…a un coste ridículo» encima de la moneda |
+| 9 | 09-creativos-y-sonrisa.mp4 | Creativos volando y primer plano de él, chulo | VO2 | «¿Y el visual? Ya lo estás viendo.» Buen sitio para enseñar creativos reales en motion graphics |
+| 10 | 10-ring-el-visual.mp4 | CAMBIO DE MUNDO. Ring azul/rojo: Deivid contra su gemelo soso, los dos con la misma zapatilla. Levanta un creativo (~3 s), cae el foco, el gemelo KO (~5,5 s) | VO3 | Entrada con flash de color. «El visual» encima del creativo en alto. En el acercamiento final el pelo se le aclara con el foco: corta antes si se nota |
+| 11 | 11-a-pagar-caja-registradora.mp4 | Oficina verde menta: la caja registradora le escupe tiques y KA-CHING, avalancha (segundo plano desde ~4,5 s) | VO4 | «¡A PAGAR!» encima del ka-ching + rótulo «A PAGAR» |
+| 12 | 12a-apagar-fuegos.mp4 · 12b-apagar-derrotado.mp4 | Oficina roja en llamas, él con casco y extintor; en el 12b apaga el último fuego y se sienta derrotado | VO4 | «¡APAGAR!» sobre el último chorro del extintor + rótulo «APAGAR». Suenan igual que «A PAGAR»: el chiste lo cuentan la imagen y el rótulo |
+| 13 | 13-ayyy-maquinita.mp4 | Vuelta al estudio blanco: le asoma una mano del montón de creativos y sale con las gafas torcidas | VO5 | Corte seco al blanco (contraste de alivio). «Ayyy, maquinita… ¿y ahora quién recoge todo esto?» |
+| 14 | 14-cta-cima-con-cafe.mp4 | Sentado en la cima de la montaña con un café, señala hacia abajo | VO6 | «Pincha abajo» justo cuando señala (apunta al botón de Meta) |
+| 15 | 15-instalacion-almacen.mp4 | Unos operarios meten la máquina en un almacén real de e-commerce | VO6 | «La máquina te la instalamos dentro de tu negocio.» Cierre |
+
+
+TIEMPOS DEL LOCUTOR
+
+En la carpeta `locutor/` tienes la locución entera (`locutor-COMPLETO.mp3`, 45,2 s) y la misma cortada en seis bloques, uno por tramo. Los cortes están hechos en los silencios. Los tiempos de abajo son del archivo COMPLETO; dentro de cada bloque, réstale su inicio.
+
+| Bloque | Archivo | Tramo en el COMPLETO | Va sobre | Momentos clave (COMPLETO) |
+|---|---|---|---|---|
+| VO1 | VO1-eso-es-lo-que-montamos.mp3 | 0,00-5,80 | 03 → 04 | «puta» 2,02-2,30 · «Un segundo» 4,72-5,52: aquí el congelado y el rayado de disco, y corte al 05 |
+| VO2 | VO2-coste-ridiculo.mp3 | 5,80-12,46 | 08 → 09 | «coste ridículo» 9,42-10,26 sobre la moneda · «¿Y el visual?» 10,48 → pasa al 09 |
+| VO3 | VO3-el-visual.mp3 | 12,46-20,50 | 10 | «¿Sabes qué te diferencia ahí?» 18,18 · «El visual» 20,02-20,38 sobre el creativo en alto |
+| VO4 | VO4-a-pagar-apagar.mp3 | 20,50-31,30 | 11 → 12a → 12b | «A PAGAR» 26,18-26,72 con el ka-ching del 11 · «APAGAR» 30,48-31,04 con el último chorro del 12b |
+| VO5 | VO5-ayyy-maquinita.mp3 | 31,30-34,32 | 13 | «¡Ay, maquinita!» 31,44 |
+| VO6 | VO6-cta.mp3 | 34,32-45,17 | 14 → 15 | «pincha abajo» 39,40-39,96 cuando señala · «La máquina te la instalamos» 42,62 → pasa al 15 |
+
+Notas del locutor:
+- El VO1 no lleva el «eh» antes de «un segundo». Si se echa en falta, se mete con el rayado de disco.
+- «A PAGAR» y «APAGAR» suenan igual (es a propósito): el rótulo y la imagen hacen el chiste.
+- Escucha cómo dice «Deivid» (39,0 s aprox.). Whisper lo escribe «David»; si suena demasiado a «Dabid», avísanos.
+
+
+EL ESTILO
+
+- Muy dinámico: cortes cada 2-3 s, motion graphics y pausas entre planos. Los clips son largos a propósito, así que recorta sin miedo.
+- La cámara es de iPhone en mano a propósito: no la estabilices.
+- Cambios de mundo (09→10, 12b→13) con corte seco, golpe de sonido y un fotograma de flash del color nuevo.
+- Mismo Deivid en todos los planos: pelo negro, gafas naranjas, americana de terciopelo naranja y zapatillas verdes.
+
+TACOS
+
+Hay un «cojones» (clip 02) y un «puta» (VO1). Meta puede limitar la entrega de anuncios con tacos: si queremos ir a lo seguro, el «puta» con pitido. Lo decidimos juntos.
+
+
+SI ALGO NO TE CUADRA
+
+Si lo ves lineal, si falta un plano, si algo se ve raro o necesitas otra versión de algún clip, dínoslo y lo regeneramos. Pregunta lo que necesites.

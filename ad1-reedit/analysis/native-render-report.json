@@ -1,0 +1,66 @@
+[
+  {
+    "part": 0,
+    "firstFrame": 0,
+    "lastFrame": 424,
+    "frames": 425,
+    "seconds": 20.21944770900882,
+    "size": 237426804
+  },
+  {
+    "part": 1,
+    "firstFrame": 425,
+    "lastFrame": 849,
+    "frames": 425,
+    "seconds": 15.219029083003988,
+    "size": 253793204
+  },
+  {
+    "part": 2,
+    "firstFrame": 850,
+    "lastFrame": 1274,
+    "frames": 425,
+    "seconds": 24.167460124997888,
+    "size": 250313668
+  },
+  {
+    "part": 3,
+    "firstFrame": 1275,
+    "lastFrame": 1699,
+    "frames": 425,
+    "seconds": 17.16405575000681,
+    "size": 245908916
+  },
+  {
+    "part": 4,
+    "firstFrame": 1700,
+    "lastFrame": 2124,
+    "frames": 425,
+    "seconds": 19.196774374999222,
+    "size": 236500308
+  },
+  {
+    "part": 5,
+    "firstFrame": 2125,
+    "lastFrame": 2549,
+    "frames": 425,
+    "seconds": 20.173683207991417,
+    "size": 227547268
+  },
+  {
+    "part": 6,
+    "firstFrame": 2550,
+    "lastFrame": 2974,
+    "frames": 425,
+    "seconds": 28.209458500001347,
+    "size": 251538052
+  },
+  {
+    "part": 7,
+    "firstFrame": 2975,
+    "lastFrame": 3399,
+    "frames": 425,
+    "seconds": 14.13685858300596,
+    "size": 244802468
+  }
+]

@@ -1,0 +1,349 @@
+# lafabrica-v1  f725-f892  (30.208-37.167 s)  24.000 fps  1080x1920
+# metraje estimado a ~19.95 fps dentro de la línea de 24.00; repetidos exactos en el tramo: 8
+f721    30.042s  TEXTO «el sistera»  f721-f736 (16 f, 0.667 s)  centro 89.7%,66.7%  alto 95px (4.97%)  ancho 240px  ángulo 0.0°  id=350
+f721    30.042s  TEXTO «el trabajo té»  f721-f731 (11 f, 0.458 s)  centro 86.2%,71.4%  alto 86px (4.48%)  ancho 295px  ángulo 0.0°  id=351
+f721    30.042s      · id=350 f721: cx=834 cy=1283 w=403 h=84 ang=0.8 conf=0.5 «el sistera»
+f721    30.042s      · id=351 f721: cx=846 cy=1376 w=453 h=105 ang=0.0 conf=0.5 «el trabajo té»
+f722    30.083s  TEXTO «generar»  f722-f736 (15 f, 0.625 s)  centro 49.9%,50.9%  alto 105px (5.45%)  ancho 353px  ángulo 0.0°  id=352
+f722    30.083s      · id=350 f722: cx=890 cy=1281 w=363 h=90 ang=0.0 conf=1 «el sistem»
+f722    30.083s      · id=351 f722: cx=872 cy=1376 w=371 h=100 ang=0.0 conf=1 «el trabajo»
+f722    30.083s      · id=352 f722: cx=412 cy=977 w=349 h=95 ang=0.0 conf=1 «generar»
+f723    30.125s      · id=350 f723: cx=892 cy=1281 w=366 h=90 ang=0.0 conf=0.5 «el sistem»
+f723    30.125s      · id=351 f723: cx=872 cy=1374 w=371 h=98 ang=0.0 conf=0.5 «el trabajo»
+f723    30.125s      · id=352 f723: cx=412 cy=977 w=343 h=89 ang=0.0 conf=1 «generar»
+f724    30.167s      · id=350 f724: cx=921 cy=1285 w=313 h=103 ang=2.1 conf=0.5 «el sister»
+f724    30.167s      · id=351 f724: cx=910 cy=1373 w=335 h=95 ang=0.0 conf=0.5 «el trabajc»
+f724    30.167s      · id=352 f724: cx=395 cy=980 w=354 h=100 ang=0.0 conf=1 «generar»
+f725    30.208s      · id=350 f725: cx=938 cy=1284 w=279 h=101 ang=0.0 conf=1 «el siste»
+f725    30.208s      · id=351 f725: cx=931 cy=1371 w=295 h=86 ang=0.0 conf=1 «el traba»
+f725    30.208s      · id=352 f725: cx=451 cy=976 w=351 h=105 ang=-1.7 conf=1 «generar»
+f726    30.250s      · id=350 f726: cx=938 cy=1284 w=279 h=101 ang=0.0 conf=1 «el siste»
+f726    30.250s      · id=351 f726: cx=931 cy=1371 w=295 h=86 ang=-0.8 conf=0.5 «el traba»
+f726    30.250s      · id=352 f726: cx=451 cy=976 w=352 h=105 ang=-3.0 conf=1 «generar»
+f727    30.292s      · id=350 f727: cx=956 cy=1281 w=243 h=95 ang=0.0 conf=0.5 «el sist»
+f727    30.292s      · id=351 f727: cx=946 cy=1369 w=262 h=81 ang=0.6 conf=0.5 «el traba»
+f727    30.292s      · id=352 f727: cx=512 cy=980 w=360 h=117 ang=0.0 conf=1 «generar»
+f728    30.333s      · id=350 f728: cx=957 cy=1281 w=240 h=90 ang=0.0 conf=0.5 «el sist»
+f728    30.333s      · id=351 f728: cx=946 cy=1367 w=262 h=84 ang=-0.7 conf=0.5 «el trab:»
+f728    30.333s      · id=352 f728: cx=512 cy=981 w=360 h=114 ang=0.0 conf=1 «generar»
+f729    30.375s      · id=350 f729: cx=968 cy=1281 w=218 h=90 ang=0.0 conf=0.5 «el sisi»
+f729    30.375s      · id=351 f729: cx=957 cy=1368 w=240 h=84 ang=0.0 conf=0.5 «el trab»
+f729    30.375s      · id=352 f729: cx=539 cy=977 w=352 h=100 ang=0.0 conf=1 «generar»
+f730    30.417s      · id=350 f730: cx=975 cy=1281 w=204 h=95 ang=0.0 conf=1 «el sis»
+f730    30.417s      · id=351 f730: cx=964 cy=1368 w=226 h=84 ang=0.0 conf=0.5 «el trab»
+f730    30.417s      · id=352 f730: cx=550 cy=977 w=353 h=101 ang=-1.2 conf=1 «generar»
+f731    30.458s      · id=352 f731: cx=550 cy=977 w=353 h=101 ang=-1.2 conf=1 «generar»
+f732    30.500s  TEXTO «el trak»  f732-f736 (5 f, 0.208 s)  centro 90.2%,71.4%  alto 81px (4.22%)  ancho 206px  ángulo 0.0°  id=353
+f732    30.500s      · id=350 f732: cx=984 cy=1280 w=187 h=87 ang=0.0 conf=1 «el sis» (final)
+f732    30.500s      · id=352 f732: cx=564 cy=972 w=360 h=104 ang=0.0 conf=1 «generar» (final)
+f732    30.500s      · id=353 f732: cx=968 cy=1368 w=218 h=95 ang=0.0 conf=1 «el trak»
+f733    30.542s      · id=350 f733: cx=986 cy=1285 w=181 h=86 ang=0.0 conf=0.5 «el sis» (final)
+f733    30.542s      · id=352 f733: cx=564 cy=984 w=352 h=103 ang=0.0 conf=1 «generar» (final)
+f733    30.542s      · id=353 f733: cx=974 cy=1372 w=206 h=81 ang=0.0 conf=0.5 «el tral»
+f734    30.583s  VOZ «adaptar»  30.60-31.04 s (f734-f745)  [pausa previa 0.24 s]
+f734    30.583s      · id=350 f734: cx=986 cy=1284 w=181 h=89 ang=0.0 conf=1 «el sis» (final)
+f734    30.583s      · id=352 f734: cx=564 cy=984 w=352 h=103 ang=-0.7 conf=1 «generar» (final)
+f734    30.583s      · id=353 f734: cx=974 cy=1372 w=206 h=81 ang=0.0 conf=0.5 «el tral»
+f735    30.625s      · id=350 f735: cx=959 cy=1313 w=193 h=92 ang=0.0 conf=1 «el sis» (final)
+f735    30.625s      · id=352 f735: cx=533 cy=1010 w=352 h=106 ang=0.0 conf=1 «generar» (final)
+f735    30.625s      · id=353 f735: cx=954 cy=1402 w=240 h=92 ang=0.0 conf=1 «el trab»
+f736    30.667s  RÁFAGA de movimiento f736-f747 (0.5 s) mad_max=17.6
+f736    30.667s      · id=350 f736: cx=948 cy=1313 w=170 h=92 ang=0.0 conf=1 «el si» (final)
+f736    30.667s      · id=352 f736: cx=534 cy=1010 w=343 h=100 ang=0.5 conf=1 «generar» (final)
+f736    30.667s      · id=353 f736: cx=953 cy=1402 w=243 h=92 ang=0.0 conf=1 «el trab»
+f738    30.750s  TEXTO «ARASUGE»  f738-f739 (2 f, 0.083 s)  centro 24.1%,64.6%  alto 112px (5.83%)  ancho 344px  ángulo 180.0°  id=355
+f738    30.750s  TEXTO «IA»  f738-f760 (23 f, 0.958 s)  centro 52.6%,77.2%  alto 272px (14.17%)  ancho 310px  ángulo 0.0°  id=354
+f738    30.750s      · id=354 f738: cx=892 cy=1228 w=344 h=296 ang=0.0 conf=0.3 «IA»
+f738    30.750s  GOLPE de audio t=30.770 s  z=12.0  agudo  subida -6.7 dB  nivel -21.1 dB
+f739    30.792s      · id=354 f739: cx=888 cy=1228 w=336 h=296 ang=0.0 conf=0.3 «IA»
+f740    30.833s      · id=354 f740: cx=770 cy=1308 w=318 h=265 ang=0.0 conf=0.5 «IA»
+f741    30.875s  TEXTO «adaptar»  f741-f755 (15 f, 0.625 s)  centro 56.3%,45.7%  alto 112px (5.81%)  ancho 352px  ángulo 0.0°  id=357
+f741    30.875s  TEXTO «enerar»  f741-f753 (13 f, 0.542 s)  centro 7.0%,76.3%  alto 78px (4.07%)  ancho 151px  ángulo 0.0°  id=356
+f741    30.875s  TEXTO «el sistema hace»  f741-f755 (15 f, 0.625 s)  centro 56.2%,93.3%  alto 96px (5.0%)  ancho 616px  ángulo 0.0°  id=358
+f741    30.875s  TEXTO «el trabajo técnico»  f741-f755 (15 f, 0.625 s)  centro 56.3%,97.7%  alto 98px (5.11%)  ancho 656px  ángulo 0.0°  id=359
+f741    30.875s      · id=354 f741: cx=720 cy=1368 w=320 h=288 ang=0.0 conf=0.5 «IA»
+f741    30.875s      · id=357 f741: cx=675 cy=768 w=357 h=112 ang=0.1 conf=1 «adaptar»
+f741    30.875s      · id=356 f741: cx=134 cy=1377 w=268 h=98 ang=0.0 conf=0.5 «enerar»
+f741    30.875s      · id=358 f741: cx=716 cy=1687 w=611 h=98 ang=0.0 conf=0.5 «el sistera hace»
+f741    30.875s      · id=359 f741: cx=716 cy=1774 w=661 h=93 ang=0.0 conf=1 «el trabajo técnico»
+f741    30.875s  GOLPE de audio t=30.860 s  z=12.0  agudo  subida -0.9 dB  nivel -17.3 dB
+f742    30.917s      · id=354 f742: cx=712 cy=1368 w=320 h=288 ang=0.0 conf=0.5 «IA»
+f742    30.917s      · id=357 f742: cx=674 cy=770 w=354 h=117 ang=0.0 conf=1 «adaptar»
+f742    30.917s      · id=356 f742: cx=133 cy=1376 w=265 h=100 ang=0.0 conf=1 «enerar»
+f742    30.917s      · id=358 f742: cx=724 cy=1696 w=616 h=128 ang=-0.2 conf=0.5 «el sistera hace»
+f742    30.917s      · id=359 f742: cx=720 cy=1772 w=672 h=120 ang=0.2 conf=1 «el trabajo técnico»
+f743    30.958s      · id=357 f743: cx=656 cy=811 w=352 h=114 ang=-0.4 conf=1 «adaptar»
+f743    30.958s      · id=356 f743: cx=106 cy=1415 w=212 h=78 ang=0.0 conf=1 «nerar»
+f743    30.958s      · id=358 f743: cx=672 cy=1724 w=608 h=104 ang=0.0 conf=0.5 «el sistema hace»
+f743    30.958s      · id=359 f743: cx=668 cy=1812 w=664 h=104 ang=0.0 conf=1 «el trabajo técnico»
+f744    31.000s      · id=354 f744: cx=643 cy=1408 w=315 h=248 ang=0.0 conf=0.3 «IA»
+f744    31.000s      · id=357 f744: cx=656 cy=811 w=352 h=114 ang=-0.5 conf=1 «adaptar»
+f744    31.000s      · id=356 f744: cx=106 cy=1415 w=212 h=78 ang=0.0 conf=1 «nerar»
+f744    31.000s      · id=358 f744: cx=672 cy=1724 w=608 h=104 ang=0.0 conf=0.5 «el sistema hace»
+f744    31.000s      · id=359 f744: cx=668 cy=1816 w=664 h=112 ang=0.2 conf=1 «el trabajo técnico»
+f745    31.042s  VOZ «y»  31.04-31.40 s (f745-f754)
+f745    31.042s      · id=354 f745: cx=615 cy=1432 w=304 h=251 ang=0.0 conf=0.5 «IA»
+f745    31.042s      · id=357 f745: cx=625 cy=840 w=385 h=112 ang=0.0 conf=1 «adaptar»
+f745    31.042s      · id=356 f745: cx=88 cy=1443 w=176 h=73 ang=0.0 conf=1 «erar»
+f745    31.042s      · id=358 f745: cx=636 cy=1752 w=616 h=96 ang=0.0 conf=0.5 «el sistema hace»
+f745    31.042s      · id=359 f745: cx=632 cy=1843 w=656 h=98 ang=0.0 conf=1 «el trabajo técnico»
+f746    31.083s      · id=354 f746: cx=582 cy=1455 w=310 h=248 ang=0.0 conf=0.3 «IA»
+f746    31.083s      · id=357 f746: cx=608 cy=862 w=357 h=112 ang=0.0 conf=1 «adaptar»
+f746    31.083s      · id=356 f746: cx=75 cy=1465 w=151 h=78 ang=0.0 conf=1 «erar»
+f746    31.083s      · id=358 f746: cx=612 cy=1776 w=616 h=96 ang=0.0 conf=1 «el sistema hace»
+f746    31.083s      · id=359 f746: cx=608 cy=1860 w=656 h=104 ang=0.0 conf=1 «el trabajo técnico»
+f747    31.125s      · id=354 f747: cx=582 cy=1455 w=310 h=243 ang=0.0 conf=0.3 «IA»
+f747    31.125s      · id=357 f747: cx=608 cy=862 w=357 h=112 ang=0.0 conf=1 «adaptar»
+f747    31.125s      · id=356 f747: cx=75 cy=1465 w=151 h=78 ang=0.0 conf=1 «erar»
+f747    31.125s      · id=358 f747: cx=607 cy=1774 w=606 h=93 ang=0.0 conf=1 «el sistema hace»
+f747    31.125s      · id=359 f747: cx=608 cy=1860 w=656 h=104 ang=0.0 conf=1 «el trabajo técnico»
+f748    31.167s      · id=354 f748: cx=571 cy=1483 w=293 h=248 ang=0.0 conf=0.3 «A»
+f748    31.167s      · id=357 f748: cx=583 cy=878 w=352 h=109 ang=-0.9 conf=1 «adaptar»
+f748    31.167s      · id=356 f748: cx=64 cy=1482 w=128 h=72 ang=0.0 conf=1 «rar»
+f748    31.167s      · id=358 f748: cx=586 cy=1792 w=597 h=84 ang=0.0 conf=1 «el sistema hace»
+f748    31.167s      · id=359 f748: cx=585 cy=1875 w=650 h=84 ang=0.0 conf=1 «el trabajo técnico»
+f749    31.208s      · id=357 f749: cx=566 cy=890 w=352 h=112 ang=0.3 conf=1 «adaptar»
+f749    31.208s      · id=356 f749: cx=57 cy=1493 w=114 h=73 ang=0.0 conf=0.5 «rar»
+f749    31.208s      · id=358 f749: cx=572 cy=1800 w=616 h=96 ang=0.0 conf=1 «el sistema hace»
+f749    31.208s      · id=359 f749: cx=568 cy=1882 w=650 h=70 ang=0.0 conf=1 «el trabaio técnico»
+f750    31.250s      · id=357 f750: cx=566 cy=890 w=352 h=112 ang=0.4 conf=1 «adaptar»
+f750    31.250s      · id=356 f750: cx=57 cy=1493 w=114 h=73 ang=0.0 conf=0.5 «rar»
+f750    31.250s      · id=358 f750: cx=572 cy=1800 w=616 h=96 ang=0.0 conf=1 «el sistema hace»
+f750    31.250s      · id=359 f750: cx=568 cy=1882 w=650 h=70 ang=0.0 conf=1 «el trabaio técnico»
+f751    31.292s      · id=357 f751: cx=557 cy=901 w=349 h=106 ang=0.2 conf=1 «adaptar» (final)
+f751    31.292s      · id=358 f751: cx=560 cy=1820 w=624 h=104 ang=0.0 conf=1 «el sistema hace» (final)
+f751    31.292s      · id=359 f751: cx=554 cy=1881 w=650 h=72 ang=0.0 conf=0.5 «el trahaio técnico» (final)
+f752    31.333s      · id=357 f752: cx=557 cy=901 w=349 h=106 ang=0.4 conf=1 «adaptar» (final)
+f752    31.333s      · id=358 f752: cx=556 cy=1820 w=616 h=104 ang=0.0 conf=1 «el sistema hace» (final)
+f752    31.333s      · id=359 f752: cx=554 cy=1882 w=650 h=70 ang=0.0 conf=0.5 «el trabaio técnico» (final)
+f753    31.375s  RÁFAGA de movimiento f753-f763 (0.458 s) mad_max=17.9
+f753    31.375s      · id=357 f753: cx=543 cy=901 w=354 h=112 ang=0.0 conf=1 «adaptar» (final)
+f753    31.375s      · id=358 f753: cx=544 cy=1814 w=597 h=84 ang=0.0 conf=1 «el sistema hace» (final)
+f753    31.375s      · id=359 f753: cx=536 cy=1885 w=636 h=64 ang=0.0 conf=0.5 «el trabaio técnico» (final)
+f754    31.417s  VOZ «crear»  31.40-31.68 s (f754-f760)
+f754    31.417s      · id=357 f754: cx=500 cy=876 w=360 h=120 ang=0.0 conf=1 «adaptar» (final)
+f754    31.417s      · id=358 f754: cx=502 cy=1786 w=614 h=95 ang=0.0 conf=0.5 «el sistema hace» (final)
+f754    31.417s      · id=359 f754: cx=501 cy=1874 w=650 h=86 ang=0.0 conf=1 «el trabajo técnico» (final)
+f755    31.458s      · id=357 f755: cx=500 cy=876 w=360 h=120 ang=0.0 conf=1 «adaptar» (final)
+f755    31.458s      · id=358 f755: cx=502 cy=1786 w=614 h=95 ang=0.0 conf=0.5 «el sistema hace» (final)
+f755    31.458s      · id=359 f755: cx=500 cy=1874 w=653 h=86 ang=0.0 conf=0.5 «el trabajo técnico» (final)
+f755    31.458s  GOLPE de audio t=31.440 s  z=9.0  agudo  subida 1.7 dB  nivel -20.3 dB
+f756    31.500s      · id=354 f756: cx=388 cy=1384 w=344 h=288 ang=0.0 conf=0.5 «IA» (final)
+f757    31.542s      · id=354 f757: cx=236 cy=1248 w=344 h=288 ang=0.0 conf=0.3 «IA» (final)
+f758    31.583s      · id=354 f758: cx=236 cy=1248 w=344 h=288 ang=0.0 conf=0.3 «IA» (final)
+f759    31.625s  TEXTO «adaptar»  f759-f781 (23 f, 0.958 s)  centro 5.3%,19.9%  alto 89px (4.65%)  ancho 114px  ángulo 0.0°  id=360
+f759    31.625s  TEXTO «ema hace»  f759-f781 (23 f, 0.958 s)  centro 10.9%,67.3%  alto 86px (4.51%)  ancho 234px  ángulo 0.0°  id=361
+f759    31.625s      · id=354 f759: cx=152 cy=1168 w=304 h=288 ang=0.0 conf=0.5 «IA» (final)
+f759    31.625s      · id=360 f759: cx=160 cy=568 w=320 h=112 ang=0.8 conf=1 «adaptar»
+f759    31.625s      · id=361 f759: cx=223 cy=1482 w=291 h=77 ang=-2.5 conf=0.3 «emahar»
+f760    31.667s  VOZ «variaciones,»  31.68-32.30 s (f760-f775)
+f760    31.667s      · id=354 f760: cx=148 cy=1172 w=296 h=280 ang=0.0 conf=0.5 «IA» (final)
+f761    31.708s  TEXTO «ajo técnico»  f761-f781 (21 f, 0.875 s)  centro 11.6%,71.9%  alto 78px (4.07%)  ancho 251px  ángulo 0.0°  id=363
+f761    31.708s      · id=360 f761: cx=128 cy=512 w=257 h=103 ang=0.0 conf=1 «laptar»
+f761    31.708s      · id=361 f761: cx=191 cy=1426 w=382 h=84 ang=0.8 conf=0.5 «ema hace»
+f761    31.708s      · id=363 f761: cx=206 cy=1522 w=413 h=98 ang=-1.1 conf=0.5 «ajo técnico»
+f762    31.750s      · id=360 f762: cx=105 cy=474 w=209 h=112 ang=0.0 conf=0.5 «ptar»
+f762    31.750s      · id=361 f762: cx=169 cy=1387 w=338 h=84 ang=0.4 conf=0.5 «ma hace»
+f762    31.750s      · id=363 f762: cx=181 cy=1476 w=363 h=89 ang=0.1 conf=0.5 «o técnico»
+f763    31.792s      · id=360 f763: cx=105 cy=474 w=209 h=112 ang=0.8 conf=0.5 «ptar»
+f763    31.792s      · id=361 f763: cx=169 cy=1387 w=338 h=84 ang=0.4 conf=0.5 «ma hace»
+f763    31.792s      · id=363 f763: cx=181 cy=1476 w=363 h=89 ang=0.2 conf=0.5 «o técnico»
+f764    31.833s  TEXTO «variar»  f764-f781 (18 f, 0.750 s)  centro 50.7%,50.5%  alto 120px (6.22%)  ancho 338px  ángulo 0.3°  id=365
+f764    31.833s      · id=360 f764: cx=86 cy=446 w=173 h=106 ang=0.0 conf=1 «ptar»
+f764    31.833s      · id=361 f764: cx=151 cy=1355 w=301 h=81 ang=0.4 conf=1 «na hace»
+f764    31.833s      · id=363 f764: cx=162 cy=1446 w=324 h=78 ang=-0.2 conf=0.3 «técnico»
+f764    31.833s      · id=365 f764: cx=592 cy=1035 w=340 h=123 ang=0.0 conf=1 «variar»
+f765    31.875s      · id=360 f765: cx=74 cy=416 w=148 h=89 ang=0.0 conf=0.5 «tar»
+f765    31.875s      · id=361 f765: cx=137 cy=1332 w=274 h=81 ang=-1.2 conf=0.3 «la hace»
+f765    31.875s      · id=363 f765: cx=149 cy=1422 w=299 h=75 ang=0.0 conf=0.5 «técnico»
+f765    31.875s      · id=365 f765: cx=586 cy=1013 w=335 h=117 ang=0.8 conf=1 «variar»
+f766    31.917s      · id=360 f766: cx=74 cy=416 w=148 h=89 ang=0.0 conf=0.5 «tar»
+f766    31.917s      · id=361 f766: cx=137 cy=1333 w=274 h=81 ang=-1.0 conf=0.3 «la hace»
+f766    31.917s      · id=363 f766: cx=149 cy=1422 w=299 h=75 ang=0.3 conf=0.5 «técnico»
+f766    31.917s      · id=365 f766: cx=586 cy=1013 w=335 h=117 ang=0.6 conf=1 «variar»
+f767    31.958s      · id=360 f767: cx=64 cy=398 w=128 h=86 ang=0.0 conf=1 «tar»
+f767    31.958s      · id=361 f767: cx=130 cy=1314 w=260 h=95 ang=0.4 conf=0.5 «a hace»
+f767    31.958s      · id=363 f767: cx=138 cy=1404 w=276 h=78 ang=0.0 conf=1 «técnico»
+f767    31.958s      · id=365 f767: cx=592 cy=995 w=346 h=137 ang=0.0 conf=0.5 «variar»
+f768    32.000s      · id=360 f768: cx=64 cy=398 w=128 h=86 ang=0.0 conf=1 «tar»
+f768    32.000s      · id=361 f768: cx=131 cy=1317 w=262 h=100 ang=0.0 conf=1 «a hace»
+f768    32.000s      · id=363 f768: cx=142 cy=1402 w=285 h=86 ang=0.0 conf=0.5 «técnico»
+f768    32.000s      · id=365 f768: cx=592 cy=995 w=340 h=126 ang=0.0 conf=1 «variar»
+f769    32.042s      · id=360 f769: cx=57 cy=382 w=114 h=89 ang=0.0 conf=0.3 «tar»
+f769    32.042s      · id=361 f769: cx=119 cy=1303 w=237 h=78 ang=0.0 conf=1 «a hace»
+f769    32.042s      · id=363 f769: cx=131 cy=1390 w=262 h=78 ang=-0.3 conf=1 «écnico»
+f769    32.042s      · id=365 f769: cx=579 cy=984 w=332 h=114 ang=0.0 conf=0.3 «varar»
+f770    32.083s      · id=363 f770: cx=126 cy=1381 w=251 h=78 ang=-0.7 conf=1 «écnico»
+f770    32.083s      · id=365 f770: cx=562 cy=971 w=338 h=117 ang=1.6 conf=1 «variar»
+f771    32.125s      · id=365 f771: cx=562 cy=970 w=338 h=120 ang=1.8 conf=1 «variar»
+f772    32.167s      · id=365 f772: cx=548 cy=972 w=360 h=136 ang=0.3 conf=1 «variar»
+f773    32.208s      · id=365 f773: cx=547 cy=959 w=346 h=131 ang=-0.7 conf=1 «variar»
+f776    32.333s      · id=360 f776: cx=40 cy=366 w=81 h=73 ang=0.0 conf=1 «ar» (final)
+f777    32.375s      · id=360 f777: cx=40 cy=366 w=81 h=78 ang=0.0 conf=1 «ar» (final)
+f777    32.375s      · id=361 f777: cx=108 cy=1277 w=215 h=98 ang=0.0 conf=1 «hace» (final)
+f777    32.375s      · id=363 f777: cx=120 cy=1363 w=240 h=86 ang=0.0 conf=0.5 «cnico» (final)
+f777    32.375s      · id=365 f777: cx=543 cy=954 w=332 h=117 ang=0.4 conf=1 «variar» (final)
+f778    32.417s      · id=361 f778: cx=108 cy=1275 w=215 h=100 ang=0.0 conf=1 «hace» (final)
+f778    32.417s      · id=363 f778: cx=119 cy=1363 w=237 h=86 ang=0.0 conf=1 «cnico» (final)
+f778    32.417s      · id=365 f778: cx=541 cy=954 w=340 h=123 ang=0.5 conf=1 «variar» (final)
+f779    32.458s      · id=360 f779: cx=40 cy=366 w=81 h=78 ang=0.0 conf=1 «ar» (final)
+f779    32.458s      · id=361 f779: cx=108 cy=1277 w=215 h=98 ang=0.0 conf=1 «hace» (final)
+f779    32.458s      · id=363 f779: cx=119 cy=1363 w=237 h=86 ang=0.0 conf=0.5 «cnico» (final)
+f779    32.458s      · id=365 f779: cx=541 cy=954 w=335 h=117 ang=0.4 conf=1 «variar» (final)
+f780    32.500s  VOZ «solo»  32.48-32.94 s (f780-f791)  [pausa previa 0.18 s]
+f780    32.500s      · id=360 f780: cx=40 cy=366 w=81 h=78 ang=0.0 conf=1 «ar» (final)
+f780    32.500s      · id=361 f780: cx=108 cy=1277 w=215 h=98 ang=0.0 conf=1 «hace» (final)
+f780    32.500s      · id=363 f780: cx=119 cy=1363 w=237 h=86 ang=0.0 conf=1 «cnico» (final)
+f780    32.500s      · id=365 f780: cx=541 cy=954 w=340 h=123 ang=0.5 conf=1 «variar» (final)
+f781    32.542s      · id=360 f781: cx=40 cy=366 w=81 h=78 ang=0.0 conf=1 «ar» (final)
+f781    32.542s      · id=361 f781: cx=108 cy=1277 w=215 h=98 ang=0.0 conf=1 «hace» (final)
+f781    32.542s      · id=363 f781: cx=119 cy=1363 w=237 h=86 ang=0.0 conf=1 «cnico» (final)
+f781    32.542s      · id=365 f781: cx=541 cy=956 w=340 h=120 ang=0.5 conf=1 «variar» (final)
+f782    32.583s  CORTE (alta)  mad=38.29 hd=0.526 ratio=7.9
+f783    32.625s  TEXTO «solo»  f783-f788 (6 f, 0.250 s)  centro 22.1%,20.7%  alto 148px (7.7%)  ancho 360px  ángulo -1.0°  id=367
+f783    32.625s      · id=367 f783: cx=230 cy=384 w=360 h=148 ang=-1.7 conf=0.3 «solo»
+f784    32.667s      · id=367 f784: cx=233 cy=389 w=360 h=148 ang=-1.0 conf=0.3 «solo»
+f785    32.708s  TEXTO «OIOS»  f785-f789 (5 f, 0.208 s)  centro 22.2%,20.9%  alto 145px (7.56%)  ancho 354px  ángulo 180.0°  id=371
+f785    32.708s      · id=371 f785: cx=236 cy=395 w=354 h=142 ang=180.0 conf=0.3 «OIOS»
+f786    32.750s      · id=367 f786: cx=239 cy=398 w=354 h=148 ang=-1.5 conf=0.3 «solo»
+f787    32.792s      · id=371 f787: cx=240 cy=402 w=352 h=145 ang=179.3 conf=0.3 «OIOS»
+f788    32.833s      · id=367 f788: cx=243 cy=406 w=352 h=142 ang=0.0 conf=0.3 «solo»
+f789    32.875s      · id=371 f789: cx=243 cy=407 w=346 h=140 ang=180.0 conf=0.3 «OIOS»
+f790    32.917s  TEXTO «invirtiendole»  f790-f803 (14 f, 0.583 s)  centro 44.4%,22.3%  alto 140px (7.27%)  ancho 843px  ángulo 0.0°  id=372
+f790    32.917s      · id=372 f790: cx=479 cy=412 w=862 h=148 ang=-0.3 conf=1 «invirtiendole»
+f791    32.958s  VOZ «invirtiéndole»  32.94-33.54 s (f791-f805)
+f791    32.958s      · id=372 f791: cx=477 cy=413 w=860 h=151 ang=-0.6 conf=0.5 «invirtiendole»
+f792    33.000s  TEXTO «ND»  f792-f792 (1 f, 0.042 s)  centro 86.0%,80.7%  alto 25px (1.31%)  ancho 33px  ángulo 0.0°  id=375
+f792    33.000s      · id=372 f792: cx=479 cy=417 w=857 h=142 ang=-0.6 conf=1 «invirtiendole»
+f793    33.042s      · id=372 f793: cx=479 cy=421 w=857 h=140 ang=0.0 conf=0.5 «invirtienoole»
+f794    33.083s  TEXTO «mut Voann»  f794-f795 (2 f, 0.083 s)  centro 45.1%,68.0%  alto 17px (0.87%)  ancho 47px  ángulo 0.0°  id=376
+f794    33.083s      · id=372 f794: cx=476 cy=423 w=857 h=142 ang=-1.9 conf=1 «invirtiendole»
+f795    33.125s  TEXTO «AND»  f795-f795 (1 f, 0.042 s)  centro 86.8%,81.0%  alto 25px (1.31%)  ancho 50px  ángulo 0.0°  id=377
+f795    33.125s      · id=372 f795: cx=481 cy=426 w=846 h=142 ang=-0.4 conf=0.5 «invirtienoole»
+f796    33.167s      · id=372 f796: cx=480 cy=428 w=843 h=137 ang=0.0 conf=0.5 «invirtienoole»
+f797    33.208s      · id=372 f797: cx=481 cy=430 w=840 h=140 ang=0.0 conf=0.5 «invirtienoole»
+f798    33.250s      · id=372 f798: cx=483 cy=431 w=837 h=137 ang=0.0 conf=0.5 «invirtienodle»
+f799    33.292s      · id=372 f799: cx=480 cy=433 w=837 h=140 ang=-1.6 conf=1 «invirtiendole»
+f804    33.500s  TEXTO «un»  f804-f806 (3 f, 0.125 s)  centro 23.9%,23.1%  alto 112px (5.81%)  ancho 198px  ángulo 180.0°  id=383
+f804    33.500s  TEXTO «Deralt Vearea»  f804-f806 (3 f, 0.125 s)  centro 48.4%,68.3%  alto 18px (0.94%)  ancho 56px  ángulo -11.2°  id=382
+f804    33.500s      · id=383 f804: cx=258 cy=444 w=198 h=112 ang=180.0 conf=0.5 «un»
+f804    33.500s      · id=382 f804: cx=523 cy=1312 w=56 h=18 ang=-11.2 conf=0.3 «Denlr Vereu»
+f805    33.542s  VOZ «un»  33.54-33.68 s (f805-f808)
+f805    33.542s      · id=383 f805: cx=258 cy=444 w=198 h=112 ang=180.0 conf=1 «un»
+f806    33.583s      · id=383 f806: cx=260 cy=446 w=195 h=112 ang=0.0 conf=0.5 «un»
+f806    33.583s      · id=382 f806: cx=522 cy=1310 w=56 h=20 ang=0.0 conf=0.3 «Deralt Vearea»
+f807    33.625s  TEXTO «poco»  f807-f812 (6 f, 0.250 s)  centro 24.2%,24.0%  alto 140px (7.27%)  ancho 377px  ángulo 0.0°  id=384
+f807    33.625s      · id=384 f807: cx=261 cy=460 w=377 h=140 ang=0.0 conf=0.3 «poco»
+f808    33.667s  VOZ «poco»  33.68-33.90 s (f808-f814)
+f808    33.667s      · id=384 f808: cx=261 cy=459 w=377 h=142 ang=0.0 conf=0.5 «poco»
+f809    33.708s      · id=384 f809: cx=261 cy=460 w=377 h=140 ang=0.0 conf=0.5 «poco»
+f810    33.750s      · id=384 f810: cx=262 cy=460 w=374 h=140 ang=0.0 conf=0.5 «poco»
+f810    33.750s  GOLPE de audio t=33.740 s  z=7.5  agudo  subida -14.4 dB  nivel -21.2 dB
+f811    33.792s      · id=384 f811: cx=264 cy=462 w=371 h=142 ang=0.0 conf=1 «poco»
+f812    33.833s      · id=384 f812: cx=264 cy=462 w=371 h=142 ang=0.0 conf=1 «poco»
+f813    33.875s  TEXTO «de»  f813-f815 (3 f, 0.125 s)  centro 24.5%,23.0%  alto 142px (7.41%)  ancho 201px  ángulo 0.0°  id=388
+f813    33.875s      · id=388 f813: cx=265 cy=441 w=201 h=140 ang=0.0 conf=1 «de»
+f814    33.917s  VOZ «de»  33.90-34.04 s (f814-f817)
+f814    33.917s  TEXTO «Dosr Vame»  f814-f815 (2 f, 0.083 s)  centro 47.2%,67.5%  alto 31px (1.62%)  ancho 59px  ángulo 0.0°  id=390
+f814    33.917s      · id=388 f814: cx=265 cy=442 w=201 h=142 ang=0.0 conf=1 «de»
+f815    33.958s      · id=388 f815: cx=264 cy=444 w=198 h=140 ang=0.0 conf=1 «de»
+f816    34.000s  TEXTO «supervision»  f816-f835 (20 f, 0.833 s)  centro 46.0%,24.2%  alto 159px (8.29%)  ancho 815px  ángulo 0.2°  id=391
+f816    34.000s      · id=391 f816: cx=498 cy=460 w=829 h=156 ang=-0.1 conf=1 «supervision»
+f817    34.042s  VOZ «supervisión.»  34.04-34.66 s (f817-f832)
+f817    34.042s      · id=391 f817: cx=497 cy=459 w=826 h=159 ang=-0.2 conf=1 «supervisión»
+f818    34.083s      · id=391 f818: cx=497 cy=462 w=826 h=154 ang=0.3 conf=1 «supervisión»
+f819    34.125s  TEXTO «Dadk Veame»  f819-f820 (2 f, 0.083 s)  centro 46.9%,67.2%  alto 31px (1.61%)  ancho 59px  ángulo 0.0°  id=393
+f819    34.125s      · id=391 f819: cx=497 cy=462 w=826 h=154 ang=-0.6 conf=1 «supervision»
+f820    34.167s      · id=391 f820: cx=498 cy=459 w=823 h=159 ang=-0.1 conf=1 «supervision»
+f821    34.208s      · id=391 f821: cx=497 cy=462 w=820 h=159 ang=0.2 conf=1 «supervisión»
+f821    34.208s  GOLPE de audio t=34.200 s  z=11.9  agudo  subida -5.9 dB  nivel -17.9 dB
+f822    34.250s      · id=391 f822: cx=497 cy=460 w=822 h=152 ang=0.1 conf=1 «supervisión»
+f823    34.292s      · id=391 f823: cx=497 cy=460 w=820 h=162 ang=0.1 conf=1 «supervision»
+f824    34.333s  TEXTO «Daer Vame»  f824-f827 (4 f, 0.167 s)  centro 46.4%,66.9%  alto 31px (1.6%)  ancho 59px  ángulo 0.0°  id=395
+f824    34.333s      · id=391 f824: cx=497 cy=463 w=815 h=162 ang=0.3 conf=1 «supervisión»
+f824    34.333s      · id=395 f824: cx=501 cy=1285 w=59 h=31 ang=0.0 conf=0.3 «Daer Vame»
+f825    34.375s      · id=391 f825: cx=497 cy=465 w=815 h=159 ang=0.4 conf=1 «supervisión»
+f826    34.417s      · id=395 f826: cx=501 cy=1285 w=59 h=31 ang=0.0 conf=0.3 «Dasc Vome»
+f827    34.458s      · id=395 f827: cx=498 cy=1285 w=53 h=31 ang=0.0 conf=0.3 «Poair Vam»
+f830    34.583s  TEXTO «Bư Vam»  f830-f831 (2 f, 0.083 s)  centro 46.0%,66.6%  alto 37px (1.93%)  ancho 61px  ángulo 0.0°  id=397
+f831    34.625s      · id=391 f831: cx=495 cy=472 w=812 h=156 ang=0.5 conf=1 «supervision» (final)
+f832    34.667s  TEXTO «Dosk Vame»  f832-f835 (4 f, 0.167 s)  centro 45.9%,66.7%  alto 34px (1.77%)  ancho 61px  ángulo 0.0°  id=398
+f832    34.667s      · id=391 f832: cx=497 cy=472 w=809 h=156 ang=0.5 conf=0.5 «supervision» (final)
+f832    34.667s      · id=398 f832: cx=495 cy=1281 w=59 h=34 ang=0.0 conf=0.3 «Dosk Vame»
+f833    34.708s      · id=391 f833: cx=497 cy=470 w=809 h=159 ang=0.2 conf=1 «supervisión» (final)
+f834    34.750s      · id=391 f834: cx=497 cy=470 w=809 h=159 ang=0.4 conf=1 «supervisión» (final)
+f834    34.750s      · id=398 f834: cx=494 cy=1280 w=61 h=31 ang=0.0 conf=0.3 «Bosk Vane»
+f835    34.792s      · id=391 f835: cx=497 cy=470 w=809 h=159 ang=0.3 conf=1 «supervisión» (final)
+f835    34.792s      · id=398 f835: cx=493 cy=1280 w=59 h=31 ang=0.0 conf=0.3 «Doir Vane»
+f836    34.833s  CORTE (alta)  mad=40.68 hd=0.353 ratio=8.6
+f836    34.833s  VOZ «Si»  34.84-35.08 s (f836-f842)  [pausa previa 0.18 s]
+f836    34.833s  TEXTO «Si»  f836-f840 (5 f, 0.208 s)  centro 37.1%,27.1%  alto 162px (8.43%)  ancho 181px  ángulo 0.0°  id=399
+f836    34.833s      · id=399 f836: cx=399 cy=509 w=179 h=159 ang=0.0 conf=1 «Si»
+f837    34.875s      · id=399 f837: cx=400 cy=516 w=181 h=162 ang=0.0 conf=1 «Si»
+f838    34.917s      · id=399 f838: cx=400 cy=520 w=176 h=159 ang=0.0 conf=0.5 «Si»
+f839    34.958s      · id=399 f839: cx=403 cy=523 w=176 h=159 ang=0.0 conf=1 «Si»
+f839    34.958s  GOLPE de audio t=34.950 s  z=7.7  agudo  subida -3.1 dB  nivel -24.3 dB
+f840    35.000s      · id=399 f840: cx=405 cy=520 w=179 h=170 ang=0.0 conf=1 «Si»
+f841    35.042s  TEXTO «ya»  f841-f845 (5 f, 0.208 s)  centro 37.1%,29.7%  alto 159px (8.28%)  ancho 198px  ángulo 0.0°  id=400
+f841    35.042s      · id=400 f841: cx=399 cy=565 w=201 h=159 ang=0.0 conf=1 «ya»
+f842    35.083s  VOZ «ya»  35.08-35.24 s (f842-f846)
+f842    35.083s      · id=400 f842: cx=400 cy=568 w=198 h=159 ang=0.0 conf=1 «ya»
+f843    35.125s      · id=400 f843: cx=400 cy=571 w=198 h=159 ang=0.0 conf=1 «ya»
+f844    35.167s      · id=400 f844: cx=403 cy=572 w=198 h=156 ang=0.0 conf=1 «ya»
+f845    35.208s      · id=400 f845: cx=403 cy=574 w=198 h=154 ang=0.0 conf=1 «ya»
+f846    35.250s  VOZ «anuncias»  35.24-35.80 s (f846-f859)
+f846    35.250s  TEXTO «anuncias»  f846-f858 (13 f, 0.542 s)  centro 37.6%,29.2%  alto 148px (7.7%)  ancho 706px  ángulo 0.2°  id=401
+f846    35.250s      · id=401 f846: cx=405 cy=555 w=720 h=145 ang=0.1 conf=1 «anuncias»
+f847    35.292s      · id=401 f847: cx=405 cy=557 w=714 h=137 ang=0.2 conf=1 «anuncias»
+f848    35.333s      · id=401 f848: cx=406 cy=557 w=712 h=142 ang=0.1 conf=1 «anunclas»
+f849    35.375s      · id=401 f849: cx=406 cy=560 w=706 h=142 ang=0.2 conf=1 «anuncias»
+f850    35.417s      · id=401 f850: cx=406 cy=560 w=706 h=148 ang=0.1 conf=1 «anuncias»
+f851    35.458s      · id=401 f851: cx=406 cy=562 w=706 h=137 ang=0.0 conf=1 «anuncias»
+f852    35.500s      · id=401 f852: cx=406 cy=562 w=700 h=148 ang=0.3 conf=1 «anuncias»
+f853    35.542s      · id=401 f853: cx=407 cy=560 w=698 h=154 ang=0.2 conf=1 «anuncias»
+f854    35.583s      · id=401 f854: cx=407 cy=561 w=698 h=156 ang=0.3 conf=1 «anuncias»
+f855    35.625s      · id=401 f855: cx=409 cy=560 w=695 h=154 ang=0.0 conf=1 «anuncias»
+f859    35.792s  VOZ «y»  35.80-35.98 s (f859-f864)
+f861    35.875s  TEXTO «la»  f861-f863 (3 f, 0.125 s)  centro 37.9%,29.7%  alto 140px (7.27%)  ancho 142px  ángulo 0.0°  id=402
+f861    35.875s      · id=402 f861: cx=409 cy=566 w=137 h=128 ang=0.0 conf=1 «la»
+f862    35.917s      · id=402 f862: cx=409 cy=569 w=142 h=140 ang=0.0 conf=1 «la»
+f863    35.958s      · id=402 f863: cx=409 cy=569 w=142 h=140 ang=0.0 conf=1 «la»
+f864    36.000s  VOZ «la»  35.98-36.06 s (f864-f865)
+f864    36.000s  TEXTO «produccion»  f864-f874 (11 f, 0.458 s)  centro 46.0%,30.5%  alto 173px (9.01%)  ancho 837px  ángulo -0.6°  id=403
+f864    36.000s      · id=403 f864: cx=494 cy=586 w=843 h=173 ang=-0.8 conf=1 «produccion»
+f865    36.042s  VOZ «producción»  36.06-36.42 s (f865-f874)
+f865    36.042s      · id=403 f865: cx=497 cy=582 w=837 h=181 ang=0.0 conf=1 «producción»
+f866    36.083s      · id=403 f866: cx=497 cy=583 w=837 h=179 ang=-0.5 conf=1 «producción»
+f866    36.083s  GOLPE de audio t=36.080 s  z=7.7  agudo  subida -1.8 dB  nivel -19.9 dB
+f867    36.125s      · id=403 f867: cx=497 cy=586 w=837 h=173 ang=-0.6 conf=0.5 «producción»
+f868    36.167s      · id=403 f868: cx=497 cy=586 w=837 h=173 ang=-0.6 conf=0.5 «producción»
+f870    36.250s      · id=403 f870: cx=497 cy=587 w=832 h=170 ang=-0.6 conf=0.5 «producción»
+f871    36.292s      · id=403 f871: cx=497 cy=589 w=832 h=168 ang=-0.6 conf=0.5 «produccion»
+f872    36.333s      · id=403 f872: cx=498 cy=586 w=829 h=173 ang=0.7 conf=0.5 «produccion»
+f873    36.375s      · id=403 f873: cx=498 cy=588 w=829 h=170 ang=0.7 conf=1 «produccion»
+f874    36.417s  VOZ «está»  36.42-36.72 s (f874-f881)
+f874    36.417s      · id=403 f874: cx=498 cy=590 w=829 h=165 ang=0.6 conf=1 «produccion»
+f875    36.458s  TEXTO «esta»  f875-f880 (6 f, 0.250 s)  centro 38.4%,30.5%  alto 128px (6.68%)  ancho 315px  ángulo 0.0°  id=405
+f875    36.458s      · id=405 f875: cx=413 cy=582 w=313 h=131 ang=0.0 conf=0.3 «esta»
+f876    36.500s      · id=405 f876: cx=414 cy=583 w=315 h=128 ang=0.0 conf=0.3 «eSta»
+f877    36.542s      · id=405 f877: cx=414 cy=585 w=315 h=131 ang=0.0 conf=0.3 «eSta»
+f878    36.583s      · id=405 f878: cx=413 cy=586 w=313 h=128 ang=0.0 conf=0.3 «eSta»
+f879    36.625s      · id=405 f879: cx=413 cy=586 w=313 h=128 ang=0.0 conf=0.3 «eSta»
+f880    36.667s      · id=405 f880: cx=413 cy=586 w=313 h=128 ang=0.0 conf=0.3 «esta»
+f881    36.708s  VOZ «limitando»  36.72-37.22 s (f881-f893)
+f881    36.708s  TEXTO «limitartek»  f881-f892 (12 f, 0.500 s)  centro 37.5%,30.3%  alto 142px (7.41%)  ancho 656px  ángulo 0.5°  id=406
+f881    36.708s      · id=406 f881: cx=369 cy=584 w=590 h=136 ang=0.4 conf=0.5 «limitand»
+f882    36.750s      · id=406 f882: cx=405 cy=585 w=660 h=136 ang=-0.1 conf=0.5 «limitande»
+f883    36.792s      · id=406 f883: cx=328 cy=585 w=507 h=136 ang=2.7 conf=1 «limitary»
+f884    36.833s      · id=406 f884: cx=405 cy=582 w=653 h=142 ang=0.7 conf=0.5 «limitande»
+f885    36.875s      · id=406 f885: cx=407 cy=580 w=659 h=140 ang=0.5 conf=1 «limitarde»
+f886    36.917s      · id=406 f886: cx=406 cy=580 w=656 h=140 ang=0.8 conf=0.5 «limitarde»
+f887    36.958s      · id=406 f887: cx=403 cy=580 w=656 h=140 ang=-0.4 conf=0.5 «limitande»
+f888    37.000s      · id=406 f888: cx=338 cy=582 w=519 h=142 ang=0.2 conf=0.3 «limitan@»
+f889    37.042s      · id=406 f889: cx=346 cy=582 w=536 h=142 ang=-0.5 conf=0.5 «limitana»
+f890    37.083s      · id=406 f890: cx=347 cy=583 w=539 h=140 ang=-0.7 conf=0.3 «limitand»
+
+# CARA por plano (caja de Vision; alto en % del alto del fotograma, centro en %):
+f725-f781: sin cara (0 detecciones)
+f782-f835: sin cara (2 detecciones)
+f836-f892 (57 f): alto 12.7%→2.6%  centro x 59.9%→52.5%  y 24.9%→29.8%  (7 detecciones)

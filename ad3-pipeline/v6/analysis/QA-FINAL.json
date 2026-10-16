@@ -1,0 +1,153 @@
+{
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 48,
+  "frames": 2162,
+  "duration": 45.041667,
+  "audioDuration": 45.041667,
+  "fullDecodeErrors": 0,
+  "nativeComps": 10,
+  "nativeLayers": 329,
+  "missingFonts": 0,
+  "missingMedia": 0,
+  "videoSha256": "954b4dde51ad9610ffae54d18b323ed6e84294d487c7340be1574e575d5a5325",
+  "mixLUFS": -14.16,
+  "mixTruePeakDBTP": -1.48,
+  "encodedAudioBitIdenticalToV5": true,
+  "unaffectedChunksBitIdenticalToV5": [
+    0,
+    1,
+    3,
+    9
+  ],
+  "nativePropertiesDiff": "Only 11 caption fill colors, 2 gradient colors and main composition version name differ. All other inspected layer properties, keyframes, font metrics and effects are identical.",
+  "colors": [
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 37 - agencia",
+      "old": [
+        146,
+        189,
+        101
+      ],
+      "new": "#E7957D"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 26 - es f\u00e1cil",
+      "old": [
+        146,
+        189,
+        101
+      ],
+      "new": "#E7957D"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 23 - y montaje",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 22 - voz",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 21 - escenas",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 20 - personaje",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 19 - sueltos",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 18 - No son clips",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "AD3 - V5 FINAL",
+      "layer": "SUB 11 - no es real",
+      "old": [
+        146,
+        189,
+        101
+      ],
+      "new": "#E7957D"
+    },
+    {
+      "comp": "01B - Caja continua",
+      "layer": "SUB 19 - sueltos",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "01B - Caja continua",
+      "layer": "SUB 18 - No son clips",
+      "old": [
+        39,
+        62,
+        27
+      ],
+      "new": "#71352C"
+    },
+    {
+      "comp": "00 - Verde BRAUD",
+      "layer": "Luz radial",
+      "property": "ADBE Ramp-0002",
+      "new": "#763C31"
+    },
+    {
+      "comp": "00 - Verde BRAUD",
+      "layer": "Luz radial",
+      "property": "ADBE Ramp-0004",
+      "new": "#42241F"
+    }
+  ],
+  "visualReview": "Native frames 414, 900, 1625 and 2070 inspected for warm caption/background color and contrast. Rendered video decoded in full.",
+  "userApproval": false,
+  "scope": "Warm color variant of V5. No timing, footage, camera, motion, size or placement changes."
+}

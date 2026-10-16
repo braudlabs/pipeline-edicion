@@ -1,0 +1,885 @@
+{
+  "ok": true,
+  "category": "shape",
+  "operations": [
+    {
+      "name": "shape.add_group",
+      "description": "Add a Vector Group to a shape layer's Contents.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index or name (must be a shape layer)"
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "required": false,
+          "description": "Group name"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_rect",
+      "description": "Add a Rectangle Path to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "size",
+          "type": "array",
+          "required": true,
+          "description": "[width, height]"
+        },
+        {
+          "name": "position",
+          "type": "array",
+          "required": false,
+          "description": "[x, y] offset from group center",
+          "default": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "roundness",
+          "type": "number",
+          "required": false,
+          "description": "Corner roundness in px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "name": "shape.add_ellipse",
+      "description": "Add an Ellipse Path to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "size",
+          "type": "array",
+          "required": true,
+          "description": "[width, height]"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_fill",
+      "description": "Add a Fill to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "color",
+          "type": "array",
+          "required": true,
+          "description": "[r,g,b,a] 0-1"
+        },
+        {
+          "name": "opacity",
+          "type": "number",
+          "required": false,
+          "description": "Opacity 0-100",
+          "default": 100
+        }
+      ]
+    },
+    {
+      "name": "shape.add_path",
+      "description": "Add a custom bezier Path (vertices + tangents) to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "vertices",
+          "type": "array",
+          "required": true,
+          "description": "Array of [x,y] points"
+        },
+        {
+          "name": "inTangents",
+          "type": "array",
+          "required": false,
+          "description": "Array of [x,y] in-tangent offsets"
+        },
+        {
+          "name": "outTangents",
+          "type": "array",
+          "required": false,
+          "description": "Array of [x,y] out-tangent offsets"
+        },
+        {
+          "name": "closed",
+          "type": "boolean",
+          "required": false,
+          "description": "Close the path (default true)",
+          "default": true
+        }
+      ]
+    },
+    {
+      "name": "shape.add_trim_paths",
+      "description": "Add Trim Paths to a shape group. Essential for shape animation (line draw-on effects).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "start",
+          "type": "number",
+          "required": false,
+          "description": "Start % (0-100)",
+          "default": 0
+        },
+        {
+          "name": "end",
+          "type": "number",
+          "required": false,
+          "description": "End % (0-100)",
+          "default": 100
+        },
+        {
+          "name": "offset",
+          "type": "number",
+          "required": false,
+          "description": "Offset in degrees",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "name": "shape.add_merge_paths",
+      "description": "Add Merge Paths to a shape group for combining/subtracting shapes.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "mode",
+          "type": "string",
+          "required": false,
+          "description": "merge|add|subtract|intersect|excludeIntersections",
+          "default": "merge"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_stroke",
+      "description": "Add a Stroke to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "color",
+          "type": "array",
+          "required": true,
+          "description": "[r,g,b,a] 0-1"
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "required": false,
+          "description": "Stroke width",
+          "default": 2
+        }
+      ]
+    },
+    {
+      "name": "shape.add_polystar",
+      "description": "Add a Polystar Path (star or polygon) to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "starType",
+          "type": "string",
+          "required": false,
+          "description": "star|polygon (default star)",
+          "default": "star"
+        },
+        {
+          "name": "points",
+          "type": "number",
+          "required": false,
+          "description": "Number of points",
+          "default": 5
+        },
+        {
+          "name": "position",
+          "type": "array",
+          "required": false,
+          "description": "[x, y] offset from group center",
+          "default": [
+            0,
+            0
+          ]
+        },
+        {
+          "name": "rotation",
+          "type": "number",
+          "required": false,
+          "description": "Rotation in degrees"
+        },
+        {
+          "name": "outerRadius",
+          "type": "number",
+          "required": false,
+          "description": "Outer radius in px",
+          "default": 100
+        },
+        {
+          "name": "innerRadius",
+          "type": "number",
+          "required": false,
+          "description": "Inner radius in px (star type only)"
+        },
+        {
+          "name": "outerRoundness",
+          "type": "number",
+          "required": false,
+          "description": "Outer roundness % (0-100)"
+        },
+        {
+          "name": "innerRoundness",
+          "type": "number",
+          "required": false,
+          "description": "Inner roundness % (star type only)"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_repeater",
+      "description": "Add a Repeater to a shape group \u2014 duplicates the group's contents with a per-copy transform offset.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "copies",
+          "type": "number",
+          "required": false,
+          "description": "Number of copies",
+          "default": 3
+        },
+        {
+          "name": "offset",
+          "type": "number",
+          "required": false,
+          "description": "Copy offset (fractional copies to skip)"
+        },
+        {
+          "name": "position",
+          "type": "array",
+          "required": false,
+          "description": "Per-copy position delta [x, y] (default [100, 0])"
+        },
+        {
+          "name": "rotation",
+          "type": "number",
+          "required": false,
+          "description": "Per-copy rotation in degrees"
+        },
+        {
+          "name": "scale",
+          "type": "array",
+          "required": false,
+          "description": "Per-copy scale [x, y] % (default [100, 100])"
+        },
+        {
+          "name": "startOpacity",
+          "type": "number",
+          "required": false,
+          "description": "Opacity % of first copy"
+        },
+        {
+          "name": "endOpacity",
+          "type": "number",
+          "required": false,
+          "description": "Opacity % of last copy"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_rounded_corners",
+      "description": "Add Rounded Corners to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "radius",
+          "type": "number",
+          "required": false,
+          "description": "Corner radius in px",
+          "default": 10
+        }
+      ]
+    },
+    {
+      "name": "shape.add_offset_paths",
+      "description": "Add Offset Paths to a shape group (grow/shrink outlines).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "required": false,
+          "description": "Offset in px (positive grows, negative shrinks)",
+          "default": 10
+        },
+        {
+          "name": "lineJoin",
+          "type": "string",
+          "required": false,
+          "description": "miter|round|bevel (default miter)"
+        },
+        {
+          "name": "miterLimit",
+          "type": "number",
+          "required": false,
+          "description": "Miter limit"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_wiggle_paths",
+      "description": "Add Wiggle Paths (roughen) to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "size",
+          "type": "number",
+          "required": false,
+          "description": "Wiggle size in px",
+          "default": 10
+        },
+        {
+          "name": "detail",
+          "type": "number",
+          "required": false,
+          "description": "Detail (segments)",
+          "default": 10
+        },
+        {
+          "name": "pointType",
+          "type": "string",
+          "required": false,
+          "description": "corner|smooth (default corner)"
+        },
+        {
+          "name": "wigglesPerSecond",
+          "type": "number",
+          "required": false,
+          "description": "Temporal frequency (0 = static)"
+        },
+        {
+          "name": "correlation",
+          "type": "number",
+          "required": false,
+          "description": "Correlation % (0-100)"
+        },
+        {
+          "name": "seed",
+          "type": "number",
+          "required": false,
+          "description": "Random seed"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_zigzag",
+      "description": "Add Zig Zag to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "size",
+          "type": "number",
+          "required": false,
+          "description": "Zig zag size in px",
+          "default": 10
+        },
+        {
+          "name": "ridgesPerSegment",
+          "type": "number",
+          "required": false,
+          "description": "Ridges per segment",
+          "default": 10
+        },
+        {
+          "name": "pointType",
+          "type": "string",
+          "required": false,
+          "description": "corner|smooth (default corner)"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_pucker_bloat",
+      "description": "Add Pucker & Bloat to a shape group (negative = pucker, positive = bloat).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "amount",
+          "type": "number",
+          "required": false,
+          "description": "Amount % (-100..100)",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "name": "shape.add_twist",
+      "description": "Add Twist to a shape group.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "angle",
+          "type": "number",
+          "required": false,
+          "description": "Twist angle in degrees",
+          "default": 90
+        },
+        {
+          "name": "center",
+          "type": "array",
+          "required": false,
+          "description": "Twist center [x, y]"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_gradient_fill",
+      "description": "Add a Gradient Fill to a shape group. Type and start/end points are scriptable; color stops are NOT scriptable in AE (defaults to white-to-black \u2014 edit stops manually or via a preset).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "gradientType",
+          "type": "string",
+          "required": false,
+          "description": "linear|radial (default linear)",
+          "default": "linear"
+        },
+        {
+          "name": "startPoint",
+          "type": "array",
+          "required": false,
+          "description": "Gradient start [x, y]"
+        },
+        {
+          "name": "endPoint",
+          "type": "array",
+          "required": false,
+          "description": "Gradient end [x, y]"
+        },
+        {
+          "name": "opacity",
+          "type": "number",
+          "required": false,
+          "description": "Opacity 0-100"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_gradient_stroke",
+      "description": "Add a Gradient Stroke to a shape group. Type, points, and width are scriptable; color stops are NOT scriptable in AE.",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "gradientType",
+          "type": "string",
+          "required": false,
+          "description": "linear|radial (default linear)",
+          "default": "linear"
+        },
+        {
+          "name": "startPoint",
+          "type": "array",
+          "required": false,
+          "description": "Gradient start [x, y]"
+        },
+        {
+          "name": "endPoint",
+          "type": "array",
+          "required": false,
+          "description": "Gradient end [x, y]"
+        },
+        {
+          "name": "width",
+          "type": "number",
+          "required": false,
+          "description": "Stroke width",
+          "default": 2
+        },
+        {
+          "name": "opacity",
+          "type": "number",
+          "required": false,
+          "description": "Opacity 0-100"
+        }
+      ]
+    },
+    {
+      "name": "shape.add_wiggle_transform",
+      "description": "Add Wiggle Transform to a shape group - randomizes position/scale/rotation over time (the transform-space sibling of Wiggle Paths).",
+      "readOnly": false,
+      "params": [
+        {
+          "name": "comp",
+          "type": "any",
+          "required": true,
+          "description": "Comp name or id"
+        },
+        {
+          "name": "layer",
+          "type": "any",
+          "required": true,
+          "description": "1-based layer index, or the layer name"
+        },
+        {
+          "name": "groupIndex",
+          "type": "number",
+          "required": true,
+          "description": "1-based group index within Contents"
+        },
+        {
+          "name": "wigglesPerSecond",
+          "type": "number",
+          "required": false,
+          "description": "Temporal frequency (default 2)",
+          "default": 2
+        },
+        {
+          "name": "correlation",
+          "type": "number",
+          "required": false,
+          "description": "Correlation % (0-100)"
+        },
+        {
+          "name": "position",
+          "type": "array",
+          "required": false,
+          "description": "[x,y] wiggle amount in px"
+        },
+        {
+          "name": "scale",
+          "type": "array",
+          "required": false,
+          "description": "[sx,sy] wiggle amount in %"
+        },
+        {
+          "name": "rotation",
+          "type": "number",
+          "required": false,
+          "description": "Rotation wiggle amount in degrees"
+        },
+        {
+          "name": "seed",
+          "type": "number",
+          "required": false,
+          "description": "Random seed"
+        }
+      ]
+    }
+  ]
+}

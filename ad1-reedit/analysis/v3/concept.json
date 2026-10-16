@@ -1,0 +1,34 @@
+{
+  "concept": "Photo-generation workstation on a light canvas, new attempt per click, depleted resources and accumulating photographic history.",
+  "newAssets": [
+    "attempt-2.jpg",
+    "attempt-3.jpg",
+    "attempt-4.jpg"
+  ],
+  "sourceFiles": [
+    "04a-otra-cocinera.mp4",
+    "04b-otra-cocinera.mp4",
+    "04c-otra-cocinera.mp4"
+  ],
+  "sourceTimeSeconds": 2,
+  "newComps": [
+    "OBJ - Intento fotografico 1",
+    "OBJ - Intento fotografico 2",
+    "OBJ - Intento fotografico 3",
+    "OBJ - Intento fotografico 4",
+    "OBJ - Visor de intentos",
+    "OBJ - Estudio de generaciones"
+  ],
+  "changedComps": [
+    "MG - Creditos",
+    "COCINA - FINAL"
+  ],
+  "clickFrames": [
+    67,
+    101,
+    139
+  ],
+  "qualitativeGauge": true,
+  "titles": false,
+  "restoredVerbatimCaption": "absurda de créditos"
+}

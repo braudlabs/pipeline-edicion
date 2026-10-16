@@ -1,0 +1,69 @@
+{
+  "status": "partial",
+  "sheets_viewed": [
+    "d000_f00000-f00039.jpg",
+    "d001_f00040-f00079.jpg",
+    "d002_f00080-f00122.jpg",
+    "d003_f00123-f00172.jpg",
+    "d004_f00173-f00216.jpg",
+    "d005_f00217-f00264.jpg",
+    "d006_f00265-f00311.jpg",
+    "d007_f00312-f00360.jpg",
+    "d008_f00361-f00407.jpg",
+    "d009_f00408-f00448.jpg",
+    "d010_f00449-f00493.jpg",
+    "d011_f00494-f00565.jpg",
+    "d012_f00566-f00613.jpg",
+    "d013_f00614-f00661.jpg",
+    "d014_f00662-f00708.jpg",
+    "d015_f00709-f00755.jpg",
+    "d016_f00756-f00801.jpg"
+  ],
+  "spectrograms_viewed": [
+    "s_000-008.png",
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png"
+  ],
+  "native_ranges_provisional_old_seek": [
+    [
+      8,
+      14
+    ],
+    [
+      47,
+      59
+    ]
+  ],
+  "native_ranges": [
+    [
+      8,
+      14
+    ],
+    [
+      47,
+      59
+    ],
+    [
+      178,
+      187
+    ],
+    [
+      493,
+      498
+    ],
+    [
+      390,
+      390
+    ]
+  ],
+  "dense_pass": "completed",
+  "native_event_pass": "partial",
+  "supplemental_sheets_viewed": [
+    "s000_f00106-f00369.jpg",
+    "s001_f00379-f00545.jpg",
+    "s002_f00550-f00801.jpg"
+  ],
+  "supplemental_pass": "completed",
+  "fontfit_source_frame": 390
+}

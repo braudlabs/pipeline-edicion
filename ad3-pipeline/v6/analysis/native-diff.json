@@ -1,0 +1,367 @@
+[
+  [
+    "00 - Verde BRAUD/layers/2/effectsGroup/groups/0/properties/1/value/0",
+    0.26274511218071,
+    0.46274510025978
+  ],
+  [
+    "00 - Verde BRAUD/layers/2/effectsGroup/groups/0/properties/1/value/1",
+    0.38823530077934,
+    0.2352941185236
+  ],
+  [
+    "00 - Verde BRAUD/layers/2/effectsGroup/groups/0/properties/1/value/2",
+    0.16862745583057,
+    0.19215686619282
+  ],
+  [
+    "00 - Verde BRAUD/layers/2/effectsGroup/groups/0/properties/3/value/0",
+    0.15294118225574,
+    0.258823543787
+  ],
+  [
+    "00 - Verde BRAUD/layers/2/effectsGroup/groups/0/properties/3/value/1",
+    0.24313725531101,
+    0.14117647707462
+  ],
+  [
+    "00 - Verde BRAUD/layers/2/effectsGroup/groups/0/properties/3/value/2",
+    0.10588235408068,
+    0.12156862765551
+  ],
+  [
+    "AD3 - V5 FINAL/layers/4/textGroup/properties/0/value/fillColor/0",
+    0.57254999876022,
+    0.90587997436523
+  ],
+  [
+    "AD3 - V5 FINAL/layers/4/textGroup/properties/0/value/fillColor/1",
+    0.74118000268936,
+    0.58430999517441
+  ],
+  [
+    "AD3 - V5 FINAL/layers/4/textGroup/properties/0/value/fillColor/2",
+    0.39608001708984,
+    0.49020001292229
+  ],
+  [
+    "AD3 - V5 FINAL/layers/4/fillColor/0",
+    0.57254999876022,
+    0.90587997436523
+  ],
+  [
+    "AD3 - V5 FINAL/layers/4/fillColor/1",
+    0.74118000268936,
+    0.58430999517441
+  ],
+  [
+    "AD3 - V5 FINAL/layers/4/fillColor/2",
+    0.39608001708984,
+    0.49020001292229
+  ],
+  [
+    "AD3 - V5 FINAL/layers/15/textGroup/properties/0/value/fillColor/0",
+    0.57254999876022,
+    0.90587997436523
+  ],
+  [
+    "AD3 - V5 FINAL/layers/15/textGroup/properties/0/value/fillColor/1",
+    0.74118000268936,
+    0.58430999517441
+  ],
+  [
+    "AD3 - V5 FINAL/layers/15/textGroup/properties/0/value/fillColor/2",
+    0.39608001708984,
+    0.49020001292229
+  ],
+  [
+    "AD3 - V5 FINAL/layers/15/fillColor/0",
+    0.57254999876022,
+    0.90587997436523
+  ],
+  [
+    "AD3 - V5 FINAL/layers/15/fillColor/1",
+    0.74118000268936,
+    0.58430999517441
+  ],
+  [
+    "AD3 - V5 FINAL/layers/15/fillColor/2",
+    0.39608001708984,
+    0.49020001292229
+  ],
+  [
+    "AD3 - V5 FINAL/layers/18/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/18/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/18/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/18/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/18/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/18/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/19/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/19/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/19/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/19/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/19/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/19/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/20/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/20/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/20/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/20/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/20/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/20/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/21/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/21/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/21/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/21/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/21/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/21/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/22/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/22/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/22/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/22/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/22/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/22/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/23/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/23/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/23/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/23/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "AD3 - V5 FINAL/layers/23/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "AD3 - V5 FINAL/layers/23/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "AD3 - V5 FINAL/layers/30/textGroup/properties/0/value/fillColor/0",
+    0.57254999876022,
+    0.90587997436523
+  ],
+  [
+    "AD3 - V5 FINAL/layers/30/textGroup/properties/0/value/fillColor/1",
+    0.74118000268936,
+    0.58430999517441
+  ],
+  [
+    "AD3 - V5 FINAL/layers/30/textGroup/properties/0/value/fillColor/2",
+    0.39608001708984,
+    0.49020001292229
+  ],
+  [
+    "AD3 - V5 FINAL/layers/30/fillColor/0",
+    0.57254999876022,
+    0.90587997436523
+  ],
+  [
+    "AD3 - V5 FINAL/layers/30/fillColor/1",
+    0.74118000268936,
+    0.58430999517441
+  ],
+  [
+    "AD3 - V5 FINAL/layers/30/fillColor/2",
+    0.39608001708984,
+    0.49020001292229
+  ],
+  [
+    "AD3 - V5 FINAL/compName",
+    "AD3 - V5 FINAL",
+    "AD3 - V6 FINAL"
+  ],
+  [
+    "01B - Caja continua/layers/0/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "01B - Caja continua/layers/0/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "01B - Caja continua/layers/0/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "01B - Caja continua/layers/0/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "01B - Caja continua/layers/0/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "01B - Caja continua/layers/0/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "01B - Caja continua/layers/1/textGroup/properties/0/value/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "01B - Caja continua/layers/1/textGroup/properties/0/value/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "01B - Caja continua/layers/1/textGroup/properties/0/value/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ],
+  [
+    "01B - Caja continua/layers/1/fillColor/0",
+    0.15294000506401,
+    0.44313997030258
+  ],
+  [
+    "01B - Caja continua/layers/1/fillColor/1",
+    0.24314001202583,
+    0.20783999562263
+  ],
+  [
+    "01B - Caja continua/layers/1/fillColor/2",
+    0.10587999969721,
+    0.17254999279976
+  ]
+]

@@ -1,0 +1,30 @@
+{
+  "unchangedNativeSegmentsReuseVerified": true,
+  "unchangedNativeSegments": [
+    0,
+    1,
+    7
+  ],
+  "identicalPreservedComps": [
+    "OBJ - Biblioteca",
+    "MG - Marca",
+    "MG - Sistemas",
+    "MG - Precio",
+    "PUBLICACION - kurt",
+    "PUBLICACION - elliot",
+    "OBJ - Intentos"
+  ],
+  "changedComps": [
+    "COCINA - FINAL",
+    "MG - Comunidad",
+    "MG - Creditos",
+    "MG - Cuentas",
+    "MG - Tiempo"
+  ],
+  "spokenTextDuplicateGroupsRemoved": [
+    32,
+    73,
+    76
+  ],
+  "lastLargePhraseOnly": "algo bueno"
+}

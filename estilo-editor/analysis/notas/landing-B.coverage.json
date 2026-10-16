@@ -1,0 +1,72 @@
+{
+  "id": "landing-B",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d021_f00726-f00755.jpg",
+    "d022_f00756-f00799.jpg",
+    "d023_f00800-f00846.jpg",
+    "d024_f00847-f00876.jpg",
+    "d025_f00877-f00906.jpg",
+    "d026_f00907-f00936.jpg",
+    "d027_f00937-f00966.jpg",
+    "d028_f00967-f00996.jpg",
+    "d029_f00997-f01048.jpg",
+    "d030_f01049-f01109.jpg",
+    "d031_f01110-f01172.jpg",
+    "d032_f01173-f01219.jpg",
+    "d033_f01220-f01249.jpg",
+    "d034_f01250-f01287.jpg",
+    "d035_f01288-f01317.jpg",
+    "d036_f01318-f01347.jpg",
+    "d037_f01348-f01389.jpg",
+    "d038_f01390-f01446.jpg",
+    "d039_f01447-f01499.jpg",
+    "d040_f01500-f01568.jpg",
+    "d041_f01569-f01604.jpg"
+  ],
+  "native_ranges": [
+    {
+      "frames": [
+        925,
+        1009,
+        1350
+      ],
+      "crop": [
+        0.12,
+        0.08,
+        0.65,
+        0.55
+      ],
+      "evidence": "layers-native-0.jpg..2.jpg"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_008-016.png",
+    "s_016-024.png",
+    "s_024-032.png"
+  ],
+  "supplemental_sheets_viewed": [
+    "s003_f00620-f00818.jpg",
+    "s004_f00820-f01050.jpg",
+    "s005_f01051-f01109.jpg",
+    "s006_f01111-f01167.jpg",
+    "s007_f01169-f01359.jpg",
+    "s008_f01361-f01429.jpg",
+    "s009_f01431-f01499.jpg",
+    "s010_f01501-f01551.jpg",
+    "s011_f01553-f01774.jpg"
+  ],
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [
+    "laminas/landing/landing-B-01-layers-native-0.jpg",
+    "laminas/landing/landing-B-02-layers-native-1.jpg",
+    "laminas/landing/landing-B-03-layers-native-2.jpg"
+  ],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 20,
+  "supplemental_status": "completed",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

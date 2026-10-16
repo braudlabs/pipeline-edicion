@@ -1,0 +1,104 @@
+{
+  "text": " Misma persona, mismo look. Sin volver a empezar con cada plano.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 3.74,
+      "text": " Misma persona, mismo look. Sin volver a empezar con cada plano.",
+      "tokens": [
+        50364,
+        376,
+        14795,
+        12184,
+        11,
+        12461,
+        574,
+        13,
+        11187,
+        33998,
+        257,
+        31168,
+        416,
+        8411,
+        40259,
+        13,
+        50564
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.34339986907111275,
+      "compression_ratio": 0.9264705882352942,
+      "no_speech_prob": 0.017904534935951233,
+      "words": [
+        {
+          "word": " Misma",
+          "start": 0.0,
+          "end": 0.54,
+          "probability": 0.5902136862277985
+        },
+        {
+          "word": " persona,",
+          "start": 0.54,
+          "end": 0.96,
+          "probability": 0.9863329529762268
+        },
+        {
+          "word": " mismo",
+          "start": 1.2,
+          "end": 1.38,
+          "probability": 0.881420910358429
+        },
+        {
+          "word": " look.",
+          "start": 1.38,
+          "end": 1.7,
+          "probability": 0.9782085418701172
+        },
+        {
+          "word": " Sin",
+          "start": 2.18,
+          "end": 2.5,
+          "probability": 0.9657203555107117
+        },
+        {
+          "word": " volver",
+          "start": 2.5,
+          "end": 2.72,
+          "probability": 0.9897142052650452
+        },
+        {
+          "word": " a",
+          "start": 2.72,
+          "end": 2.82,
+          "probability": 0.9982693195343018
+        },
+        {
+          "word": " empezar",
+          "start": 2.82,
+          "end": 3.06,
+          "probability": 0.99757319688797
+        },
+        {
+          "word": " con",
+          "start": 3.06,
+          "end": 3.24,
+          "probability": 0.9921298623085022
+        },
+        {
+          "word": " cada",
+          "start": 3.24,
+          "end": 3.42,
+          "probability": 0.9978448152542114
+        },
+        {
+          "word": " plano.",
+          "start": 3.42,
+          "end": 3.74,
+          "probability": 0.9975040555000305
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

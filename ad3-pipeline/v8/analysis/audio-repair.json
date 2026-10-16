@@ -1,0 +1,20 @@
+{
+  "originalClip09StartSample": 1712005,
+  "sourceAudioSamples": 242400,
+  "restoredSourceIntervalSeconds": [
+    4.7,
+    5.05
+  ],
+  "previousSourceCutSeconds": 4.75,
+  "restoredMissingSeconds": 0.2999999999999998,
+  "fullOriginalEndInMasterSeconds": 40.716770833333335,
+  "ctaStartSeconds": 40.791666666666664,
+  "remainingPauseSeconds": 0.07489583333333333,
+  "originalTailMaximumDifferenceBeforeFinal3msFade": 0,
+  "finalMixChangedOnlyInSeconds": [
+    40.25,
+    40.791666666666664
+  ],
+  "picture": "V7 video stream reused without re-encoding",
+  "verification": "Local source sample alignment and waveform; no external audio upload or claimed full subjective audition."
+}

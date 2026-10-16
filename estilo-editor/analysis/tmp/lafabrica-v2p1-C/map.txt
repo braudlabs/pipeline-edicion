@@ -1,0 +1,294 @@
+# lafabrica-v2p1  f1293-f1906  (53.875-79.417 s)  24.000 fps  1080x1920
+# metraje estimado a ~22.2 fps dentro de la línea de 24.00; repetidos exactos en el tramo: 36
+f1289   53.708s  RÁFAGA de movimiento f1289-f1296 (0.333 s) mad_max=82.3
+f1290   53.750s  TEXTO «03»  f1290-f1323 (34 f, 1.417 s)  centro 95.2%,65.3%  alto 78px (4.07%)  ancho 98px  ángulo 0.0°  id=291
+f1292   53.833s  TEXTO «sistema»  f1292-f1301 (10 f, 0.417 s)  centro 49.7%,36.9%  alto 145px (7.56%)  ancho 561px  ángulo 0.8°  id=293
+f1293   53.875s  VOZ «el»  53.86-53.98 s (f1293-f1296)
+f1296   54.000s  VOZ «sistema»  53.98-54.26 s (f1296-f1302)
+f1299   54.125s  GOLPE de audio t=54.120 s  z=8.2  agudo  subida -13.6 dB  nivel -22.8 dB
+f1302   54.250s  VOZ «se»  54.26-54.48 s (f1302-f1308)
+f1302   54.250s  TEXTO «se»  f1302-f1305 (4 f, 0.167 s)  centro 49.9%,37.5%  alto 176px (9.16%)  ancho 204px  ángulo 0.0°  id=294
+f1304   54.333s  GOLPE de audio t=54.350 s  z=7.1  agudo  subida -3.6 dB  nivel -10.0 dB
+f1306   54.417s  TEXTO «queda»  f1306-f1311 (6 f, 0.250 s)  centro 49.7%,37.4%  alto 176px (9.16%)  ancho 455px  ángulo 0.0°  id=295
+f1308   54.500s  VOZ «queda»  54.48-54.66 s (f1308-f1312)
+f1309   54.542s  GOLPE de audio t=54.530 s  z=21.2  agudo  subida -10.6 dB  nivel -22.0 dB
+f1312   54.667s  VOZ «contigo.»  54.66-55.04 s (f1312-f1321)
+f1312   54.667s  TEXTO «contigo»  f1312-f1323 (12 f, 0.500 s)  centro 49.7%,37.6%  alto 167px (8.72%)  ancho 539px  ángulo 0.0°  id=296
+f1313   54.708s  GOLPE de audio t=54.720 s  z=10.1  agudo  subida -15.1 dB  nivel -21.8 dB
+f1317   54.875s  GOLPE de audio t=54.870 s  z=23.3  agudo  subida 1.9 dB  nivel -19.9 dB
+f1321   55.042s  VOZ «No»  55.04-55.40 s (f1321-f1330)
+f1324   55.167s  CORTE (alta)  mad=78.42 hd=0.182 ratio=14.6
+f1324   55.167s  TEXTO «No»  f1324-f1327 (4 f, 0.167 s)  centro 51.6%,26.0%  alto 145px (7.56%)  ancho 260px  ángulo 0.0°  id=297
+f1328   55.333s  TEXTO «es»  f1328-f1330 (3 f, 0.125 s)  centro 51.4%,26.6%  alto 120px (6.25%)  ancho 201px  ángulo 0.0°  id=298
+f1330   55.417s  VOZ «es»  55.40-55.52 s (f1330-f1332)
+f1331   55.458s  TEXTO «una»  f1331-f1334 (4 f, 0.167 s)  centro 50.5%,26.3%  alto 124px (6.43%)  ancho 277px  ángulo 0.9°  id=299
+f1331   55.458s  GOLPE de audio t=55.470 s  z=6.6  agudo  subida -3.5 dB  nivel -7.6 dB
+f1332   55.500s  VOZ «una»  55.52-55.64 s (f1332-f1335)
+f1335   55.625s  VOZ «suscripción,»  55.64-56.18 s (f1335-f1348)
+f1335   55.625s  TEXTO «suscripción»  f1335-f1348 (14 f, 0.583 s)  centro 49.4%,26.7%  alto 162px (8.43%)  ancho 776px  ángulo 0.0°  id=300
+f1336   55.667s  GOLPE de audio t=55.670 s  z=6.0  agudo  subida 4.9 dB  nivel -9.2 dB
+f1340   55.833s  GOLPE de audio t=55.840 s  z=7.5  agudo  subida -12.9 dB  nivel -22.1 dB
+f1343   55.958s  GOLPE de audio t=55.970 s  z=6.9  agudo  subida 3.6 dB  nivel -17.6 dB
+f1352   56.333s  VOZ «no»  56.34-56.50 s (f1352-f1356)  [pausa previa 0.16 s]
+f1354   56.417s  TEXTO «dependes»  f1354-f1364 (11 f, 0.458 s)  centro 49.9%,26.6%  alto 156px (8.14%)  ancho 706px  ángulo 0.1°  id=301
+f1356   56.500s  VOZ «dependes»  56.50-56.86 s (f1356-f1365)
+f1359   56.625s  GOLPE de audio t=56.630 s  z=16.0  agudo  subida -15.9 dB  nivel -22.1 dB
+f1365   56.875s  VOZ «de»  56.86-56.94 s (f1365-f1367)
+f1365   56.875s  TEXTO «nosotros»  f1365-f1376 (12 f, 0.500 s)  centro 50.4%,26.2%  alto 142px (7.41%)  ancho 631px  ángulo -1.0°  id=302
+f1367   56.958s  VOZ «nosotros»  56.94-57.26 s (f1367-f1374)
+f1372   57.167s  GOLPE de audio t=57.180 s  z=11.7  agudo  subida -11.1 dB  nivel -20.0 dB
+f1374   57.250s  VOZ «y»  57.26-57.54 s (f1374-f1381)
+f1380   57.500s  GOLPE de audio t=57.500 s  z=8.5  agudo  subida -9.2 dB  nivel -23.4 dB
+f1381   57.542s  VOZ «lo»  57.54-57.66 s (f1381-f1384)
+f1382   57.583s  TEXTO «lleva»  f1382-f1386 (5 f, 0.208 s)  centro 49.9%,26.4%  alto 123px (6.4%)  ancho 324px  ángulo 0.0°  id=303
+f1384   57.667s  VOZ «lleva»  57.66-57.84 s (f1384-f1388)
+f1388   57.833s  VOZ «alguien»  57.84-58.04 s (f1388-f1393)
+f1388   57.833s  TEXTO «alguien»  f1388-f1393 (6 f, 0.250 s)  centro 49.6%,26.7%  alto 168px (8.72%)  ancho 519px  ángulo 0.0°  id=305
+f1391   57.958s  GOLPE de audio t=57.950 s  z=6.2  agudo  subida 0.0 dB  nivel -7.7 dB
+f1393   58.042s  VOZ «que»  58.04-58.24 s (f1393-f1398)
+f1394   58.083s  TEXTO «que»  f1394-f1395 (2 f, 0.083 s)  centro 50.4%,27.2%  alto 140px (7.27%)  ancho 279px  ángulo 0.0°  id=306
+f1396   58.167s  TEXTO «ya»  f1396-f1398 (3 f, 0.125 s)  centro 52.5%,27.3%  alto 145px (7.56%)  ancho 243px  ángulo 0.0°  id=307
+f1396   58.167s  GOLPE de audio t=58.180 s  z=12.4  agudo  subida -11.2 dB  nivel -16.9 dB
+f1398   58.250s  VOZ «ya»  58.24-58.34 s (f1398-f1400)
+f1399   58.292s  TEXTO «tienes»  f1399-f1405 (7 f, 0.292 s)  centro 49.5%,26.0%  alto 128px (6.69%)  ancho 433px  ángulo 0.0°  id=308
+f1400   58.333s  VOZ «tienes»  58.34-58.58 s (f1400-f1406)
+f1401   58.375s  GOLPE de audio t=58.390 s  z=9.7  agudo  subida -10.6 dB  nivel -18.4 dB
+f1405   58.542s  RÁFAGA de movimiento f1405-f1412 (0.333 s) mad_max=11.4
+f1406   58.583s  VOZ «en»  58.58-58.74 s (f1406-f1410)
+f1406   58.583s  TEXTO «en»  f1406-f1408 (3 f, 0.125 s)  centro 51.0%,26.5%  alto 114px (5.96%)  ancho 243px  ángulo 0.0°  id=309
+f1409   58.708s  TEXTO «nómina»  f1409-f1416 (8 f, 0.333 s)  centro 50.1%,26.0%  alto 142px (7.42%)  ancho 541px  ángulo -0.1°  id=310
+f1410   58.750s  VOZ «nómina»  58.74-59.02 s (f1410-f1416)
+f1415   58.958s  GOLPE de audio t=58.960 s  z=6.3  agudo  subida -0.7 dB  nivel -6.6 dB
+f1416   59.000s  VOZ «en»  59.02-59.28 s (f1416-f1423)
+f1417   59.042s  TEXTO «en»  f1417-f1420 (4 f, 0.167 s)  centro 49.6%,26.5%  alto 109px (5.67%)  ancho 212px  ángulo 0.0°  id=311
+f1421   59.208s  TEXTO «30»  f1421-f1428 (8 f, 0.333 s)  centro 49.0%,25.9%  alto 128px (6.68%)  ancho 198px  ángulo 0.0°  id=312
+f1423   59.292s  VOZ «30»  59.28-59.52 s (f1423-f1428)
+f1423   59.292s  GOLPE de audio t=59.300 s  z=12.3  agudo  subida -6.7 dB  nivel -21.7 dB
+f1428   59.500s  VOZ «minutos»  59.52-59.80 s (f1428-f1435)
+f1428   59.500s  GOLPE de audio t=59.500 s  z=10.5  agudo  subida -6.8 dB  nivel -15.8 dB
+f1429   59.542s  TEXTO «minutos»  f1429-f1436 (8 f, 0.333 s)  centro 50.5%,26.2%  alto 134px (6.98%)  ancho 566px  ángulo 0.0°  id=313
+f1434   59.750s  GOLPE de audio t=59.770 s  z=10.5  agudo  subida -8.5 dB  nivel -16.4 dB
+f1435   59.792s  RÁFAGA de movimiento f1435-f1441 (0.292 s) mad_max=9.9
+f1435   59.792s  VOZ «al»  59.80-60.00 s (f1435-f1440)
+f1437   59.875s  TEXTO «al»  f1437-f1439 (3 f, 0.125 s)  centro 50.9%,26.1%  alto 131px (6.83%)  ancho 240px  ángulo 0.0°  id=314
+f1440   60.000s  VOZ «día.»  60.00-60.14 s (f1440-f1443)
+f1440   60.000s  TEXTO «día»  f1440-f1446 (7 f, 0.292 s)  centro 51.6%,25.9%  alto 131px (6.83%)  ancho 254px  ángulo 0.0°  id=317
+f1441   60.042s  GOLPE de audio t=60.030 s  z=6.3  agudo  subida -3.1 dB  nivel -15.0 dB
+f1445   60.208s  RÁFAGA de movimiento f1445-f1448 (0.167 s) mad_max=94.2
+f1447   60.292s  CORTE (alta)  mad=94.21 hd=0.254 ratio=10.6
+f1447   60.292s  TEXTO «Cada»  f1447-f1449 (3 f, 0.125 s)  centro 50.3%,26.2%  alto 162px (8.43%)  ancho 377px  ángulo 0.4°  id=318
+f1448   60.333s  VOZ «Cada»  60.32-60.50 s (f1448-f1452)  [pausa previa 0.18 s]
+f1449   60.375s  GOLPE de audio t=60.360 s  z=14.8  agudo  subida 9.2 dB  nivel -13.9 dB
+f1450   60.417s  TEXTO «instalación»  f1450-f1461 (12 f, 0.500 s)  centro 49.6%,26.3%  alto 173px (9.01%)  ancho 759px  ángulo -0.3°  id=319
+f1452   60.500s  VOZ «instalación»  60.50-60.96 s (f1452-f1463)
+f1453   60.542s  GOLPE de audio t=60.550 s  z=7.6  agudo  subida -2.3 dB  nivel -9.3 dB
+f1462   60.917s  CORTE (media)  mad=5.98 hd=0.034 ratio=3.2
+f1462   60.917s  TEXTO «son»  f1462-f1466 (5 f, 0.208 s)  centro 50.3%,26.5%  alto 131px (6.83%)  ancho 287px  ángulo 0.0°  id=320
+f1463   60.958s  VOZ «son»  60.96-61.18 s (f1463-f1468)
+f1464   61.000s  GOLPE de audio t=61.010 s  z=7.7  agudo  subida -2.4 dB  nivel -7.4 dB
+f1468   61.167s  VOZ «3»  61.18-61.40 s (f1468-f1474)
+f1468   61.167s  TEXTO «tres»  f1468-f1473 (6 f, 0.250 s)  centro 50.4%,26.2%  alto 137px (7.13%)  ancho 285px  ángulo 0.0°  id=322
+f1471   61.292s  GOLPE de audio t=61.290 s  z=16.5  agudo  subida -14.3 dB  nivel -20.4 dB
+f1474   61.417s  VOZ «semanas»  61.40-61.78 s (f1474-f1483)
+f1474   61.417s  TEXTO «semanas»  f1474-f1482 (9 f, 0.375 s)  centro 50.4%,26.6%  alto 140px (7.27%)  ancho 661px  ángulo 0.1°  id=323
+f1483   61.792s  VOZ «metidos»  61.78-62.22 s (f1483-f1493)
+f1483   61.792s  TEXTO «metidos»  f1483-f1491 (9 f, 0.375 s)  centro 50.6%,25.7%  alto 145px (7.56%)  ancho 564px  ángulo -0.1°  id=324
+f1488   62.000s  GOLPE de audio t=62.020 s  z=10.0  agudo  subida -3.0 dB  nivel -19.6 dB
+f1492   62.167s  TEXTO «dentro»  f1492-f1502 (11 f, 0.458 s)  centro 49.9%,25.9%  alto 145px (7.56%)  ancho 463px  ángulo 0.0°  id=325
+f1493   62.208s  VOZ «dentro»  62.22-62.48 s (f1493-f1500)
+f1499   62.458s  GOLPE de audio t=62.450 s  z=13.4  agudo  subida -2.2 dB  nivel -15.9 dB
+f1500   62.500s  VOZ «de»  62.48-62.62 s (f1500-f1503)
+f1503   62.625s  VOZ «tu»  62.62-62.72 s (f1503-f1505)
+f1503   62.625s  TEXTO «tu»  f1503-f1505 (3 f, 0.125 s)  centro 48.1%,25.9%  alto 140px (7.27%)  ancho 184px  ángulo 0.0°  id=326
+f1504   62.667s  GOLPE de audio t=62.650 s  z=9.8  agudo  subida -6.9 dB  nivel -18.1 dB
+f1505   62.708s  VOZ «equipo,»  62.72-62.96 s (f1505-f1511)
+f1506   62.750s  TEXTO «equipo»  f1506-f1514 (9 f, 0.375 s)  centro 49.9%,26.7%  alto 165px (8.57%)  ancho 488px  ángulo 0.0°  id=327
+f1507   62.792s  GOLPE de audio t=62.780 s  z=20.5  agudo  subida -9.4 dB  nivel -21.5 dB
+f1515   63.125s  CORTE (alta)  mad=86.08 hd=0.98 ratio=33.1
+f1515   63.125s  VOZ «no»  63.14-63.36 s (f1515-f1521)  [pausa previa 0.18 s]
+f1519   63.292s  TEXTO «queNo es un curso»  f1519-f1557 (39 f, 1.625 s)  centro 50.1%,47.7%  alto 87px (4.53%)  ancho 575px  ángulo 0.0°  id=328
+f1519   63.292s  GOLPE de audio t=63.300 s  z=6.4  agudo  subida 20.2 dB  nivel -5.0 dB
+f1521   63.375s  VOZ «es»  63.36-63.50 s (f1521-f1524)
+f1521   63.375s  TEXTO «es»  f1521-f1521 (1 f, 0.042 s)  centro 38.8%,50.2%  alto 64px (3.34%)  ancho 100px  ángulo 0.0°  id=329
+f1523   63.458s  GOLPE de audio t=63.440 s  z=7.6  agudo  subida -4.6 dB  nivel -9.6 dB
+f1524   63.500s  VOZ «un»  63.50-63.60 s (f1524-f1526)
+f1526   63.583s  VOZ «curso»  63.60-63.84 s (f1526-f1532)
+f1526   63.583s  TEXTO «curso»  f1526-f1526 (1 f, 0.042 s)  centro 67.1%,49.6%  alto 67px (3.49%)  ancho 237px  ángulo -0.5°  id=330
+f1528   63.667s  TEXTO «que se envía por email.»  f1528-f1558 (31 f, 1.292 s)  centro 50.3%,52.0%  alto 92px (4.8%)  ancho 829px  ángulo 0.0°  id=331
+f1532   63.833s  VOZ «que»  63.84-63.98 s (f1532-f1536)
+f1533   63.875s  TEXTO «envia»  f1533-f1533 (1 f, 0.042 s)  centro 44.6%,53.8%  alto 78px (4.07%)  ancho 215px  ángulo 0.2°  id=332
+f1536   64.000s  VOZ «se»  63.98-64.12 s (f1536-f1539)
+f1538   64.083s  TEXTO «email.»  f1538-f1538 (1 f, 0.042 s)  centro 79.1%,53.4%  alto 86px (4.51%)  ancho 234px  ángulo 0.0°  id=335
+f1539   64.125s  VOZ «manda»  64.12-64.32 s (f1539-f1544)
+f1542   64.250s  GOLPE de audio t=64.260 s  z=7.2  agudo  subida 1.0 dB  nivel -7.3 dB
+f1544   64.333s  VOZ «por»  64.32-64.44 s (f1544-f1547)
+f1547   64.458s  VOZ «email.»  64.44-64.66 s (f1547-f1552)
+f1556   64.833s  VOZ «Por»  64.84-65.00 s (f1556-f1560)  [pausa previa 0.18 s]
+f1558   64.917s  RÁFAGA de movimiento f1558-f1562 (0.208 s) mad_max=70.8
+f1558   64.917s  GOLPE de audio t=64.920 s  z=6.3  agudo  subida -1.6 dB  nivel -23.4 dB
+f1559   64.958s  CORTE (alta)  mad=70.84 hd=0.922 ratio=8.4
+f1559   64.958s  TEXTO «por-»  f1559-f1560 (2 f, 0.083 s)  centro 76.6%,50.9%  alto 148px (7.7%)  ancho 371px  ángulo 0.0°  id=336
+f1559   64.958s  TEXTO «01»  f1559-f1612 (54 f, 2.250 s)  centro 47.7%,82.7%  alto 151px (7.85%)  ancho 179px  ángulo 0.0°  id=338
+f1560   65.000s  VOZ «eso»  65.00-65.20 s (f1560-f1565)
+f1561   65.042s  TEXTO «eso=»  f1561-f1564 (4 f, 0.167 s)  centro 74.7%,50.1%  alto 117px (6.1%)  ancho 363px  ángulo 0.0°  id=339
+f1565   65.208s  VOZ «no»  65.20-65.42 s (f1565-f1570)
+f1565   65.208s  TEXTO «no =»  f1565-f1567 (3 f, 0.125 s)  centro 75.8%,50.1%  alto 96px (5.02%)  ancho 312px  ángulo 0.0°  id=340
+f1568   65.333s  TEXTO «podemos»  f1568-f1576 (9 f, 0.375 s)  centro 67.4%,50.1%  alto 151px (7.85%)  ancho 603px  ángulo 0.3°  id=342
+f1570   65.417s  VOZ «podemos»  65.42-65.70 s (f1570-f1577)
+f1571   65.458s  GOLPE de audio t=65.470 s  z=9.6  agudo  subida -12.3 dB  nivel -18.7 dB
+f1577   65.708s  VOZ «llevar»  65.70-65.96 s (f1577-f1583)
+f1577   65.708s  TEXTO «llevar»  f1577-f1582 (6 f, 0.250 s)  centro 69.9%,49.5%  alto 112px (5.81%)  ancho 377px  ángulo 0.0°  id=344
+f1583   65.958s  VOZ «muchas»  65.96-66.26 s (f1583-f1590)
+f1583   65.958s  TEXTO «muchas»  f1583-f1590 (8 f, 0.333 s)  centro 67.4%,49.6%  alto 123px (6.4%)  ancho 449px  ángulo 0.0°  id=345
+f1589   66.208s  GOLPE de audio t=66.200 s  z=12.8  agudo  subida -11.4 dB  nivel -18.1 dB
+f1590   66.250s  VOZ «a»  66.26-66.44 s (f1590-f1595)
+f1591   66.292s  GOLPE de audio t=66.290 s  z=6.1  agudo  subida -6.4 dB  nivel -11.9 dB
+f1593   66.375s  TEXTO «la»  f1593-f1594 (2 f, 0.083 s)  centro 67.1%,49.6%  alto 98px (5.09%)  ancho 126px  ángulo 0.0°  id=347
+f1595   66.458s  VOZ «la»  66.44-66.50 s (f1595-f1596)
+f1595   66.458s  TEXTO «vez»  f1595-f1601 (7 f, 0.292 s)  centro 67.7%,49.9%  alto 100px (5.19%)  ancho 230px  ángulo 0.0°  id=348
+f1596   66.500s  VOZ «vez.»  66.50-66.66 s (f1596-f1600)
+f1602   66.750s  TEXTO «Este»  f1602-f1607 (6 f, 0.250 s)  centro 50.3%,26.2%  alto 148px (7.73%)  ancho 346px  ángulo 3.3°  id=349
+f1605   66.875s  VOZ «Este»  66.86-67.06 s (f1605-f1609)  [pausa previa 0.20 s]
+f1605   66.875s  GOLPE de audio t=66.880 s  z=8.0  agudo  subida 14.6 dB  nivel -14.4 dB
+f1608   67.000s  TEXTO «mes»  f1608-f1612 (5 f, 0.208 s)  centro 50.5%,27.1%  alto 131px (6.83%)  ancho 321px  ángulo 0.0°  id=351
+f1608   67.000s  GOLPE de audio t=67.020 s  z=6.0  agudo  subida 6.6 dB  nivel -19.7 dB
+f1609   67.042s  VOZ «mes»  67.06-67.24 s (f1609-f1614)
+f1613   67.208s  TEXTO «abrimos»  f1613-f1622 (10 f, 0.417 s)  centro 49.9%,26.9%  alto 145px (7.56%)  ancho 614px  ángulo -0.6°  id=353
+f1614   67.250s  VOZ «abrimos»  67.24-67.64 s (f1614-f1623)
+f1615   67.292s  TEXTO «01»  f1615-f1635 (21 f, 0.875 s)  centro 69.2%,87.8%  alto 152px (7.89%)  ancho 234px  ángulo 20.2°  id=354
+f1623   67.625s  VOZ «4»  67.64-67.90 s (f1623-f1630)
+f1625   67.708s  TEXTO «4»  f1625-f1625 (1 f, 0.042 s)  centro 50.0%,24.0%  alto 360px (18.75%)  ancho 280px  ángulo 0.0°  id=355
+f1625   67.708s  GOLPE de audio t=67.720 s  z=6.4  agudo  subida -13.2 dB  nivel -18.7 dB
+f1627   67.792s  TEXTO «plazas»  f1627-f1645 (19 f, 0.792 s)  centro 50.7%,31.8%  alto 192px (10.0%)  ancho 584px  ángulo 0.0°  id=356
+f1630   67.917s  VOZ «plazas.»  67.90-68.38 s (f1630-f1641)
+f1639   68.292s  TEXTO «1»  f1639-f1640 (2 f, 0.083 s)  centro 49.4%,21.1%  alto 206px (10.76%)  ancho 162px  ángulo 0.0°  id=359
+f1644   68.500s  VOZ «Si»  68.48-68.68 s (f1644-f1648)
+f1645   68.542s  RÁFAGA de movimiento f1645-f1651 (0.292 s) mad_max=77.9
+f1645   68.542s  GOLPE de audio t=68.540 s  z=7.5  agudo  subida -2.4 dB  nivel -19.1 dB
+f1646   68.583s  CORTE (alta)  mad=77.91 hd=0.39 ratio=10.6
+f1648   68.667s  VOZ «ya»  68.68-68.80 s (f1648-f1651)
+f1650   68.750s  TEXTO «inviertes»  f1650-f1658 (9 f, 0.375 s)  centro 49.2%,11.3%  alto 167px (8.72%)  ancho 740px  ángulo 0.0°  id=365
+f1651   68.792s  VOZ «inviertes»  68.80-69.18 s (f1651-f1660)
+f1654   68.917s  GOLPE de audio t=68.910 s  z=7.1  agudo  subida -2.9 dB  nivel -9.9 dB
+f1658   69.083s  GOLPE de audio t=69.070 s  z=9.0  agudo  subida -14.1 dB  nivel -22.2 dB
+f1660   69.167s  VOZ «en»  69.18-69.28 s (f1660-f1663)
+f1661   69.208s  TEXTO «anuncios»  f1661-f1669 (9 f, 0.375 s)  centro 49.6%,14.1%  alto 156px (8.14%)  ancho 767px  ángulo 0.0°  id=367
+f1663   69.292s  VOZ «anuncios»  69.28-69.66 s (f1663-f1672)
+f1666   69.417s  TEXTO «solbunue»  f1666-f1666 (1 f, 0.042 s)  centro 49.5%,14.5%  alto 154px (7.99%)  ancho 756px  ángulo 180.0°  id=368
+f1671   69.625s  GOLPE de audio t=69.640 s  z=6.3  agudo  subida 3.2 dB  nivel -11.8 dB
+f1672   69.667s  VOZ «y»  69.66-69.74 s (f1672-f1674)
+f1674   69.750s  VOZ «la»  69.74-69.84 s (f1674-f1676)
+f1675   69.792s  TEXTO «producción»  f1675-f1684 (10 f, 0.417 s)  centro 49.4%,16.3%  alto 187px (9.73%)  ancho 876px  ángulo 0.0°  id=370
+f1676   69.833s  VOZ «producción»  69.84-70.16 s (f1676-f1684)
+f1677   69.875s  GOLPE de audio t=69.870 s  z=11.7  agudo  subida -10.0 dB  nivel -22.2 dB
+f1684   70.167s  VOZ «te»  70.16-70.36 s (f1684-f1689)
+f1686   70.250s  TEXTO «te»  f1686-f1686 (1 f, 0.042 s)  centro 49.2%,16.6%  alto 140px (7.27%)  ancho 209px  ángulo 0.0°  id=372
+f1687   70.292s  TEXTO «está»  f1687-f1691 (5 f, 0.208 s)  centro 49.9%,16.6%  alto 156px (8.14%)  ancho 324px  ángulo 0.0°  id=373
+f1687   70.292s  GOLPE de audio t=70.300 s  z=11.1  agudo  subida -17.1 dB  nivel -22.9 dB
+f1689   70.375s  VOZ «está»  70.36-70.50 s (f1689-f1692)
+f1691   70.458s  GOLPE de audio t=70.460 s  z=9.9  agudo  subida 2.7 dB  nivel -17.7 dB
+f1692   70.500s  VOZ «frenando,»  70.50-70.94 s (f1692-f1703)
+f1692   70.500s  TEXTO «frenando»  f1692-f1703 (12 f, 0.500 s)  centro 49.7%,17.5%  alto 151px (7.85%)  ancho 670px  ángulo 0.0°  id=374
+f1704   71.000s  TEXTO «plae»  f1704-f1707 (4 f, 0.167 s)  centro 50.1%,18.8%  alto 162px (8.43%)  ancho 324px  ángulo 0.0°  id=375
+f1706   71.083s  VOZ «pide»  71.10-71.30 s (f1706-f1711)  [pausa previa 0.16 s]
+f1708   71.167s  TEXTO «pias»  f1708-f1709 (2 f, 0.083 s)  centro 50.0%,18.8%  alto 167px (8.72%)  ancho 315px  ángulo 0.0°  id=376
+f1708   71.167s  GOLPE de audio t=71.160 s  z=8.5  agudo  subida -6.3 dB  nivel -24.1 dB
+f1711   71.292s  VOZ «la»  71.30-71.40 s (f1711-f1714)
+f1713   71.375s  TEXTO «evaluación»  f1713-f1725 (13 f, 0.542 s)  centro 49.4%,18.7%  alto 146px (7.61%)  ancho 764px  ángulo 0.1°  id=377
+f1714   71.417s  VOZ «evaluación.»  71.40-71.80 s (f1714-f1723)
+f1726   71.917s  CORTE (alta)  mad=83.51 hd=0.406 ratio=63.5
+f1726   71.917s  TEXTO «Miramos»  f1726-f1734 (9 f, 0.375 s)  centro 50.4%,18.8%  alto 148px (7.7%)  ancho 620px  ángulo 0.1°  id=380
+f1727   71.958s  VOZ «Miramos»  71.96-72.34 s (f1727-f1736)  [pausa previa 0.16 s]
+f1735   72.292s  TEXTO «dónde»  f1735-f1740 (6 f, 0.250 s)  centro 50.0%,18.6%  alto 151px (7.85%)  ancho 466px  ángulo 0.0°  id=381
+f1736   72.333s  VOZ «dónde»  72.34-72.56 s (f1736-f1741)
+f1738   72.417s  GOLPE de audio t=72.430 s  z=10.7  agudo  subida -6.2 dB  nivel -13.2 dB
+f1741   72.542s  VOZ «está»  72.56-72.76 s (f1741-f1746)
+f1741   72.542s  TEXTO «está»  f1741-f1745 (5 f, 0.208 s)  centro 50.0%,18.7%  alto 153px (7.99%)  ancho 310px  ángulo 0.0°  id=382
+f1745   72.708s  GOLPE de audio t=72.710 s  z=9.3  agudo  subida -16.1 dB  nivel -21.5 dB
+f1746   72.750s  VOZ «tu»  72.76-72.92 s (f1746-f1750)
+f1746   72.750s  TEXTO «tu»  f1746-f1748 (3 f, 0.125 s)  centro 50.1%,19.0%  alto 137px (7.13%)  ancho 229px  ángulo 0.0°  id=383
+f1748   72.833s  GOLPE de audio t=72.850 s  z=12.4  agudo  subida 4.1 dB  nivel -21.0 dB
+f1749   72.875s  TEXTO «cuello»  f1749-f1766 (18 f, 0.750 s)  centro 49.9%,19.0%  alto 137px (7.13%)  ancho 430px  ángulo -0.1°  id=384
+f1750   72.917s  VOZ «cuello»  72.92-73.12 s (f1750-f1755)
+f1755   73.125s  VOZ «de»  73.12-73.20 s (f1755-f1757)
+f1757   73.208s  CORTE (media)  mad=4.4 hd=0.027 ratio=3.9
+f1757   73.208s  VOZ «botella»  73.20-73.54 s (f1757-f1765)
+f1757   73.208s  TEXTO «botella»  f1757-f1766 (10 f, 0.417 s)  centro 73.4%,28.6%  alto 229px (11.92%)  ancho 474px  ángulo 0.0°  id=385
+f1760   73.333s  GOLPE de audio t=73.340 s  z=14.6  agudo  subida -12.5 dB  nivel -18.6 dB
+f1765   73.542s  VOZ «y»  73.54-73.82 s (f1765-f1772)
+f1767   73.625s  CORTE (media)  mad=8.35 hd=0.048 ratio=7.9
+f1770   73.750s  GOLPE de audio t=73.750 s  z=8.0  agudo  subida -14.3 dB  nivel -22.1 dB
+f1771   73.792s  TEXTO «Si»  f1771-f1773 (3 f, 0.125 s)  centro 48.1%,18.9%  alto 128px (6.69%)  ancho 179px  ángulo 0.0°  id=386
+f1772   73.833s  VOZ «si»  73.82-73.96 s (f1772-f1775)
+f1772   73.833s  GOLPE de audio t=73.830 s  z=6.1  agudo  subida 18.9 dB  nivel -9.2 dB
+f1774   73.917s  TEXTO «esto»  f1774-f1778 (5 f, 0.208 s)  centro 50.0%,19.1%  alto 126px (6.54%)  ancho 316px  ángulo -0.5°  id=387
+f1775   73.958s  VOZ «esto»  73.96-74.16 s (f1775-f1780)
+f1777   74.042s  GOLPE de audio t=74.060 s  z=7.2  agudo  subida -1.4 dB  nivel -11.0 dB
+f1779   74.125s  TEXTO «te»  f1779-f1781 (3 f, 0.125 s)  centro 51.6%,19.0%  alto 137px (7.13%)  ancho 260px  ángulo 0.0°  id=388
+f1780   74.167s  VOZ «te»  74.16-74.30 s (f1780-f1783)
+f1781   74.208s  GOLPE de audio t=74.220 s  z=21.2  agudo  subida -11.3 dB  nivel -21.6 dB
+f1782   74.250s  CORTE (media)  mad=4.07 hd=0.025 ratio=5.0
+f1782   74.250s  TEXTO «encaja»  f1782-f1793 (12 f, 0.500 s)  centro 50.0%,19.6%  alto 156px (8.14%)  ancho 472px  ángulo 0.0°  id=389
+f1783   74.292s  VOZ «encaja.»  74.30-74.60 s (f1783-f1790)
+f1785   74.375s  GOLPE de audio t=74.360 s  z=16.3  agudo  subida 3.6 dB  nivel -15.3 dB
+f1792   74.667s  VOZ «Y»  74.68-74.84 s (f1792-f1796)
+f1794   74.750s  CORTE (alta)  mad=70.58 hd=0.421 ratio=48.2
+f1794   74.750s  TEXTO «L»  f1794-f1797 (4 f, 0.167 s)  centro 72.1%,29.0%  alto 39px (2.04%)  ancho 42px  ángulo 0.0°  id=390
+f1794   74.750s  TEXTO «tPodlos»  f1794-f1838 (45 f, 1.875 s)  centro 14.3%,62.0%  alto 36px (1.86%)  ancho 106px  ángulo 53.1°  id=392
+f1794   74.750s  TEXTO «Laaniun»  f1794-f1795 (2 f, 0.083 s)  centro 13.7%,62.4%  alto 27px (1.43%)  ancho 65px  ángulo 60.3°  id=391
+f1794   74.750s  GOLPE de audio t=74.770 s  z=8.4  agudo  subida 6.8 dB  nivel -16.4 dB
+f1796   74.833s  VOZ «si»  74.84-74.96 s (f1796-f1799)
+f1799   74.958s  VOZ «no»  74.96-75.06 s (f1799-f1801)
+f1801   75.042s  VOZ «te»  75.06-75.18 s (f1801-f1804)
+f1801   75.042s  TEXTO «y si no te encajak»  f1801-f1842 (42 f, 1.750 s)  centro 50.4%,25.5%  alto 109px (5.67%)  ancho 672px  ángulo 0.0°  id=398
+f1803   75.125s  GOLPE de audio t=75.110 s  z=13.4  agudo  subida -9.6 dB  nivel -15.3 dB
+f1804   75.167s  VOZ «encaja,»  75.18-75.48 s (f1804-f1812)
+f1806   75.250s  GOLPE de audio t=75.250 s  z=13.2  agudo  subida 2.5 dB  nivel -12.5 dB
+f1812   75.500s  TEXTO «te lo dico»  f1812-f1833 (22 f, 0.917 s)  centro 49.9%,32.2%  alto 185px (9.63%)  ancho 826px  ángulo 0.0°  id=404
+f1814   75.583s  VOZ «te»  75.60-75.70 s (f1814-f1817)
+f1815   75.625s  GOLPE de audio t=75.640 s  z=16.7  agudo  subida -21.3 dB  nivel -27.2 dB
+f1817   75.708s  VOZ «lo»  75.70-75.80 s (f1817-f1819)
+f1819   75.792s  VOZ «digo,»  75.80-76.00 s (f1819-f1824)
+f1826   76.083s  TEXTO «no»  f1826-f1830 (5 f, 0.208 s)  centro 49.4%,49.6%  alto 154px (7.99%)  ancho 212px  ángulo 0.0°  id=407
+f1828   76.167s  VOZ «no»  76.18-76.36 s (f1828-f1833)  [pausa previa 0.18 s]
+f1831   76.292s  TEXTO «perdemos»  f1831-f1839 (9 f, 0.375 s)  centro 50.0%,50.0%  alto 162px (8.43%)  ancho 717px  ángulo -0.6°  id=410
+f1833   76.375s  VOZ «perdemos»  76.36-76.70 s (f1833-f1841)
+f1834   76.417s  GOLPE de audio t=76.410 s  z=6.8  agudo  subida -10.6 dB  nivel -16.1 dB
+f1835   76.458s  RÁFAGA de movimiento f1835-f1874 (1.667 s) mad_max=128.8
+f1837   76.542s  TEXTO «tr»  f1837-f1838 (2 f, 0.083 s)  centro 17.1%,32.2%  alto 137px (7.12%)  ancho 117px  ángulo 0.0°  id=413
+f1840   76.667s  TEXTO «el»  f1840-f1841 (2 f, 0.083 s)  centro 48.8%,49.5%  alto 131px (6.83%)  ancho 195px  ángulo 0.0°  id=414
+f1840   76.667s  GOLPE de audio t=76.680 s  z=8.4  agudo  subida -3.1 dB  nivel -10.8 dB
+f1841   76.708s  VOZ «el»  76.70-76.82 s (f1841-f1844)
+f1841   76.708s  TEXTO «Poallo"»  f1841-f1845 (5 f, 0.208 s)  centro 23.0%,52.2%  alto 32px (1.66%)  ancho 114px  ángulo 62.1°  id=416
+f1843   76.792s  TEXTO «cencaja»  f1843-f1843 (1 f, 0.042 s)  centro 64.3%,16.7%  alto 78px (4.07%)  ancho 335px  ángulo -0.2°  id=417
+f1843   76.792s  TEXTO «tiempo»  f1843-f1849 (7 f, 0.292 s)  centro 49.0%,50.2%  alto 170px (8.86%)  ancho 494px  ángulo 0.0°  id=419
+f1844   76.833s  VOZ «tiempo»  76.82-77.08 s (f1844-f1850)
+f1844   76.833s  GOLPE de audio t=76.850 s  z=14.8  agudo  subida -6.9 dB  nivel -17.4 dB
+f1846   76.917s  TEXTO «14»  f1846-f1846 (1 f, 0.042 s)  centro 22.5%,47.3%  alto 25px (1.31%)  ancho 28px  ángulo 0.0°  id=420
+f1849   77.042s  TEXTO «Podlos»  f1849-f1872 (24 f, 1.000 s)  centro 30.6%,35.9%  alto 38px (1.98%)  ancho 139px  ángulo 60.3°  id=422
+f1849   77.042s  GOLPE de audio t=77.040 s  z=9.1  agudo  subida -14.1 dB  nivel -18.8 dB
+f1850   77.083s  VOZ «ninguno»  77.08-77.54 s (f1850-f1861)
+f1850   77.083s  TEXTO «ninguno»  f1850-f1859 (10 f, 0.417 s)  centro 50.1%,50.3%  alto 168px (8.72%)  ancho 589px  ángulo 0.0°  id=423
+f1860   77.500s  TEXTO «de»  f1860-f1861 (2 f, 0.083 s)  centro 49.2%,49.4%  alto 138px (7.2%)  ancho 211px  ángulo 0.0°  id=427
+f1861   77.542s  VOZ «de»  77.54-77.62 s (f1861-f1863)
+f1862   77.583s  TEXTO «dos»  f1862-f1872 (11 f, 0.458 s)  centro 50.4%,49.1%  alto 152px (7.92%)  ancho 292px  ángulo 3.4°  id=428
+f1863   77.625s  VOZ «los»  77.62-77.76 s (f1863-f1866)
+f1866   77.750s  VOZ «dos.»  77.76-77.88 s (f1866-f1869)
+f1870   77.917s  GOLPE de audio t=77.900 s  z=6.0  agudo  subida -4.8 dB  nivel -18.4 dB
+f1873   78.042s  CORTE (alta)  mad=128.75 hd=0.991 ratio=11.1
+f1873   78.042s  GOLPE de audio t=78.040 s  z=8.9  agudo  subida -10.2 dB  nivel -27.5 dB
+
+# CARA por plano (caja de Vision; alto en % del alto del fotograma, centro en %):
+f1293-f1323 (31 f): alto 4.4%→5.0%  centro x 80.9%→74.8%  y 44.8%→45.1%  (31 detecciones)
+f1324-f1446 (123 f): alto 6.3%→12.7%  centro x 86.7%→77.3%  y 43.3%→20.5%  (123 detecciones)
+f1447-f1461 (15 f): alto 9.8%→9.1%  centro x 48.1%→80.8%  y 40.4%→40.6%  (15 detecciones)
+f1462-f1514 (53 f): alto 9.0%→10.0%  centro x 80.1%→68.0%  y 40.7%→42.6%  (53 detecciones)
+f1515-f1558: sin cara (0 detecciones)
+f1559-f1645 (87 f): alto 10.6%→7.5%  centro x 23.5%→49.4%  y 44.9%→44.7%  (87 detecciones)
+f1646-f1725 (80 f): alto 8.8%→6.4%  centro x 55.6%→54.5%  y 11.8%→22.1%  (58 detecciones)
+f1726-f1756 (31 f): alto 16.1%→16.2%  centro x 39.5%→39.4%  y 41.4%→41.5%  (31 detecciones)
+f1757-f1766 (10 f): alto 16.0%→16.2%  centro x 39.6%→39.6%  y 41.3%→41.5%  (10 detecciones)
+f1767-f1781 (15 f): alto 16.5%→16.0%  centro x 39.6%→39.6%  y 41.7%→41.6%  (15 detecciones)
+f1782-f1793 (12 f): alto 16.0%→16.1%  centro x 39.5%→39.4%  y 41.4%→41.4%  (12 detecciones)
+f1794-f1872 (79 f): alto 9.1%→9.3%  centro x 80.8%→90.7%  y 68.7%→28.3%  (56 detecciones)
+f1873-f1906: sin cara (0 detecciones)

@@ -1,0 +1,11 @@
+{
+  "preCTAMontageSSIM": {
+    "frames": 1940,
+    "mean": 0.9999019572164948,
+    "min": 0.987681
+  },
+  "masterCaptionOverlaps": [],
+  "productionToCTASeparationFrames": 9,
+  "CTAaddedFrames": 18,
+  "CTAdelaySeconds": 0.375
+}

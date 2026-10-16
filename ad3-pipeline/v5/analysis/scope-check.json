@@ -1,0 +1,38 @@
+{
+  "otherChunksBitIdentical": {
+    "00": true,
+    "01": true,
+    "02": true,
+    "03": true,
+    "04": true,
+    "06": true,
+    "07": true,
+    "08": true,
+    "09": true,
+    "10": true,
+    "11": true,
+    "12": true,
+    "13": true,
+    "14": true,
+    "15": true
+  },
+  "unaffectedFrameChecks": {
+    "730": {
+      "meanAbsoluteRGBDifference": 0.0,
+      "pctWithin3": 100.0
+    },
+    "760": {
+      "meanAbsoluteRGBDifference": 0.45391460905349795,
+      "pctWithin3": 96.16317836934157
+    },
+    "858": {
+      "meanAbsoluteRGBDifference": 1.2334535751028806,
+      "pctWithin3": 92.59603266460906
+    },
+    "863": {
+      "meanAbsoluteRGBDifference": 1.3213864776234567,
+      "pctWithin3": 91.66827417695474
+    }
+  },
+  "decodedAudioIdentical": true
+}

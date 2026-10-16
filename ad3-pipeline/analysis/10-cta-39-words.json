@@ -1,0 +1,111 @@
+{
+  "text": " entra en Visual Hub. 39 dólares al mes puedes cancelar cuando quieras.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 4.82,
+      "text": " entra en Visual Hub. 39 dólares al mes puedes cancelar cuando quieras.",
+      "tokens": [
+        50364,
+        22284,
+        465,
+        23187,
+        18986,
+        13,
+        15238,
+        32596,
+        419,
+        3813,
+        19010,
+        10373,
+        289,
+        7767,
+        23572,
+        296,
+        13,
+        50608
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.2704969456321315,
+      "compression_ratio": 0.9594594594594594,
+      "no_speech_prob": 0.01762496493756771,
+      "words": [
+        {
+          "word": " entra",
+          "start": 0.0,
+          "end": 0.26,
+          "probability": 0.6135699152946472
+        },
+        {
+          "word": " en",
+          "start": 0.26,
+          "end": 0.4,
+          "probability": 0.9908281564712524
+        },
+        {
+          "word": " Visual",
+          "start": 0.4,
+          "end": 0.66,
+          "probability": 0.8197852969169617
+        },
+        {
+          "word": " Hub.",
+          "start": 0.66,
+          "end": 1.06,
+          "probability": 0.5215508341789246
+        },
+        {
+          "word": " 39",
+          "start": 1.6,
+          "end": 2.0,
+          "probability": 0.4028869569301605
+        },
+        {
+          "word": " dólares",
+          "start": 2.0,
+          "end": 2.48,
+          "probability": 0.9672719836235046
+        },
+        {
+          "word": " al",
+          "start": 2.48,
+          "end": 2.72,
+          "probability": 0.9869186282157898
+        },
+        {
+          "word": " mes",
+          "start": 2.72,
+          "end": 2.96,
+          "probability": 0.9993997812271118
+        },
+        {
+          "word": " puedes",
+          "start": 2.96,
+          "end": 3.52,
+          "probability": 0.7575758099555969
+        },
+        {
+          "word": " cancelar",
+          "start": 3.52,
+          "end": 4.08,
+          "probability": 0.9961048066616058
+        },
+        {
+          "word": " cuando",
+          "start": 4.08,
+          "end": 4.28,
+          "probability": 0.9798802733421326
+        },
+        {
+          "word": " quieras.",
+          "start": 4.28,
+          "end": 4.82,
+          "probability": 0.9965394139289856
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

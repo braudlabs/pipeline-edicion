@@ -1,0 +1,5 @@
+{
+  "before_patch_same": true,
+  "after_patch_same": true,
+  "patch_alignment": true
+}

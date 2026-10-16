@@ -1,0 +1,63 @@
+# landing  f510-f540  (8.500-9.000 s)  60.000 fps  1920x1080
+# metraje estimado a ~26.07 fps dentro de la línea de 60.00; repetidos exactos en el tramo: 1
+f505     8.417s  RÁFAGA de movimiento f505-f511 (0.117 s) mad_max=26.4
+f508     8.467s  TEXTO «co-fundador»  f508-f541 (34 f, 0.567 s)  centro 49.9%,76.7%  alto 67px (6.2%)  ancho 326px  ángulo 1.8°  id=19
+f508     8.467s      · id=19 f508: cx=959 cy=829 w=326 h=67 ang=1.9 conf=1 «co-fundador»
+f509     8.483s      · id=19 f509: cx=959 cy=829 w=326 h=67 ang=1.9 conf=1 «co-fundador»
+f510     8.500s      · id=19 f510: cx=960 cy=829 w=324 h=67 ang=1.8 conf=1 «co-fundador»
+f511     8.517s  VOZ «cofundador»  8.52-9.02 s (f511-f541)  [pausa previa 0.18 s]
+f511     8.517s      · id=19 f511: cx=960 cy=829 w=324 h=67 ang=1.8 conf=1 «co-fundador»
+f511     8.517s  GOLPE de audio t=8.510 s  z=6.1  agudo  subida -11.4 dB  nivel -21.8 dB
+f512     8.533s      · id=19 f512: cx=959 cy=829 w=326 h=67 ang=1.9 conf=1 «co-fundador»
+f513     8.550s      · id=19 f513: cx=959 cy=829 w=326 h=67 ang=1.9 conf=1 «co-fundador»
+f514     8.567s      · id=19 f514: cx=959 cy=829 w=326 h=67 ang=2.2 conf=1 «co-fundador»
+f515     8.583s      · id=19 f515: cx=959 cy=828 w=327 h=66 ang=2.0 conf=1 «co-fundador»
+f516     8.600s      · id=19 f516: cx=958 cy=828 w=327 h=66 ang=1.9 conf=1 «co-fundador»
+f517     8.617s      · id=19 f517: cx=959 cy=829 w=326 h=67 ang=1.9 conf=1 «co-fundador»
+f518     8.633s  GOLPE de audio t=8.640 s  z=6.6  agudo  subida 8.7 dB  nivel -12.0 dB
+f519     8.650s  TEXTO «Co-Fundador»  f519-f519 (1 f, 0.017 s)  centro 10.6%,84.6%  alto 48px (4.4%)  ancho 195px  ángulo 0.0°  id=20
+f521     8.683s  TEXTO «Alejandro | notellrotkayl»  f521-f749 (229 f, 3.817 s)  centro 13.6%,80.4%  alto 84px (7.76%)  ancho 315px  ángulo 0.0°  id=22
+f521     8.683s      · id=22 f521: cx=262 cy=917 w=329 h=103 ang=0.0 conf=0.3 «Abjandro»
+f522     8.700s      · id=22 f522: cx=262 cy=912 w=329 h=106 ang=0.0 conf=0.3 «Abjandro»
+f523     8.717s      · id=22 f523: cx=261 cy=908 w=332 h=103 ang=0.0 conf=0.3 «Aojandro»
+f524     8.733s      · id=22 f524: cx=258 cy=904 w=326 h=95 ang=-0.5 conf=0.3 «Abiandro»
+f525     8.750s      · id=22 f525: cx=261 cy=903 w=321 h=86 ang=0.0 conf=0.5 «Aeiandro»
+f526     8.767s  TEXTO «dлu»  f526-f527 (2 f, 0.033 s)  centro 49.8%,63.4%  alto 14px (1.3%)  ancho 31px  ángulo 0.0°  id=24
+f526     8.767s      · id=22 f526: cx=260 cy=903 w=318 h=92 ang=0.0 conf=0.3 «Aeiandro»
+f527     8.783s      · id=22 f527: cx=258 cy=903 w=293 h=86 ang=0.0 conf=0.3 «Aelandro»
+f528     8.800s  TEXTO «Co-Fundador de Braud - @alejandronubiocam»  f528-f766 (239 f, 3.983 s)  centro 21.5%,88.1%  alto 48px (4.44%)  ancho 632px  ángulo 0.0°  id=26
+f528     8.800s      · id=22 f528: cx=261 cy=893 w=288 h=73 ang=0.3 conf=0.3 «Aeandro»
+f528     8.800s      · id=26 f528: cx=201 cy=940 w=151 h=22 ang=0.0 conf=0.3 «o-Fundadc»
+f529     8.817s      · id=22 f529: cx=260 cy=892 w=301 h=59 ang=0.5 conf=0.5 «Aleandro»
+f529     8.817s      · id=26 f529: cx=202 cy=939 w=165 h=25 ang=0.0 conf=0.5 «o-Fundado»
+f530     8.833s      · id=22 f530: cx=260 cy=889 w=318 h=81 ang=-0.7 conf=0.5 «Aleiandro»
+f530     8.833s      · id=26 f530: cx=201 cy=940 w=195 h=34 ang=0.0 conf=1 «Co-Fundador»
+f531     8.850s      · id=26 f531: cx=201 cy=940 w=195 h=34 ang=0.0 conf=1 «Co-Fundador»
+f532     8.867s      · id=26 f532: cx=201 cy=942 w=195 h=36 ang=0.5 conf=1 «Co-Fundador»
+f533     8.883s      · id=26 f533: cx=201 cy=942 w=195 h=36 ang=0.9 conf=1 «Co-Fundador»
+f534     8.900s      · id=26 f534: cx=219 cy=939 w=237 h=48 ang=0.0 conf=0.5 «co Fundador de»
+f535     8.917s  TEXTO «dyi»  f535-f537 (3 f, 0.050 s)  centro 49.7%,63.4%  alto 20px (1.81%)  ancho 34px  ángulo 0.0°  id=27
+f535     8.917s      · id=26 f535: cx=220 cy=939 w=240 h=42 ang=0.0 conf=0.5 «Co-Fundador de»
+f535     8.917s      · id=27 f535: cx=954 cy=685 w=34 h=20 ang=0.0 conf=0.3 «dyi»
+f536     8.933s      · id=26 f536: cx=223 cy=942 w=240 h=42 ang=0.0 conf=0.5 «Co-Fundador de»
+f536     8.933s      · id=27 f536: cx=954 cy=685 w=34 h=20 ang=0.0 conf=0.3 «dyi»
+f537     8.950s      · id=19 f537: cx=957 cy=829 w=318 h=61 ang=1.5 conf=1 «co-fundador» (final)
+f537     8.950s      · id=26 f537: cx=223 cy=942 w=240 h=42 ang=0.0 conf=0.5 «Co-Fundador de»
+f537     8.950s      · id=27 f537: cx=953 cy=685 w=31 h=20 ang=0.0 conf=0.3 «dyi»
+f538     8.967s      · id=19 f538: cx=957 cy=828 w=318 h=59 ang=1.6 conf=1 «co-fundador» (final)
+f539     8.983s      · id=19 f539: cx=957 cy=829 w=318 h=61 ang=1.5 conf=1 «co-fundador» (final)
+f540     9.000s      · id=19 f540: cx=957 cy=827 w=324 h=64 ang=1.9 conf=1 «co-fundador» (final)
+f541     9.017s      · id=19 f541: cx=957 cy=827 w=324 h=64 ang=2.0 conf=1 «co-fundador» (final)
+f745    12.417s      · id=22 f745: cx=412 cy=590 w=114 h=14 ang=0.0 conf=1 «Alej andro | notelliotkay» (final)
+f746    12.433s      · id=22 f746: cx=412 cy=590 w=114 h=14 ang=0.0 conf=1 «Alejandro | notelliotkay» (final)
+f747    12.450s      · id=22 f747: cx=412 cy=590 w=114 h=14 ang=0.0 conf=1 «Alejandro | notelliotkay» (final)
+f748    12.467s      · id=22 f748: cx=412 cy=590 w=114 h=14 ang=0.0 conf=1 «Alejandro | notelliotkay» (final)
+f749    12.483s      · id=22 f749: cx=412 cy=590 w=114 h=14 ang=0.0 conf=1 «Alejandro | notelliotkay» (final)
+f762    12.700s      · id=26 f762: cx=223 cy=944 w=246 h=45 ang=0.0 conf=0.5 «Co-Fundador de» (final)
+f763    12.717s      · id=26 f763: cx=225 cy=942 w=232 h=48 ang=0.0 conf=1 «co-Fundador de» (final)
+f764    12.733s      · id=26 f764: cx=225 cy=936 w=232 h=53 ang=0.0 conf=1 «co-Fundador de» (final)
+f765    12.750s      · id=26 f765: cx=223 cy=932 w=240 h=67 ang=0.0 conf=0.5 «Co-Fundador de» (final)
+f766    12.767s      · id=26 f766: cx=201 cy=935 w=195 h=45 ang=0.0 conf=1 «Co-Fundador» (final)
+
+# CARA por plano (caja de Vision; alto en % del alto del fotograma, centro en %):
+f510-f540 (31 f): alto 28.6%→27.2%  centro x 48.3%→48.8%  y 34.3%→34.2%  (31 detecciones)

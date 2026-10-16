@@ -1,0 +1,652 @@
+{
+  "method": "local Whisper large-v3-turbo; tail offset24s; previous source alignment before24s",
+  "words": [
+    {
+      "word": " ¿Cansado",
+      "start": 1.219999999999995,
+      "end": 1.66,
+      "probability": 0.8830261826515198
+    },
+    {
+      "word": " de",
+      "start": 1.66,
+      "end": 1.78,
+      "probability": 0.9924934506416321
+    },
+    {
+      "word": " dejarte",
+      "start": 1.78,
+      "end": 2.16,
+      "probability": 0.9926866590976715
+    },
+    {
+      "word": " un",
+      "start": 2.16,
+      "end": 2.26,
+      "probability": 0.9930375218391418
+    },
+    {
+      "word": " riñón",
+      "start": 2.26,
+      "end": 2.58,
+      "probability": 0.9971399108568827
+    },
+    {
+      "word": " en",
+      "start": 2.58,
+      "end": 2.68,
+      "probability": 0.9955072402954102
+    },
+    {
+      "word": " bolas",
+      "start": 2.68,
+      "end": 3.06,
+      "probability": 0.9876864552497864
+    },
+    {
+      "word": " cada",
+      "start": 3.06,
+      "end": 3.26,
+      "probability": 0.98518306016922
+    },
+    {
+      "word": " vez",
+      "start": 3.26,
+      "end": 3.42,
+      "probability": 0.9980180263519287
+    },
+    {
+      "word": " que",
+      "start": 3.42,
+      "end": 3.58,
+      "probability": 0.9978583455085754
+    },
+    {
+      "word": " sales",
+      "start": 3.58,
+      "end": 3.76,
+      "probability": 0.9797533750534058
+    },
+    {
+      "word": " a",
+      "start": 3.76,
+      "end": 3.92,
+      "probability": 0.9981004595756531
+    },
+    {
+      "word": " jugar?",
+      "start": 3.92,
+      "end": 4.18,
+      "probability": 0.998808741569519
+    },
+    {
+      "word": " ¡Venga,",
+      "start": 4.44,
+      "end": 4.78,
+      "probability": 0.6307314733664194
+    },
+    {
+      "word": " venga,",
+      "start": 4.84,
+      "end": 4.98,
+      "probability": 0.9952533841133118
+    },
+    {
+      "word": " venga!",
+      "start": 5.0,
+      "end": 5.26,
+      "probability": 0.998352974653244
+    },
+    {
+      "word": " ¡No!",
+      "start": 6.22,
+      "end": 6.46,
+      "probability": 0.7122781872749329
+    },
+    {
+      "word": " Tranquilo,",
+      "start": 7.61999999999999,
+      "end": 8.059999999999995,
+      "probability": 0.9630697965621948
+    },
+    {
+      "word": " mindunguis,",
+      "start": 8.059999999999995,
+      "end": 8.5,
+      "probability": 0.7046757241090139
+    },
+    {
+      "word": " que",
+      "start": 8.62,
+      "end": 8.76,
+      "probability": 0.9970870614051819
+    },
+    {
+      "word": " te",
+      "start": 8.76,
+      "end": 8.88,
+      "probability": 0.9997851252555847
+    },
+    {
+      "word": " traigo",
+      "start": 8.88,
+      "end": 9.22,
+      "probability": 0.9998321235179901
+    },
+    {
+      "word": " la",
+      "start": 9.22,
+      "end": 9.34,
+      "probability": 0.9996687173843384
+    },
+    {
+      "word": " solución.",
+      "start": 9.34,
+      "end": 9.82,
+      "probability": 0.9997555017471313
+    },
+    {
+      "word": " Literalmente.",
+      "start": 10.74,
+      "end": 11.18,
+      "probability": 0.9941985805829366
+    },
+    {
+      "word": " En",
+      "start": 11.48,
+      "end": 11.76,
+      "probability": 0.9988559484481812
+    },
+    {
+      "word": " Verdi",
+      "start": 11.76,
+      "end": 12.0,
+      "probability": 0.8054733574390411
+    },
+    {
+      "word": " Balls",
+      "start": 12.0,
+      "end": 12.3,
+      "probability": 0.6002833619713783
+    },
+    {
+      "word": " recuperamos",
+      "start": 12.3,
+      "end": 12.86,
+      "probability": 0.9913496673107147
+    },
+    {
+      "word": " bolas",
+      "start": 12.86,
+      "end": 13.16,
+      "probability": 0.9991376399993896
+    },
+    {
+      "word": " originales",
+      "start": 13.16,
+      "end": 13.7,
+      "probability": 0.9992919862270355
+    },
+    {
+      "word": " de",
+      "start": 13.7,
+      "end": 13.8,
+      "probability": 0.9998083710670471
+    },
+    {
+      "word": " tus",
+      "start": 13.8,
+      "end": 13.94,
+      "probability": 0.9984819293022156
+    },
+    {
+      "word": " marcas",
+      "start": 13.94,
+      "end": 14.3,
+      "probability": 0.9994981288909912
+    },
+    {
+      "word": " favoritas.",
+      "start": 14.3,
+      "end": 14.82,
+      "probability": 0.9996663331985474
+    },
+    {
+      "word": " De",
+      "start": 15.08,
+      "end": 15.24,
+      "probability": 0.991104006767273
+    },
+    {
+      "word": " lagos,",
+      "start": 15.24,
+      "end": 15.82,
+      "probability": 0.9926590919494629
+    },
+    {
+      "word": " de",
+      "start": 15.9,
+      "end": 16.0,
+      "probability": 0.9999114274978638
+    },
+    {
+      "word": " campos...",
+      "start": 16.0,
+      "end": 16.76,
+      "probability": 0.8785938620567322
+    },
+    {
+      "word": " ¡Me",
+      "start": 16.76,
+      "end": 16.8,
+      "probability": 0.9776667058467865
+    },
+    {
+      "word": " cago",
+      "start": 16.8,
+      "end": 17.18,
+      "probability": 0.9873336553573608
+    },
+    {
+      "word": " en!",
+      "start": 17.18,
+      "end": 17.38,
+      "probability": 0.9903008937835693
+    },
+    {
+      "word": " Justo",
+      "start": 18.72,
+      "end": 19.16,
+      "probability": 0.9856055676937103
+    },
+    {
+      "word": " ahí.",
+      "start": 19.16,
+      "end": 19.32,
+      "probability": 0.9998974800109863
+    },
+    {
+      "word": " Las",
+      "start": 19.62,
+      "end": 20.0,
+      "probability": 0.9992207288742065
+    },
+    {
+      "word": " limpiamos",
+      "start": 20.0,
+      "end": 20.54,
+      "probability": 0.9995873967806498
+    },
+    {
+      "word": " y",
+      "start": 20.54,
+      "end": 20.7,
+      "probability": 0.999962329864502
+    },
+    {
+      "word": " las",
+      "start": 20.7,
+      "end": 20.82,
+      "probability": 0.9994598031044006
+    },
+    {
+      "word": " revisamos",
+      "start": 20.82,
+      "end": 21.4,
+      "probability": 0.9997996687889099
+    },
+    {
+      "word": " una",
+      "start": 21.4,
+      "end": 21.86,
+      "probability": 0.9980605244636536
+    },
+    {
+      "word": " a",
+      "start": 21.86,
+      "end": 22.06,
+      "probability": 0.999881386756897
+    },
+    {
+      "word": " una.",
+      "start": 22.06,
+      "end": 22.26,
+      "probability": 0.9998822212219238
+    },
+    {
+      "word": " Al",
+      "start": 22.42,
+      "end": 22.58,
+      "probability": 0.993915855884552
+    },
+    {
+      "word": " punto",
+      "start": 22.58,
+      "end": 22.86,
+      "probability": 0.9998282194137573
+    },
+    {
+      "word": " de",
+      "start": 22.86,
+      "end": 23.0,
+      "probability": 0.9996110796928406
+    },
+    {
+      "word": " que",
+      "start": 23.0,
+      "end": 23.12,
+      "probability": 0.999985933303833
+    },
+    {
+      "word": " ni",
+      "start": 23.12,
+      "end": 23.24,
+      "probability": 0.9999097585678101
+    },
+    {
+      "word": " el",
+      "start": 23.24,
+      "end": 23.36,
+      "probability": 0.9995872378349304
+    },
+    {
+      "word": " mindunguis",
+      "start": 23.36,
+      "end": 23.88,
+      "probability": 0.9970819354057312
+    },
+    {
+      "word": " este",
+      "start": 23.88,
+      "end": 24.1,
+      "probability": 0.9871795773506165
+    },
+    {
+      "word": " Este",
+      "start": 24.0,
+      "end": 24.12,
+      "probability": 0.48515358567237854
+    },
+    {
+      "word": " se",
+      "start": 24.12,
+      "end": 24.26,
+      "probability": 0.9896215200424194
+    },
+    {
+      "word": " da",
+      "start": 24.26,
+      "end": 24.36,
+      "probability": 0.9994456171989441
+    },
+    {
+      "word": " cuenta",
+      "start": 24.36,
+      "end": 24.64,
+      "probability": 0.9994750618934631
+    },
+    {
+      "word": " de",
+      "start": 24.64,
+      "end": 24.78,
+      "probability": 0.9947275519371033
+    },
+    {
+      "word": " que",
+      "start": 24.78,
+      "end": 24.9,
+      "probability": 0.9973559379577637
+    },
+    {
+      "word": " no",
+      "start": 24.9,
+      "end": 25.0,
+      "probability": 0.998365581035614
+    },
+    {
+      "word": " son",
+      "start": 25.0,
+      "end": 25.18,
+      "probability": 0.9991994500160217
+    },
+    {
+      "word": " nuevas.",
+      "start": 25.18,
+      "end": 25.5,
+      "probability": 0.9985775947570801
+    },
+    {
+      "word": " Pues",
+      "start": 25.68,
+      "end": 25.82,
+      "probability": 0.9864641427993774
+    },
+    {
+      "word": " sí",
+      "start": 25.82,
+      "end": 25.94,
+      "probability": 0.9941911101341248
+    },
+    {
+      "word": " que",
+      "start": 25.94,
+      "end": 26.02,
+      "probability": 0.9946457147598267
+    },
+    {
+      "word": " está",
+      "start": 26.02,
+      "end": 26.16,
+      "probability": 0.9884973764419556
+    },
+    {
+      "word": " como",
+      "start": 26.16,
+      "end": 26.38,
+      "probability": 0.9981310963630676
+    },
+    {
+      "word": " nuevas,",
+      "start": 26.38,
+      "end": 26.7,
+      "probability": 0.9386077523231506
+    },
+    {
+      "word": " sí.",
+      "start": 26.88,
+      "end": 26.92,
+      "probability": 0.9980803728103638
+    },
+    {
+      "word": " Tú",
+      "start": 27.34,
+      "end": 27.5,
+      "probability": 0.9963966012001038
+    },
+    {
+      "word": " lo",
+      "start": 27.5,
+      "end": 27.6,
+      "probability": 0.9999581575393677
+    },
+    {
+      "word": " has",
+      "start": 27.6,
+      "end": 27.7,
+      "probability": 0.9997770190238953
+    },
+    {
+      "word": " dicho.",
+      "start": 27.7,
+      "end": 27.94,
+      "probability": 0.9999408721923828
+    },
+    {
+      "word": " Como",
+      "start": 28.2,
+      "end": 28.46,
+      "probability": 0.9990851879119873
+    },
+    {
+      "word": " nuevas",
+      "start": 28.46,
+      "end": 28.8,
+      "probability": 0.9999071359634399
+    },
+    {
+      "word": " y",
+      "start": 28.8,
+      "end": 29.06,
+      "probability": 0.9989476799964905
+    },
+    {
+      "word": " hasta",
+      "start": 29.06,
+      "end": 29.259999999999998,
+      "probability": 0.9998587369918823
+    },
+    {
+      "word": " un",
+      "start": 29.259999999999998,
+      "end": 29.42,
+      "probability": 0.9998619556427002
+    },
+    {
+      "word": " 70",
+      "start": 29.42,
+      "end": 29.84,
+      "probability": 0.9994282126426697
+    },
+    {
+      "word": "%",
+      "start": 29.84,
+      "end": 30.16,
+      "probability": 0.9992621541023254
+    },
+    {
+      "word": " más",
+      "start": 30.16,
+      "end": 30.52,
+      "probability": 0.9997552037239075
+    },
+    {
+      "word": " baratas.",
+      "start": 30.52,
+      "end": 30.9,
+      "probability": 0.999730795621872
+    },
+    {
+      "word": " No",
+      "start": 31.16,
+      "end": 31.34,
+      "probability": 0.9966332316398621
+    },
+    {
+      "word": " esperes",
+      "start": 31.34,
+      "end": 31.7,
+      "probability": 0.9995988309383392
+    },
+    {
+      "word": " más",
+      "start": 31.7,
+      "end": 31.86,
+      "probability": 0.9999574422836304
+    },
+    {
+      "word": " y",
+      "start": 31.86,
+      "end": 32.04,
+      "probability": 0.9934138655662537
+    },
+    {
+      "word": " pídelas",
+      "start": 32.04,
+      "end": 32.5,
+      "probability": 0.9198614209890366
+    },
+    {
+      "word": " tú.",
+      "start": 32.5,
+      "end": 32.6,
+      "probability": 0.6761898994445801
+    },
+    {
+      "word": " Que",
+      "start": 32.92,
+      "end": 33.16,
+      "probability": 0.9041217565536499
+    },
+    {
+      "word": " el",
+      "start": 33.16,
+      "end": 33.28,
+      "probability": 0.9987022876739502
+    },
+    {
+      "word": " golf",
+      "start": 33.28,
+      "end": 33.44,
+      "probability": 0.8504515290260315
+    },
+    {
+      "word": " está",
+      "start": 33.44,
+      "end": 33.68,
+      "probability": 0.9987815022468567
+    },
+    {
+      "word": " para",
+      "start": 33.68,
+      "end": 33.9,
+      "probability": 0.9998393058776855
+    },
+    {
+      "word": " disfrutarlo,",
+      "start": 33.9,
+      "end": 34.5,
+      "probability": 0.9987004001935323
+    },
+    {
+      "word": " chaval.",
+      "start": 34.62,
+      "end": 34.9,
+      "probability": 0.9993369281291962
+    },
+    {
+      "word": " VerdiBalls.",
+      "start": 35.519999999999996,
+      "end": 35.96,
+      "probability": 0.6436909809708595
+    },
+    {
+      "word": " Juega",
+      "start": 36.12,
+      "end": 36.56,
+      "probability": 0.9989214936892191
+    },
+    {
+      "word": " más",
+      "start": 36.56,
+      "end": 36.88,
+      "probability": 0.9997554421424866
+    },
+    {
+      "word": " por",
+      "start": 36.88,
+      "end": 37.28,
+      "probability": 0.961605429649353
+    },
+    {
+      "word": " menos.",
+      "start": 37.28,
+      "end": 37.56,
+      "probability": 0.9999524354934692
+    }
+  ],
+  "editorialCorrections": [
+    "Birdieballs brand corrected using user script",
+    "CTA uses supplied script pide las tuyas; ASR says pídelas tú",
+    "Dialogue están inferred from plural bolas; ASR está"
+  ]
+}

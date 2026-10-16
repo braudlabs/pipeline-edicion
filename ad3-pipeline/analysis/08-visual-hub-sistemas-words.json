@@ -1,0 +1,139 @@
+{
+  "text": " En Visual Hub compartimos los sistemas para producir imágenes, vídeos, avatares y anuncios con IA.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0.0,
+      "end": 5.76,
+      "text": " En Visual Hub compartimos los sistemas para producir imágenes, vídeos, avatares y anuncios con IA.",
+      "tokens": [
+        50364,
+        2193,
+        23187,
+        18986,
+        18113,
+        8372,
+        1750,
+        48720,
+        1690,
+        1082,
+        23568,
+        566,
+        842,
+        47986,
+        11,
+        20617,
+        11,
+        1305,
+        3274,
+        495,
+        288,
+        39350,
+        329,
+        416,
+        286,
+        32,
+        13,
+        50664
+      ],
+      "temperature": 0.0,
+      "avg_logprob": -0.1483964591190733,
+      "compression_ratio": 1.0101010101010102,
+      "no_speech_prob": 0.0012410947820171714,
+      "words": [
+        {
+          "word": " En",
+          "start": 0.0,
+          "end": 0.4,
+          "probability": 0.9215689301490784
+        },
+        {
+          "word": " Visual",
+          "start": 0.4,
+          "end": 0.66,
+          "probability": 0.9518847465515137
+        },
+        {
+          "word": " Hub",
+          "start": 0.66,
+          "end": 0.98,
+          "probability": 0.8711690902709961
+        },
+        {
+          "word": " compartimos",
+          "start": 0.98,
+          "end": 1.6,
+          "probability": 0.9125856459140778
+        },
+        {
+          "word": " los",
+          "start": 1.6,
+          "end": 1.72,
+          "probability": 0.9958873391151428
+        },
+        {
+          "word": " sistemas",
+          "start": 1.72,
+          "end": 2.06,
+          "probability": 0.9968652129173279
+        },
+        {
+          "word": " para",
+          "start": 2.06,
+          "end": 2.36,
+          "probability": 0.9979386925697327
+        },
+        {
+          "word": " producir",
+          "start": 2.36,
+          "end": 2.88,
+          "probability": 0.9975345432758331
+        },
+        {
+          "word": " imágenes,",
+          "start": 2.88,
+          "end": 3.4,
+          "probability": 0.9956796566645304
+        },
+        {
+          "word": " vídeos,",
+          "start": 3.66,
+          "end": 3.9,
+          "probability": 0.9664967656135559
+        },
+        {
+          "word": " avatares",
+          "start": 4.2,
+          "end": 4.66,
+          "probability": 0.9610692858695984
+        },
+        {
+          "word": " y",
+          "start": 4.66,
+          "end": 4.86,
+          "probability": 0.9545861482620239
+        },
+        {
+          "word": " anuncios",
+          "start": 4.86,
+          "end": 5.32,
+          "probability": 0.9954594969749451
+        },
+        {
+          "word": " con",
+          "start": 5.32,
+          "end": 5.56,
+          "probability": 0.9902862906455994
+        },
+        {
+          "word": " IA.",
+          "start": 5.56,
+          "end": 5.76,
+          "probability": 0.8525200486183167
+        }
+      ]
+    }
+  ],
+  "language": "es"
+}

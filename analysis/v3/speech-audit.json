@@ -1,0 +1,1350 @@
+[
+  {
+    "id": 1,
+    "duration": 7.041666666666667,
+    "onset": 0.04,
+    "offset": 6.97,
+    "words": [
+      {
+        "word": " La",
+        "start": 0.0,
+        "end": 0.58,
+        "probability": 0.8769199848175049
+      },
+      {
+        "word": " idea",
+        "start": 0.58,
+        "end": 0.72,
+        "probability": 0.2031034529209137
+      },
+      {
+        "word": " creativa",
+        "start": 0.72,
+        "end": 1.2,
+        "probability": 0.9984153509140015
+      },
+      {
+        "word": " deber\u00eda",
+        "start": 1.2,
+        "end": 1.58,
+        "probability": 0.9952325522899628
+      },
+      {
+        "word": " hacerte",
+        "start": 1.58,
+        "end": 1.84,
+        "probability": 0.9367970526218414
+      },
+      {
+        "word": " producir",
+        "start": 1.84,
+        "end": 2.32,
+        "probability": 0.9929063022136688
+      },
+      {
+        "word": " m\u00e1s",
+        "start": 2.32,
+        "end": 2.48,
+        "probability": 0.9832465052604675
+      },
+      {
+        "word": " r\u00e1pido",
+        "start": 2.48,
+        "end": 2.88,
+        "probability": 0.9972386360168457
+      },
+      {
+        "word": " y",
+        "start": 2.88,
+        "end": 3.64,
+        "probability": 0.7407326698303223
+      },
+      {
+        "word": " te",
+        "start": 3.64,
+        "end": 3.74,
+        "probability": 0.9679858684539795
+      },
+      {
+        "word": " lo",
+        "start": 3.74,
+        "end": 3.86,
+        "probability": 0.9954274892807007
+      },
+      {
+        "word": " digo",
+        "start": 3.86,
+        "end": 4.02,
+        "probability": 0.9952465891838074
+      },
+      {
+        "word": " yo,",
+        "start": 4.02,
+        "end": 4.28,
+        "probability": 0.9845726490020752
+      },
+      {
+        "word": " que",
+        "start": 4.74,
+        "end": 4.92,
+        "probability": 0.9896628260612488
+      },
+      {
+        "word": " literalmente",
+        "start": 4.92,
+        "end": 5.62,
+        "probability": 0.968610405921936
+      },
+      {
+        "word": " soy",
+        "start": 5.62,
+        "end": 5.96,
+        "probability": 0.8776729106903076
+      },
+      {
+        "word": " la",
+        "start": 5.96,
+        "end": 6.12,
+        "probability": 0.9954831600189209
+      },
+      {
+        "word": " prueba",
+        "start": 6.12,
+        "end": 6.34,
+        "probability": 0.999118983745575
+      },
+      {
+        "word": " de",
+        "start": 6.34,
+        "end": 6.54,
+        "probability": 0.9951947331428528
+      },
+      {
+        "word": " ello.",
+        "start": 6.54,
+        "end": 6.7,
+        "probability": 0.9964993000030518
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "duration": 4.041666666666667,
+    "onset": 0.04,
+    "offset": 4.0,
+    "words": [
+      {
+        "word": " Pero",
+        "start": 0.0,
+        "end": 0.76,
+        "probability": 0.7783563733100891
+      },
+      {
+        "word": " a",
+        "start": 0.76,
+        "end": 0.86,
+        "probability": 0.8356578350067139
+      },
+      {
+        "word": " mucha",
+        "start": 0.86,
+        "end": 1.0,
+        "probability": 0.9910886287689209
+      },
+      {
+        "word": " gente",
+        "start": 1.0,
+        "end": 1.32,
+        "probability": 0.9972295165061951
+      },
+      {
+        "word": " le",
+        "start": 1.32,
+        "end": 1.46,
+        "probability": 0.9342647194862366
+      },
+      {
+        "word": " est\u00e1",
+        "start": 1.46,
+        "end": 1.62,
+        "probability": 0.9819890260696411
+      },
+      {
+        "word": " pasando",
+        "start": 1.62,
+        "end": 1.94,
+        "probability": 0.9980515241622925
+      },
+      {
+        "word": " exactamente",
+        "start": 1.94,
+        "end": 2.5,
+        "probability": 0.9830259680747986
+      },
+      {
+        "word": " lo",
+        "start": 2.5,
+        "end": 3.2,
+        "probability": 0.9963670969009399
+      },
+      {
+        "word": " contrario.",
+        "start": 3.2,
+        "end": 3.52,
+        "probability": 0.9995158910751343
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "duration": 6.041666666666667,
+    "onset": 0.0,
+    "offset": 6.0,
+    "words": [
+      {
+        "word": " Abres",
+        "start": 0.0,
+        "end": 0.94,
+        "probability": 0.7682498693466187
+      },
+      {
+        "word": " una",
+        "start": 0.94,
+        "end": 1.12,
+        "probability": 0.9534518122673035
+      },
+      {
+        "word": " app,",
+        "start": 1.12,
+        "end": 1.4,
+        "probability": 0.7566406726837158
+      },
+      {
+        "word": " generas,",
+        "start": 1.68,
+        "end": 2.2,
+        "probability": 0.9860551953315735
+      },
+      {
+        "word": " no",
+        "start": 2.32,
+        "end": 2.44,
+        "probability": 0.8222368955612183
+      },
+      {
+        "word": " sale",
+        "start": 2.44,
+        "end": 2.62,
+        "probability": 0.993137776851654
+      },
+      {
+        "word": " bien,",
+        "start": 2.62,
+        "end": 2.9,
+        "probability": 0.9973937273025513
+      },
+      {
+        "word": " vuelves",
+        "start": 3.28,
+        "end": 3.52,
+        "probability": 0.9707354009151459
+      },
+      {
+        "word": " a",
+        "start": 3.52,
+        "end": 3.62,
+        "probability": 0.9992203712463379
+      },
+      {
+        "word": " generar,",
+        "start": 3.62,
+        "end": 4.12,
+        "probability": 0.9958625137805939
+      },
+      {
+        "word": " cambias",
+        "start": 4.28,
+        "end": 4.54,
+        "probability": 0.9839950799942017
+      },
+      {
+        "word": " el",
+        "start": 4.54,
+        "end": 4.66,
+        "probability": 0.9969184398651123
+      },
+      {
+        "word": " prompt,",
+        "start": 4.66,
+        "end": 4.94,
+        "probability": 0.9906181693077087
+      },
+      {
+        "word": " pruebas",
+        "start": 5.2,
+        "end": 5.54,
+        "probability": 0.9743865132331848
+      },
+      {
+        "word": " otra",
+        "start": 5.54,
+        "end": 5.74,
+        "probability": 0.9774165153503418
+      },
+      {
+        "word": " app.",
+        "start": 5.74,
+        "end": 6.02,
+        "probability": 0.8454837203025818
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "duration": 5.041666666666667,
+    "onset": 0.01,
+    "offset": 4.99,
+    "words": [
+      {
+        "word": " Y",
+        "start": 0.0,
+        "end": 0.54,
+        "probability": 0.5323909521102905
+      },
+      {
+        "word": " cuando",
+        "start": 0.54,
+        "end": 0.72,
+        "probability": 0.9271634817123413
+      },
+      {
+        "word": " por",
+        "start": 0.72,
+        "end": 0.92,
+        "probability": 0.8789536356925964
+      },
+      {
+        "word": " fin",
+        "start": 0.92,
+        "end": 1.06,
+        "probability": 0.9861987829208374
+      },
+      {
+        "word": " tienes",
+        "start": 1.06,
+        "end": 1.28,
+        "probability": 0.9918498992919922
+      },
+      {
+        "word": " algo",
+        "start": 1.28,
+        "end": 1.46,
+        "probability": 0.9936032891273499
+      },
+      {
+        "word": " que",
+        "start": 1.46,
+        "end": 1.58,
+        "probability": 0.9969801306724548
+      },
+      {
+        "word": " puedes",
+        "start": 1.58,
+        "end": 1.78,
+        "probability": 0.9884986281394958
+      },
+      {
+        "word": " utilizar,",
+        "start": 1.78,
+        "end": 2.32,
+        "probability": 0.9758957028388977
+      },
+      {
+        "word": " has",
+        "start": 2.6,
+        "end": 2.68,
+        "probability": 0.9725874066352844
+      },
+      {
+        "word": " gastado",
+        "start": 2.68,
+        "end": 3.12,
+        "probability": 0.9979862570762634
+      },
+      {
+        "word": " horas",
+        "start": 3.12,
+        "end": 3.42,
+        "probability": 0.9959880709648132
+      },
+      {
+        "word": " y",
+        "start": 3.42,
+        "end": 3.82,
+        "probability": 0.9556704759597778
+      },
+      {
+        "word": " un",
+        "start": 3.82,
+        "end": 3.9,
+        "probability": 0.9845985174179077
+      },
+      {
+        "word": " mont\u00f3n",
+        "start": 3.9,
+        "end": 4.12,
+        "probability": 0.9943040013313293
+      },
+      {
+        "word": " de",
+        "start": 4.12,
+        "end": 4.28,
+        "probability": 0.9981372356414795
+      },
+      {
+        "word": " cr\u00e9ditos.",
+        "start": 4.28,
+        "end": 4.68,
+        "probability": 0.9913029968738556
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "duration": 4.041666666666667,
+    "onset": 0.0,
+    "offset": 3.96,
+    "words": [
+      {
+        "word": " Eso",
+        "start": 0.0,
+        "end": 0.76,
+        "probability": 0.7125846147537231
+      },
+      {
+        "word": " puede",
+        "start": 0.76,
+        "end": 0.98,
+        "probability": 0.9858059287071228
+      },
+      {
+        "word": " dar",
+        "start": 0.98,
+        "end": 1.12,
+        "probability": 0.9911439418792725
+      },
+      {
+        "word": " igual",
+        "start": 1.12,
+        "end": 1.38,
+        "probability": 0.9951732754707336
+      },
+      {
+        "word": " si",
+        "start": 1.38,
+        "end": 1.58,
+        "probability": 0.9732494354248047
+      },
+      {
+        "word": " est\u00e1s",
+        "start": 1.58,
+        "end": 1.72,
+        "probability": 0.9343203902244568
+      },
+      {
+        "word": " jugando",
+        "start": 1.72,
+        "end": 2.14,
+        "probability": 0.9891736507415771
+      },
+      {
+        "word": " con",
+        "start": 2.14,
+        "end": 2.3,
+        "probability": 0.9760484099388123
+      },
+      {
+        "word": " IA",
+        "start": 2.3,
+        "end": 2.74,
+        "probability": 0.5447466671466827
+      },
+      {
+        "word": " por",
+        "start": 2.74,
+        "end": 3.2,
+        "probability": 0.8530390858650208
+      },
+      {
+        "word": " curiosidad.",
+        "start": 3.2,
+        "end": 3.8,
+        "probability": 0.9945962131023407
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "duration": 7.041666666666667,
+    "onset": 0.03,
+    "offset": 6.99,
+    "words": [
+      {
+        "word": " Pero",
+        "start": 0.0,
+        "end": 0.42,
+        "probability": 0.8582828044891357
+      },
+      {
+        "word": " si",
+        "start": 0.42,
+        "end": 0.54,
+        "probability": 0.8882359862327576
+      },
+      {
+        "word": " tienes",
+        "start": 0.54,
+        "end": 0.74,
+        "probability": 0.9938327074050903
+      },
+      {
+        "word": " una",
+        "start": 0.74,
+        "end": 0.92,
+        "probability": 0.9599282741546631
+      },
+      {
+        "word": " agencia,",
+        "start": 0.92,
+        "end": 1.34,
+        "probability": 0.9915985763072968
+      },
+      {
+        "word": " una",
+        "start": 1.46,
+        "end": 1.54,
+        "probability": 0.9781517386436462
+      },
+      {
+        "word": " marca",
+        "start": 1.54,
+        "end": 1.82,
+        "probability": 0.9989423155784607
+      },
+      {
+        "word": " o",
+        "start": 1.82,
+        "end": 2.04,
+        "probability": 0.8994995951652527
+      },
+      {
+        "word": " produces",
+        "start": 2.04,
+        "end": 2.34,
+        "probability": 0.5453361868858337
+      },
+      {
+        "word": " contenido",
+        "start": 2.34,
+        "end": 2.72,
+        "probability": 0.9942017197608948
+      },
+      {
+        "word": " para",
+        "start": 2.72,
+        "end": 2.94,
+        "probability": 0.9968928098678589
+      },
+      {
+        "word": " clientes,",
+        "start": 2.94,
+        "end": 3.56,
+        "probability": 0.9973820447921753
+      },
+      {
+        "word": " cada",
+        "start": 3.74,
+        "end": 3.88,
+        "probability": 0.9897005558013916
+      },
+      {
+        "word": " generaci\u00f3n",
+        "start": 3.88,
+        "end": 4.36,
+        "probability": 0.9986216425895691
+      },
+      {
+        "word": " fallada",
+        "start": 4.36,
+        "end": 4.8,
+        "probability": 0.9981549084186554
+      },
+      {
+        "word": " es",
+        "start": 4.8,
+        "end": 5.1,
+        "probability": 0.9534579515457153
+      },
+      {
+        "word": " dinero",
+        "start": 5.1,
+        "end": 5.42,
+        "probability": 0.9952839016914368
+      },
+      {
+        "word": " y",
+        "start": 5.42,
+        "end": 5.72,
+        "probability": 0.994345486164093
+      },
+      {
+        "word": " tiempo",
+        "start": 5.72,
+        "end": 6.02,
+        "probability": 0.9989626407623291
+      },
+      {
+        "word": " que",
+        "start": 6.02,
+        "end": 6.16,
+        "probability": 0.9962312579154968
+      },
+      {
+        "word": " est\u00e1s",
+        "start": 6.16,
+        "end": 6.32,
+        "probability": 0.9504926204681396
+      },
+      {
+        "word": " tirando.",
+        "start": 6.32,
+        "end": 6.76,
+        "probability": 0.9965706467628479
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "duration": 4.041666666666667,
+    "onset": 0.04,
+    "offset": 3.99,
+    "words": [
+      {
+        "word": " El",
+        "start": 0.0,
+        "end": 0.64,
+        "probability": 0.9133285880088806
+      },
+      {
+        "word": " problema",
+        "start": 0.64,
+        "end": 1.04,
+        "probability": 0.9970290064811707
+      },
+      {
+        "word": " no",
+        "start": 1.04,
+        "end": 1.48,
+        "probability": 0.9346935153007507
+      },
+      {
+        "word": " es",
+        "start": 1.48,
+        "end": 1.6,
+        "probability": 0.9971572160720825
+      },
+      {
+        "word": " simplemente",
+        "start": 1.6,
+        "end": 1.98,
+        "probability": 0.996117353439331
+      },
+      {
+        "word": " que",
+        "start": 1.98,
+        "end": 2.42,
+        "probability": 0.7862211465835571
+      },
+      {
+        "word": " herramienta",
+        "start": 2.42,
+        "end": 3.0,
+        "probability": 0.956744521856308
+      },
+      {
+        "word": " utilizas.",
+        "start": 3.0,
+        "end": 3.72,
+        "probability": 0.9674895107746124
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "duration": 5.041666666666667,
+    "onset": 0.01,
+    "offset": 4.99,
+    "words": [
+      {
+        "word": " es",
+        "start": 0.0,
+        "end": 0.52,
+        "probability": 0.6789711117744446
+      },
+      {
+        "word": " saber",
+        "start": 0.52,
+        "end": 0.72,
+        "probability": 0.988385796546936
+      },
+      {
+        "word": " qu\u00e9",
+        "start": 0.72,
+        "end": 0.86,
+        "probability": 0.894456148147583
+      },
+      {
+        "word": " proceso",
+        "start": 0.86,
+        "end": 1.18,
+        "probability": 0.9949500560760498
+      },
+      {
+        "word": " seguir",
+        "start": 1.18,
+        "end": 1.52,
+        "probability": 0.9936363697052002
+      },
+      {
+        "word": " para",
+        "start": 1.52,
+        "end": 1.78,
+        "probability": 0.9709895849227905
+      },
+      {
+        "word": " llegar",
+        "start": 1.78,
+        "end": 1.96,
+        "probability": 0.9950491786003113
+      },
+      {
+        "word": " al",
+        "start": 1.96,
+        "end": 2.12,
+        "probability": 0.9908009171485901
+      },
+      {
+        "word": " resultado",
+        "start": 2.12,
+        "end": 2.48,
+        "probability": 0.9987427592277527
+      },
+      {
+        "word": " que",
+        "start": 2.48,
+        "end": 2.68,
+        "probability": 0.9942421317100525
+      },
+      {
+        "word": " buscas",
+        "start": 2.68,
+        "end": 3.06,
+        "probability": 0.988513857126236
+      },
+      {
+        "word": " con",
+        "start": 3.06,
+        "end": 3.48,
+        "probability": 0.8723974227905273
+      },
+      {
+        "word": " muchas",
+        "start": 3.48,
+        "end": 3.76,
+        "probability": 0.9859421849250793
+      },
+      {
+        "word": " menos",
+        "start": 3.76,
+        "end": 3.96,
+        "probability": 0.9748516082763672
+      },
+      {
+        "word": " iteraciones.",
+        "start": 3.96,
+        "end": 4.54,
+        "probability": 0.9723052084445953
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "duration": 8.041666666666666,
+    "onset": 0.0,
+    "offset": 8.03,
+    "words": [
+      {
+        "word": " Nosotros",
+        "start": 0.0,
+        "end": 0.4,
+        "probability": 0.8236204385757446
+      },
+      {
+        "word": " llevamos",
+        "start": 0.4,
+        "end": 0.7,
+        "probability": 0.9847869873046875
+      },
+      {
+        "word": " meses",
+        "start": 0.7,
+        "end": 0.92,
+        "probability": 0.9957919120788574
+      },
+      {
+        "word": " trabajando",
+        "start": 0.92,
+        "end": 1.3,
+        "probability": 0.9962449669837952
+      },
+      {
+        "word": " de",
+        "start": 1.3,
+        "end": 1.56,
+        "probability": 0.9528576135635376
+      },
+      {
+        "word": " esta",
+        "start": 1.56,
+        "end": 1.7,
+        "probability": 0.9853654503822327
+      },
+      {
+        "word": " forma",
+        "start": 1.7,
+        "end": 2.02,
+        "probability": 0.9986300468444824
+      },
+      {
+        "word": " y",
+        "start": 2.02,
+        "end": 2.22,
+        "probability": 0.9330006837844849
+      },
+      {
+        "word": " hemos",
+        "start": 2.22,
+        "end": 2.32,
+        "probability": 0.9939384460449219
+      },
+      {
+        "word": " utilizado",
+        "start": 2.32,
+        "end": 2.8,
+        "probability": 0.9905785024166107
+      },
+      {
+        "word": " estos",
+        "start": 2.8,
+        "end": 2.94,
+        "probability": 0.9900845289230347
+      },
+      {
+        "word": " sistemas",
+        "start": 2.94,
+        "end": 3.32,
+        "probability": 0.9933499693870544
+      },
+      {
+        "word": " para",
+        "start": 3.32,
+        "end": 3.62,
+        "probability": 0.9980238676071167
+      },
+      {
+        "word": " crear",
+        "start": 3.62,
+        "end": 3.9,
+        "probability": 0.998579740524292
+      },
+      {
+        "word": " y",
+        "start": 3.9,
+        "end": 4.04,
+        "probability": 0.9956849813461304
+      },
+      {
+        "word": " escalar",
+        "start": 4.04,
+        "end": 4.44,
+        "probability": 0.9924803674221039
+      },
+      {
+        "word": " dos",
+        "start": 4.44,
+        "end": 4.9,
+        "probability": 0.8805655241012573
+      },
+      {
+        "word": " cuentas",
+        "start": 4.9,
+        "end": 5.34,
+        "probability": 0.9975288808345795
+      },
+      {
+        "word": " completas",
+        "start": 5.34,
+        "end": 5.84,
+        "probability": 0.9951924681663513
+      },
+      {
+        "word": " basadas",
+        "start": 5.84,
+        "end": 6.2,
+        "probability": 0.9634301662445068
+      },
+      {
+        "word": " en",
+        "start": 6.2,
+        "end": 6.44,
+        "probability": 0.9973270893096924
+      },
+      {
+        "word": " avatares",
+        "start": 6.44,
+        "end": 6.8,
+        "probability": 0.8542274634043375
+      },
+      {
+        "word": " generados",
+        "start": 6.8,
+        "end": 7.22,
+        "probability": 0.9842906594276428
+      },
+      {
+        "word": " con",
+        "start": 7.22,
+        "end": 7.48,
+        "probability": 0.9907469749450684
+      },
+      {
+        "word": " IA.",
+        "start": 7.48,
+        "end": 7.64,
+        "probability": 0.832504004240036
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "duration": 4.041666666666667,
+    "onset": 0.0,
+    "offset": 3.98,
+    "words": [
+      {
+        "word": " Por",
+        "start": 0.9799999999999998,
+        "end": 1.72,
+        "probability": 0.8580496907234192
+      },
+      {
+        "word": " eso",
+        "start": 1.72,
+        "end": 1.9,
+        "probability": 0.9872576594352722
+      },
+      {
+        "word": " creamos",
+        "start": 1.9,
+        "end": 2.36,
+        "probability": 0.9077034592628479
+      },
+      {
+        "word": " Visual",
+        "start": 2.36,
+        "end": 2.74,
+        "probability": 0.8980423212051392
+      },
+      {
+        "word": " Hub.",
+        "start": 2.74,
+        "end": 3.08,
+        "probability": 0.7727177143096924
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "duration": 4.041666666666667,
+    "onset": 0.02,
+    "offset": 4.03,
+    "words": [
+      {
+        "word": " Dentro",
+        "start": 0.0,
+        "end": 0.26,
+        "probability": 0.9642572104930878
+      },
+      {
+        "word": " encontrar\u00e1s",
+        "start": 0.26,
+        "end": 0.64,
+        "probability": 0.8757426142692566
+      },
+      {
+        "word": " plantillas",
+        "start": 0.64,
+        "end": 1.02,
+        "probability": 0.9938848912715912
+      },
+      {
+        "word": " y",
+        "start": 1.02,
+        "end": 1.12,
+        "probability": 0.9935797452926636
+      },
+      {
+        "word": " sistemas",
+        "start": 1.12,
+        "end": 1.38,
+        "probability": 0.9968001842498779
+      },
+      {
+        "word": " listos",
+        "start": 1.38,
+        "end": 1.72,
+        "probability": 0.9892460107803345
+      },
+      {
+        "word": " para",
+        "start": 1.72,
+        "end": 1.84,
+        "probability": 0.996306300163269
+      },
+      {
+        "word": " utilizar",
+        "start": 1.84,
+        "end": 2.22,
+        "probability": 0.9737398624420166
+      },
+      {
+        "word": " y",
+        "start": 2.22,
+        "end": 2.44,
+        "probability": 0.8865968585014343
+      },
+      {
+        "word": " ense\u00f1amos",
+        "start": 2.44,
+        "end": 2.82,
+        "probability": 0.9379942715167999
+      },
+      {
+        "word": " c\u00f3mo",
+        "start": 2.82,
+        "end": 2.98,
+        "probability": 0.9391367435455322
+      },
+      {
+        "word": " trabajamos",
+        "start": 2.98,
+        "end": 3.44,
+        "probability": 0.9941478073596954
+      },
+      {
+        "word": " realmente.",
+        "start": 3.44,
+        "end": 3.76,
+        "probability": 0.9843542575836182
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "duration": 6.0,
+    "onset": 0.0,
+    "offset": 5.92,
+    "words": [
+      {
+        "word": " \u00bfC\u00f3mo",
+        "start": 0.0,
+        "end": 0.42,
+        "probability": 0.6075703650712967
+      },
+      {
+        "word": " planteamos",
+        "start": 0.42,
+        "end": 0.8,
+        "probability": 0.9815285503864288
+      },
+      {
+        "word": " las",
+        "start": 0.8,
+        "end": 0.92,
+        "probability": 0.9906511306762695
+      },
+      {
+        "word": " generaciones?",
+        "start": 0.92,
+        "end": 1.4,
+        "probability": 0.9970611035823822
+      },
+      {
+        "word": " \u00bfC\u00f3mo",
+        "start": 1.6,
+        "end": 1.72,
+        "probability": 0.9799272418022156
+      },
+      {
+        "word": " conseguimos",
+        "start": 1.72,
+        "end": 2.12,
+        "probability": 0.9983129799365997
+      },
+      {
+        "word": " consistencia?",
+        "start": 2.12,
+        "end": 2.76,
+        "probability": 0.9730466306209564
+      },
+      {
+        "word": " \u00bfC\u00f3mo",
+        "start": 2.94,
+        "end": 3.08,
+        "probability": 0.9916184544563293
+      },
+      {
+        "word": " evitamos",
+        "start": 3.08,
+        "end": 3.38,
+        "probability": 0.9893333911895752
+      },
+      {
+        "word": " resultados",
+        "start": 3.38,
+        "end": 3.64,
+        "probability": 0.9895513653755188
+      },
+      {
+        "word": " artificiales?",
+        "start": 3.64,
+        "end": 4.32,
+        "probability": 0.9979479610919952
+      },
+      {
+        "word": " \u00bfY",
+        "start": 4.34,
+        "end": 4.42,
+        "probability": 0.8284747302532196
+      },
+      {
+        "word": " c\u00f3mo",
+        "start": 4.42,
+        "end": 4.56,
+        "probability": 0.9694319367408752
+      },
+      {
+        "word": " reducimos",
+        "start": 4.56,
+        "end": 4.98,
+        "probability": 0.9854573408762614
+      },
+      {
+        "word": " todo",
+        "start": 4.98,
+        "end": 5.14,
+        "probability": 0.8443456888198853
+      },
+      {
+        "word": " ese",
+        "start": 5.14,
+        "end": 5.28,
+        "probability": 0.9815539121627808
+      },
+      {
+        "word": " prueba",
+        "start": 5.28,
+        "end": 5.44,
+        "probability": 0.9327269792556763
+      },
+      {
+        "word": " y",
+        "start": 5.44,
+        "end": 5.58,
+        "probability": 0.9476231336593628
+      },
+      {
+        "word": " error?",
+        "start": 5.58,
+        "end": 5.7,
+        "probability": 0.9479188919067383
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "duration": 5.041666666666667,
+    "onset": 0.0,
+    "offset": 4.98,
+    "words": [
+      {
+        "word": " Est\u00e1",
+        "start": 0.0,
+        "end": 0.28,
+        "probability": 0.6480182409286499
+      },
+      {
+        "word": " pensado",
+        "start": 0.28,
+        "end": 1.02,
+        "probability": 0.9816387891769409
+      },
+      {
+        "word": " especialmente",
+        "start": 1.02,
+        "end": 1.02,
+        "probability": 0.9862905144691467
+      },
+      {
+        "word": " para",
+        "start": 1.02,
+        "end": 1.36,
+        "probability": 0.9898157119750977
+      },
+      {
+        "word": " personas",
+        "start": 1.36,
+        "end": 1.66,
+        "probability": 0.9920418858528137
+      },
+      {
+        "word": " que",
+        "start": 1.66,
+        "end": 1.84,
+        "probability": 0.9924246072769165
+      },
+      {
+        "word": " quieren",
+        "start": 1.84,
+        "end": 2.02,
+        "probability": 0.9792107939720154
+      },
+      {
+        "word": " utilizar",
+        "start": 2.02,
+        "end": 2.38,
+        "probability": 0.9710663557052612
+      },
+      {
+        "word": " IA",
+        "start": 2.38,
+        "end": 2.74,
+        "probability": 0.4909980297088623
+      },
+      {
+        "word": " creativa",
+        "start": 2.74,
+        "end": 3.2,
+        "probability": 0.9295461773872375
+      },
+      {
+        "word": " dentro",
+        "start": 3.2,
+        "end": 3.38,
+        "probability": 0.9627813696861267
+      },
+      {
+        "word": " de",
+        "start": 3.38,
+        "end": 3.6,
+        "probability": 0.9784048199653625
+      },
+      {
+        "word": " un",
+        "start": 3.6,
+        "end": 3.66,
+        "probability": 0.9956685304641724
+      },
+      {
+        "word": " negocio",
+        "start": 3.66,
+        "end": 4.08,
+        "probability": 0.9989553987979889
+      },
+      {
+        "word": " o",
+        "start": 4.08,
+        "end": 4.24,
+        "probability": 0.942513108253479
+      },
+      {
+        "word": " con",
+        "start": 4.24,
+        "end": 4.4,
+        "probability": 0.9933412671089172
+      },
+      {
+        "word": " clientes.",
+        "start": 4.4,
+        "end": 4.88,
+        "probability": 0.9969606995582581
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "duration": 4.041666666666667,
+    "onset": 0.0,
+    "offset": 3.99,
+    "words": [
+      {
+        "word": " Puedes",
+        "start": 0.0,
+        "end": 0.7,
+        "probability": 0.7215206076701483
+      },
+      {
+        "word": " entrar",
+        "start": 0.7,
+        "end": 0.98,
+        "probability": 0.9889240860939026
+      },
+      {
+        "word": " a",
+        "start": 0.98,
+        "end": 1.24,
+        "probability": 0.9383889436721802
+      },
+      {
+        "word": " Visual",
+        "start": 1.24,
+        "end": 1.5,
+        "probability": 0.6930251717567444
+      },
+      {
+        "word": " Hub",
+        "start": 1.5,
+        "end": 1.86,
+        "probability": 0.8004190921783447
+      },
+      {
+        "word": " por",
+        "start": 1.86,
+        "end": 2.36,
+        "probability": 0.9620524644851685
+      },
+      {
+        "word": " 39",
+        "start": 2.36,
+        "end": 2.92,
+        "probability": 0.6381834149360657
+      },
+      {
+        "word": " d\u00f3lares.",
+        "start": 2.92,
+        "end": 3.5,
+        "probability": 0.8844794034957886
+      }
+    ]
+  }
+]

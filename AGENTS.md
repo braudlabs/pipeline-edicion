@@ -2,6 +2,7 @@
 
 Para idear, mejorar o revisar motion graphics de sus anuncios, usar la guía de dirección de arte:
 `/Users/alejandrorubiocamarero/.codex/skills/motion-art-direction/SKILL.md`.
+Si esa ruta no existe (otra máquina), usar la copia del repo: `docs/direccion-de-arte/SKILL.md`.
 
 Leer sus preferencias y seleccionar solo las referencias pertinentes. Para piezas originales, diseñar alternativas y fotogramas antes de animar; elegir y avanzar autónomamente dentro del encargo. Una corrección pequeña conserva su alcance. La herramienta y el feedback actual del usuario tienen prioridad; en esta serie, motion graphics en After Effects y montaje base en Remotion.
 

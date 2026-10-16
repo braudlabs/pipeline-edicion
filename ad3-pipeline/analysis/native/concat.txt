@@ -1,0 +1,5 @@
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad3-pipeline/analysis/native/part-00.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad3-pipeline/analysis/native/part-01.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad3-pipeline/analysis/native/part-02.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad3-pipeline/analysis/native/part-03.mov'
+file '/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad3-pipeline/analysis/native/part-04.mov'

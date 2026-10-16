@@ -1,0 +1,29 @@
+{
+  "resolution": [
+    1080,
+    1920
+  ],
+  "fps": 48,
+  "frames": 2162,
+  "duration": 45.041667,
+  "audioDuration": 45.041667,
+  "durationDifferenceSeconds": 0.0,
+  "fullDecodeErrors": 0,
+  "mixLUFS": -14.16,
+  "mixTruePeakDBTP": -1.48,
+  "videoSha256": "8dfb759e45aa03364d234e8091072f6ab8e31deaf96d6dba75f9e38dc70ea269",
+  "nativeComps": 9,
+  "nativeLayers": 323,
+  "missingFonts": 0,
+  "missingMedia": 0,
+  "editability": "Changed 39 to 49 in temporary duplicate, rendered; removed duplicate, original 39 retained.",
+  "visualReview": "Native stills, decoded caption samples, movement contact sheets, and browser playback sampling. Voice checked against supplied transcript and measured audio; no claim of full subjective audio audition.",
+  "fixes": [
+    "Corrected solo onset to frame 315",
+    "Cleared intersecting spokes at creatividad",
+    "Larger system portraits and labels; corrected portrait crop",
+    "Separated radial diagram from offer text",
+    "Zero velocity at repeated reading poses to remove hold overshoot"
+  ],
+  "userApproval": false
+}

@@ -1,0 +1,87 @@
+{
+  "sampleRate": 48000,
+  "samples": 3530000,
+  "music": "Tech House vibes \u2014 Alejandro Maga\u00f1a (A. M.), Mixkit #130",
+  "musicSourceStart": 8,
+  "duckRange": [
+    0.5,
+    1
+  ],
+  "events": [
+    [
+      "whoosh-short",
+      2.3,
+      0.12
+    ],
+    [
+      "click-soft",
+      11.1,
+      0.16
+    ],
+    [
+      "click-soft",
+      12.72,
+      0.15
+    ],
+    [
+      "glitch-3",
+      13.39,
+      0.075
+    ],
+    [
+      "click-soft",
+      14.7,
+      0.1
+    ],
+    [
+      "whoosh-short",
+      15.39,
+      0.12
+    ],
+    [
+      "whoosh-short",
+      20.07,
+      0.12
+    ],
+    [
+      "whoosh-short",
+      20.64,
+      0.11
+    ],
+    [
+      "click-soft",
+      38.3,
+      0.12
+    ],
+    [
+      "whoosh-short",
+      44.18,
+      0.14
+    ],
+    [
+      "whoosh-short",
+      45.15,
+      0.1
+    ],
+    [
+      "whoosh-short",
+      47.7,
+      0.12
+    ],
+    [
+      "impact-bass-1",
+      52.73,
+      0.12
+    ],
+    [
+      "whoosh-short",
+      71.67,
+      0.14
+    ],
+    [
+      "pop",
+      71.8,
+      0.075
+    ]
+  ]
+}

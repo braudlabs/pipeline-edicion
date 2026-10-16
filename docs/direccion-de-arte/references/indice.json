@@ -1,0 +1,90 @@
+[
+  {
+    "id": "T1",
+    "title": "Jerarquía y revelado tipográfico",
+    "status": "Referencia objetivo explícita",
+    "evidence": "El usuario pidió clonar esta referencia. No hay aprobación individual de cada recurso.",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/replica-96c1/reference/original.mp4",
+    "startSeconds": 2.1,
+    "endSeconds": 4.6,
+    "clip": "clips/T1.mp4",
+    "designInterpretation": "Repartir énfasis con tamaños y revelados coordinados. No heredar violeta, halo o reloj sin motivo."
+  },
+  {
+    "id": "T2",
+    "title": "La escena se convierte en una publicación",
+    "status": "Referencia objetivo explícita",
+    "evidence": "El usuario pidió clonar esta referencia y después usar su estilo como objetivo.",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/replica-96c1/reference/original.mp4",
+    "startSeconds": 4.6,
+    "endSeconds": 7.1667,
+    "clip": "clips/T2.mp4",
+    "designInterpretation": "Usar el alejamiento para revelar contexto; mantener un ancla visual durante el cambio de escala. Adaptar perspectiva a la lectura de capturas."
+  },
+  {
+    "id": "T3",
+    "title": "Calendario y aceleración de estados",
+    "status": "Referencia objetivo explícita",
+    "evidence": "La referencia global es el objetivo; las claves del calendario están documentadas en motion-map.json.",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/replica-96c1/reference/original.mp4",
+    "startSeconds": 7.1667,
+    "endSeconds": 9.98,
+    "clip": "clips/T3.mp4",
+    "designInterpretation": "Acelerar la sucesión cuando la voz cuenta repetición y terminar en una pausa legible. No convertir cada número en un calendario."
+  },
+  {
+    "id": "A1",
+    "title": "Cartas a fotografías",
+    "status": "Aprobado solo este fragmento",
+    "evidence": "«el que salen las cartas… las fotos de la tía… está muy guapo»",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/output/AD1-Cocina-REEDICION.mp4",
+    "startSeconds": 53.625,
+    "endSeconds": 58.75,
+    "clip": "clips/A1.mp4",
+    "designInterpretation": "Dar continuidad entre recursos y resultados; coordinar cámara, escala y foco. La forma de carrusel no es obligatoria."
+  },
+  {
+    "id": "A2",
+    "title": "Tablero de 50 intentos",
+    "status": "Aprobado solo este fragmento",
+    "evidence": "«lo de 50 generaciones está muy bien»",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/output/AD1-Cocina-REEDICION.mp4",
+    "startSeconds": 58.75,
+    "endSeconds": 61.4167,
+    "clip": "clips/A2.mp4",
+    "designInterpretation": "Mostrar repetición mediante un espacio recorrible y una resolución clara. El texto duplicado al final pertenece a otro defecto; no trasladarlo."
+  },
+  {
+    "id": "R1",
+    "title": "Créditos anteriores a V2",
+    "status": "Rechazado",
+    "evidence": "«generaciones… se ve súper cutre»",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/output/AD1-Cocina-REEDICION.mp4",
+    "startSeconds": 21.083333333333332,
+    "endSeconds": 25.166666666666668,
+    "clip": "clips/R1.mp4",
+    "designInterpretation": "Representar la repetición mediante una acción o estado que cambia; evitar usar repetición verbal como toda la idea."
+  },
+  {
+    "id": "R2",
+    "title": "Créditos V2",
+    "status": "Rechazado",
+    "evidence": "«el motion graphics de los creditos sigue sin gustarme, re-inventalo»",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/output/AD1-Cocina-V2.mp4",
+    "startSeconds": 21.083333333333332,
+    "endSeconds": 25.166666666666668,
+    "clip": "clips/R2.mp4",
+    "designInterpretation": "Ante reinvención, cambiar la idea, la composición y la transformación; otra curva de cámara no basta."
+  },
+  {
+    "id": "P1",
+    "title": "Créditos V3",
+    "status": "Mejora parcial; pendiente de superar",
+    "evidence": "«esta última versión… bastante… mejor, pero… muchísimo mejor»",
+    "source": "/Users/alejandrorubiocamarero/Documents/ChatGPT/editor/ad1-reedit/output/AD1-Cocina-V3.mp4",
+    "startSeconds": 21.083333333333332,
+    "endSeconds": 25.166666666666668,
+    "clip": "clips/P1.mp4",
+    "designInterpretation": "Acción y consecuencia coordinadas. El comentario es sobre la última versión en general; no implica aprobación específica de esta interfaz ni de su paleta."
+  }
+]

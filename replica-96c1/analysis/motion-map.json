@@ -1,0 +1,157 @@
+{
+  "cuts": [
+    30,
+    138,
+    215
+  ],
+  "actionShutter": [
+    55,
+    67
+  ],
+  "watchTextEntries": [
+    65,
+    68,
+    71,
+    75,
+    80,
+    87
+  ],
+  "postCameraKeys": [
+    137,
+    149,
+    155,
+    174,
+    201,
+    213
+  ],
+  "calendar": [
+    [
+      215,
+      1
+    ],
+    [
+      219,
+      2
+    ],
+    [
+      223,
+      3
+    ],
+    [
+      227,
+      4
+    ],
+    [
+      231,
+      5
+    ],
+    [
+      235,
+      6
+    ],
+    [
+      239,
+      7
+    ],
+    [
+      242,
+      9
+    ],
+    [
+      245,
+      10
+    ],
+    [
+      248,
+      11
+    ],
+    [
+      251,
+      12
+    ],
+    [
+      253,
+      13
+    ],
+    [
+      255,
+      14
+    ],
+    [
+      257,
+      15
+    ],
+    [
+      259,
+      16
+    ],
+    [
+      261,
+      17
+    ],
+    [
+      263,
+      18
+    ],
+    [
+      265,
+      19
+    ],
+    [
+      267,
+      20
+    ],
+    [
+      269,
+      21
+    ],
+    [
+      271,
+      22
+    ],
+    [
+      273,
+      24
+    ],
+    [
+      275,
+      25
+    ],
+    [
+      277,
+      26
+    ],
+    [
+      279,
+      27
+    ],
+    [
+      281,
+      28
+    ],
+    [
+      283,
+      29
+    ],
+    [
+      285,
+      30
+    ],
+    [
+      287,
+      32
+    ]
+  ],
+  "closingEntries": [
+    301,
+    310,
+    316
+  ],
+  "assetDifferences": [
+    "Generated replacement pocket watch",
+    "Generated replacement brain with lightning"
+  ],
+  "font": "Arial / Arial Bold / Arial Italic / Arial Bold Italic, manually tracked to reference",
+  "aeRenderCorrection": "Motion blur disabled only on the discrete calendar board to prevent mixed date glyphs; text and camera transitions remain blurred.",
+  "remotionRenderCorrection": "Temporal samples are averaged with normal alpha compositing; one sample on holds; samples clamped to source cuts and date changes; offscreen calendar labels culled with generous margins."
+}

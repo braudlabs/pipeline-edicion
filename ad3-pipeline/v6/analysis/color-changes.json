@@ -1,0 +1,124 @@
+[
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 37 - agencia",
+    "old": [
+      146,
+      189,
+      101
+    ],
+    "new": "#E7957D"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 26 - es f\u00e1cil",
+    "old": [
+      146,
+      189,
+      101
+    ],
+    "new": "#E7957D"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 23 - y montaje",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 22 - voz",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 21 - escenas",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 20 - personaje",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 19 - sueltos",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 18 - No son clips",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "AD3 - V5 FINAL",
+    "layer": "SUB 11 - no es real",
+    "old": [
+      146,
+      189,
+      101
+    ],
+    "new": "#E7957D"
+  },
+  {
+    "comp": "01B - Caja continua",
+    "layer": "SUB 19 - sueltos",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "01B - Caja continua",
+    "layer": "SUB 18 - No son clips",
+    "old": [
+      39,
+      62,
+      27
+    ],
+    "new": "#71352C"
+  },
+  {
+    "comp": "00 - Verde BRAUD",
+    "layer": "Luz radial",
+    "property": "ADBE Ramp-0002",
+    "new": "#763C31"
+  },
+  {
+    "comp": "00 - Verde BRAUD",
+    "layer": "Luz radial",
+    "property": "ADBE Ramp-0004",
+    "new": "#42241F"
+  }
+]

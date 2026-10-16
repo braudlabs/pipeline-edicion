@@ -1,0 +1,29 @@
+{
+  "durationSeconds": 70.83333333333333,
+  "frames": 3400,
+  "spokenWords": 231,
+  "captionGroups": 89,
+  "narratorUsesCutFile": true,
+  "womanVoiceUsesOriginalClips": [
+    5,
+    14
+  ],
+  "silenceEdits": 5,
+  "maxFaceBottomByShot": {
+    "01-hook": 906.0247421264648,
+    "03-avatar-cambiado": 325.7720947265625,
+    "04a-otra-cocinera": 696.4977264404297,
+    "04b-otra-cocinera": 650.6300354003906,
+    "04c-otra-cocinera": 592.3851013183594,
+    "05-plastica-artificial-HABLA-ELLA": 781.0749435424805,
+    "06-creditos-quemados": 315.8367919921875,
+    "07-hora-punta": 860.8444976806641,
+    "09-nosotros-procesos-SIN-AUDIO": 919.5918273925781,
+    "11-brigada": 793.1335830688477,
+    "12-platos-iguales": 963.1534194946289,
+    "13-en-directo-SIN-VOZ-recomendado": 1048.4718132019043,
+    "14-cierre-HABLA-ELLA": 622.1507263183594
+  },
+  "captionTopAtRest": 1152,
+  "faceRisks": []
+}

@@ -1,0 +1,53 @@
+{
+  "id": "v1-pagado-B",
+  "status": "partial",
+  "dense_status": "completed",
+  "sheets_viewed": [
+    "d016_f00643-f00682.jpg",
+    "d017_f00683-f00722.jpg",
+    "d018_f00723-f00762.jpg",
+    "d019_f00763-f00802.jpg",
+    "d020_f00803-f00842.jpg",
+    "d021_f00843-f00882.jpg",
+    "d022_f00883-f00922.jpg",
+    "d023_f00923-f00962.jpg",
+    "d024_f00963-f01002.jpg",
+    "d025_f01003-f01042.jpg",
+    "d026_f01043-f01082.jpg",
+    "d027_f01083-f01122.jpg",
+    "d028_f01123-f01162.jpg",
+    "d029_f01163-f01202.jpg",
+    "d030_f01203-f01242.jpg",
+    "d031_f01243-f01282.jpg"
+  ],
+  "native_ranges": [
+    {
+      "f0": 1126,
+      "f1": 1130,
+      "crop": [
+        0.05,
+        0.3,
+        0.9,
+        0.42
+      ],
+      "evidence": "insert-1128-native-0.jpg..4.jpg"
+    }
+  ],
+  "spectrograms_viewed": [
+    "s_024-032.png (visto en A, releído local temporal)",
+    "s_032-040.png",
+    "s_040-048.png",
+    "s_048-056.png"
+  ],
+  "frame_index_warning": "Sin adelanto global: root validó low/dense32–36 vs original. Corregir lectura cifra primera a f35.",
+  "events_status": "normalized",
+  "native_status": "partial",
+  "laminas_saved": [
+    "laminas/v1-pagado/v1-pagado-B-01-insert-1128-native-2.jpg"
+  ],
+  "forensic_remaining": "Native range for every event; alpha/curves/masks; unconfirmed pose cuts; auditory SFX verification.",
+  "events_count": 20,
+  "supplemental_status": "not_required",
+  "spectrogram_status": "completed",
+  "notes": "Cobertura de hojas dense y supplemental pertinentes completa; curvas y máscara nativa selectivas explícitas, estudio forense parcial."
+}

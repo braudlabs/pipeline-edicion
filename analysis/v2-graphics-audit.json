@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Face proof",
+    "from": 133,
+    "to": 163
+  },
+  {
+    "name": "Failed hand",
+    "from": 322,
+    "to": 340
+  },
+  {
+    "name": "Failed label",
+    "from": 353,
+    "to": 368
+  },
+  {
+    "name": "Generation loop",
+    "from": 370,
+    "to": 410
+  },
+  {
+    "name": "Hours and credits",
+    "from": 485,
+    "to": 531
+  },
+  {
+    "name": "Process path",
+    "from": 913,
+    "to": 1007
+  },
+  {
+    "name": "Account motion collage and profiles",
+    "from": 1064,
+    "to": 1209
+  },
+  {
+    "name": "Visual Hub bumper",
+    "from": 1266,
+    "to": 1306
+  },
+  {
+    "name": "Price and CTA",
+    "from": 1723,
+    "to": 1765
+  }
+]

@@ -1,0 +1,114 @@
+{
+  "method": "target glyph mask contrast against empty f8 relative to stable f20, gamma-encoded decoded RGB; NOT exact opacity",
+  "roi_px": [
+    173,
+    520,
+    307,
+    578
+  ],
+  "reference_frame": 20,
+  "rows": [
+    {
+      "frame": 7,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 8,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 9,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 10,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 11,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 12,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 13,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 14,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 15,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 16,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 17,
+      "relative_contrast": 0.0051,
+      "median_contrast_luma": 1.0
+    },
+    {
+      "frame": 18,
+      "relative_contrast": 0.2349,
+      "median_contrast_luma": 41.0
+    },
+    {
+      "frame": 19,
+      "relative_contrast": 0.8696,
+      "median_contrast_luma": 148.0
+    },
+    {
+      "frame": 20,
+      "relative_contrast": 1.0,
+      "median_contrast_luma": 182.0
+    },
+    {
+      "frame": 21,
+      "relative_contrast": 0.9596,
+      "median_contrast_luma": 166.0
+    },
+    {
+      "frame": 22,
+      "relative_contrast": 0.1675,
+      "median_contrast_luma": 29.0
+    },
+    {
+      "frame": 23,
+      "relative_contrast": 0.0053,
+      "median_contrast_luma": 1.0
+    },
+    {
+      "frame": 24,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 25,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    },
+    {
+      "frame": 26,
+      "relative_contrast": 0.0,
+      "median_contrast_luma": 0.0
+    }
+  ],
+  "invalid": true,
+  "reason": "Glyph moves vertically; fixed template mask gives passing overlap rather than alpha. Excluded from style profile."
+}
