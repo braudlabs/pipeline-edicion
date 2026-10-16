@@ -1,13 +1,15 @@
 import React from 'react';
-import {AbsoluteFill, Img, OffthreadVideo, staticFile} from 'remotion';
+import {AbsoluteFill, Img, staticFile} from 'remotion';
+import {Clip} from '../Clip';
+import {SHOTS} from '../data/andromeda';
 import {COLORS} from '../Stage';
 import {Headline, Mono, Pill, cardStyle} from '../system';
 import {UI_H, UI_W} from '../UIPlane';
 import {at, clamp, ease, mix, prog} from '../lib/motion';
 
-// Bloque 1 · V04 (tras «se ve muy IA, hazlo más pro»): el hero de la landing de BRAUD.
-// Titular en degradado sobre un carrusel de anuncios reales hechos con el sistema (Creatina, Sérum,
-// Moda, PapiCat). El carrusel acelera con «cada semana», se para con «ritmo de mes» y, con «se parecen»,
+// Bloque 1 · V06 (tras «no me gustan los ads de ejemplo… pilla el ad de la maquinita»): el hero de la
+// landing de BRAUD sobre un carrusel de planos reales del anuncio de la maquinita (Andrómeda), encuadrados
+// hacia la máquina para dejar fuera la sudadera vetada. El carrusel acelera con «cada semana», se para con «ritmo de mes» y, con «se parecen»,
 // todas las tarjetas acaban siendo la misma. Nada dibujado, nada que brille.
 
 const T = {
@@ -17,7 +19,7 @@ const T = {
 export const OPENING_END = 9.22; // «Esto es BRAUD Studio»
 const ENTER = 0.02, FAST0 = T.cada - 0.08, FAST1 = 3.3, STOP = 4.0, BACK = 6.2, COLLAPSE = 8.62;
 
-const CARDS = ['CR-A', 'SERUM-ad', 'MO-1', 'PAPICAT-ad', 'SE-1', 'MO-3', 'CR-M1', 'MO-5', 'CR-final', 'SE-2', 'MO-2', 'CR-C'];
+const CARDS = ['textura', 'perchero', 'lavadora', 'pantalla', 'impresos', 'campanas', 'sesion', 'estanteria', 'maquinaLado', 'anuncio', 'detalle', 'suela'];
 const CW = 230, CH = Math.round(CW * 16 / 9), GAP = 26, STEP = CW + GAP, LOOP = CARDS.length * STEP, CY = 770;
 
 // Velocidad del carrusel (px/s) e integración determinista de su desplazamiento.
@@ -65,9 +67,8 @@ const Carousel: React.FC<{t: number}> = ({t}) => {
         const op = k * (isHero ? 1 : 1 - 0.65 * slow) * (1 - coll);
         return (
           <div key={id} style={{...cardStyle(CW, CH), position: 'absolute', left: fx - CW / 2, top: CY - CH / 2 + (1 - k) * 60, opacity: op, transform: `scale(${sc})`}}>
-            <OffthreadVideo src={staticFile(`proxies/${id}.mp4`)} muted playbackRate={t > STOP && t < BACK ? 0.25 : 1}
-              style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover'}} />
-            {clone > 0 ? <Img src={staticFile('stills/same.jpg')} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: clone,
+            <Clip id={SHOTS[id].id} t0={0} crop={SHOTS[id].crop} offset={SHOTS[id].offset ?? 0} />
+            {clone > 0 ? <Img src={staticFile('stills/same-and.jpg')} style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: clone,
               filter: 'grayscale(1) brightness(0.75)'}} /> : null}
             {isHero && slow > 0 ? (
               <div style={{position: 'absolute', left: 16, right: 16, bottom: 16, height: 3, borderRadius: 2, background: 'rgba(255,255,255,0.25)', opacity: slow}}>
@@ -89,7 +90,7 @@ const ToStudio: React.FC<{t: number}> = ({t}) => {
   return (
     <div style={{position: 'absolute', left: 960 - w / 2, top: mix(CY, 560, k) - h / 2, width: w, height: h, borderRadius: mix(20, 21, k), overflow: 'hidden',
       boxShadow: '0 40px 120px rgba(0,0,0,0.7), inset 0 0 0 1px rgba(255,255,255,0.1)', opacity: prog(t, COLLAPSE + 0.2, COLLAPSE + 0.35)}}>
-      <Img src={staticFile('snaps/home.png')} style={{width: '100%', height: '100%', objectFit: 'cover', opacity: k}} />
+      <Img src={staticFile('snaps/a6-home.png')} style={{width: '100%', height: '100%', objectFit: 'cover', opacity: k}} />
     </div>
   );
 };

@@ -14,9 +14,14 @@ const [shotsFile, ...only] = process.argv.slice(2);
 const cfg = JSON.parse(fs.readFileSync(shotsFile, 'utf8'));
 const out = path.join(root, 'snaps');
 fs.mkdirSync(out, {recursive: true});
-const port = 9334, sleep = ms => new Promise(r => setTimeout(r, ms));
+// Puerto propio por ejecución: un Chrome huérfano en un puerto fijo hacía que la herramienta se
+// conectara al navegador equivocado y se colgara (15/10). Al salir, por la razón que sea, se cierra el suyo.
+const port = 9400 + Math.floor(Math.random() * 500), sleep = ms => new Promise(r => setTimeout(r, ms));
+const profileDir = path.join(out, '.profile-' + port);
 const chrome = spawn(CHROME, [`--remote-debugging-port=${port}`, '--headless', '--hide-scrollbars', '--autoplay-policy=no-user-gesture-required',
-  '--user-data-dir=' + path.join(out, '.profile'), 'about:blank'], {stdio: 'ignore'});
+  '--user-data-dir=' + profileDir, 'about:blank'], {stdio: 'ignore'});
+for (const sig of ['SIGTERM', 'SIGINT', 'SIGHUP']) process.on(sig, () => { try { chrome.kill('SIGKILL'); } catch {} process.exit(1); });
+process.on('exit', () => { try { chrome.kill('SIGKILL'); } catch {} try { fs.rmSync(profileDir, {recursive: true, force: true}); } catch {} });
 
 let ws, id = 0;
 const pending = new Map();
@@ -56,7 +61,7 @@ const FREEZE = `(()=>{
 const RECTS = marks => `(()=>{
   const r=e=>{const b=e.getBoundingClientRect();return {x:b.x,y:b.y,w:b.width,h:b.height};};
   const out={viewport:{w:innerWidth,h:innerHeight,scrollY},videos:[...document.querySelectorAll('video')].map(v=>({...r(v),src:v.currentSrc||v.src,poster:v.poster})),marks:{}};
-  for(const [k,[sel,re]] of Object.entries(${JSON.stringify(marks || {})})){const all=[...document.querySelectorAll(sel)];const e=re?all.find(x=>new RegExp(re).test(x.innerText.trim())):all[0];if(e)out.marks[k]={...r(e),text:e.innerText?.trim().slice(0,80)};}
+  for(const [k,[sel,re]] of Object.entries(${JSON.stringify(marks || {})})){const all=[...document.querySelectorAll(sel)];const e=re?all.find(x=>new RegExp(re).test((x.innerText||'').trim())):all[0];if(e)out.marks[k]={...r(e),text:e.innerText?.trim().slice(0,80)};}
   return out;
 })()`;
 
@@ -95,7 +100,11 @@ try {
     const png = await send('Page.captureScreenshot', {format: 'png'});
     fs.writeFileSync(path.join(out, shot.name + '.png'), Buffer.from(png.data, 'base64'));
     fs.writeFileSync(path.join(out, shot.name + '.json'), JSON.stringify(await evalJs(RECTS(shot.marks)), null, 1));
-    fs.writeFileSync(path.join(out, shot.name + '.html'), await evalJs(FREEZE));
+    // Marcas de desarrollo («DEV», «Explorar el inicio», «DESARROLLO / …»): delatan prototipo (feedback del Avance 03).
+    const dev = await evalJs(`(()=>{const t=document.body.innerText;return [/(^|\\s)DEV(\\s|$)/m.test(document.querySelector('.edition-label')?.textContent||'')&&'DEV',/Explorar el inicio/.test(t)&&'Explorar el inicio',/DESARROLLO \\//.test(t)&&'DESARROLLO'].filter(Boolean)})()`);
+    if (dev.length) console.log('AVISO marcas de desarrollo en', shot.name, dev.join(', '));
+    // El documento congelado solo sirve para revisar: en piezas grandes (17 escenas) serializarlo se cuelga.
+    if (!shot.noFreeze) fs.writeFileSync(path.join(out, shot.name + '.html'), await evalJs(FREEZE));
     console.log('ok', shot.name);
   }
 } finally { try { ws?.close(); } catch {} chrome.kill(); }

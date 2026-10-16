@@ -1,6 +1,7 @@
 import React from 'react';
 import {Img, staticFile} from 'remotion';
 import {Cam, camCss, H, W} from './lib/motion';
+import snapSizes from './data/snapsizes.json';
 
 // Las vistas de Studio son capturas del frontal real (tools/snap.mjs, DPR 3) a 1512×900 px CSS.
 export const UI_W = 1512;
@@ -8,6 +9,8 @@ export const UI_H = 900;
 
 export type Rect = {x: number; y: number; w: number; h: number};
 export const snapUrl = (name: string) => staticFile(`snaps/${name}.png`);
+/** Tamaño CSS de una captura: las vistas miden 1512×900; los recortes de sección, lo que diga snapsizes.json. */
+export const snapSize = (name: string): [number, number] => (snapSizes as unknown as Record<string, [number, number]>)[name] ?? [UI_W, UI_H];
 
 /**
  * Plano de interfaz en 3D. `children` se dibuja en coordenadas de la interfaz (px CSS de la
@@ -38,9 +41,9 @@ export const UIPlane: React.FC<{
 );
 
 /** Recorte de una captura (p. ej. una región que se revela con una cortinilla). */
-export const SnapRegion: React.FC<{snap: string; r: Rect; style?: React.CSSProperties; fullH?: number}> = ({snap, r, style, fullH = UI_H}) => (
+export const SnapRegion: React.FC<{snap: string; r: Rect; style?: React.CSSProperties}> = ({snap, r, style}) => (
   <div style={{position: 'absolute', left: r.x, top: r.y, width: r.w, height: r.h, overflow: 'hidden', ...style}}>
-    <Img src={snapUrl(snap)} style={{position: 'absolute', left: -r.x, top: -r.y, width: UI_W, height: fullH}} />
+    <Img src={snapUrl(snap)} style={{position: 'absolute', left: -r.x, top: -r.y, width: snapSize(snap)[0], height: snapSize(snap)[1]}} />
   </div>
 );
 
@@ -53,9 +56,9 @@ export const Module: React.FC<{snap: string; crop: Rect; cx: number; cy: number;
   {snap, crop, cx, cy, s, opacity = 1, dy = 0, under, underOpacity = 0, radius = 22, edge = true, transform, children}) => (
   <div style={{position: 'absolute', left: cx - (crop.w * s) / 2, top: cy - (crop.h * s) / 2 + dy, width: crop.w * s, height: crop.h * s, overflow: 'hidden',
     borderRadius: radius, opacity, background: '#111214', boxShadow: '0 40px 120px rgba(0,0,0,0.7)', transform}}>
-    <div style={{position: 'absolute', left: -crop.x * s, top: -crop.y * s, width: UI_W, height: UI_H, transform: `scale(${s})`, transformOrigin: '0 0'}}>
-      <Img src={snapUrl(snap)} style={{position: 'absolute', inset: 0, width: UI_W, height: UI_H}} />
-      {under && underOpacity > 0 ? <Img src={snapUrl(under)} style={{position: 'absolute', inset: 0, width: UI_W, height: UI_H, opacity: underOpacity}} /> : null}
+    <div style={{position: 'absolute', left: -crop.x * s, top: -crop.y * s, width: snapSize(snap)[0], height: snapSize(snap)[1], transform: `scale(${s})`, transformOrigin: '0 0'}}>
+      <Img src={snapUrl(snap)} style={{position: 'absolute', inset: 0, width: snapSize(snap)[0], height: snapSize(snap)[1]}} />
+      {under && underOpacity > 0 ? <Img src={snapUrl(under)} style={{position: 'absolute', left: 0, top: 0, width: snapSize(under)[0], height: snapSize(under)[1], opacity: underOpacity}} /> : null}
       {children}
     </div>
     {/* borde de 1 px con luz desde arriba, como las tarjetas de vidrio de la landing */}

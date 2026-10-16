@@ -65,7 +65,7 @@ export const Mono: React.FC<{t: number; t0: number; out: number; text: string; y
     fontFamily: MONO, fontSize: 15, letterSpacing: '0.24em', textTransform: 'uppercase', color, opacity: k * (1 - o), transform: `translateY(${(1 - k) * 8}px)`}}>{text}</div>;
 };
 
-export const STEPS = ['Idea', 'Marca', 'Guion', 'Casting', 'Escenas', 'Montaje', 'Meta'];
+export const STEPS = ['Idea', 'Marca', 'Intención', 'Guion', 'Casting', 'Escenas', 'Montaje', 'Meta'];
 /** Barra de proceso por capítulos (El Sistema FINAL): el paso activo se llena, los hechos quedan grises. */
 export const Progress: React.FC<{t: number; t0: number; out?: number; step: number; stepK: number}> = ({t, t0, out = 999, step, stepK}) => {
   if (t < t0 - 0.05 || t > out + 0.3) return null;

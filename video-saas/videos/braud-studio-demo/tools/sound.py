@@ -69,6 +69,15 @@ def seg(v0, v1, s0):
 # V03 («la música está muy fuerte»): sin frenazo de cinta. La pista sigue sin cortes y en «ritmo de mes»
 # solo se filtra (lejana) con fundidos de 0,25 s; vuelve abierta con «Y los anuncios…».
 seg(0, DUR, OFF)
+# V06: la película dura 124 s y la pista (102 s) se acaba hacia el 92 de la película. Desde LOOP vuelve
+# 32 compases atrás (62,95 s, lag medido por correlación de ataques, ~122 BPM) con un fundido de 0,5 s:
+# la música sigue sin frenos hasta el logotipo.
+LOOP, BACKLAG, XF = 84.0, 62.95, 0.5
+la, xf = int(LOOP * SR), int(XF * SR)
+src = int((LOOP - BACKLAG + OFF) * SR); tail = music[src:src + (N - la)]
+ramp = np.linspace(0, 1, xf)[:, None]
+stem[la:la + xf] = stem[la:la + xf] * (1 - ramp) + tail[:xf] * ramp
+stem[la + xf:la + len(tail)] = tail[xf:]
 a, b = int(STOP0 * SR), int(BACK * SR)
 far = np.stack([onepole_lp(stem[a:b, 0], 420), onepole_lp(stem[a:b, 1], 420)], 1) * 0.6
 fade = np.ones(b - a); fl = int(0.25 * SR); fade[:fl] = np.linspace(0, 1, fl); fade[-fl:] = np.linspace(1, 0, fl)

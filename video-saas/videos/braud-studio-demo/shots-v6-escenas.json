@@ -1,0 +1,116 @@
+{
+ "origin": "http://127.0.0.1:8812",
+ "url": "/?brand=braud",
+ "viewport": {
+  "width": 1512,
+  "height": 900,
+  "theme": "light",
+  "dpr": 3
+ },
+ "shots": [
+  {
+   "name": "a6-escenas",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);const __keep=['s06','s07','s08','s09','s10'];document.querySelectorAll('.scene-rail .scene-tile').forEach(b=>{if(!__keep.includes(b.dataset.id))b.style.display='none';});await __sleep(400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "marks": {
+    "stage": [
+     ".preview-stage"
+    ],
+    "rail": [
+     "aside.scene-rail"
+    ],
+    "direction": [
+     "aside.direction-panel"
+    ],
+    "workspace": [
+     ".scene-workspace"
+    ],
+    "versionbar": [
+     ".version-bar"
+    ],
+    "approve": [
+     "[data-act=approve]"
+    ]
+   },
+   "crops": {
+    "rail": [
+     "aside.scene-rail"
+    ],
+    "direction": [
+     "aside.direction-panel"
+    ],
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-escenas-versiones",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);const __keep=['s06','s07','s08','s09','s10'];document.querySelectorAll('.scene-rail .scene-tile').forEach(b=>{if(!__keep.includes(b.dataset.id))b.style.display='none';});await __sleep(400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);document.querySelector('details.version-picker').open=true;await __sleep(500);",
+   "marks": {
+    "picker": [
+     "details.version-picker"
+    ],
+    "options": [
+     ".version-options"
+    ],
+    "versionbar": [
+     ".version-bar"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "crops": {
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-aprobar",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);const __keep=['s06','s07','s08','s09','s10'];document.querySelectorAll('.scene-rail .scene-tile').forEach(b=>{if(!__keep.includes(b.dataset.id))b.style.display='none';});await __sleep(400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);const b=document.querySelector('[data-act=approve]');b.className='btn primary';b.innerHTML=b.innerHTML.replace('Seleccionado','Aprobar y usar');await __sleep(300);",
+   "marks": {
+    "approve": [
+     "[data-act=approve]"
+    ],
+    "stage": [
+     ".preview-stage"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "crops": {
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-aprobado",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);const __keep=['s06','s07','s08','s09','s10'];document.querySelectorAll('.scene-rail .scene-tile').forEach(b=>{if(!__keep.includes(b.dataset.id))b.style.display='none';});await __sleep(400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);const t=document.querySelector('#toast');t.textContent='Versión aprobada y seleccionada para la entrega.';t.classList.add('show');await __sleep(900);",
+   "marks": {
+    "approve": [
+     "[data-act=approve]"
+    ],
+    "toast": [
+     "#toast"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "crops": {
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "dpr": 3
+  }
+ ]
+}

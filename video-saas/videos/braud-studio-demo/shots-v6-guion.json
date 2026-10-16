@@ -1,0 +1,27 @@
+{
+ "origin": "http://127.0.0.1:8812",
+ "url": "/?brand=braud",
+ "viewport": {
+  "width": 1512,
+  "height": 900,
+  "theme": "light",
+  "dpr": 3
+ },
+ "shots": [
+  {
+   "name": "a6-guion",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=script]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);[...document.querySelectorAll('#script-form [data-line]')].slice(5).forEach(r=>r.style.display='none');await __sleep(400);",
+   "crops": {
+    "openings": [
+     "section.creative-openings"
+    ],
+    "script": [
+     "section.creative-script-paper"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  }
+ ]
+}

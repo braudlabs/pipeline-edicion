@@ -1,0 +1,603 @@
+{
+ "origin": "http://127.0.0.1:8812",
+ "url": "/?brand=braud",
+ "viewport": {
+  "width": 1512,
+  "height": 900,
+  "theme": "light",
+  "dpr": 3
+ },
+ "shots": [
+  {
+   "name": "a6-agente-vacio-limpio",
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.blur();document.activeElement?.blur?.();await __sleep(300);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "dictate": [
+     "button",
+     "^Dictar$"
+    ],
+    "composer": [
+     "form"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-agente",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-andromeda]',null,1500);",
+   "marks": {
+    "prompt": [
+     "textarea"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ],
+    "reply": [
+     "article.agent-message.assistant"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-agente-pensando",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-andromeda]',null,1500);const a=document.querySelector('article[data-message-id=m2]');const w=document.createElement('div');w.innerHTML='<div data-part=\"working\" class=\"agent-working is-thinking\" role=\"status\"><span class=\"thinking-orb\" aria-hidden=\"true\"></span><span class=\"thinking-label\">Leyendo el contexto de tu marca…</span><button class=\"text-btn\" data-ecom=\"cancel\">Detener</button></div>';a.replaceWith(w.firstChild);await __sleep(400);const l=document.querySelector('.thinking-label');const cs=getComputedStyle(l);const d=document.createElement('div');d.id='__font';d.textContent=cs.fontSize+'|'+cs.fontWeight+'|'+cs.lineHeight+'|'+cs.letterSpacing+'|'+cs.fontFamily.slice(0,40);d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);",
+   "marks": {
+    "working": [
+     "[data-part=working]"
+    ],
+    "user": [
+     "article.agent-message.user"
+    ],
+    "orb": [
+     ".thinking-orb"
+    ],
+    "label": [
+     ".thinking-label"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-marca-plegada",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=false);await __sleep(700);",
+   "crops": {
+    "products": [
+     "details.brand-area",
+     "^Productos y oferta"
+    ],
+    "audience": [
+     "details.brand-area",
+     "^Públicos y necesidades"
+    ],
+    "identity": [
+     "details.brand-area",
+     "^Identidad y voz"
+    ],
+    "learning": [
+     "details.brand-area",
+     "^Aprendizajes"
+    ],
+    "note": [
+     ".brand-context-note"
+    ]
+   }
+  },
+  {
+   "name": "a6-marca-tarjetas",
+   "act": "await __click('[data-view=brands]',null,1400);document.querySelectorAll('details.brand-area').forEach(d=>d.open=true);await __sleep(700);",
+   "crops": {
+    "business": [
+     "section",
+     "^NEGOCIO Y DIRECCIÓN"
+    ],
+    "product": [
+     "details.brand-area",
+     "^Productos y oferta"
+    ],
+    "audience": [
+     "details.brand-area",
+     "^Públicos y necesidades"
+    ],
+    "identity": [
+     "details.brand-area",
+     "^Identidad y voz"
+    ],
+    "learning": [
+     "details.brand-area",
+     "^Aprendizajes"
+    ],
+    "header": [
+     "h1"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-agente-escrito",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un anuncio para due\\u00f1os de ecommerce: desde Andr\\u00f3meda necesitan anuncios nuevos cada semana.\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "a6-agente-grabando-0",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un anuncio para due\\u00f1os de ecommerce: desde Andr\\u00f3meda necesitan anuncios nuevos cada semana.\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;el.classList.toggle('recording',true);el.disabled=false;el.querySelector('span').textContent=\"Terminar\";el.setAttribute('aria-label',\"Detener dictado\");el.setAttribute('aria-pressed','true');const st=document.createElement('div');st.className='dictation-status';st.setAttribute('role','status');composer.append(st);st.hidden=false;st.textContent=\"Grabando \\u00b7 0:00 \\u00b7 El texto aparecer\\u00e1 al terminar\";composer.classList.toggle('is-recording',true);const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "a6-agente-grabando-1",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un anuncio para due\\u00f1os de ecommerce: desde Andr\\u00f3meda necesitan anuncios nuevos cada semana.\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;el.classList.toggle('recording',true);el.disabled=false;el.querySelector('span').textContent=\"Terminar\";el.setAttribute('aria-label',\"Detener dictado\");el.setAttribute('aria-pressed','true');const st=document.createElement('div');st.className='dictation-status';st.setAttribute('role','status');composer.append(st);st.hidden=false;st.textContent=\"Grabando \\u00b7 0:01 \\u00b7 El texto aparecer\\u00e1 al terminar\";composer.classList.toggle('is-recording',true);const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "a6-agente-transcribiendo",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un anuncio para due\\u00f1os de ecommerce: desde Andr\\u00f3meda necesitan anuncios nuevos cada semana.\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;el.classList.toggle('recording',false);el.disabled=true;el.querySelector('span').textContent=\"Transcribiendo\\u2026\";el.setAttribute('aria-label',\"Dictar una indicaci\\u00f3n\");el.setAttribute('aria-pressed','false');const st=document.createElement('div');st.className='dictation-status';st.setAttribute('role','status');composer.append(st);st.hidden=false;st.textContent=\"Transcribiendo el audio\\u2026\";composer.classList.toggle('is-recording',false);const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "a6-agente-dictado",
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "marks": {
+    "composer": [
+     "form"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "dictate": [
+     "[data-v2=dictate]"
+    ],
+    "send": [
+     "button[type=submit]"
+    ],
+    "status": [
+     ".dictation-status"
+    ],
+    "font": [
+     "#__font"
+    ]
+   },
+   "act": "await __click('[data-view=conversation]',null,1500);const ta=document.querySelector('textarea');ta.placeholder='';ta.value=\"Quiero un anuncio para due\\u00f1os de ecommerce: desde Andr\\u00f3meda necesitan anuncios nuevos cada semana. Humor seco, un mundo absurdo. Y que el propio anuncio demuestre que lo ha hecho el sistema.\";ta.dispatchEvent(new Event('input',{bubbles:true}));ta.blur();document.activeElement?.blur?.();const el=document.querySelector('[data-v2=dictate]');const composer=el.closest('form')||el.parentElement;const cs=getComputedStyle(ta);const d=document.createElement('div');d.id='__font';d.textContent=[cs.fontSize,cs.lineHeight,cs.paddingTop,cs.paddingLeft,cs.paddingRight,cs.letterSpacing,cs.color,cs.fontWeight].join('|');d.style.cssText='position:fixed;left:0;top:0;opacity:0;pointer-events:none';document.body.append(d);await __sleep(500);"
+  },
+  {
+   "name": "a6-idea",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=idea]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "crops": {
+    "intent": [
+     "section.creative-direction"
+    ],
+    "angles": [
+     "section.creative-angles"
+    ],
+    "concept": [
+     "section",
+     "^Concepto en exploración|^CONCEPTO EN EXPLORACIÓN"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-guion",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=script]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "crops": {
+    "openings": [
+     "section.creative-openings"
+    ],
+    "script": [
+     "section.creative-script-paper"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-casting",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=casting]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "crops": {
+    "candidates": [
+     "section.casting-candidates"
+    ],
+    "incorporated": [
+     "section",
+     "^EN ESTA PIEZA|^En esta pieza"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 2
+  },
+  {
+   "name": "a6-escenas",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "marks": {
+    "stage": [
+     ".preview-stage"
+    ],
+    "rail": [
+     "aside.scene-rail"
+    ],
+    "direction": [
+     "aside.direction-panel"
+    ],
+    "workspace": [
+     ".scene-workspace"
+    ],
+    "versionbar": [
+     ".version-bar"
+    ],
+    "approve": [
+     "[data-act=approve]"
+    ]
+   },
+   "crops": {
+    "rail": [
+     "aside.scene-rail"
+    ],
+    "direction": [
+     "aside.direction-panel"
+    ],
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   }
+  },
+  {
+   "name": "a6-escenas-versiones",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);document.querySelector('details.version-picker').open=true;await __sleep(500);",
+   "marks": {
+    "picker": [
+     "details.version-picker"
+    ],
+    "options": [
+     ".version-options"
+    ],
+    "versionbar": [
+     ".version-bar"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "crops": {
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-aprobar",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);const b=document.querySelector('[data-act=approve]');b.className='btn primary';b.innerHTML=b.innerHTML.replace('Seleccionado','Aprobar y usar');await __sleep(300);",
+   "marks": {
+    "approve": [
+     "[data-act=approve]"
+    ],
+    "stage": [
+     ".preview-stage"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "crops": {
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-aprobado",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);await __click('[data-act=scene]',/Cinco ads/,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);const t=document.querySelector('#toast');t.textContent='Versión aprobada y seleccionada para la entrega.';t.classList.add('show');await __sleep(900);",
+   "marks": {
+    "approve": [
+     "[data-act=approve]"
+    ],
+    "toast": [
+     "#toast"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "crops": {
+    "workspace": [
+     ".scene-workspace"
+    ]
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-generar",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);await __click('button',/^Ver instrucciones y consultar coste$/,1500);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);document.activeElement?.blur?.();await __sleep(200);",
+   "marks": {
+    "modal": [
+     ".modal, dialog, [role=dialog]"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "cost": [
+     "button",
+     "^Consultar coste$"
+    ],
+    "form": [
+     "#quote-form"
+    ]
+   },
+   "settle": 900,
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 2
+  },
+  {
+   "name": "a6-coste",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=scenes]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);await __click('button',/^Ver instrucciones y consultar coste$/,1500);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);document.activeElement?.blur?.();await __sleep(200);const f=document.querySelector('#quote-form');const sb=f.querySelector('button[type=submit]');sb.textContent='Consultando el coste real…';[...f.querySelectorAll('input,textarea,button')].forEach(x=>x.disabled=true);const __sec=Number(document.querySelector('#quote-form [name=duration]').value)||5;document.querySelector('#quote-result').innerHTML=\"<div class=\\\"quote-card\\\"><span>COTIZACI\\u00d3N DEL PROVEEDOR</span><strong>112 <small>cr\\u00e9ditos</small></strong><p>Una generaci\\u00f3n. No incluye reintentos. V\\u00e1lida durante 10 minutos.</p><button class=\\\"btn primary full\\\" data-act=\\\"submit-generation\\\">Autorizar y generar <svg class=\\\"icon \\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.6\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" aria-hidden=\\\"true\\\"><path d=\\\"M5 12h14M13 6l6 6-6 6\\\"/></svg></button></div>\".replace('>112 <','>'+(16*__sec)+' <');;document.activeElement?.blur?.();await __sleep(500);",
+   "marks": {
+    "modal": [
+     ".modal, dialog, [role=dialog]"
+    ],
+    "quote": [
+     ".quote-card"
+    ],
+    "authorize": [
+     "[data-act=submit-generation]"
+    ],
+    "prompt": [
+     "textarea"
+    ],
+    "form": [
+     "#quote-form"
+    ]
+   },
+   "settle": 900,
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 2
+  },
+  {
+   "name": "a6-montaje",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=review]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "crops": {
+    "assembly": [
+     "section.assembly-main"
+    ],
+    "list": [
+     "aside.assembly-list"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 2
+  },
+  {
+   "name": "a6-taller-conectado",
+   "act": "await __click('[data-view=workshop]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);const c=document.querySelector('.workshop-meta-copy');const el=[...c.querySelectorAll('*')].filter(e=>/^Conexión pendiente/.test((e.innerText||'').trim())).at(-1);el.textContent=\"Conectado. Leemos los resultados de cada anuncio de tu cuenta.\";await __sleep(300);",
+   "crops": {
+    "meta": [
+     "section.workshop-meta"
+    ]
+   },
+   "settle": 800,
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-taller-subida",
+   "act": "await __click('[data-view=workshop]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);const c=document.querySelector('.workshop-meta-copy');const el=[...c.querySelectorAll('*')].filter(e=>/^Conexión pendiente/.test((e.innerText||'').trim())).at(-1);el.textContent=\"Nueva versi\\u00f3n subida a tu cuenta: \\u00ab\\u00bfLa creatina hincha?\\u00bb, apertura \\u00abEl dato\\u00bb.\";await __sleep(300);",
+   "crops": {
+    "meta": [
+     "section.workshop-meta"
+    ]
+   },
+   "settle": 800,
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-picks",
+   "act": "await __click('[data-view=picks]',null,1400);const e=document.querySelector('section.editorial-empty');e.outerHTML=\"<div class=\\\"picks-grid\\\"><article class=\\\"glass pick-card\\\"><div class=\\\"pick-meta\\\"><span>03</span><span>BRAUD \\u00b7 2026-09-29</span></div><h2>Lemon \\u00b7 Womanizer</h2><p>El anuncio que m\\u00e1s se muestra de una marca con unos 35 activos a la vez. Hecho con IA.</p><div class=\\\"pick-actions\\\"><a class=\\\"text-btn\\\" href=\\\"#\\\">Ver referencia <svg class=\\\"icon \\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.6\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" aria-hidden=\\\"true\\\"><path d=\\\"M5 12h14M13 6l6 6-6 6\\\"/></svg></a><button class=\\\"btn secondary\\\" data-ecom=\\\"pick-inspire\\\" data-id=\\\"pick-03\\\">Explorar con el agente</button></div></article><article class=\\\"glass pick-card\\\"><div class=\\\"pick-meta\\\"><span>02</span><span>BRAUD \\u00b7 2026-09-29</span></div><h2>Clay \\u00b7 plastilina</h2><p>Un personaje de plastilina que se ve hasta el final: hold rate del 72,8 % en 10.663 impresiones.</p><div class=\\\"pick-actions\\\"><a class=\\\"text-btn\\\" href=\\\"#\\\">Ver referencia <svg class=\\\"icon \\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.6\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" aria-hidden=\\\"true\\\"><path d=\\\"M5 12h14M13 6l6 6-6 6\\\"/></svg></a><button class=\\\"btn secondary\\\" data-ecom=\\\"pick-inspire\\\" data-id=\\\"pick-02\\\">Explorar con el agente</button></div></article><article class=\\\"glass pick-card\\\"><div class=\\\"pick-meta\\\"><span>01</span><span>BRAUD \\u00b7 2026-09-29</span></div><h2>V6 \\u00b7 Black Friday</h2><p>Un anuncio nuevo con un 62,2 % de hook rate el primer d\\u00eda.</p><div class=\\\"pick-actions\\\"><a class=\\\"text-btn\\\" href=\\\"#\\\">Ver referencia <svg class=\\\"icon \\\" viewBox=\\\"0 0 24 24\\\" fill=\\\"none\\\" stroke=\\\"currentColor\\\" stroke-width=\\\"1.6\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" aria-hidden=\\\"true\\\"><path d=\\\"M5 12h14M13 6l6 6-6 6\\\"/></svg></a><button class=\\\"btn secondary\\\" data-ecom=\\\"pick-inspire\\\" data-id=\\\"pick-01\\\">Explorar con el agente</button></div></article></div>\";await __sleep(500);",
+   "crops": {
+    "grid": [
+     ".picks-grid"
+    ]
+   },
+   "marks": {
+    "grid": [
+     ".picks-grid"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 2
+  },
+  {
+   "name": "a6-biblioteca-a",
+   "dpr": 2,
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "settle": 900,
+   "act": "await __click('[data-view=library]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);window.scrollTo(0,380);await __sleep(700);",
+   "marks": {
+    "grid": [
+     ".asset-grid"
+    ]
+   }
+  },
+  {
+   "name": "a6-biblioteca-b",
+   "dpr": 2,
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "settle": 900,
+   "act": "await __click('[data-view=library]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);window.scrollTo(0,1290);await __sleep(700);",
+   "marks": {
+    "grid": [
+     ".asset-grid"
+    ]
+   }
+  },
+  {
+   "name": "a6-agente-meta",
+   "act": "await __click('[data-view=conversation]',null,1500);await __click('[data-ecom=conversation][data-id=chat-andromeda]',null,1500);const last=[...document.querySelectorAll('article.agent-message.assistant')].at(-1);const n=last.cloneNode(true);n.dataset.messageId='m3';n.querySelector('.message-body').innerHTML=\"<p>Este anuncio funciona. Pero el hook se cae en los primeros segundos.</p><p><strong>Te propongo este: abrir con la pregunta.</strong></p><p>\\u00ab\\u00bfCu\\u00e1ntos anuncios nuevos has subido esta semana? Andr\\u00f3meda ya te est\\u00e1 pidiendo m\\u00e1s.\\u00bb</p>\";last.after(n);const h=document.querySelector('#agent-history');if(h)h.scrollTop=h.scrollHeight;document.activeElement?.blur?.();await __sleep(500);",
+   "marks": {
+    "msg": [
+     "article[data-message-id=m3]"
+    ],
+    "history": [
+     "#agent-history"
+    ],
+    "prompt": [
+     "textarea"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 3
+  },
+  {
+   "name": "a6-guion-uso02",
+   "act": "await __click('[data-act=open-piece][data-id=andromeda]',null,1600);await __click('[data-step=script]',null,1400);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);await __click('[data-ecom=script-opening-apply][data-id=opening-2]',null,2200);document.querySelectorAll('video').forEach(v=>{v.pause();v.preload='none';v.removeAttribute('src');v.querySelectorAll('source').forEach(s=>s.remove());v.load();});await __sleep(400);",
+   "crops": {
+    "openings": [
+     "section.creative-openings"
+    ]
+   },
+   "marks": {
+    "toast": [
+     "#toast"
+    ]
+   },
+   "storage": {
+    "studio-appearance": "dark"
+   },
+   "dpr": 3
+  }
+ ]
+}

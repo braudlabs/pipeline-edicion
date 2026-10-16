@@ -1,7 +1,7 @@
 {
   "project": "braud-studio-demo",
   "version": "G03",
-  "status": "preview_04_sent",
+  "status": "preview_06_sent",
   "format": {
     "dimensions": [
       1920,
@@ -18,8 +18,8 @@
   "open_decisions": [
     "confirmar que Meta Ads conectado, subida automática y montaje final funcionan en producción (la locución grabada ya los afirma)",
     "licencia de música y efectos (vienen de El Sistema)",
-    "marca demo del frontal: es BRAUD y su Mi marca describe la instalación de BRAUD; para el caso Creatina, crear una marca demo de suplementos o usar un cliente real con permiso (el Avance 04 solo enseña secciones plegadas)",
-    "etiqueta «CODEX» fija en las respuestas del agente (ecom.js): dejarla o cambiarla en el producto"
+    "etiqueta «CODEX» fija en las respuestas del agente (ecom.js): dejarla o cambiarla en el producto",
+    "Founders Picks: la demo no trae selecciones; el vídeo usa tres trabajos reales de BRAUD con su dato (Lemon · Womanizer, Clay · plastilina, V6 · Black Friday). Confirmar si son las referencias que queremos enseñar"
   ],
   "user_approved": false,
   "updated": "2026-10-15",
@@ -83,6 +83,18 @@
       "scope": "Avance 03 (0–31 s)",
       "quote": "Es una mierda se ve muy IA tío, hazlo más pro joder",
       "applied": "Avance 04: lenguaje de la landing de BRAUD y El Sistema FINAL (negro, titulares en degradado, píldoras mono, barra de proceso); carrusel de anuncios reales; Studio en tema oscuro y modo producción (sin DEV ni selector del inicio); módulos reales recortados bajo el titular, un foco por frase; estados reales del dictado y de «pensando»; sin recursos dibujados; primer fotograma con contenido"
+    },
+    {
+      "date": "2026-10-15",
+      "scope": "Avance 04 (0–30 s)",
+      "quote": "venga, este estilo mucho mejor, dale",
+      "applied": "estilo aprobado como dirección; se continúa con los bloques 6–21"
+    },
+    {
+      "date": "2026-10-16",
+      "scope": "Avance 05 (0–84 s), mirando el bloque 6",
+      "quote": "No me gustan los ads de ejemplo que has seleccionado y esos bloques son super cutres, pilla el ad de la maquinita",
+      "applied": "Avance 06: el caso pasa a ser el anuncio de la maquinita (Andrómeda), en apertura, Studio y escaparate; los formularios se enseñan con una cámara que recorre la interfaz real campo a campo (texto ~30 px), sin velos; planos recortados hacia la máquina por el veto de la sudadera"
     }
   ],
   "voice_notes": "ElevenLabs (Guillermo) G03 a 1,08× con atempo (122,82 s); «pumicar» del bloque 11 sustituido por el «publicar» del bloque 2 (78,845–79,715 s). Original en assets/locucion-original.mp3.",
@@ -116,29 +128,47 @@
       "date": "2026-10-15",
       "what": "Capturas en modo producción y tema oscuro (shots-v4.json); tools/check-snaps.py bloquea capturas con marcas de desarrollo",
       "by": "Claude"
+    },
+    {
+      "date": "2026-10-16",
+      "what": "Caso Andrómeda (anuncio de la maquinita) en todo el vídeo; estado de ui-v1 servido en 8812 y capturado en oscuro y producción (shots-v6*.json)",
+      "by": "Ale («pilla el ad de la maquinita»)"
+    },
+    {
+      "date": "2026-10-16",
+      "what": "Bloques 14–16 como recreación anotada: Meta «Conectado», subida y mensaje del agente; cifras y Administrador de anuncios reales de las campañas de BRAUD",
+      "by": "Claude; pendiente de confirmar por Ale"
+    },
+    {
+      "date": "2026-10-16",
+      "what": "Música extendida a 124 s con un bucle de 32 compases (62,95 s) desde el segundo 84",
+      "by": "Claude"
     }
   ],
-  "remotion": "remotion/ (node render.mjs --bundle; --still Avance04 …; --render Avance04 [--draft])",
+  "remotion": "remotion/ (node render.mjs --bundle; --still Avance06 …; --render Avance06 [--draft])",
   "preview": {
-    "file": "output/BRAUD-Studio-Demo-Avance04.mp4",
-    "covers": "bloques 1–5 (0–30,45 s, corta antes de «Aterriza»)",
+    "file": "output/BRAUD-Studio-Demo-Avance06.mp4",
+    "covers": "película entera, bloques 1–21 (0–124 s)",
     "fps": 60,
     "dimensions": [
       1920,
       1080
     ],
-    "render_seconds": 87.9,
-    "loudness": "-15,0 LUFS, pico -1,4 dBFS",
-    "black_frames": 0,
+    "render_seconds": "≈760 (CONCURRENCY=1, CACHE_MB=128: el Mac va justo de memoria)",
+    "loudness": "-15,0 LUFS, pico -1,5 dBFS",
+    "black_frames": "solo los tramos tipográficos sobre negro",
     "user_approved": false,
-    "music": "igual que el Avance 03 (gain 0,24 × 0,7, ducking 0,55, filtrada en «ritmo de mes»)",
-    "checks": "tools/check-snaps.py sin marcas de desarrollo; tecleo dibujado = captura real (diferencia 0); escaneo a 4 fps sin huecos",
+    "caso": "anuncio de la maquinita (Ecommerce Andrómeda); estado ui-v1 en el puerto 8812",
+    "checks": "tools/check-snaps.py (marcas de desarrollo) y tools/check-purple.py (sudadera: 0 tramos por encima de 300 px)",
+    "music": "tech house con ducking; bucle de 32 compases desde el segundo 84 hasta el final",
     "previous": [
       "output/BRAUD-Studio-Demo-Avance01.mp4 («es un poco cutre…»)",
       "output/BRAUD-Studio-Demo-Avance02.mp4 («la música está muy fuerte, y el hook es una mierda»)",
-      "output/BRAUD-Studio-Demo-Avance03.mp4 («Es una mierda se ve muy IA tío, hazlo más pro joder»)"
+      "output/BRAUD-Studio-Demo-Avance03.mp4 («se ve muy IA…»)",
+      "output/BRAUD-Studio-Demo-Avance04.mp4 («este estilo mucho mejor, dale»)",
+      "output/BRAUD-Studio-Demo-Avance05.mp4 («no me gustan los ads de ejemplo… esos bloques son super cutres, pilla el ad de la maquinita»)"
     ],
-    "sources_archive": "archive/remotion-avance03 (src y capturas del Avance 03), archive/snaps-avance01-03",
-    "render_workspace": "/private/tmp/claude-render-braud (copia fuera de iCloud; EDITOR_ROOT/OUT_DIR/CONCURRENCY/CACHE_MB; --audio para rehacer solo la mezcla)"
+    "edit_map": "EDIT-MAP-V06.md",
+    "render_workspace": "/private/tmp/claude-render-braud"
   }
 }

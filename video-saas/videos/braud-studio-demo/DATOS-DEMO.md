@@ -1,6 +1,58 @@
 # Qué es real y qué es demo dentro del dashboard del vídeo
 
-El dashboard que sale en el vídeo es el frontal real de BRAUD Studio v0.7. Desde el Avance 04 se captura en **modo producción** (`/?brand=braud`, sin `dev=1`) y en **tema oscuro**. Su estado lo genera `tools/build-state-v2.py` (caso Creatina). Las capturas las hace `tools/snap.mjs shots-v4.json`. `tools/check-snaps.py` falla si alguna captura usada lleva marcas de desarrollo («DEV», «Explorar el inicio», «DESARROLLO / …»).
+## Avance 06 · caso de la maquinita
+
+Ale pidió: «pilla el ad de la maquinita». La pieza de Studio es el anuncio Ecommerce Andrómeda («Andrómeda pide más.»).
+
+**Cómo se capturó.**
+- El estado es el del caso Andrómeda: `tools/build-state.py`, copiado en `ui-v1/` y servido en el puerto 8812.
+- Las capturas son de `shots-v6*.json`, en modo producción (`/?brand=braud`) y tema oscuro.
+- `snap.mjs` avisa si encuentra marcas de desarrollo. Las tomas grandes (17 escenas) no guardan el HTML congelado (`noFreeze`).
+
+### Real
+
+- **La pieza en Studio.** Todo viene del estado real de Andrómeda:
+  - la conversación;
+  - la intención (objetivo, público, tensión, prueba);
+  - los tres ángulos;
+  - las cinco primeras frases del guion;
+  - las tres aperturas («El problema», «La pregunta», «El contraste»);
+  - el papel «El azul»;
+  - la escena 08 «Cinco ads», con sus cuatro versiones y estados reales: v1 «Miniaturas estáticas» y v2 «Demo sobre blanco» descartadas, v4 por revisar, v5 «Cinco vídeos» aprobada;
+  - el montaje provisional de 85,39 s, con la pista de locución.
+- **Planos.** Son clips reales del anuncio (V05–V15b), con proxies 1080p.
+- **«Listo para publicar».** Se enseña con el plano real de la pantalla de la máquina con los tres anuncios aprobados (V07b, segundos 1,0–3,1).
+  El montaje final (C05) lleva la sudadera detrás de la máquina en todo el tramo de la máquina; recortado, pierde los subtítulos.
+- **Coste.** La tarifa es de 16 créditos por segundo, medida en las 30 transacciones reales de Seedance 2.5 de Andrómeda (64, 80, 96 y 144). La escena de 5 s sale a 80 créditos. La tarjeta «Cotización del proveedor» es el marcado real de la app.
+- **«Usar apertura».** Es un clic real en el servidor de demo. Aplica «La pregunta» y deja el aviso real «Apertura aplicada. El cuerpo y el cierre se conservan.».
+- **Meta, la parte real.** Las filas del Administrador de anuncios son capturas de las campañas de BRAUD (`crm-braud/dist/ecom/img/resultados/`). Sus cifras salen de `resultados.html`:
+
+  | Campaña | Hook rate | Hold rate | Coste por registro |
+  | --- | --- | --- | --- |
+  | LATAM | 52,92 % | 34,73 % | 0,30 € |
+  | España | 47,38 % | 28,61 % | 1,86 € |
+
+- **Aprendizaje de Mi marca.** «Hook rate en nuestras cuentas: 50,7 % sobre 4 M de impresiones».
+
+### Recreación o demo (no existe en el frontal v0.7)
+
+- **Meta conectado.** La fila del Taller dice en realidad «Conexión pendiente». En el vídeo pone «Conectado…» y, después, «Nueva versión subida a tu cuenta…». La lectura del agente y la subida automática no existen todavía. La locución las afirma, y falta que Ale confirme que funcionan en producción.
+- **Mensaje del agente sobre el hook** («Este anuncio funciona. Pero el hook se cae…»). Es texto de demo, insertado con el componente real de la conversación.
+- **Founders Picks.** La demo no trae selecciones. Se insertan tres trabajos reales de BRAUD con su dato real, usando el marcado real de la página:
+  - Lemon · Womanizer: n.º 1 por impresiones;
+  - Clay · plastilina: 72,8 % de hold rate;
+  - V6 · Black Friday: 62,2 % de hook rate el primer día.
+- **Tecleo de la idea.** Se dibuja con la tipografía real del campo. Los estados del dictado son los reales del DOM.
+
+### Sudadera morada (veto de Ale)
+
+Aparece en casi todos los planos y en las miniaturas de la interfaz. Para que no salga:
+- los clips van recortados hacia la máquina (`src/data/andromeda.ts`);
+- la columna de escenas y la pista de miniaturas del montaje quedan fuera de los recortes;
+- el casting (todos los candidatos la llevan) se enseña solo con la ficha de texto del papel.
+
+Quedan miniaturas muy pequeñas en la Dirección de la escena y los retratos del perchero.
+`tools/check-purple.py` revisa cada render y falla si un fotograma pasa de 300 px morados (a 640×360).
 
 ## Real (Avance 04)
 

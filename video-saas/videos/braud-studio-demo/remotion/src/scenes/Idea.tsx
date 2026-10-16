@@ -1,11 +1,13 @@
 import React from 'react';
-import {AbsoluteFill, Img, OffthreadVideo, staticFile} from 'remotion';
+import {AbsoluteFill, Img, staticFile} from 'remotion';
+import {Clip} from '../Clip';
+import {FINAL_AD} from '../data/andromeda';
 import {Cursor, CursorKey} from '../Cursor';
 import {COLORS} from '../Stage';
 import {Module, Rect, SnapRegion, UIPlane} from '../UIPlane';
 import {Shutter} from '../lib/Shutter';
 import {SF, UI_FONT} from '../lib/Fonts';
-import {Headline, Progress, cardStyle} from '../system';
+import {Headline, cardStyle} from '../system';
 import {Cam, at, camMoving, clamp, ease, endOf, focusBy, mix, prog, track} from '../lib/motion';
 import {OPENING_END} from './Opening';
 
@@ -26,7 +28,8 @@ const T = {
   no: at(5, 'No'), empieza: at(5, 'Empieza', 1), ti: at(5, 'ti'), // at() no distingue mayúsculas: «empieza de cero» es la 0
 };
 export const IDEA_START = OPENING_END;
-export const IDEA_END = 30.45; // justo antes de «Aterriza» (bloque 6)
+export const IDEA_END = 30.45; // justo antes de «Aterriza» (bloque 6); el Avance 04 terminaba aquí
+export const IDEA_OUT = IDEA_END + 0.5; // en la película, la conversación sale mientras entra la intención
 
 const ASI0 = T.asi - 0.12, ASI1 = T.asi + 0.78; // «Así funciona.» a pantalla completa
 const SENT = T.chatgpt + 0.06;
@@ -69,8 +72,7 @@ const FinalAd: React.FC<{t: number}> = ({t}) => {
   const h = 700, w = Math.round(h * 9 / 16);
   return (
     <div style={{...cardStyle(w, h), position: 'absolute', left: 1535 - w / 2 + o * 900, top: 576 - h / 2 + (1 - k) * 90, opacity: k}}>
-      <OffthreadVideo src={staticFile('proxies/CR-final.mp4')} muted startFrom={0}
-        style={{position: 'absolute', inset: 0, width: '100%', height: '100%', objectFit: 'cover'}} />
+      <Clip id={FINAL_AD.id} t0={t0} offset={FINAL_AD.offset} rate={FINAL_AD.rate} crop={FINAL_AD.crop} />
     </div>
   );
 };
@@ -82,7 +84,7 @@ const C_W = 780, C_X = 366;
 const C_TOP = {normal: 669.22, rec: 619.22};
 const C_H = {normal: 141.78, rec: 191.78};
 const CS = 1.72, CMX = 960 - (C_W * CS) / 2, CMY = 566;
-const IDEA_TYPED = 'Quiero un UGC para la creatina: una chica que responde si hincha, con el bote en la mano,';
+const IDEA_TYPED = 'Quiero un anuncio para dueños de ecommerce: desde Andrómeda necesitan anuncios nuevos cada semana.';
 const TYPE0 = T.cuentas - 0.05, TYPE1 = T.escrita - 0.15;
 const DICT0 = T.voz - 0.12; // clic en «Dictar»
 const TICK = DICT0 + 1.0; // «Grabando · 0:01»
@@ -92,8 +94,8 @@ const DONE = STOP + 0.42; // aparece el texto dictado
 const cp = (x: number, y: number) => ({x: CMX + (x - C_X) * CS, y: CMY + (y - C_TOP.normal) * CS});
 
 const composerSnap = (t: number) =>
-  t < TYPE1 + 0.03 ? 'agente-vacio-limpio' : t < DICT0 ? 'agente-escrito' : t < TICK ? 'agente-grabando-0'
-    : t < STOP ? 'agente-grabando-1' : t < DONE ? 'agente-transcribiendo' : 'agente-dictado';
+  t < TYPE1 + 0.03 ? 'a6-agente-vacio-limpio' : t < DICT0 ? 'a6-agente-escrito' : t < TICK ? 'a6-agente-grabando-0'
+    : t < STOP ? 'a6-agente-grabando-1' : t < DONE ? 'a6-agente-transcribiendo' : 'a6-agente-dictado';
 
 /** Tecleo sobre el campo vacío, con la tipografía y el relleno reales del textarea (14/22,4, 12 px · 14 px). */
 const Typing: React.FC<{t: number}> = ({t}) => {
@@ -113,7 +115,7 @@ const ComposerModule: React.FC<{t: number}> = ({t}) => {
   const k = prog(t, ASI1 - 0.18, ASI1 + 0.5, ease.out);
   const out = prog(t, SENT + 0.06, SENT + 0.58, ease.in);
   const snap = composerSnap(t);
-  const rec = snap === 'agente-grabando-0' || snap === 'agente-grabando-1' || snap === 'agente-transcribiendo';
+  const rec = snap === 'a6-agente-grabando-0' || snap === 'a6-agente-grabando-1' || snap === 'a6-agente-transcribiendo';
   const open = prog(t, DICT0, DICT0 + 0.24, ease.out) * (1 - prog(t, DONE - 0.22, DONE, ease.inOut));
   const top = rec ? C_TOP.rec : C_TOP.normal;
   const h = mix(C_H.normal, C_H.rec, open);
@@ -121,12 +123,12 @@ const ComposerModule: React.FC<{t: number}> = ({t}) => {
   const lift = prog(t, SENT, SENT + 0.32, ease.in);
   const crop: Rect = {x: C_X, y: top, w: C_W, h};
   return (
-    <Module snap={sent ? 'agente-vacio-limpio' : snap} crop={crop} cx={960} cy={CMY + (h * CS) / 2} s={CS} radius={20 * CS} edge={false}
+    <Module snap={sent ? 'a6-agente-vacio-limpio' : snap} crop={crop} cx={960} cy={CMY + (h * CS) / 2} s={CS} radius={20 * CS} edge={false}
       dy={(1 - k) * 120 + out * 200} opacity={k * (1 - out)}>
       {!sent ? <Typing t={t} /> : null}
       {sent && lift < 1 ? (
         <div style={{position: 'absolute', inset: 0, opacity: 1 - lift, transform: `translateY(${-lift * 46}px)`}}>
-          <SnapRegion snap="agente-dictado" r={{x: 384, y: 684.22, w: 744, h: 68.78}} />
+          <SnapRegion snap="a6-agente-dictado" r={{x: 384, y: 684.22, w: 744, h: 68.78}} />
         </div>
       ) : null}
     </Module>
@@ -143,12 +145,13 @@ const COMPOSER_CURSOR: CursorKey[] = [
 // ---------- bloque 5 · la conversación y la marca ----------
 // Recorte de la columna de conversación: burbuja del usuario + fila «Leyendo el contexto de tu marca…»;
 // al responder, el módulo crece hacia abajo hasta incluir la respuesta real.
-const V: Rect = {x: 366, y: 186, w: 780, h: 140};
-const V_H_REPLY = 252;
-const ORB = {x: 378, y: 284.78, w: 60, h: 24};
-const LABEL = {x: 444, y: 287.19, w: 194.02, h: 19.19};
-const ROW = {x: 378, y: 280.78, w: 756, h: 32};
-const DETENER: Rect = {x: 1072, y: 283, w: 64, h: 28};
+const V: Rect = {x: 366, y: 186, w: 780, h: 162};
+const V_H_REPLY = 292;
+const ORB = {x: 378, y: 307.2, w: 60, h: 24};
+const LABEL = {x: 444, y: 309.6, w: 194.02, h: 19.19};
+const ROW = {x: 378, y: 303.2, w: 756, h: 32};
+const DETENER: Rect = {x: 1072, y: 305.4, w: 64, h: 28};
+const REPLY_Y = 298, REPLY_H = 180; // la respuesta real: 303–469
 const REPLY0 = T.empieza - 0.02;
 
 /** Posición del módulo de conversación: entra al centro, sube para dejar sitio a la marca y vuelve con la respuesta. */
@@ -174,8 +177,8 @@ const Thinking: React.FC<{t: number; t0: number}> = ({t, t0}) => {
 
 // Secciones de Mi marca, plegadas (estado real del frontal): genéricas y válidas para cualquier marca.
 const BRAND = [
-  {img: 'marca-plegada-products', t0: T.productos - 0.12},
-  {img: 'marca-plegada-audience', t0: T.quien - 0.12},
+  {img: 'a6-marca-plegada-products', t0: T.productos - 0.12},
+  {img: 'a6-marca-plegada-audience', t0: T.quien - 0.12},
 ];
 const B_W = 1200, B_H = 103.06, BS = 0.91; // mismo ancho que el módulo de conversación
 const ABSORB0 = T.no - 0.04, ABSORB1 = T.no + 0.62;
@@ -189,7 +192,7 @@ const BrandDeck: React.FC<{t: number; orb: {x: number; y: number}}> = ({t, orb})
         if (t < c.t0) return null;
         const k = ease.out(clamp((t - c.t0) / 0.6));
         const a = prog(t, ABSORB0 + (1 - i) * 0.06, ABSORB1, ease.in);
-        const cx = 960, cy = 588 + i * (h + 16);
+        const cx = 960, cy = 630 + i * (h + 16);
         const x = mix(cx, orb.x, a), y = mix(cy + (1 - k) * 70, orb.y, a);
         return (
           <div key={c.img} style={{position: 'absolute', left: x - w / 2, top: y - h / 2, width: w, height: h, borderRadius: 18 * BS, overflow: 'hidden',
@@ -213,19 +216,20 @@ const ConversationModule: React.FC<{t: number}> = ({t}) => {
   const crop: Rect = {...V, h};
   const rowOut = prog(t, REPLY0 - 0.05, REPLY0 + 0.15, ease.linear);
   return (
-    <Module snap="agente-pensando" crop={crop} cx={960} cy={top + (h * s) / 2} s={s} dy={(1 - k) * 110} opacity={k}>
+    <Module snap="a6-agente-pensando" crop={crop} cx={960} cy={top + (h * s) / 2} s={s} dy={(1 - k) * 110 - prog(t, IDEA_END - 0.05, IDEA_END + 0.27, ease.in) * 80}
+      opacity={k * (1 - prog(t, IDEA_END - 0.05, IDEA_END + 0.27, ease.in))}>
       {/* la fila estática de la captura se tapa; encima, la animación real y «Detener» */}
       <div style={{position: 'absolute', left: ROW.x - 4, top: ROW.y - 2, width: ROW.w + 8, height: ROW.h + 4, background: '#111214'}} />
       {rowOut < 1 ? (
         <div style={{position: 'absolute', inset: 0, opacity: 1 - rowOut}}>
           <Thinking t={t} t0={t0} />
-          <SnapRegion snap="agente-pensando" r={DETENER} />
+          <SnapRegion snap="a6-agente-pensando" r={DETENER} />
         </div>
       ) : null}
       {r > 0 ? (
-        <div style={{position: 'absolute', left: V.x, top: 276, width: V.w, height: 154 * r, overflow: 'hidden',
+        <div style={{position: 'absolute', left: V.x, top: REPLY_Y, width: V.w, height: REPLY_H * r, overflow: 'hidden',
           WebkitMaskImage: r < 1 ? 'linear-gradient(180deg, #000 calc(100% - 26px), transparent)' : undefined}}>
-          <SnapRegion snap="agente" r={{x: V.x, y: 276, w: V.w, h: 154}} style={{left: 0, top: 0}} />
+          <SnapRegion snap="a6-agente" r={{x: V.x, y: REPLY_Y, w: V.w, h: REPLY_H}} style={{left: 0, top: 0}} />
         </div>
       ) : null}
     </Module>
@@ -233,7 +237,7 @@ const ConversationModule: React.FC<{t: number}> = ({t}) => {
 };
 
 export const Idea: React.FC<{t: number}> = ({t}) => {
-  if (t < IDEA_START || t > IDEA_END) return null;
+  if (t < IDEA_START || t > IDEA_OUT) return null;
   const onHome = t < ASI0 + 0.4;
   const {s: vs, top: vtop} = convLayout(t);
   const orb = {x: 960 - (V.w * vs) / 2 + (ORB.x + ORB.w / 2 - V.x) * vs, y: vtop + (ORB.y + ORB.h / 2 - V.y) * vs};
@@ -242,7 +246,7 @@ export const Idea: React.FC<{t: number}> = ({t}) => {
     <AbsoluteFill>
       {onHome ? (
         <Shutter moving={(s) => camMoving(homeCam, s)} render={(s) => (
-          <UIPlane snap="home" cam={homeCam(s)}>
+          <UIPlane snap="a6-home" cam={homeCam(s)}>
             <Cursor t={s} hideAfter={T.convierte + 0.1} keys={[
               {t: T.cerebro + 0.2, x: 1480, y: 1000}, {t: T.pones - 0.05, x: 620, y: 482}, {t: T.idea + 0.02, x: 620, y: 482, click: true},
             ]} />
@@ -265,10 +269,8 @@ export const Idea: React.FC<{t: number}> = ({t}) => {
       <ConversationModule t={t} />
       <BrandDeck t={t} orb={orb} />
       <Headline t={t} out={REPLY0 - 0.25} y={176} size={80} lines={[{text: 'Ya conoce tu marca.', t: T.ya}]} />
-      <Headline t={t} out={IDEA_END + 1} y={176} size={80} lines={[{text: 'Empieza por ti.', t: REPLY0 - 0.02}]} />
+      <Headline t={t} out={IDEA_END - 0.32} y={176} size={80} lines={[{text: 'Empieza por ti.', t: REPLY0 - 0.02}]} />
 
-      <Progress t={t} t0={ASI0 + 0.25} step={step}
-        stepK={step === 0 ? prog(t, ASI1, SENT + 0.3, ease.linear) : prog(t, SENT + 0.3, IDEA_END, ease.linear)} />
     </AbsoluteFill>
   );
 };
